@@ -126,7 +126,7 @@ export function TrenerGeniusGame() {
           <button className={s.primary} onClick={()=>void share()}>Ergebnis teilen ↗</button>
           {shareText && <p className={s.shareText} role="status">{shareText}</p>}
           <div className={s.resultLinks}><Link href="/liga/">Zur Monatsliga →</Link><Link href="/">Mehr Spiele →</Link></div>
-          <p className={s.note}>Ny runde kl. 00:00 norsk tid</p>
+          <p className={s.note}>Neue Runde um 00:00 Uhr deutscher Zeit</p>
         </div>}
       </section>
       <details className={s.rules}><summary>So wird gespielt</summary><p>Vier Fragen, vier Antwortmöglichkeiten und dieselbe Tagesrunde für alle. Eine leichte, zwei mittlere und eine schwere Frage. Kein Zeitdruck.</p><p>Eine richtige Antwort gibt 25 Punkte. Einmal darfst du offensiv gehen: +50 bei einer richtigen Antwort und −25 bei einer falschen. Der 50/50-Joker kann einmal genutzt werden, entfernt zwei falsche Antworten und gibt 10 Punkte, wenn du richtig liegst. Joker und Offensive lassen sich nicht kombinieren. Das Endergebnis ist auf 0–100 begrenzt.</p><p>Melde dich vor dem Start an, um Ligapunkte zu sammeln. Die Lösung erscheint nach jeder Antwort. Deine Antworten werden automatisch gespeichert.</p></details>

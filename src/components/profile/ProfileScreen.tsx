@@ -111,7 +111,7 @@ export function ProfileScreen() {
         setUser(me.user);
         await loadProfile();
       } catch {
-        if (active) setMessage("Kunne ikke hente profilen akkurat nå.");
+        if (active) setMessage("Das Profil konnte gerade nicht geladen werden.");
       } finally {
         if (active) setLoading(false);
       }
@@ -133,14 +133,14 @@ export function ProfileScreen() {
       if (!response.ok || !response.token || !response.user) {
         setMessage(
           response.error === "taken"
-            ? "Brukernavnet er allerede tatt."
+            ? "Dieser Benutzername ist schon vergeben."
             : response.error === "inappropriate"
-              ? "Det brukernavnet er ikke tillatt. Velg et annet."
+              ? "Dieser Benutzername ist nicht erlaubt. Wähle einen anderen."
             : response.error === "rate-limit"
-              ? "For mange forsøk. Vent litt og prøv igjen."
+              ? "Zu viele Versuche. Warte kurz und versuch es noch einmal."
               : mode === "register"
-                ? "Bruk 3–24 tegn i brukernavnet og minst 8 tegn i passordet."
-                : "Feil brukernavn eller passord.",
+                ? "Der Benutzername braucht 3–24 Zeichen, das Passwort mindestens 8."
+                : "Falscher Benutzername oder falsches Passwort.",
         );
         return;
       }
@@ -153,9 +153,9 @@ export function ProfileScreen() {
         window.location.assign(BASE_PATH + "/liga/?join=" + encodeURIComponent(join));
         return;
       }
-      setMessage(mode === "register" ? "Spiller opprettet." : "Du er logget inn.");
+      setMessage(mode === "register" ? "Spieler angelegt." : "Du bist angemeldet.");
     } catch {
-      setMessage("Fikk ikke kontakt med Tippetuppen. Prøv igjen.");
+      setMessage("Keine Verbindung zu Tippkaiser. Versuch es noch einmal.");
     } finally {
       setBusy(false);
     }
@@ -175,17 +175,17 @@ export function ProfileScreen() {
       if (!response.ok || !response.profile) {
         setMessage(
           response.error === "email-taken"
-            ? "Denne e-postadressen brukes allerede av en annen profil."
+            ? "Diese E-Mail-Adresse wird schon von einem anderen Profil verwendet."
             : response.error === "avatar-locked"
-              ? "Avatarer låses opp når du passerer 2 000 totalpoeng."
-              : "Kunne ikke lagre profilen. Sjekk feltene og prøv igjen.",
+              ? "Avatare werden freigeschaltet, sobald du 2.000 Gesamtpunkte erreichst."
+              : "Das Profil konnte nicht gespeichert werden. Prüfe die Felder und versuch es noch einmal.",
         );
         return;
       }
       applyProfile(response.profile);
-      setMessage("Profilen er lagret.");
+      setMessage("Das Profil wurde gespeichert.");
     } catch {
-      setMessage("Kunne ikke lagre profilen akkurat nå.");
+      setMessage("Das Profil konnte gerade nicht gespeichert werden.");
     } finally {
       setBusy(false);
     }
@@ -203,8 +203,8 @@ export function ProfileScreen() {
       if (!response.ok || !response.token || !response.user) {
         setPasswordMessage(
           response.error === "current-password"
-            ? "Nåværende passord er feil."
-            : "Nytt passord må være minst 8 tegn.",
+            ? "Das aktuelle Passwort ist falsch."
+            : "Das neue Passwort muss mindestens 8 Zeichen haben.",
         );
         return;
       }
@@ -212,9 +212,9 @@ export function ProfileScreen() {
       setUser(response.user);
       setCurrentPassword("");
       setNewPassword("");
-      setPasswordMessage("Passordet er endret. Andre innlogginger er logget ut.");
+      setPasswordMessage("Das Passwort wurde geändert. Andere Anmeldungen wurden abgemeldet.");
     } catch {
-      setPasswordMessage("Kunne ikke endre passord akkurat nå.");
+      setPasswordMessage("Das Passwort konnte gerade nicht geändert werden.");
     } finally {
       setBusy(false);
     }
@@ -235,15 +235,15 @@ export function ProfileScreen() {
   };
 
   if (loading) {
-    return <p className="py-10 text-center text-mist" role="status">Henter profilen …</p>;
+    return <p className="py-10 text-center text-mist" role="status">Profil wird geladen …</p>;
   }
 
   if (!user || !profile) {
     return (
       <div className="profile-reference-page flex flex-col gap-5">
         <section className="profile-reference-hero"><div className="reference-hero-art"><ReferenceArt name="leagueHero" /></div>
-          <h1 className="font-display text-4xl font-bold uppercase">Min profil</h1>
-          <p className="mt-2 text-mist">Logg inn for å lagre poeng, delta i ligaer og bygge Tippetuppen-profilen din.</p>
+          <h1 className="font-display text-4xl font-bold uppercase">Mein Profil</h1>
+          <p className="mt-2 text-mist">Melde dich an, um Punkte zu speichern, in Ligen mitzuspielen und dein Tippkaiser-Profil aufzubauen.</p>
         </section>
         <section className="card p-5">
           <div className="mb-4 flex gap-2">
@@ -251,39 +251,39 @@ export function ProfileScreen() {
               className={`btn ${mode === "login" ? "btn-primary" : "btn-secondary"}`}
               onClick={() => { setMode("login"); window.location.hash = "login"; }}
             >
-              Logg inn
+              Anmelden
             </button>
             <button
               className={`btn ${mode === "register" ? "btn-primary" : "btn-secondary"}`}
               onClick={() => { setMode("register"); window.location.hash = "register"; }}
             >
-              Ny spiller
+              Neuer Spieler
             </button>
           </div>
           <form className="space-y-3" onSubmit={submitAuth}>
             <label className="block">
-              <span className="mb-1 block text-sm text-mist">Brukernavn</span>
+              <span className="mb-1 block text-sm text-mist">Benutzername</span>
               <input
                 className="input"
                 value={authUsername}
                 onChange={(e) => setAuthUsername(e.target.value)}
                 autoComplete="username"
-                placeholder="Unikt brukernavn"
+                placeholder="Eindeutiger Benutzername"
               />
             </label>
             <label className="block">
-              <span className="mb-1 block text-sm text-mist">Passord</span>
+              <span className="mb-1 block text-sm text-mist">Passwort</span>
               <input
                 className="input"
                 type="password"
                 value={authPassword}
                 onChange={(e) => setAuthPassword(e.target.value)}
                 autoComplete={mode === "login" ? "current-password" : "new-password"}
-                placeholder="Minst 8 tegn"
+                placeholder="Mindestens 8 Zeichen"
               />
             </label>
             <button className="btn btn-primary w-full" disabled={busy}>
-              {busy ? "Venter …" : mode === "login" ? "Logg inn" : "Opprett spiller"}
+              {busy ? "Moment …" : mode === "login" ? "Anmelden" : "Spieler anlegen"}
             </button>
           </form>
           {message && <p className="mt-3 text-sm text-mist">{message}</p>}
@@ -298,15 +298,15 @@ export function ProfileScreen() {
   return (
     <div className="profile-reference-page flex flex-col gap-5">
       <section className="profile-reference-hero"><div className="reference-hero-art"><ReferenceArt name="leagueHero" /></div>
-        <h1 className="font-display text-4xl font-bold uppercase">Min profil</h1>
-        <p className="mt-2 text-mist">Din spilleridentitet, progresjon og innstillinger.</p>
+        <h1 className="font-display text-4xl font-bold uppercase">Mein Profil</h1>
+        <p className="mt-2 text-mist">Deine Spieleridentität, dein Fortschritt und deine Einstellungen.</p>
       </section>
 
       {profile.avatarAvailable && (
         <section className="card border-gold p-5">
-          <div className="font-display text-2xl font-bold text-gold">🎉 Avatarer låst opp!</div>
+          <div className="font-display text-2xl font-bold text-gold">🎉 Avatare freigeschaltet!</div>
           <p className="mt-1 text-sm text-mist">
-            Du har passert 2 000 totalpoeng. Velg en profilavatar nedenfor – den vises i Tippetuppen-ligaen og venneligaene.
+            Du hast 2.000 Gesamtpunkte erreicht. Wähle unten einen Profilavatar – er erscheint in der Tippkaiser-Liga und in den Freundesligen.
           </p>
         </section>
       )}
@@ -315,16 +315,16 @@ export function ProfileScreen() {
         <div className="flex items-center gap-4">
           <ProfileAvatar avatarId={profile.avatarId} size={76} />
           <div className="min-w-0">
-            <div className="text-xs uppercase tracking-widest text-mist">Spiller</div>
+            <div className="text-xs uppercase tracking-widest text-mist">Spieler</div>
             <div className="truncate font-display text-3xl font-bold">{profile.username}</div>
-            <div className="mt-1 text-sm text-mist">{profile.name || "Legg til navn på profilen"}</div>
+            <div className="mt-1 text-sm text-mist">{profile.name || "Füge deinem Profil einen Namen hinzu"}</div>
           </div>
         </div>
         <div className="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-4">
-          <Stat label="Totalpoeng" value={profile.totalPoints.toLocaleString("de-DE")} accent />
-          <Stat label="Plass totalt" value={"#" + profile.lifetimeRank.toLocaleString("de-DE")} />
-          <Stat label="Spill" value={profile.totalGames.toLocaleString("de-DE")} />
-          <Stat label="Spilledager" value={profile.playedDays.toLocaleString("de-DE")} />
+          <Stat label="Gesamtpunkte" value={profile.totalPoints.toLocaleString("de-DE")} accent />
+          <Stat label="Gesamtplatz" value={"#" + profile.lifetimeRank.toLocaleString("de-DE")} />
+          <Stat label="Spiele" value={profile.totalGames.toLocaleString("de-DE")} />
+          <Stat label="Spieltage" value={profile.playedDays.toLocaleString("de-DE")} />
         </div>
       </section>
 
@@ -332,7 +332,7 @@ export function ProfileScreen() {
         <h2 className="font-display text-2xl font-bold uppercase">Profilavatar</h2>
         {profile.avatarUnlocked ? (
           <>
-            <p className="mt-1 text-sm text-mist">Velg en avatar. Du kan bytte når du vil.</p>
+            <p className="mt-1 text-sm text-mist">Wähle einen Avatar. Du kannst ihn jederzeit wechseln.</p>
             <div className="mt-4 grid grid-cols-3 gap-3 sm:grid-cols-5">
               {PROFILE_AVATARS.map((avatar) => (
                 <button
@@ -352,65 +352,65 @@ export function ProfileScreen() {
         ) : (
           <>
             <p className="mt-1 text-sm text-mist">
-              Profilavatar låses opp ved 2 000 totalpoeng. Du mangler {pointsLeft.toLocaleString("de-DE")} poeng.
+              Der Profilavatar wird bei 2.000 Gesamtpunkten freigeschaltet. Dir fehlen noch {pointsLeft.toLocaleString("de-DE")} Punkte.
             </p>
             <div className="mt-4 h-3 overflow-hidden rounded-full bg-line">
               <div className="h-full rounded-full bg-gold" style={{ width: progress + "%" }} />
             </div>
             <div className="mt-2 flex justify-between text-xs text-mist">
-              <span>{profile.totalPoints.toLocaleString("de-DE")} poeng</span>
-              <span>2 000</span>
+              <span>{profile.totalPoints.toLocaleString("de-DE")} Punkte</span>
+              <span>2.000</span>
             </div>
           </>
         )}
       </section>
 
       <section className="card p-5">
-        <h2 className="font-display text-2xl font-bold uppercase">Profilopplysninger</h2>
-        <p className="mt-1 text-sm text-mist">Navn og e-post er private. Bare brukernavnet og avataren vises i ligaene.</p>
+        <h2 className="font-display text-2xl font-bold uppercase">Profilangaben</h2>
+        <p className="mt-1 text-sm text-mist">Name und E-Mail sind privat. In den Ligen erscheinen nur Benutzername und Avatar.</p>
         <form className="mt-4 space-y-3" onSubmit={saveProfile}>
           <label className="block">
-            <span className="mb-1 block text-sm text-mist">Brukernavn</span>
+            <span className="mb-1 block text-sm text-mist">Benutzername</span>
             <input className="input opacity-70" value={profile.username} readOnly />
           </label>
           <label className="block">
-            <span className="mb-1 block text-sm text-mist">Navn</span>
+            <span className="mb-1 block text-sm text-mist">Name</span>
             <input
               className="input"
               value={name}
               onChange={(e) => setName(e.target.value)}
               autoComplete="name"
-              placeholder="Valgfritt"
+              placeholder="Optional"
               maxLength={60}
             />
           </label>
           <label className="block">
-            <span className="mb-1 block text-sm text-mist">E-postadresse</span>
+            <span className="mb-1 block text-sm text-mist">E-Mail-Adresse</span>
             <input
               className="input"
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               autoComplete="email"
-              placeholder="Valgfritt"
+              placeholder="Optional"
               maxLength={160}
             />
           </label>
-          <button className="btn btn-primary" disabled={busy}>Lagre profil</button>
+          <button className="btn btn-primary" disabled={busy}>Profil speichern</button>
         </form>
         {message && <p className="mt-3 text-sm text-mist">{message}</p>}
       </section>
 
       <section className="card p-5">
-        <h2 className="font-display text-2xl font-bold uppercase">Passord</h2>
-        <p className="mt-1 text-sm text-mist">Endrer du passord, blir andre aktive innlogginger logget ut.</p>
+        <h2 className="font-display text-2xl font-bold uppercase">Passwort</h2>
+        <p className="mt-1 text-sm text-mist">Wenn du dein Passwort änderst, werden andere aktive Anmeldungen abgemeldet.</p>
         <form className="mt-4 space-y-3" onSubmit={changePassword}>
           <input
             className="input"
             type="password"
             value={currentPassword}
             onChange={(e) => setCurrentPassword(e.target.value)}
-            placeholder="Nåværende passord"
+            placeholder="Aktuelles Passwort"
             autoComplete="current-password"
           />
           <input
@@ -418,17 +418,17 @@ export function ProfileScreen() {
             type="password"
             value={newPassword}
             onChange={(e) => setNewPassword(e.target.value)}
-            placeholder="Nytt passord (minst 8 tegn)"
+            placeholder="Neues Passwort (mindestens 8 Zeichen)"
             autoComplete="new-password"
           />
-          <button className="btn btn-secondary" disabled={busy}>Endre passord</button>
+          <button className="btn btn-secondary" disabled={busy}>Passwort ändern</button>
         </form>
         {passwordMessage && <p className="mt-3 text-sm text-mist">{passwordMessage}</p>}
       </section>
 
       <section className="flex flex-wrap items-center justify-between gap-3">
-        <Link href="/liga/" className="btn btn-primary">Gå til ligaene</Link>
-        <button className="btn btn-secondary" onClick={logout} disabled={busy}>Logg ut</button>
+        <Link href="/liga/" className="btn btn-primary">Zu den Ligen</Link>
+        <button className="btn btn-secondary" onClick={logout} disabled={busy}>Abmelden</button>
       </section>
     </div>
   );

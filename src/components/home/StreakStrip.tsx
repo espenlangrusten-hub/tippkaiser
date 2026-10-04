@@ -28,7 +28,7 @@ export function StreakStrip({ today }: { today: string }) {
         </div>
         <div>
           <div className="font-display text-2xl font-bold leading-none">{s.played}</div>
-          <div className="text-xs text-mist">spill</div>
+          <div className="text-xs text-mist">Spiele</div>
         </div>
       </div>
       <span>Statistik ansehen →</span>

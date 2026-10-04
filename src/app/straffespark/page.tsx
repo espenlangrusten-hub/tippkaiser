@@ -31,7 +31,7 @@ export default function Page() {
         return {
           id: q.id,
           kind: q.kind,
-          prompt: q.prompt || "Hvem skjuler seg i bildet?",
+          prompt: q.prompt || "Wer versteckt sich auf dem Bild?",
           answer: player.displayName,
           aliases: [player.fullName, player.surname, ...player.aliases.map((a) => a.alias)],
           media: { ...q.image, file: PUBLIC_MEDIA[q.id] },

@@ -600,7 +600,7 @@ function Modal({ children, onClose, title }: { children: React.ReactNode; onClos
       <div className="card w-full max-w-md p-5" onClick={(e) => e.stopPropagation()}>
         <div className="flex items-start justify-between">
           <h2 className="font-display text-2xl font-bold uppercase">{title}</h2>
-          <button type="button" onClick={onClose} aria-label="Lukk" className="text-mist hover:text-snow">
+          <button type="button" onClick={onClose} aria-label="Schließen" className="text-mist hover:text-snow">
             ✕
           </button>
         </div>

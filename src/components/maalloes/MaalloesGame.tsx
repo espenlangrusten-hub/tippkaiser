@@ -173,7 +173,7 @@ export function MaalloesGame({ puzzle, isArchive, today }: { puzzle: MaalloesPub
         </div>
         <p className="mt-2 text-sm text-mist">{puzzle.intro}</p>
         <h2 className="mt-1 font-display text-3xl font-bold leading-tight sm:text-4xl">{puzzle.question}</h2>
-        <p className="mt-2 text-xs text-fog">{puzzle.answerCount} gyldige svar finnes. Feil svar koster 100 poeng.</p>
+        <p className="mt-2 text-xs text-fog">Es gibt {puzzle.answerCount} gültige Antworten. Eine falsche Antwort kostet 100 Punkte.</p>
       </div>
 
       {f && (
@@ -187,7 +187,7 @@ export function MaalloesGame({ puzzle, isArchive, today }: { puzzle: MaalloesPub
             </div>
             <div className="text-right">
               <div className="font-display text-4xl font-bold leading-none">{f.total}</div>
-              <div className="text-xs text-mist">poeng{f.shield ? " · skjold brukt" : ""}</div>
+              <div className="text-xs text-mist">Punkte{f.shield ? " · Schild genutzt" : ""}</div>
             </div>
           </div>
           <p className="mt-2 text-xs text-fog">
@@ -262,7 +262,7 @@ export function MaalloesGame({ puzzle, isArchive, today }: { puzzle: MaalloesPub
               maxLength={80}
             />
             <button type="submit" className="btn btn-primary" disabled={busy || text.trim().length < 2}>
-              Svar
+              Antworten
             </button>
             {suggestions.length > 0 && (
               <ul id="player-suggestions" role="listbox" aria-label="Vorschläge" className="absolute left-0 right-20 top-full z-20 mt-1 max-h-72 overflow-y-auto rounded-xl border border-line bg-ink-2 shadow-xl">

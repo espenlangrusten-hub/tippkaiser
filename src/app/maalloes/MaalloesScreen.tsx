@@ -29,7 +29,7 @@ export function MaalloesScreen() {
         </h1>
         <p className={design.subtitle}>Finde die Spiele, die torlos endeten. Je weniger dieselbe Antwort wählen, desto besser.</p>
         {state.status === "ready" && (
-          <p className={design.date}>{state.isArchive ? `Arkiv · ${formatDateNo(state.puzzle.date)}` : formatDateNo(state.today)}</p>
+          <p className={design.date}>{state.isArchive ? `Archiv · ${formatDateNo(state.puzzle.date)}` : formatDateNo(state.today)}</p>
         )}
       </div>
       <div className={design.gameArea}>

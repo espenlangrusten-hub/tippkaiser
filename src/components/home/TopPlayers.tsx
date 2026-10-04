@@ -34,12 +34,12 @@ export function TopPlayers() {
         <p className="home-leaderboard-status" role="status">Bestenliste wird geladen …</p>
       ) : status === "error" ? (
         <div className="home-leaderboard-status" role="status">
-          <p>Kunne ikke hente topplisten.</p>
+          <p>Die Bestenliste konnte nicht geladen werden.</p>
           <button className="mt-2 underline" onClick={() => { setStatus("loading"); setRetry((n) => n + 1); }}>Erneut versuchen</button>
         </div>
       ) : rows.length ? (
         <table className="home-leaderboard-table">
-          <thead><tr><th scope="col">#</th><th scope="col">Spiller</th><th scope="col">Poeng</th></tr></thead>
+          <thead><tr><th scope="col">#</th><th scope="col">Spieler</th><th scope="col">Punkte</th></tr></thead>
           <tbody>{rows.map((row, i) => (
             <tr key={row.username}>
               <td><span className="home-rank">{i + 1}</span></td>
