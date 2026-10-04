@@ -83,7 +83,7 @@ describe("forrige måneds vinner", () => {
 });
 
 describe("serveren regner tabellen over kalendermåneden", () => {
-  const api = read("supabase", "functions", "api", "index.ts");
+  const api = read("supabase", "functions", "kaiser-api", "index.ts");
 
   it("teller fra den første i måneden, ikke 29 dager tilbake", () => {
     const route = api.slice(api.indexOf('route === "/leaderboard"'), api.indexOf('route === "/today"'));

@@ -5,7 +5,7 @@
  */
 import type { GameRecord } from "./streaks";
 
-const V = "tt1";
+const V = "tk1";
 const key = (...parts: string[]) => [V, ...parts].join(":");
 
 function read<T>(k: string, fallback: T): T {

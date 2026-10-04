@@ -8,8 +8,8 @@ export type SessionUser = {
   avatarId?: number | null;
 };
 
-const TOKEN = "tt-session";
-const USER = "tt-user";
+const TOKEN = "tk-session";
+const USER = "tk-user";
 
 export function saveSession(token: string, user: SessionUser) {
   localStorage.setItem(TOKEN, token);

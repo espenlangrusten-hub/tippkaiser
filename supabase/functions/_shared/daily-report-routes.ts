@@ -8,7 +8,7 @@
  * /report/daily needs no key on purpose: GitHub would otherwise need a copy of ADMIN_KEY.
  * It is safe to leave open because it can do exactly one thing - send today's report to
  * the admin, once, and not before 18:00 - and it answers only whether it did. Today is
- * claimed in tippetuppen.settings before mail goes out, so the two scheduled runs (one
+ * claimed in tippkaiser.settings before mail goes out, so the two scheduled runs (one
  * per daylight-saving offset) and anyone else calling cannot send twice. A failed send
  * releases the claim, so a later run can try again.
  *
@@ -16,6 +16,7 @@
  * CONTACT_TO, CONTACT_FROM); the address is never in this public repository. SITE_URL,
  * if set, adds a link to the admin page.
  */
+import { env } from "./env.ts";
 import { sql } from "./db.ts";
 import { json } from "./http.ts";
 import { addDays } from "./dates.ts";
@@ -30,7 +31,7 @@ export async function reportInput(now = new Date()): Promise<ReportInput> {
   const db = sql();
   // Sequential on purpose: the function holds one pooled connection.
   const days = await db<{ day: string; visitors: number; new_visitors: number; page_views: number; starts: number; completes: number }[]>`
-    with activity as (select * from tippetuppen.events where day between ${from} and ${today} and coalesce(props->>'path','') not like '%/admin%'),
+    with activity as (select * from tippkaiser.events where day between ${from} and ${today} and coalesce(props->>'path','') not like '%/admin%'),
     calendar as (select to_char(d,'YYYY-MM-DD') as day from generate_series(${from}::date, ${today}::date, interval '1 day') d)
     select c.day,
            count(distinct e.visitor)::int                                 as visitors,
@@ -44,19 +45,19 @@ export async function reportInput(now = new Date()): Promise<ReportInput> {
     select game,
            count(distinct visitor) filter (where name = 'game_start')::int as players,
            count(*) filter (where name = 'game_complete')::int             as completes
-    from tippetuppen.events
+    from tippkaiser.events
     where day = ${today} and game is not null and coalesce(props->>'path','') not like '%/admin%'
     group by game`;
   const [users] = await db<{ total: number; new_today: number }[]>`
     select count(*)::int as total,
            count(*) filter (where (created_at at time zone 'Europe/Oslo')::date = ${today}::date)::int as new_today
-    from tippetuppen.users`;
+    from tippkaiser.users`;
   const [league] = await db<{ players: number }[]>`
-    select count(distinct user_id)::int as players from tippetuppen.league_results where date = ${today}`;
+    select count(distinct user_id)::int as players from tippkaiser.league_results where date = ${today}`;
   const [messages] = await db<{ count: number }[]>`
-    select count(*)::int as count from tippetuppen.contact_messages
+    select count(*)::int as count from tippkaiser.contact_messages
     where (created_at at time zone 'Europe/Oslo')::date = ${today}::date`;
-  const site = (Deno.env.get("SITE_URL") ?? "").replace(/\/$/, "");
+  const site = (env("SITE_URL") ?? "").replace(/\/$/, "");
   return {
     today,
     clock,
@@ -70,10 +71,10 @@ export async function reportInput(now = new Date()): Promise<ReportInput> {
 }
 
 async function send(input: ReportInput, mail: Mailer): Promise<string | null> {
-  const to = Deno.env.get("CONTACT_TO");
+  const to = env("CONTACT_TO");
   if (!to) return "CONTACT_TO er ikke satt";
   const { subject, text } = buildDailyReport(input);
-  return await mail({ to, from: Deno.env.get("CONTACT_FROM") || "Tippetuppen <onboarding@resend.dev>", subject, text, html: reportHtml(text) });
+  return await mail({ to, from: env("CONTACT_FROM") || "Tippkaiser <onboarding@resend.dev>", subject, text, html: reportHtml(text) });
 }
 
 /** The scheduled send: at most once per Oslo day, never before 18:00. */
@@ -84,25 +85,25 @@ export async function dailyReportRoute(mail: Mailer = resend, now = new Date()) 
   // Claim today. A claim without sentAt that is ten minutes old belongs to a run that
   // died between claiming and sending, and may be taken over.
   const claimed = await db`
-    insert into tippetuppen.settings (key, value) values (${CLAIM}, ${db.json({ day: today, claimedAt: now.toISOString() })}::jsonb)
+    insert into tippkaiser.settings (key, value) values (${CLAIM}, ${db.json({ day: today, claimedAt: now.toISOString() })}::jsonb)
     on conflict (key) do update set value = excluded.value
-    where tippetuppen.settings.value->>'day' is distinct from ${today}
-       or (tippetuppen.settings.value->>'sentAt' is null and (tippetuppen.settings.value->>'claimedAt')::timestamptz < ${now.toISOString()}::timestamptz - interval '10 minutes')
+    where tippkaiser.settings.value->>'day' is distinct from ${today}
+       or (tippkaiser.settings.value->>'sentAt' is null and (tippkaiser.settings.value->>'claimedAt')::timestamptz < ${now.toISOString()}::timestamptz - interval '10 minutes')
     returning key`;
   if (!claimed.length) return json({ ok: true, sent: false, reason: "already-sent" });
   const failure = await send(await reportInput(now), mail);
   if (failure) {
-    await db`update tippetuppen.settings set value = ${db.json({ day: null, failedDay: today, error: failure })}::jsonb where key = ${CLAIM}`;
+    await db`update tippkaiser.settings set value = ${db.json({ day: null, failedDay: today, error: failure })}::jsonb where key = ${CLAIM}`;
     return json({ ok: false, sent: false, reason: "failed", error: failure }, 502);
   }
-  await db`update tippetuppen.settings set value = value || ${db.json({ sentAt: new Date().toISOString() })}::jsonb where key = ${CLAIM}`;
+  await db`update tippkaiser.settings set value = value || ${db.json({ sentAt: new Date().toISOString() })}::jsonb where key = ${CLAIM}`;
   return json({ ok: true, sent: true });
 }
 
 /** Admin: the report as it would read now, and whether today's has gone out. */
 export async function adminReportPreview() {
   const input = await reportInput();
-  const [state] = await sql()<{ value: Record<string, unknown> }[]>`select value from tippetuppen.settings where key = ${CLAIM}`;
+  const [state] = await sql()<{ value: Record<string, unknown> }[]>`select value from tippkaiser.settings where key = ${CLAIM}`;
   return json({ ok: true, ...buildDailyReport(input), last: state?.value ?? null }, 200, { "cache-control": "private, no-store" });
 }
 

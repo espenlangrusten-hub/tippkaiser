@@ -21,11 +21,11 @@ try {
   assert.equal(before.daily.length,30);
   for(const game of ['mangler-xi','maalloes','finn-spilleren']) {
     for(const offset of [0,0,-1,-40,1]) {
-      await db`insert into tippetuppen.events(day,name,game,visitor,props)
+      await db`insert into tippkaiser.events(day,name,game,visitor,props)
         values(to_char((now() at time zone 'Europe/Oslo')::date+${offset}::int,'YYYY-MM-DD'),'game_start',${game},${eventVisitor},'{}'::jsonb)`;
     }
   }
-  await db`insert into tippetuppen.events(day,name,game,visitor,props)
+  await db`insert into tippkaiser.events(day,name,game,visitor,props)
     values(to_char(now() at time zone 'Europe/Oslo','YYYY-MM-DD'),'game_start','finn-spilleren',${eventVisitor},'{"path":"/admin/"}'::jsonb)`;
   const after=await stats();
   assert.equal(after.todayVisitors,before.todayVisitors+1);
@@ -75,18 +75,18 @@ try {
   const replay=await req('/finn-spilleren/guess',{attemptId,guess:result.result.answer},token);
   assert.deepEqual(replay.result,result.result);
   assert.deepEqual((await req('/finn-spilleren/start',{puzzleId:puzzle.puzzleId},token)).result,result.result);
-  const future=await db`select p.id from tippetuppen.puzzles p join tippetuppen.schedule s on s.puzzle_id=p.id where s.game='mangler-xi' and s.date>(now() at time zone 'Europe/Oslo')::date::text limit 1`;
+  const future=await db`select p.id from tippkaiser.puzzles p join tippkaiser.schedule s on s.puzzle_id=p.id where s.game='mangler-xi' and s.date>(now() at time zone 'Europe/Oslo')::date::text limit 1`;
   assert.equal((await req('/reveal',{puzzleId:future[0].id})).ok,false);
   const xi=(await req('/today?game=mangler-xi')).puzzle;
-  const [xiData]=await db`select payload from tippetuppen.puzzles where id=${xi.puzzleId}`;
+  const [xiData]=await db`select payload from tippkaiser.puzzles where id=${xi.puzzleId}`;
   const solved=await req('/guess',{puzzleId:xi.puzzleId,index:0,guess:xiData.payload.players[0].answer},token);
   assert.equal(solved.solved,true);
   await req('/reveal',{puzzleId:xi.puzzleId},token);
-  const [score]=await db`select raw_score,league_points from tippetuppen.league_results where user_id=${user.user.id} and game='mangler-xi'`;
+  const [score]=await db`select raw_score,league_points from tippkaiser.league_results where user_id=${user.user.id} and game='mangler-xi'`;
   assert.equal(score.raw_score,105); assert.equal(score.league_points,9);
   assert.equal((await req('/guess',{puzzleId:xi.puzzleId,index:1,guess:xiData.payload.players[1].answer},token)).ok,false);
   await req('/reveal',{puzzleId:xi.puzzleId},token);
-  const [savedXi]=await db`select raw_score,league_points from tippetuppen.league_results where user_id=${user.user.id} and game='mangler-xi'`;
+  const [savedXi]=await db`select raw_score,league_points from tippkaiser.league_results where user_id=${user.user.id} and game='mangler-xi'`;
   assert.deepEqual(savedXi,score);
   const mal=(await req('/today?game=maalloes')).puzzle;
   assert.deepEqual(await req('/maalloes/answer',{puzzleId:mal.puzzleId,text:'anything'}),{ok:true,pending:true});
@@ -101,10 +101,10 @@ try {
   assert.deepEqual(ownBoard.rows.find(r=>r.username===name),ownBoard.me);
   const competitors=Array.from({length:105},(_,i)=>({id:crypto.randomUUID(),username:`${name}-r${String(i).padStart(3,'0')}`}));
   created.push(...competitors.map(c=>c.id));
-  await db`insert into tippetuppen.users ${db(competitors.map(c=>({...c,username_normalized:c.username,password_hash:'test-only',password_salt:'test-only'})))}`;
-  await db`insert into tippetuppen.league_results(user_id,puzzle_id,game,date,raw_score,league_points,details)
-    select u.id, s.puzzle_id, s.game, s.date, 100, 100, '{}'::jsonb from tippetuppen.users u
-    cross join tippetuppen.schedule s where u.id in ${db(competitors.map(c=>c.id))} and s.puzzle_id=${xi.puzzleId}`;
+  await db`insert into tippkaiser.users ${db(competitors.map(c=>({...c,username_normalized:c.username,password_hash:'test-only',password_salt:'test-only'})))}`;
+  await db`insert into tippkaiser.league_results(user_id,puzzle_id,game,date,raw_score,league_points,details)
+    select u.id, s.puzzle_id, s.game, s.date, 100, 100, '{}'::jsonb from tippkaiser.users u
+    cross join tippkaiser.schedule s where u.id in ${db(competitors.map(c=>c.id))} and s.puzzle_id=${xi.puzzleId}`;
   const outside=await req('/leaderboard',undefined,token);
   assert.equal(outside.rows.length,100);
   assert.equal(outside.me.rank,ownBoard.me.rank+105);
@@ -133,16 +133,16 @@ try {
   assert.equal(ordinary.guesses.at(-1).word,'SUPER');
   const [gullAnswer]=await db`
     select w.word
-    from tippetuppen.schedule s
-    join tippetuppen.gullordet_puzzle_words gp on gp.puzzle_id=s.puzzle_id
-    join tippetuppen.gullordet_words w on w.id=gp.word_id
+    from tippkaiser.schedule s
+    join tippkaiser.gullordet_puzzle_words gp on gp.puzzle_id=s.puzzle_id
+    join tippkaiser.gullordet_words w on w.id=gp.word_id
     where s.game='gullordet' and s.number=${gull.number}`;
   const gullSolved=await req('/gullordet/guess',{attemptId:gullStarts[0].attemptId,guess:gullAnswer.word},token);
   assert.equal(gullSolved.finished,true);
   assert.equal(gullSolved.won,true);
   assert.equal(gullSolved.score,100);
   assert.equal(gullSolved.answer,gullAnswer.word);
-  const [gullLeague]=await db`select raw_score,league_points from tippetuppen.league_results where user_id=${user.user.id} and game='gullordet'`;
+  const [gullLeague]=await db`select raw_score,league_points from tippkaiser.league_results where user_id=${user.user.id} and game='gullordet'`;
   assert.equal(gullLeague.raw_score,100); assert.equal(gullLeague.league_points,100);
 
   // Profile fields are private account data; avatars remain locked until 2,000 lifetime points.
@@ -154,7 +154,7 @@ try {
   assert.equal(savedProfile.profile.name,'QA Spiller');
   assert.equal(savedProfile.profile.email,name+'@example.test');
 
-  await db`update tippetuppen.league_results set league_points=2100 where user_id=${user.user.id} and game='mangler-xi'`;
+  await db`update tippkaiser.league_results set league_points=2100 where user_id=${user.user.id} and game='mangler-xi'`;
   const unlocked=await req('/profile',undefined,token);
   assert.equal(unlocked.profile.avatarUnlocked,true);
   assert.equal(unlocked.profile.avatarAvailable,true);
@@ -193,7 +193,7 @@ try {
   assert.equal((await req('/auth/me',undefined,changed.token)).ok,false);
   console.log('API integration passed: login, profile, 2,000-point avatar unlock, friend leagues, password rotation, ranked games and logout.');
 } finally {
-  await db`delete from tippetuppen.events where visitor=${eventVisitor}`;
-  for(const id of created) await db`delete from tippetuppen.users where id=${id}`;
+  await db`delete from tippkaiser.events where visitor=${eventVisitor}`;
+  for(const id of created) await db`delete from tippkaiser.users where id=${id}`;
   await db.end();
 }

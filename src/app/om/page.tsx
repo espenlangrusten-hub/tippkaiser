@@ -28,9 +28,6 @@ export default function Page() {
         <b className="text-snow">Gullordet</b> er Tippetuppens fem-bokstavers ordspill. Dagens fasit er fotballrelatert, men vanlige norske ord kan brukes som gjetninger. Du har seks forsøk. Grønt betyr riktig bokstav på riktig plass, gult betyr riktig bokstav på feil plass.
       </p>
       <p className="text-mist">
-        <b className="text-snow">Kjappen</b> er et quizshow for to til fire spillere i samme rom eller på hver sin telefon. Først på knappen får svare. Kjappen er fortsatt i beta.
-      </p>
-      <p className="text-mist">
         Mangler XI, Målløs, Finn spilleren, Trener Genius og Gullordet gir poeng i <Link href="/liga" className="underline">månedens liga</Link>. Den som står øverst når måneden er omme, blir månedens Tippetupp.
       </p>
       <h2 className="font-display text-2xl font-bold uppercase">Data og kilder</h2>

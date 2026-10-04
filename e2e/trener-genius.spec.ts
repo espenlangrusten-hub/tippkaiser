@@ -11,7 +11,7 @@ test("Trener Genius persists a round, guards answers and awards league points on
   expect(session.ok).toBe(true);
   const headers = {"x-session-token":session.token};
   await page.goto("/");
-  await page.evaluate(({token,user}) => {localStorage.setItem("tt-session",token);localStorage.setItem("tt-user",JSON.stringify(user));},session);
+  await page.evaluate(({token,user}) => {localStorage.setItem("tk-session",token);localStorage.setItem("tk-user",JSON.stringify(user));},session);
   await expect(page.getByRole("link",{name:"Spill Trener Genius",exact:true})).toBeVisible();
   await page.screenshot({path:`e2e/screenshots/genius-home-${info.project.name}.png`,fullPage:true});
   await page.getByRole("link",{name:"Spill Trener Genius",exact:true}).click();

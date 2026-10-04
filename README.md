@@ -15,7 +15,7 @@ Hele produktet kjører på GitHub og Supabase – ingen andre leverandører.
 | Lag | Hvor | Hva |
 | --- | --- | --- |
 | Nettsted | GitHub Pages | Statisk eksport av Next.js-appen |
-| Spill-API | Supabase Edge Function (`supabase/functions/api`) | Alt som ikke tåler å ligge i nettleseren: fasit, gjettevurdering, Målløs-poeng |
+| Spill-API | Supabase Edge Function (`supabase/functions/kaiser-api`) | Alt som ikke tåler å ligge i nettleseren: fasit, gjettevurdering, Målløs-poeng |
 | Database | Supabase Postgres, skjema `tippetuppen` | Kamper, spillere, puslespill, plan, statistikk |
 | «Serveren» for data | GitHub Actions (`.github/workflows/data.yml`) | Importerer kildedata og fyller på dagsplanen |
 
@@ -44,7 +44,7 @@ Tester: `npm test` (Vitest), `npm run check:deno` (Edge-funksjonen), `npm run e2
 | `data/source/` | Kildefiler med kildereferanser og status. Sannheten om fotballdataene. |
 | `scripts/` | Validering, seed, planlegging og import fra den avtalte NFF/Fotballdata-kilden |
 | `src/lib/` | Ren spill-logikk (navn, brikker, datoer, baneoppsett) – deles med Edge-funksjonen |
-| `supabase/functions/api/` | Spill-API-et |
+| `supabase/functions/kaiser-api/` | Spill-API-et |
 | `src/app/`, `src/components/` | Den statiske frontenden |
 | `docs/` | Driftsveiledning og prosjektlogg |
 

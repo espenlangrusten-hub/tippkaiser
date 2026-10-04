@@ -36,8 +36,8 @@ export async function profileFor(userId: string) {
              coalesce(sum(r.league_points), 0)::int as total_points,
              count(r.id)::int as total_games,
              count(distinct r.date)::int as played_days
-      from tippetuppen.users u
-      left join tippetuppen.league_results r on r.user_id = u.id
+      from tippkaiser.users u
+      left join tippkaiser.league_results r on r.user_id = u.id
       group by u.id
     ), ranked as (
       select id, total_points, total_games, played_days,
@@ -46,7 +46,7 @@ export async function profileFor(userId: string) {
     )
     select u.id, u.username, u.full_name as name, u.email, u.avatar_id,
            r.total_points, r.total_games, r.played_days, r.lifetime_rank
-    from tippetuppen.users u join ranked r on r.id = u.id
+    from tippkaiser.users u join ranked r on r.id = u.id
     where u.id = ${userId}`;
   if (!row) return null;
   const totalPoints = Number(row.total_points);
@@ -90,7 +90,7 @@ export async function profileRoute(req: Request, route: string): Promise<Respons
     }
 
     try {
-      await sql()`update tippetuppen.users
+      await sql()`update tippkaiser.users
         set full_name = ${name}, email = ${email}, avatar_id = ${avatarId}
         where id = ${user.id}`;
     } catch (error) {

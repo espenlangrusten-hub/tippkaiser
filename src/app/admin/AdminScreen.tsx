@@ -27,8 +27,8 @@ type Stats = {
 const GAME_LABEL: Record<string, string> = { "mangler-xi": "Mangler XI", maalloes: "Målløs", "finn-spilleren": "Finn spilleren", "trener-genius": "Trener Genius", gullordet: "Gullordet" };
 const pct = (part: Count, whole: Count) => (Number(whole) > 0 ? `${Math.round((100 * Number(part)) / Number(whole))} %` : "–");
 
-const KEY = "tt1:adminKey";
-const REMEMBER = "tt1:adminKeyRemembered";
+const KEY = "tk1:adminKey";
+const REMEMBER = "tk1:adminKeyRemembered";
 type Report = { subject: string; text: string; last: { day?: string | null; sentAt?: string; failedDay?: string; error?: string } | null };
 type Message = { id: number; created_at: string; title: string; message: string; sender: string; emailed_at: string | null; email_error: string | null };
 type Game = "mangler-xi" | "maalloes" | "finn-spilleren" | "trener-genius" | "gullordet";

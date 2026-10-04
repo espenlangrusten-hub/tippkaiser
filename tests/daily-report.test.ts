@@ -44,7 +44,7 @@ describe("dagsrapporten", () => {
 });
 
 describe("utsendelsen", () => {
-  const index = read("supabase", "functions", "api", "index.ts");
+  const index = read("supabase", "functions", "kaiser-api", "index.ts");
   const workflow = read(".github", "workflows", "daily-report.yml");
 
   it("har en åpen planlagt rute og nøkkelbeskyttede admin-ruter", () => {

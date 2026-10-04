@@ -56,10 +56,10 @@ function publicState(attempt: Attempt, round: Round) {
 async function roundByNumber(number: number) {
   const [round] = await sql()<Round[]>`
     select p.id, s.date, s.number, w.word, w.label, w.category
-    from tippetuppen.schedule s
-    join tippetuppen.puzzles p on p.id = s.puzzle_id
-    join tippetuppen.gullordet_puzzle_words gp on gp.puzzle_id = p.id
-    join tippetuppen.gullordet_words w on w.id = gp.word_id
+    from tippkaiser.schedule s
+    join tippkaiser.puzzles p on p.id = s.puzzle_id
+    join tippkaiser.gullordet_puzzle_words gp on gp.puzzle_id = p.id
+    join tippkaiser.gullordet_words w on w.id = gp.word_id
     where s.game = 'gullordet' and p.game = 'gullordet' and p.enabled
       and s.number = ${number} and s.date <= ${osloDateKey()}
     limit 1`;
@@ -82,13 +82,13 @@ export async function gullordetRoute(req: Request, action: string) {
     let attempt: Attempt | undefined;
     if (user) {
       const existing = await sql()<Attempt[]>`
-        select * from tippetuppen.gullordet_attempts
+        select * from tippkaiser.gullordet_attempts
         where user_id = ${user.id} and puzzle_id = ${round.id}
         limit 1`;
       attempt = existing[0];
       if (!attempt) {
         const inserted = await sql()<Attempt[]>`
-          insert into tippetuppen.gullordet_attempts(id,puzzle_id,user_id)
+          insert into tippkaiser.gullordet_attempts(id,puzzle_id,user_id)
           values(${crypto.randomUUID()},${round.id},${user.id})
           on conflict(user_id,puzzle_id) do update set user_id=excluded.user_id
           returning *`;
@@ -98,13 +98,13 @@ export async function gullordetRoute(req: Request, action: string) {
       const resume = typeof body.attemptId === "string" && uuid.test(body.attemptId) ? body.attemptId : null;
       if (resume) {
         const existing = await sql()<Attempt[]>`
-          select * from tippetuppen.gullordet_attempts
+          select * from tippkaiser.gullordet_attempts
           where id=${resume} and puzzle_id=${round.id} and user_id is null`;
         attempt = existing[0];
       }
       if (!attempt) {
         const inserted = await sql()<Attempt[]>`
-          insert into tippetuppen.gullordet_attempts(id,puzzle_id,user_id)
+          insert into tippkaiser.gullordet_attempts(id,puzzle_id,user_id)
           values(${crypto.randomUUID()},${round.id},null)
           returning *`;
         attempt = inserted[0];
@@ -122,17 +122,17 @@ export async function gullordetRoute(req: Request, action: string) {
 
   return await sql().begin(async (tx) => {
     const [attempt] = await tx<Attempt[]>`
-      select * from tippetuppen.gullordet_attempts
+      select * from tippkaiser.gullordet_attempts
       where id=${body.attemptId}
       for update`;
     if (!attempt || attempt.user_id !== (user?.id ?? null)) return bad("not-found", 404);
 
     const [round] = await tx<Round[]>`
       select p.id, s.date, s.number, w.word, w.label, w.category
-      from tippetuppen.puzzles p
-      join tippetuppen.schedule s on s.puzzle_id = p.id
-      join tippetuppen.gullordet_puzzle_words gp on gp.puzzle_id = p.id
-      join tippetuppen.gullordet_words w on w.id = gp.word_id
+      from tippkaiser.puzzles p
+      join tippkaiser.schedule s on s.puzzle_id = p.id
+      join tippkaiser.gullordet_puzzle_words gp on gp.puzzle_id = p.id
+      join tippkaiser.gullordet_words w on w.id = gp.word_id
       where p.id=${attempt.puzzle_id} and p.game='gullordet' and s.game='gullordet'
         and p.enabled and s.date<=${osloDateKey()}
       limit 1`;
@@ -144,7 +144,7 @@ export async function gullordetRoute(req: Request, action: string) {
     // the curated Gullordet word bank.
     if (!isNorwegianGullordetGuess(guess)) {
       const validFootballWord = await tx<{ id: number }[]>`
-        select id from tippetuppen.gullordet_words
+        select id from tippkaiser.gullordet_words
         where word=${guess} and enabled
         limit 1`;
       if (!validFootballWord[0]) return json({ ok: false, error: "not-in-list" }, 400);
@@ -156,7 +156,7 @@ export async function gullordetRoute(req: Request, action: string) {
     const score = finished ? (won ? gullordetScore(guesses.length) : 0) : null;
 
     await tx`
-      update tippetuppen.gullordet_attempts
+      update tippkaiser.gullordet_attempts
       set guesses=${sql().json(guesses)}::jsonb,
           finished=${finished},
           won=${won},
@@ -167,7 +167,7 @@ export async function gullordetRoute(req: Request, action: string) {
     const next: Attempt = { ...attempt, guesses, finished, won, score };
     if (finished && attempt.user_id && round.date === osloDateKey()) {
       await tx`
-        insert into tippetuppen.league_results(user_id,puzzle_id,game,date,raw_score,league_points,details)
+        insert into tippkaiser.league_results(user_id,puzzle_id,game,date,raw_score,league_points,details)
         values(
           ${attempt.user_id},
           ${round.id},

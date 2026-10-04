@@ -13,6 +13,7 @@
  *   CONTACT_FROM     optional sender; defaults to Resend's shared test address, which
  *                    can only deliver to the email the Resend account was created with.
  */
+import { env } from "./env.ts";
 import { sql } from "./db.ts";
 import { bad, json } from "./http.ts";
 import { checkContact, CONTACT_PER_DAY } from "./contact.ts";
@@ -21,7 +22,7 @@ export type Mailer = (m: { to: string; from: string; replyTo?: string; subject: 
 
 /** Returns null on success, or a short reason for the admin page. */
 export const resend: Mailer = async (m) => {
-  const key = Deno.env.get("RESEND_API_KEY");
+  const key = env("RESEND_API_KEY");
   if (!key) return "RESEND_API_KEY er ikke satt";
   try {
     const res = await fetch("https://api.resend.com/emails", {
@@ -49,32 +50,32 @@ export async function contactRoute(req: Request, visitor: string, mail: Mailer =
   if (!checked.ok) return json({ ok: false, error: "invalid", fields: checked.errors }, 400);
 
   const [{ count }] = await sql()<{ count: number }[]>`
-    select count(*)::int as count from tippetuppen.contact_messages
+    select count(*)::int as count from tippkaiser.contact_messages
     where visitor = ${visitor} and created_at > now() - interval '24 hours'`;
   if (count >= CONTACT_PER_DAY) return json({ ok: false, error: "rate-limit" }, 429);
 
   // The privacy page promises deletion after twelve months. There is no scheduler, so
   // the promise is kept here, on the one action that creates rows in the first place.
-  await sql()`delete from tippetuppen.contact_messages where created_at < now() - interval '12 months'`;
+  await sql()`delete from tippkaiser.contact_messages where created_at < now() - interval '12 months'`;
 
   const { title, message, sender } = checked.value;
   const [row] = await sql()<{ id: number }[]>`
-    insert into tippetuppen.contact_messages (title, message, sender, visitor)
+    insert into tippkaiser.contact_messages (title, message, sender, visitor)
     values (${title}, ${message}, ${sender}, ${visitor}) returning id`;
 
-  const to = Deno.env.get("CONTACT_TO");
+  const to = env("CONTACT_TO");
   const failure = to
     ? await mail({
         to,
-        from: Deno.env.get("CONTACT_FROM") || "Tippetuppen <onboarding@resend.dev>",
+        from: env("CONTACT_FROM") || "Tippkaiser <onboarding@resend.dev>",
         replyTo: sender,
         subject: `[Tippetuppen] ${title}`,
         text: `${message}\n\n— ${sender}\nSendt fra kontaktskjemaet på Tippetuppen. Svar på denne e-posten for å svare avsenderen.`,
       })
     : "CONTACT_TO er ikke satt";
 
-  if (failure) await sql()`update tippetuppen.contact_messages set email_error = ${failure} where id = ${row.id}`;
-  else await sql()`update tippetuppen.contact_messages set emailed_at = now(), email_error = null where id = ${row.id}`;
+  if (failure) await sql()`update tippkaiser.contact_messages set email_error = ${failure} where id = ${row.id}`;
+  else await sql()`update tippkaiser.contact_messages set emailed_at = now(), email_error = null where id = ${row.id}`;
 
   // The sender is told the message arrived, because it did: it is stored whatever the
   // mail provider did. Whether it was also emailed is the admin's concern, not theirs.
@@ -85,6 +86,6 @@ export async function contactRoute(req: Request, visitor: string, mail: Mailer =
 export async function contactInbox(limit = 50) {
   const rows = await sql()<{ id: number; created_at: string; title: string; message: string; sender: string; emailed_at: string | null; email_error: string | null }[]>`
     select id, created_at, title, message, sender, emailed_at, email_error
-    from tippetuppen.contact_messages order by created_at desc limit ${limit}`;
+    from tippkaiser.contact_messages order by created_at desc limit ${limit}`;
   return json({ ok: true, messages: rows }, 200, { "cache-control": "private, no-store" });
 }

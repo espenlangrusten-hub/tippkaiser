@@ -1,5 +1,5 @@
 {
-  "name": "tippetuppen",
+  "name": "tippkaiser",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -22,9 +22,9 @@
     "data:export": "node --import tsx scripts/export-data.ts",
     "data:import:nff": "node --import tsx scripts/import/fotballdata-import.ts",
     "sync:shared": "node --import tsx scripts/sync-shared.ts",
-    "functions:deploy": "supabase functions deploy api --project-ref $SUPABASE_PROJECT_REF",
+    "functions:deploy": "supabase functions deploy kaiser-api --project-ref $SUPABASE_PROJECT_REF",
     "prebuild": "node --import tsx scripts/write-ads-txt.ts",
-    "check:deno": "deno check --node-modules-dir=manual --config supabase/functions/deno.json supabase/functions/api/index.ts",
+    "check:deno": "deno check --node-modules-dir=manual --config supabase/functions/deno.json supabase/functions/kaiser-api/index.ts",
     "dev:stack": "bash scripts/dev-stack.sh"
   },
   "dependencies": {

@@ -34,7 +34,6 @@ export const REPORT_GAME_LABEL: Record<string, string> = {
   straffespark: "Straffespark",
   gullordet: "Gullordet",
   "trener-genius": "Trener Genius",
-  kjappen: "Kjappen",
 };
 
 const WEEKDAY = ["sø", "ma", "ti", "on", "to", "fr", "lø"];

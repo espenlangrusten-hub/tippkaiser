@@ -6,11 +6,10 @@
  */
 import { eq, sql } from "drizzle-orm";
 import { loadDataset } from "@/data/load";
-import { isPlayable } from "@/data/straffespark";
 import { schema as s, type Db } from "@/server/db";
 import { normalizeName } from "@/lib/names";
 
-export type SeedResult = { matches: number; players: number; clubs: number; seasons: number; honours: number; kjappen: number; gullordet: number; problems: string[] };
+export type SeedResult = { matches: number; players: number; clubs: number; seasons: number; honours: number; gullordet: number; problems: string[] };
 
 /** Load `data/source/*.json` and upsert into the database. Throws if the data fails validation. */
 export async function seedFromSource(db: Db): Promise<SeedResult> {
@@ -134,19 +133,6 @@ export async function seedFromSource(db: Db): Promise<SeedResult> {
     if (ds.spells.length)
       await tx.insert(s.playerClubSpells).values(ds.spells.map((sp) => ({ playerId: normalizeName(sp.player).replace(/\s+/g, "-"), clubId: sp.club, fromYear: sp.from ?? null, toYear: sp.to ?? null, status: sp.status, sources: sp.sources })));
   
-    // Kjappen draws its five questions from the trivia that is already sourced. Nothing
-    // is written for this game by hand: a question only gets here if it passes the same
-    // bar as everything else, and the answer stays on the server where the game is
-    // adjudicated. Photo and chant questions are left out - Kjappen is read aloud.
-    const row = (q: { id: string; prompt: string; answer: { label: string; aliases: string[] }; fact?: string; sources: typeof ds.straffespark[number]["sources"] }) =>
-      ({ id: q.id, prompt: q.prompt, answer: q.answer.label, aliases: q.answer.aliases, fact: q.fact ?? null, sources: q.sources });
-    const kjappen = [
-      ...ds.straffespark.flatMap((q) => (q.kind === "trivia" && isPlayable(q) ? [row(q)] : [])),
-      ...ds.kjappen.filter((q) => isPlayable(q)).map(row),
-    ];
-    await tx.delete(s.kjappenQuestions);
-    for (let i = 0; i < kjappen.length; i += 500) await tx.insert(s.kjappenQuestions).values(kjappen.slice(i, i + 500));
-
     // Gullordet is source-managed but intentionally upserted rather than wholesale
     // replaced: puzzle history may already reference an older word row. Editorial
     // removals therefore happen by setting enabled=false in gullordet.json.
@@ -173,6 +159,5 @@ export async function seedFromSource(db: Db): Promise<SeedResult> {
   });
   
 
-  const kjappenCount = ds.straffespark.filter((q) => q.kind === "trivia" && isPlayable(q)).length + ds.kjappen.filter((q) => isPlayable(q)).length;
-  return { matches: ds.matches.length, players: ds.players.size, clubs: ds.clubs.length, seasons: ds.seasons.length, honours: ds.honours.length, kjappen: kjappenCount, gullordet: ds.gullordet.length, problems: ds.problems };
+  return { matches: ds.matches.length, players: ds.players.size, clubs: ds.clubs.length, seasons: ds.seasons.length, honours: ds.honours.length, gullordet: ds.gullordet.length, problems: ds.problems };
 }

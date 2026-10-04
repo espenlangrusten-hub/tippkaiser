@@ -1,6 +1,6 @@
 -- Keep the three audited Kjappen facts canonical even when the weekly seed rebuilds
 -- kjappen_questions from older source snapshots.
-CREATE OR REPLACE FUNCTION "tippetuppen"."kjappen_canonical_question_fix"()
+CREATE OR REPLACE FUNCTION "tippkaiser"."kjappen_canonical_question_fix"()
 RETURNS trigger
 LANGUAGE plpgsql
 AS $$
@@ -28,16 +28,16 @@ BEGIN
 END;
 $$;
 --> statement-breakpoint
-DROP TRIGGER IF EXISTS "kjappen_questions_canonical_fix" ON "tippetuppen"."kjappen_questions";
+DROP TRIGGER IF EXISTS "kjappen_questions_canonical_fix" ON "tippkaiser"."kjappen_questions";
 --> statement-breakpoint
 CREATE TRIGGER "kjappen_questions_canonical_fix"
-BEFORE INSERT OR UPDATE ON "tippetuppen"."kjappen_questions"
-FOR EACH ROW EXECUTE FUNCTION "tippetuppen"."kjappen_canonical_question_fix"();
+BEFORE INSERT OR UPDATE ON "tippkaiser"."kjappen_questions"
+FOR EACH ROW EXECUTE FUNCTION "tippkaiser"."kjappen_canonical_question_fix"();
 --> statement-breakpoint
 
 -- Broadcast only a tiny change signal. Browsers then refetch the authoritative state
 -- from the Edge Function; the broadcast itself never contains a question answer.
-CREATE OR REPLACE FUNCTION "tippetuppen"."kjappen_realtime_state_broadcast"()
+CREATE OR REPLACE FUNCTION "tippkaiser"."kjappen_realtime_state_broadcast"()
 RETURNS trigger
 LANGUAGE plpgsql
 SECURITY DEFINER
@@ -73,14 +73,14 @@ BEGIN
 END;
 $$;
 --> statement-breakpoint
-DROP TRIGGER IF EXISTS "kjappen_games_realtime_broadcast" ON "tippetuppen"."kjappen_games";
+DROP TRIGGER IF EXISTS "kjappen_games_realtime_broadcast" ON "tippkaiser"."kjappen_games";
 --> statement-breakpoint
 CREATE TRIGGER "kjappen_games_realtime_broadcast"
-AFTER INSERT OR UPDATE ON "tippetuppen"."kjappen_games"
-FOR EACH ROW EXECUTE FUNCTION "tippetuppen"."kjappen_realtime_state_broadcast"();
+AFTER INSERT OR UPDATE ON "tippkaiser"."kjappen_games"
+FOR EACH ROW EXECUTE FUNCTION "tippkaiser"."kjappen_realtime_state_broadcast"();
 --> statement-breakpoint
-DROP TRIGGER IF EXISTS "kjappen_players_realtime_broadcast" ON "tippetuppen"."kjappen_players";
+DROP TRIGGER IF EXISTS "kjappen_players_realtime_broadcast" ON "tippkaiser"."kjappen_players";
 --> statement-breakpoint
 CREATE TRIGGER "kjappen_players_realtime_broadcast"
-AFTER INSERT OR UPDATE ON "tippetuppen"."kjappen_players"
-FOR EACH ROW EXECUTE FUNCTION "tippetuppen"."kjappen_realtime_state_broadcast"();
+AFTER INSERT OR UPDATE ON "tippkaiser"."kjappen_players"
+FOR EACH ROW EXECUTE FUNCTION "tippkaiser"."kjappen_realtime_state_broadcast"();

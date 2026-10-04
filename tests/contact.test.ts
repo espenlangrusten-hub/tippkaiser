@@ -53,13 +53,13 @@ describe("kontaktruten", () => {
   it("lagrer meldingen før den prøver å sende e-post", () => {
     // Stored first: a message that only ever existed as an outgoing email is lost the
     // first time the mail provider is down or not configured.
-    expect(route.indexOf("insert into tippetuppen.contact_messages")).toBeLessThan(route.indexOf("await mail("));
+    expect(route.indexOf("insert into tippkaiser.contact_messages")).toBeLessThan(route.indexOf("await mail("));
   });
 
   it("gir en bot som fyller ut honningfella samme svar som et menneske, og lagrer ingenting", () => {
     const trap = route.indexOf("body.website");
     expect(trap).toBeGreaterThan(-1);
-    expect(trap).toBeLessThan(route.indexOf("insert into tippetuppen.contact_messages"));
+    expect(trap).toBeLessThan(route.indexOf("insert into tippkaiser.contact_messages"));
   });
 
   it("begrenser antall meldinger per besøkende", () => {
@@ -75,14 +75,14 @@ describe("kontaktruten", () => {
   it("henter mottakeren fra en hemmelighet, ikke fra koden", () => {
     // The repository is public. An address committed here is harvested by every crawler
     // that reads GitHub.
-    expect(route).toContain('Deno.env.get("CONTACT_TO")');
+    expect(route).toContain('env("CONTACT_TO")');
     const tracked = execSync("git ls-files supabase src scripts", { encoding: "utf8" }).split("\n").filter(Boolean);
     const withAddress = tracked.filter((f) => /proton\.me/i.test(readFileSync(f, "utf8")));
     expect(withAddress).toEqual([]);
   });
 
   it("slår på radnivåsikkerhet for tabellen med avsenderadresser", () => {
-    const migration = execSync("ls drizzle/*.sql", { encoding: "utf8" }).split("\n").filter((f) => f && readFileSync(f, "utf8").includes('CREATE TABLE "tippetuppen"."contact_messages"'))[0];
-    expect(readFileSync(migration, "utf8")).toContain("ALTER TABLE tippetuppen.contact_messages ENABLE ROW LEVEL SECURITY");
+    const migration = execSync("ls drizzle/*.sql", { encoding: "utf8" }).split("\n").filter((f) => f && readFileSync(f, "utf8").includes('CREATE TABLE "tippkaiser"."contact_messages"'))[0];
+    expect(readFileSync(migration, "utf8")).toContain("ALTER TABLE tippkaiser.contact_messages ENABLE ROW LEVEL SECURITY");
   });
 });

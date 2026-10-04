@@ -21,7 +21,7 @@ const jsonAt = args.indexOf("--json");
 async function main() {
   const handle = await getDbHandle();
   const rows = (await handle.db.execute(
-    `select id, payload, kind, quality, eligible, enabled from tippetuppen.puzzles where game='maalloes' order by id`,
+    `select id, payload, kind, quality, eligible, enabled from tippkaiser.puzzles where game='maalloes' order by id`,
   )) as unknown as { rows: Row[] };
   const puzzles = (rows.rows ?? (rows as unknown as Row[])).map((r) => ({
     ...r,

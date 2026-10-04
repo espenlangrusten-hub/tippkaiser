@@ -33,7 +33,7 @@ on:
 # exactly what happened when three pull requests were merged in quick succession.
 # Queue rather than cancel - a cancelled run would leave the schedule un-topped-up.
 concurrency:
-  group: tippetuppen-data
+  group: tippkaiser-data
   cancel-in-progress: false
 
 jobs:

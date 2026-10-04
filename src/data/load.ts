@@ -70,7 +70,6 @@ export type Dataset = {
   squads: z.infer<typeof S.squadFile>;
   spells: z.infer<typeof S.spellFile>;
   straffespark: z.infer<typeof S.straffesparkFile>;
-  kjappen: z.infer<typeof S.kjappenFile>;
   gullordet: z.infer<typeof S.gullordetFile>;
   coaches: z.infer<typeof S.coachFile>;
   coachQuiz: z.infer<typeof S.coachQuizFile>;
@@ -93,7 +92,6 @@ export function loadDataset(): Dataset {
   const squads = readJson(S.squadFile, "squads.json", []);
   const spells = readJson(S.spellFile, "spells.json", []);
   let straffespark = readJson(S.straffesparkFile, "straffespark.json", []);
-  const kjappen = readJson(S.kjappenFile, "kjappen.json", []);
   const gullordet = readJson(S.gullordetFile, "gullordet.json", []);
   const coaches = readJson(S.coachFile, "trenere.json", []);
   const coachQuiz = readJson(S.coachQuizFile, "trenerquiz.json", []);
@@ -395,21 +393,6 @@ export function loadDataset(): Dataset {
     }
   }
 
-  // Kjappen's own questions: same checks as a Straffespark trivia entry, plus a promise
-  // that no two questions in the game ask the same thing.
-  const asked = new Set(straffespark.flatMap((q) => (q.kind === "trivia" ? [normalizeName(q.prompt)] : [])));
-  for (const q of kjappen) {
-    if (straffesparkIds.has(q.id)) problems.push(`kjappen: id ${q.id} collides with a straffespark question`);
-    straffesparkIds.add(q.id);
-    if (asked.has(normalizeName(q.prompt))) problems.push(`kjappen ${q.id}: this question is already asked elsewhere`);
-    asked.add(normalizeName(q.prompt));
-    if (q.enabled && q.status !== "recall" && q.sources.length === 0)
-      problems.push(`kjappen ${q.id}: status ${q.status} requires a source`);
-    if (!normalizeName(q.answer.label)) problems.push(`kjappen ${q.id}: answer normalises to nothing`);
-    const dupes = q.answer.aliases.filter((a) => normalizeName(a) === normalizeName(q.answer.label));
-    if (dupes.length) problems.push(`kjappen ${q.id}: alias ${dupes[0]} repeats the answer`);
-  }
-
   // Gullordet. The schema guarantees five canonical letters; here we protect the
   // dictionary semantics that matter to the game: one meaning row per typed word and
   // enough enabled answers that a bad edit cannot silently collapse the runway.
@@ -420,6 +403,9 @@ export function loadDataset(): Dataset {
   }
   const gullordetAnswers = gullordet.filter((w) => w.enabled && w.answerEligible).length;
   if (gullordetAnswers < 100) problems.push(`gullordet: only ${gullordetAnswers} enabled daily answers; expected at least 100`);
+
+  // No two questions in the game ask the same thing.
+  const asked = new Set(straffespark.flatMap((q) => (q.kind === "trivia" ? [normalizeName(q.prompt)] : [])));
 
   // The coach bank: the same promises again, plus one of its own - every question names
   // a coach in trenere.json, because that is where a reviewer finds the leads behind it.
@@ -446,5 +432,5 @@ export function loadDataset(): Dataset {
     if (leaked) problems.push(`trenerquiz ${q.id}: the prompt gives away the answer (${leaked})`);
   }
 
-  return { competitions, clubs, players, matches, appearances, goals, seasons, honours, squads, spells, straffespark, kjappen, gullordet, coaches, coachQuiz, matchFacts, problems };
+  return { competitions, clubs, players, matches, appearances, goals, seasons, honours, squads, spells, straffespark, gullordet, coaches, coachQuiz, matchFacts, problems };
 }

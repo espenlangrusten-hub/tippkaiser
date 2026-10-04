@@ -48,7 +48,7 @@ jobs:
           npm run db:migrate
           npm run db:seed
           node --import tsx scripts/schedule.ts --days 10
-          SUPABASE_DB_URL=postgres://postgres@127.0.0.1:5544/postgres ./node_modules/.bin/deno run --node-modules-dir=manual --allow-net --allow-env --allow-read --config supabase/functions/deno.json supabase/functions/api/index.ts &
+          SUPABASE_DB_URL=postgres://postgres@127.0.0.1:5544/postgres ./node_modules/.bin/deno run --node-modules-dir=manual --allow-net --allow-env --allow-read --config supabase/functions/deno.json supabase/functions/kaiser-api/index.ts &
           api_pid=$!
           trap 'kill "$api_pid" 2>/dev/null || true' EXIT
           for i in {1..20}; do
@@ -113,7 +113,7 @@ jobs:
           ADMIN_KEY="$E2E_ADMIN_KEY" \
           ANALYTICS_SALT=ci-salt \
             ./node_modules/.bin/deno run --node-modules-dir=manual --allow-net --allow-env --allow-read \
-            --config supabase/functions/deno.json supabase/functions/api/index.ts > api.log 2>&1 &
+            --config supabase/functions/deno.json supabase/functions/kaiser-api/index.ts > api.log 2>&1 &
           ./node_modules/.bin/serve out -l 3200 > web.log 2>&1 &
           for i in {1..40}; do
             if curl --max-time 5 -sf -o /dev/null "$E2E_API_URL/today?game=mangler-xi" \

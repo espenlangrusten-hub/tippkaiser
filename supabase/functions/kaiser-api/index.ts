@@ -14,7 +14,6 @@
  *   POST /reveal               reveal answers (give up / round over) or one hint letter
  *   POST /maalloes/answer      score a single Målløs answer
  *   POST /maalloes/submit      lock in five answers, return the full board
- *   POST /kjappen/*            multiplayer quiz show: create, join, start, buzz, answer, state
  *   POST /events               anonymous analytics
  *   POST /contact              contact form: stored, then emailed to the admin
  *   GET  /admin/overview       schedule + runway (requires x-admin-key)
@@ -29,6 +28,7 @@
  *   POST /admin/users/update   change a user's username, name or email (requires x-admin-key)
  *   POST /admin/users/delete   delete a user; the username must be typed back (requires x-admin-key)
  */
+import { env } from "../_shared/env.ts";
 import { sql } from "../_shared/db.ts";
 import { cors, json, bad } from "../_shared/http.ts";
 import { maskManglerXi } from "../_shared/masking.ts";
@@ -43,7 +43,6 @@ import { advanceXi, xiScore, type XiHint, type XiState } from "../_shared/league
 import { geniusRoute } from "../_shared/trener-genius-routes.ts";
 import { finnRoute } from "../_shared/finn.ts";
 import { gullordetRoute } from "../_shared/gullordet-routes.ts";
-import { kjappenRoute } from "../_shared/kjappen-routes.ts";
 import { contactInbox, contactRoute } from "../_shared/contact-routes.ts";
 import { adminReportPreview, adminReportSend, dailyReportRoute } from "../_shared/daily-report-routes.ts";
 import { adminUserDelete, adminUsers, adminUserUpdate } from "../_shared/admin-user-routes.ts";
@@ -60,11 +59,11 @@ async function scheduled(game: Game, where: { date?: string; number?: number }) 
   const rows = where.date
     ? await db<ScheduledRow[]>`
         select s.date, s.number, case when s.game = 'finn-spilleren' then 'finn-' || md5(s.puzzle_id) else s.puzzle_id end as puzzle_id, p.title, p.payload, p.enabled
-        from tippetuppen.schedule s join tippetuppen.puzzles p on p.id = s.puzzle_id
+        from tippkaiser.schedule s join tippkaiser.puzzles p on p.id = s.puzzle_id
         where s.game = ${game} and s.date = ${where.date}`
     : await db<ScheduledRow[]>`
         select s.date, s.number, case when s.game = 'finn-spilleren' then 'finn-' || md5(s.puzzle_id) else s.puzzle_id end as puzzle_id, p.title, p.payload, p.enabled
-        from tippetuppen.schedule s join tippetuppen.puzzles p on p.id = s.puzzle_id
+        from tippkaiser.schedule s join tippkaiser.puzzles p on p.id = s.puzzle_id
         where s.game = ${game} and s.number = ${where.number!}`;
   const r = rows[0];
   if (!r || !r.enabled) return null;
@@ -111,18 +110,18 @@ function present(game: Game, r: ScheduledRow) {
 async function updateMxiProgress(userId: string, puzzleId: string, index: number | null, solved: boolean, finishNow = false, hint: XiHint = false) {
   return await sql().begin(async (tx) => {
     const initial: XiState = { attempts: Array(11).fill(0), solved: Array(11).fill(false) };
-    await tx`insert into tippetuppen.game_progress (user_id,puzzle_id,game,state)
+    await tx`insert into tippkaiser.game_progress (user_id,puzzle_id,game,state)
       values (${userId},${puzzleId},'mangler-xi',${sql().json(initial)}::jsonb) on conflict do nothing`;
-    const [row] = await tx<{ state: XiState }[]>`select state from tippetuppen.game_progress
+    const [row] = await tx<{ state: XiState }[]>`select state from tippkaiser.game_progress
       where user_id=${userId} and puzzle_id=${puzzleId} for update`;
     if (!advanceXi(row.state, index, solved, finishNow, hint)) return false;
-    await tx`update tippetuppen.game_progress set state=${sql().json(row.state)}::jsonb,updated_at=now()
+    await tx`update tippkaiser.game_progress set state=${sql().json(row.state)}::jsonb,updated_at=now()
       where user_id=${userId} and puzzle_id=${puzzleId}`;
     if (row.state.finished) {
       const score = xiScore(row.state);
-      await tx`insert into tippetuppen.league_results (user_id,puzzle_id,game,date,raw_score,league_points,details)
+      await tx`insert into tippkaiser.league_results (user_id,puzzle_id,game,date,raw_score,league_points,details)
         select ${userId},puzzle_id,game,date,${score.raw},${score.points},${sql().json(score)}::jsonb
-        from tippetuppen.schedule where puzzle_id=${puzzleId} and game='mangler-xi' and date=${osloDateKey()}
+        from tippkaiser.schedule where puzzle_id=${puzzleId} and game='mangler-xi' and date=${osloDateKey()}
         on conflict (user_id,puzzle_id) do nothing`;
     }
     return true;
@@ -141,7 +140,7 @@ async function leagueTable(from: string, to: string, username: string | null, li
              coalesce(sum(r.raw_score) filter (where r.game = 'maalloes'), 0)::int as maalloes_total,
              coalesce(sum((r.details->>'found')::int) filter (where r.game = 'mangler-xi'), 0)::int as xi_solved,
              coalesce(sum(r.raw_score) filter (where r.game = 'finn-spilleren'), 0)::int as finn_points
-      from tippetuppen.users u join tippetuppen.league_results r on r.user_id = u.id
+      from tippkaiser.users u join tippkaiser.league_results r on r.user_id = u.id
       where r.date between ${from} and ${to}
       group by u.id, u.username, u.avatar_id
     ), ranked as (
@@ -150,14 +149,14 @@ async function leagueTable(from: string, to: string, username: string | null, li
     )
     select coalesce((select jsonb_agg(to_jsonb(r) order by rank) from ranked r where rank <= ${limit}), '[]'::jsonb) as rows,
            (select to_jsonb(r) from ranked r where username = ${username}) as me,
-           (select count(*)::int from tippetuppen.users) as registered`;
+           (select count(*)::int from tippkaiser.users) as registered`;
   return board;
 }
 
 async function payloadFor(puzzleId: string, game: Game) {
   const rows = await sql()<{ payload: unknown; game: string }[]>`
-    select p.payload, p.game from tippetuppen.puzzles p
-    join tippetuppen.schedule s on s.puzzle_id = p.id and s.game = p.game
+    select p.payload, p.game from tippkaiser.puzzles p
+    join tippkaiser.schedule s on s.puzzle_id = p.id and s.game = p.game
     where p.id = ${puzzleId} and p.enabled and s.date <= ${osloDateKey()}`;
   if (!rows[0] || rows[0].game !== game) return null;
   return rows[0].payload;
@@ -166,16 +165,16 @@ async function payloadFor(puzzleId: string, game: Game) {
 async function counts(puzzleId: string) {
   const db = sql();
   const rows = await db<{ answer_id: string; count: number }[]>`
-    select answer_id, count from tippetuppen.maalloes_answer_counts where puzzle_id = ${puzzleId}`;
+    select answer_id, count from tippkaiser.maalloes_answer_counts where puzzle_id = ${puzzleId}`;
   const stats = await db<{ respondents: number }[]>`
-    select respondents from tippetuppen.puzzle_stats where puzzle_id = ${puzzleId}`;
+    select respondents from tippkaiser.puzzle_stats where puzzle_id = ${puzzleId}`;
   return { counts: new Map(rows.map((r) => [r.answer_id, Number(r.count)])), respondents: Number(stats[0]?.respondents ?? 0) };
 }
 
 async function visitorHash(req: Request, day: string) {
   const ip = req.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ?? "0.0.0.0";
   const ua = req.headers.get("user-agent") ?? "";
-  const salt = Deno.env.get("ANALYTICS_SALT") ?? "dev-salt";
+  const salt = env("ANALYTICS_SALT") ?? "dev-salt";
   const buf = new TextEncoder().encode(`${salt}|${day}|${ip}|${ua}`);
   const digest = await crypto.subtle.digest("SHA-256", buf);
   return Array.from(new Uint8Array(digest))
@@ -185,14 +184,15 @@ async function visitorHash(req: Request, day: string) {
 }
 
 const adminOk = (req: Request) => {
-  const key = Deno.env.get("ADMIN_KEY");
+  const key = env("ADMIN_KEY");
   return !!key && key.length >= 16 && req.headers.get("x-admin-key") === key;
 };
 
 Deno.serve(async (req) => {
   if (req.method === "OPTIONS") return new Response("ok", { headers: cors });
   const url = new URL(req.url);
-  const route = url.pathname.replace(/^\/api/, "").replace(/\/$/, "") || "/";
+  // The first path segment is the function's name: "kaiser-api" on Supabase, "api" locally.
+  const route = url.pathname.replace(/^\/[^/]+/, "").replace(/\/$/, "") || "/";
   const q = url.searchParams;
 
   try {
@@ -207,9 +207,9 @@ Deno.serve(async (req) => {
       if (typeof body.username !== "string" || typeof body.password !== "string") return bad("bad request");
       const day = osloDateKey();
       const visitor = await visitorHash(req, day);
-      const recent = await sql()<{ count: number }[]>`select count(*)::int as count from tippetuppen.events where visitor = ${visitor} and name = 'auth_attempt' and ts > now() - interval '15 minutes'`;
+      const recent = await sql()<{ count: number }[]>`select count(*)::int as count from tippkaiser.events where visitor = ${visitor} and name = 'auth_attempt' and ts > now() - interval '15 minutes'`;
       if (Number(recent[0]?.count ?? 0) >= 12) return json({ ok: false, error: "rate-limit" }, 429);
-      await sql()`insert into tippetuppen.events (day, name, visitor, props) values (${day}, 'auth_attempt', ${visitor}, '{}'::jsonb)`;
+      await sql()`insert into tippkaiser.events (day, name, visitor, props) values (${day}, 'auth_attempt', ${visitor}, '{}'::jsonb)`;
       const result = await createUser(body.username, body.password);
       return json(result, result.ok ? 200 : result.error === "taken" ? 409 : 400);
     }
@@ -219,9 +219,9 @@ Deno.serve(async (req) => {
       if (typeof body.username !== "string" || typeof body.password !== "string") return bad("bad request");
       const day = osloDateKey();
       const visitor = await visitorHash(req, day);
-      const recent = await sql()<{ count: number }[]>`select count(*)::int as count from tippetuppen.events where visitor = ${visitor} and name = 'auth_attempt' and ts > now() - interval '15 minutes'`;
+      const recent = await sql()<{ count: number }[]>`select count(*)::int as count from tippkaiser.events where visitor = ${visitor} and name = 'auth_attempt' and ts > now() - interval '15 minutes'`;
       if (Number(recent[0]?.count ?? 0) >= 12) return json({ ok: false, error: "rate-limit" }, 429);
-      await sql()`insert into tippetuppen.events (day, name, visitor, props) values (${day}, 'auth_attempt', ${visitor}, '{}'::jsonb)`;
+      await sql()`insert into tippkaiser.events (day, name, visitor, props) values (${day}, 'auth_attempt', ${visitor}, '{}'::jsonb)`;
       const result = await loginUser(body.username, body.password);
       return json(result, result.ok ? 200 : 401);
     }
@@ -295,7 +295,7 @@ Deno.serve(async (req) => {
       const suggestions = kind === "club"
         ? await sql()<{ id: string; label: string; surname?: string }[]>`
             select c.id, c.name as label
-            from tippetuppen.clubs c,
+            from tippkaiser.clubs c,
                  lateral (select unnest(array[c.name, c.full_name] || array(select jsonb_array_elements_text(c.aliases))) as alias) a
             where lower(regexp_replace(translate(a.alias, 'ÆØÅæøéèêáàâóòôüúùíìî', 'AOAaoeeeaaaooouuuiii'), '[^a-zA-Z0-9 ]', '', 'g')) like ${contains}
             group by c.id, c.name
@@ -303,8 +303,8 @@ Deno.serve(async (req) => {
             limit 8`
         : await sql()<{ id: string; label: string; surname: string }[]>`
             select p.id, p.display_name as label, p.surname
-            from tippetuppen.player_aliases a
-            join tippetuppen.players p on p.id = a.player_id
+            from tippkaiser.player_aliases a
+            join tippkaiser.players p on p.id = a.player_id
             where a.kind = 'surname' and a.normalized like ${prefix}
             group by p.id, p.display_name, p.surname
             order by min(a.normalized), p.display_name
@@ -320,7 +320,7 @@ Deno.serve(async (req) => {
       const upTo = before && isValidDateKey(before) ? addDays(before, -1) : addDays(osloDateKey(), -1);
       const rows = await sql()<{ date: string; number: number; title: string; difficulty: number }[]>`
         select s.date, s.number, p.title, p.difficulty
-        from tippetuppen.schedule s join tippetuppen.puzzles p on p.id = s.puzzle_id
+        from tippkaiser.schedule s join tippkaiser.puzzles p on p.id = s.puzzle_id
         where s.game = ${game} and s.date <= ${upTo} and p.enabled
         order by s.date desc limit ${limit}`;
       return json({ ok: true, rows }, 200, { "cache-control": "public, max-age=300" });
@@ -420,24 +420,24 @@ Deno.serve(async (req) => {
       if (req.headers.has("x-session-token") && !user) return bad("unauthorised", 401);
       const saved = await db.begin(async (tx) => {
         if (user) {
-          await tx`insert into tippetuppen.game_progress(user_id,puzzle_id,game,state)
+          await tx`insert into tippkaiser.game_progress(user_id,puzzle_id,game,state)
             values(${user.id},${puzzleId},'maalloes','{}'::jsonb) on conflict do nothing`;
-          const [row] = await tx<{state: {final?: typeof response}}[]>`select state from tippetuppen.game_progress
+          const [row] = await tx<{state: {final?: typeof response}}[]>`select state from tippkaiser.game_progress
             where user_id=${user.id} and puzzle_id=${puzzleId} for update`;
           if (row.state.final) return row.state.final;
-          await tx`update tippetuppen.game_progress set state=${sql().json({final:response})}::jsonb,updated_at=now()
+          await tx`update tippkaiser.game_progress set state=${sql().json({final:response})}::jsonb,updated_at=now()
             where user_id=${user.id} and puzzle_id=${puzzleId}`;
-          await tx`insert into tippetuppen.league_results(user_id,puzzle_id,game,date,raw_score,league_points,details)
+          await tx`insert into tippkaiser.league_results(user_id,puzzle_id,game,date,raw_score,league_points,details)
             select ${user.id},puzzle_id,game,date,${total},${100-Math.round(total/5)},${sql().json({scores,shield,dropped})}::jsonb
-            from tippetuppen.schedule where puzzle_id=${puzzleId} and game='maalloes' and date=${osloDateKey()}
+            from tippkaiser.schedule where puzzle_id=${puzzleId} and game='maalloes' and date=${osloDateKey()}
             on conflict(user_id,puzzle_id) do nothing`;
         }
         for (const answer of valid) {
-          await tx`insert into tippetuppen.maalloes_answer_counts (puzzle_id, answer_id, count) values (${puzzleId}, ${answer.id}, 1)
-                   on conflict (puzzle_id, answer_id) do update set count = tippetuppen.maalloes_answer_counts.count + 1`;
+          await tx`insert into tippkaiser.maalloes_answer_counts (puzzle_id, answer_id, count) values (${puzzleId}, ${answer.id}, 1)
+                   on conflict (puzzle_id, answer_id) do update set count = tippkaiser.maalloes_answer_counts.count + 1`;
         }
-        await tx`insert into tippetuppen.puzzle_stats (puzzle_id, respondents, completions) values (${puzzleId}, 1, 1)
-                 on conflict (puzzle_id) do update set respondents = tippetuppen.puzzle_stats.respondents + 1, completions = tippetuppen.puzzle_stats.completions + 1`;
+        await tx`insert into tippkaiser.puzzle_stats (puzzle_id, respondents, completions) values (${puzzleId}, 1, 1)
+                 on conflict (puzzle_id) do update set respondents = tippkaiser.puzzle_stats.respondents + 1, completions = tippkaiser.puzzle_stats.completions + 1`;
         return response;
       });
       return json(saved);
@@ -447,11 +447,6 @@ Deno.serve(async (req) => {
     if (req.method === "POST" && route.startsWith("/finn-spilleren/")) return finnRoute(req, route.split("/").at(-1)!);
     if (req.method === "POST" && route.startsWith("/gullordet/")) return gullordetRoute(req, route.split("/").at(-1)!);
 
-    // Kjappen: the multiplayer quiz show. Separate from the daily games - its own
-    // tables, its own codes, and no schedule.
-    if (req.method === "POST" && route.startsWith("/kjappen/")) {
-      return await kjappenRoute(req, route.slice("/kjappen/".length));
-    }
 
     if (req.method === "POST" && route === "/events") {
       const body = await req.json().catch(() => null);
@@ -460,7 +455,7 @@ Deno.serve(async (req) => {
       if (!e.name || !allowed.includes(e.name)) return bad("bad event");
       const day = osloDateKey();
       try {
-        await sql()`insert into tippetuppen.events (day, name, game, puzzle_id, visitor, is_new, archive, props)
+        await sql()`insert into tippkaiser.events (day, name, game, puzzle_id, visitor, is_new, archive, props)
           values (${day}, ${e.name}, ${e.game ?? null}, ${e.puzzleId ?? null}, ${await visitorHash(req, day)}, ${!!e.isNew}, ${!!e.archive}, ${sql().json({ path: e.path ?? null })}::jsonb)`;
       } catch {
         // Analytics must never break the game.
@@ -490,14 +485,14 @@ Deno.serve(async (req) => {
         if (!isGame(game)) return bad("unknown game");
         const rows = await db<{ date: string; number: number; puzzle_id: string; title: string; locked: boolean; enabled: boolean; difficulty: number }[]>`
           select s.date, s.number, s.puzzle_id, p.title, s.locked, p.enabled, p.difficulty
-          from tippetuppen.schedule s join tippetuppen.puzzles p on p.id = s.puzzle_id
+          from tippkaiser.schedule s join tippkaiser.puzzles p on p.id = s.puzzle_id
           where s.game = ${game} and s.date >= ${addDays(today, -3)} order by s.date asc limit 60`;
         const runway = await db<{ eligible: number; scheduled_future: number; unused: number }[]>`
           select
-            (select count(*) from tippetuppen.puzzles where game = ${game} and enabled and eligible) as eligible,
-            (select count(*) from tippetuppen.schedule where game = ${game} and date > ${today}) as scheduled_future,
-            (select count(*) from tippetuppen.puzzles p where p.game = ${game} and p.enabled and p.eligible
-               and not exists (select 1 from tippetuppen.schedule s where s.puzzle_id = p.id)) as unused`;
+            (select count(*) from tippkaiser.puzzles where game = ${game} and enabled and eligible) as eligible,
+            (select count(*) from tippkaiser.schedule where game = ${game} and date > ${today}) as scheduled_future,
+            (select count(*) from tippkaiser.puzzles p where p.game = ${game} and p.enabled and p.eligible
+               and not exists (select 1 from tippkaiser.schedule s where s.puzzle_id = p.id)) as unused`;
         return json({ ok: true, today, rows, runway: runway[0] });
       }
 
@@ -508,7 +503,7 @@ Deno.serve(async (req) => {
         // Sequential on purpose: the function holds one pooled connection, so a burst
         // of concurrent queries would stall behind Supabase's transaction pooler.
         const daily = await db<{ day: string; page_views: number; visitors: number; starts: number; completes: number; new_visitors: number; xi_players: number; maalloes_players: number; finn_players: number }[]>`
-          with activity as (select * from tippetuppen.events where day between ${from} and ${today} and coalesce(props->>'path','') not like '%/admin%'),
+          with activity as (select * from tippkaiser.events where day between ${from} and ${today} and coalesce(props->>'path','') not like '%/admin%'),
           calendar as (select to_char(d,'YYYY-MM-DD') as day from generate_series(${from}::date,${today}::date,interval '1 day') d)
           select c.day,
                  count(*) filter (where name = 'page_view')                        as page_views,
@@ -528,14 +523,14 @@ Deno.serve(async (req) => {
                  count(*) filter (where archive and name = 'game_start')           as archive,
                  count(distinct (day,visitor)) filter (where name='game_start' and visitor is not null) as player_days,
                  count(distinct visitor) filter (where name='game_start' and day=${today}) as today_players
-          from tippetuppen.events where game is not null and day between ${from} and ${today} and coalesce(props->>'path','') not like '%/admin%' group by game order by game`;
+          from tippkaiser.events where game is not null and day between ${from} and ${today} and coalesce(props->>'path','') not like '%/admin%' group by game order by game`;
         const totals = await db<{ page_views: number; starts: number; completes: number; shares: number; first_day: string | null; last_day: string | null }[]>`
           select count(*) filter (where name = 'page_view')                        as page_views,
                  count(*) filter (where name = 'game_start')                       as starts,
                  count(*) filter (where name = 'game_complete')                    as completes,
                  count(*) filter (where name = 'share')                            as shares,
                  min(day) as first_day, max(day) as last_day
-          from tippetuppen.events where day between ${from} and ${today} and coalesce(props->>'path','') not like '%/admin%'`;
+          from tippkaiser.events where day between ${from} and ${today} and coalesce(props->>'path','') not like '%/admin%'`;
         const visitorDays = daily.reduce((n, d) => n + Number(d.visitors), 0);
         return json({ ok: true, from, today, daily, games, visitorDays, todayVisitors: Number(daily[0]?.visitors ?? 0), totals: totals[0] });
       }
@@ -544,21 +539,21 @@ Deno.serve(async (req) => {
         const { game, date } = (await req.json().catch(() => ({}))) as { game?: string; date?: string };
         if (!isGame(game ?? null) || !date || !isValidDateKey(date) || date <= today) return bad("bad request");
         const cand = await db<{ id: string }[]>`
-          select p.id from tippetuppen.puzzles p
+          select p.id from tippkaiser.puzzles p
           where p.game = ${game!} and p.enabled and p.eligible
-            and not exists (select 1 from tippetuppen.schedule s where s.puzzle_id = p.id)
+            and not exists (select 1 from tippkaiser.schedule s where s.puzzle_id = p.id)
           order by p.quality desc limit 1`;
         if (!cand[0]) return json({ ok: false, error: "no-spare-puzzle" }, 409);
-        await db`update tippetuppen.schedule set puzzle_id = ${cand[0].id}, locked = true where game = ${game!} and date = ${date}`;
-        await db`insert into tippetuppen.admin_audit (action, details) values ('replace_scheduled', ${sql().json({ game, date, to: cand[0].id })}::jsonb)`;
+        await db`update tippkaiser.schedule set puzzle_id = ${cand[0].id}, locked = true where game = ${game!} and date = ${date}`;
+        await db`insert into tippkaiser.admin_audit (action, details) values ('replace_scheduled', ${sql().json({ game, date, to: cand[0].id })}::jsonb)`;
         return json({ ok: true, puzzleId: cand[0].id });
       }
 
       if (req.method === "POST" && route === "/admin/enable") {
         const { puzzleId, enabled } = (await req.json().catch(() => ({}))) as { puzzleId?: string; enabled?: boolean };
         if (typeof puzzleId !== "string" || typeof enabled !== "boolean") return bad("bad request");
-        await db`update tippetuppen.puzzles set enabled = ${enabled} where id = ${puzzleId}`;
-        await db`insert into tippetuppen.admin_audit (action, details) values ('puzzle_enabled', ${sql().json({ puzzleId, enabled })}::jsonb)`;
+        await db`update tippkaiser.puzzles set enabled = ${enabled} where id = ${puzzleId}`;
+        await db`insert into tippkaiser.admin_audit (action, details) values ('puzzle_enabled', ${sql().json({ puzzleId, enabled })}::jsonb)`;
         return json({ ok: true });
       }
     }

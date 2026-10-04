@@ -1,11 +1,11 @@
-ALTER TABLE "tippetuppen"."finn_attempts" ADD COLUMN "result" jsonb;
+ALTER TABLE "tippkaiser"."finn_attempts" ADD COLUMN "result" jsonb;
 --> statement-breakpoint
-ALTER TABLE tippetuppen.users ENABLE ROW LEVEL SECURITY;
+ALTER TABLE tippkaiser.users ENABLE ROW LEVEL SECURITY;
 --> statement-breakpoint
-ALTER TABLE tippetuppen.sessions ENABLE ROW LEVEL SECURITY;
+ALTER TABLE tippkaiser.sessions ENABLE ROW LEVEL SECURITY;
 --> statement-breakpoint
-ALTER TABLE tippetuppen.game_progress ENABLE ROW LEVEL SECURITY;
+ALTER TABLE tippkaiser.game_progress ENABLE ROW LEVEL SECURITY;
 --> statement-breakpoint
-ALTER TABLE tippetuppen.league_results ENABLE ROW LEVEL SECURITY;
+ALTER TABLE tippkaiser.league_results ENABLE ROW LEVEL SECURITY;
 --> statement-breakpoint
-ALTER TABLE tippetuppen.finn_attempts ENABLE ROW LEVEL SECURITY;
+ALTER TABLE tippkaiser.finn_attempts ENABLE ROW LEVEL SECURITY;

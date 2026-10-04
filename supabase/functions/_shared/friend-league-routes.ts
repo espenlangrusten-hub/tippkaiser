@@ -24,7 +24,7 @@ function randomCode(length = 6) {
 async function membershipCount(userId: string) {
   const [row] = await sql()<{ count: number }[]>`
     select count(*)::int as count
-    from tippetuppen.friend_league_members
+    from tippkaiser.friend_league_members
     where user_id = ${userId}`;
   return Number(row?.count ?? 0);
 }
@@ -38,8 +38,8 @@ async function leagueByCode(code: string) {
     owner_username: string;
   }[]>`
     select l.id, l.name, l.code, l.owner_user_id, u.username as owner_username
-    from tippetuppen.friend_leagues l
-    join tippetuppen.users u on u.id = l.owner_user_id
+    from tippkaiser.friend_leagues l
+    join tippkaiser.users u on u.id = l.owner_user_id
     where l.code = ${code}`;
   return rows[0] ?? null;
 }
@@ -47,7 +47,7 @@ async function leagueByCode(code: string) {
 async function memberOf(leagueId: string, userId: string) {
   const rows = await sql()<{ ok: boolean }[]>`
     select true as ok
-    from tippetuppen.friend_league_members
+    from tippkaiser.friend_league_members
     where league_id = ${leagueId} and user_id = ${userId}`;
   return !!rows[0];
 }
@@ -81,9 +81,9 @@ async function detail(code: string, userId: string) {
              coalesce(sum(r.raw_score) filter (where r.game = 'maalloes'), 0)::int as maalloes_total,
              coalesce(sum((r.details->>'found')::int) filter (where r.game = 'mangler-xi'), 0)::int as xi_solved,
              coalesce(sum(r.raw_score) filter (where r.game = 'finn-spilleren'), 0)::int as finn_points
-      from tippetuppen.friend_league_members m
-      join tippetuppen.users u on u.id = m.user_id
-      left join tippetuppen.league_results r
+      from tippkaiser.friend_league_members m
+      join tippkaiser.users u on u.id = m.user_id
+      left join tippkaiser.league_results r
         on r.user_id = u.id and r.date between ${from} and ${to}
       where m.league_id = ${league.id}
       group by u.id, u.username, u.avatar_id
@@ -131,10 +131,10 @@ export async function friendLeagueRoute(req: Request, route: string, q: URLSearc
     }[]>`
       select l.id, l.name, l.code, l.owner_user_id, owner.username as owner_username,
              count(all_members.user_id)::int as member_count
-      from tippetuppen.friend_league_members mine
-      join tippetuppen.friend_leagues l on l.id = mine.league_id
-      join tippetuppen.users owner on owner.id = l.owner_user_id
-      left join tippetuppen.friend_league_members all_members on all_members.league_id = l.id
+      from tippkaiser.friend_league_members mine
+      join tippkaiser.friend_leagues l on l.id = mine.league_id
+      join tippkaiser.users owner on owner.id = l.owner_user_id
+      left join tippkaiser.friend_league_members all_members on all_members.league_id = l.id
       where mine.user_id = ${user.id}
       group by l.id, l.name, l.code, l.owner_user_id, owner.username, l.created_at
       order by l.created_at desc`;
@@ -171,9 +171,9 @@ export async function friendLeagueRoute(req: Request, route: string, q: URLSearc
       const code = randomCode();
       try {
         await sql().begin(async (tx) => {
-          await tx`insert into tippetuppen.friend_leagues (id,name,code,owner_user_id)
+          await tx`insert into tippkaiser.friend_leagues (id,name,code,owner_user_id)
             values (${id},${name},${code},${user.id})`;
-          await tx`insert into tippetuppen.friend_league_members (league_id,user_id)
+          await tx`insert into tippkaiser.friend_league_members (league_id,user_id)
             values (${id},${user.id})`;
         });
         return json({ ok: true, league: await detail(code, user.id) }, 201);
@@ -192,7 +192,7 @@ export async function friendLeagueRoute(req: Request, route: string, q: URLSearc
     if (!(await memberOf(league.id, user.id)) && await membershipCount(user.id) >= MAX_FRIEND_LEAGUES) {
       return json({ ok: false, error: "limit" }, 409);
     }
-    await sql()`insert into tippetuppen.friend_league_members (league_id,user_id)
+    await sql()`insert into tippkaiser.friend_league_members (league_id,user_id)
       values (${league.id},${user.id}) on conflict do nothing`;
     return json({ ok: true, league: await detail(code, user.id) });
   }
@@ -204,7 +204,7 @@ export async function friendLeagueRoute(req: Request, route: string, q: URLSearc
     if (!name) return json({ ok: false, error: "invalid-name" }, 400);
     const league = await requireOwner(code, user.id);
     if (!league) return json({ ok: false, error: "forbidden" }, 403);
-    await sql()`update tippetuppen.friend_leagues set name = ${name} where id = ${league.id}`;
+    await sql()`update tippkaiser.friend_leagues set name = ${name} where id = ${league.id}`;
     return json({ ok: true, league: await detail(code, user.id) });
   }
 
@@ -216,7 +216,7 @@ export async function friendLeagueRoute(req: Request, route: string, q: URLSearc
     for (let attempt = 0; attempt < 8; attempt++) {
       const code = randomCode();
       try {
-        await sql()`update tippetuppen.friend_leagues set code = ${code} where id = ${league.id}`;
+        await sql()`update tippkaiser.friend_leagues set code = ${code} where id = ${league.id}`;
         return json({ ok: true, league: await detail(code, user.id) });
       } catch (error) {
         if (!String(error).includes("friend_leagues_code_unique")) throw error;
@@ -232,7 +232,7 @@ export async function friendLeagueRoute(req: Request, route: string, q: URLSearc
     const league = await requireOwner(code, user.id);
     if (!league) return json({ ok: false, error: "forbidden" }, 403);
     if (!memberId || memberId === user.id) return json({ ok: false, error: "invalid" }, 400);
-    await sql()`delete from tippetuppen.friend_league_members
+    await sql()`delete from tippkaiser.friend_league_members
       where league_id = ${league.id} and user_id = ${memberId}`;
     return json({ ok: true, league: await detail(code, user.id) });
   }
@@ -243,7 +243,7 @@ export async function friendLeagueRoute(req: Request, route: string, q: URLSearc
     const league = await leagueByCode(code);
     if (!league || !(await memberOf(league.id, user.id))) return json({ ok: false, error: "not-found" }, 404);
     if (league.owner_user_id === user.id) return json({ ok: false, error: "owner" }, 409);
-    await sql()`delete from tippetuppen.friend_league_members
+    await sql()`delete from tippkaiser.friend_league_members
       where league_id = ${league.id} and user_id = ${user.id}`;
     return json({ ok: true });
   }
@@ -253,7 +253,7 @@ export async function friendLeagueRoute(req: Request, route: string, q: URLSearc
     const code = cleanCode(body.code);
     const league = await requireOwner(code, user.id);
     if (!league) return json({ ok: false, error: "forbidden" }, 403);
-    await sql()`delete from tippetuppen.friend_leagues where id = ${league.id}`;
+    await sql()`delete from tippkaiser.friend_leagues where id = ${league.id}`;
     return json({ ok: true });
   }
 

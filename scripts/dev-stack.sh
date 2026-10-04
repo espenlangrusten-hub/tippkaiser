@@ -16,6 +16,6 @@ SUPABASE_DB_URL="postgres://postgres@127.0.0.1:${PG_PORT:-5433}/postgres" \
 ADMIN_KEY="$ADMIN_KEY" \
 ANALYTICS_SALT="$ANALYTICS_SALT" \
   npx deno run --node-modules-dir=manual --allow-net --allow-env --allow-read \
-  --config supabase/functions/deno.json supabase/functions/api/index.ts > "$LOG_DIR/fn.log" 2>&1 &
+  --config supabase/functions/deno.json supabase/functions/kaiser-api/index.ts > "$LOG_DIR/fn.log" 2>&1 &
 until curl -sf -o /dev/null "http://localhost:8000/api/today?game=mangler-xi"; do sleep 1; done
 echo "DEV_STACK_READY api=http://localhost:8000/api"

@@ -1,4 +1,4 @@
-// Payload shapes stored in tippetuppen.puzzles.payload. Kept in step with src/server/puzzles/types.ts.
+// Payload shapes stored in tippkaiser.puzzles.payload. Kept in step with src/server/puzzles/types.ts.
 import type { Position } from "./positions.ts";
 
 export type ManglerXiPayload = {

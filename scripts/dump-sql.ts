@@ -54,14 +54,14 @@ const write = (body: string) => {
 };
 
 for (const t of TABLES) {
-  const res = (await db.execute(sql.raw(`select * from "tippetuppen"."${t}"`))) as unknown as
+  const res = (await db.execute(sql.raw(`select * from "tippkaiser"."${t}"`))) as unknown as
     | { rows: Record<string, unknown>[] }
     | Record<string, unknown>[];
   const rows = (Array.isArray(res) ? res : res.rows) as Record<string, unknown>[];
   if (!rows.length) continue;
   // Serial ids are regenerated on the target; text ids are kept.
   const cols = Object.keys(rows[0]).filter((c) => !(c === "id" && typeof rows[0].id === "number"));
-  const head = `insert into "tippetuppen"."${t}" (${cols.map((c) => `"${c}"`).join(",")}) values\n`;
+  const head = `insert into "tippkaiser"."${t}" (${cols.map((c) => `"${c}"`).join(",")}) values\n`;
   let values: string[] = [];
   let size = head.length;
   const flush = () => {

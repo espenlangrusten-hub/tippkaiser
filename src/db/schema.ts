@@ -18,7 +18,7 @@ export { POSITIONS };
 export type { Position };
 
 /** All Tippetuppen tables live in their own schema so the app can share a Postgres instance with other apps. */
-export const tt = pgSchema("tippetuppen");
+export const tt = pgSchema("tippkaiser");
 
 /**
  * Data-confidence model. Only `verified` and `single_source` records enter the

@@ -83,8 +83,8 @@ test("Målløs plays end-to-end with valid, invalid and duplicate answers", asyn
   await expect(page.getByText(/Svar lagt til/).first()).toBeVisible({ timeout: 10000 });
 
   const puzzleId = await page.evaluate(() => {
-    const k = Object.keys(localStorage).find((x) => x.startsWith("tt1:progress:maalloes:"));
-    return k ? k.replace("tt1:progress:maalloes:", "") : null;
+    const k = Object.keys(localStorage).find((x) => x.startsWith("tk1:progress:maalloes:"));
+    return k ? k.replace("tk1:progress:maalloes:", "") : null;
   });
   expect(puzzleId).toBeTruthy();
   await input.fill(valid);

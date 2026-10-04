@@ -18,7 +18,7 @@ type HomeGame = {
   recordSlug?: DailySlug;
   name: string;
   description: string;
-  art: "xi" | "goal" | "mystery" | "penalty" | "kjappen" | "trainer" | "word";
+  art: "xi" | "goal" | "mystery" | "penalty" | "trainer" | "word";
   image?: string;
 };
 
@@ -29,7 +29,6 @@ const games: HomeGame[] = [
   { slug: "straffespark", name: "Straffespark", description: "Fem nye spørsmål hver dag.", art: "penalty", image: "/design/penalty.webp" },
   { slug: "gullordet", recordSlug: "gullordet", name: "Gullordet", description: "Fem bokstaver. Seks forsøk.", art: "word" },
   { slug: "trener-genius", recordSlug: "trener-genius", name: "Trener Genius", description: "Fire spørsmål. Ett taktisk valg.", art: "trainer", image: "/trener-genius/card-retro.webp" },
-  { slug: "kjappen", name: "Kjappen", description: "2–4 spillere · 5 spørsmål", art: "kjappen" },
 ];
 
 export function TodayCards() {
@@ -91,8 +90,7 @@ export function TodayCards() {
                   game.slug === "finn-spilleren" ? (completed ? "Se resultat for Finn spilleren" : "Spill Finn spilleren") :
                   game.slug === "straffespark" ? "Spill Straffespark, dagens 5" :
                   game.slug === "gullordet" ? (completed ? "Se resultat for Gullordet" : "Spill Gullordet") :
-                  game.slug === "trener-genius" ? (completed ? "Se resultat for Trener Genius" : "Spill Trener Genius") :
-                  "Spill Kjappen quizshow med venner"
+                  completed ? "Se resultat for Trener Genius" : "Spill Trener Genius"
                 }
               >
                 <div className={s.gameArt}>
@@ -104,13 +102,11 @@ export function TodayCards() {
                 </div>
                 <div className={s.gameCopy}>
                   <div>
-                    {game.slug === "kjappen"
-                      ? <h3>{game.name}</h3>
-                      : <h2>{game.slug === "straffespark" ? "Straffespark" : game.name}</h2>}
+                    <h2>{game.name}</h2>
                     <p>{game.description}</p>
                   </div>
                   <span className={s.gameArrow} aria-hidden="true">→</span>
-                  <small>{completed ? "✓ Fullført" : game.slug === "kjappen" ? "Spill Kjappen →" : "NYE OPPGAVER HVER DAG"}</small>
+                  <small>{completed ? "✓ Fullført" : "NYE OPPGAVER HVER DAG"}</small>
                 </div>
               </Link>
             );

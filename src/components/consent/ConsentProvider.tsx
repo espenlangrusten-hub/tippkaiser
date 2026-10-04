@@ -19,7 +19,7 @@ type Ctx = { status: ConsentStatus; grant: () => void; deny: () => void; reopen:
 const ConsentCtx = createContext<Ctx>({ status: "not-required", grant: () => {}, deny: () => {}, reopen: () => {} });
 export const useConsent = () => useContext(ConsentCtx);
 
-const KEY = "tt1:consent";
+const KEY = "tk1:consent";
 const CMP = process.env.NEXT_PUBLIC_CMP ?? "";
 
 export function ConsentProvider({ children }: { children: React.ReactNode }) {

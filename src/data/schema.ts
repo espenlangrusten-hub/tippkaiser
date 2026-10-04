@@ -220,24 +220,6 @@ const straffesparkAnswer = z.object({
 export const STRAFFESPARK_CATEGORIES = ["spiller", "trener", "stadion", "klubb", "supportere", "landslag", "resultat"] as const;
 
 /**
- * Kjappen's own question bank.
- *
- * Separate from Straffespark on purpose: the two games draw from the same kind of
- * material, but this file is written for the quiz show and is not Straffespark's to
- * carry. Same shape as a trivia entry, same confidence rules - a question written from
- * memory sits at `recall` and never reaches a player until a source is attached.
- */
-export const kjappenFile = z.array(
-  z.object({
-    ...straffesparkBase,
-    category: z.enum(STRAFFESPARK_CATEGORIES),
-    prompt: z.string().min(8),
-    answer: straffesparkAnswer,
-    fact: z.string().optional(),
-  }),
-);
-
-/**
  * Gullordet: curated five-letter football words.
  *
  * answerEligible=false keeps a word valid as a guess without putting it into the
@@ -312,7 +294,7 @@ export const coachFile = z.array(
 /**
  * 400 questions about those coaches, graded 1–3: 1 is general knowledge, 2 is for the
  * interested, 3 is for the obsessive. Same shape and the same confidence rule as
- * Kjappen's bank - a question written from memory sits at `recall` and never reaches a
+ * the Straffespark trivia - a question written from memory sits at `recall` and never reaches a
  * player until the Wikipedia check (scripts/import/verify-trivia.ts) or a person has
  * attached a source. No game reads this file yet.
  */

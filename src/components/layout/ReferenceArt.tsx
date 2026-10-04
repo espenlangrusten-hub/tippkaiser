@@ -11,7 +11,6 @@ const windows = {
   goal: ["home", 342, 483, 248, 132],
   mystery: ["home", 606, 483, 238, 132],
   penalty: ["home", 861, 484, 246, 131],
-  kjappen: ["home", 1123, 484, 253, 131],
   friends: ["home", 778, 765, 267, 221],
   trophy: ["home", 1244, 822, 133, 163],
   profile: ["league", 32, 796, 461, 84],

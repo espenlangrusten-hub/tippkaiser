@@ -30,12 +30,10 @@ test("home presents Straffespark as a daily game after Finn spilleren", async ({
   await page.goto("/");
   const cards = await page.getByRole("region", { name: "Dagens spill" }).getByRole("heading", { level: 2 }).allTextContents();
   expect(cards).toHaveLength(6);
-  const trainer = page.getByRole("link", { name: "Spill Trener Genius", exact: true });
-  const kjappen = page.getByRole("link", { name: "Spill Kjappen quizshow med venner", exact: true });
-  await expect(trainer).toBeVisible();
-  const trainerBox = (await trainer.boundingBox())!;
-  const kjappenBox = (await kjappen.boundingBox())!;
-  expect(kjappenBox.y).toBeGreaterThanOrEqual(trainerBox.y + trainerBox.height);
+  // Six cards of one size: no card is stretched across the row.
+  const widths = await page.getByRole("region", { name: "Dagens spill" }).getByRole("link").evaluateAll((links) => links.map((l) => Math.round(l.getBoundingClientRect().width)));
+  expect(widths).toHaveLength(6);
+  expect(Math.max(...widths) - Math.min(...widths)).toBeLessThanOrEqual(1);
   expect(cards.findIndex((s) => s.includes("Finn spilleren"))).toBeGreaterThanOrEqual(0);
   expect(cards.findIndex((s) => s.includes("Straffespark"))).toBeGreaterThan(cards.findIndex((s) => s.includes("Finn spilleren")));
   expect(cards.some((s) => s.includes("Gullordet"))).toBe(true);

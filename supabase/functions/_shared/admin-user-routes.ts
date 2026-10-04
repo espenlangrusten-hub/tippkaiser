@@ -33,11 +33,11 @@ export async function adminUsers(url: URL) {
   const users = await sql()<UserRow[]>`
     select u.id, u.username, u.full_name as name, u.email, u.created_at,
            coalesce(r.points, 0)::int as points, coalesce(r.days, 0)::int as days, r.last_day,
-           (select max(s.created_at) from tippetuppen.sessions s where s.user_id = u.id) as last_login
-    from tippetuppen.users u
+           (select max(s.created_at) from tippkaiser.sessions s where s.user_id = u.id) as last_login
+    from tippkaiser.users u
     left join (
       select user_id, sum(league_points) as points, count(distinct date) as days, max(date) as last_day
-      from tippetuppen.league_results group by user_id
+      from tippkaiser.league_results group by user_id
     ) r on r.user_id = u.id
     where ${q} = ''
        or strpos(lower(u.username), ${q}) > 0
@@ -45,7 +45,7 @@ export async function adminUsers(url: URL) {
        or strpos(lower(coalesce(u.email, '')), ${q}) > 0
     order by u.created_at desc
     limit ${LIST_LIMIT}`;
-  const [{ total }] = await sql()<{ total: number }[]>`select count(*)::int as total from tippetuppen.users`;
+  const [{ total }] = await sql()<{ total: number }[]>`select count(*)::int as total from tippkaiser.users`;
   return json({ ok: true, total, users });
 }
 
@@ -63,14 +63,14 @@ export async function adminUserUpdate(req: Request) {
   try {
     return await sql().begin(async (tx) => {
       const [before] = await tx<{ username: string; name: string | null; email: string | null }[]>`
-        select username, full_name as name, email from tippetuppen.users where id = ${body.userId as string} for update`;
+        select username, full_name as name, email from tippkaiser.users where id = ${body.userId as string} for update`;
       if (!before) return json({ ok: false, error: "not-found" }, 404);
       await tx`
-        update tippetuppen.users
+        update tippkaiser.users
         set username = ${parsed.username}, username_normalized = ${parsed.normalized}, full_name = ${name}, email = ${email}
         where id = ${body.userId as string}`;
       const after = { username: parsed.username, name, email };
-      await tx`insert into tippetuppen.admin_audit (action, details)
+      await tx`insert into tippkaiser.admin_audit (action, details)
         values ('user_updated', ${sql().json({ userId: body.userId as string, before, after })}::jsonb)`;
       return json({ ok: true, user: { id: body.userId, ...after } });
     });
@@ -89,29 +89,29 @@ export async function adminUserDelete(req: Request) {
 
   return await sql().begin(async (tx) => {
     const [user] = await tx<{ id: string; username: string; name: string | null; email: string | null; created_at: string }[]>`
-      select id, username, full_name as name, email, created_at from tippetuppen.users where id = ${userId} for update`;
+      select id, username, full_name as name, email, created_at from tippkaiser.users where id = ${userId} for update`;
     if (!user) return json({ ok: false, error: "not-found" }, 404);
     // The operator types the username back: a mis-tap on the wrong row cannot delete anyone.
     if (confirm !== user.username.toLowerCase()) return json({ ok: false, error: "confirm-mismatch" }, 400);
 
     const [footprint] = await tx<{ points: number; results: number }[]>`
       select coalesce(sum(league_points), 0)::int as points, count(*)::int as results
-      from tippetuppen.league_results where user_id = ${userId}`;
+      from tippkaiser.league_results where user_id = ${userId}`;
 
     const handedOver: { leagueId: string; to: string }[] = [];
-    const owned = await tx<{ id: string }[]>`select id from tippetuppen.friend_leagues where owner_user_id = ${userId}`;
+    const owned = await tx<{ id: string }[]>`select id from tippkaiser.friend_leagues where owner_user_id = ${userId}`;
     for (const league of owned) {
       const [heir] = await tx<{ user_id: string }[]>`
-        select user_id from tippetuppen.friend_league_members
+        select user_id from tippkaiser.friend_league_members
         where league_id = ${league.id} and user_id <> ${userId}
         order by joined_at, user_id limit 1`;
       if (!heir) continue;
-      await tx`update tippetuppen.friend_leagues set owner_user_id = ${heir.user_id} where id = ${league.id}`;
+      await tx`update tippkaiser.friend_leagues set owner_user_id = ${heir.user_id} where id = ${league.id}`;
       handedOver.push({ leagueId: league.id, to: heir.user_id });
     }
 
-    await tx`delete from tippetuppen.users where id = ${userId}`;
-    await tx`insert into tippetuppen.admin_audit (action, details)
+    await tx`delete from tippkaiser.users where id = ${userId}`;
+    await tx`insert into tippkaiser.admin_audit (action, details)
       values ('user_deleted', ${sql().json({ user, ...footprint, leaguesHandedOver: handedOver, leaguesDeleted: owned.length - handedOver.length })}::jsonb)`;
     return json({ ok: true, deleted: user.username, leaguesHandedOver: handedOver.length, leaguesDeleted: owned.length - handedOver.length });
   });

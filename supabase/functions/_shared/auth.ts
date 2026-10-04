@@ -43,7 +43,7 @@ function safeEqual(a: string, b: string) {
 async function userById(userId: string): Promise<AuthUser | null> {
   const rows = await sql()<{ id: string; username: string; name: string | null; email: string | null; avatar_id: number | null }[]>`
     select id, username, full_name as name, email, avatar_id
-    from tippetuppen.users
+    from tippkaiser.users
     where id = ${userId}`;
   const row = rows[0];
   return row ? { id: row.id, username: row.username, name: row.name, email: row.email, avatarId: row.avatar_id } : null;
@@ -64,7 +64,7 @@ export async function createUser(rawUsername: string, password: string) {
   const salt = randomHex(16);
   const id = crypto.randomUUID();
   try {
-    await sql()`insert into tippetuppen.users (id, username, username_normalized, password_hash, password_salt)
+    await sql()`insert into tippkaiser.users (id, username, username_normalized, password_hash, password_salt)
       values (${id}, ${parsed.username}, ${parsed.normalized}, ${await passwordHash(password, salt)}, ${salt})`;
   } catch (error) {
     if (String(error).includes("users_username_normalized")) return { ok: false as const, error: "taken" };
@@ -78,7 +78,7 @@ export async function loginUser(rawUsername: string, password: string) {
   if (!parsed || password.length > 128) return { ok: false as const, error: "credentials" };
   const rows = await sql()<{ id: string; password_hash: string; password_salt: string }[]>`
     select id, password_hash, password_salt
-    from tippetuppen.users
+    from tippkaiser.users
     where username_normalized = ${parsed.normalized}`;
   const user = rows[0];
   if (!user || !safeEqual(await passwordHash(password, user.password_salt), user.password_hash)) {
@@ -90,7 +90,7 @@ export async function loginUser(rawUsername: string, password: string) {
 async function issueSession(userId: string) {
   const token = randomHex(32);
   const expiresAt = new Date(Date.now() + SESSION_DAYS * 86_400_000);
-  await sql()`insert into tippetuppen.sessions (token_hash, user_id, expires_at)
+  await sql()`insert into tippkaiser.sessions (token_hash, user_id, expires_at)
     values (${await sha256(token)}, ${userId}, ${expiresAt})`;
   const user = await userById(userId);
   if (!user) throw new Error("session user missing");
@@ -102,8 +102,8 @@ export async function currentUser(req: Request): Promise<AuthUser | null> {
   if (!token || !/^[a-f0-9]{64}$/.test(token)) return null;
   const rows = await sql()<{ id: string; username: string; name: string | null; email: string | null; avatar_id: number | null }[]>`
     select u.id, u.username, u.full_name as name, u.email, u.avatar_id
-    from tippetuppen.sessions s
-    join tippetuppen.users u on u.id = s.user_id
+    from tippkaiser.sessions s
+    join tippkaiser.users u on u.id = s.user_id
     where s.token_hash = ${await sha256(token)} and s.expires_at > now()`;
   const row = rows[0];
   return row ? { id: row.id, username: row.username, name: row.name, email: row.email, avatarId: row.avatar_id } : null;
@@ -115,7 +115,7 @@ export async function changePassword(req: Request, currentPassword: string, newP
   if (!user) return { ok: false as const, error: "unauthorised" };
 
   const rows = await sql()<{ password_hash: string; password_salt: string }[]>`
-    select password_hash, password_salt from tippetuppen.users where id = ${user.id}`;
+    select password_hash, password_salt from tippkaiser.users where id = ${user.id}`;
   const credentials = rows[0];
   if (!credentials || !safeEqual(await passwordHash(currentPassword, credentials.password_salt), credentials.password_hash)) {
     return { ok: false as const, error: "current-password" };
@@ -124,8 +124,8 @@ export async function changePassword(req: Request, currentPassword: string, newP
   const salt = randomHex(16);
   const hash = await passwordHash(newPassword, salt);
   await sql().begin(async (tx) => {
-    await tx`update tippetuppen.users set password_hash = ${hash}, password_salt = ${salt} where id = ${user.id}`;
-    await tx`delete from tippetuppen.sessions where user_id = ${user.id}`;
+    await tx`update tippkaiser.users set password_hash = ${hash}, password_salt = ${salt} where id = ${user.id}`;
+    await tx`delete from tippkaiser.sessions where user_id = ${user.id}`;
   });
   return issueSession(user.id);
 }
@@ -133,6 +133,6 @@ export async function changePassword(req: Request, currentPassword: string, newP
 export async function logoutUser(req: Request) {
   const token = req.headers.get("x-session-token");
   if (token && /^[a-f0-9]{64}$/.test(token)) {
-    await sql()`delete from tippetuppen.sessions where token_hash = ${await sha256(token)}`;
+    await sql()`delete from tippkaiser.sessions where token_hash = ${await sha256(token)}`;
   }
 }

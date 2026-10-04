@@ -71,7 +71,7 @@ describe("hintet i Mangler XI", () => {
   it("gir ett faktum per kall, ikke hele arket", () => {
     // Hele lista i ett svar selger arket for prisen av ett forsøk til enhver som åpner
     // nettverksfanen - og forsøket er nettopp det hintet skal koste.
-    const api = read("supabase", "functions", "api", "index.ts");
+    const api = read("supabase", "functions", "kaiser-api", "index.ts");
     expect(api).toContain('if (kind === "fact")');
     expect(api).toMatch(/const fact = player\.facts\?\.\[at\]/);
     expect(api).not.toMatch(/facts: player\.facts\b/);
@@ -81,7 +81,7 @@ describe("hintet i Mangler XI", () => {
     // /reveal uten indeks er gi-opp-ruten og returnerer alle elleve svarene. Et hint
     // med en indeks som ikke finnes falt gjennom til nettopp den grenen, og avsluttet
     // runden for en innlogget spiller på grunn av en skrivefeil i et tall.
-    const api = read("supabase", "functions", "api", "index.ts");
+    const api = read("supabase", "functions", "kaiser-api", "index.ts");
     expect(api).toMatch(/if \(hint && \(typeof index !== "number" \|\| !payload\.players\[index\]\)\) return bad\(/);
   });
 

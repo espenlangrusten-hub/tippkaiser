@@ -1,4 +1,4 @@
-CREATE TABLE "tippetuppen"."kjappen_games" (
+CREATE TABLE "tippkaiser"."kjappen_games" (
 	"code" text PRIMARY KEY NOT NULL,
 	"phase" text DEFAULT 'lobby' NOT NULL,
 	"round" integer DEFAULT 0 NOT NULL,
@@ -10,7 +10,7 @@ CREATE TABLE "tippetuppen"."kjappen_games" (
 	"updated_at" timestamp with time zone DEFAULT now() NOT NULL
 );
 --> statement-breakpoint
-CREATE TABLE "tippetuppen"."kjappen_players" (
+CREATE TABLE "tippkaiser"."kjappen_players" (
 	"id" text PRIMARY KEY NOT NULL,
 	"code" text NOT NULL,
 	"name" text NOT NULL,
@@ -20,7 +20,7 @@ CREATE TABLE "tippetuppen"."kjappen_players" (
 	"joined_at" timestamp with time zone DEFAULT now() NOT NULL
 );
 --> statement-breakpoint
-CREATE TABLE "tippetuppen"."kjappen_questions" (
+CREATE TABLE "tippkaiser"."kjappen_questions" (
 	"id" text PRIMARY KEY NOT NULL,
 	"prompt" text NOT NULL,
 	"answer" text NOT NULL,
@@ -29,7 +29,7 @@ CREATE TABLE "tippetuppen"."kjappen_questions" (
 	"sources" jsonb DEFAULT '[]'::jsonb NOT NULL
 );
 --> statement-breakpoint
-ALTER TABLE "tippetuppen"."kjappen_players" ADD CONSTRAINT "kjappen_players_code_kjappen_games_code_fk" FOREIGN KEY ("code") REFERENCES "tippetuppen"."kjappen_games"("code") ON DELETE cascade ON UPDATE no action;--> statement-breakpoint
-CREATE INDEX "kjappen_games_created" ON "tippetuppen"."kjappen_games" USING btree ("created_at");--> statement-breakpoint
-CREATE UNIQUE INDEX "kjappen_players_seat" ON "tippetuppen"."kjappen_players" USING btree ("code","seat");--> statement-breakpoint
-CREATE INDEX "kjappen_players_code" ON "tippetuppen"."kjappen_players" USING btree ("code");
+ALTER TABLE "tippkaiser"."kjappen_players" ADD CONSTRAINT "kjappen_players_code_kjappen_games_code_fk" FOREIGN KEY ("code") REFERENCES "tippkaiser"."kjappen_games"("code") ON DELETE cascade ON UPDATE no action;--> statement-breakpoint
+CREATE INDEX "kjappen_games_created" ON "tippkaiser"."kjappen_games" USING btree ("created_at");--> statement-breakpoint
+CREATE UNIQUE INDEX "kjappen_players_seat" ON "tippkaiser"."kjappen_players" USING btree ("code","seat");--> statement-breakpoint
+CREATE INDEX "kjappen_players_code" ON "tippkaiser"."kjappen_players" USING btree ("code");
