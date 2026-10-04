@@ -150,7 +150,7 @@
   font-size: 13px;
 }
 .progress > span::before  {
- content: "Dagens fremgang";
+ content: "Fortschritt des Tages";
  display: block;
  margin-bottom: 12px;
  font: 700 21px/1 Georgia,"Times New Roman",serif;

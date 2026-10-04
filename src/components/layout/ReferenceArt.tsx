@@ -25,6 +25,9 @@ const windows = {
 const standalone: Partial<Record<keyof typeof windows, string>> = {
   logo: "/brand/logo.webp",
   homeHero: "/design/home-hero.webp",
+  friends: "/design/friends.webp",
+  // The old strip showed a player in Norway's red shirt; the hero's number 10 stands in.
+  profile: "/design/home-hero.webp",
 };
 
 export function ReferenceArt({ name, className = "" }: { name: keyof typeof windows; className?: string }) {
@@ -32,7 +35,7 @@ export function ReferenceArt({ name, className = "" }: { name: keyof typeof wind
   if (own) {
     return <span className={`reference-art ${className}`} aria-hidden="true" style={{ display: "block", position: "relative", overflow: "hidden", width: "100%", height: "100%" }}>
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src={`${BASE_PATH}${own}`} alt="" draggable={false} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: name === "logo" ? "contain" : "cover", objectPosition: name === "homeHero" ? "right center" : "center" }} />
+      <img src={`${BASE_PATH}${own}`} alt="" draggable={false} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: name === "logo" ? "contain" : "cover", objectPosition: name === "homeHero" || name === "friends" ? "right center" : "center" }} />
     </span>;
   }
   const [sheet, x, y, width, height] = windows[name];
