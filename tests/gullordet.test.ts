@@ -3,11 +3,11 @@ import { evaluateGullordet, gullordetScore, isGullordetWord, normalizeGullordetW
 import { isNorwegianGullordetGuess } from "@/lib/gullordet-dictionary";
 
 describe("Gullordet", () => {
-  it("normalizes Norwegian letters without anglicising them", () => {
-    expect(normalizeGullordetWord("  høgli ")).toBe("HØGLI");
-    expect(isGullordetWord("ÅSANE")).toBe(true);
-    expect(isGullordetWord("BRANN")).toBe(true);
-    expect(isGullordetWord("MÅL")).toBe(false);
+  it("keeps the umlauts as letters of their own", () => {
+    expect(normalizeGullordetWord("  götze ")).toBe("GÖTZE");
+    expect(isGullordetWord("GÖTZE")).toBe(true);
+    expect(isGullordetWord("KLOSE")).toBe(true);
+    expect(isGullordetWord("TOR")).toBe(false);
   });
 
   it("accepts ordinary Bokmål words as guesses without making them daily answers", () => {

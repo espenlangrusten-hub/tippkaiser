@@ -1,7 +1,8 @@
 "use client";
 import type { TileState } from "@/lib/tiles";
 
-const ROWS = ["QWERTYUIOPÅ", "ASDFGHJKLØÆ", "ZXCVBNM"];
+// German QWERTZ, with the umlauts where a German keyboard has them.
+const ROWS = ["QWERTZUIOPÜ", "ASDFGHJKLÖÄ", "YXCVBNM"];
 
 export function Keyboard({ states, onKey, disabled }: { states: Record<string, Exclude<TileState, "space">>; onKey: (k: string) => void; disabled?: boolean }) {
   return (
@@ -9,8 +10,8 @@ export function Keyboard({ states, onKey, disabled }: { states: Record<string, E
       {ROWS.map((row, ri) => (
         <div key={row} className="flex justify-center gap-1">
           {ri === 2 && (
-            <button type="button" className="key key-wide" onClick={() => onKey("ENTER")} disabled={disabled} aria-label="Send inn">
-              GJETT
+            <button type="button" className="key key-wide" onClick={() => onKey("ENTER")} disabled={disabled} aria-label="Absenden">
+              RATEN
             </button>
           )}
           {row.split("").map((k) => (
@@ -19,7 +20,7 @@ export function Keyboard({ states, onKey, disabled }: { states: Record<string, E
             </button>
           ))}
           {ri === 2 && (
-            <button type="button" className="key key-wide" onClick={() => onKey("BACKSPACE")} disabled={disabled} aria-label="Slett">
+            <button type="button" className="key key-wide" onClick={() => onKey("BACKSPACE")} disabled={disabled} aria-label="Löschen">
               ⌫
             </button>
           )}

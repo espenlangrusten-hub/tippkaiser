@@ -120,7 +120,7 @@ export function ManglerXiGame({ puzzle, isArchive, today }: { puzzle: MaskedPuzz
     if (typed.length < totalLetters) {
       setShake(true);
       window.setTimeout(() => setShake(false), 300);
-      showToast("For få bokstaver");
+      showToast("Zu wenige Buchstaben");
       return;
     }
     // Insert spaces according to word lengths.
@@ -132,7 +132,7 @@ export function ManglerXiGame({ puzzle, isArchive, today }: { puzzle: MaskedPuzz
     });
     const guess = words.join(" ");
     if (activeState.guesses.includes(guess)) {
-      showToast("Allerede gjettet");
+      showToast("Schon geraten");
       return;
     }
     setBusy(true);
@@ -144,7 +144,7 @@ export function ManglerXiGame({ puzzle, isArchive, today }: { puzzle: MaskedPuzz
         guess,
       });
       if (!data.ok || !data.tiles) {
-        showToast("Noe gikk galt – prøv igjen");
+        showToast("Etwas ist schiefgelaufen – versuch es noch einmal");
         return;
       }
       const i = state.active;
@@ -162,7 +162,7 @@ export function ManglerXiGame({ puzzle, isArchive, today }: { puzzle: MaskedPuzz
       const next: GameState = { ...state, players, startedAt: state.startedAt ?? new Date().toISOString() };
       setTyped("");
       if (ps.solved) showToast(`${data.name}!`);
-      else if (ps.failed) showToast("Ingen forsøk igjen");
+      else if (ps.failed) showToast("Keine Versuche mehr");
       if (allDone) {
         // Fetch names for failed players.
         const rev = await apiPost<{ ok: boolean; players?: { name: string; answer: string }[]; notes?: string | null }>("/reveal", { puzzleId: puzzle.puzzleId });
@@ -192,7 +192,7 @@ export function ManglerXiGame({ puzzle, isArchive, today }: { puzzle: MaskedPuzz
         setTyped((t) => (t.length > min ? t.slice(0, -1) : t));
         return;
       }
-      if (/^[A-ZÆØÅ]$/.test(k) && typed.length < totalLetters) setTyped((t) => t + k);
+      if (/^[A-ZÄÖÜ]$/.test(k) && typed.length < totalLetters) setTyped((t) => t + k);
     },
     [state, active, activeState, submit, typed.length, totalLetters],
   );
@@ -205,7 +205,7 @@ export function ManglerXiGame({ puzzle, isArchive, today }: { puzzle: MaskedPuzz
       if (t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA")) return;
       if (e.key === "Enter") onKey("ENTER");
       else if (e.key === "Backspace") onKey("BACKSPACE");
-      else if (/^[a-zA-ZæøåÆØÅ]$/.test(e.key)) onKey(e.key.toUpperCase());
+      else if (/^[a-zA-ZäöüÄÖÜ]$/.test(e.key)) onKey(e.key.toUpperCase());
     };
     window.addEventListener("keydown", h);
     return () => window.removeEventListener("keydown", h);
@@ -213,7 +213,7 @@ export function ManglerXiGame({ puzzle, isArchive, today }: { puzzle: MaskedPuzz
 
   const hint = async () => {
     if (!state || state.active == null || !activeState || activeState.hint || busy) return;
-    if (triesUsed(activeState) >= MAX_TRIES - 1) return showToast("Ikke nok forsøk igjen");
+    if (triesUsed(activeState) >= MAX_TRIES - 1) return showToast("Nicht genug Versuche übrig");
     setBusy(true);
     try {
       const d = await apiPost<{ ok: boolean; letter?: string }>("/reveal", { puzzleId: puzzle.puzzleId, index: state.active, hint: true });
@@ -230,7 +230,7 @@ export function ManglerXiGame({ puzzle, isArchive, today }: { puzzle: MaskedPuzz
   const factHint = async () => {
     if (!state || state.active == null || !activeState || busy) return;
     const bought = activeState.facts?.length ?? 0;
-    if (triesUsed(activeState) >= MAX_TRIES - 1) return showToast("Ikke nok forsøk igjen");
+    if (triesUsed(activeState) >= MAX_TRIES - 1) return showToast("Nicht genug Versuche übrig");
     setBusy(true);
     try {
       const d = await apiPost<{ ok: boolean; fact?: string | null; remaining?: number }>("/reveal", {
@@ -238,9 +238,9 @@ export function ManglerXiGame({ puzzle, isArchive, today }: { puzzle: MaskedPuzz
       });
       // Refused by the server: nothing was spent, so say so instead of a button that
       // silently does nothing.
-      if (!d.ok) return showToast("Fikk ikke hentet fakta – prøv igjen");
+      if (!d.ok) return showToast("Fakten konnten nicht geladen werden – versuch es noch einmal");
       // The server spends no guess when it has nothing left to tell, so neither do we.
-      if (!d.fact) return showToast("Ingen flere fakta om denne spilleren");
+      if (!d.fact) return showToast("Keine weiteren Fakten zu diesem Spieler");
       const i = state.active;
       setState({
         ...state,
@@ -257,11 +257,11 @@ export function ManglerXiGame({ puzzle, isArchive, today }: { puzzle: MaskedPuzz
     setBusy(true);
     try {
       const rev = await apiPost<{ ok: boolean; players?: { name: string; answer: string }[]; notes?: string | null }>("/reveal", { puzzleId: puzzle.puzzleId });
-      if (!rev.ok || !rev.players) { setToast("Kunne ikke avslutte runden. Prøv igjen."); return; }
+      if (!rev.ok || !rev.players) { setToast("Die Runde konnte nicht beendet werden. Versuch es noch einmal."); return; }
       const players = state.players.map((p, j) => (p.solved ? p : { ...p, failed: true, name: rev.players?.[j]?.name }));
       finish({ ...state, players }, true, rev.players ?? null, rev.notes ?? null);
     } catch {
-      setToast("Fikk ikke kontakt. Prøv igjen.");
+      setToast("Keine Verbindung. Versuch es noch einmal.");
     } finally {
       setBusy(false);
       setConfirmGiveUp(false);
@@ -294,50 +294,50 @@ export function ManglerXiGame({ puzzle, isArchive, today }: { puzzle: MaskedPuzz
 
   const found = state.players.filter((p) => p.solved).length;
   const triesTotal = state.players.reduce((a, p) => a + triesUsed(p), 0);
-  const scoreline = puzzle.norwayHome ? `Norge ${puzzle.score[0]}–${puzzle.score[1]} ${puzzle.opponent}` : `${puzzle.opponent} ${puzzle.score[1]}–${puzzle.score[0]} Norge`;
+  const scoreline = puzzle.norwayHome ? `Deutschland ${puzzle.score[0]}–${puzzle.score[1]} ${puzzle.opponent}` : `${puzzle.opponent} ${puzzle.score[1]}–${puzzle.score[0]} Deutschland`;
   const broadPositionsOnly = puzzle.matchDate === "1998-10-14" && puzzle.opponent === "Albania";
   const interpretiveTunisia = puzzle.matchDate === "1990-11-07" && puzzle.opponent === "Tunisia";
 
   return (
     <div className={`${design.shell} ${active ? design.hasActive : ""}`}>
       {/* Match header */}
-      <div className={design.match}><div className={design.matchArt}><ReferenceArt name="ground" /></div><p className={design.matchKicker}>Dagens kamp · {formatShortDateNo(puzzle.matchDate)}</p>
+      <div className={design.match}><div className={design.matchArt}><ReferenceArt name="ground" /></div><p className={design.matchKicker}>Spiel des Tages · {formatShortDateNo(puzzle.matchDate)}</p>
         <div className={design.scoreline}>{scoreline}</div>
         <div className={design.matchMeta}>
-          {broadPositionsOnly ? "EM-kvalifisering 1998" : puzzle.stage ?? puzzle.competition}
+          {broadPositionsOnly ? "EM-Qualifikation 1998" : puzzle.stage ?? puzzle.competition}
           {!broadPositionsOnly && puzzle.formation ? ` · ${puzzle.formation}` : ""}
-          {interpretiveTunisia ? " · Vist som 4–4–2 (tolket plassering)" : ""}
+          {interpretiveTunisia ? " · Als 4–4–2 dargestellt (Positionen gedeutet)" : ""}
         </div>
         <details className={design.matchDetails}>
-          <summary>Kampinfo · {formatShortDateNo(puzzle.matchDate)}</summary>
-          <div className={design.edition}>Mangler XI #{puzzle.number}{isArchive && " · arkiv"}</div>
+          <summary>Spielinfo · {formatShortDateNo(puzzle.matchDate)}</summary>
+          <div className={design.edition}>Fehlende Elf #{puzzle.number}{isArchive && " · Archiv"}</div>
           {puzzle.venue && <p>{puzzle.venue}{puzzle.city ? `, ${puzzle.city}` : ""}</p>}
           {!puzzle.venue && puzzle.city && <p>{puzzle.city}</p>}
-          {puzzle.manager && <p>Landslagssjef: {puzzle.manager}</p>}
-          {puzzle.opponentScorers.length > 0 && <p>Mål {puzzle.opponent}: {formatScorers(puzzle.opponentScorers)}</p>}
+          {puzzle.manager && <p>Bundestrainer: {puzzle.manager}</p>}
+          {puzzle.opponentScorers.length > 0 && <p>Tore {puzzle.opponent}: {formatScorers(puzzle.opponentScorers)}</p>}
         </details>
       </div>
 
       {state.finished && <div className={design.result}><ResultCard puzzle={puzzle} state={state} rows={rows} found={found} tries={triesTotal} isArchive={isArchive} today={today} /></div>}
 
       <div className={design.progress}>
-        <span><b>{found}</b> av 11 funnet</span>
-        <div className={design.progressDots} role="progressbar" aria-label="Spillere funnet" aria-valuenow={found} aria-valuemin={0} aria-valuemax={11}>
+        <span><b>{found}</b> von 11 gefunden</span>
+        <div className={design.progressDots} role="progressbar" aria-label="Gefundene Spieler" aria-valuenow={found} aria-valuemin={0} aria-valuemax={11}>
           {state.players.map((_, i) => <span key={i} className={i < found ? design.dotFound : ""} />)}
         </div>
       </div>
 
       <aside className={design.sidebar}>
         <section className={design.statCard}>
-          <h2>Dagens statistikk</h2>
-          <div className={design.statNumbers}><div><span>Riktige spillere</span><b>{found} / 11</b></div><div><span>Forsøk brukt</span><b>{triesTotal}</b></div></div>
+          <h2>Statistik des Tages</h2>
+          <div className={design.statNumbers}><div><span>Richtige Spieler</span><b>{found} / 11</b></div><div><span>Versuche</span><b>{triesTotal}</b></div></div>
         </section>
-        <section className={design.cheerCard}><h2>Heia Norge!</h2><p>Én lagoppstilling.<br />Elleve navn.<br />Hvor mange husker du?</p><div><ReferenceArt name="cheer" /></div></section>
-        <section className={design.aboutCard}><h2>Om Manglende 11</h2><p>Hver dag får du en ny lagoppstilling fra en kjent kamp. Trykk på en drakt og gjett etternavnet. Du får seks forsøk per spiller og ledetråder underveis.</p><Link href="/arkiv/">Se tidligere kamper →</Link><div><ReferenceArt name="ball" /></div></section>
+        <section className={design.cheerCard}><h2>Auf geht’s, Deutschland!</h2><p>Eine Aufstellung.<br />Elf Namen.<br />Wie viele kennst du noch?</p><div><ReferenceArt name="cheer" /></div></section>
+        <section className={design.aboutCard}><h2>Über Fehlende Elf</h2><p>Jeden Tag bekommst du eine neue Aufstellung aus einem bekannten Spiel. Tippe auf ein Trikot und errate den Nachnamen. Du hast sechs Versuche pro Spieler und bekommst unterwegs Hinweise.</p><Link href="/arkiv/">Frühere Spiele ansehen →</Link><div><ReferenceArt name="ball" /></div></section>
       </aside>
 
       {/* Pitch */}
-      {broadPositionsOnly && <p className={design.notice}>Vist som 4–4–2 med Håland på midtbanen. Eksakt kampformasjon og draktnumre er ikke dokumentert.</p>}
+      {broadPositionsOnly && <p className={design.notice}>Als 4–4–2 dargestellt. Die genaue Formation und die Rückennummern sind nicht belegt.</p>}
       <div className={`mxi-pitch ${design.pitch}`}>
         <div className={design.pitchLines} aria-hidden="true">
           <svg viewBox="0 0 1000 470" preserveAspectRatio="none" fill="none" stroke="#edeed6" strokeWidth="2" opacity=".78">
@@ -386,7 +386,7 @@ export function ManglerXiGame({ puzzle, isArchive, today }: { puzzle: MaskedPuzz
             if (!learned.length) return null;
             return (
               <div className="mt-3 border-t border-line pt-3">
-                <h4 className="font-display text-base font-bold uppercase text-mist">Visste du</h4>
+                <h4 className="font-display text-base font-bold uppercase text-mist">Schon gewusst?</h4>
                 <ul className="mt-1.5 flex flex-col gap-1.5 text-sm">
                   {learned.map((x) => (
                     <li key={x.name}>
@@ -409,8 +409,8 @@ export function ManglerXiGame({ puzzle, isArchive, today }: { puzzle: MaskedPuzz
           <div className={design.panelBody}>
             {active && activeState ? (
               <>
-                <h2 className={design.playerTitle}>{active.no != null ? `Spiller ${active.no}` : "Hvem er spilleren?"}</h2>
-                <p className={design.answerPrompt}>Skriv etternavnet</p>
+                <h2 className={design.playerTitle}>{active.no != null ? `Spieler ${active.no}` : "Wer ist der Spieler?"}</h2>
+                <p className={design.answerPrompt}>Schreib den Nachnamen</p>
                 <div className={design.playerMeta}>
                   <span>
                     {active.no != null && <b className="font-display text-base text-snow">#{active.no} </b>}
@@ -419,10 +419,10 @@ export function ManglerXiGame({ puzzle, isArchive, today }: { puzzle: MaskedPuzz
                     {active.goals ? ` · ${"⚽".repeat(active.goals)}` : ""}
                   </span>
                   <span>
-                    Forsøk {triesUsed(activeState) + 1}/{MAX_TRIES}
+                    Versuch {triesUsed(activeState) + 1}/{MAX_TRIES}
                     {!activeState.hint && (
                       <button type="button" onClick={hint} className="ml-3 rounded-md bg-ink-3 px-2 py-0.5 font-semibold text-snow hover:bg-line-2">
-                        Første bokstav
+                        Erster Buchstabe
                       </button>
                     )}
                     <button type="button" onClick={factHint} className="ml-2 rounded-md bg-ink-3 px-2 py-0.5 font-semibold text-snow hover:bg-line-2">
@@ -462,15 +462,15 @@ export function ManglerXiGame({ puzzle, isArchive, today }: { puzzle: MaskedPuzz
                 <div className={design.keyboard}>
                   <Keyboard states={keyboardStates(activeState.guesses, activeState.guesses.length ? activeState.guesses[0].replace(/[^ ]/g, "?") : "")} onKey={onKey} disabled={busy} />
                 </div>
-                <button type="button" className={design.submit} onClick={() => void submit()} disabled={busy}>{busy ? "Sjekker …" : "Sjekk svar"}</button>
-                <button type="button" className={design.changePlayer} onClick={() => { setState({ ...state, active: null }); setTyped(""); }}>Velg en annen spiller</button>
+                <button type="button" className={design.submit} onClick={() => void submit()} disabled={busy}>{busy ? "Wird geprüft …" : "Antwort prüfen"}</button>
+                <button type="button" className={design.changePlayer} onClick={() => { setState({ ...state, active: null }); setTyped(""); }}>Anderen Spieler wählen</button>
               </>
             ) : (
-              <div className={design.emptyPanel}><span aria-hidden="true">?</span><h2>Hvem startet kampen?</h2><p>Trykk på en drakt for å gjette spilleren.</p><small>Seks forsøk per spiller</small></div>
+              <div className={design.emptyPanel}><span aria-hidden="true">?</span><h2>Wer stand in der Startelf?</h2><p>Tippe auf ein Trikot, um den Spieler zu erraten.</p><small>Sechs Versuche pro Spieler</small></div>
             )}
-            <div className={design.legend}><span><i />Riktig plass</span><span><i />Feil plass</span><span><i />Ikke i navnet</span></div>
+            <div className={design.legend}><span><i />Richtige Stelle</span><span><i />Falsche Stelle</span><span><i />Nicht im Namen</span></div>
             <div className={design.panelActions}>
-              <button type="button" onClick={() => setShowIntro(true)}>Slik spiller du</button>
+              <button type="button" onClick={() => setShowIntro(true)}>So wird gespielt</button>
               <button type="button" onClick={() => setConfirmGiveUp(true)}>⚑ Gi opp</button>
             </div>
           </div>
@@ -480,8 +480,8 @@ export function ManglerXiGame({ puzzle, isArchive, today }: { puzzle: MaskedPuzz
       {toast && <div className="fixed left-1/2 top-20 z-50 -translate-x-1/2 rounded-xl bg-snow px-4 py-2 font-semibold text-ink shadow-lg">{toast}</div>}
 
       {confirmGiveUp && (
-        <Modal onClose={() => setConfirmGiveUp(false)} title="Gi opp?">
-          <p className="text-sm text-mist">Du beholder poengene for de {found} spillerne du har funnet, inkludert bonus for få forsøk. Resten gir 0 poeng og blir avslørt. Runden avsluttes.</p>
+        <Modal onClose={() => setConfirmGiveUp(false)} title="Aufgeben?">
+          <p className="text-sm text-mist">Du behältst die Punkte für die {found} Spieler, die du gefunden hast, einschließlich des Bonus für wenige Versuche. Der Rest gibt 0 Punkte und wird aufgedeckt. Die Runde endet.</p>
           <div className="mt-4 flex gap-2">
             <button className="btn btn-secondary flex-1" onClick={() => setConfirmGiveUp(false)}>
               Fortsett
@@ -494,18 +494,18 @@ export function ManglerXiGame({ puzzle, isArchive, today }: { puzzle: MaskedPuzz
       )}
 
       {showIntro && (
-        <Modal onClose={dismissIntro} title="Slik spiller du Mangler XI">
+        <Modal onClose={dismissIntro} title="So spielst du Fehlende Elf">
           <ol className="list-decimal space-y-2 pl-5 text-sm text-mist">
-            <li>Dette er Norges startellever fra en ekte landskamp. Du ser motstander og resultat; posisjoner vises når de er dokumentert i kilden.</li>
-            <li>Trykk på en drakt og skriv etternavnet bokstav for bokstav. Prikkene viser hvor mange bokstaver navnet har.</li>
+            <li>Das ist Deutschlands Startelf aus einem echten Länderspiel. Du siehst Gegner und Ergebnis; Positionen werden gezeigt, wenn sie in der Quelle belegt sind.</li>
+            <li>Tippe auf ein Trikot und schreib den Nachnamen Buchstabe für Buchstabe. Die Punkte zeigen, wie viele Buchstaben der Name hat.</li>
             <li>
-              Etter hvert forsøk farges bokstavene: <span className="rounded bg-correct px-1 text-ink">grønn</span> riktig plass, <span className="rounded bg-present px-1 text-ink">gul</span> finnes i navnet, grå finnes ikke.
+              Nach jedem Versuch werden die Buchstaben eingefärbt: <span className="rounded bg-correct px-1 text-ink">grün</span> richtige Stelle, <span className="rounded bg-present px-1 text-ink">gelb</span> kommt im Namen vor, grau kommt nicht vor.
             </li>
-            <li>Seks forsøk per spiller. Fyll ut alle elleve!</li>
-            <li>Gir du opp, beholder du poengene for riktige svar. Ubesvarte spillere gir 0 poeng.</li>
+            <li>Sechs Versuche pro Spieler. Finde alle elf!</li>
+            <li>Wenn du aufgibst, behältst du die Punkte für richtige Antworten. Nicht gefundene Spieler geben 0 Punkte.</li>
           </ol>
           <button className="btn btn-primary mt-4 w-full" onClick={dismissIntro}>
-            Kjør!
+            Los geht’s!
           </button>
         </Modal>
       )}
@@ -536,7 +536,7 @@ function TileRow({ letters, states, small, activeIndex, hint }: { letters: strin
     "--tile-w": `min(${cap}, calc((var(--mxi-row-width, 100vw) - 1.5rem - ${((n - 1) * gap).toFixed(3)}rem) / ${n}))`,
   } as React.CSSProperties;
   return (
-    <div className={`flex ${small ? "gap-0.5" : "gap-1"}`} style={style} aria-label={states ? `Forsøk: ${letters}` : "Ditt forsøk"}>
+    <div className={`flex ${small ? "gap-0.5" : "gap-1"}`} style={style} aria-label={states ? `Versuch: ${letters}` : "Dein Versuch"}>
       {letters.split("").map((c, i) => {
         if (c === " ") return <div key={i} className="tile tile-space" />;
         const st = states?.[i];
@@ -568,7 +568,7 @@ function Shirt({ p, ps, active, onClick, finished, positionLabel }: { p: MaskedP
       disabled={finished || ps.solved || ps.failed}
       className={`${design.shirtButton} ${active ? design.selected : ""} ${ps.solved ? design.solved : ""} ${ps.failed ? design.failed : ""}`}
       aria-pressed={active}
-      aria-label={`Drakt ${p.no != null ? p.no : "med ukjent nummer"}, ${positionLabel ?? POS_LABEL[p.pos]}, spiller ${p.index + 1}${ps.name ? `: ${ps.name}` : ""}`}
+      aria-label={`Trikot ${p.no != null ? p.no : "ohne bekannte Nummer"}, ${positionLabel ?? POS_LABEL[p.pos]}, Spieler ${p.index + 1}${ps.name ? `: ${ps.name}` : ""}`}
     >
       <div className={design.jersey}>
         <svg viewBox="0 0 100 108" aria-hidden="true">
@@ -621,41 +621,41 @@ function ResultCard({ puzzle, state, rows, found, tries, isArchive, today }: { p
       return t <= 2 ? "solved-fast" : t <= 4 ? "solved" : "solved-slow";
     }),
   );
-  const title = puzzle.norwayHome ? `Norge–${puzzle.opponent} ${puzzle.matchDate.slice(0, 4)}` : `${puzzle.opponent}–Norge ${puzzle.matchDate.slice(0, 4)}`;
+  const title = puzzle.norwayHome ? `Deutschland–${puzzle.opponent} ${puzzle.matchDate.slice(0, 4)}` : `${puzzle.opponent}–Deutschland ${puzzle.matchDate.slice(0, 4)}`;
   const text = manglerXiShareText({ number: puzzle.number, title, rows: shareRows, found, tries, archive: isArchive });
   const share = async () => {
     const r = await shareOrCopy(text);
-    setShareMsg(r === "copied" ? "Kopiert til utklippstavlen!" : r === "shared" ? "Delt!" : "Kunne ikke dele");
+    setShareMsg(r === "copied" ? "In die Zwischenablage kopiert!" : r === "shared" ? "Geteilt!" : "Teilen nicht möglich");
     track({ name: "share", game: "mangler-xi", puzzleId: puzzle.puzzleId, archive: isArchive });
   };
-  const headline = found === 11 ? (tries <= 22 ? "Landslagssjef!" : "Fulltreff!") : found >= 8 ? "Sterkt!" : found >= 5 ? "Godkjent" : "Neste gang!";
+  const headline = found === 11 ? (tries <= 22 ? "Bundestrainer!" : "Volltreffer!") : found >= 8 ? "Stark!" : found >= 5 ? "Ordentlich" : "Nächstes Mal!";
   return (
     <div className="card p-5">
       <div className="flex items-start justify-between">
         <div>
-          <div className="text-xs uppercase tracking-widest text-mist">{state.gaveUp ? "Ga opp" : "Ferdig"}</div>
+          <div className="text-xs uppercase tracking-widest text-mist">{state.gaveUp ? "Aufgegeben" : "Fertig"}</div>
           <h2 className="font-display text-4xl font-bold uppercase leading-none">{headline}</h2>
         </div>
         <div className="text-right">
           <div className="font-display text-4xl font-bold leading-none">{found}/11</div>
-          <div className="text-xs text-mist">{tries} forsøk</div>
+          <div className="text-xs text-mist">{tries} Versuche</div>
         </div>
       </div>
       <pre className="mt-3 font-sans text-xl leading-tight">{shareRows.map((r) => r.map((s) => ({ "solved-fast": "🟩", solved: "🟨", "solved-slow": "🟧", failed: "⬛" })[s]).join("")).join("\n")}</pre>
       <div className="mt-4 flex flex-col gap-2 sm:flex-row">
         <button className="btn btn-primary flex-1" onClick={share}>
-          Del resultatet
+          Ergebnis teilen
         </button>
         <Link href="/maalloes" className="btn btn-secondary flex-1" onClick={() => track({ name: "second_game_click", game: "maalloes", props: { from: "mangler-xi" } })}>
-          Spill Målløs →
+          Torlos spielen →
         </Link>
       </div>
       {shareMsg && <p className="mt-2 text-center text-sm text-correct">{shareMsg}</p>}
-      {!isArchive && puzzle.date === today && countdown && <p className="mt-3 text-center text-sm text-mist">Nytt Mangler XI om {countdown}</p>}
+      {!isArchive && puzzle.date === today && countdown && <p className="mt-3 text-center text-sm text-mist">Neue Fehlende Elf in {countdown}</p>}
       {isArchive && (
         <p className="mt-3 text-center text-sm text-mist">
           <Link href="/arkiv/?game=mangler-xi" className="underline">
-            Flere fra arkivet
+            Mehr aus dem Archiv
           </Link>
         </p>
       )}

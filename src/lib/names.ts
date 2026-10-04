@@ -1,8 +1,8 @@
 /**
- * Name normalization for Norwegian football names.
+ * Name normalization for football names.
  *
- * Goals: "Solskjær", "Solskjaer", "SOLSKJÆR", "Ole Gunnar Solskjær" and
- * "solskjaer, ole gunnar" should all map to comparable keys.
+ * Goals: "Müller", "Muller", "MÜLLER", "Thomas Müller" and "muller, thomas" should all
+ * map to comparable keys (and through matchKey, "Mueller" too).
  */
 
 const SPECIAL: Record<string, string> = {
@@ -38,7 +38,10 @@ export function normalizeName(input: string): string {
  * matches exactly keeps resolving exactly as before.
  */
 export function matchKey(input: string): string {
-  return normalizeName(input).replace(/ /g, "");
+  // German writes ä/ö/ü as ae/oe/ue when the keyboard has no umlauts, and normalizeName
+  // has already turned ü into u: fold the two-letter spelling the same way, on both
+  // sides of the comparison, so "Mueller" and "Müller" meet as "muller".
+  return normalizeName(input).replace(/ae/g, "a").replace(/oe/g, "o").replace(/ue/g, "u").replace(/ /g, "");
 }
 
 /** Tokens of a normalized name. */
@@ -48,25 +51,27 @@ export function nameTokens(input: string): string[] {
 }
 
 /**
- * Letters used on tiles. Keeps Norwegian letters (Æ Ø Å) as distinct tiles,
- * uppercases, strips accents on other letters, drops punctuation. Spaces are
- * preserved as word separators.
+ * Letters used on tiles. Keeps the German umlauts (Ä Ö Ü) as distinct tiles,
+ * writes ß as SS, uppercases, strips accents on other letters, drops punctuation.
+ * Spaces are preserved as word separators.
  */
 export function toTileString(input: string): string {
   let s = input.toUpperCase().trim();
   s = s.replace(/[-–—]/g, " ");
   s = s.replace(/['’`´.]/g, "");
-  // Protect Nordic letters (NFD would decompose Å into A + ring).
-  s = s.replace(/Æ/g, "\u0001").replace(/Ø/g, "\u0002").replace(/Å/g, "\u0003");
+  // Protect the umlauts (NFD would decompose Ü into U + diaeresis). toUpperCase has
+  // already made ß into SS; Nordic letters a foreign name may carry are spelled out.
+  s = s.replace(/Ä/g, "\u0001").replace(/Ö/g, "\u0002").replace(/Ü/g, "\u0003");
+  s = s.replace(/Æ/g, "AE").replace(/Ø/g, "O").replace(/Å/g, "A");
   s = s.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-  s = s.replace(/\u0001/g, "Æ").replace(/\u0002/g, "Ø").replace(/\u0003/g, "Å");
-  s = s.replace(/[^A-ZÆØÅ ]+/g, "");
+  s = s.replace(/\u0001/g, "Ä").replace(/\u0002/g, "Ö").replace(/\u0003/g, "Ü");
+  s = s.replace(/[^A-ZÄÖÜ ]+/g, "");
   s = s.replace(/\s+/g, " ").trim();
   return s;
 }
 
-/** Tile alphabet, in Norwegian keyboard order. */
-export const TILE_ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅ".split("");
+/** Tile alphabet. */
+export const TILE_ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜ".split("");
 
 /** Normalize a guess typed for tiles: accept "ae"→Æ, "oe"→Ø, "aa"→Å only if the user typed them explicitly? No: keep 1:1. */
 export function normalizeTileGuess(input: string): string {

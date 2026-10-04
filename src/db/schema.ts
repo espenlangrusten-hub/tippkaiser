@@ -373,7 +373,7 @@ export const gullordetWords = tt.table(
   "gullordet_words",
   {
     id: serial("id").primaryKey(),
-    word: text("word").notNull(), // canonical uppercase A-Z/ÆØÅ, exactly five letters
+    word: text("word").notNull(), // canonical uppercase A-Z/ÄÖÜ, exactly five letters
     label: text("label").notNull(), // reveal label, e.g. "Lionel Messi" or "SK Brann"
     category: text("category").$type<GullordetCategory>().notNull(),
     answerEligible: boolean("answer_eligible").notNull().default(true),

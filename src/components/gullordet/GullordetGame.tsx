@@ -133,7 +133,7 @@ export function GullordetGame({ puzzle, isArchive }: { puzzle: GullordetPublic; 
   }, [apply, progressGame, progressId, puzzle.number]);
 
   const addLetter = useCallback((letter: string) => {
-    if (finished || busy || current.length >= 5 || !/^[A-ZÆØÅ]$/.test(letter)) return;
+    if (finished || busy || current.length >= 5 || !/^[A-ZÄÖÜ]$/.test(letter)) return;
     trackStart();
     setCurrent((value) => value.length < 5 ? value + letter : value);
     setMessage("");
@@ -184,7 +184,7 @@ export function GullordetGame({ puzzle, isArchive }: { puzzle: GullordetPublic; 
         return;
       }
       const letter = event.key.toLocaleUpperCase("de-DE");
-      if (/^[A-ZÆØÅ]$/.test(letter)) {
+      if (/^[A-ZÄÖÜ]$/.test(letter)) {
         event.preventDefault();
         addLetter(letter);
       }

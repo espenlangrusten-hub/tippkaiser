@@ -8,7 +8,7 @@ export function normalizeGullordetWord(input: string): string {
 }
 
 export function isGullordetWord(input: string): boolean {
-  return /^[A-ZÆØÅ]{5}$/.test(normalizeGullordetWord(input));
+  return /^[A-ZÄÖÜ]{5}$/.test(normalizeGullordetWord(input));
 }
 
 /**

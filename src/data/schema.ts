@@ -223,12 +223,12 @@ export const STRAFFESPARK_CATEGORIES = ["spiller", "trener", "stadion", "klubb",
  * Gullordet: curated five-letter football words.
  *
  * answerEligible=false keeps a word valid as a guess without putting it into the
- * daily rotation. Canonical words deliberately use A-Z plus ÆØÅ only so the on-screen
+ * daily rotation. Canonical words deliberately use A-Z plus ÄÖÜ only so the on-screen
  * keyboard and duplicate-letter scoring stay deterministic.
  */
 export const gullordetFile = z.array(
   z.object({
-    word: z.string().regex(/^[A-ZÆØÅ]{5}$/),
+    word: z.string().regex(/^[A-ZÄÖÜ]{5}$/),
     label: z.string().min(1),
     category: z.enum(GULLORDET_CATEGORIES),
     answerEligible: z.boolean().default(true),

@@ -18,12 +18,14 @@ describe("normalizeName", () => {
 });
 
 describe("toTileString", () => {
-  it("keeps Æ Ø Å as tiles and strips accents elsewhere", () => {
-    expect(toTileString("Solskjær")).toBe("SOLSKJÆR");
-    expect(toTileString("Bjørnebye")).toBe("BJØRNEBYE");
-    expect(toTileString("Håland")).toBe("HÅLAND");
-    expect(toTileString("Tore André Flo")).toBe("TORE ANDRE FLO");
-    expect(toTileString("Riise-Jensen")).toBe("RIISE JENSEN");
+  it("keeps Ä Ö Ü as tiles, writes ß as SS and strips accents elsewhere", () => {
+    expect(toTileString("Müller")).toBe("MÜLLER");
+    expect(toTileString("Özil")).toBe("ÖZIL");
+    expect(toTileString("Bäron")).toBe("BÄRON");
+    expect(toTileString("Großkreutz")).toBe("GROSSKREUTZ");
+    expect(toTileString("Jérôme Boateng")).toBe("JEROME BOATENG");
+    expect(toTileString("Schmidt-Müller")).toBe("SCHMIDT MÜLLER");
+    expect(toTileString("Solskjær")).toBe("SOLSKJAER");
   });
 });
 
@@ -69,6 +71,10 @@ describe("spacing in an answer", () => {
   it("treats a name as the same however the spaces fall", () => {
     expect(matchKey("HamKam")).toBe(matchKey("ham kam"));
     expect(matchKey("Ham-Kam")).toBe(matchKey("HamKam"));
+    // A keyboard without umlauts writes them as two letters.
+    expect(matchKey("Mueller")).toBe(matchKey("Müller"));
+    expect(matchKey("Oezil")).toBe(matchKey("Özil"));
+    expect(matchKey("Schuerrle")).toBe(matchKey("Schürrle"));
     expect(matchKey("Bodø/Glimt")).toBe(matchKey("bodoglimt"));
     expect(matchKey("Sarpsborg 08")).toBe("sarpsborg08");
   });
