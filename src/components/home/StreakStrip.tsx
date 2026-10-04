@@ -20,7 +20,7 @@ export function StreakStrip({ today }: { today: string }) {
           <div className="font-display text-2xl font-bold leading-none">
             <span aria-hidden>🔥</span> {s.current}
           </div>
-          <div className="text-xs text-mist">{s.current === 1 ? "dag på rad" : "dager på rad"}</div>
+          <div className="text-xs text-mist">{s.current === 1 ? "Tag in Folge" : "Tage in Folge"}</div>
         </div>
         <div>
           <div className="font-display text-2xl font-bold leading-none">{s.best}</div>
@@ -31,7 +31,7 @@ export function StreakStrip({ today }: { today: string }) {
           <div className="text-xs text-mist">spill</div>
         </div>
       </div>
-      <span>Se statistikk →</span>
+      <span>Statistik ansehen →</span>
     </Link>
   );
 }

@@ -3,8 +3,8 @@ import { Suspense } from "react";
 import { ArchiveScreen } from "./ArchiveScreen";
 
 export const metadata: Metadata = {
-  title: "Arkiv – tidligere spill",
-  description: "Spill tidligere utgaver av Mangler XI og Målløs.",
+  title: "Archiv – frühere Spiele",
+  description: "Spiele frühere Ausgaben von Fehlende Elf und Torlos.",
   alternates: { canonical: "/arkiv" },
 };
 

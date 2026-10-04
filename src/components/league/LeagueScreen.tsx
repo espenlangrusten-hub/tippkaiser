@@ -441,7 +441,7 @@ function LeagueDashboard(props: {
               </div>
             </div>
             <div className="league-profile-stats">
-              <div><b>{(props.me?.points ?? 0).toLocaleString("nb-NO")}</b><span>poeng denne måneden</span></div>
+              <div><b>{(props.me?.points ?? 0).toLocaleString("de-DE")}</b><span>poeng denne måneden</span></div>
               <div><b>{props.me?.played ?? 0}</b><span>spill registrert</span></div>
             </div>
             <div className="league-profile-progress">
@@ -485,7 +485,7 @@ function LeagueDashboard(props: {
                   <td>{row.rank === 1 ? "♛" : row.rank}</td>
                   <th><ProfileAvatar avatarId={row.avatarId} size={28} /><span>{row.username}</span></th>
                   <td>{row.played}</td>
-                  <td>{row.points.toLocaleString("nb-NO")}</td>
+                  <td>{row.points.toLocaleString("de-DE")}</td>
                 </tr>
               ))}
             </tbody>
@@ -536,7 +536,7 @@ function LeagueDashboard(props: {
             <div className="league-activity-row" key={row.username}>
               <span>{index === 0 ? "★" : "↗"}</span>
               <ProfileAvatar avatarId={row.avatar_id} size={25} />
-              <p><b>{row.username}</b> har {row.points.toLocaleString("nb-NO")} poeng</p>
+              <p><b>{row.username}</b> har {row.points.toLocaleString("de-DE")} poeng</p>
             </div>
           ))}
         </section>
@@ -554,7 +554,7 @@ function LeagueDashboard(props: {
             <div key={row.username} aria-current={props.user?.username === row.username ? "true" : undefined}>
               <span>{index + 1}</span>
               <ProfileAvatar avatarId={row.avatar_id} size={34} />
-              <p><b>{row.username}</b><small>{row.points.toLocaleString("nb-NO")} poeng</small></p>
+              <p><b>{row.username}</b><small>{row.points.toLocaleString("de-DE")} poeng</small></p>
             </div>
           ))}
           {!props.rows.length && <p className="text-mist">Ingen poeng registrert ennå.</p>}
@@ -579,7 +579,7 @@ function LeagueDashboard(props: {
           <p className="p-4 text-mist">Ingen rangering tilgjengelig.</p>
         )}
         {props.registered !== null && props.registered >= SHOW_REGISTERED_FROM && (
-          <p className="league-registered">{props.registered.toLocaleString("nb-NO")} registrerte spillere</p>
+          <p className="league-registered">{props.registered.toLocaleString("de-DE")} registrerte spillere</p>
         )}
       </details>
     </div>

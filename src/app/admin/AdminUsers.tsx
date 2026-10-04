@@ -30,7 +30,7 @@ const ERRORS: Record<string, string> = {
   "not-found": "Brukeren finnes ikke lenger.",
 };
 
-const date = (iso: string | null) => (iso ? new Date(iso).toLocaleDateString("nb-NO", { timeZone: "Europe/Oslo" }) : "–");
+const date = (iso: string | null) => (iso ? new Date(iso).toLocaleDateString("de-DE", { timeZone: "Europe/Berlin" }) : "–");
 
 export function AdminUsers({ adminKey }: { adminKey: string }) {
   const [query, setQuery] = useState("");

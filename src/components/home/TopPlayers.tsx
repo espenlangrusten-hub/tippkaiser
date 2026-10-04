@@ -28,14 +28,14 @@ export function TopPlayers() {
     <section className="home-leaderboard" aria-labelledby="top-players-heading">
       <div className="home-leaderboard-heading">
         <span className="home-trophy" aria-hidden="true">🏆</span>
-        <h2 id="top-players-heading" className="font-display">5 på topp siste måned</h2>
+        <h2 id="top-players-heading" className="font-display">Top 5 im letzten Monat</h2>
       </div>
       {status === "loading" ? (
-        <p className="home-leaderboard-status" role="status">Henter topplisten …</p>
+        <p className="home-leaderboard-status" role="status">Bestenliste wird geladen …</p>
       ) : status === "error" ? (
         <div className="home-leaderboard-status" role="status">
           <p>Kunne ikke hente topplisten.</p>
-          <button className="mt-2 underline" onClick={() => { setStatus("loading"); setRetry((n) => n + 1); }}>Prøv igjen</button>
+          <button className="mt-2 underline" onClick={() => { setStatus("loading"); setRetry((n) => n + 1); }}>Erneut versuchen</button>
         </div>
       ) : rows.length ? (
         <table className="home-leaderboard-table">
@@ -44,15 +44,15 @@ export function TopPlayers() {
             <tr key={row.username}>
               <td><span className="home-rank">{i + 1}</span></td>
               <th scope="row"><span className="inline-flex items-center gap-2"><ProfileAvatar avatarId={row.avatar_id} size={24} /><span>{row.username}</span></span></th>
-              <td>{row.points.toLocaleString("nb-NO")}</td>
+              <td>{row.points.toLocaleString("de-DE")}</td>
             </tr>
           ))}</tbody>
         </table>
       ) : (
-        <p className="home-leaderboard-status">Ingen poeng denne måneden ennå.</p>
+        <p className="home-leaderboard-status">Diesen Monat noch keine Punkte.</p>
       )}
       <div className="home-leaderboard-links">
-        <Link href="/liga/">Se hele listen <span aria-hidden="true">→</span></Link>
+        <Link href="/liga/">Ganze Liste ansehen <span aria-hidden="true">→</span></Link>
       </div>
     </section>
   );

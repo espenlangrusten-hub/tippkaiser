@@ -5,7 +5,7 @@ export const GULLORDET_MAX_GUESSES = 6;
 export type GullordetLetterState = "correct" | "present" | "absent";
 
 export function normalizeGullordetWord(input: string): string {
-  return input.trim().toLocaleUpperCase("nb-NO");
+  return input.trim().toLocaleUpperCase("de-DE");
 }
 
 export function isGullordetWord(input: string): boolean {

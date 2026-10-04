@@ -5,8 +5,8 @@ import type { BetaQuestion } from "@/lib/straffespark-beta";
 import { BetaGame } from "./BetaGame";
 
 export const metadata: Metadata = {
-  title: "Straffespark – dagens 5",
-  description: "Fem nye spørsmål om norsk fotball hver dag. Ett spørsmål om gangen.",
+  title: "Elfmeter – die 5 des Tages",
+  description: "Jeden Tag fünf neue Fragen zum deutschen Fußball. Eine Frage nach der anderen.",
   alternates: { canonical: "/straffespark" },
 };
 

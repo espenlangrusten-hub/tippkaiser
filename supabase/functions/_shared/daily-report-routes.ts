@@ -50,13 +50,13 @@ export async function reportInput(now = new Date()): Promise<ReportInput> {
     group by game`;
   const [users] = await db<{ total: number; new_today: number }[]>`
     select count(*)::int as total,
-           count(*) filter (where (created_at at time zone 'Europe/Oslo')::date = ${today}::date)::int as new_today
+           count(*) filter (where (created_at at time zone 'Europe/Berlin')::date = ${today}::date)::int as new_today
     from tippkaiser.users`;
   const [league] = await db<{ players: number }[]>`
     select count(distinct user_id)::int as players from tippkaiser.league_results where date = ${today}`;
   const [messages] = await db<{ count: number }[]>`
     select count(*)::int as count from tippkaiser.contact_messages
-    where (created_at at time zone 'Europe/Oslo')::date = ${today}::date`;
+    where (created_at at time zone 'Europe/Berlin')::date = ${today}::date`;
   const site = (env("SITE_URL") ?? "").replace(/\/$/, "");
   return {
     today,

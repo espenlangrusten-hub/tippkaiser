@@ -35,12 +35,12 @@ export function checkContact(raw: Partial<Record<ContactField, unknown>>): Conta
   const sender = str(raw.sender).trim();
 
   const errors: Partial<Record<ContactField, string>> = {};
-  if (title.length < CONTACT_LIMITS.title.min) errors.title = "Skriv en kort tittel.";
-  else if (title.length > CONTACT_LIMITS.title.max) errors.title = `Tittelen kan være på høyst ${CONTACT_LIMITS.title.max} tegn.`;
-  if (message.length < CONTACT_LIMITS.message.min) errors.message = "Meldingen er litt for kort.";
-  else if (message.length > CONTACT_LIMITS.message.max) errors.message = `Meldingen kan være på høyst ${CONTACT_LIMITS.message.max} tegn.`;
-  if (!sender) errors.sender = "Skriv e-postadressen din, så vi kan svare.";
-  else if (sender.length > CONTACT_LIMITS.sender.max || !EMAIL.test(sender)) errors.sender = "Det ser ikke ut som en e-postadresse.";
+  if (title.length < CONTACT_LIMITS.title.min) errors.title = "Schreib einen kurzen Betreff.";
+  else if (title.length > CONTACT_LIMITS.title.max) errors.title = `Der Betreff darf höchstens ${CONTACT_LIMITS.title.max} Zeichen lang sein.`;
+  if (message.length < CONTACT_LIMITS.message.min) errors.message = "Die Nachricht ist etwas zu kurz.";
+  else if (message.length > CONTACT_LIMITS.message.max) errors.message = `Die Nachricht darf höchstens ${CONTACT_LIMITS.message.max} Zeichen lang sein.`;
+  if (!sender) errors.sender = "Gib deine E-Mail-Adresse an, damit wir antworten können.";
+  else if (sender.length > CONTACT_LIMITS.sender.max || !EMAIL.test(sender)) errors.sender = "Das sieht nicht nach einer E-Mail-Adresse aus.";
 
   return Object.keys(errors).length ? { ok: false, errors } : { ok: true, value: { title, message, sender } };
 }

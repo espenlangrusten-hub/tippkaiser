@@ -49,29 +49,29 @@ export function Header() {
   return (
     <header className="stadium-header">
       <div className="stadium-header-inner">
-        <Link href="/" className="stadium-brand tt-wordmark" aria-label="Tippetuppen – forsiden">
+        <Link href="/" className="stadium-brand tt-wordmark" aria-label="Tippkaiser – Startseite">
           <span className="tt-reference-logo"><ReferenceArt name="logo" /></span>
         </Link>
 
-        <nav aria-label="Hovedmeny">
-          <Link href="/#spill" aria-current={isPlay ? "page" : undefined}>Spill</Link>
+        <nav aria-label="Hauptmenü">
+          <Link href="/#spill" aria-current={isPlay ? "page" : undefined}>Spiele</Link>
           <Link href="/liga/" aria-current={isLeague ? "page" : undefined}>Liga</Link>
           <Link href="/profil/" aria-current={isProfile ? "page" : undefined}>Profil</Link>
-          <Link href="/om/" aria-current={isAbout ? "page" : undefined}>Om</Link>
+          <Link href="/om/" aria-current={isAbout ? "page" : undefined}>Über</Link>
         </nav>
 
         <div className="stadium-actions">
-          <Link href="/arkiv/" className="stadium-search" aria-label="Søk i spillarkivet">⌕</Link>
+          <Link href="/arkiv/" className="stadium-search" aria-label="Im Spielarchiv suchen">⌕</Link>
           {!user ? (
             <>
-              <Link href="/profil/#login" className="stadium-login">Logg inn</Link>
-              <Link href="/profil/#register" className="stadium-join">Bli medlem</Link>
+              <Link href="/profil/#login" className="stadium-login">Anmelden</Link>
+              <Link href="/profil/#register" className="stadium-join">Registrieren</Link>
             </>
           ) : (
             <Link href="/profil/" className="stadium-profile" aria-current={isProfile ? "page" : undefined}>
               <ProfileAvatar avatarId={profile?.avatarId ?? user.avatarId ?? null} size={32} />
               <span>{user.username}</span>
-              {profile?.avatarAvailable && <span className="sr-only">Ny avatar tilgjengelig</span>}
+              {profile?.avatarAvailable && <span className="sr-only">Neuer Avatar verfügbar</span>}
             </Link>
           )}
         </div>

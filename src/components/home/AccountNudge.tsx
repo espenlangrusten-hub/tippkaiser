@@ -49,7 +49,7 @@ export function AccountNudge() {
   if (!user) {
     return (
       <p className={s.nudge}>
-        <Link href="/profil/#login">Logg inn</Link> eller <Link href="/profil/#register">registrer deg</Link> for å samle poeng og vinne avatarer.
+        <Link href="/profil/#login">Melde dich an</Link> oder <Link href="/profil/#register">registriere dich</Link>, um Punkte zu sammeln und Avatare zu gewinnen.
       </p>
     );
   }
@@ -60,8 +60,8 @@ export function AccountNudge() {
     const progress = Math.min(100, Math.round((profile.totalPoints / AVATAR_UNLOCK_POINTS) * 100));
     return (
       <div className={s.nudge}>
-        <p><b>{left.toLocaleString("nb-NO")}</b> poeng igjen til <Link href="/profil/">Avatar nivå 1</Link></p>
-        <div className={s.nudgeBar} role="progressbar" aria-label="Fram mot Avatar nivå 1" aria-valuemin={0} aria-valuemax={AVATAR_UNLOCK_POINTS} aria-valuenow={profile.totalPoints}>
+        <p>Noch <b>{left.toLocaleString("de-DE")}</b> Punkte bis <Link href="/profil/">Avatar Stufe 1</Link></p>
+        <div className={s.nudgeBar} role="progressbar" aria-label="Fortschritt bis Avatar Stufe 1" aria-valuemin={0} aria-valuemax={AVATAR_UNLOCK_POINTS} aria-valuenow={profile.totalPoints}>
           <span style={{ width: progress + "%" }} />
         </div>
       </div>
@@ -69,7 +69,7 @@ export function AccountNudge() {
   }
   return (
     <p className={s.nudge}>
-      Du har låst opp Avatar nivå 1.{profile.avatarId ? null : <> <Link href="/profil/">Velg avataren din</Link>.</>}
+      Du hast Avatar Stufe 1 freigeschaltet.{profile.avatarId ? null : <> <Link href="/profil/">Wähle deinen Avatar</Link>.</>}
     </p>
   );
 }

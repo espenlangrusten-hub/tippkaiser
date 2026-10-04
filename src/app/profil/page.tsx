@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { ProfileScreen } from "@/components/profile/ProfileScreen";
 
 export const metadata: Metadata = {
-  title: "Min profil",
-  description: "Administrer Tippetuppen-profil, avatar og innlogging.",
+  title: "Mein Profil",
+  description: "Verwalte dein Tippkaiser-Profil, deinen Avatar und deine Anmeldung.",
   alternates: { canonical: "/profil" },
   robots: { index: false, follow: false },
 };

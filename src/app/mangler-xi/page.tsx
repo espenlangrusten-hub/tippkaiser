@@ -4,8 +4,8 @@ import { ManglerXiScreen } from "./ManglerXiScreen";
 import { GameSkeleton } from "@/components/GameLoader";
 
 export const metadata: Metadata = {
-  title: "Mangler XI – gjett Norges startellever",
-  description: "Daglig fotballquiz: fyll ut Norges startellever fra en historisk landskamp, bokstav for bokstav. Nytt lag hver dag kl. 00:00.",
+  title: "Fehlende Elf – errate Deutschlands Startelf",
+  description: "Das tägliche Fußballquiz: Vervollständige Deutschlands Startelf aus einem historischen Länderspiel, Buchstabe für Buchstabe. Jeden Tag um 00:00 Uhr eine neue Elf.",
   alternates: { canonical: "/mangler-xi" },
 };
 

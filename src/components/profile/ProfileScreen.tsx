@@ -321,10 +321,10 @@ export function ProfileScreen() {
           </div>
         </div>
         <div className="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-4">
-          <Stat label="Totalpoeng" value={profile.totalPoints.toLocaleString("nb-NO")} accent />
-          <Stat label="Plass totalt" value={"#" + profile.lifetimeRank.toLocaleString("nb-NO")} />
-          <Stat label="Spill" value={profile.totalGames.toLocaleString("nb-NO")} />
-          <Stat label="Spilledager" value={profile.playedDays.toLocaleString("nb-NO")} />
+          <Stat label="Totalpoeng" value={profile.totalPoints.toLocaleString("de-DE")} accent />
+          <Stat label="Plass totalt" value={"#" + profile.lifetimeRank.toLocaleString("de-DE")} />
+          <Stat label="Spill" value={profile.totalGames.toLocaleString("de-DE")} />
+          <Stat label="Spilledager" value={profile.playedDays.toLocaleString("de-DE")} />
         </div>
       </section>
 
@@ -352,13 +352,13 @@ export function ProfileScreen() {
         ) : (
           <>
             <p className="mt-1 text-sm text-mist">
-              Profilavatar låses opp ved 2 000 totalpoeng. Du mangler {pointsLeft.toLocaleString("nb-NO")} poeng.
+              Profilavatar låses opp ved 2 000 totalpoeng. Du mangler {pointsLeft.toLocaleString("de-DE")} poeng.
             </p>
             <div className="mt-4 h-3 overflow-hidden rounded-full bg-line">
               <div className="h-full rounded-full bg-gold" style={{ width: progress + "%" }} />
             </div>
             <div className="mt-2 flex justify-between text-xs text-mist">
-              <span>{profile.totalPoints.toLocaleString("nb-NO")} poeng</span>
+              <span>{profile.totalPoints.toLocaleString("de-DE")} poeng</span>
               <span>2 000</span>
             </div>
           </>

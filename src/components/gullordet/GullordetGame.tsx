@@ -183,7 +183,7 @@ export function GullordetGame({ puzzle, isArchive }: { puzzle: GullordetPublic; 
         removeLetter();
         return;
       }
-      const letter = event.key.toLocaleUpperCase("nb-NO");
+      const letter = event.key.toLocaleUpperCase("de-DE");
       if (/^[A-ZÆØÅ]$/.test(letter)) {
         event.preventDefault();
         addLetter(letter);
@@ -283,7 +283,7 @@ export function GullordetGame({ puzzle, isArchive }: { puzzle: GullordetPublic; 
       {finished && (
         <section className={s.result} aria-live="polite">
           <h2>{won ? "Gull!" : "Dagens ord"}</h2>
-          <p className={s.answer}><b>{answer}</b>{label && label.toLocaleUpperCase("nb-NO") !== answer ? <> · {label}</> : null}</p>
+          <p className={s.answer}><b>{answer}</b>{label && label.toLocaleUpperCase("de-DE") !== answer ? <> · {label}</> : null}</p>
           <p className={s.resultMeta}>
             {won ? `${score ?? 0} poeng på forsøk ${guesses.length}` : "Ingen poeng denne gangen"}
             {category ? ` · ${category}` : ""}

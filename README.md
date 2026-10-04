@@ -6,7 +6,7 @@ Tre daglige spill for norske fotballfans:
 - **Målløs** – ett spørsmål om norsk fotball, fem svar; jo færre andre som svarer det samme, jo bedre.
 - **Finn spilleren** – fem kildebaserte hint; tidlig riktig svar gir flest poeng.
 
-Nytt spill hver dag kl. 00:00 norsk tid (Europe/Oslo).
+Nytt spill hver dag kl. 00:00 norsk tid (Europe/Berlin).
 
 ## Arkitektur
 

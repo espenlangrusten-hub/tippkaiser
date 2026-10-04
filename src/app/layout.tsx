@@ -5,16 +5,16 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { ConsentProvider } from "@/components/consent/ConsentProvider";
 import { PageViewBeacon } from "@/components/analytics/Beacon";
-import { SITE_NAME, SITE_TAGLINE, SITE_URL } from "@/lib/site";
+import { INDEXABLE, SITE_NAME, SITE_TAGLINE, SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: { default: `${SITE_NAME} – ${SITE_TAGLINE}`, template: `%s – ${SITE_NAME}` },
-  description: "Norsk fotballquiz hver dag: fyll ut landslagets startellever i Mangler XI, finn de sjeldneste svarene i Målløs, gjett spilleren, ta fem kjappe straffespark og test trenerkunnskapen og gjett Gullordet. Gratis, nye spill ved midnatt.",
-  keywords: ["fotballquiz", "norsk fotballquiz", "landslaget quiz", "Eliteserien quiz", "Tippeligaen quiz", "daglig fotballspill"],
-  openGraph: { type: "website", locale: "nb_NO", siteName: SITE_NAME, title: `${SITE_NAME} – ${SITE_TAGLINE}`, description: "Dagens norske fotballspill: Mangler XI, Målløs, Finn spilleren, Straffespark, Trener Genius og Gullordet." },
+  description: "Das tägliche Fußballquiz: Vervollständige die Startelf der Nationalmannschaft, finde die seltensten Antworten bei Torlos, errate den Spieler, schieße fünf schnelle Elfmeter, teste dein Trainerwissen und errate das Goldwort. Kostenlos, neue Spiele um Mitternacht.",
+  keywords: ["Fußballquiz", "Fußball Quiz", "Nationalmannschaft Quiz", "Bundesliga Quiz", "tägliches Fußballspiel", "Fußball Wordle"],
+  openGraph: { type: "website", locale: "de_DE", siteName: SITE_NAME, title: `${SITE_NAME} – ${SITE_TAGLINE}`, description: "Die täglichen Fußballspiele: Fehlende Elf, Torlos, Finde den Spieler, Elfmeter, Trainer-Genie und Goldwort." },
   twitter: { card: "summary_large_image" },
-  robots: { index: true, follow: true },
+  robots: INDEXABLE ? { index: true, follow: true } : { index: false, follow: false },
 };
 
 export const viewport: Viewport = {
@@ -26,7 +26,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="nb">
+    <html lang="de">
       <body className="antialiased">
         <ConsentProvider>
           <Header />

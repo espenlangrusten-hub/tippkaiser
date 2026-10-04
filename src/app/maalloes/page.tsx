@@ -4,8 +4,8 @@ import { MaalloesScreen } from "./MaalloesScreen";
 import { GameSkeleton } from "@/components/GameLoader";
 
 export const metadata: Metadata = {
-  title: "Målløs – finn de sjeldneste svarene",
-  description: "Daglig quiz om Eliteserien, Tippeligaen og landslaget: fem svar, og jo færre som svarer det samme, jo bedre. Nytt spørsmål hver dag.",
+  title: "Torlos – finde die seltensten Antworten",
+  description: "Das tägliche Quiz zu Bundesliga und Nationalmannschaft: fünf Antworten, und je weniger dasselbe antworten, desto besser. Jeden Tag eine neue Frage.",
   alternates: { canonical: "/maalloes" },
 };
 

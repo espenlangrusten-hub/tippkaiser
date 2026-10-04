@@ -18,11 +18,11 @@ export default function NotFound() {
         <rect x="28" y="5" width="9" height="26" fill="#f2c14e" />
       </svg>
       <h1 className="font-display text-6xl font-bold uppercase italic">Offside!</h1>
-      <p className="text-mist">Denne siden finnes ikke. Dagens spill gjør det.</p>
+      <p className="text-mist">Diese Seite gibt es nicht. Die Spiele des Tages schon.</p>
       <div className="mt-2 flex w-full flex-col gap-3">
-        <Link href="/mangler-xi" className="btn btn-primary">Spill dagens Mangler XI</Link>
-        <Link href="/straffespark" className="btn btn-secondary">Straffespark, 5 kjappe</Link>
-        <Link href="/" className="btn btn-ghost">Til forsiden</Link>
+        <Link href="/mangler-xi" className="btn btn-primary">Spiele die Fehlende Elf des Tages</Link>
+        <Link href="/straffespark" className="btn btn-secondary">Elfmeter, 5 schnelle</Link>
+        <Link href="/" className="btn btn-ghost">Zur Startseite</Link>
       </div>
     </section>
   );

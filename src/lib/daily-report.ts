@@ -48,14 +48,14 @@ const short = (day: string) => {
   const p = parts(day);
   return `${WEEKDAY[p.weekday]} ${p.d}.${p.m}.`;
 };
-const num = (n: number) => n.toLocaleString("nb-NO").replace(/ /g, " ");
-const dec = (n: number) => n.toLocaleString("nb-NO", { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+const num = (n: number) => n.toLocaleString("de-DE").replace(/ /g, " ");
+const dec = (n: number) => n.toLocaleString("de-DE", { minimumFractionDigits: 1, maximumFractionDigits: 1 });
 const pad = (s: string, w: number) => s + " ".repeat(Math.max(0, w - s.length));
 const padLeft = (s: string, w: number) => " ".repeat(Math.max(0, w - s.length)) + s;
 
 /** Oslo clock for a moment, HH:MM, and the Oslo date. */
 export function osloNow(now: Date): { day: string; clock: string; hour: number } {
-  const f = new Intl.DateTimeFormat("en-GB", { timeZone: "Europe/Oslo", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hour12: false });
+  const f = new Intl.DateTimeFormat("en-GB", { timeZone: "Europe/Berlin", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hour12: false });
   const get = (t: string) => f.formatToParts(now).find((p) => p.type === t)!.value;
   const hour = Number(get("hour")) % 24;
   return { day: `${get("year")}-${get("month")}-${get("day")}`, clock: `${String(hour).padStart(2, "0")}:${get("minute")}`, hour };

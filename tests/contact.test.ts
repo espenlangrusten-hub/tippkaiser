@@ -69,7 +69,7 @@ describe("kontaktruten", () => {
 
   it("holder løftet i personvernerklæringen om sletting etter 12 måneder", () => {
     expect(route).toContain("interval '12 months'");
-    expect(read("src", "app", "personvern", "page.tsx")).toContain("slettes automatisk etter 12 måneder");
+    expect(read("src", "app", "personvern", "page.tsx")).toContain("nach 12 Monaten automatisch gelöscht");
   });
 
   it("henter mottakeren fra en hemmelighet, ikke fra koden", () => {

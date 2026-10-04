@@ -37,9 +37,9 @@ jobs:
         id: wait
         run: |
           set -euo pipefail
-          now=$(( 10#$(TZ=Europe/Oslo date +%H) * 60 + 10#$(TZ=Europe/Oslo date +%M) ))
+          now=$(( 10#$(TZ=Europe/Berlin date +%H) * 60 + 10#$(TZ=Europe/Berlin date +%M) ))
           due=$(( 18 * 60 ))
-          echo "Klokka i Oslo: $(TZ=Europe/Oslo date +%H:%M)"
+          echo "Klokka i Oslo: $(TZ=Europe/Berlin date +%H:%M)"
           if [ "$now" -lt $(( due - 20 )) ]; then
             echo "Mer enn 20 minutter for tidlig – dette er kjøringen for den andre årstiden."
             echo "skip=true" >> "$GITHUB_OUTPUT"

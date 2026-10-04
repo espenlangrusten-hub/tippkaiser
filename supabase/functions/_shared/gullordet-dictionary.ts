@@ -332,5 +332,5 @@ export const GULLORDET_NORWEGIAN_GUESSES = new Set<string>([
 ]);
 
 export function isNorwegianGullordetGuess(word: string): boolean {
-  return GULLORDET_NORWEGIAN_GUESSES.has(word.toLocaleUpperCase("nb-NO"));
+  return GULLORDET_NORWEGIAN_GUESSES.has(word.toLocaleUpperCase("de-DE"));
 }

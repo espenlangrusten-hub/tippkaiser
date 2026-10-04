@@ -2,7 +2,7 @@ import { readFileSync } from "node:fs";
 import path from "node:path";
 import { ImageResponse } from "next/og";
 
-export const alt = "Tippetuppen – dagens norske fotballspill";
+export const alt = "Tippkaiser – die täglichen Fußballspiele";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 export const dynamic = "force-static";
@@ -56,15 +56,15 @@ export default function Image() {
       >
         <div style={{ display: "flex", alignItems: "center", gap: 24 }}>
           <FlagMark size={72} />
-          <div style={{ display: "flex", fontSize: 40, fontWeight: 700, letterSpacing: 6, textTransform: "uppercase" }}>Tippetuppen</div>
+          <div style={{ display: "flex", fontSize: 40, fontWeight: 700, letterSpacing: 6, textTransform: "uppercase" }}>Tippkaiser</div>
         </div>
         <div style={{ display: "flex", flexDirection: "column" }}>
-          <div style={{ fontSize: 104, lineHeight: 1, fontWeight: 900, letterSpacing: -1 }}>To norske fotballspill.</div>
-          <div style={{ marginTop: 20, fontSize: 46, color: "#c9d4e7" }}>Én ny utfordring hver dag.</div>
+          <div style={{ fontSize: 104, lineHeight: 1, fontWeight: 900, letterSpacing: -1 }}>Sechs Fußballspiele.</div>
+          <div style={{ marginTop: 20, fontSize: 46, color: "#c9d4e7" }}>Jeden Tag eine neue Herausforderung.</div>
         </div>
         <div style={{ display: "flex", gap: 18, fontSize: 34, fontWeight: 700 }}>
-          <div style={{ display: "flex", padding: "12px 28px", borderRadius: 999, background: RED }}>Mangler XI</div>
-          <div style={{ display: "flex", padding: "12px 28px", borderRadius: 999, background: "#f4c542", color: "#0b1020" }}>Målløs</div>
+          <div style={{ display: "flex", padding: "12px 28px", borderRadius: 999, background: RED }}>Fehlende Elf</div>
+          <div style={{ display: "flex", padding: "12px 28px", borderRadius: 999, background: "#f4c542", color: "#0b1020" }}>Torlos</div>
         </div>
       </div>
     ),

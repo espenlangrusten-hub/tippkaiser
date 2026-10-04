@@ -23,12 +23,12 @@ type HomeGame = {
 };
 
 const games: HomeGame[] = [
-  { slug: "mangler-xi", recordSlug: "mangler-xi", name: "Manglende 11", description: "Hvilke spillere mangler i lagoppstillingen?", art: "xi", image: "/design/xi.webp" },
-  { slug: "maalloes", recordSlug: "maalloes", name: "Målløs", description: "Gjett kamper uten at noen scorer.", art: "goal", image: "/design/goal.webp" },
-  { slug: "finn-spilleren", recordSlug: "finn-spilleren", name: "Finn spilleren", description: "Hvem er spilleren vi er på jakt etter?", art: "mystery", image: "/design/mystery.webp" },
-  { slug: "straffespark", name: "Straffespark", description: "Fem nye spørsmål hver dag.", art: "penalty", image: "/design/penalty.webp" },
-  { slug: "gullordet", recordSlug: "gullordet", name: "Gullordet", description: "Fem bokstaver. Seks forsøk.", art: "word" },
-  { slug: "trener-genius", recordSlug: "trener-genius", name: "Trener Genius", description: "Fire spørsmål. Ett taktisk valg.", art: "trainer", image: "/trener-genius/card-retro.webp" },
+  { slug: "mangler-xi", recordSlug: "mangler-xi", name: "Fehlende Elf", description: "Welche Spieler fehlen in der Aufstellung?", art: "xi", image: "/design/xi.webp" },
+  { slug: "maalloes", recordSlug: "maalloes", name: "Torlos", description: "Errate Spiele, in denen keiner trifft.", art: "goal", image: "/design/goal.webp" },
+  { slug: "finn-spilleren", recordSlug: "finn-spilleren", name: "Finde den Spieler", description: "Welchen Spieler suchen wir?", art: "mystery", image: "/design/mystery.webp" },
+  { slug: "straffespark", name: "Elfmeter", description: "Fünf neue Fragen jeden Tag.", art: "penalty", image: "/design/penalty.webp" },
+  { slug: "gullordet", recordSlug: "gullordet", name: "Goldwort", description: "Fünf Buchstaben. Sechs Versuche.", art: "word" },
+  { slug: "trener-genius", recordSlug: "trener-genius", name: "Trainer-Genie", description: "Vier Fragen. Eine taktische Wahl.", art: "trainer", image: "/trener-genius/card-retro.webp" },
 ];
 
 export function TodayCards() {
@@ -52,12 +52,12 @@ export function TodayCards() {
     <div className={s.page}>
       <section className={s.hero}>
         <div className={s.heroCopy}>
-          <p className={s.eyebrow}>Fotballkunnskap <span>•</span> Hver dag <span>•</span> For alle</p>
-          <h1>Dagens fotballspill — nye oppgaver hver dag<span className="sr-only"> Hvor godt kjenner du norsk fotball?</span></h1>
-          <p className={s.lead}>Tippetuppen er stedet for deg som elsker fotball og gode hodebry. Seks daglige spill, nye utfordringer og en liga med venner og andre fotballnerder.</p>
+          <p className={s.eyebrow}>Fußballwissen <span>•</span> Jeden Tag <span>•</span> Für alle</p>
+          <h1>Die Fußballspiele des Tages — jeden Tag neue Aufgaben<span className="sr-only"> Wie gut kennst du den deutschen Fußball?</span></h1>
+          <p className={s.lead}>Tippkaiser ist der Ort für alle, die Fußball und gute Knobeleien lieben. Sechs tägliche Spiele, neue Herausforderungen und eine Liga mit Freunden und anderen Fußballverrückten.</p>
           <div className={s.heroActions}>
-            <Link href="#spill" className={s.primary}>Start dagens spill <span aria-hidden="true">→</span></Link>
-            {streak ? <span className={s.streak}><b>{streak}</b> {streak === 1 ? "dag" : "dager"} på rad</span> : null}
+            <Link href="#spill" className={s.primary}>Spiele des Tages starten <span aria-hidden="true">→</span></Link>
+            {streak ? <span className={s.streak}><b>{streak}</b> {streak === 1 ? "Tag" : "Tage"} in Folge</span> : null}
           </div>
           <AccountNudge />
         </div>
@@ -67,13 +67,13 @@ export function TodayCards() {
         </div>
       </section>
 
-      <section id="spill" className={s.gamesSection} aria-label="Dagens spill">
+      <section id="spill" className={s.gamesSection} aria-label="Spiele des Tages">
         <div className={s.sectionHeading}>
           <div>
-            <h3>Våre spill</h3>
-            <p>Seks ulike måter å teste fotballkunnskapene dine på. Nye oppgaver hver dag!</p>
+            <h3>Unsere Spiele</h3>
+            <p>Sechs verschiedene Arten, dein Fußballwissen zu testen. Jeden Tag neue Aufgaben!</p>
           </div>
-          <Link href="/arkiv/">Se alle spill <span aria-hidden="true">→</span></Link>
+          <Link href="/arkiv/">Alle Spiele ansehen <span aria-hidden="true">→</span></Link>
         </div>
 
         <div className={s.gameGrid}>
@@ -85,12 +85,12 @@ export function TodayCards() {
                 href={`/${game.slug}/`}
                 className={`${s.gameCard} ${s[game.art]}`}
                 aria-label={
-                  game.slug === "mangler-xi" ? (completed ? "Se resultat for Mangler XI" : "Spill dagens XI") :
-                  game.slug === "maalloes" ? (completed ? "Se resultat for Målløs" : "Spill Målløs") :
-                  game.slug === "finn-spilleren" ? (completed ? "Se resultat for Finn spilleren" : "Spill Finn spilleren") :
-                  game.slug === "straffespark" ? "Spill Straffespark, dagens 5" :
-                  game.slug === "gullordet" ? (completed ? "Se resultat for Gullordet" : "Spill Gullordet") :
-                  completed ? "Se resultat for Trener Genius" : "Spill Trener Genius"
+                  game.slug === "mangler-xi" ? (completed ? "Ergebnis für Fehlende Elf ansehen" : "Die Elf des Tages spielen") :
+                  game.slug === "maalloes" ? (completed ? "Ergebnis für Torlos ansehen" : "Torlos spielen") :
+                  game.slug === "finn-spilleren" ? (completed ? "Ergebnis für Finde den Spieler ansehen" : "Finde den Spieler spielen") :
+                  game.slug === "straffespark" ? "Elfmeter spielen, die 5 des Tages" :
+                  game.slug === "gullordet" ? (completed ? "Ergebnis für Goldwort ansehen" : "Goldwort spielen") :
+                  completed ? "Ergebnis für Trainer-Genie ansehen" : "Trainer-Genie spielen"
                 }
               >
                 <div className={s.gameArt}>
@@ -106,7 +106,7 @@ export function TodayCards() {
                     <p>{game.description}</p>
                   </div>
                   <span className={s.gameArrow} aria-hidden="true">→</span>
-                  <small>{completed ? "✓ Fullført" : "NYE OPPGAVER HVER DAG"}</small>
+                  <small>{completed ? "✓ Erledigt" : "JEDEN TAG NEUE AUFGABEN"}</small>
                 </div>
               </Link>
             );
@@ -119,10 +119,10 @@ export function TodayCards() {
 
         <Link href="/liga/" className={s.friendCard}>
           <div className={s.friendCopy}>
-            <p className={s.smallKicker}>Liga og venner</p>
-            <h2>Lag din egen venneliga</h2>
-            <p>Spill mot venner, kollegaer eller hele fotballgjengen. Hvem kan mest?</p>
-            <span>Opprett liga <b aria-hidden="true">→</b></span>
+            <p className={s.smallKicker}>Liga und Freunde</p>
+            <h2>Gründe deine eigene Freundesliga</h2>
+            <p>Spiel gegen Freunde, Kollegen oder die ganze Fußballclique. Wer weiß am meisten?</p>
+            <span>Liga gründen <b aria-hidden="true">→</b></span>
           </div>
           <div className={s.friendArt}><ReferenceArt name="friends" /></div>
           
@@ -130,8 +130,8 @@ export function TodayCards() {
 
         <div className={s.sideStack}>
           <aside className={s.factCard}>
-            <p className={s.factKicker}>★ Dagens fakta</p>
-            <p>Rosenborg er den norske klubben med flest europacupkamper, med over 200 kamper i UEFA-turneringene.</p>
+            <p className={s.factKicker}>★ Fakt des Tages</p>
+            <p>Deutschland ist viermal Weltmeister geworden: 1954, 1974, 1990 und 2014.</p>
             <div className={s.factArt}><ReferenceArt name="trophy" /></div>
           </aside>
 

@@ -2,33 +2,33 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { ConsentSettingsButton } from "@/components/consent/ConsentSettingsButton";
 
-export const metadata: Metadata = { title: "Personvern og informasjonskapsler", description: "Hvordan Tippetuppen behandler data, annonser og lagring i nettleseren.", alternates: { canonical: "/personvern" } };
+export const metadata: Metadata = { title: "Datenschutz und Cookies", description: "Wie Tippkaiser mit Daten, Werbung und dem Speicher im Browser umgeht.", alternates: { canonical: "/personvern" } };
 
 export default function Page() {
   return (
     <article className="flex max-w-2xl flex-col gap-4">
-      <h1 className="font-display text-4xl font-bold uppercase">Personvern</h1>
-      <p className="text-mist">Kort versjon: Du kan spille uten konto. Hvis du oppretter en ligaprofil, lagrer vi brukernavn, en sikret passordverdi og resultater. Vi bruker ingen sporingskapsler for statistikk.</p>
-      <h2 className="font-display text-2xl font-bold uppercase">Lagring i nettleseren</h2>
-      <p className="text-mist">For at spillet skal virke lagrer vi fremgang, resultater og rekke i nettleserens lokale lagring (localStorage). Dette er nødvendig for tjenesten, forlater aldri enheten din og kan slettes ved å tømme nettleserdata.</p>
+      <h1 className="font-display text-4xl font-bold uppercase">Datenschutz</h1>
+      <p className="text-mist">Kurzfassung: Du kannst ohne Konto spielen. Wenn du ein Ligaprofil anlegst, speichern wir Benutzernamen, einen gesicherten Passwortwert und Ergebnisse. Für die Statistik verwenden wir keine Tracking-Cookies.</p>
+      <h2 className="font-display text-2xl font-bold uppercase">Speicher im Browser</h2>
+      <p className="text-mist">Damit das Spiel funktioniert, speichern wir Fortschritt, Ergebnisse und Serie im lokalen Speicher deines Browsers (localStorage). Das ist für den Dienst notwendig, verlässt dein Gerät nie und lässt sich durch Löschen der Browserdaten entfernen.</p>
       <h2 className="font-display text-2xl font-bold uppercase">Ligaprofil</h2>
-      <p className="text-mist">Ligaprofil er frivillig. Vi lagrer det unike brukernavnet ditt, et saltet og langsomt hashet passord, en tidsbegrenset innloggingsnøkkel og serverberegnede spillresultater. Passordet lagres aldri i klartekst. Brukernavn og sammenlagt poengsum vises offentlig i ligatabellen.</p>
-      <h2 className="font-display text-2xl font-bold uppercase">Statistikk</h2>
-      <p className="text-mist">Vi teller sidevisninger og spill med en anonym, daglig roterende nøkkel som lages på serveren fra IP-adresse og nettlesertype. Nøkkelen kan ikke føres tilbake til deg, lagres ikke i nettleseren din, og IP-adressen lagres ikke.</p>
-      <h2 className="font-display text-2xl font-bold uppercase">Annonser</h2>
-      <p className="text-mist">Tippetuppen er gratis og kan finansieres av annonser fra Google AdSense. Google kan bruke informasjonskapsler for å vise annonser. Du velger selv om du vil tillate personlig tilpassede annonser. Uten samtykke vises ikke-personlige annonser. Du kan endre valget når som helst:</p>
+      <p className="text-mist">Das Ligaprofil ist freiwillig. Wir speichern deinen eindeutigen Benutzernamen, ein gesalzenes und langsam gehashtes Passwort, einen zeitlich begrenzten Anmeldeschlüssel und vom Server berechnete Spielergebnisse. Das Passwort wird nie im Klartext gespeichert. Benutzername und Gesamtpunktzahl erscheinen öffentlich in der Ligatabelle.</p>
+      <h2 className="font-display text-2xl font-bold uppercase">Statistik</h2>
+      <p className="text-mist">Wir zählen Seitenaufrufe und Spiele mit einem anonymen, täglich wechselnden Schlüssel, der auf dem Server aus IP-Adresse und Browsertyp gebildet wird. Der Schlüssel lässt sich nicht auf dich zurückführen, wird nicht in deinem Browser gespeichert, und die IP-Adresse wird nicht gespeichert.</p>
+      <h2 className="font-display text-2xl font-bold uppercase">Werbung</h2>
+      <p className="text-mist">Tippkaiser ist kostenlos und kann durch Werbung von Google AdSense finanziert werden. Google kann Cookies verwenden, um Werbung anzuzeigen. Du entscheidest selbst, ob du personalisierte Werbung erlaubst. Ohne Einwilligung wird nicht personalisierte Werbung angezeigt. Du kannst deine Wahl jederzeit ändern:</p>
       <ConsentSettingsButton />
       <p className="text-mist">
-        Les mer om hvordan Google bruker data:{" "}
+        Mehr dazu, wie Google Daten verwendet:{" "}
         <a href="https://policies.google.com/technologies/partner-sites" className="underline" rel="noopener noreferrer" target="_blank">
           policies.google.com/technologies/partner-sites
         </a>
         .
       </p>
-      <h2 className="font-display text-2xl font-bold uppercase">Kontaktskjemaet</h2>
-      <p className="text-mist">Når du sender en melding via kontaktskjemaet, lagrer vi tittel, melding og e-postadressen du oppgir, sammen med en anonym, daglig skiftende kode som bare brukes til å begrense hvor mange meldinger som kan sendes per dag. Meldingen videresendes på e-post til den som drifter Tippetuppen gjennom e-posttjenesten Resend. Vi bruker opplysningene bare til å svare deg, og meldinger slettes automatisk etter 12 måneder.</p>
-      <h2 className="font-display text-2xl font-bold uppercase">Behandlingsansvarlig og kontakt</h2>
-      <p className="text-mist">Tippetuppen drives som et uavhengig prosjekt. Spørsmål om personvern eller innsyn kan sendes via <Link href="/kontakt" className="underline">kontaktskjemaet</Link> eller til kontakt@tippetuppen.no. Klager kan rettes til Datatilsynet.</p>
+      <h2 className="font-display text-2xl font-bold uppercase">Kontaktformular</h2>
+      <p className="text-mist">Wenn du über das Kontaktformular eine Nachricht sendest, speichern wir Betreff, Nachricht und die angegebene E-Mail-Adresse, zusammen mit einem anonymen, täglich wechselnden Code, der nur dazu dient, die Zahl der Nachrichten pro Tag zu begrenzen. Die Nachricht wird über den E-Mail-Dienst Resend an den Betreiber von Tippkaiser weitergeleitet. Wir verwenden die Angaben nur, um dir zu antworten, und Nachrichten werden nach 12 Monaten automatisch gelöscht.</p>
+      <h2 className="font-display text-2xl font-bold uppercase">Verantwortlicher und Kontakt</h2>
+      <p className="text-mist">Tippkaiser wird als unabhängiges Projekt betrieben. Fragen zum Datenschutz oder zur Auskunft kannst du über das <Link href="/kontakt" className="underline">Kontaktformular</Link> stellen. Du hast das Recht, dich bei einer Datenschutz-Aufsichtsbehörde zu beschweren.</p>
     </article>
   );
 }

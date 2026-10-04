@@ -7,7 +7,7 @@ import type { Position } from "./positions.ts";
 /** Display defaults apply only where the match has no recorded position. */
 export function displayPosition(name: string, recorded: Position): Position {
   if (recorded !== "OUT") return recorded;
-  const normalized = name.toLocaleLowerCase("nb-NO");
+  const normalized = name.toLocaleLowerCase("de-DE");
   if (normalized.includes("bjørnebye")) return "LB";
   if (normalized.includes("hoftun")) return "CB";
   if (normalized.includes("heggem")) return "RB";

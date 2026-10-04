@@ -1,10 +1,10 @@
 // GENERATED FILE – do not edit. Source: src/lib/<name>. Run `npm run sync:shared`.
-/** Daily puzzle dates are defined in Europe/Oslo local time. */
-export const TZ = "Europe/Oslo";
+/** Daily puzzle dates are defined in Europe/Berlin local time. */
+export const TZ = "Europe/Berlin";
 
 const fmt = new Intl.DateTimeFormat("en-CA", { timeZone: TZ, year: "numeric", month: "2-digit", day: "2-digit" });
 
-/** YYYY-MM-DD for the given instant, in Europe/Oslo. */
+/** YYYY-MM-DD for the given instant, in Europe/Berlin. */
 export function osloDateKey(d: Date = new Date()): string {
   return fmt.format(d); // en-CA yields ISO-like YYYY-MM-DD
 }
@@ -50,7 +50,7 @@ export function msUntilNextOsloMidnight(now: Date = new Date()): number {
  * same file under Deno, and a runtime without full Norwegian locale data would quietly
  * print "September" in English on one side and "september" on the other.
  */
-export const MONTHS_NO = ["januar", "februar", "mars", "april", "mai", "juni", "juli", "august", "september", "oktober", "november", "desember"] as const;
+export const MONTHS_NO = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"] as const;
 
 /** First day of the month the key falls in. */
 export function monthStart(key: string): string {
@@ -69,12 +69,12 @@ export function previousMonth(key: string): { from: string; to: string } {
   return { from: monthStart(to), to };
 }
 
-/** "september" for any key in September. */
+/** "September" for any key in September. */
 export function monthNameNo(key: string): string {
   return MONTHS_NO[Number(key.slice(5, 7)) - 1];
 }
 
-const long = new Intl.DateTimeFormat("nb-NO", { timeZone: TZ, day: "numeric", month: "long", year: "numeric" });
+const long = new Intl.DateTimeFormat("de-DE", { timeZone: TZ, day: "numeric", month: "long", year: "numeric" });
 export function formatDateNo(key: string): string {
   const [y, m, d] = key.split("-").map(Number);
   return long.format(new Date(Date.UTC(y, m - 1, d, 12)));

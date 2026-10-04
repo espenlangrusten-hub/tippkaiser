@@ -198,7 +198,7 @@ export function AdminScreen() {
             {[
               ["I dag så langt", String(visitorsOn(0))],
               ["I går", String(visitorsOn(1))],
-              ["Snitt siste 7 dager", average(0, 7).toLocaleString("nb-NO", { maximumFractionDigits: 1 })],
+              ["Snitt siste 7 dager", average(0, 7).toLocaleString("de-DE", { maximumFractionDigits: 1 })],
             ].map(([label, value]) => (
               <div key={label} className="rounded-lg bg-ink-2 p-3">
                 <dt className="text-xs uppercase tracking-wide text-mist">{label}</dt>
@@ -207,7 +207,7 @@ export function AdminScreen() {
             ))}
           </dl>
           <p className="mt-2 text-xs text-fog">
-            Forrige 7 dager: {average(7, 14).toLocaleString("nb-NO", { maximumFractionDigits: 1 })} per dag. Besøkende telles per dag; samme person to dager telles to ganger.
+            Forrige 7 dager: {average(7, 14).toLocaleString("de-DE", { maximumFractionDigits: 1 })} per dag. Besøkende telles per dag; samme person to dager telles to ganger.
           </p>
           <div className="mt-3 flex h-28 items-end gap-1" aria-label="Besøkende per dag, siste 14 dager">
             {last14.map((d) => (
@@ -221,7 +221,7 @@ export function AdminScreen() {
           <div className="mt-4 border-t border-line pt-3">
             <p className="text-sm">
               Dagsrapport på e-post hver dag kl. 18:00.{" "}
-              {report?.last?.sentAt ? <span className="text-fog">Sist sendt {new Date(report.last.sentAt).toLocaleString("nb-NO")}.</span> : null}
+              {report?.last?.sentAt ? <span className="text-fog">Sist sendt {new Date(report.last.sentAt).toLocaleString("de-DE")}.</span> : null}
               {report?.last?.error ? <span className="text-flag-2"> Siste forsøk feilet: {report.last.error}</span> : null}
             </p>
             <div className="mt-2 flex flex-wrap gap-2">
@@ -250,7 +250,7 @@ export function AdminScreen() {
                 <li key={m.id} className="py-3">
                   <div className="flex flex-wrap items-baseline justify-between gap-2">
                     <b className="text-snow">{m.title}</b>
-                    <span className="text-xs text-fog">{new Date(m.created_at).toLocaleString("nb-NO", { timeZone: "Europe/Oslo" })}</span>
+                    <span className="text-xs text-fog">{new Date(m.created_at).toLocaleString("de-DE", { timeZone: "Europe/Berlin" })}</span>
                   </div>
                   <p className="mt-1 whitespace-pre-wrap text-sm text-mist">{m.message}</p>
                   <p className="mt-1 text-xs"><a className="underline" href={`mailto:${m.sender}?subject=${encodeURIComponent("Sv: " + m.title)}`}>{m.sender}</a>

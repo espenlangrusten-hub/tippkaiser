@@ -3,7 +3,7 @@ import { ContactForm } from "./ContactForm";
 
 export const metadata: Metadata = {
   title: "Kontakt",
-  description: "Send en melding til Tippetuppen – feil i en oppstilling, et spørsmål som ikke stemmer, eller en idé.",
+  description: "Schreib Tippkaiser eine Nachricht – ein Fehler in einer Aufstellung, eine Frage, die nicht stimmt, oder eine Idee.",
   alternates: { canonical: "/kontakt" },
 };
 
@@ -12,8 +12,8 @@ export default function Page() {
     <article className="flex max-w-2xl flex-col gap-4">
       <h1 className="font-display text-4xl font-bold uppercase">Kontakt</h1>
       <p className="text-mist">
-        Fant du en feil i en oppstilling, et svar som burde vært godkjent, eller har du en idé til et nytt spill? Skriv
-        til oss. Oppgi e-postadressen din, så svarer vi dit.
+        Du hast einen Fehler in einer Aufstellung gefunden, eine Antwort, die hätte zählen sollen, oder eine Idee für ein neues
+        Spiel? Schreib uns. Gib deine E-Mail-Adresse an, dann antworten wir dorthin.
       </p>
       <ContactForm />
     </article>

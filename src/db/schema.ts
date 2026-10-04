@@ -344,7 +344,7 @@ export const schedule = tt.table(
   "schedule",
   {
     game: text("game").$type<GameId>().notNull(),
-    date: text("date").notNull(), // YYYY-MM-DD in Europe/Oslo
+    date: text("date").notNull(), // YYYY-MM-DD in Europe/Berlin
     number: integer("number").notNull(), // daily puzzle number shown to users (#1, #2, ...)
     puzzleId: text("puzzle_id")
       .notNull()

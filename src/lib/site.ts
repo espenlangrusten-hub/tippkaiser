@@ -6,38 +6,43 @@
  * which then breaks things far from the cause (an empty SITE_URL used to crash the
  * build inside `new URL()`).
  */
-export const SITE_NAME = process.env.NEXT_PUBLIC_SITE_NAME || "Tippetuppen";
+export const SITE_NAME = process.env.NEXT_PUBLIC_SITE_NAME || "Tippkaiser";
 export const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || "";
 export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3200").replace(/\/$/, "");
-export const SITE_TAGLINE = "Dagens norske fotballspill";
+export const SITE_TAGLINE = "Die täglichen Fußballspiele";
+/**
+ * Search engines are kept out until launch: the test site on github.io is for invited
+ * testers. Set NEXT_PUBLIC_INDEXABLE=true for the build on tippkaiser.de.
+ */
+export const INDEXABLE = process.env.NEXT_PUBLIC_INDEXABLE === "true";
 
 export const GAME_META = {
   "mangler-xi": {
     slug: "mangler-xi",
-    name: "Mangler XI",
-    short: "Fyll ut Norges startellever",
-    description: "Kan du huske Norges startellever fra en historisk landskamp? Gjett spillerne bokstav for bokstav.",
-    emoji: "🇳🇴",
+    name: "Fehlende Elf",
+    short: "Vervollständige Deutschlands Startelf",
+    description: "Kennst du noch Deutschlands Startelf aus einem historischen Länderspiel? Errate die Spieler Buchstabe für Buchstabe.",
+    emoji: "🇩🇪",
   },
   maalloes: {
     slug: "maalloes",
-    name: "Målløs",
-    short: "Finn de sjeldneste svarene",
-    description: "Fem svar på et spørsmål om norsk fotball. Jo færre som svarer det samme som deg, jo bedre.",
+    name: "Torlos",
+    short: "Finde die seltensten Antworten",
+    description: "Fünf Antworten auf eine Frage zum deutschen Fußball. Je weniger Leute dasselbe antworten wie du, desto besser.",
     emoji: "🥅",
   },
   "finn-spilleren": {
     slug: "finn-spilleren",
-    name: "Finn spilleren",
-    short: "Fem hint. Ett svar.",
-    description: "Finn spilleren eller treneren. Tidlig riktig svar gir flest poeng; feil svar avslutter runden.",
+    name: "Finde den Spieler",
+    short: "Fünf Hinweise. Eine Antwort.",
+    description: "Finde den Spieler oder Trainer. Eine frühe richtige Antwort gibt die meisten Punkte; eine falsche beendet die Runde.",
     emoji: "🕵️",
   },
   gullordet: {
     slug: "gullordet",
-    name: "Gullordet",
-    short: "Fem bokstaver. Seks forsøk.",
-    description: "Gjett dagens norske fotballord eller fotballnavn på seks forsøk.",
+    name: "Goldwort",
+    short: "Fünf Buchstaben. Sechs Versuche.",
+    description: "Errate das deutsche Fußballwort oder den Fußballnamen des Tages in sechs Versuchen.",
     emoji: "🟩",
   },
 } as const;
