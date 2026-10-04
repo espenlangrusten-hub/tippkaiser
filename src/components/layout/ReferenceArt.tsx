@@ -19,7 +19,22 @@ const windows = {
   ground: ["xi", 706, 306, 247, 128],
 } as const;
 
+// Tippkaiser's own art, drawn for the same frames: each image has the shape of the
+// window it replaces, so it fills it and the layout stays as it was. Where a frame is
+// narrower than the art (the hero on desktop), the empty paper on the left gives way.
+const standalone: Partial<Record<keyof typeof windows, string>> = {
+  logo: "/brand/logo.webp",
+  homeHero: "/design/home-hero.webp",
+};
+
 export function ReferenceArt({ name, className = "" }: { name: keyof typeof windows; className?: string }) {
+  const own = standalone[name];
+  if (own) {
+    return <span className={`reference-art ${className}`} aria-hidden="true" style={{ display: "block", position: "relative", overflow: "hidden", width: "100%", height: "100%" }}>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img src={`${BASE_PATH}${own}`} alt="" draggable={false} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: name === "logo" ? "contain" : "cover", objectPosition: name === "homeHero" ? "right center" : "center" }} />
+    </span>;
+  }
   const [sheet, x, y, width, height] = windows[name];
   return <span className={`reference-art ${className}`} aria-hidden="true" style={{ display: "block", position: "relative", overflow: "hidden", width: "100%", height: "100%", ...(name === "trophy" ? { clipPath: "polygon(62% 0,100% 0,100% 100%,0 100%,0 62%,50% 62%,50% 42%,62% 42%)" } : {}) }}>
     {/* eslint-disable-next-line @next/next/no-img-element */}

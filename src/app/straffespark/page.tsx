@@ -13,10 +13,8 @@ export const metadata: Metadata = {
 // The beta media files were manually prepared for the public site under neutral filenames.
 // Trivia needs no override. Add future photo/audio questions here only after their public
 // asset has been committed, so a daily draw can never land on a broken media question.
-const PUBLIC_MEDIA: Record<string, string> = {
-  "str-foto-erling-haaland": "shot-1.jpg",
-  "str-sang-lillestrom": "shot-5-20260909.mp3",
-};
+// Photo and chant rounds whose file is published under public/media/straffespark.
+const PUBLIC_MEDIA: Record<string, string> = {};
 
 export default function Page() {
   const ds = loadDataset();

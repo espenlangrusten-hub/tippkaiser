@@ -12,7 +12,7 @@ export const dynamic = "force-static";
  *
  * Emoji — Satori draws no glyph for one unless an emoji font is supplied, so the ⚽
  * that used to sit in the badge rendered as an empty red square on every share.
- * The mark is built from plain rectangles instead, matching icon.svg.
+ * The mark is the logo image instead.
  *
  * System fonts — the site's wordmark is Barlow Condensed, so the card loaded Arial
  * and looked like a different site. The face is already a dependency; it is read
@@ -21,22 +21,12 @@ export const dynamic = "force-static";
 const font = (weight: 700 | 900) =>
   readFileSync(path.join(process.cwd(), "node_modules/@fontsource/barlow-condensed/files", `barlow-condensed-latin-${weight}-normal.woff`));
 
-const RED = "#ba0c2f";
-const BLUE = "#00205b";
+const RED = "#dd0000";
+const GOLD = "#ffce00";
 const SNOW = "#f4f7fb";
 
-/** The flag from icon.svg, drawn with rectangles because Satori has no SVG paths. */
-function FlagMark({ size: s }: { size: number }) {
-  const u = s / 64;
-  return (
-    <div style={{ display: "flex", position: "relative", width: s, height: s, borderRadius: 13 * u, background: RED, overflow: "hidden" }}>
-      <div style={{ position: "absolute", left: 16 * u, top: 0, width: 16 * u, height: s, background: SNOW }} />
-      <div style={{ position: "absolute", left: 0, top: 24 * u, width: s, height: 16 * u, background: SNOW }} />
-      <div style={{ position: "absolute", left: 20 * u, top: 0, width: 8 * u, height: s, background: BLUE }} />
-      <div style={{ position: "absolute", left: 0, top: 28 * u, width: s, height: 8 * u, background: BLUE }} />
-    </div>
-  );
-}
+/** The Tippkaiser wordmark, read from disk at build time like the fonts. */
+const logo = `data:image/png;base64,${readFileSync(path.join(process.cwd(), "public/brand/logo.png")).toString("base64")}`;
 
 export default function Image() {
   return new ImageResponse(
@@ -50,13 +40,13 @@ export default function Image() {
           justifyContent: "space-between",
           padding: "68px 76px",
           color: SNOW,
-          background: "linear-gradient(135deg, #0b1020 0%, #121f3e 65%, #00205b 100%)",
+          background: "linear-gradient(135deg, #0b0b0b 0%, #1d1d1d 65%, #3a0000 100%)",
           fontFamily: "Barlow Condensed",
         }}
       >
-        <div style={{ display: "flex", alignItems: "center", gap: 24 }}>
-          <FlagMark size={72} />
-          <div style={{ display: "flex", fontSize: 40, fontWeight: 700, letterSpacing: 6, textTransform: "uppercase" }}>Tippkaiser</div>
+        <div style={{ display: "flex" }}>
+          {/* eslint-disable-next-line @next/next/no-img-element, jsx-a11y/alt-text */}
+          <img src={logo} width={540} height={80} />
         </div>
         <div style={{ display: "flex", flexDirection: "column" }}>
           <div style={{ fontSize: 104, lineHeight: 1, fontWeight: 900, letterSpacing: -1 }}>Sechs Fußballspiele.</div>
@@ -64,7 +54,7 @@ export default function Image() {
         </div>
         <div style={{ display: "flex", gap: 18, fontSize: 34, fontWeight: 700 }}>
           <div style={{ display: "flex", padding: "12px 28px", borderRadius: 999, background: RED }}>Fehlende Elf</div>
-          <div style={{ display: "flex", padding: "12px 28px", borderRadius: 999, background: "#f4c542", color: "#0b1020" }}>Torlos</div>
+          <div style={{ display: "flex", padding: "12px 28px", borderRadius: 999, background: GOLD, color: "#0b0b0b" }}>Torlos</div>
         </div>
       </div>
     ),
