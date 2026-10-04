@@ -1,5 +1,6 @@
 "use client";
 
+import { SITE_URL } from "@/lib/site";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { apiPost } from "@/lib/api";
@@ -28,9 +29,9 @@ type Reply = {
 };
 
 const rows = [
-  ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "Å"],
-  ["A", "S", "D", "F", "G", "H", "J", "K", "L", "Ø", "Æ"],
-  ["ENTER", "Z", "X", "C", "V", "B", "N", "M", "BACK"],
+  ["Q", "W", "E", "R", "T", "Z", "U", "I", "O", "P", "Ü"],
+  ["A", "S", "D", "F", "G", "H", "J", "K", "L", "Ö", "Ä"],
+  ["ENTER", "Y", "X", "C", "V", "B", "N", "M", "BACK"],
 ] as const;
 
 const statusRank: Record<GullordetLetterState, number> = { absent: 1, present: 2, correct: 3 };
@@ -67,12 +68,12 @@ export function GullordetGame({ puzzle, isArchive }: { puzzle: GullordetPublic; 
       setError(true);
       setMessage(
         reply.error === "not-in-list"
-          ? "Det ordet finnes ikke i den norske ordlisten eller blant Gullordet-navnene."
+          ? "Dieses Wort steht weder in der deutschen Wortliste noch unter den Goldwort-Namen."
           : reply.error === "five-letters"
-            ? "Ordet må ha fem bokstaver."
+            ? "Das Wort muss fünf Buchstaben haben."
             : reply.error === "unauthorised"
-              ? "Innloggingen er utløpt. Logg inn igjen for å fortsette."
-              : "Kunne ikke lagre forsøket. Prøv igjen.",
+              ? "Die Anmeldung ist abgelaufen. Melde dich erneut an, um weiterzuspielen."
+              : "Der Versuch konnte nicht gespeichert werden. Versuch es noch einmal.",
       );
       return false;
     }
@@ -124,7 +125,7 @@ export function GullordetGame({ puzzle, isArchive }: { puzzle: GullordetPublic; 
       .catch(() => {
         if (!active) return;
         setError(true);
-        setMessage("Fikk ikke kontakt med Gullordet. Prøv igjen.");
+        setMessage("Keine Verbindung zu Goldwort. Versuch es noch einmal.");
       })
       .finally(() => {
         if (active) setBusy(false);
@@ -152,7 +153,7 @@ export function GullordetGame({ puzzle, isArchive }: { puzzle: GullordetPublic; 
     trackStart();
     if (current.length !== 5) {
       setError(true);
-      setMessage("Ordet må ha fem bokstaver.");
+      setMessage("Das Wort muss fünf Buchstaben haben.");
       return;
     }
     setBusy(true);
@@ -164,7 +165,7 @@ export function GullordetGame({ puzzle, isArchive }: { puzzle: GullordetPublic; 
       if (accepted) setCurrent("");
     } catch {
       setError(true);
-      setMessage("Forbindelsen ble brutt. Forsøket er ikke brukt opp.");
+      setMessage("Die Verbindung wurde unterbrochen. Der Versuch wurde nicht verbraucht.");
     } finally {
       setBusy(false);
     }
@@ -210,13 +211,13 @@ export function GullordetGame({ puzzle, isArchive }: { puzzle: GullordetPublic; 
       .map((guess) => guess.states.map((state) => state === "correct" ? "🟩" : state === "present" ? "🟨" : "⬛").join(""))
       .join("\n");
     const result = won ? `${guesses.length}/6` : "X/6";
-    const text = `Gullordet #${puzzle.number} · ${result}\n${boxes}\nTippetuppen.no/gullordet`;
+    const text = `Goldwort #${puzzle.number} · ${result}\n${boxes}\n${SITE_URL.replace(/^https?:\/\//, "")}/gullordet`;
     try {
       const canShare = typeof navigator.share === "function";
       if (canShare) await navigator.share({ text });
       else await navigator.clipboard.writeText(text);
       setError(false);
-      setMessage(canShare ? "" : "Resultatet er kopiert.");
+      setMessage(canShare ? "" : "Das Ergebnis wurde kopiert.");
       track({ name: "share", game: "gullordet", puzzleId: analyticsId, archive: isArchive });
     } catch {
       // User cancelling the native share sheet is not an error.
@@ -226,17 +227,17 @@ export function GullordetGame({ puzzle, isArchive }: { puzzle: GullordetPublic; 
   return (
     <div className={s.game}>
       <div className={s.topline}>
-        <span>#{puzzle.number} · Seks forsøk</span>
-        <button type="button" className={s.helpButton} onClick={() => setHelp(true)} aria-label="Slik spiller du Gullordet">?</button>
+        <span>#{puzzle.number} · Sechs Versuche</span>
+        <button type="button" className={s.helpButton} onClick={() => setHelp(true)} aria-label="So spielst du Goldwort">?</button>
       </div>
 
-      <div className={s.board} aria-label="Gullordet-brett">
+      <div className={s.board} aria-label="Goldwort-Spielfeld">
         {Array.from({ length: 6 }, (_, rowIndex) => {
           const committed = guesses[rowIndex];
           const active = !finished && rowIndex === guesses.length;
           const letters = committed ? committed.word : active ? current : "";
           return (
-            <div className={s.row} key={rowIndex} aria-label={committed ? `Forsøk ${rowIndex + 1}: ${committed.word}` : `Forsøk ${rowIndex + 1}`}>
+            <div className={s.row} key={rowIndex} aria-label={committed ? `Versuch ${rowIndex + 1}: ${committed.word}` : `Versuch ${rowIndex + 1}`}>
               {Array.from({ length: 5 }, (_, colIndex) => {
                 const state = committed?.states[colIndex];
                 const letter = letters[colIndex] ?? "";
@@ -249,7 +250,7 @@ export function GullordetGame({ puzzle, isArchive }: { puzzle: GullordetPublic; 
       </div>
 
       <p className={`${s.message} ${error ? s.error : ""}`} aria-live="polite">
-        {busy && !attemptId ? "Laster dagens Gullord …" : message || (!finished ? "Gjett et norsk ord eller navn med fem bokstaver." : "")}
+        {busy && !attemptId ? "Das Goldwort des Tages wird geladen …" : message || (!finished ? "Rate ein deutsches Wort oder einen Namen mit fünf Buchstaben." : "")}
       </p>
 
       {!finished && (
@@ -267,7 +268,7 @@ export function GullordetGame({ puzzle, isArchive }: { puzzle: GullordetPublic; 
                     className={`${s.key} ${wide ? s.keyWide : ""} ${cls}`}
                     onClick={() => key === "ENTER" ? void submitGuess() : key === "BACK" ? removeLetter() : addLetter(key)}
                     disabled={busy}
-                    aria-label={key === "ENTER" ? "Send inn" : key === "BACK" ? "Slett" : key}
+                    aria-label={key === "ENTER" ? "Absenden" : key === "BACK" ? "Löschen" : key}
                   >
                     {key === "ENTER" ? "ENTER" : key === "BACK" ? "⌫" : key}
                   </button>
@@ -278,20 +279,20 @@ export function GullordetGame({ puzzle, isArchive }: { puzzle: GullordetPublic; 
         </div>
       )}
 
-      {!finished && <p className={s.scoreGuide}>Poeng: 100 · 80 · 60 · 40 · 20 · 10 etter hvilket forsøk du løser ordet på.</p>}
+      {!finished && <p className={s.scoreGuide}>Punkte: 100 · 80 · 60 · 40 · 20 · 10, je nachdem, im wievielten Versuch du das Wort löst.</p>}
 
       {finished && (
         <section className={s.result} aria-live="polite">
-          <h2>{won ? "Gull!" : "Dagens ord"}</h2>
+          <h2>{won ? "Gold!" : "Das Wort des Tages"}</h2>
           <p className={s.answer}><b>{answer}</b>{label && label.toLocaleUpperCase("de-DE") !== answer ? <> · {label}</> : null}</p>
           <p className={s.resultMeta}>
-            {won ? `${score ?? 0} poeng på forsøk ${guesses.length}` : "Ingen poeng denne gangen"}
+            {won ? `${score ?? 0} Punkte im ${guesses.length}. Versuch` : "Diesmal keine Punkte"}
             {category ? ` · ${category}` : ""}
             {isArchive ? " · arkiv" : ""}
           </p>
           <div className={s.resultActions}>
-            <button type="button" className={s.primary} onClick={() => void share()}>Del resultatet</button>
-            <Link href="/#spill" className={s.secondary}>Spill mer</Link>
+            <button type="button" className={s.primary} onClick={() => void share()}>Ergebnis teilen</button>
+            <Link href="/#spill" className={s.secondary}>Mehr spielen</Link>
           </div>
         </section>
       )}
@@ -300,17 +301,17 @@ export function GullordetGame({ puzzle, isArchive }: { puzzle: GullordetPublic; 
         <div className={s.overlay} role="presentation" onMouseDown={(event) => { if (event.currentTarget === event.target) setHelp(false); }}>
           <section className={s.dialog} role="dialog" aria-modal="true" aria-labelledby="gullordet-help-title">
             <div className={s.dialogTop}>
-              <h2 id="gullordet-help-title">Slik spiller du</h2>
-              <button type="button" className={s.close} onClick={() => setHelp(false)} aria-label="Lukk">×</button>
+              <h2 id="gullordet-help-title">So wird gespielt</h2>
+              <button type="button" className={s.close} onClick={() => setHelp(false)} aria-label="Schließen">×</button>
             </div>
             <div className={s.rules}>
-              <p>Gjett Gullordet på seks forsøk. Dagens fasit er fotballrelatert, men du kan bruke vanlige norske ord på fem bokstaver som gjetninger.</p>
-              <p className="mt-2">Fargene viser hvor nær du er:</p>
+              <p>Errate das Goldwort in sechs Versuchen. Die Lösung hat mit Fußball zu tun, aber du kannst auch gewöhnliche deutsche Wörter mit fünf Buchstaben raten.</p>
+              <p className="mt-2">Die Farben zeigen, wie nah du dran bist:</p>
             </div>
             <div className={s.examples}>
-              <Example word="BRANN" index={0} state="correct" text="B er i ordet og står på riktig plass." />
-              <Example word="SKUDD" index={1} state="present" text="K er i ordet, men står på feil plass." />
-              <Example word="MOLDE" index={2} state="absent" text="L finnes ikke i ordet." />
+              <Example word="KLOSE" index={0} state="correct" text="K kommt im Wort vor und steht an der richtigen Stelle." />
+              <Example word="ELFER" index={1} state="present" text="L kommt im Wort vor, steht aber an der falschen Stelle." />
+              <Example word="STURM" index={2} state="absent" text="U kommt im Wort nicht vor." />
             </div>
           </section>
         </div>

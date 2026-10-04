@@ -18,11 +18,11 @@ export function GullordetScreen() {
   return (
     <div className={s.page}>
       <div className={s.heading}>
-        <p className={s.eyebrow}>Fotballkunnskap <span>•</span> Hver dag <span>•</span> Gullordet</p>
-        <h1 className={s.title}><Image src={BASE_PATH + "/gullordet/logo.webp"} alt="Gullordet" width={1000} height={500} className={s.logo} preload /></h1>
-        <p className={s.subtitle}>Fem bokstaver. Seks forsøk. Dagens fasit er fotballrelatert – vanlige norske ord er også gyldige gjetninger.</p>
+        <p className={s.eyebrow}>Fußballwissen <span>•</span> Jeden Tag <span>•</span> Goldwort</p>
+        <h1 className={s.title}><Image src={BASE_PATH + "/gullordet/logo.webp"} alt="Goldwort" width={1000} height={500} className={s.logo} preload /></h1>
+        <p className={s.subtitle}>Fünf Buchstaben. Sechs Versuche. Die Lösung hat mit Fußball zu tun – gewöhnliche deutsche Wörter zählen auch als Versuch.</p>
         {state.status === "ready" && (
-          <p className={s.date}>{state.isArchive ? `Arkiv · ${formatDateNo(state.puzzle.date)}` : formatDateNo(state.today)}</p>
+          <p className={s.date}>{state.isArchive ? `Archiv · ${formatDateNo(state.puzzle.date)}` : formatDateNo(state.today)}</p>
         )}
       </div>
       <div className={s.gameArea}>

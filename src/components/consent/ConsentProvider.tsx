@@ -94,20 +94,20 @@ export function ConsentProvider({ children }: { children: React.ReactNode }) {
         <div role="dialog" aria-modal="true" aria-labelledby="consent-title" className="fixed inset-x-0 bottom-0 z-50 p-3">
           <div className="card mx-auto max-w-lg p-4">
             <h2 id="consent-title" className="font-display text-xl font-bold">
-              Annonser og personvern
+              Werbung und Datenschutz
             </h2>
             <p className="mt-1 text-sm text-mist">
-              Tippetuppen er gratis og finansieres av annonser. Vi bruker ingen sporingskapsler for statistikk. Vil du tillate personlig tilpassede annonser fra Google?{" "}
+              Tippkaiser ist kostenlos und wird durch Werbung finanziert. Für die Statistik verwenden wir keine Tracking-Cookies. Möchtest du personalisierte Werbung von Google erlauben?{" "}
               <a href="/personvern" className="underline">
-                Les mer
+                Mehr erfahren
               </a>
             </p>
             <div className="mt-3 flex gap-2">
               <button className="btn btn-secondary flex-1" onClick={() => decide("denied")}>
-                Nei takk
+                Nein danke
               </button>
               <button className="btn btn-primary flex-1" onClick={() => decide("granted")}>
-                Godta
+                Akzeptieren
               </button>
             </div>
           </div>

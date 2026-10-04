@@ -23,11 +23,11 @@ export function MaalloesScreen() {
       } as CSSProperties}
     >
       <div className={design.heading}>
-        <p className={design.eyebrow}>Fotballkunnskap <span>•</span> Hver dag <span>•</span> Målløs</p>
+        <p className={design.eyebrow}>Fußballwissen <span>•</span> Jeden Tag <span>•</span> Torlos</p>
         <h1 className={design.title}>
-          Målløs{state.status === "ready" && state.isArchive && <span> #{state.puzzle.number}</span>}
+          Torlos{state.status === "ready" && state.isArchive && <span> #{state.puzzle.number}</span>}
         </h1>
-        <p className={design.subtitle}>Finn kampene som endte uten scoring. Jo færre som velger samme svar, desto bedre.</p>
+        <p className={design.subtitle}>Finde die Spiele, die torlos endeten. Je weniger dieselbe Antwort wählen, desto besser.</p>
         {state.status === "ready" && (
           <p className={design.date}>{state.isArchive ? `Arkiv · ${formatDateNo(state.puzzle.date)}` : formatDateNo(state.today)}</p>
         )}

@@ -28,12 +28,12 @@ export type ReportInput = {
 };
 
 export const REPORT_GAME_LABEL: Record<string, string> = {
-  "mangler-xi": "Manglende 11",
-  maalloes: "Målløs",
-  "finn-spilleren": "Finn spilleren",
-  straffespark: "Straffespark",
-  gullordet: "Gullordet",
-  "trener-genius": "Trener Genius",
+  "mangler-xi": "Fehlende Elf",
+  maalloes: "Torlos",
+  "finn-spilleren": "Finde den Spieler",
+  straffespark: "Elfmeter",
+  gullordet: "Goldwort",
+  "trener-genius": "Trainer-Genie",
 };
 
 const WEEKDAY = ["sø", "ma", "ti", "on", "to", "fr", "lø"];
@@ -78,7 +78,7 @@ export function buildDailyReport(r: ReportInput): { subject: string; text: strin
   const p = parts(r.today);
 
   const lines: string[] = [];
-  lines.push(`Tippetuppen – dagsrapport ${WEEKDAY_LONG[p.weekday]} ${p.d}. ${MONTH[p.m - 1]} kl. ${r.clock}`);
+  lines.push(`Tippkaiser – dagsrapport ${WEEKDAY_LONG[p.weekday]} ${p.d}. ${MONTH[p.m - 1]} kl. ${r.clock}`);
   lines.push("");
   lines.push("BESØKENDE");
   const row = (label: string, d: ReportDay | undefined) =>
@@ -116,7 +116,7 @@ export function buildDailyReport(r: ReportInput): { subject: string; text: strin
   lines.push("Besøkende telles per dag med en anonym nøkkel som byttes hvert døgn, så samme person to dager telles to ganger. Admin-besøk er holdt utenfor.");
   if (r.adminUrl) lines.push(`Admin: ${r.adminUrl}`);
 
-  const subject = `Tippetuppen ${p.d}.${p.m}.: ${num(today?.visitors ?? 0)} besøkende i dag (i går ${num(yesterday?.visitors ?? 0)})`;
+  const subject = `Tippkaiser ${p.d}.${p.m}.: ${num(today?.visitors ?? 0)} besøkende i dag (i går ${num(yesterday?.visitors ?? 0)})`;
   return { subject, text: lines.join("\n") };
 }
 

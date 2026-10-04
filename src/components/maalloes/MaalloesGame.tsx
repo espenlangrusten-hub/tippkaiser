@@ -96,7 +96,7 @@ export function MaalloesGame({ puzzle, isArchive, today }: { puzzle: MaalloesPub
     try {
       if (!state.startedAt) track({ name: "game_start", game: "maalloes", puzzleId: puzzle.puzzleId, archive: isArchive });
       if (state.entries.some((e) => e.text.toLocaleLowerCase("nb") === t.toLocaleLowerCase("nb"))) {
-        showToast("Dette svaret er allerede lagt til");
+        showToast("Diese Antwort ist schon dabei");
         return;
       }
       const entry: Entry = { text: t, id: null, label: null, score: null, fact: null };
@@ -105,7 +105,7 @@ export function MaalloesGame({ puzzle, isArchive, today }: { puzzle: MaalloesPub
       setSuggestions([]);
       const next: GameState = { ...state, entries, startedAt: state.startedAt ?? new Date().toISOString() };
       setState(next);
-      showToast("Svar lagt til – vurderes ved innsending");
+      showToast("Antwort hinzugefügt – wird beim Absenden bewertet");
       window.setTimeout(() => inputRef.current?.focus(), 0);
     } finally {
       setBusy(false);
@@ -157,7 +157,7 @@ export function MaalloesGame({ puzzle, isArchive, today }: { puzzle: MaalloesPub
   const share = async () => {
     if (!f) return;
     const r = await shareOrCopy(maalloesShareText({ number: puzzle.number, total: f.total, tier: f.tier.label, tierEmoji: f.tier.emoji, scores: f.scores, shield: f.shield, archive: isArchive }));
-    setShareMsg(r === "copied" ? "Kopiert til utklippstavlen!" : r === "shared" ? "Delt!" : "Kunne ikke dele");
+    setShareMsg(r === "copied" ? "In die Zwischenablage kopiert!" : r === "shared" ? "Geteilt!" : "Teilen nicht möglich");
     track({ name: "share", game: "maalloes", puzzleId: puzzle.puzzleId, archive: isArchive });
   };
 
@@ -166,7 +166,7 @@ export function MaalloesGame({ puzzle, isArchive, today }: { puzzle: MaalloesPub
       <div className={`card p-5 ${design.hero}`}>
         <div className="flex items-center justify-between text-xs uppercase tracking-widest text-mist">
           <span>
-            Målløs #{puzzle.number}
+            Torlos #{puzzle.number}
             {isArchive && " · arkiv"}
           </span>
           <span>{puzzle.category}</span>
@@ -180,7 +180,7 @@ export function MaalloesGame({ puzzle, isArchive, today }: { puzzle: MaalloesPub
         <div className={`card p-5 ${design.resultCard}`}>
           <div className="flex items-start justify-between">
             <div>
-              <div className="text-xs uppercase tracking-widest text-mist">Resultat</div>
+              <div className="text-xs uppercase tracking-widest text-mist">Ergebnis</div>
               <h2 className="font-display text-4xl font-bold uppercase leading-none">
                 {f.tier.emoji} {f.tier.label}
               </h2>
@@ -191,7 +191,7 @@ export function MaalloesGame({ puzzle, isArchive, today }: { puzzle: MaalloesPub
             </div>
           </div>
           <p className="mt-2 text-xs text-fog">
-            Seriemester ≤ {f.thresholds.champions} · Europaplass ≤ {f.thresholds.europe} · Midt på tabellen ≤ {f.thresholds.mid}
+            Meister ≤ {f.thresholds.champions} · Europapokal ≤ {f.thresholds.europe} · Mittelfeld ≤ {f.thresholds.mid}
             {f.respondents > 1 ? ` · ${f.respondents} har spilt` : ""}
           </p>
           <div className="mt-4 flex flex-col gap-2 sm:flex-row">
@@ -199,11 +199,11 @@ export function MaalloesGame({ puzzle, isArchive, today }: { puzzle: MaalloesPub
               Del resultatet
             </button>
             <Link href="/mangler-xi" className="btn btn-secondary flex-1" onClick={() => track({ name: "second_game_click", game: "mangler-xi", props: { from: "maalloes" } })}>
-              Spill Mangler XI →
+              Fehlende Elf spielen →
             </Link>
           </div>
           {shareMsg && <p className="mt-2 text-center text-sm text-correct">{shareMsg}</p>}
-          {!isArchive && puzzle.date === today && countdown && <p className="mt-3 text-center text-sm text-mist">Nytt Målløs om {countdown}</p>}
+          {!isArchive && puzzle.date === today && countdown && <p className="mt-3 text-center text-sm text-mist">Neues Torlos in {countdown}</p>}
         </div>
       )}
 
@@ -220,18 +220,18 @@ export function MaalloesGame({ puzzle, isArchive, today }: { puzzle: MaalloesPub
                   <>
                     <div className="min-w-0 flex-1">
                       <div className="truncate font-semibold">{e.label ?? e.text}</div>
-                      <div className="truncate text-xs text-mist">{!f ? "Vurderes når alle fem sendes inn" : e.label ? (e.fact ?? "") : "Ugyldig eller gjentatt svar"}</div>
+                      <div className="truncate text-xs text-mist">{!f ? "Wird bewertet, wenn alle fünf abgeschickt sind" : e.label ? (e.fact ?? "") : "Ungültige oder doppelte Antwort"}</div>
                     </div>
                     {e.score == null ? (
                       <button type="button" className="rounded-lg bg-ink-2 px-2.5 py-1 text-xs font-semibold text-mist hover:text-snow" onClick={() => editEntry(i)} aria-label={`Endre ${e.label ?? e.text}`}>
                         Endre
                       </button>
                     ) : (
-                      <span className={`rounded-lg px-2.5 py-1 font-display text-xl font-bold ${scoreColor(e.score)}`}>{e.score === 0 ? "MÅLLØS" : e.score}</span>
+                      <span className={`rounded-lg px-2.5 py-1 font-display text-xl font-bold ${scoreColor(e.score)}`}>{e.score === 0 ? "TORLOS" : e.score}</span>
                     )}
                   </>
                 ) : (
-                  <span className="text-sm text-fog">{i === state.entries.length ? "Ditt neste svar" : ""}</span>
+                  <span className="text-sm text-fog">{i === state.entries.length ? "Deine nächste Antwort" : ""}</span>
                 )}
               </li>
             );
@@ -250,11 +250,11 @@ export function MaalloesGame({ puzzle, isArchive, today }: { puzzle: MaalloesPub
               className="input"
               value={text}
               onChange={(e) => setText(e.target.value)}
-              placeholder={puzzle.answerKind === "club" ? "Skriv et lag …" : puzzle.answerKind === "player" ? "Skriv etternavn …" : "Skriv et navn …"}
+              placeholder={puzzle.answerKind === "club" ? "Verein eingeben …" : puzzle.answerKind === "player" ? "Nachname eingeben …" : "Namen eingeben …"}
               autoComplete="off"
               autoCapitalize="words"
               enterKeyHint="send"
-              aria-label="Ditt svar"
+              aria-label="Deine Antwort"
               role="combobox"
               aria-autocomplete={puzzle.answerKind === "player" || puzzle.answerKind === "club" ? "list" : "none"}
               aria-expanded={suggestions.length > 0}
@@ -265,7 +265,7 @@ export function MaalloesGame({ puzzle, isArchive, today }: { puzzle: MaalloesPub
               Svar
             </button>
             {suggestions.length > 0 && (
-              <ul id="player-suggestions" role="listbox" aria-label="Forslag" className="absolute left-0 right-20 top-full z-20 mt-1 max-h-72 overflow-y-auto rounded-xl border border-line bg-ink-2 shadow-xl">
+              <ul id="player-suggestions" role="listbox" aria-label="Vorschläge" className="absolute left-0 right-20 top-full z-20 mt-1 max-h-72 overflow-y-auto rounded-xl border border-line bg-ink-2 shadow-xl">
                 {suggestions.map((suggestion) => (
                   <li key={suggestion.id} role="none">
                     <button
@@ -290,15 +290,15 @@ export function MaalloesGame({ puzzle, isArchive, today }: { puzzle: MaalloesPub
         )}
         {!f && state.entries.length === ANSWERS && (
           <div className={`${design.finalize} mt-3 rounded-xl border border-line bg-ink-3 p-3`}>
-            <p className="text-sm text-mist">Se over svarene. Du kan fortsatt endre dem før poengene beregnes.</p>
+            <p className="text-sm text-mist">Prüfe deine Antworten. Du kannst sie noch ändern, bevor die Punkte berechnet werden.</p>
             <button type="button" className="btn btn-primary mt-3 w-full" onClick={() => void finalize()} disabled={busy}>
-              {busy ? "Sender inn …" : "Send inn fem svar"}
+              {busy ? "Wird gesendet …" : "Fünf Antworten absenden"}
             </button>
           </div>
         )}
         {!f && (
           <p className="mt-2 text-xs text-fog">
-            Skriv etternavn og velg spiller fra listen. Et unikt etternavn holder også alene. Forslagene kommer fra hele spillerregisteret og avslører ikke fasiten. Alle svar kan endres før du sender inn.
+            Gib den Nachnamen ein und wähle den Spieler aus der Liste. Ein eindeutiger Nachname reicht auch allein. Die Vorschläge kommen aus dem ganzen Spielerregister und verraten die Lösung nicht. Alle Antworten lassen sich bis zum Absenden ändern.
           </p>
         )}
       </div>
@@ -307,7 +307,7 @@ export function MaalloesGame({ puzzle, isArchive, today }: { puzzle: MaalloesPub
         <>
           <AdSlot placement="result" />
           <div className={`card p-4 ${design.board}`}>
-            <h3 className="font-display text-xl font-bold uppercase">Alle svar, fra sjeldnest til vanligst</h3>
+            <h3 className="font-display text-xl font-bold uppercase">Alle Antworten, von der seltensten zur häufigsten</h3>
             {f.explanation && <p className="mt-1 text-sm text-mist">{f.explanation}</p>}
             <ol className="mt-3 grid gap-1 sm:grid-cols-2">
               {f.board.map((b) => {
@@ -322,8 +322,8 @@ export function MaalloesGame({ puzzle, isArchive, today }: { puzzle: MaalloesPub
               })}
             </ol>
             <p className="mt-3 text-xs text-fog">
-              Poeng = anslått andel av 100 spillere som gir samme svar. Anslaget justeres etter hvert som flere spiller.
-              {puzzle.status === "single_source" ? " Fakta er kontrollert mot kamparkiv." : ""}
+              Punkte = geschätzter Anteil von 100 Spielern, die dieselbe Antwort geben. Die Schätzung wird angepasst, je mehr Leute spielen.
+              {puzzle.status === "single_source" ? " Die Fakten sind mit Spielarchiven abgeglichen." : ""}
             </p>
             {isArchive && (
               <p className="mt-2 text-sm">
@@ -341,15 +341,15 @@ export function MaalloesGame({ puzzle, isArchive, today }: { puzzle: MaalloesPub
       {showIntro && (
         <div className="fixed inset-0 z-50 flex items-end justify-center bg-black/60 p-3 sm:items-center" onClick={dismissIntro} role="dialog" aria-modal="true">
           <div className={`card w-full max-w-md p-5 ${design.modal}`} onClick={(e) => e.stopPropagation()}>
-            <h2 className="font-display text-2xl font-bold uppercase">Slik spiller du Målløs</h2>
+            <h2 className="font-display text-2xl font-bold uppercase">So spielst du Torlos</h2>
             <ol className="mt-3 list-decimal space-y-2 pl-5 text-sm text-mist">
-              <li>Les spørsmålet og legg til fem svar. Du kan endre dem før innsending.</li>
-              <li>Hvert svar får poeng etter hvor mange av 100 spillere som svarer det samme. Lavt er bra.</li>
-              <li>Feil svar gir 100 poeng. Et svar ingen andre har gitt er <b className="text-gold">målløst</b> (0) – og gir deg et skjold som stryker ditt dårligste svar.</li>
-              <li>Totalen plasserer deg på tabellen: fra Nedrykk til Seriemester.</li>
+              <li>Lies die Frage und gib fünf Antworten. Du kannst sie vor dem Absenden ändern.</li>
+              <li>Jede Antwort bekommt Punkte danach, wie viele von 100 Spielern dasselbe antworten. Wenig ist gut.</li>
+              <li>Eine falsche Antwort gibt 100 Punkte. Eine Antwort, die sonst niemand gegeben hat, ist <b className="text-gold">torlos</b> (0) – und bringt dir ein Schild, das deine schlechteste Antwort streicht.</li>
+              <li>Die Summe bestimmt deinen Tabellenplatz: von Abstieg bis Meister.</li>
             </ol>
             <button className="btn btn-primary mt-4 w-full" onClick={dismissIntro}>
-              Kjør!
+              Los geht’s!
             </button>
           </div>
         </div>

@@ -21,10 +21,10 @@ export function FinnSpillerenScreen() {
     } as CSSProperties}
   >
     <div className={design.heading}>
-      <p className={design.eyebrow}>Fotballkunnskap <span>•</span> Hver dag <span>•</span> Finn spilleren</p>
-      <h1 className={design.title}>Finn spilleren</h1>
-      <p className={design.subtitle}>Fem hint fra vanskelig til enkelt. Hvor tidlig klarer du å finne riktig spiller?</p>
-      {state.status === "ready" && <p className={design.date}>{state.isArchive ? `Arkiv · ${formatDateNo(state.puzzle.date)}` : formatDateNo(state.puzzle.date)}</p>}
+      <p className={design.eyebrow}>Fußballwissen <span>•</span> Jeden Tag <span>•</span> Finde den Spieler</p>
+      <h1 className={design.title}>Finde den Spieler</h1>
+      <p className={design.subtitle}>Fünf Hinweise, von schwer bis leicht. Wie früh findest du den richtigen Spieler?</p>
+      {state.status === "ready" && <p className={design.date}>{state.isArchive ? `Archiv · ${formatDateNo(state.puzzle.date)}` : formatDateNo(state.puzzle.date)}</p>}
     </div>
     <div className={design.gameArea}>
       {state.status === "loading" && <GameSkeleton />}

@@ -1,4 +1,4 @@
-// Målløs scoring. Blends an editorial prior with live crowd counts, becoming pure
+// Torlos scoring. Blends an editorial prior with live crowd counts, becoming pure
 // crowd data once enough people have played. Mirrors src/server/maalloes.ts.
 import { matchKey, normalizeName } from "./names.ts";
 import type { MaalloesAnswer, MaalloesPayload } from "./types.ts";
@@ -37,11 +37,11 @@ export function zeroAnswerId(answers: MaalloesAnswer[]): string {
 }
 
 export const TIERS = {
-  invincible: { key: "invincible", label: "Uslåelig", emoji: "⭐" },
-  champions: { key: "champions", label: "Seriemester", emoji: "🏆" },
-  europe: { key: "europe", label: "Europaplass", emoji: "🌍" },
-  mid: { key: "mid", label: "Midt på tabellen", emoji: "📊" },
-  relegation: { key: "relegation", label: "Nedrykk", emoji: "⬇️" },
+  invincible: { key: "invincible", label: "Unschlagbar", emoji: "⭐" },
+  champions: { key: "champions", label: "Meister", emoji: "🏆" },
+  europe: { key: "europe", label: "Europapokal", emoji: "🌍" },
+  mid: { key: "mid", label: "Mittelfeld", emoji: "📊" },
+  relegation: { key: "relegation", label: "Abstieg", emoji: "⬇️" },
 } as const;
 
 export function tierThresholds(allScores: number[]) {

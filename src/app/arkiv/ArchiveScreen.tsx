@@ -36,8 +36,8 @@ export function ArchiveScreen() {
   return (
     <div className="flex flex-col gap-5">
       <div>
-        <h1 className="font-display text-4xl font-bold uppercase">Arkiv</h1>
-        <p className="text-mist">Gått glipp av en dag? Arkivspill teller ikke i rekken din, men de teller for æren.</p>
+        <h1 className="font-display text-4xl font-bold uppercase">Archiv</h1>
+        <p className="text-mist">Einen Tag verpasst? Archivspiele zählen nicht für deine Serie, aber für die Ehre.</p>
       </div>
       {games.map((g) => {
         const meta = GAME_META[g];
@@ -55,7 +55,7 @@ export function ArchiveScreen() {
               )}
             </div>
             {list === undefined && <div className="mt-2 h-24 animate-pulse rounded-xl bg-ink-3" />}
-            {list && list.length === 0 && <p className="mt-2 text-sm text-fog">Ingen tidligere spill ennå – kom tilbake i morgen.</p>}
+            {list && list.length === 0 && <p className="mt-2 text-sm text-fog">Noch keine früheren Spiele – schau morgen wieder vorbei.</p>}
             {list && list.length > 0 && (
               <ul className="mt-2 divide-y divide-line">
                 {list.map((r) => (

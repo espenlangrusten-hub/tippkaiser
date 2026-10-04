@@ -31,11 +31,11 @@ export function TrenerGeniusGame() {
     try { attemptId = localStorage.getItem(key) ?? undefined; } catch { /* storage is optional */ }
     apiPost<Reply>("/trener-genius/start", { attemptId }).then(r => {
       if (!active) return;
-      if (!r.ok) { setError(r.error === "no-round" ? "Dagens trenerbenk er ikke klar ennå. Prøv igjen litt senere." : r.error === "unauthorised" ? "Innloggingen er utløpt. Logg inn igjen for å spille." : "Kunne ikke åpne dagens runde."); return; }
+      if (!r.ok) { setError(r.error === "no-round" ? "Die Trainerbank des Tages ist noch nicht bereit. Versuch es etwas später noch einmal." : r.error === "unauthorised" ? "Die Anmeldung ist abgelaufen. Melde dich erneut an, um zu spielen." : "Die Runde des Tages konnte nicht geöffnet werden."); return; }
       try { localStorage.setItem(key, r.attemptId); } catch { /* optional */ }
       setGame(r); setError(""); setNewDay(false); setChoice(null); setOffensive(false);
       apiBeacon({ name: "game_start", game: "trener-genius" });
-    }).catch(() => { if (active) setError("Fikk ikke kontakt med trenerbenken. Prøv igjen."); });
+    }).catch(() => { if (active) setError("Keine Verbindung zur Trainerbank. Versuch es noch einmal."); });
     return () => { active = false; };
   }, [restart]);
 
@@ -52,22 +52,22 @@ export function TrenerGeniusGame() {
     try {
       const r = await apiPost<Reply>(`/trener-genius/${action}`, { attemptId: game.attemptId, index: game.index, ...(action === "answer" ? { option: choice, offensive } : {}) });
       if (!r.ok) {
-        if (r.error === "day-changed") { setNewDay(true); setError("Det har blitt en ny dag. Åpne dagens runde for å fortsette."); }
-        else if (r.error === "unauthorised" || r.error === "not-found") setError("Innloggingen er endret. Åpne runden på nytt eller logg inn igjen.");
-        else setError("Svaret kunne ikke lagres. Prøv igjen.");
+        if (r.error === "day-changed") { setNewDay(true); setError("Ein neuer Tag hat begonnen. Öffne die Runde des Tages, um weiterzuspielen."); }
+        else if (r.error === "unauthorised" || r.error === "not-found") setError("Die Anmeldung hat sich geändert. Öffne die Runde neu oder melde dich erneut an.");
+        else setError("Die Antwort konnte nicht gespeichert werden. Versuch es noch einmal.");
         return;
       }
       setGame(r);
       if (action === "help") { setOffensive(false); if (choice !== null && r.hidden.includes(choice)) setChoice(null); }
       else { setChoice(null); setOffensive(false); }
       if (action === "next") requestAnimationFrame(() => heading.current?.focus());
-    } catch { setError("Forbindelsen ble brutt. Prøv igjen – svaret telles bare én gang."); }
+    } catch { setError("Die Verbindung wurde unterbrochen. Versuch es noch einmal – die Antwort zählt nur einmal."); }
     finally { pending.current = false; setBusy(false); }
   }, [game, choice, offensive]);
 
   const share = async () => {
     if (!game) return;
-    const text = `Trener Genius #${game.number} · ${game.date}\n${game.answers.map(a => a.offensive ? a.correct ? "⭐" : "🟥" : a.correct ? "🟩" : "⬜").join("")}\n${game.points}/100 poeng\n${SITE_URL}/trener-genius/`;
+    const text = `Trainer-Genie #${game.number} · ${game.date}\n${game.answers.map(a => a.offensive ? a.correct ? "⭐" : "🟥" : a.correct ? "🟩" : "⬜").join("")}\n${game.points}/100 Punkte\n${SITE_URL}/trener-genius/`;
     try { await navigator.clipboard.writeText(text); setShareText("Resultatet er kopiert!"); }
     catch { setShareText(text); }
   };
@@ -80,56 +80,56 @@ export function TrenerGeniusGame() {
 
   return <div className={s.shell}>
     <div className={s.stadium} aria-hidden="true"><Image src={BASE_PATH + "/design/stadium.webp"} alt="" fill priority sizes="100vw" /></div>
-    <Link className={s.back} href="/">← Alle spill</Link>
+    <Link className={s.back} href="/">← Alle Spiele</Link>
     <div className={s.stage}>
-      <div className={s.coach} aria-hidden="true"><Image src={BASE_PATH + "/trener-genius/dugout.webp"} alt="" fill priority sizes="(max-width: 760px) 1px, 450px" /><p className={s.bubble}>{done ? "Ny dag. Nye muligheter. Vi sees på benken!" : reveal ? last?.correct ? "Den satt! Godt lest." : "Vi løfter blikket. Neste mulighet kommer!" : "Har du tro på svaret? Gå offensivt!"}</p></div>
+      <div className={s.coach} aria-hidden="true"><Image src={BASE_PATH + "/trener-genius/dugout.webp"} alt="" fill priority sizes="(max-width: 760px) 1px, 450px" /><p className={s.bubble}>{done ? "Neuer Tag, neue Chancen. Wir sehen uns auf der Bank!" : reveal ? last?.correct ? "Der saß! Gut gelesen." : "Kopf hoch. Die nächste Chance kommt!" : "Glaubst du an deine Antwort? Geh offensiv!"}</p></div>
       <header className={s.header}>
-        <div><h1>TRENER <span>GENIUS</span></h1><p>Fire spørsmål. Ett taktisk valg.</p></div>
-        <div className={s.score} aria-label={`${score} poeng`}><strong>{score}</strong><span>POENG</span></div>
+        <div><h1>TRAINER <span>GENIE</span></h1><p>Vier Fragen. Eine taktische Wahl.</p></div>
+        <div className={s.score} aria-label={`${score} Punkte`}><strong>{score}</strong><span>PUNKTE</span></div>
       </header>
-      <div className={s.progress}><span>{game ? `DAGENS RUNDE #${game.number}` : "DAGENS RUNDE"}</span><ol aria-label="Fremdrift">{[0,1,2,3].map(i => <li key={i} aria-current={game?.index === i && !done ? "step" : undefined} className={game?.answers[i] ? game.answers[i].correct ? s.correctStep : s.wrongStep : game?.index === i ? s.activeStep : ""}>{game?.answers[i] ? game.answers[i].correct ? "✓" : "×" : i+1}</li>)}</ol><small>0–100 ligapoeng</small></div>
+      <div className={s.progress}><span>{game ? `RUNDE DES TAGES #${game.number}` : "RUNDE DES TAGES"}</span><ol aria-label="Fortschritt">{[0,1,2,3].map(i => <li key={i} aria-current={game?.index === i && !done ? "step" : undefined} className={game?.answers[i] ? game.answers[i].correct ? s.correctStep : s.wrongStep : game?.index === i ? s.activeStep : ""}>{game?.answers[i] ? game.answers[i].correct ? "✓" : "×" : i+1}</li>)}</ol><small>0–100 Ligapunkte</small></div>
       <section className={s.panel} aria-busy={busy}>
-        {!game && !error && <div className={s.loading} role="status"><span className={s.badge}>VELKOMMEN TIL BENKEN</span><h2>Henter dagens fire kamper …</h2><div /><div /><div /></div>}
-        {error && <div className={s.error} role="alert"><p>{error}</p><button onClick={() => { setGame(null); setError(""); setRestart(n=>n+1); }}>{newDay ? "Åpne dagens runde" : "Åpne runden på nytt"}</button><Link href="/liga/#login">Logg inn</Link></div>}
+        {!game && !error && <div className={s.loading} role="status"><span className={s.badge}>WILLKOMMEN AUF DER BANK</span><h2>Die vier Fragen des Tages werden geladen …</h2><div /><div /><div /></div>}
+        {error && <div className={s.error} role="alert"><p>{error}</p><button onClick={() => { setGame(null); setError(""); setRestart(n=>n+1); }}>{newDay ? "Runde des Tages öffnen" : "Runde neu öffnen"}</button><Link href="/liga/#login">Anmelden</Link></div>}
         {game && !done && <>
-          <div className={s.badge}>{game.question?.category} · SPØRSMÅL {game.index+1} AV 4</div>
+          <div className={s.badge}>{game.question?.category} · FRAGE {game.index+1} VON 4</div>
           <h2 ref={heading} tabIndex={-1} className={s.question}>{game.question?.prompt}</h2>
           <div className={s.options} role="group" aria-label="Svaralternativer">{game.question?.options.map((option,i) => {
             const correct = reveal && game.reveal?.answerIndex === i;
             const wrong = reveal && last?.option === i && !last.correct;
             const hidden = game.hidden.includes(i);
-            return <button key={i} disabled={busy || reveal || hidden || newDay} aria-pressed={!reveal && choice === i} onClick={() => setChoice(i)} className={`${s.option} ${choice === i && !reveal ? s.selected : ""} ${correct ? s.correct : ""} ${wrong ? s.wrong : ""} ${hidden ? s.hidden : ""}`}><span className={s.letter}>{correct ? "✓" : wrong ? "×" : "ABCD"[i]}</span><span>{option}</span>{hidden && <span className={s.removed}>Fjernet</span>}</button>;
+            return <button key={i} disabled={busy || reveal || hidden || newDay} aria-pressed={!reveal && choice === i} onClick={() => setChoice(i)} className={`${s.option} ${choice === i && !reveal ? s.selected : ""} ${correct ? s.correct : ""} ${wrong ? s.wrong : ""} ${hidden ? s.hidden : ""}`}><span className={s.letter}>{correct ? "✓" : wrong ? "×" : "ABCD"[i]}</span><span>{option}</span>{hidden && <span className={s.removed}>Entfernt</span>}</button>;
           })}</div>
           {reveal && game.reveal ? <div className={s.reveal} role="status">
-            <div className={s.revealTitle}><strong>{last?.correct ? "Riktig!" : "Riktig svar:"} {game.reveal.answer}</strong><b>{last && last.delta > 0 ? "+" : ""}{last?.delta} poeng</b></div>
+            <div className={s.revealTitle}><strong>{last?.correct ? "Richtig!" : "Richtige Antwort:"} {game.reveal.answer}</strong><b>{last && last.delta > 0 ? "+" : ""}{last?.delta} Punkte</b></div>
             <p>{game.reveal.fact}</p>
-            <details><summary>Se kilde</summary>{game.reveal.sources.map(source=><a key={source.url} href={source.url} target="_blank" rel="noreferrer">{source.title} ↗</a>)}</details>
-            <button className={s.primary} disabled={busy || newDay} onClick={()=>void act("next")}>{game.index === 3 ? "Se resultatet" : "Neste spørsmål"} →</button>
+            <details><summary>Quelle ansehen</summary>{game.reveal.sources.map(source=><a key={source.url} href={source.url} target="_blank" rel="noreferrer">{source.title} ↗</a>)}</details>
+            <button className={s.primary} disabled={busy || newDay} onClick={()=>void act("next")}>{game.index === 3 ? "Ergebnis ansehen" : "Nächste Frage"} →</button>
           </div> : <>
             <div className={s.tactics}>
-              <button className={`${s.tactic} ${s.attack} ${offensive ? s.armed : ""}`} disabled={!offenseAvailable || busy || newDay} aria-pressed={offensive} onClick={()=>setOffensive(v=>!v)}><span className={s.icon}>★</span><span><strong>{game.offensiveUsed ? "Offensivt brukt" : offensive ? "Du går offensivt!" : "Gå offensivt"}</strong><small>+50 riktig / −25 feil</small><small>Én gang per runde</small></span></button>
-              <button className={s.tactic} disabled={!helpAvailable || busy || offensive || newDay} onClick={()=>void act("help")}><span className={s.icon}>◉</span><span><strong>{game.helpUsed ? "50/50 brukt" : "50/50-hjelp"}</strong><small>Fjern to svar · Maks 10 poeng</small><small>Én gang per runde</small></span></button>
+              <button className={`${s.tactic} ${s.attack} ${offensive ? s.armed : ""}`} disabled={!offenseAvailable || busy || newDay} aria-pressed={offensive} onClick={()=>setOffensive(v=>!v)}><span className={s.icon}>★</span><span><strong>{game.offensiveUsed ? "Offensive genutzt" : offensive ? "Du gehst offensiv!" : "Offensiv gehen"}</strong><small>+50 richtig / −25 falsch</small><small>Einmal pro Runde</small></span></button>
+              <button className={s.tactic} disabled={!helpAvailable || busy || offensive || newDay} onClick={()=>void act("help")}><span className={s.icon}>◉</span><span><strong>{game.helpUsed ? "50/50 genutzt" : "50/50-Joker"}</strong><small>Zwei Antworten weg · Max. 10 Punkte</small><small>Einmal pro Runde</small></span></button>
             </div>
-            <p className={s.tacticNote}>Kan ikke kombineres på samme spørsmål.</p>
-            <button className={s.primary} disabled={choice === null || busy || newDay} onClick={()=>void act("answer")}>{busy ? "Lagrer …" : offensive ? "Lås offensivt svar" : "Lås svaret"}</button>
-            <p className={s.note}>{choice === null ? "Velg et svar først" : offensive ? "Du satser: +50 riktig / −25 feil" : game.hidden.length ? "Riktig med hjelp gir 10 poeng" : "Klar? Du kan endre valget før du låser."}</p>
-            <p className={s.small}>Vanlig svar: +25 riktig / 0 feil</p>
+            <p className={s.tacticNote}>Nicht bei derselben Frage kombinierbar.</p>
+            <button className={s.primary} disabled={choice === null || busy || newDay} onClick={()=>void act("answer")}>{busy ? "Wird gespeichert …" : offensive ? "Offensive Antwort festlegen" : "Antwort festlegen"}</button>
+            <p className={s.note}>{choice === null ? "Wähle zuerst eine Antwort" : offensive ? "Dein Einsatz: +50 richtig / −25 falsch" : game.hidden.length ? "Richtig mit Joker gibt 10 Punkte" : "Bereit? Du kannst deine Wahl vor dem Festlegen ändern."}</p>
+            <p className={s.small}>Normale Antwort: +25 richtig / 0 falsch</p>
           </>}
         </>}
         {game && done && <div className={s.results}>
-          <span className={s.badge}>DAGENS RUNDE ER FULLFØRT</span><h2>{game.points === 100 ? "Trenergeni!" : game.points >= 50 ? "God kamp fra benken!" : "Ny sjanse i morgen!"}</h2>
-          <div className={s.finalScore}>{game.points}<span>/100 poeng</span></div>
-          <p>{game.answers.filter(a=>a.correct).length} av 4 riktige · {game.offensiveUsed ? "Offensivt valg brukt" : "Spilte uten offensivt valg"}</p>
-          {game.total !== game.points && <p className={s.small}>Spillsum {game.total}. Sluttresultatet begrenses til 0–100 poeng.</p>}
-          <p className={s.rankNote}>{game.ranked ? "Poengene er registrert i månedsligaen." : "Du spilte som gjest. Logg inn før neste runde for å samle ligapoeng."}</p>
-          <div className={s.recap}>{game.recap?.map((q,i)=><details key={i}><summary><span className={q.correct ? s.yes : s.no}>{q.correct ? "✓" : "×"}</span> Kamp {i+1}<strong>{q.delta > 0 ? "+" : ""}{q.delta} p</strong></summary><p>{q.prompt}</p><b>{q.answer}</b><p>{q.fact}</p></details>)}</div>
-          <button className={s.primary} onClick={()=>void share()}>Del resultatet ↗</button>
+          <span className={s.badge}>RUNDE DES TAGES ERLEDIGT</span><h2>{game.points === 100 ? "Trainergenie!" : game.points >= 50 ? "Starkes Coaching!" : "Neue Chance morgen!"}</h2>
+          <div className={s.finalScore}>{game.points}<span>/100 Punkte</span></div>
+          <p>{game.answers.filter(a=>a.correct).length} von 4 richtig · {game.offensiveUsed ? "Offensive genutzt" : "Ohne Offensive gespielt"}</p>
+          {game.total !== game.points && <p className={s.small}>Spielsumme {game.total}. Das Endergebnis ist auf 0–100 Punkte begrenzt.</p>}
+          <p className={s.rankNote}>{game.ranked ? "Die Punkte sind in der Monatsliga eingetragen." : "Du hast als Gast gespielt. Melde dich vor der nächsten Runde an, um Ligapunkte zu sammeln."}</p>
+          <div className={s.recap}>{game.recap?.map((q,i)=><details key={i}><summary><span className={q.correct ? s.yes : s.no}>{q.correct ? "✓" : "×"}</span> Frage {i+1}<strong>{q.delta > 0 ? "+" : ""}{q.delta} p</strong></summary><p>{q.prompt}</p><b>{q.answer}</b><p>{q.fact}</p></details>)}</div>
+          <button className={s.primary} onClick={()=>void share()}>Ergebnis teilen ↗</button>
           {shareText && <p className={s.shareText} role="status">{shareText}</p>}
-          <div className={s.resultLinks}><Link href="/liga/">Se månedsligaen →</Link><Link href="/">Flere spill →</Link></div>
+          <div className={s.resultLinks}><Link href="/liga/">Zur Monatsliga →</Link><Link href="/">Mehr Spiele →</Link></div>
           <p className={s.note}>Ny runde kl. 00:00 norsk tid</p>
         </div>}
       </section>
-      <details className={s.rules}><summary>Slik spiller du</summary><p>Fire spørsmål, fire svaralternativer og samme dagsrunde for alle. Ett lett, to middels og ett vanskelig spørsmål. Ingen tidspress.</p><p>Riktig svar gir 25 poeng. Én gang kan du gå offensivt: +50 ved riktig svar og −25 ved feil. 50/50 kan brukes én gang, fjerner to gale svar og gir 10 poeng ved riktig. Hjelp og offensivt kan ikke kombineres. Sluttresultatet begrenses til 0–100.</p><p>Logg inn før du starter for å samle ligapoeng. Fasit vises etter hvert svar. Svarene dine lagres automatisk.</p></details>
+      <details className={s.rules}><summary>So wird gespielt</summary><p>Vier Fragen, vier Antwortmöglichkeiten und dieselbe Tagesrunde für alle. Eine leichte, zwei mittlere und eine schwere Frage. Kein Zeitdruck.</p><p>Eine richtige Antwort gibt 25 Punkte. Einmal darfst du offensiv gehen: +50 bei einer richtigen Antwort und −25 bei einer falschen. Der 50/50-Joker kann einmal genutzt werden, entfernt zwei falsche Antworten und gibt 10 Punkte, wenn du richtig liegst. Joker und Offensive lassen sich nicht kombinieren. Das Endergebnis ist auf 0–100 begrenzt.</p><p>Melde dich vor dem Start an, um Ligapunkte zu sammeln. Die Lösung erscheint nach jeder Antwort. Deine Antworten werden automatisch gespeichert.</p></details>
     </div>
   </div>;
 }

@@ -37,9 +37,9 @@ export function ContactForm() {
   if (status === "sent") {
     return (
       <div className="card p-5" role="status">
-        <h2 className="font-display text-2xl font-bold uppercase">Takk for meldingen!</h2>
-        <p className="mt-2 text-mist">Vi har mottatt den og svarer til {sender} så snart vi kan.</p>
-        <p className="mt-4"><Link href="/" className="underline">Tilbake til dagens spill</Link></p>
+        <h2 className="font-display text-2xl font-bold uppercase">Danke für deine Nachricht!</h2>
+        <p className="mt-2 text-mist">Wir haben sie erhalten und antworten an {sender}, so schnell wir können.</p>
+        <p className="mt-4"><Link href="/" className="underline">Zurück zu den Spielen des Tages</Link></p>
       </div>
     );
   }
@@ -54,36 +54,36 @@ export function ContactForm() {
   return (
     <form className="card flex flex-col gap-4 p-5" onSubmit={submit} noValidate>
       <div>
-        <label htmlFor="kontakt-title" className="text-sm font-semibold">Tittel</label>
+        <label htmlFor="kontakt-title" className="text-sm font-semibold">Betreff</label>
         <input id="kontakt-title" className="input mt-1" value={title} onChange={(e) => setTitle(e.target.value)}
-          maxLength={CONTACT_LIMITS.title.max} placeholder="Hva gjelder det?" {...field("title")} />
+          maxLength={CONTACT_LIMITS.title.max} placeholder="Worum geht es?" {...field("title")} />
         {error("title")}
       </div>
       <div>
-        <label htmlFor="kontakt-message" className="text-sm font-semibold">Melding</label>
+        <label htmlFor="kontakt-message" className="text-sm font-semibold">Nachricht</label>
         <textarea id="kontakt-message" className="input mt-1 min-h-40 py-3" value={message} onChange={(e) => setMessage(e.target.value)}
-          maxLength={CONTACT_LIMITS.message.max} rows={7} placeholder="Skriv meldingen din her" {...field("message")} />
+          maxLength={CONTACT_LIMITS.message.max} rows={7} placeholder="Schreib hier deine Nachricht" {...field("message")} />
         {error("message")}
       </div>
       <div>
-        <label htmlFor="kontakt-sender" className="text-sm font-semibold">Avsender (e-post)</label>
+        <label htmlFor="kontakt-sender" className="text-sm font-semibold">Absender (E-Mail)</label>
         <input id="kontakt-sender" className="input mt-1" type="email" inputMode="email" autoComplete="email" value={sender}
-          onChange={(e) => setSender(e.target.value)} maxLength={CONTACT_LIMITS.sender.max} placeholder="navn@eksempel.no" {...field("sender")} />
+          onChange={(e) => setSender(e.target.value)} maxLength={CONTACT_LIMITS.sender.max} placeholder="name@beispiel.de" {...field("sender")} />
         {error("sender")}
       </div>
       {/* Honeypot. Off-screen rather than display:none, which some bots skip; hidden from
           screen readers and keyboard users so no person ever fills it in. */}
       <div aria-hidden="true" style={{ position: "absolute", left: "-10000px", width: 1, height: 1, overflow: "hidden" }}>
-        <label htmlFor="kontakt-website">Nettside</label>
+        <label htmlFor="kontakt-website">Webseite</label>
         <input id="kontakt-website" tabIndex={-1} autoComplete="off" value={website} onChange={(e) => setWebsite(e.target.value)} />
       </div>
-      {status === "failed" && <p className="text-sm text-flag-2" role="alert">Meldingen ble ikke sendt. Sjekk feltene over og prøv igjen.</p>}
-      {status === "limited" && <p className="text-sm text-flag-2" role="alert">Du har sendt flere meldinger i dag. Prøv igjen i morgen.</p>}
+      {status === "failed" && <p className="text-sm text-flag-2" role="alert">Die Nachricht wurde nicht gesendet. Prüfe die Felder oben und versuch es noch einmal.</p>}
+      {status === "limited" && <p className="text-sm text-flag-2" role="alert">Du hast heute schon mehrere Nachrichten gesendet. Versuch es morgen wieder.</p>}
       <button className="btn btn-primary w-full sm:w-auto sm:self-start" disabled={status === "sending"}>
-        {status === "sending" ? "Sender …" : "Send melding"}
+        {status === "sending" ? "Wird gesendet …" : "Nachricht senden"}
       </button>
       <p className="text-xs text-fog">
-        Meldingen og e-postadressen din lagres slik at vi kan svare. Les mer i <Link href="/personvern" className="underline">personvernerklæringen</Link>.
+        Deine Nachricht und deine E-Mail-Adresse werden gespeichert, damit wir antworten können. Mehr dazu in der <Link href="/personvern" className="underline">Datenschutzerklärung</Link>.
       </p>
     </form>
   );

@@ -16,7 +16,7 @@ describe("dagsrapporten", () => {
   });
 
   it("gir emne med dagens og gårsdagens besøkende", () => {
-    expect(buildDailyReport(input).subject).toBe("Tippetuppen 14.10.: 10 besøkende i dag (i går 10)");
+    expect(buildDailyReport(input).subject).toBe("Tippkaiser 14.10.: 10 besøkende i dag (i går 10)");
   });
 
   it("sammenligner snittet med forrige uke og viser 14 dager", () => {

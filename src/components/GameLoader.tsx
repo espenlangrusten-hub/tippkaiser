@@ -31,7 +31,7 @@ export function useGamePuzzle<T>(game: "mangler-xi" | "maalloes" | "finn-spiller
 
 export function GameSkeleton() {
   return (
-    <div className="flex flex-col gap-4" aria-busy="true" aria-label="Laster dagens spill">
+    <div className="flex flex-col gap-4" aria-busy="true" aria-label="Spiel des Tages wird geladen">
       <div className="h-28 animate-pulse rounded-2xl bg-ink-2" />
       <div className="h-80 animate-pulse rounded-2xl bg-ink-2" />
     </div>
@@ -42,23 +42,23 @@ export function GameUnavailable({ game, kind, archive = false }: { game: "mangle
   return (
     <div className="card p-6 text-center">
       <h2 className="font-display text-2xl font-bold uppercase">
-        {kind === "empty" ? (archive ? "Fant ikke oppgaven" : "Ikke klart ennå") : "Fikk ikke kontakt"}
+        {kind === "empty" ? (archive ? "Aufgabe nicht gefunden" : "Noch nicht bereit") : "Keine Verbindung"}
       </h2>
       <p className="mt-2 text-mist">
         {kind === "empty"
           ? archive
-            ? "Nummeret finnes ikke i arkivet. Velg en oppgave fra arkivlisten."
-            : "Dagens spill er ikke satt opp ennå. Prøv igjen om litt, eller spill fra arkivet."
-          : "Vi klarte ikke å hente dagens spill. Sjekk nettforbindelsen og prøv igjen."}
+            ? "Diese Nummer gibt es im Archiv nicht. Wähle eine Aufgabe aus der Archivliste."
+            : "Das Spiel des Tages ist noch nicht eingerichtet. Versuch es gleich noch einmal oder spiele aus dem Archiv."
+          : "Wir konnten das Spiel des Tages nicht laden. Prüfe deine Internetverbindung und versuch es noch einmal."}
       </p>
       <div className="mt-4 flex justify-center gap-2">
         {kind === "error" && (
           <button className="btn btn-primary" onClick={() => window.location.reload()}>
-            Prøv igjen
+            Erneut versuchen
           </button>
         )}
         <Link href={`/arkiv/?game=${game}`} className="btn btn-secondary">
-          Arkiv
+          Archiv
         </Link>
       </div>
     </div>

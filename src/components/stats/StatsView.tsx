@@ -32,23 +32,23 @@ export function StatsView({ today }: { today: string }) {
 
   return (
     <div className="flex flex-col gap-4">
-      <h1 className="font-display text-4xl font-bold uppercase">Statistikk</h1>
+      <h1 className="font-display text-4xl font-bold uppercase">Statistik</h1>
       <div className="grid grid-cols-3 gap-3">
-        <Stat label="Dager på rad" value={`🔥 ${streak.current}`} />
-        <Stat label="Beste rekke" value={String(streak.best)} />
-        <Stat label="Spill totalt" value={String(all.length)} />
+        <Stat label="Tage in Folge" value={`🔥 ${streak.current}`} />
+        <Stat label="Beste Serie" value={String(streak.best)} />
+        <Stat label="Spiele insgesamt" value={String(all.length)} />
       </div>
       <section className="card p-4">
-        <h2 className="font-display text-2xl font-bold uppercase">🇳🇴 Mangler XI</h2>
+        <h2 className="font-display text-2xl font-bold uppercase">🇩🇪 Fehlende Elf</h2>
         <div className="mt-2 grid grid-cols-3 gap-3">
-          <Stat label="Spilt" value={String(mxi.length)} small />
-          <Stat label="Fulltreff (11/11)" value={String(mxi.filter((r) => r.won).length)} small />
-          <Stat label="Snitt funnet" value={avg(mxi.map((r) => r.score))?.toString() ?? "–"} small />
+          <Stat label="Gespielt" value={String(mxi.length)} small />
+          <Stat label="Volltreffer (11/11)" value={String(mxi.filter((r) => r.won).length)} small />
+          <Stat label="Schnitt gefunden" value={avg(mxi.map((r) => r.score))?.toString() ?? "–"} small />
         </div>
-        <p className="mt-2 text-xs text-mist">Rekke: {sMxi.current} · beste {sMxi.best}</p>
+        <p className="mt-2 text-xs text-mist">Serie: {sMxi.current} · beste {sMxi.best}</p>
         {mxi.length ? (
           <div className="mt-3">
-            <div className="text-xs uppercase tracking-widest text-mist">Fordeling (antall funnet)</div>
+            <div className="text-xs uppercase tracking-widest text-mist">Verteilung (Anzahl gefunden)</div>
             <div className="mt-1 flex flex-col gap-1">
               {dist.map((n, i) => (
                 <div key={i} className="flex items-center gap-2 text-xs">
@@ -60,48 +60,48 @@ export function StatsView({ today }: { today: string }) {
             </div>
           </div>
         ) : (
-          <p className="mt-3 text-sm text-mist">Spill en Mangler XI-runde for å få en resultatfordeling.</p>
+          <p className="mt-3 text-sm text-mist">Spiele eine Runde Fehlende Elf, um eine Ergebnisverteilung zu sehen.</p>
         )}
       </section>
       <section className="card p-4">
-        <h2 className="font-display text-2xl font-bold uppercase">🥅 Målløs</h2>
+        <h2 className="font-display text-2xl font-bold uppercase">🥅 Torlos</h2>
         <div className="mt-2 grid grid-cols-3 gap-3">
-          <Stat label="Spilt" value={String(mal.length)} small />
-          <Stat label="Unngått nedrykk" value={String(mal.filter((r) => r.won).length)} small />
-          <Stat label="Snitt poeng" value={avg(mal.map((r) => r.score))?.toString() ?? "–"} small />
+          <Stat label="Gespielt" value={String(mal.length)} small />
+          <Stat label="Abstieg vermieden" value={String(mal.filter((r) => r.won).length)} small />
+          <Stat label="Schnitt Punkte" value={avg(mal.map((r) => r.score))?.toString() ?? "–"} small />
         </div>
-        <p className="mt-2 text-xs text-mist">Rekke: {sMal.current} · beste {sMal.best}</p>
+        <p className="mt-2 text-xs text-mist">Serie: {sMal.current} · beste {sMal.best}</p>
       </section>
       <section className="card p-4">
-        <h2 className="font-display text-2xl font-bold uppercase">🕵️ Finn spilleren</h2>
+        <h2 className="font-display text-2xl font-bold uppercase">🕵️ Finde den Spieler</h2>
         <div className="mt-2 grid grid-cols-3 gap-3">
-          <Stat label="Spilt" value={String(finn.length)} small />
-          <Stat label="Løst" value={String(finn.filter((r) => r.won).length)} small />
-          <Stat label="Snitt poeng" value={avg(finn.map((r) => r.score))?.toString() ?? "–"} small />
+          <Stat label="Gespielt" value={String(finn.length)} small />
+          <Stat label="Gelöst" value={String(finn.filter((r) => r.won).length)} small />
+          <Stat label="Schnitt Punkte" value={avg(finn.map((r) => r.score))?.toString() ?? "–"} small />
         </div>
-        <p className="mt-2 text-xs text-mist">Rekke: {sFinn.current} · beste {sFinn.best}</p>
+        <p className="mt-2 text-xs text-mist">Serie: {sFinn.current} · beste {sFinn.best}</p>
       </section>
       <section className="card p-4">
-        <h2 className="font-display text-2xl font-bold uppercase">🧠 Trener Genius</h2>
+        <h2 className="font-display text-2xl font-bold uppercase">🧠 Trainer-Genie</h2>
         <div className="mt-2 grid grid-cols-3 gap-3">
-          <Stat label="Spilt" value={String(genius.length)} small />
-          <Stat label="4 av 4" value={String(genius.filter((r) => r.won).length)} small />
-          <Stat label="Snitt poeng" value={avg(genius.map((r) => r.score))?.toString() ?? "–"} small />
+          <Stat label="Gespielt" value={String(genius.length)} small />
+          <Stat label="4 von 4" value={String(genius.filter((r) => r.won).length)} small />
+          <Stat label="Schnitt Punkte" value={avg(genius.map((r) => r.score))?.toString() ?? "–"} small />
         </div>
-        <p className="mt-2 text-xs text-mist">Rekke: {sGenius.current} · beste {sGenius.best}</p>
+        <p className="mt-2 text-xs text-mist">Serie: {sGenius.current} · beste {sGenius.best}</p>
       </section>
       <section className="card p-4">
-        <h2 className="font-display text-2xl font-bold uppercase">🟩 Gullordet</h2>
+        <h2 className="font-display text-2xl font-bold uppercase">🟩 Goldwort</h2>
         <div className="mt-2 grid grid-cols-3 gap-3">
-          <Stat label="Spilt" value={String(gull.length)} small />
-          <Stat label="Løst" value={String(gull.filter((r) => r.won).length)} small />
-          <Stat label="Snitt poeng" value={avg(gull.map((r) => r.score))?.toString() ?? "–"} small />
+          <Stat label="Gespielt" value={String(gull.length)} small />
+          <Stat label="Gelöst" value={String(gull.filter((r) => r.won).length)} small />
+          <Stat label="Schnitt Punkte" value={avg(gull.map((r) => r.score))?.toString() ?? "–"} small />
         </div>
-        <p className="mt-2 text-xs text-mist">Rekke: {sGull.current} · beste {sGull.best}</p>
+        <p className="mt-2 text-xs text-mist">Serie: {sGull.current} · beste {sGull.best}</p>
       </section>
       <section className="card p-4 text-sm text-mist">
         <p>
-          Dager med begge spillene fullført: <b className="text-snow">{both}</b>. Statistikken lagres kun i nettleseren din. Arkivspill teller ikke i rekken.
+          Tage mit beiden Spielen erledigt: <b className="text-snow">{both}</b>. Die Statistik wird nur in deinem Browser gespeichert. Archivspiele zählen nicht für die Serie.
         </p>
       </section>
     </div>

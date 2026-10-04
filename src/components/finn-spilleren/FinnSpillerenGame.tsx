@@ -33,7 +33,7 @@ export function FinnSpillerenGame({ puzzle, isArchive }: { puzzle: FinnSpilleren
   };
 
   const apply = (reply: Reply, submitted = false) => {
-    if (!reply.ok) throw new Error(reply.error === "unauthorised" ? "Logg inn igjen for å fortsette ligarunden." : "Kunne ikke hente runden. Prøv igjen.");
+    if (!reply.ok) throw new Error(reply.error === "unauthorised" ? "Melde dich erneut an, um die Ligarunde fortzusetzen." : "Die Runde konnte nicht geladen werden. Versuch es noch einmal.");
     if (reply.attemptId) setAttemptId(reply.attemptId);
     if (reply.hints) setHints(reply.hints);
     if (reply.hintNumber) setHintNumber(reply.hintNumber);
@@ -96,30 +96,30 @@ export function FinnSpillerenGame({ puzzle, isArchive }: { puzzle: FinnSpilleren
   return <div className={`flex flex-col gap-4 ${design.game}`}>
     <section className={`card p-5 ${design.hero}`}>
       <div className="text-xs uppercase tracking-widest text-mist">#{puzzle.number} · {puzzle.role}</div>
-      <h2 className="mt-1 font-display text-3xl font-bold uppercase">Hvem er jeg?</h2>
-      <p className="mt-2 text-sm text-mist">Riktig på første hint gir 100 poeng. Deretter 80, 60, 40 og 20. Gjetter du feil, får du neste hint – og potten synker. Runden er over når du treffer, eller når siste hint er brukt opp.</p>
+      <h2 className="mt-1 font-display text-3xl font-bold uppercase">Wer bin ich?</h2>
+      <p className="mt-2 text-sm text-mist">Richtig beim ersten Hinweis gibt 100 Punkte, danach 80, 60, 40 und 20. Rätst du falsch, bekommst du den nächsten Hinweis – und der Topf schrumpft. Die Runde endet, wenn du triffst oder der letzte Hinweis verbraucht ist.</p>
     </section>
     <section className={`card p-5 ${design.cluesCard}`}>
       <ol className={design.clueList}>
         {hints.map((hint, i) => <li key={i} className={design.clue}><span className={design.clueNumber}>{i + 1}</span><span>{hint}</span></li>)}
       </ol>
       {wrong.length > 0 && <div className="mt-4 flex flex-wrap items-center gap-2 text-sm">
-        <span className="text-mist">Prøvd:</span>
+        <span className="text-mist">Versucht:</span>
         {wrong.map((g, i) => <span key={i} className={`${design.attempt} rounded-full px-3 py-1 line-through`}>{g}</span>)}
       </div>}
       {error && <p className="mt-4 rounded-xl bg-ink-3 p-3 text-mist">{error}</p>}
-      {finished && !result && <p className="mt-3">Denne runden er allerede avsluttet.</p>}
+      {finished && !result && <p className="mt-3">Diese Runde ist bereits beendet.</p>}
       {!finished && attemptId && <form className={`${design.form} mt-5 space-y-3`} onSubmit={submit}>
-        <p className="text-sm text-mist">Riktig nå gir <b className="text-snow">{potential} poeng</b>.</p>
-        <input aria-label="Spillerens navn" className="input" value={guess} onChange={(e) => setGuess(e.target.value)} placeholder="Skriv spillerens navn" autoComplete="off" maxLength={80} />
+        <p className="text-sm text-mist">Richtig jetzt gibt <b className="text-snow">{potential} Punkte</b>.</p>
+        <input aria-label="Name des Spielers" className="input" value={guess} onChange={(e) => setGuess(e.target.value)} placeholder="Name des Spielers" autoComplete="off" maxLength={80} />
         <div className="grid grid-cols-2 gap-2">
-          <button className="btn btn-primary" disabled={busy || !guess.trim()}>{busy ? "Venter …" : "Svar"}</button>
-          <button type="button" className="btn btn-secondary" disabled={busy || hintNumber >= 5} onClick={next}>{hintNumber >= 5 ? "Siste hint" : "Neste hint"}</button>
+          <button className="btn btn-primary" disabled={busy || !guess.trim()}>{busy ? "Moment …" : "Antworten"}</button>
+          <button type="button" className="btn btn-secondary" disabled={busy || hintNumber >= 5} onClick={next}>{hintNumber >= 5 ? "Letzter Hinweis" : "Nächster Hinweis"}</button>
         </div>
       </form>}
       {result && <div className={`${design.result} ${result.correct ? design.resultCorrect : ""} mt-5 rounded-xl p-4`}>
-        <div className="font-display text-2xl font-bold uppercase">{result.correct ? `Riktig! ${result.score} poeng` : "Alle hintene er brukt opp"}</div>
-        <p className="mt-1">Svaret var <b>{result.answer}</b>.</p><p className="mt-1 text-sm text-mist">{result.explanation}</p>
+        <div className="font-display text-2xl font-bold uppercase">{result.correct ? `Richtig! ${result.score} Punkte` : "Alle Hinweise sind verbraucht"}</div>
+        <p className="mt-1">Die Lösung war <b>{result.answer}</b>.</p><p className="mt-1 text-sm text-mist">{result.explanation}</p>
       </div>}
     </section>
   </div>;
