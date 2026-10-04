@@ -28,6 +28,19 @@ const standalone: Partial<Record<keyof typeof windows, string>> = {
   friends: "/design/friends.webp",
   // The old strip showed a player in Norway's red shirt; the hero's number 10 stands in.
   profile: "/design/home-hero.webp",
+  // Stand-ins until the pages get art of their own: the originals carry Norway's flag
+  // and Norwegian lettering.
+  xiHero: "/design/home-hero.webp",
+  leagueHero: "/design/friends.webp",
+};
+
+/** Where to anchor art that is cropped to a frame of another shape. */
+const focus: Partial<Record<keyof typeof windows, string>> = {
+  homeHero: "right center",
+  friends: "right center",
+  xiHero: "right 30%",
+  leagueHero: "right 45%",
+  profile: "center 40%",
 };
 
 export function ReferenceArt({ name, className = "" }: { name: keyof typeof windows; className?: string }) {
@@ -35,7 +48,7 @@ export function ReferenceArt({ name, className = "" }: { name: keyof typeof wind
   if (own) {
     return <span className={`reference-art ${className}`} aria-hidden="true" style={{ display: "block", position: "relative", overflow: "hidden", width: "100%", height: "100%" }}>
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src={`${BASE_PATH}${own}`} alt="" draggable={false} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: name === "logo" ? "contain" : "cover", objectPosition: name === "homeHero" || name === "friends" ? "right center" : "center" }} />
+      <img src={`${BASE_PATH}${own}`} alt="" draggable={false} style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: name === "logo" ? "contain" : "cover", objectPosition: focus[name] ?? "center" }} />
     </span>;
   }
   const [sheet, x, y, width, height] = windows[name];
