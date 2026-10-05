@@ -14,8 +14,16 @@
     "fact": "2012 holte der BVB unter ihm sogar das erste Double der Vereinsgeschichte.",
     "era": 2012,
     "difficulty": 1,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Klopp",
+        "title": "Jürgen Klopp – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Dortmund» og «2011» og «2012». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Jürgen Klopp",
       "mustMention": [
@@ -40,8 +48,16 @@
     "fact": "Im Finale in Madrid schlug Liverpool Tottenham 2:0.",
     "era": 2019,
     "difficulty": 1,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Klopp",
+        "title": "Jürgen Klopp – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «FC Liverpool» og «2019». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Jürgen Klopp",
       "mustMention": [
@@ -66,8 +82,16 @@
     "fact": "2004 führte er Mainz erstmals in die Bundesliga.",
     "era": 2001,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Klopp",
+        "title": "Jürgen Klopp – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1. FSV Mainz 05». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Jürgen Klopp",
       "mustMention": [
@@ -86,8 +110,16 @@
     },
     "fact": "Aufgewachsen ist er im Schwarzwald, in Glatten.",
     "difficulty": 3,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Klopp",
+        "title": "Jürgen Klopp – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Stuttgart» og «1967». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Jürgen Klopp",
       "mustMention": [
@@ -111,8 +143,16 @@
     "fact": "Meisterschaft, DFB-Pokal und Champions League in einer Saison – ein deutsches Novum.",
     "era": 2013,
     "difficulty": 1,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Jupp_Heynckes",
+        "title": "Jupp Heynckes – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Triple» og «2013». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Jupp Heynckes",
       "mustMention": [
@@ -135,8 +175,16 @@
     "fact": "Im Finale in Amsterdam schlug Real Juventus 1:0.",
     "era": 1998,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Jupp_Heynckes",
+        "title": "Jupp Heynckes – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Real Madrid» og «1998». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Jupp Heynckes",
       "mustMention": [
@@ -161,8 +209,16 @@
     "fact": "Er ist einer der besten Torschützen der Bundesliga-Geschichte.",
     "era": 1979,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Jupp_Heynckes",
+        "title": "Jupp Heynckes – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Borussia Mönchengladbach» og «1979». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Jupp Heynckes",
       "mustMention": [
@@ -185,8 +241,16 @@
     "fact": "Es war seine vierte Amtszeit in München.",
     "era": 2017,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Jupp_Heynckes",
+        "title": "Jupp Heynckes – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «2017» og «Bayern». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Jupp Heynckes",
       "mustMention": [
@@ -209,8 +273,16 @@
     "fact": "Er war der zweite Trainer, der mit zwei Klubs den Henkelpott holte.",
     "era": 2001,
     "difficulty": 1,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Ottmar_Hitzfeld",
+        "title": "Ottmar Hitzfeld – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1997» og «2001». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Ottmar Hitzfeld",
       "mustMention": [
@@ -233,8 +305,16 @@
     "fact": "Mit der Schweiz fuhr er zu den WM-Turnieren 2010 und 2014.",
     "era": 2008,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Ottmar_Hitzfeld",
+        "title": "Ottmar Hitzfeld – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Schweiz» og «2008». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Ottmar Hitzfeld",
       "mustMention": [
@@ -256,8 +336,16 @@
     },
     "fact": "Er stand für Disziplin und eine kühle Spielanalyse.",
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Ottmar_Hitzfeld",
+        "title": "Ottmar Hitzfeld – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «General». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Ottmar Hitzfeld",
       "mustMention": [
@@ -281,8 +369,16 @@
     "fact": "Danach wechselte er 1991 zu Borussia Dortmund.",
     "era": 1990,
     "difficulty": 3,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Ottmar_Hitzfeld",
+        "title": "Ottmar Hitzfeld – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Grasshopper Club Zürich». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Ottmar Hitzfeld",
       "mustMention": [
@@ -304,8 +400,16 @@
     "fact": "Er gewann alle drei damaligen Europapokal-Wettbewerbe.",
     "era": 1982,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Udo_Lattek",
+        "title": "Udo Lattek – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Barcelona» og «Mönchengladbach». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Udo Lattek",
       "mustMention": [
@@ -330,8 +434,16 @@
     "fact": "Es war der erste von drei Landesmeister-Titeln in Folge.",
     "era": 1974,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Udo_Lattek",
+        "title": "Udo Lattek – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «FC Bayern München» og «1974» og «Landesmeister». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Udo Lattek",
       "mustMention": [
@@ -356,8 +468,16 @@
     "fact": "Mit Barça gewann er 1982 den Europapokal der Pokalsieger.",
     "era": 1981,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Udo_Lattek",
+        "title": "Udo Lattek – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «FC Barcelona». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Udo Lattek",
       "mustMention": [
@@ -380,8 +500,16 @@
     "fact": "Mit Matthias Sammer an seiner Seite hielt er den BVB in der Liga.",
     "era": 2000,
     "difficulty": 3,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Udo_Lattek",
+        "title": "Udo Lattek – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Borussia Dortmund» og «2000». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Udo Lattek",
       "mustMention": [
@@ -404,8 +532,16 @@
     "fact": "Zuvor hatte er Gladbach zur „Fohlenelf“ geformt.",
     "era": 1978,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Hennes_Weisweiler",
+        "title": "Hennes Weisweiler – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Köln» og «1978» og «Double». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Hennes Weisweiler",
       "mustMention": [
@@ -435,7 +571,8 @@
       "mustMention": [
         "Fohlenelf"
       ]
-    }
+    },
+    "notes": "Artikkelen «Hennes Weisweiler» nevner ikke «Fohlenelf». Sjekk svaret for hånd."
   },
   {
     "id": "tq-hennes-weisweiler-3",
@@ -451,8 +588,16 @@
     "fact": "Er war einer der ersten deutschen Spitzentrainer in Nordamerika.",
     "era": 1980,
     "difficulty": 3,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Hennes_Weisweiler",
+        "title": "Hennes Weisweiler – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «New York Cosmos». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Hennes Weisweiler",
       "mustMention": [
@@ -475,8 +620,16 @@
     "fact": "Das Gastspiel endete nach einer Saison.",
     "era": 1975,
     "difficulty": 3,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Hennes_Weisweiler",
+        "title": "Hennes Weisweiler – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «FC Barcelona». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Hennes Weisweiler",
       "mustMention": [
@@ -498,8 +651,16 @@
     "fact": "Er betreute Deutschland bei vier Weltmeisterschaften.",
     "era": 1974,
     "difficulty": 1,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Helmut_Sch%C3%B6n",
+        "title": "Helmut Schön – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1972» og «1974». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Helmut Schön",
       "mustMention": [
@@ -522,8 +683,16 @@
     "fact": "Herberger war seit 1936 Reichs- und Bundestrainer gewesen.",
     "era": 1964,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Helmut_Sch%C3%B6n",
+        "title": "Helmut Schön – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Sepp Herberger». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Helmut Schön",
       "mustMention": [
@@ -542,8 +711,16 @@
     },
     "fact": "Als Spieler stürmte er für den Dresdner SC.",
     "difficulty": 3,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Helmut_Sch%C3%B6n",
+        "title": "Helmut Schön – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Dresden». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Helmut Schön",
       "mustMention": [
@@ -565,8 +742,16 @@
     "fact": "Derwall war zuvor Schöns Assistent.",
     "era": 1978,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Helmut_Sch%C3%B6n",
+        "title": "Helmut Schön – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Jupp Derwall». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Helmut Schön",
       "mustMention": [
@@ -588,8 +773,16 @@
     },
     "fact": "Das Finale in Bern ging als „Wunder von Bern“ in die Geschichte ein.",
     "difficulty": 1,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Sepp_Herberger",
+        "title": "Sepp Herberger – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1954» og «Bern». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Sepp Herberger",
       "mustMention": [
@@ -611,8 +804,16 @@
     },
     "fact": "Auch „Das nächste Spiel ist immer das schwerste“ wird ihm zugeschrieben.",
     "difficulty": 1,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Sepp_Herberger",
+        "title": "Sepp Herberger – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Ball ist rund». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Sepp Herberger",
       "mustMention": [
@@ -633,8 +834,16 @@
     },
     "fact": "Fritz Walter spielte seine ganze Karriere in Kaiserslautern.",
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Sepp_Herberger",
+        "title": "Sepp Herberger – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Fritz Walter». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Sepp Herberger",
       "mustMention": [
@@ -657,8 +866,16 @@
     "fact": "Er war damit Weltmeister als Spieler und als Teamchef.",
     "era": 1990,
     "difficulty": 1,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Franz_Beckenbauer",
+        "title": "Franz Beckenbauer – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Teamchef» og «1990». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Franz Beckenbauer",
       "mustMention": [
@@ -682,8 +899,16 @@
     "fact": "Marseille wurde in dieser Saison französischer Meister.",
     "era": 1990,
     "difficulty": 3,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Franz_Beckenbauer",
+        "title": "Franz Beckenbauer – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Olympique Marseille». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Franz Beckenbauer",
       "mustMention": [
@@ -707,8 +932,16 @@
     "fact": "Er übernahm im Frühjahr 1996 von Otto Rehhagel.",
     "era": 1996,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Franz_Beckenbauer",
+        "title": "Franz Beckenbauer – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «FC Bayern München» og «UEFA-Pokal» og «1996». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Franz Beckenbauer",
       "mustMention": [
@@ -731,8 +964,16 @@
     },
     "fact": "Der Name blieb ihm ein Leben lang.",
     "difficulty": 1,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Franz_Beckenbauer",
+        "title": "Franz Beckenbauer – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Kaiser». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Franz Beckenbauer",
       "mustMention": [
@@ -755,8 +996,16 @@
     "fact": "Im Finale schlug Deutschland Tschechien 2:1 durch ein Golden Goal.",
     "era": 1996,
     "difficulty": 1,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Berti_Vogts",
+        "title": "Berti Vogts – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1996» og «England». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Berti Vogts",
       "mustMention": [
@@ -779,8 +1028,16 @@
     "fact": "Später trainierte er auch Nigeria und Aserbaidschan.",
     "era": 2002,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Berti_Vogts",
+        "title": "Berti Vogts – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Schottland». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Berti Vogts",
       "mustMention": [
@@ -801,8 +1058,16 @@
     },
     "fact": "Er galt als einer der härtesten Manndecker seiner Zeit.",
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Berti_Vogts",
+        "title": "Berti Vogts – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Terrier». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Berti Vogts",
       "mustMention": [
@@ -824,8 +1089,16 @@
     },
     "fact": "Mit Gladbach wurde er fünfmal Deutscher Meister.",
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Berti_Vogts",
+        "title": "Berti Vogts – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Borussia Mönchengladbach». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Berti Vogts",
       "mustMention": [
@@ -847,8 +1120,16 @@
     "fact": "Im Finale in Yokohama unterlag Deutschland Brasilien 0:2.",
     "era": 2002,
     "difficulty": 1,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Rudi_V%C3%B6ller",
+        "title": "Rudi Völler – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «2002» og «Teamchef». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Rudi Völler",
       "mustMention": [
@@ -869,8 +1150,16 @@
     "fact": "Das Spiel in Reykjavík endete 0:0.",
     "era": 2003,
     "difficulty": 3,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Rudi_V%C3%B6ller",
+        "title": "Rudi Völler – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Island». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Rudi Völler",
       "mustMention": [
@@ -892,8 +1181,16 @@
     },
     "fact": "Für Leverkusen hatte er schon als Spieler gestürmt.",
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Rudi_V%C3%B6ller",
+        "title": "Rudi Völler – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Bayer 04 Leverkusen». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Rudi Völler",
       "mustMention": [
@@ -916,8 +1213,16 @@
     "fact": "In Rom wurde er als „Il tedesco volante“ gefeiert.",
     "era": 1987,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Rudi_V%C3%B6ller",
+        "title": "Rudi Völler – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «AS Rom». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Rudi Völler",
       "mustMention": [
@@ -940,8 +1245,16 @@
     "fact": "Das „Sommermärchen“ endete im Halbfinale gegen Italien.",
     "era": 2006,
     "difficulty": 1,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Klinsmann",
+        "title": "Jürgen Klinsmann – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «2006». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Jürgen Klinsmann",
       "mustMention": [
@@ -964,8 +1277,16 @@
     "fact": "Er lebt seit vielen Jahren in Kalifornien.",
     "era": 2011,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Klinsmann",
+        "title": "Jürgen Klinsmann – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «USA» og «2011» og «Vereinigten Staaten». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Jürgen Klinsmann",
       "mustMention": [
@@ -990,8 +1311,16 @@
     "fact": "Er trat im Februar 2020 per Facebook-Post zurück.",
     "era": 2019,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Klinsmann",
+        "title": "Jürgen Klinsmann – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Hertha BSC». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Jürgen Klinsmann",
       "mustMention": [
@@ -1013,8 +1342,16 @@
     "fact": "Nach dem Halbfinal-Aus beim Asien-Cup 2024 musste er gehen.",
     "era": 2023,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Klinsmann",
+        "title": "Jürgen Klinsmann – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Südkorea» og «2023». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Jürgen Klinsmann",
       "mustMention": [
@@ -1039,8 +1376,16 @@
     "fact": "Im Finale schlug Deutschland Argentinien 1:0 nach Verlängerung.",
     "era": 2014,
     "difficulty": 1,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Joachim_L%C3%B6w",
+        "title": "Joachim Löw – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «2014» og «Brasilien». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Joachim Löw",
       "mustMention": [
@@ -1064,8 +1409,16 @@
     "fact": "Im Finale schlug der VfB Energie Cottbus 2:0.",
     "era": 1997,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Joachim_L%C3%B6w",
+        "title": "Joachim Löw – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «VfB Stuttgart» og «1997». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Joachim Löw",
       "mustMention": [
@@ -1088,8 +1441,16 @@
     "fact": "Löw war ab 2004 Klinsmanns Co-Trainer.",
     "era": 2004,
     "difficulty": 1,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Joachim_L%C3%B6w",
+        "title": "Joachim Löw – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Jürgen Klinsmann». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Joachim Löw",
       "mustMention": [
@@ -1113,8 +1474,16 @@
     "fact": "Kurz darauf ging der Klub in Konkurs.",
     "era": 2002,
     "difficulty": 3,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Joachim_L%C3%B6w",
+        "title": "Joachim Löw – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «FC Tirol Innsbruck». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Joachim Löw",
       "mustMention": [
@@ -1136,8 +1505,16 @@
     "fact": "Es blieb bei einer Saison in Istanbul.",
     "era": 1998,
     "difficulty": 3,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Joachim_L%C3%B6w",
+        "title": "Joachim Löw – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Fenerbahçe». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Joachim Löw",
       "mustMention": [
@@ -1160,8 +1537,16 @@
     "fact": "Bayern holte unter ihm sechs Titel innerhalb eines Jahres.",
     "era": 2020,
     "difficulty": 1,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Hansi_Flick",
+        "title": "Hansi Flick – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «2020» og «Champions League». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Hansi Flick",
       "mustMention": [
@@ -1185,8 +1570,16 @@
     "fact": "Flick war von 2006 bis 2014 Co-Trainer der Nationalmannschaft.",
     "era": 2014,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Hansi_Flick",
+        "title": "Hansi Flick – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Joachim Löw». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Hansi Flick",
       "mustMention": [
@@ -1209,8 +1602,16 @@
     "fact": "In seiner ersten Saison wurde Barça spanischer Meister.",
     "era": 2024,
     "difficulty": 1,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Hansi_Flick",
+        "title": "Hansi Flick – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «FC Barcelona» og «2024». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Hansi Flick",
       "mustMention": [
@@ -1234,8 +1635,16 @@
     "fact": "Damals spielte Hoffenheim noch in der Oberliga und Regionalliga.",
     "era": 2000,
     "difficulty": 3,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Hansi_Flick",
+        "title": "Hansi Flick – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «TSG 1899 Hoffenheim». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Hansi Flick",
       "mustMention": [
@@ -1257,8 +1666,16 @@
     "fact": "Er rettete Hoffenheim noch vor dem Abstieg.",
     "era": 2016,
     "difficulty": 1,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Julian_Nagelsmann",
+        "title": "Julian Nagelsmann – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Hoffenheim» og «2016». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Julian Nagelsmann",
       "mustMention": [
@@ -1281,8 +1698,16 @@
     "fact": "Im Halbfinale in Lissabon war gegen Paris Saint-Germain Schluss.",
     "era": 2020,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Julian_Nagelsmann",
+        "title": "Julian Nagelsmann – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «RB Leipzig» og «2020». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Julian Nagelsmann",
       "mustMention": [
@@ -1306,8 +1731,16 @@
     "fact": "Er war bei Amtsantritt 36 Jahre alt.",
     "era": 2023,
     "difficulty": 1,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Julian_Nagelsmann",
+        "title": "Julian Nagelsmann – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Bundestrainer» og «2023». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Julian Nagelsmann",
       "mustMention": [
@@ -1330,8 +1763,16 @@
     "fact": "Tuchel holte in derselben Saison noch die Meisterschaft.",
     "era": 2023,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Julian_Nagelsmann",
+        "title": "Julian Nagelsmann – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Thomas Tuchel». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Julian Nagelsmann",
       "mustMention": [
@@ -1354,8 +1795,16 @@
     "fact": "Im Finale in Porto schlug Chelsea Manchester City 1:0.",
     "era": 2021,
     "difficulty": 1,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Thomas_Tuchel",
+        "title": "Thomas Tuchel – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «FC Chelsea» og «2021». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Thomas Tuchel",
       "mustMention": [
@@ -1386,7 +1835,8 @@
         "England",
         "2025"
       ]
-    }
+    },
+    "notes": "Artikkelen «Thomas Tuchel» nevner ikke «England». Sjekk svaret for hånd."
   },
   {
     "id": "tq-thomas-tuchel-3",
@@ -1403,8 +1853,16 @@
     "fact": "Im Finale schlug der BVB Eintracht Frankfurt 2:1.",
     "era": 2017,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Thomas_Tuchel",
+        "title": "Thomas Tuchel – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Borussia Dortmund» og «2017». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Thomas Tuchel",
       "mustMention": [
@@ -1428,8 +1886,16 @@
     "fact": "Wie Klopp machte er sich in Mainz einen Namen.",
     "era": 2009,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Thomas_Tuchel",
+        "title": "Thomas Tuchel – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1. FSV Mainz 05» og «2009». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Thomas Tuchel",
       "mustMention": [
@@ -1453,8 +1919,16 @@
     "fact": "Im Finale verlor Paris 0:1 gegen den FC Bayern.",
     "era": 2020,
     "difficulty": 1,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Thomas_Tuchel",
+        "title": "Thomas Tuchel – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Paris Saint-Germain». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Thomas Tuchel",
       "mustMention": [
@@ -1476,8 +1950,16 @@
     "fact": "Es ist bis heute Wolfsburgs einziger Meistertitel.",
     "era": 2009,
     "difficulty": 1,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Felix_Magath",
+        "title": "Felix Magath – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Wolfsburg» og «2009». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Felix Magath",
       "mustMention": [
@@ -1497,8 +1979,16 @@
     },
     "fact": "Berüchtigt waren seine Medizinball-Einheiten und Bergläufe.",
     "difficulty": 1,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Felix_Magath",
+        "title": "Felix Magath – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Quälix». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Felix Magath",
       "mustMention": [
@@ -1522,8 +2012,16 @@
     "fact": "Zwei Doubles in Folge hatte zuvor kein Bundesligatrainer geschafft.",
     "era": 2006,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Felix_Magath",
+        "title": "Felix Magath – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «FC Bayern München» og «2005» og «2006». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Felix Magath",
       "mustMention": [
@@ -1548,8 +2046,16 @@
     "fact": "Das Finale in Athen endete 1:0.",
     "era": 1983,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Felix_Magath",
+        "title": "Felix Magath – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Juventus Turin» og «1983». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Felix Magath",
       "mustMention": [
@@ -1573,8 +2079,16 @@
     "fact": "Im Finale in Lissabon schlug Griechenland Gastgeber Portugal 1:0.",
     "era": 2004,
     "difficulty": 1,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Otto_Rehhagel",
+        "title": "Otto Rehhagel – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Griechenland» og «2004». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Otto Rehhagel",
       "mustMention": [
@@ -1599,8 +2113,16 @@
     "fact": "Das ist in der Bundesliga bis heute einmalig.",
     "era": 1998,
     "difficulty": 1,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Otto_Rehhagel",
+        "title": "Otto Rehhagel – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1. FC Kaiserslautern» og «1998». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Otto Rehhagel",
       "mustMention": [
@@ -1625,8 +2147,16 @@
     "fact": "Mit Werder wurde er zweimal Meister und gewann 1992 den Europapokal.",
     "era": 1981,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Otto_Rehhagel",
+        "title": "Otto Rehhagel – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Werder Bremen» og «1981». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Otto Rehhagel",
       "mustMention": [
@@ -1649,8 +2179,16 @@
     "fact": "Eine Anspielung auf den Sagenhelden Herakles.",
     "era": 2004,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Otto_Rehhagel",
+        "title": "Otto Rehhagel – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Rehakles». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Otto Rehhagel",
       "mustMention": [
@@ -1673,8 +2211,16 @@
     "fact": "Der VfB setzte sich am letzten Spieltag gegen Frankfurt und Dortmund durch.",
     "era": 1992,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Christoph_Daum",
+        "title": "Christoph Daum – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «VfB Stuttgart» og «1992». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Christoph Daum",
       "mustMention": [
@@ -1697,8 +2243,16 @@
     "fact": "Statt ihm übernahm Rudi Völler als Teamchef.",
     "era": 2000,
     "difficulty": 1,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Christoph_Daum",
+        "title": "Christoph Daum – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Kokain» og «2000». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Christoph Daum",
       "mustMention": [
@@ -1721,8 +2275,16 @@
     "fact": "Auch mit Fenerbahçe holte er später Meistertitel.",
     "era": 1995,
     "difficulty": 3,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Christoph_Daum",
+        "title": "Christoph Daum – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Beşiktaş». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Christoph Daum",
       "mustMention": [
@@ -1745,8 +2307,16 @@
     "fact": "Leverkusen wurde in dieser Zeit mehrfach Vizemeister.",
     "era": 1996,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Christoph_Daum",
+        "title": "Christoph Daum – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Bayer 04 Leverkusen». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Christoph Daum",
       "mustMention": [
@@ -1768,8 +2338,16 @@
     "fact": "Es ist der größte Erfolg der Hamburger Vereinsgeschichte.",
     "era": 1983,
     "difficulty": 1,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Ernst_Happel",
+        "title": "Ernst Happel – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1983» og «Landesmeister». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Ernst Happel",
       "mustMention": [
@@ -1792,8 +2370,16 @@
     "fact": "Im Finale in Buenos Aires unterlagen die Niederlande Argentinien.",
     "era": 1978,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Ernst_Happel",
+        "title": "Ernst Happel – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Niederlande» og «1978». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Ernst Happel",
       "mustMention": [
@@ -1824,7 +2410,8 @@
         "Feyenoord Rotterdam",
         "1970"
       ]
-    }
+    },
+    "notes": "Artikkelen «Ernst Happel» nevner ikke «Feyenoord Rotterdam». Sjekk svaret for hånd."
   },
   {
     "id": "tq-ernst-happel-4",
@@ -1837,8 +2424,16 @@
     },
     "fact": "Das größte Stadion Wiens trägt heute seinen Namen.",
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Ernst_Happel",
+        "title": "Ernst Happel – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Österreich». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Ernst Happel",
       "mustMention": [
@@ -1860,8 +2455,16 @@
     "fact": "Mit Kevin Keegan war der HSV damals eine Spitzenmannschaft.",
     "era": 1979,
     "difficulty": 3,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Branko_Zebec",
+        "title": "Branko Zebec – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Hamburger SV» og «1979». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Branko Zebec",
       "mustMention": [
@@ -1886,8 +2489,16 @@
     "fact": "Es war Bayerns erste Meisterschaft in der Bundesliga.",
     "era": 1969,
     "difficulty": 3,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Branko_Zebec",
+        "title": "Branko Zebec – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «FC Bayern München» og «1969». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Branko Zebec",
       "mustMention": [
@@ -1910,8 +2521,16 @@
     "fact": "Der Wiener war für seine spitze Zunge bekannt.",
     "era": 1968,
     "difficulty": 3,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Max_Merkel",
+        "title": "Max Merkel – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1966» og «1968». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Max Merkel",
       "mustMention": [
@@ -1942,7 +2561,8 @@
         "1975",
         "1976"
       ]
-    }
+    },
+    "notes": "Artikkelen «Dettmar Cramer» nevner ikke «1975» og «1976». Sjekk svaret for hånd."
   },
   {
     "id": "tq-dettmar-cramer-2",
@@ -1962,7 +2582,8 @@
       "mustMention": [
         "Japan"
       ]
-    }
+    },
+    "notes": "Artikkelen «Dettmar Cramer» nevner ikke «Japan». Sjekk svaret for hånd."
   },
   {
     "id": "tq-dettmar-cramer-3",
@@ -1984,7 +2605,8 @@
       "mustMention": [
         "Napoleon"
       ]
-    }
+    },
+    "notes": "Artikkelen «Dettmar Cramer» nevner ikke «Napoleon». Sjekk svaret for hånd."
   },
   {
     "id": "tq-huub-stevens-1",
@@ -2000,8 +2622,16 @@
     "fact": "Im Finale setzte sich Schalke im Elfmeterschießen gegen Inter Mailand durch.",
     "era": 1997,
     "difficulty": 1,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Huub_Stevens",
+        "title": "Huub Stevens – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «UEFA-Pokal» og «1997». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Huub Stevens",
       "mustMention": [
@@ -2030,7 +2660,8 @@
       "mustMention": [
         "Null muss stehen"
       ]
-    }
+    },
+    "notes": "Artikkelen «Huub Stevens» nevner ikke «Null muss stehen». Sjekk svaret for hånd."
   },
   {
     "id": "tq-huub-stevens-3",
@@ -2045,8 +2676,16 @@
     },
     "fact": "Als Spieler gehörte er zur Elf der PSV Eindhoven.",
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Huub_Stevens",
+        "title": "Huub Stevens – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Niederlande». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Huub Stevens",
       "mustMention": [
@@ -2068,8 +2707,16 @@
     "fact": "Die Mannschaft hatte kaum große Namen, aber einen enormen Zusammenhalt.",
     "era": 1997,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Huub_Stevens",
+        "title": "Huub Stevens – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Eurofighter». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Huub Stevens",
       "mustMention": [
@@ -2099,7 +2746,8 @@
         "2004",
         "Double"
       ]
-    }
+    },
+    "notes": "Artikkelen «Thomas Schaaf» nevner ikke «Double». Sjekk svaret for hånd."
   },
   {
     "id": "tq-thomas-schaaf-2",
@@ -2116,8 +2764,16 @@
     "fact": "Nach einer Saison trat er dort zurück.",
     "era": 2014,
     "difficulty": 3,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Thomas_Schaaf",
+        "title": "Thomas Schaaf – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Eintracht Frankfurt» og «2014». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Thomas Schaaf",
       "mustMention": [
@@ -2141,8 +2797,16 @@
     },
     "fact": "Als Spieler wurde er mit Werder 1988 und 1993 Meister.",
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Thomas_Schaaf",
+        "title": "Thomas Schaaf – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Werder Bremen». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Thomas Schaaf",
       "mustMention": [
@@ -2165,8 +2829,16 @@
     "fact": "Die junge Mannschaft um Mario Gómez überraschte die Liga.",
     "era": 2007,
     "difficulty": 1,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Armin_Veh",
+        "title": "Armin Veh – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «VfB Stuttgart» og «2007». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Armin Veh",
       "mustMention": [
@@ -2190,8 +2862,16 @@
     "fact": "In der Saison danach erreichte Frankfurt die Europa League.",
     "era": 2012,
     "difficulty": 3,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Armin_Veh",
+        "title": "Armin Veh – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Eintracht Frankfurt» og «2012». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Armin Veh",
       "mustMention": [
@@ -2214,8 +2894,16 @@
     "fact": "Er war damals erst 34 Jahre alt.",
     "era": 2002,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Matthias_Sammer",
+        "title": "Matthias Sammer – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «2002». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Matthias Sammer",
       "mustMention": [
@@ -2238,8 +2926,16 @@
     "fact": "Im selben Jahr wurde er mit Deutschland Europameister.",
     "era": 1996,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Matthias_Sammer",
+        "title": "Matthias Sammer – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Europas Fußballer des Jahres» og «1996». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Matthias Sammer",
       "mustMention": [
@@ -2270,7 +2966,8 @@
         "Relegation",
         "2011"
       ]
-    }
+    },
+    "notes": "Artikkelen «Lucien Favre» nevner ikke «Relegation». Sjekk svaret for hånd."
   },
   {
     "id": "tq-lucien-favre-2",
@@ -2287,8 +2984,16 @@
     "fact": "Zuvor hatte er OGC Nizza trainiert.",
     "era": 2018,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Lucien_Favre",
+        "title": "Lucien Favre – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Borussia Dortmund» og «2018». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Lucien Favre",
       "mustMention": [
@@ -2311,8 +3016,16 @@
     "fact": "Es war Leverkusens erste Meisterschaft.",
     "era": 2024,
     "difficulty": 1,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Xabi_Alonso",
+        "title": "Xabi Alonso – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Leverkusen» og «2024». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Xabi Alonso",
       "mustMention": [
@@ -2335,8 +3048,16 @@
     "fact": "Für Real hatte er schon als Spieler die Champions League gewonnen.",
     "era": 2025,
     "difficulty": 1,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Xabi_Alonso",
+        "title": "Xabi Alonso – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Real Madrid» og «2025». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Xabi Alonso",
       "mustMention": [
@@ -2361,8 +3082,16 @@
     "fact": "In München beendete er 2017 seine Spielerkarriere.",
     "era": 2014,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Xabi_Alonso",
+        "title": "Xabi Alonso – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «FC Bayern München». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Xabi Alonso",
       "mustMention": [
@@ -2384,8 +3113,16 @@
     "fact": "Im Finale von Istanbul glich er per Nachschuss zum 3:3 aus.",
     "era": 2005,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Xabi_Alonso",
+        "title": "Xabi Alonso – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «FC Liverpool» og «2005». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Xabi Alonso",
       "mustMention": [
@@ -2409,8 +3146,16 @@
     "fact": "In jeder seiner drei Saisons wurde Bayern Meister.",
     "era": 2013,
     "difficulty": 1,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Pep_Guardiola",
+        "title": "Pep Guardiola – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Bayern» og «2013». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Pep Guardiola",
       "mustMention": [
@@ -2434,8 +3179,16 @@
     "fact": "Mit City gewann er 2023 das Triple.",
     "era": 2016,
     "difficulty": 1,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Pep_Guardiola",
+        "title": "Pep Guardiola – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Manchester City». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Pep Guardiola",
       "mustMention": [
@@ -2457,8 +3210,16 @@
     "fact": "Im Champions-League-Finale unterlag Bayern Inter Mailand.",
     "era": 2010,
     "difficulty": 1,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Louis_van_Gaal",
+        "title": "Louis van Gaal – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «2010» og «Bayern». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Louis van Gaal",
       "mustMention": [
@@ -2481,8 +3242,16 @@
     "fact": "Im Finale schlug die junge Ajax-Elf den AC Mailand.",
     "era": 1995,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Louis_van_Gaal",
+        "title": "Louis van Gaal – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Ajax Amsterdam» og «1995». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Louis van Gaal",
       "mustMention": [
@@ -2505,8 +3274,16 @@
     "fact": "Er wurde mit Bayern Meister und im September 2017 entlassen.",
     "era": 2016,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Carlo_Ancelotti",
+        "title": "Carlo Ancelotti – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Bayern» og «2016». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Carlo Ancelotti",
       "mustMention": [
@@ -2529,8 +3306,16 @@
     "fact": "Er ist einer der wenigen ausländischen Trainer der Seleção.",
     "era": 2025,
     "difficulty": 1,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Carlo_Ancelotti",
+        "title": "Carlo Ancelotti – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Brasilien» og «2025». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Carlo Ancelotti",
       "mustMention": [
@@ -2553,8 +3338,16 @@
     "fact": "Danach wechselte er ausgerechnet nach München.",
     "era": 2018,
     "difficulty": 1,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Niko_Kova%C4%8D",
+        "title": "Niko Kovač – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Frankfurt» og «2018». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Niko Kovač",
       "mustMention": [
@@ -2582,7 +3375,8 @@
       "mustMention": [
         "Kroatien"
       ]
-    }
+    },
+    "notes": "Artikkelen «Niko Kovač» nevner ikke «Kroatien». Sjekk svaret for hånd."
   },
   {
     "id": "tq-niko-kovac-3",
@@ -2600,8 +3394,16 @@
     "fact": "Im November 2019 trennte sich Bayern von ihm.",
     "era": 2019,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Niko_Kova%C4%8D",
+        "title": "Niko Kovač – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «FC Bayern München» og «2019». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Niko Kovač",
       "mustMention": [
@@ -2624,8 +3426,16 @@
     "fact": "Im Finale in Sevilla siegte Frankfurt im Elfmeterschießen gegen die Rangers.",
     "era": 2022,
     "difficulty": 1,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Oliver_Glasner",
+        "title": "Oliver Glasner – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Europa League» og «2022». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Oliver Glasner",
       "mustMention": [
@@ -2648,8 +3458,16 @@
     "fact": "Es war der erste große Titel der Vereinsgeschichte.",
     "era": 2025,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Oliver_Glasner",
+        "title": "Oliver Glasner – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Crystal Palace» og «2025». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Oliver Glasner",
       "mustMention": [
@@ -2672,8 +3490,16 @@
     "fact": "2021 führte er Wolfsburg in die Champions League.",
     "era": 2019,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Oliver_Glasner",
+        "title": "Oliver Glasner – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «VfL Wolfsburg». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Oliver Glasner",
       "mustMention": [
@@ -2695,8 +3521,16 @@
     "fact": "Im Finale in Wembley unterlag der BVB Real Madrid 0:2.",
     "era": 2024,
     "difficulty": 1,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Edin_Terzi%C4%87",
+        "title": "Edin Terzić – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «2024» og «Finale». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Edin Terzić",
       "mustMention": [
@@ -2719,8 +3553,16 @@
     "fact": "Im Finale schlug Dortmund RB Leipzig 4:1.",
     "era": 2021,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Edin_Terzi%C4%87",
+        "title": "Edin Terzić – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «DFB-Pokal» og «2021». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Edin Terzić",
       "mustMention": [
@@ -2743,8 +3585,16 @@
     "fact": "Er war damals bereits 67 Jahre alt.",
     "era": 2021,
     "difficulty": 3,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Friedhelm_Funkel",
+        "title": "Friedhelm Funkel – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Köln» og «2021». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Friedhelm Funkel",
       "mustMention": [
@@ -2768,8 +3618,16 @@
     "fact": "Im Finale verlor Frankfurt 0:1 gegen den FC Bayern.",
     "era": 2006,
     "difficulty": 3,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Friedhelm_Funkel",
+        "title": "Friedhelm Funkel – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Eintracht Frankfurt» og «2006». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Friedhelm Funkel",
       "mustMention": [
@@ -2790,8 +3648,16 @@
     "fact": "Bei der EM 2024 gewann Österreich unter ihm die Gruppe vor Frankreich.",
     "era": 2022,
     "difficulty": 1,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Ralf_Rangnick",
+        "title": "Ralf Rangnick – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Österreich» og «2022». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Ralf Rangnick",
       "mustMention": [
@@ -2815,8 +3681,16 @@
     "fact": "Danach sollte er als Berater bleiben.",
     "era": 2021,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Ralf_Rangnick",
+        "title": "Ralf Rangnick – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Manchester United». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Ralf Rangnick",
       "mustMention": [
@@ -2845,7 +3719,8 @@
       "mustMention": [
         "Professor"
       ]
-    }
+    },
+    "notes": "Artikkelen «Ralf Rangnick» nevner ikke «Professor». Sjekk svaret for hånd."
   },
   {
     "id": "tq-ralf-rangnick-4",
@@ -2862,8 +3737,16 @@
     "fact": "Im Finale schlug Schalke den MSV Duisburg 5:0.",
     "era": 2011,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Ralf_Rangnick",
+        "title": "Ralf Rangnick – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «FC Schalke 04» og «2011». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Ralf Rangnick",
       "mustMention": [
@@ -2886,8 +3769,16 @@
     "fact": "Im Finale schlug Deutschland Belgien 2:1.",
     "era": 1980,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Jupp_Derwall",
+        "title": "Jupp Derwall – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1980». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Jupp Derwall",
       "mustMention": [
@@ -2909,8 +3800,16 @@
     "fact": "In Istanbul gilt er als Modernisierer des türkischen Fußballs.",
     "era": 1984,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Jupp_Derwall",
+        "title": "Jupp Derwall – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Galatasaray». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Jupp Derwall",
       "mustMention": [
@@ -2932,8 +3831,16 @@
     "fact": "Deutschland holte nur einen Punkt in drei Spielen.",
     "era": 2000,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Erich_Ribbeck",
+        "title": "Erich Ribbeck – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «2000». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Erich Ribbeck",
       "mustMention": [
@@ -2956,8 +3863,16 @@
     "fact": "Leverkusen siegte im Elfmeterschießen gegen Espanyol Barcelona.",
     "era": 1988,
     "difficulty": 3,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Erich_Ribbeck",
+        "title": "Erich Ribbeck – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Bayer 04 Leverkusen» og «UEFA-Pokal» og «1988». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Erich Ribbeck",
       "mustMention": [
@@ -2982,8 +3897,16 @@
     "fact": "Die Pressekonferenz ist eine der bekanntesten der Bundesliga.",
     "era": 1998,
     "difficulty": 1,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Giovanni_Trapattoni",
+        "title": "Giovanni Trapattoni – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «fertig». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Giovanni Trapattoni",
       "mustMention": [
@@ -3005,8 +3928,16 @@
     "fact": "„Was erlauben Strunz?“ wurde zum geflügelten Wort.",
     "era": 1998,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Giovanni_Trapattoni",
+        "title": "Giovanni Trapattoni – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Thomas Strunz». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Giovanni Trapattoni",
       "mustMention": [
@@ -3028,8 +3959,16 @@
     "fact": "Irland schied in der Gruppe mit Spanien und Italien aus.",
     "era": 2012,
     "difficulty": 3,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Giovanni_Trapattoni",
+        "title": "Giovanni Trapattoni – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Irland». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Giovanni Trapattoni",
       "mustMention": [
@@ -3051,8 +3990,16 @@
     "fact": "Mit ihm stieg Freiburg 1993 erstmals in die Bundesliga auf.",
     "era": 1991,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Volker_Finke",
+        "title": "Volker Finke – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Freiburg» og «1991». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Volker Finke",
       "mustMention": [
@@ -3075,8 +4022,16 @@
     "fact": "Zuvor hatte er lange die Freiburger Jugend trainiert.",
     "era": 2024,
     "difficulty": 1,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Christian_Streich",
+        "title": "Christian Streich – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Freiburg» og «2024». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Christian Streich",
       "mustMention": [
@@ -3099,8 +4054,16 @@
     "fact": "Das Finale wurde erst im Elfmeterschießen entschieden.",
     "era": 2022,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Christian_Streich",
+        "title": "Christian Streich – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «RB Leipzig» og «2022». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Christian Streich",
       "mustMention": [
@@ -3123,8 +4086,16 @@
     "fact": "Mit Union war er 2019 auch in die Bundesliga aufgestiegen.",
     "era": 2023,
     "difficulty": 1,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Urs_Fischer_(Fussballspieler)",
+        "title": "Urs Fischer (Fussballspieler) – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Union» og «2023». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Urs Fischer (Fußballspieler, 1966)",
       "mustMention": [
@@ -3147,8 +4118,16 @@
     "fact": "2017 holte Basel unter ihm sogar das Double.",
     "era": 2017,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Urs_Fischer_(Fussballspieler)",
+        "title": "Urs Fischer (Fussballspieler) – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «FC Basel». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Urs Fischer (Fußballspieler, 1966)",
       "mustMention": [
@@ -3171,8 +4150,16 @@
     "fact": "Ein Jahr zuvor hatte der VfB noch in der Relegation gespielt.",
     "era": 2024,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Sebastian_Hoene%C3%9F",
+        "title": "Sebastian Hoeneß – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «VfB Stuttgart» og «2024». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Sebastian Hoeneß",
       "mustMention": [
@@ -3194,8 +4181,16 @@
     },
     "fact": "Sein Vater Dieter Hoeneß war ebenfalls Nationalspieler.",
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Sebastian_Hoene%C3%9F",
+        "title": "Sebastian Hoeneß – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Uli Hoeneß». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Sebastian Hoeneß",
       "mustMention": [

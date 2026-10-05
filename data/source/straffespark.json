@@ -146,7 +146,8 @@
       "mustMention": [
         "Gelbe Wand"
       ]
-    }
+    },
+    "notes": "Artikkelen «Borussia Dortmund» nevner ikke «Gelbe Wand». Sjekk svaret for hånd."
   },
   {
     "kind": "trivia",
@@ -644,9 +645,17 @@
     },
     "fact": "Hier fand 1974 und 2006 WM-Fußball statt.",
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Deutsche_Bank_Park",
+        "title": "Deutsche Bank Park – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Eintracht Frankfurt». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Deutsche Bank Park",
       "mustMention": [
@@ -1278,9 +1287,17 @@
     },
     "fact": "Die blaue Laufbahn im Stadion ist eine Anspielung auf Herthas Farben.",
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Olympiastadion_Berlin",
+        "title": "Olympiastadion Berlin – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Hertha BSC». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Olympiastadion Berlin",
       "mustMention": [
@@ -1302,9 +1319,17 @@
     },
     "fact": "Der Klub wurde 1955 Deutscher Meister.",
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Stadion_an_der_Hafenstra%C3%9Fe",
+        "title": "Stadion an der Hafenstraße – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Rot-Weiss Essen». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Stadion an der Hafenstraße",
       "mustMention": [
@@ -1327,9 +1352,17 @@
     },
     "fact": "Das Stadion liegt im Darmstädter Osten.",
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Stadion_am_B%C3%B6llenfalltor",
+        "title": "Stadion am Böllenfalltor – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «SV Darmstadt 98». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Stadion am Böllenfalltor",
       "mustMention": [
@@ -1351,9 +1384,17 @@
     },
     "fact": "Das Stadion liegt auf dem Schlossberg.",
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Voith-Arena",
+        "title": "Voith-Arena – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1. FC Heidenheim». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Voith-Arena",
       "mustMention": [
@@ -1375,9 +1416,17 @@
     },
     "fact": "Der neue Tivoli ersetzte 2009 das alte Stadion.",
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Tivoli_(Aachen)",
+        "title": "Tivoli (Aachen) – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Alemannia Aachen». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Neuer Tivoli",
       "mustMention": [
@@ -1399,9 +1448,17 @@
     },
     "fact": "Der Klub erreichte 2020 als Viertligist das DFB-Pokal-Halbfinale.",
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Ludwigsparkstadion",
+        "title": "Ludwigsparkstadion – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1. FC Saarbrücken». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Ludwigsparkstadion",
       "mustMention": [
@@ -1424,9 +1481,17 @@
     },
     "fact": "Der FC Bayern hat mehr als 30 Meistertitel gewonnen.",
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/FC_Bayern_M%C3%BCnchen",
+        "title": "FC Bayern München – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Rekordmeister». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "FC Bayern München",
       "mustMention": [
@@ -1449,9 +1514,17 @@
     },
     "fact": "Trainer war Georg Knöpfle.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Bundesliga_1963/64",
+        "title": "Fußball-Bundesliga 1963/64 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1. FC Köln». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Bundesliga 1963/64",
       "mustMention": [
@@ -1474,9 +1547,17 @@
     "fact": "Die Stadionuhr zählte bis dahin die Bundesligazugehörigkeit.",
     "era": 2018,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Hamburger_SV",
+        "title": "Hamburger SV – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Dino» og «2018». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Hamburger SV",
       "mustMention": [
@@ -1500,9 +1581,17 @@
     },
     "fact": "Der Club ist neunmaliger Deutscher Meister.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/1._FC_N%C3%BCrnberg",
+        "title": "1. FC Nürnberg – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Der Club». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "1. FC Nürnberg",
       "mustMention": [
@@ -1524,9 +1613,17 @@
     },
     "fact": "Der Name erinnert an die Bergbau-Tradition in Gelsenkirchen.",
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/FC_Schalke_04",
+        "title": "FC Schalke 04 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Knappen». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "FC Schalke 04",
       "mustMention": [
@@ -1548,9 +1645,17 @@
     },
     "fact": "Der Verein wurde von Mitarbeitern der Bayer-Werke gegründet.",
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Bayer_04_Leverkusen",
+        "title": "Bayer 04 Leverkusen – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Werkself». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Bayer 04 Leverkusen",
       "mustMention": [
@@ -1573,9 +1678,17 @@
     },
     "fact": "Der Name stammt aus den 1960ern, als eine sehr junge Elf aufstieg.",
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Borussia_M%C3%B6nchengladbach",
+        "title": "Borussia Mönchengladbach – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Fohlen». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Borussia Mönchengladbach",
       "mustMention": [
@@ -1598,9 +1711,17 @@
     },
     "fact": "Das Maskottchen ist ein echter Geißbock.",
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/1._FC_K%C3%B6ln",
+        "title": "1. FC Köln – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Geißböcke». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "1. FC Köln",
       "mustMention": [
@@ -1619,9 +1740,17 @@
     },
     "fact": "Der Name geht auf Trainer Hennes Weisweiler zurück.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/1._FC_K%C3%B6ln",
+        "title": "1. FC Köln – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Hennes». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "1. FC Köln",
       "mustMention": [
@@ -1644,9 +1773,17 @@
     },
     "fact": "Der Klub ist viermaliger Deutscher Meister.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/1._FC_Kaiserslautern",
+        "title": "1. FC Kaiserslautern – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Roten Teufel». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "1. FC Kaiserslautern",
       "mustMention": [
@@ -1668,9 +1805,17 @@
     },
     "fact": "„Eisern Union!“ ist der bekannteste Schlachtruf des Vereins.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/1._FC_Union_Berlin",
+        "title": "1. FC Union Berlin – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Eisernen». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "1. FC Union Berlin",
       "mustMention": [
@@ -1692,9 +1837,17 @@
     },
     "fact": "Die Lilie stammt aus dem Darmstädter Stadtwappen.",
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/SV_Darmstadt_98",
+        "title": "SV Darmstadt 98 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Lilien». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "SV Darmstadt 98",
       "mustMention": [
@@ -1716,9 +1869,17 @@
     },
     "fact": "Der Kiez ist das Vergnügungsviertel rund um die Reeperbahn.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/FC_St._Pauli",
+        "title": "FC St. Pauli – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Kiezkicker». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "FC St. Pauli",
       "mustMention": [
@@ -1740,9 +1901,17 @@
     },
     "fact": "Hertha wurde 1892 gegründet.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Hertha_BSC",
+        "title": "Hertha BSC – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Alte Dame». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Hertha BSC",
       "mustMention": [
@@ -1764,9 +1933,17 @@
     },
     "fact": "Der Name kommt von den blau-weiß gestreiften Trikots.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/MSV_Duisburg",
+        "title": "MSV Duisburg – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Zebras». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "MSV Duisburg",
       "mustMention": [
@@ -1789,9 +1966,17 @@
     },
     "fact": "Der Löwe ziert das Vereinswappen.",
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/TSV_1860_M%C3%BCnchen",
+        "title": "TSV 1860 München – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Löwen». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "TSV 1860 München",
       "mustMention": [
@@ -1813,9 +1998,17 @@
     },
     "fact": "Die Fugger waren eine reiche Augsburger Kaufmannsfamilie.",
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/FC_Augsburg",
+        "title": "FC Augsburg – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Fuggerstädter». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "FC Augsburg",
       "mustMention": [
@@ -1836,9 +2029,17 @@
     },
     "fact": "Der Wolf ist das Wappentier der Stadt.",
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/VfL_Wolfsburg",
+        "title": "VfL Wolfsburg – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Wölfe». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "VfL Wolfsburg",
       "mustMention": [
@@ -1868,7 +2069,8 @@
       "mustMention": [
         "Nullfünfer"
       ]
-    }
+    },
+    "notes": "Artikkelen «1. FSV Mainz 05» nevner ikke «Nullfünfer». Sjekk svaret for hånd."
   },
   {
     "kind": "trivia",
@@ -1884,9 +2086,17 @@
     },
     "fact": "Die Kogge war das typische Handelsschiff der Hanse.",
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Hansa_Rostock",
+        "title": "Hansa Rostock – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Kogge». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "FC Hansa Rostock",
       "mustMention": [
@@ -1908,9 +2118,17 @@
     },
     "fact": "Trainer war damals Volker Finke.",
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/SC_Freiburg",
+        "title": "SC Freiburg – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Breisgau-Brasilianer». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "SC Freiburg",
       "mustMention": [
@@ -1932,9 +2150,17 @@
     },
     "fact": "Die Mannschaft spielt traditionell in weißen Trikots und roten Hosen.",
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Hamburger_SV",
+        "title": "Hamburger SV – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Rothosen». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Hamburger SV",
       "mustMention": [
@@ -1956,9 +2182,17 @@
     },
     "fact": "Ein echter Adler namens Attila begleitet die Heimspiele.",
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Eintracht_Frankfurt",
+        "title": "Eintracht Frankfurt – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Adler». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Eintracht Frankfurt",
       "mustMention": [
@@ -1977,9 +2211,17 @@
     },
     "fact": "Der Verein wurde in einer Gaststätte gegründet.",
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Borussia_Dortmund",
+        "title": "Borussia Dortmund – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1909». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Borussia Dortmund",
       "mustMention": [
@@ -2002,9 +2244,17 @@
     "fact": "Das Finale in München endete 3:1.",
     "era": 1997,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/UEFA_Champions_League_1996/97",
+        "title": "UEFA Champions League 1996/97 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Juventus Turin». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "UEFA Champions League 1996/97",
       "mustMention": [
@@ -2026,9 +2276,17 @@
     "fact": "Er traf mit seiner ersten Ballberührung, Sekunden nach der Einwechslung.",
     "era": 1997,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Lars_Ricken",
+        "title": "Lars Ricken – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1997». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Lars Ricken",
       "mustMention": [
@@ -2052,9 +2310,17 @@
     "fact": "Bayern führte bis zur 90. Minute 1:0.",
     "era": 1999,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/UEFA_Champions_League_1998/99",
+        "title": "UEFA Champions League 1998/99 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Manchester United». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "UEFA Champions League 1998/99",
       "mustMention": [
@@ -2077,9 +2343,17 @@
     "fact": "Das Finale fand in Mailand statt.",
     "era": 2001,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/UEFA_Champions_League_2000/01",
+        "title": "UEFA Champions League 2000/01 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «FC Valencia». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "UEFA Champions League 2000/01",
       "mustMention": [
@@ -2101,9 +2375,17 @@
     "fact": "Chelsea siegte im Elfmeterschießen in München.",
     "era": 2012,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/UEFA_Champions_League_2011/12",
+        "title": "UEFA Champions League 2011/12 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «FC Chelsea». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "UEFA Champions League 2011/12",
       "mustMention": [
@@ -2127,9 +2409,17 @@
     "fact": "Im ersten rein deutschen Finale schlug Bayern Dortmund 2:1.",
     "era": 2013,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/UEFA_Champions_League_2012/13",
+        "title": "UEFA Champions League 2012/13 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «FC Bayern München» og «Wembley» og «Dortmund». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "UEFA Champions League 2012/13",
       "mustMention": [
@@ -2161,7 +2451,8 @@
       "mustMention": [
         "Arjen Robben"
       ]
-    }
+    },
+    "notes": "Artikkelen «UEFA Champions League 2012/13» nevner ikke «Arjen Robben». Sjekk svaret for hånd."
   },
   {
     "kind": "trivia",
@@ -2178,9 +2469,17 @@
     "fact": "Bayern gewann jedes Spiel des Wettbewerbs.",
     "era": 2020,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/UEFA_Champions_League_2019/20",
+        "title": "UEFA Champions League 2019/20 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Paris Saint-Germain». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "UEFA Champions League 2019/20",
       "mustMention": [
@@ -2202,9 +2501,17 @@
     "fact": "Coman war in der Pariser Jugend ausgebildet worden.",
     "era": 2020,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/UEFA_Champions_League_2019/20",
+        "title": "UEFA Champions League 2019/20 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Kingsley Coman». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "UEFA Champions League 2019/20",
       "mustMention": [
@@ -2226,9 +2533,17 @@
     },
     "fact": "Im Finale in Athen schlug der HSV Juventus 1:0.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Europapokal_der_Landesmeister_1982/83",
+        "title": "Europapokal der Landesmeister 1982/83 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Hamburger SV». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Europapokal der Landesmeister 1982/83",
       "mustMention": [
@@ -2251,9 +2566,17 @@
     "fact": "Die Entscheidung fiel im Elfmeterschießen in Mailand.",
     "era": 1997,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/UEFA-Pokal_1996/97",
+        "title": "UEFA-Pokal 1996/97 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «FC Schalke 04». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "UEFA-Pokal 1996/97",
       "mustMention": [
@@ -2277,9 +2600,17 @@
     "fact": "Im Finale in Lissabon schlug Werder die AS Monaco 2:0.",
     "era": 1992,
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Europapokal_der_Pokalsieger_1991/92",
+        "title": "Europapokal der Pokalsieger 1991/92 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Werder Bremen». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Europapokal der Pokalsieger 1991/92",
       "mustMention": [
@@ -2302,9 +2633,17 @@
     "fact": "Frankfurt gewann im Elfmeterschießen.",
     "era": 2022,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/UEFA_Europa_League_2021/22",
+        "title": "UEFA Europa League 2021/22 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Glasgow Rangers». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "UEFA Europa League 2021/22",
       "mustMention": [
@@ -2326,9 +2665,17 @@
     },
     "fact": "Es war ein rein deutsches Finale.",
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/UEFA-Pokal_1979/80",
+        "title": "UEFA-Pokal 1979/80 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Eintracht Frankfurt». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "UEFA-Pokal 1979/80",
       "mustMention": [
@@ -2351,9 +2698,17 @@
     "fact": "Zidane entschied das Finale mit einem Volleytor.",
     "era": 2002,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/UEFA_Champions_League_2001/02",
+        "title": "UEFA Champions League 2001/02 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Bayer 04 Leverkusen». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "UEFA Champions League 2001/02",
       "mustMention": [
@@ -2383,7 +2738,8 @@
       "mustMention": [
         "Zinédine Zidane"
       ]
-    }
+    },
+    "notes": "Artikkelen «UEFA Champions League 2001/02» nevner ikke «Zinédine Zidane». Sjekk svaret for hånd."
   },
   {
     "kind": "trivia",
@@ -2401,9 +2757,17 @@
     "fact": "Das Finale in Wembley endete 0:2.",
     "era": 2024,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/UEFA_Champions_League_2023/24",
+        "title": "UEFA Champions League 2023/24 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Borussia Dortmund». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "UEFA Champions League 2023/24",
       "mustMention": [
@@ -2426,9 +2790,17 @@
     "fact": "Leverkusen holte in dieser Saison auch den DFB-Pokal.",
     "era": 2024,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Bundesliga_2023/24",
+        "title": "Fußball-Bundesliga 2023/24 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Bayer 04 Leverkusen». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Bundesliga 2023/24",
       "mustMention": [
@@ -2452,9 +2824,17 @@
     "fact": "Bayern wurde dank eines Siegs in Köln doch noch Meister.",
     "era": 2023,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Bundesliga_2022/23",
+        "title": "Fußball-Bundesliga 2022/23 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Borussia Dortmund» og «Mainz». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Bundesliga 2022/23",
       "mustMention": [
@@ -2478,9 +2858,17 @@
     "fact": "Bayern glich in Hamburg in der Nachspielzeit aus.",
     "era": 2001,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Bundesliga_2000/01",
+        "title": "Fußball-Bundesliga 2000/01 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «FC Schalke 04». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Bundesliga 2000/01",
       "mustMention": [
@@ -2511,7 +2899,8 @@
         "Hamburg",
         "2001"
       ]
-    }
+    },
+    "notes": "Artikkelen «Patrik Andersson» nevner ikke «Hamburg». Sjekk svaret for hånd."
   },
   {
     "kind": "trivia",
@@ -2528,9 +2917,17 @@
     "fact": "Bayern zog am letzten Spieltag noch vorbei.",
     "era": 2000,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Bundesliga_1999/2000",
+        "title": "Fußball-Bundesliga 1999/2000 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Bayer 04 Leverkusen» og «Unterhaching». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Bundesliga 1999/2000",
       "mustMention": [
@@ -2551,9 +2948,17 @@
     "fact": "Leverkusen wurde Zweiter in Liga, Pokal und Champions League.",
     "era": 2002,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Bayer_04_Leverkusen",
+        "title": "Bayer 04 Leverkusen – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Vizekusen». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Bayer 04 Leverkusen",
       "mustMention": [
@@ -2575,9 +2980,17 @@
     "fact": "Grafite und Džeko trafen zusammen 54 Mal.",
     "era": 2009,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Bundesliga_2008/09",
+        "title": "Fußball-Bundesliga 2008/09 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «VfL Wolfsburg». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Bundesliga 2008/09",
       "mustMention": [
@@ -2601,9 +3014,17 @@
     "fact": "Das hat in der Bundesliga sonst niemand geschafft.",
     "era": 1998,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Bundesliga_1997/98",
+        "title": "Fußball-Bundesliga 1997/98 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1. FC Kaiserslautern». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Bundesliga 1997/98",
       "mustMention": [
@@ -2626,9 +3047,17 @@
     "fact": "Guido Buchwald köpfte das entscheidende Tor in Leverkusen.",
     "era": 1992,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Bundesliga_1991/92",
+        "title": "Fußball-Bundesliga 1991/92 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «VfB Stuttgart». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Bundesliga 1991/92",
       "mustMention": [
@@ -2652,9 +3081,17 @@
     "fact": "Werder holte in dieser Saison auch den DFB-Pokal.",
     "era": 2004,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Bundesliga_2003/04",
+        "title": "Fußball-Bundesliga 2003/04 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Werder Bremen». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Bundesliga 2003/04",
       "mustMention": [
@@ -2678,9 +3115,17 @@
     "fact": "Die junge Elf von Jürgen Klopp setzte sich klar durch.",
     "era": 2011,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Bundesliga_2010/11",
+        "title": "Fußball-Bundesliga 2010/11 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Borussia Dortmund». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Bundesliga 2010/11",
       "mustMention": [
@@ -2703,9 +3148,17 @@
     "fact": "Im Finale schlug Stuttgart Arminia Bielefeld 4:2.",
     "era": 2025,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_2024/25",
+        "title": "DFB-Pokal 2024/25 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «VfB Stuttgart» og «Bielefeld». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 2024/25",
       "mustMention": [
@@ -2729,9 +3182,17 @@
     "fact": "Auf dem Weg ins Finale warf Bielefeld unter anderem Leverkusen raus.",
     "era": 2025,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_2024/25",
+        "title": "DFB-Pokal 2024/25 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Arminia Bielefeld». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 2024/25",
       "mustMention": [
@@ -2755,9 +3216,17 @@
     "fact": "Leverkusen gewann trotz Unterzahl 1:0.",
     "era": 2024,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_2023/24",
+        "title": "DFB-Pokal 2023/24 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1. FC Kaiserslautern». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 2023/24",
       "mustMention": [
@@ -2779,9 +3248,17 @@
     "fact": "Leipzig verteidigte damit den Titel aus dem Vorjahr.",
     "era": 2023,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_2022/23",
+        "title": "DFB-Pokal 2022/23 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «RB Leipzig» og «Frankfurt». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 2022/23",
       "mustMention": [
@@ -2804,9 +3281,17 @@
     "fact": "Wolfsburg siegte 3:1 in Berlin.",
     "era": 2015,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_2014/15",
+        "title": "DFB-Pokal 2014/15 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «VfL Wolfsburg». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 2014/15",
       "mustMention": [
@@ -2829,9 +3314,17 @@
     "fact": "Im Finale schlug Hannover Borussia Mönchengladbach im Elfmeterschießen.",
     "era": 1992,
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_1991/92",
+        "title": "DFB-Pokal 1991/92 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Hannover 96». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 1991/92",
       "mustMention": [
@@ -2863,7 +3356,8 @@
       "mustMention": [
         "Hertha BSC Amateure"
       ]
-    }
+    },
+    "notes": "Artikkelen «DFB-Pokal 1992/93» nevner ikke «Hertha BSC Amateure». Sjekk svaret for hånd."
   },
   {
     "kind": "trivia",
@@ -2880,9 +3374,17 @@
     "fact": "2002 schlug Schalke im Finale Leverkusen 4:2.",
     "era": 2002,
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_2001/02",
+        "title": "DFB-Pokal 2001/02 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «FC Schalke 04». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 2001/02",
       "mustMention": [
@@ -2901,9 +3403,17 @@
     },
     "fact": "Die Ungarn waren über vier Jahre ungeschlagen gewesen.",
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Weltmeisterschaft_1954",
+        "title": "Fußball-Weltmeisterschaft 1954 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Ungarn». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Weltmeisterschaft 1954",
       "mustMention": [
@@ -2925,9 +3435,17 @@
     },
     "fact": "Rahn traf sechs Minuten vor Schluss.",
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Helmut_Rahn",
+        "title": "Helmut Rahn – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1954». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Helmut Rahn",
       "mustMention": [
@@ -2948,9 +3466,17 @@
     },
     "fact": "Sein „Aus, aus, aus – das Spiel ist aus!“ ist legendär.",
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Wunder_von_Bern",
+        "title": "Wunder von Bern – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Herbert Zimmermann». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Wunder von Bern",
       "mustMention": [
@@ -2971,9 +3497,17 @@
     },
     "fact": "Die Niederländer führten schon nach zwei Minuten.",
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Weltmeisterschaft_1974",
+        "title": "Fußball-Weltmeisterschaft 1974 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Niederlande». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Weltmeisterschaft 1974",
       "mustMention": [
@@ -2994,9 +3528,17 @@
     },
     "fact": "Es war sein letztes Länderspiel.",
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Gerd_M%C3%BCller",
+        "title": "Gerd Müller – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1974». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Gerd Müller",
       "mustMention": [
@@ -3028,7 +3570,8 @@
         "1974",
         "Hamburg"
       ]
-    }
+    },
+    "notes": "Artikkelen «Jürgen Sparwasser» nevner ikke «Hamburg». Sjekk svaret for hånd."
   },
   {
     "kind": "trivia",
@@ -3043,9 +3586,17 @@
     },
     "fact": "Der Magdeburger traf in der 77. Minute.",
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Sparwasser",
+        "title": "Jürgen Sparwasser – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1974». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Jürgen Sparwasser",
       "mustMention": [
@@ -3065,9 +3616,17 @@
     "fact": "Es war eine Neuauflage des Finals von 1986.",
     "era": 1990,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Weltmeisterschaft_1990",
+        "title": "Fußball-Weltmeisterschaft 1990 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Argentinien». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Weltmeisterschaft 1990",
       "mustMention": [
@@ -3089,9 +3648,17 @@
     "fact": "Der beidfüßige Brehme schoss mit rechts.",
     "era": 1990,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Andreas_Brehme",
+        "title": "Andreas Brehme – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1990» og «Elfmeter». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Andreas Brehme",
       "mustMention": [
@@ -3112,9 +3679,17 @@
     "fact": "Gespielt wurde im Stadio Olimpico.",
     "era": 1990,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Weltmeisterschaft_1990",
+        "title": "Fußball-Weltmeisterschaft 1990 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Rom». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Weltmeisterschaft 1990",
       "mustMention": [
@@ -3136,9 +3711,17 @@
     "fact": "Er traf in der 113. Minute nach Flanke von André Schürrle.",
     "era": 2014,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Mario_G%C3%B6tze",
+        "title": "Mario Götze – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «2014». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Mario Götze",
       "mustMention": [
@@ -3158,9 +3741,17 @@
     "fact": "Das Finale fand im Maracanã in Rio statt.",
     "era": 2014,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Weltmeisterschaft_2014",
+        "title": "Fußball-Weltmeisterschaft 2014 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Argentinien». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Weltmeisterschaft 2014",
       "mustMention": [
@@ -3182,9 +3773,17 @@
     "fact": "Nach 29 Minuten stand es bereits 5:0.",
     "era": 2014,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Weltmeisterschaft_2014",
+        "title": "Fußball-Weltmeisterschaft 2014 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «7:1». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Weltmeisterschaft 2014",
       "mustMention": [
@@ -3206,9 +3805,17 @@
     "fact": "Er überholte 2014 den Brasilianer Ronaldo.",
     "era": 2014,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Miroslav_Klose",
+        "title": "Miroslav Klose – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Ronaldo». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Miroslav Klose",
       "mustMention": [
@@ -3229,9 +3836,17 @@
     },
     "fact": "Er spielte bei fünf Weltmeisterschaften.",
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Lothar_Matth%C3%A4us",
+        "title": "Lothar Matthäus – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Rekordnationalspieler». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Lothar Matthäus",
       "mustMention": [
@@ -3252,9 +3867,17 @@
     },
     "fact": "Er löste 2014 Gerd Müller an der Spitze ab.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Deutsche_Fu%C3%9Fballnationalmannschaft",
+        "title": "Deutsche Fußballnationalmannschaft – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Miroslav Klose». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Deutsche Fußballnationalmannschaft",
       "mustMention": [
@@ -3274,9 +3897,17 @@
     "fact": "Gespielt wurde im alten Wembley-Stadion.",
     "era": 1996,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Europameisterschaft_1996",
+        "title": "Fußball-Europameisterschaft 1996 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Tschechien». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Europameisterschaft 1996",
       "mustMention": [
@@ -3298,9 +3929,17 @@
     "fact": "Er hatte zuvor schon den Ausgleich erzielt.",
     "era": 1996,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Oliver_Bierhoff",
+        "title": "Oliver Bierhoff – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Golden Goal» og «1996». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Oliver Bierhoff",
       "mustMention": [
@@ -3322,9 +3961,17 @@
     },
     "fact": "Das Finale in Brüssel endete 3:0.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Europameisterschaft_1972",
+        "title": "Fußball-Europameisterschaft 1972 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Sowjetunion». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Europameisterschaft 1972",
       "mustMention": [
@@ -3343,9 +3990,17 @@
     },
     "fact": "Das Finale fand in Rom statt.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Europameisterschaft_1980",
+        "title": "Fußball-Europameisterschaft 1980 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Belgien». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Europameisterschaft 1980",
       "mustMention": [
@@ -3366,9 +4021,17 @@
     },
     "fact": "Das Siegtor fiel per Kopf kurz vor Schluss.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Horst_Hrubesch",
+        "title": "Horst Hrubesch – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1980» og «Belgien». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Horst Hrubesch",
       "mustMention": [
@@ -3389,9 +4052,17 @@
     "fact": "Fernando Torres traf in Wien zum 1:0.",
     "era": 2008,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Europameisterschaft_2008",
+        "title": "Fußball-Europameisterschaft 2008 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Spanien». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Europameisterschaft 2008",
       "mustMention": [
@@ -3412,9 +4083,17 @@
     },
     "fact": "Es war das erste EM-Finale, das vom Punkt entschieden wurde.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Europameisterschaft_1976",
+        "title": "Fußball-Europameisterschaft 1976 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Tschechoslowakei». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Europameisterschaft 1976",
       "mustMention": [
@@ -3435,9 +4114,17 @@
     },
     "fact": "Der Lupfer-Elfmeter trägt seither seinen Namen.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Anton%C3%ADn_Panenka",
+        "title": "Antonín Panenka – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1976». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Antonín Panenka",
       "mustMention": [
@@ -3458,9 +4145,17 @@
     },
     "fact": "Danach verwandelte Panenka zum Titel für die ČSSR.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Uli_Hoene%C3%9F",
+        "title": "Uli Hoeneß – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1976». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Uli Hoeneß",
       "mustMention": [
@@ -3480,9 +4175,17 @@
     "fact": "Mikel Merino köpfte in der Verlängerung das 2:1.",
     "era": 2024,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Europameisterschaft_2024",
+        "title": "Fußball-Europameisterschaft 2024 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Spanien». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Europameisterschaft 2024",
       "mustMention": [
@@ -3502,9 +4205,17 @@
     "fact": "Das Finale in Yokohama endete 0:2.",
     "era": 2002,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Weltmeisterschaft_2002",
+        "title": "Fußball-Weltmeisterschaft 2002 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Brasilien». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Weltmeisterschaft 2002",
       "mustMention": [
@@ -3526,9 +4237,17 @@
     "fact": "Er wurde mit acht Toren Torschützenkönig.",
     "era": 2002,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Weltmeisterschaft_2002",
+        "title": "Fußball-Weltmeisterschaft 2002 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Ronaldo». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Weltmeisterschaft 2002",
       "mustMention": [
@@ -3551,9 +4270,17 @@
     "fact": "Er ist bis heute der einzige Torwart mit dieser Auszeichnung.",
     "era": 2002,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Oliver_Kahn",
+        "title": "Oliver Kahn – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «2002». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Oliver Kahn",
       "mustMention": [
@@ -3573,9 +4300,17 @@
     "fact": "Italien traf in der Verlängerung zweimal.",
     "era": 2006,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Weltmeisterschaft_2006",
+        "title": "Fußball-Weltmeisterschaft 2006 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Italien». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Weltmeisterschaft 2006",
       "mustMention": [
@@ -3597,9 +4332,17 @@
     "fact": "Erstmals schied Deutschland in einer WM-Vorrunde aus.",
     "era": 2018,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Weltmeisterschaft_2018",
+        "title": "Fußball-Weltmeisterschaft 2018 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Südkorea». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Weltmeisterschaft 2018",
       "mustMention": [
@@ -3619,9 +4362,17 @@
     "fact": "Japan drehte das Spiel in der zweiten Halbzeit.",
     "era": 2022,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Weltmeisterschaft_2022",
+        "title": "Fußball-Weltmeisterschaft 2022 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Japan». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Weltmeisterschaft 2022",
       "mustMention": [
@@ -3641,9 +4392,17 @@
     "fact": "Stuart Pearce und Chris Waddle verschossen.",
     "era": 1990,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Weltmeisterschaft_1990",
+        "title": "Fußball-Weltmeisterschaft 1990 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «England». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Weltmeisterschaft 1990",
       "mustMention": [
@@ -3664,9 +4423,17 @@
     },
     "fact": "Fünf der sieben Tore fielen in der Verlängerung.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Weltmeisterschaft_1970",
+        "title": "Fußball-Weltmeisterschaft 1970 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Jahrhundertspiel». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Weltmeisterschaft 1970",
       "mustMention": [
@@ -3687,9 +4454,17 @@
     },
     "fact": "Bis heute wird gestritten, ob der Ball hinter der Linie war.",
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Wembley-Tor",
+        "title": "Wembley-Tor – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1966». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Wembley-Tor",
       "mustMention": [
@@ -3710,9 +4485,17 @@
     },
     "fact": "Hurst traf im Finale dreimal.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Wembley-Tor",
+        "title": "Wembley-Tor – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Geoff Hurst». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Wembley-Tor",
       "mustMention": [
@@ -3733,9 +4516,17 @@
     },
     "fact": "Im selben Jahr wurde er Europas Fußballer des Jahres.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Gerd_M%C3%BCller",
+        "title": "Gerd Müller – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1970» og «Torschützenkönig». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Gerd Müller",
       "mustMention": [
@@ -3757,9 +4548,17 @@
     },
     "fact": "Er erzielte 365 Bundesligatore.",
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Gerd_M%C3%BCller",
+        "title": "Gerd Müller – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Bomber der Nation». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Gerd Müller",
       "mustMention": [
@@ -3782,9 +4581,17 @@
     "fact": "Sein 41. Tor fiel in der letzten Minute der Saison.",
     "era": 2021,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Robert_Lewandowski",
+        "title": "Robert Lewandowski – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Gerd Müller» og «2021». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Robert Lewandowski",
       "mustMention": [
@@ -3808,9 +4615,17 @@
     "fact": "Er wurde in seiner ersten Saison spanischer Meister.",
     "era": 2022,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Robert_Lewandowski",
+        "title": "Robert Lewandowski – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «FC Barcelona» og «2022». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Robert Lewandowski",
       "mustMention": [
@@ -3833,9 +4648,17 @@
     "fact": "Er war erst zur Halbzeit eingewechselt worden.",
     "era": 2015,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Robert_Lewandowski",
+        "title": "Robert Lewandowski – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «VfL Wolfsburg». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Robert Lewandowski",
       "mustMention": [
@@ -3864,7 +4687,8 @@
       "mustMention": [
         "Raumdeuter"
       ]
-    }
+    },
+    "notes": "Artikkelen «Thomas Müller» nevner ikke «Raumdeuter». Sjekk svaret for hånd."
   },
   {
     "kind": "trivia",
@@ -3881,9 +4705,17 @@
     "fact": "Es ist seine erste Station außerhalb des FC Bayern.",
     "era": 2025,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Thomas_M%C3%BCller",
+        "title": "Thomas Müller – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Vancouver Whitecaps». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Thomas Müller",
       "mustMention": [
@@ -3906,9 +4738,17 @@
     "fact": "Neuer ist gebürtiger Gelsenkirchener.",
     "era": 2011,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Manuel_Neuer",
+        "title": "Manuel Neuer – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «FC Schalke 04» og «2011». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Manuel Neuer",
       "mustMention": [
@@ -3931,9 +4771,17 @@
     "fact": "Nach dem Titel trat er aus der Nationalmannschaft zurück.",
     "era": 2014,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Philipp_Lahm",
+        "title": "Philipp Lahm – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Kapitän» og «2014». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Philipp Lahm",
       "mustMention": [
@@ -3957,9 +4805,17 @@
     "fact": "In Stuttgart spielte er sich in die Nationalmannschaft.",
     "era": 2003,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Philipp_Lahm",
+        "title": "Philipp Lahm – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «VfB Stuttgart». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Philipp Lahm",
       "mustMention": [
@@ -3983,9 +4839,17 @@
     "fact": "Dort traf er wieder auf Louis van Gaal.",
     "era": 2015,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Bastian_Schweinsteiger",
+        "title": "Bastian Schweinsteiger – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Manchester United». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Bastian Schweinsteiger",
       "mustMention": [
@@ -4007,9 +4871,17 @@
     "fact": "Er spielte dort von 2017 bis 2019.",
     "era": 2019,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Bastian_Schweinsteiger",
+        "title": "Bastian Schweinsteiger – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Chicago Fire». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Bastian Schweinsteiger",
       "mustMention": [
@@ -4031,9 +4903,17 @@
     "fact": "Mit Real gewann er die Champions League fünfmal.",
     "era": 2014,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Toni_Kroos",
+        "title": "Toni Kroos – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Real Madrid» og «2014». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Toni Kroos",
       "mustMention": [
@@ -4053,9 +4933,17 @@
     },
     "fact": "Er ist der einzige Weltmeister von 2014 aus der ehemaligen DDR.",
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Toni_Kroos",
+        "title": "Toni Kroos – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Greifswald». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Toni Kroos",
       "mustMention": [
@@ -4078,9 +4966,17 @@
     "fact": "Danach kehrte er zum FC Bayern zurück.",
     "era": 2009,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Toni_Kroos",
+        "title": "Toni Kroos – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Bayer 04 Leverkusen». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Toni Kroos",
       "mustMention": [
@@ -4103,9 +4999,17 @@
     "fact": "Er kam von Real Madrid.",
     "era": 2013,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Mesut_%C3%96zil",
+        "title": "Mesut Özil – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «FC Arsenal» og «2013». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Mesut Özil",
       "mustMention": [
@@ -4128,9 +5032,17 @@
     },
     "fact": "Özil stammt aus Gelsenkirchen.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Mesut_%C3%96zil",
+        "title": "Mesut Özil – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «FC Schalke 04». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Mesut Özil",
       "mustMention": [
@@ -4152,9 +5064,17 @@
     "fact": "Er kam ablösefrei vom FC Bayern.",
     "era": 2006,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Michael_Ballack",
+        "title": "Michael Ballack – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «FC Chelsea» og «2006». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Michael Ballack",
       "mustMention": [
@@ -4179,9 +5099,17 @@
     "fact": "Kaiserslautern war gerade erst aufgestiegen.",
     "era": 1998,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Michael_Ballack",
+        "title": "Michael Ballack – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1. FC Kaiserslautern». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Michael Ballack",
       "mustMention": [
@@ -4203,9 +5131,17 @@
     },
     "fact": "Er wuchs in Karl-Marx-Stadt auf, dem heutigen Chemnitz.",
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Michael_Ballack",
+        "title": "Michael Ballack – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Chemnitzer FC». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Michael Ballack",
       "mustMention": [
@@ -4227,9 +5163,17 @@
     },
     "fact": "In Mailand spielten auch Brehme und Klinsmann.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Lothar_Matth%C3%A4us",
+        "title": "Lothar Matthäus – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Inter Mailand». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Lothar Matthäus",
       "mustMention": [
@@ -4253,9 +5197,17 @@
     "fact": "Die FIFA vergab den Preis 1991 zum ersten Mal.",
     "era": 1991,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Lothar_Matth%C3%A4us",
+        "title": "Lothar Matthäus – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «FIFA-Weltfußballer» og «1991». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Lothar Matthäus",
       "mustMention": [
@@ -4279,9 +5231,17 @@
     "fact": "Er feierte Tore mit einem Hechtsprung über den Rasen.",
     "era": 1994,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Klinsmann",
+        "title": "Jürgen Klinsmann – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Tottenham Hotspur». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Jürgen Klinsmann",
       "mustMention": [
@@ -4302,9 +5262,17 @@
     },
     "fact": "Er blieb dem HSV trotz großer Angebote aus Italien treu.",
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Uwe_Seeler",
+        "title": "Uwe Seeler – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Uns Uwe». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Uwe Seeler",
       "mustMention": [
@@ -4325,9 +5293,17 @@
     },
     "fact": "Sein Bruder Ottmar stand ebenfalls im Finale.",
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fritz_Walter",
+        "title": "Fritz Walter – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1954» og «Kapitän». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fritz Walter",
       "mustMention": [
@@ -4347,9 +5323,17 @@
     },
     "fact": "Im Finale 1954 regnete es in Strömen.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fritz_Walter",
+        "title": "Fritz Walter – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Fritz-Walter-Wetter». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fritz Walter",
       "mustMention": [
@@ -4370,9 +5354,17 @@
     },
     "fact": "Es war sein letztes Spiel für Gladbach.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/G%C3%BCnter_Netzer",
+        "title": "Günter Netzer – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1973» og «Köln». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Günter Netzer",
       "mustMention": [
@@ -4394,9 +5386,17 @@
     },
     "fact": "Er war einer der ersten deutschen Stars im Ausland.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/G%C3%BCnter_Netzer",
+        "title": "Günter Netzer – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Real Madrid». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Günter Netzer",
       "mustMention": [
@@ -4417,9 +5417,17 @@
     },
     "fact": "Er war Weltmeister 1974.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Sepp_Maier",
+        "title": "Sepp Maier – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Anzing». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Sepp Maier",
       "mustMention": [
@@ -4440,9 +5448,17 @@
     },
     "fact": "Beide Tore erzielte er per Elfmeter bzw. aus dem Spiel.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Paul_Breitner",
+        "title": "Paul Breitner – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1974» og «1982». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Paul Breitner",
       "mustMention": [
@@ -4465,9 +5481,17 @@
     },
     "fact": "Es war damals ein Rekordtransfer.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Karl-Heinz_Rummenigge",
+        "title": "Karl-Heinz Rummenigge – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Inter Mailand». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Karl-Heinz Rummenigge",
       "mustMention": [
@@ -4489,9 +5513,17 @@
     },
     "fact": "Deutschland gewann das Spiel im Elfmeterschießen.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Toni_Schumacher_(Fu%C3%9Fballspieler,_1954)",
+        "title": "Toni Schumacher (Fußballspieler, 1954) – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Battiston». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Harald Schumacher",
       "mustMention": [
@@ -4510,9 +5542,17 @@
     },
     "fact": "Ein 1:0 brachte beiden Teams das Weiterkommen.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Nichtangriffspakt_von_Gij%C3%B3n",
+        "title": "Nichtangriffspakt von Gijón – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Österreich». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Nichtangriffspakt von Gijón",
       "mustMention": [
@@ -4534,9 +5574,17 @@
     "fact": "Beide sahen damals Rot.",
     "era": 1990,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Frank_Rijkaard",
+        "title": "Frank Rijkaard – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Völler». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Frank Rijkaard",
       "mustMention": [
@@ -4559,9 +5607,17 @@
     "fact": "Bayern gewann das Elfmeterschießen gegen Valencia 5:4.",
     "era": 2001,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Oliver_Kahn",
+        "title": "Oliver Kahn – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Valencia» og «2001». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Oliver Kahn",
       "mustMention": [
@@ -4584,9 +5640,17 @@
     "fact": "Der Zettel steht heute im Haus der Geschichte in Bonn.",
     "era": 2006,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Jens_Lehmann",
+        "title": "Jens Lehmann – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Spickzettel». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Jens Lehmann",
       "mustMention": [
@@ -4605,9 +5669,17 @@
     },
     "fact": "Er kam als Kind mit seiner Familie nach Deutschland.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Miroslav_Klose",
+        "title": "Miroslav Klose – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Polen». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Miroslav Klose",
       "mustMention": [
@@ -4629,9 +5701,17 @@
     "fact": "Mit Lazio gewann er 2013 die Coppa Italia.",
     "era": 2011,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Miroslav_Klose",
+        "title": "Miroslav Klose – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Lazio Rom». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Miroslav Klose",
       "mustMention": [
@@ -4653,9 +5733,17 @@
     "fact": "Mit Vissel gewann er den japanischen Pokal.",
     "era": 2017,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Lukas_Podolski",
+        "title": "Lukas Podolski – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Vissel Kobe». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Lukas Podolski",
       "mustMention": [
@@ -4678,9 +5766,17 @@
     "fact": "Podolski wurde in Gleiwitz geboren, nicht weit von Zabrze.",
     "era": 2021,
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Lukas_Podolski",
+        "title": "Lukas Podolski – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Górnik Zabrze». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Lukas Podolski",
       "mustMention": [
@@ -4704,9 +5800,17 @@
     "fact": "Er war als Jugendlicher beim BVB aussortiert worden.",
     "era": 2012,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Marco_Reus",
+        "title": "Marco Reus – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Borussia Mönchengladbach» og «2012». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Marco Reus",
       "mustMention": [
@@ -4730,9 +5834,17 @@
     "fact": "Er gewann mit LA in seiner ersten Saison den MLS Cup.",
     "era": 2024,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Marco_Reus",
+        "title": "Marco Reus – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «LA Galaxy». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Marco Reus",
       "mustMention": [
@@ -4755,9 +5867,17 @@
     "fact": "Danach beendete er seine Karriere.",
     "era": 2024,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Mats_Hummels",
+        "title": "Mats Hummels – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «AS Rom». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Mats Hummels",
       "mustMention": [
@@ -4776,9 +5896,17 @@
     },
     "fact": "Er wuchs zum Teil in London auf.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Jamal_Musiala",
+        "title": "Jamal Musiala – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «England». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Jamal Musiala",
       "mustMention": [
@@ -4800,9 +5928,17 @@
     "fact": "Es war ein Rekordtransfer für einen deutschen Spieler.",
     "era": 2025,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Florian_Wirtz",
+        "title": "Florian Wirtz – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «FC Liverpool» og «2025». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Florian Wirtz",
       "mustMention": [
@@ -4825,9 +5961,17 @@
     "fact": "Gegner war Manchester City.",
     "era": 2021,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Kai_Havertz",
+        "title": "Kai Havertz – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «2021» og «Manchester City». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Kai Havertz",
       "mustMention": [
@@ -4851,9 +5995,17 @@
     "fact": "Er wurde im selben Jahr Fußballer des Jahres.",
     "era": 2007,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Mario_G%C3%B3mez",
+        "title": "Mario Gómez – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «VfB Stuttgart» og «2007». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Mario Gómez",
       "mustMention": [
@@ -4877,9 +6029,17 @@
     "fact": "Gündoğan war Kapitän der Mannschaft.",
     "era": 2023,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/%C4%B0lkay_G%C3%BCndo%C4%9Fan",
+        "title": "İlkay Gündoğan – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Manchester City» og «2023». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "İlkay Gündoğan",
       "mustMention": [
@@ -4901,9 +6061,17 @@
     },
     "fact": "Er spielte tatsächlich für Juventus Turin.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Andreas_M%C3%B6ller",
+        "title": "Andreas Möller – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Hauptsache Italien». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Andreas Möller",
       "mustMention": [
@@ -4934,7 +6102,8 @@
         "Stinkefinger",
         "1994"
       ]
-    }
+    },
+    "notes": "Artikkelen «Stefan Effenberg» nevner ikke «Stinkefinger». Sjekk svaret for hånd."
   },
   {
     "kind": "trivia",
@@ -4949,9 +6118,17 @@
     },
     "fact": "Er war Kapitän der Bayern beim Champions-League-Sieg 2001.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Stefan_Effenberg",
+        "title": "Stefan Effenberg – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Tiger». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Stefan Effenberg",
       "mustMention": [
@@ -4972,9 +6149,17 @@
     },
     "fact": "Später trainierte er auch Real Madrid.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Bernd_Schuster",
+        "title": "Bernd Schuster – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Atlético». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Bernd Schuster",
       "mustMention": [
@@ -4995,9 +6180,17 @@
     },
     "fact": "Der Spitzname kommt aus dem Berliner Dialekt.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Thomas_H%C3%A4%C3%9Fler",
+        "title": "Thomas Häßler – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Icke». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Thomas Häßler",
       "mustMention": [
@@ -5018,9 +6211,17 @@
     },
     "fact": "Er war früher Leichtathlet.",
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Hans-Peter_Briegel",
+        "title": "Hans-Peter Briegel – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Walz aus der Pfalz». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Hans-Peter Briegel",
       "mustMention": [
@@ -5041,9 +6242,17 @@
     },
     "fact": "Viele seiner Tore köpfte er nach Flanken von Manfred Kaltz.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Horst_Hrubesch",
+        "title": "Horst Hrubesch – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Kopfballungeheuer». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Horst Hrubesch",
       "mustMention": [
@@ -5066,9 +6275,17 @@
     "fact": "Vor ihm schaffte das nur der Brasilianer Mário Zagallo.",
     "era": 1990,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Franz_Beckenbauer",
+        "title": "Franz Beckenbauer – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1974» og «1990». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Franz Beckenbauer",
       "mustMention": [
@@ -5090,9 +6307,17 @@
     },
     "fact": "Dort spielte er an der Seite von Pelé.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Franz_Beckenbauer",
+        "title": "Franz Beckenbauer – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «New York Cosmos» og «1977». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Franz Beckenbauer",
       "mustMention": [
@@ -5114,9 +6339,17 @@
     },
     "fact": "In Hamburg nannte man ihn „Mighty Mouse“.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Kevin_Keegan",
+        "title": "Kevin Keegan – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Hamburger SV» og «1979». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Kevin Keegan",
       "mustMention": [
@@ -5139,9 +6372,17 @@
     "fact": "Werder holte in dieser Saison das Double.",
     "era": 2004,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/A%C3%ADlton",
+        "title": "Aílton – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Werder» og «2004». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Aílton Gonçalves da Silva",
       "mustMention": [
@@ -5172,7 +6413,8 @@
         "Peru",
         "Werder"
       ]
-    }
+    },
+    "notes": "Artikkelen «Claudio Pizarro» nevner ikke «Peru». Sjekk svaret for hånd."
   },
   {
     "kind": "trivia",
@@ -5189,9 +6431,17 @@
     },
     "fact": "Er kam 2020 von RB Salzburg.",
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Erling_Haaland",
+        "title": "Erling Haaland – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Borussia Dortmund». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Erling Haaland",
       "mustMention": [
@@ -5213,9 +6463,17 @@
     },
     "fact": "Er spielte erst für die DDR und danach für das gesamtdeutsche Team.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Matthias_Sammer",
+        "title": "Matthias Sammer – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Dynamo Dresden». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Matthias Sammer",
       "mustMention": [
@@ -5236,9 +6494,17 @@
     },
     "fact": "Das Lied stammt aus dem Musical „Carousel“.",
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/You%E2%80%99ll_Never_Walk_Alone",
+        "title": "You’ll Never Walk Alone – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Dortmund». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "You’ll Never Walk Alone",
       "mustMention": [
@@ -5259,9 +6525,17 @@
     },
     "fact": "Die Hymne wird vor jedem Heimspiel gesungen.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/FC_Schalke_04",
+        "title": "FC Schalke 04 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Blau und Weiß, wie lieb ich dich». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "FC Schalke 04",
       "mustMention": [
@@ -5280,9 +6554,17 @@
     },
     "fact": "Das Lied läuft vor jedem Heimspiel im Volksparkstadion.",
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Hamburger_SV",
+        "title": "Hamburger SV – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Hamburg, meine Perle». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Hamburger SV",
       "mustMention": [
@@ -5301,9 +6583,17 @@
     },
     "fact": "Was 2003 mit wenigen Fans begann, füllt heute das Stadion.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/1._FC_Union_Berlin",
+        "title": "1. FC Union Berlin – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Weihnachtssingen». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "1. FC Union Berlin",
       "mustMention": [
@@ -5325,9 +6615,17 @@
     },
     "fact": "Der Totenkopf wurde zum inoffiziellen Vereinssymbol.",
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/FC_St._Pauli",
+        "title": "FC St. Pauli – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Totenkopf». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "FC St. Pauli",
       "mustMention": [
@@ -5349,9 +6647,17 @@
     },
     "fact": "Die beiden Städte liegen nur rund 30 Kilometer auseinander.",
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Revierderby",
+        "title": "Revierderby – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «FC Schalke 04». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Revierderby",
       "mustMention": [
@@ -5372,9 +6678,17 @@
     },
     "fact": "Es ist eines der ältesten Duelle im deutschen Fußball.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Nordderby",
+        "title": "Nordderby – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Werder». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Nordderby",
       "mustMention": [
@@ -5404,7 +6718,8 @@
         "Köln",
         "Mönchengladbach"
       ]
-    }
+    },
+    "notes": "Fant ingen artikkel om «Rheinderby» på Wikipedia."
   },
   {
     "kind": "trivia",
@@ -5428,7 +6743,8 @@
       "mustMention": [
         "Herthinho"
       ]
-    }
+    },
+    "notes": "Artikkelen «Hertha BSC» nevner ikke «Herthinho». Sjekk svaret for hånd."
   },
   {
     "kind": "trivia",
@@ -5441,9 +6757,17 @@
     },
     "fact": "Berni ist seit 2004 im Einsatz.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/FC_Bayern_M%C3%BCnchen",
+        "title": "FC Bayern München – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Berni». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "FC Bayern München",
       "mustMention": [
@@ -5462,9 +6786,17 @@
     },
     "fact": "Die Biene passt zu den schwarz-gelben Farben.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Borussia_Dortmund",
+        "title": "Borussia Dortmund – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Emma». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Borussia Dortmund",
       "mustMention": [
@@ -5483,9 +6815,17 @@
     },
     "fact": "Der Adler ist auch das Wappentier des Vereins.",
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Eintracht_Frankfurt",
+        "title": "Eintracht Frankfurt – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Attila». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Eintracht Frankfurt",
       "mustMention": [
@@ -5504,9 +6844,17 @@
     },
     "fact": "Zum Start gab es 16 Vereine.",
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Bundesliga",
+        "title": "Fußball-Bundesliga – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1963». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Bundesliga",
       "mustMention": [
@@ -5525,9 +6873,17 @@
     },
     "fact": "86 Vereine waren bei der Gründung vertreten.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Deutscher_Fu%C3%9Fball-Bund",
+        "title": "Deutscher Fußball-Bund – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Leipzig» og «1900». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Deutscher Fußball-Bund",
       "mustMention": [
@@ -5549,9 +6905,17 @@
     },
     "fact": "Dort steht auch der DFB-Campus.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Deutscher_Fu%C3%9Fball-Bund",
+        "title": "Deutscher Fußball-Bund – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Frankfurt am Main». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Deutscher Fußball-Bund",
       "mustMention": [
@@ -5580,7 +6944,8 @@
       "mustMention": [
         "Salatschüssel"
       ]
-    }
+    },
+    "notes": "Artikkelen «Deutsche Meisterschale» nevner ikke «Salatschüssel». Sjekk svaret for hånd."
   },
   {
     "kind": "trivia",
@@ -5604,7 +6969,8 @@
       "mustMention": [
         "Rekordspieler"
       ]
-    }
+    },
+    "notes": "Artikkelen «Karl-Heinz Körbel» nevner ikke «Rekordspieler». Sjekk svaret for hånd."
   },
   {
     "kind": "trivia",
@@ -5619,9 +6985,17 @@
     },
     "fact": "Er traf in 427 Spielen 365 Mal.",
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Gerd_M%C3%BCller",
+        "title": "Gerd Müller – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Rekordtorschütze». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Gerd Müller",
       "mustMention": [
@@ -5642,9 +7016,17 @@
     },
     "fact": "Die Kanone wird seit 1966 vergeben.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Torj%C3%A4gerkanone",
+        "title": "Torjägerkanone – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Kicker». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Torjägerkanone",
       "mustMention": [
@@ -5665,9 +7047,17 @@
     },
     "fact": "Die Sendung läuft seit 1961.",
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Sportschau",
+        "title": "Sportschau – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Bundesliga». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Sportschau",
       "mustMention": [
@@ -5689,9 +7079,17 @@
     },
     "fact": "Gäste müssen je drei Schüsse unten und oben abgeben.",
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Das_aktuelle_Sportstudio",
+        "title": "Das aktuelle Sportstudio – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Torwand». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Das aktuelle Sportstudio",
       "mustMention": [
@@ -5714,9 +7112,17 @@
     "fact": "Hansa spielte danach in der ersten gesamtdeutschen Bundesliga.",
     "era": 1991,
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Hansa_Rostock",
+        "title": "Hansa Rostock – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1991» og «Oberliga». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "FC Hansa Rostock",
       "mustMention": [
@@ -5739,9 +7145,17 @@
     },
     "fact": "Der Verein galt als Lieblingsklub der Stasi.",
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/BFC_Dynamo",
+        "title": "BFC Dynamo – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1979» og «1988». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "BFC Dynamo",
       "mustMention": [
@@ -5764,9 +7178,17 @@
     },
     "fact": "Im Finale schlug Magdeburg den AC Mailand 2:0.",
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/1._FC_Magdeburg",
+        "title": "1. FC Magdeburg – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1974» og «Pokalsieger». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "1. FC Magdeburg",
       "mustMention": [
@@ -5788,9 +7210,17 @@
     },
     "fact": "Gladbach fehlten am Ende trotzdem Tore zur Meisterschaft.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Borussia_M%C3%B6nchengladbach",
+        "title": "Borussia Mönchengladbach – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «12:0». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Borussia Mönchengladbach",
       "mustMention": [
@@ -5812,9 +7242,17 @@
     "fact": "Das Spiel fand wegen der Pandemie in Lissabon statt.",
     "era": 2020,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/UEFA_Champions_League_2019/20",
+        "title": "UEFA Champions League 2019/20 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «8:2». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "UEFA Champions League 2019/20",
       "mustMention": [
@@ -5835,9 +7273,17 @@
     },
     "fact": "Ungarn hatte schon nach acht Minuten 2:0 geführt.",
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Weltmeisterschaft_1954",
+        "title": "Fußball-Weltmeisterschaft 1954 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «3:2». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Weltmeisterschaft 1954",
       "mustMention": [
@@ -5858,9 +7304,17 @@
     },
     "fact": "Herberger hatte bewusst eine B-Elf aufgestellt.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Weltmeisterschaft_1954",
+        "title": "Fußball-Weltmeisterschaft 1954 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «3:8». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Weltmeisterschaft 1954",
       "mustMention": [
@@ -5881,9 +7335,17 @@
     },
     "fact": "Breitner und Müller drehten das frühe 0:1.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Weltmeisterschaft_1974",
+        "title": "Fußball-Weltmeisterschaft 1974 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «2:1». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Weltmeisterschaft 1974",
       "mustMention": [
@@ -5904,9 +7366,17 @@
     },
     "fact": "Beckenbauer spielte mit ausgekugelter Schulter weiter.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Weltmeisterschaft_1970",
+        "title": "Fußball-Weltmeisterschaft 1970 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «4:3». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Weltmeisterschaft 1970",
       "mustMention": [
@@ -5936,7 +7406,8 @@
       "mustMention": [
         "3:1"
       ]
-    }
+    },
+    "notes": "Artikkelen «UEFA Champions League 1996/97» nevner ikke «3:1». Sjekk svaret for hånd."
   },
   {
     "kind": "trivia",
@@ -5952,9 +7423,17 @@
     "fact": "Didier Drogba glich kurz vor Schluss aus.",
     "era": 2012,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/UEFA_Champions_League_2011/12",
+        "title": "UEFA Champions League 2011/12 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1:1». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "UEFA Champions League 2011/12",
       "mustMention": [
