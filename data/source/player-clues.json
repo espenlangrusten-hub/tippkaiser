@@ -6,8 +6,16 @@
       "Meine Profikarriere begann in meiner Heimatstadt beim FC Schalke 04.",
       "2011 wechselte ich zum FC Bayern München."
     ],
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Manuel_Neuer",
+        "title": "Manuel Neuer – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Gelsenkirchen» og «1986» og «Schalke» og «2011». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Manuel Neuer",
       "mustMention": [
@@ -25,8 +33,16 @@
       "Von 2003 bis 2005 war ich an den VfB Stuttgart ausgeliehen.",
       "Bei der Heim-EM 2024 war ich Turnierdirektor."
     ],
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Philipp_Lahm",
+        "title": "Philipp Lahm – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «München» og «1983» og «Stuttgart» og «Turnierdirektor». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Philipp Lahm",
       "mustMention": [
@@ -44,8 +60,16 @@
       "Bei der WM 2006 wurde ich Torschützenkönig.",
       "Meine Karriere beendete ich bei Lazio Rom."
     ],
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Miroslav_Klose",
+        "title": "Miroslav Klose – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Polen» og «1978» og «Lazio». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Miroslav Klose",
       "mustMention": [
@@ -62,8 +86,16 @@
       "Bei der WM 2010 wurde ich Torschützenkönig.",
       "2025 wechselte ich zu den Vancouver Whitecaps."
     ],
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Thomas_M%C3%BCller",
+        "title": "Thomas Müller – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Weilheim» og «1989» og «Vancouver». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Thomas Müller",
       "mustMention": [
@@ -80,8 +112,16 @@
       "2009/10 war ich an Bayer Leverkusen ausgeliehen.",
       "Von 2014 bis 2024 spielte ich für Real Madrid."
     ],
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Toni_Kroos",
+        "title": "Toni Kroos – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Greifswald» og «1990» og «Leverkusen» og «Real Madrid». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Toni Kroos",
       "mustMention": [
@@ -99,8 +139,16 @@
       "2015 wechselte ich vom FC Bayern zu Manchester United.",
       "Meine Karriere endete 2019 bei Chicago Fire."
     ],
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Bastian_Schweinsteiger",
+        "title": "Bastian Schweinsteiger – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Kolbermoor» og «1984» og «Manchester United» og «Chicago». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Bastian Schweinsteiger",
       "mustMention": [
@@ -118,8 +166,16 @@
       "2010 wechselte ich von Werder Bremen zu Real Madrid.",
       "2013 ging ich zum FC Arsenal nach London."
     ],
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Mesut_%C3%96zil",
+        "title": "Mesut Özil – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Gelsenkirchen» og «1988» og «Werder» og «Arsenal». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Mesut Özil",
       "mustMention": [
@@ -137,8 +193,16 @@
       "Ich prägte die Position des Liberos.",
       "Ab 1977 spielte ich für New York Cosmos."
     ],
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Franz_Beckenbauer",
+        "title": "Franz Beckenbauer – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «München» og «1945» og «Libero» og «Cosmos». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Franz Beckenbauer",
       "mustMention": [
@@ -156,8 +220,16 @@
       "In der Saison 1971/72 erzielte ich 40 Bundesligatore.",
       "Gegen Ende meiner Karriere spielte ich für die Fort Lauderdale Strikers."
     ],
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Gerd_M%C3%BCller",
+        "title": "Gerd Müller – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Nördlingen» og «1945» og «Fort Lauderdale». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Gerd Müller",
       "mustMention": [
@@ -174,8 +246,16 @@
       "Mit Inter Mailand wurde ich 1989 italienischer Meister.",
       "1991 wurde ich als erster Spieler FIFA-Weltfußballer."
     ],
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Lothar_Matth%C3%A4us",
+        "title": "Lothar Matthäus – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Erlangen» og «1961» og «Inter» og «Weltfußballer». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Lothar Matthäus",
       "mustMention": [
@@ -193,8 +273,16 @@
       "Ich schoss mit dem linken und dem rechten Fuß gleich gut.",
       "Mit dem 1. FC Kaiserslautern wurde ich 1998 Deutscher Meister."
     ],
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Andreas_Brehme",
+        "title": "Andreas Brehme – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Hamburg» og «1960» og «Kaiserslautern». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Andreas Brehme",
       "mustMention": [
@@ -211,8 +299,16 @@
       "Einen Teil meiner Jugend spielte ich beim FC Chelsea in London.",
       "In Junioren-Nationalmannschaften spielte ich für England."
     ],
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Jamal_Musiala",
+        "title": "Jamal Musiala – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Stuttgart» og «2003» og «Chelsea» og «England». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Jamal Musiala",
       "mustMention": [
@@ -230,8 +326,16 @@
       "In der Jugend spielte ich beim 1. FC Köln.",
       "2025 wechselte ich zum FC Liverpool."
     ],
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Florian_Wirtz",
+        "title": "Florian Wirtz – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Pulheim» og «2003» og «Köln» og «Liverpool». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Florian Wirtz",
       "mustMention": [
@@ -259,7 +363,8 @@
         "Köln",
         "Vissel"
       ]
-    }
+    },
+    "notes": "Artikkelen «Lukas Podolski» nevner ikke «Gleiwitz». Sjekk svaret for hånd."
   },
   {
     "playerId": "rudi-voller",
@@ -268,8 +373,16 @@
       "Mit Olympique Marseille gewann ich 1993 die Champions League.",
       "Später war ich Teamchef der Nationalmannschaft."
     ],
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Rudi_V%C3%B6ller",
+        "title": "Rudi Völler – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Hanau» og «1960» og «Marseille» og «Teamchef». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Rudi Völler",
       "mustMention": [
@@ -287,8 +400,16 @@
       "Meine Profikarriere begann bei den Stuttgarter Kickers.",
       "Bei Tottenham Hotspur feierte ich Tore mit einem Hechtsprung."
     ],
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Klinsmann",
+        "title": "Jürgen Klinsmann – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Göppingen» og «1964» og «Stuttgarter Kickers» og «Tottenham». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Jürgen Klinsmann",
       "mustMention": [
