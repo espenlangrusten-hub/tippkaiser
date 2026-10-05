@@ -10996,9 +10996,17 @@
     },
     "fact": "Sein Fallrückzieher gegen die Schweiz 1977 wurde zum Tor des Jahrhunderts gewählt.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Klaus_Fischer_(Fu%C3%9Fballspieler)",
+        "title": "Klaus Fischer (Fußballspieler) – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Fallrückzieher». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Klaus Fischer (Fußballspieler)",
       "mustMention": [
@@ -13377,9 +13385,17 @@
     },
     "era": 2015,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Alex_Meier",
+        "title": "Alex Meier – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Torschützenkönig» og «Fußballgott». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Alexander Meier",
       "mustMention": [
@@ -13409,7 +13425,8 @@
       "mustMention": [
         "Torschützenkönig"
       ]
-    }
+    },
+    "notes": "Artikkelen «Stefan Kießling» nevner ikke «Torschützenkönig». Sjekk svaret for hånd."
   },
   {
     "kind": "trivia",
@@ -13425,9 +13442,17 @@
     },
     "era": 2012,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Klaas-Jan_Huntelaar",
+        "title": "Klaas-Jan Huntelaar – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Torschützenkönig» og «Schalke». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Klaas-Jan Huntelaar",
       "mustMention": [
@@ -13449,9 +13474,17 @@
     },
     "era": 2010,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Edin_D%C5%BEeko",
+        "title": "Edin Džeko – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Torschützenkönig». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Edin Džeko",
       "mustMention": [
@@ -13470,9 +13503,17 @@
     },
     "era": 2009,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Grafite",
+        "title": "Grafite – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Torschützenkönig». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Grafite",
       "mustMention": [
@@ -13493,9 +13534,17 @@
     },
     "era": 2008,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Luca_Toni",
+        "title": "Luca Toni – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Torschützenkönig». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Luca Toni",
       "mustMention": [
@@ -13516,9 +13565,17 @@
     },
     "era": 2007,
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Theofanis_Gekas",
+        "title": "Theofanis Gekas – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Torschützenkönig». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Theofanis Gekas",
       "mustMention": [
@@ -13539,9 +13596,17 @@
     },
     "era": 2005,
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Marek_Mint%C3%A1l",
+        "title": "Marek Mintál – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Torschützenkönig». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Marek Mintál",
       "mustMention": [
@@ -13563,9 +13628,17 @@
     "fact": "Später war er lange Manager von Hertha BSC.",
     "era": 1999,
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Michael_Preetz",
+        "title": "Michael Preetz – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Torschützenkönig». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Michael Preetz",
       "mustMention": [
@@ -13594,7 +13667,8 @@
       "mustMention": [
         "Werder"
       ]
-    }
+    },
+    "notes": "Artikkelen «Dieter Müller» nevner ikke «Werder». Sjekk svaret for hånd."
   },
   {
     "kind": "trivia",
@@ -13610,9 +13684,17 @@
     "fact": "In seiner ersten Saison wurde Bayern Meister.",
     "era": 2024,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Vincent_Kompany",
+        "title": "Vincent Kompany – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Bayern» og «2024». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Vincent Kompany",
       "mustMention": [
@@ -13634,9 +13716,17 @@
     },
     "era": 2015,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Dieter_Hecking",
+        "title": "Dieter Hecking – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Wolfsburg» og «2015». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Dieter Hecking",
       "mustMention": [
@@ -13659,9 +13749,17 @@
     },
     "era": 2019,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Adi_H%C3%BCtter",
+        "title": "Adi Hütter – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Frankfurt» og «2019». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Adi Hütter",
       "mustMention": [
@@ -13683,9 +13781,17 @@
     },
     "era": 2004,
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Peter_Neururer",
+        "title": "Peter Neururer – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Bochum» og «UEFA-Pokal». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Peter Neururer",
       "mustMention": [
@@ -13706,9 +13812,17 @@
       ]
     },
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Winfried_Sch%C3%A4fer",
+        "title": "Winfried Schäfer – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Karlsruher» og «1986». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Winfried Schäfer",
       "mustMention": [
@@ -13728,9 +13842,17 @@
     },
     "era": 2002,
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Winfried_Sch%C3%A4fer",
+        "title": "Winfried Schäfer – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Kamerun» og «2002». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Winfried Schäfer",
       "mustMention": [
@@ -13761,7 +13883,8 @@
       "mustMention": [
         "Lebbe geht weiter"
       ]
-    }
+    },
+    "notes": "Artikkelen «Dragoslav Stepanović» nevner ikke «Lebbe geht weiter». Sjekk svaret for hånd."
   },
   {
     "kind": "trivia",
@@ -13775,9 +13898,17 @@
       ]
     },
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Werner_Lorant",
+        "title": "Werner Lorant – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Beinhart». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Werner Lorant",
       "mustMention": [
@@ -13798,9 +13929,17 @@
     },
     "era": 2007,
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Hans_Meyer_(Fu%C3%9Fballtrainer)",
+        "title": "Hans Meyer (Fußballtrainer) – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Nürnberg» og «2007». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Hans Meyer (Fußballtrainer)",
       "mustMention": [
@@ -13821,9 +13960,17 @@
       ]
     },
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/P%C3%A1l_Csernai",
+        "title": "Pál Csernai – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1980» og «1981». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Pál Csernai",
       "mustMention": [
@@ -13851,7 +13998,8 @@
       "mustMention": [
         "Belgien"
       ]
-    }
+    },
+    "notes": "Artikkelen «Domenico Tedesco» nevner ikke «Belgien». Sjekk svaret for hånd."
   },
   {
     "kind": "trivia",
@@ -13867,9 +14015,17 @@
     "fact": "Er führte den Klub von der Oberliga bis in die Bundesliga.",
     "era": 2007,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Frank_Schmidt_(Fu%C3%9Fballtrainer)",
+        "title": "Frank Schmidt (Fußballtrainer) – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Heidenheim» og «2007». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Frank Schmidt (Fußballtrainer)",
       "mustMention": [
@@ -13892,9 +14048,17 @@
     },
     "era": 2018,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Joachim_L%C3%B6w",
+        "title": "Joachim Löw – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «2018» og «Vorrunde». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Joachim Löw",
       "mustMention": [
@@ -13916,9 +14080,17 @@
     },
     "era": 2022,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Hansi_Flick",
+        "title": "Hansi Flick – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «2022» og «Vorrunde». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Hansi Flick",
       "mustMention": [
@@ -13940,9 +14112,17 @@
     },
     "era": 2016,
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Horst_Hrubesch",
+        "title": "Horst Hrubesch – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Rio de Janeiro». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Horst Hrubesch",
       "mustMention": [
@@ -13962,9 +14142,17 @@
     "fact": "Deutschland gewann 5:1 in München.",
     "era": 2024,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Europameisterschaft_2024",
+        "title": "Fußball-Europameisterschaft 2024 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Schottland». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Europameisterschaft 2024",
       "mustMention": [
@@ -13993,7 +14181,8 @@
       "mustMention": [
         "5:1"
       ]
-    }
+    },
+    "notes": "Artikkelen «Fußball-Europameisterschaft 2024» nevner ikke «5:1». Sjekk svaret for hånd."
   },
   {
     "kind": "trivia",
@@ -14008,9 +14197,17 @@
     },
     "era": 2024,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Florian_Wirtz",
+        "title": "Florian Wirtz – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Schottland». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Florian Wirtz",
       "mustMention": [
@@ -14031,9 +14228,17 @@
     },
     "era": 2024,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Europameisterschaft_2024",
+        "title": "Fußball-Europameisterschaft 2024 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Marc Cucurella». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Europameisterschaft 2024",
       "mustMention": [
@@ -14054,9 +14259,17 @@
     },
     "era": 2024,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Joshua_Kimmich",
+        "title": "Joshua Kimmich – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Kapitän». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Joshua Kimmich",
       "mustMention": [
@@ -14077,9 +14290,17 @@
     },
     "era": 1990,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Lothar_Matth%C3%A4us",
+        "title": "Lothar Matthäus – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Kapitän» og «1990». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Lothar Matthäus",
       "mustMention": [
@@ -14101,9 +14322,17 @@
       ]
     },
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Franz_Beckenbauer",
+        "title": "Franz Beckenbauer – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Kapitän» og «1974». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Franz Beckenbauer",
       "mustMention": [
@@ -14134,7 +14363,8 @@
         "Kapitän",
         "1996"
       ]
-    }
+    },
+    "notes": "Artikkelen «Jürgen Klinsmann» nevner ikke «Kapitän». Sjekk svaret for hånd."
   },
   {
     "kind": "trivia",
@@ -14149,9 +14379,17 @@
     },
     "era": 1990,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Bodo_Illgner",
+        "title": "Bodo Illgner – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1990». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Bodo Illgner",
       "mustMention": [
@@ -14173,9 +14411,17 @@
     "fact": "Er wurde 1996 Welttorhüter.",
     "era": 1996,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Andreas_K%C3%B6pke",
+        "title": "Andreas Köpke – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1996». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Andreas Köpke",
       "mustMention": [
@@ -14193,9 +14439,17 @@
       "aliases": []
     },
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Weltmeisterschaft_1954",
+        "title": "Fußball-Weltmeisterschaft 1954 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Österreich». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Weltmeisterschaft 1954",
       "mustMention": [
@@ -14213,9 +14467,17 @@
       "aliases": []
     },
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Weltmeisterschaft_1958",
+        "title": "Fußball-Weltmeisterschaft 1958 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Schweden». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Weltmeisterschaft 1958",
       "mustMention": [
@@ -14235,9 +14497,17 @@
     "fact": "Im Team standen unter anderem Neuer, Özil, Khedira und Hummels.",
     "era": 2009,
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/U-21-Fu%C3%9Fball-Europameisterschaft_2009",
+        "title": "U-21-Fußball-Europameisterschaft 2009 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «England». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "U-21-Fußball-Europameisterschaft 2009",
       "mustMention": [
@@ -14256,9 +14526,17 @@
     },
     "era": 2017,
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/U-21-Fu%C3%9Fball-Europameisterschaft_2017",
+        "title": "U-21-Fußball-Europameisterschaft 2017 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Spanien». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "U-21-Fußball-Europameisterschaft 2017",
       "mustMention": [
@@ -14279,9 +14557,17 @@
     },
     "era": 2014,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Christoph_Kramer",
+        "title": "Christoph Kramer – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Gehirnerschütterung». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Christoph Kramer",
       "mustMention": [
@@ -14302,9 +14588,17 @@
     },
     "era": 2018,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Mesut_%C3%96zil",
+        "title": "Mesut Özil – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Erdoğan» og «2018». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Mesut Özil",
       "mustMention": [
@@ -14326,9 +14620,17 @@
     },
     "era": 2024,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Philipp_Lahm",
+        "title": "Philipp Lahm – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Turnierdirektor». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Philipp Lahm",
       "mustMention": [
@@ -14348,9 +14650,17 @@
       ]
     },
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Bernd_H%C3%B6lzenbein",
+        "title": "Bernd Hölzenbein – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1974» og «Elfmeter». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Bernd Hölzenbein",
       "mustMention": [
@@ -14372,9 +14682,17 @@
     },
     "fact": "Sein Ausgleich gegen Atlético Madrid rettete 1974 das Landesmeister-Finale.",
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Georg_Schwarzenbeck",
+        "title": "Georg Schwarzenbeck – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Katsche». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Hans-Georg Schwarzenbeck",
       "mustMention": [
@@ -14403,7 +14721,8 @@
         "1974",
         "Präsident"
       ]
-    }
+    },
+    "notes": "Artikkelen «Wolfgang Overath» nevner ikke «Präsident». Sjekk svaret for hånd."
   },
   {
     "kind": "trivia",
@@ -14417,9 +14736,17 @@
       ]
     },
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Pierre_Littbarski",
+        "title": "Pierre Littbarski – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Litti». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Pierre Littbarski",
       "mustMention": [
@@ -14447,7 +14774,8 @@
       "mustMention": [
         "Scheiße am Fuß"
       ]
-    }
+    },
+    "notes": "Artikkelen «Andreas Brehme» nevner ikke «Scheiße am Fuß». Sjekk svaret for hånd."
   },
   {
     "kind": "trivia",
@@ -14461,9 +14789,17 @@
       ]
     },
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Tom%C3%A1%C5%A1_Rosick%C3%BD",
+        "title": "Tomáš Rosický – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Mozart». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Tomáš Rosický",
       "mustMention": [
@@ -14484,9 +14820,17 @@
     },
     "era": 2012,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Shinji_Kagawa",
+        "title": "Shinji Kagawa – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Dortmund» og «2011». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Shinji Kagawa",
       "mustMention": [
@@ -14509,9 +14853,17 @@
     },
     "era": 2010,
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Robert_Lewandowski",
+        "title": "Robert Lewandowski – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Lech Posen» og «2010». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Robert Lewandowski",
       "mustMention": [
@@ -14534,9 +14886,17 @@
     "fact": "Zuvor war er an Werder Bremen ausgeliehen gewesen.",
     "era": 2014,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Kevin_De_Bruyne",
+        "title": "Kevin De Bruyne – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «VfL Wolfsburg» og «2014». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Kevin De Bruyne",
       "mustMention": [
@@ -14559,9 +14919,17 @@
     },
     "era": 2017,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Jadon_Sancho",
+        "title": "Jadon Sancho – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Manchester City» og «2017». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Jadon Sancho",
       "mustMention": [
@@ -14583,9 +14951,17 @@
     },
     "era": 2020,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Jude_Bellingham",
+        "title": "Jude Bellingham – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Birmingham City» og «2020». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Jude Bellingham",
       "mustMention": [
@@ -14607,9 +14983,17 @@
       ]
     },
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Son_Heung-min",
+        "title": "Son Heung-min – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Hamburger SV». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Son Heung-min",
       "mustMention": [
@@ -14630,9 +15014,17 @@
     },
     "era": 2009,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Arjen_Robben",
+        "title": "Arjen Robben – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Real Madrid» og «2009». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Arjen Robben",
       "mustMention": [
@@ -14655,9 +15047,17 @@
     },
     "era": 2007,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Franck_Rib%C3%A9ry",
+        "title": "Franck Ribéry – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Olympique Marseille» og «2007». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Franck Ribéry",
       "mustMention": [
@@ -14678,9 +15078,17 @@
       ]
     },
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Christian_Pulisic",
+        "title": "Christian Pulisic – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Dortmund» og «Chelsea». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Christian Pulisic",
       "mustMention": [
@@ -14703,9 +15111,17 @@
     },
     "era": 2019,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/1._FC_Union_Berlin",
+        "title": "1. FC Union Berlin – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «2019». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "1. FC Union Berlin",
       "mustMention": [
@@ -14727,9 +15143,17 @@
     },
     "era": 2024,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Holstein_Kiel",
+        "title": "Holstein Kiel – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «2024». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Holstein Kiel",
       "mustMention": [
@@ -14751,9 +15175,17 @@
     },
     "era": 2023,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/1._FC_Heidenheim",
+        "title": "1. FC Heidenheim – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «2023». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "1. FC Heidenheim",
       "mustMention": [
@@ -14775,9 +15207,17 @@
     },
     "era": 2021,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/FC_Schalke_04",
+        "title": "FC Schalke 04 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «2021». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "FC Schalke 04",
       "mustMention": [
@@ -14797,9 +15237,17 @@
       ]
     },
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/TSG_1899_Hoffenheim",
+        "title": "TSG 1899 Hoffenheim – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Dietmar Hopp». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "TSG 1899 Hoffenheim",
       "mustMention": [
@@ -14820,9 +15268,17 @@
       ]
     },
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/VfL_Wolfsburg",
+        "title": "VfL Wolfsburg – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Volkswagen». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "VfL Wolfsburg",
       "mustMention": [
@@ -14843,9 +15299,17 @@
       ]
     },
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Borussia_Dortmund",
+        "title": "Borussia Dortmund – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «schwarz-gelb». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Borussia Dortmund",
       "mustMention": [
@@ -14865,9 +15329,17 @@
       ]
     },
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Werder_Bremen",
+        "title": "Werder Bremen – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «grün-weiß». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Werder Bremen",
       "mustMention": [
@@ -14885,9 +15357,17 @@
       "aliases": []
     },
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Allianz_Arena",
+        "title": "Allianz Arena – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Südkurve». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Allianz Arena",
       "mustMention": [
@@ -14905,9 +15385,17 @@
       "aliases": []
     },
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Veltins-Arena",
+        "title": "Veltins-Arena – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Nordkurve». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Veltins-Arena",
       "mustMention": [
@@ -14927,9 +15415,17 @@
       ]
     },
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Bundesliga_(Ligaverband)",
+        "title": "Bundesliga (Ligaverband) – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Bundesliga». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Deutsche Fußball Liga",
       "mustMention": [
@@ -14950,9 +15446,17 @@
     },
     "era": 2002,
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/1._FFC_Frankfurt",
+        "title": "1. FFC Frankfurt – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «2002». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "1. FFC Frankfurt",
       "mustMention": [
@@ -14972,9 +15476,17 @@
       ]
     },
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Birgit_Prinz",
+        "title": "Birgit Prinz – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Rekordnationalspielerin». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Birgit Prinz",
       "mustMention": [
@@ -14995,9 +15507,17 @@
     },
     "era": 2016,
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Steffi_Jones",
+        "title": "Steffi Jones – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «2016» og «Bundestrainerin». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Steffi Jones",
       "mustMention": [
@@ -15020,9 +15540,17 @@
     },
     "era": 2022,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Martina_Voss-Tecklenburg",
+        "title": "Martina Voss-Tecklenburg – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «2022». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Martina Voss-Tecklenburg",
       "mustMention": [
@@ -15043,9 +15571,17 @@
     },
     "era": 2024,
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Christian_W%C3%BCck",
+        "title": "Christian Wück – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «2024». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Christian Wück",
       "mustMention": [
@@ -15065,9 +15601,17 @@
       ]
     },
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Joachim_Streich",
+        "title": "Joachim Streich – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Rekordtorschütze». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Joachim Streich",
       "mustMention": [
@@ -15085,9 +15629,17 @@
       "aliases": []
     },
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fballnationalmannschaft_der_DDR",
+        "title": "Fußballnationalmannschaft der DDR – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Montreal» og «1976». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußballnationalmannschaft der DDR",
       "mustMention": [
@@ -15109,9 +15661,17 @@
       ]
     },
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Schauinsland-Reisen-Arena",
+        "title": "Schauinsland-Reisen-Arena – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «MSV Duisburg». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Schauinsland-Reisen-Arena",
       "mustMention": [
@@ -15132,9 +15692,17 @@
       ]
     },
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/LEAG_Energie_Stadion",
+        "title": "LEAG Energie Stadion – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Energie Cottbus». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Stadion der Freundschaft (Cottbus)",
       "mustMention": [
@@ -15155,9 +15723,17 @@
       ]
     },
     "difficulty": 4,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Bruno-Plache-Stadion",
+        "title": "Bruno-Plache-Stadion – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1. FC Lokomotive Leipzig». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Bruno-Plache-Stadion",
       "mustMention": [
@@ -15177,9 +15753,17 @@
       ]
     },
     "difficulty": 4,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Stadion_an_der_Lohm%C3%BChle",
+        "title": "Stadion an der Lohmühle – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «VfB Lübeck». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Stadion an der Lohmühle",
       "mustMention": [
@@ -15202,9 +15786,17 @@
     },
     "fact": "Gerd Müller schoss in dieser Saison 40 Tore.",
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Bundesliga_1971/72",
+        "title": "Fußball-Bundesliga 1971/72 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «FC Bayern München». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Bundesliga 1971/72",
       "mustMention": [
@@ -15227,9 +15819,17 @@
     },
     "fact": "Im selben Jahr gewann Bayern den ersten Landesmeisterpokal.",
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Bundesliga_1973/74",
+        "title": "Fußball-Bundesliga 1973/74 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «FC Bayern München». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Bundesliga 1973/74",
       "mustMention": [
@@ -15251,9 +15851,17 @@
       ]
     },
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Bundesliga_1986/87",
+        "title": "Fußball-Bundesliga 1986/87 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «FC Bayern München». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Bundesliga 1986/87",
       "mustMention": [
@@ -15277,9 +15885,17 @@
     "fact": "Bayern gewann in dieser Saison das Triple.",
     "era": 2013,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Bundesliga_2012/13",
+        "title": "Fußball-Bundesliga 2012/13 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «FC Bayern München». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Bundesliga 2012/13",
       "mustMention": [
@@ -15303,9 +15919,17 @@
     "fact": "Trainer war Vincent Kompany.",
     "era": 2025,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Bundesliga_2024/25",
+        "title": "Fußball-Bundesliga 2024/25 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «FC Bayern München». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Bundesliga 2024/25",
       "mustMention": [
@@ -15328,9 +15952,17 @@
     },
     "era": 2013,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/FC_Bayern_M%C3%BCnchen",
+        "title": "FC Bayern München – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Triple» og «2013». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "FC Bayern München",
       "mustMention": [
@@ -15353,9 +15985,17 @@
     },
     "era": 2025,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Bundesliga_2024/25",
+        "title": "Fußball-Bundesliga 2024/25 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Bayer 04 Leverkusen». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Bundesliga 2024/25",
       "mustMention": [
@@ -15377,9 +16017,17 @@
     },
     "era": 2025,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Bundesliga_2024/25",
+        "title": "Fußball-Bundesliga 2024/25 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Holstein Kiel». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Bundesliga 2024/25",
       "mustMention": [
@@ -15400,9 +16048,17 @@
     },
     "era": 2023,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Bundesliga_2022/23",
+        "title": "Fußball-Bundesliga 2022/23 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Jamal Musiala». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Bundesliga 2022/23",
       "mustMention": [
@@ -15424,9 +16080,17 @@
     },
     "era": 1999,
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/SpVgg_Unterhaching",
+        "title": "SpVgg Unterhaching – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Bundesliga» og «1999». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "SpVgg Unterhaching",
       "mustMention": [
@@ -15449,9 +16113,17 @@
     },
     "era": 2014,
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/SC_Paderborn_07",
+        "title": "SC Paderborn 07 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «2014». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "SC Paderborn 07",
       "mustMention": [
@@ -15473,9 +16145,17 @@
     },
     "era": 2008,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/TSG_1899_Hoffenheim",
+        "title": "TSG 1899 Hoffenheim – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «2008» og «Herbstmeister». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "TSG 1899 Hoffenheim",
       "mustMention": [
@@ -15497,9 +16177,17 @@
       ]
     },
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Bundesliga_1963/64",
+        "title": "Fußball-Bundesliga 1963/64 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Preußen Münster». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Bundesliga 1963/64",
       "mustMention": [
@@ -15520,9 +16208,17 @@
       ]
     },
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Bundesliga_1963/64",
+        "title": "Fußball-Bundesliga 1963/64 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1. FC Saarbrücken». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Bundesliga 1963/64",
       "mustMention": [
@@ -15543,9 +16239,17 @@
       ]
     },
     "difficulty": 4,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Bundesliga_1963/64",
+        "title": "Fußball-Bundesliga 1963/64 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Meidericher SV». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Bundesliga 1963/64",
       "mustMention": [
@@ -15565,9 +16269,17 @@
       ]
     },
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Thomas_M%C3%BCller",
+        "title": "Thomas Müller – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Rekordspieler». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Thomas Müller",
       "mustMention": [
@@ -15587,9 +16299,17 @@
       ]
     },
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Michael_Zorc",
+        "title": "Michael Zorc – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Rekordspieler». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Michael Zorc",
       "mustMention": [
@@ -15610,9 +16330,17 @@
       ]
     },
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Anthony_Yeboah",
+        "title": "Anthony Yeboah – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Torschützenkönig» og «Frankfurt». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Anthony Yeboah",
       "mustMention": [
@@ -15633,9 +16361,17 @@
       ]
     },
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Krassimir_Balakow",
+        "title": "Krassimir Balakow – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Magisches Dreieck». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Krassimir Balakow",
       "mustMention": [
@@ -15657,9 +16393,17 @@
     },
     "era": 1999,
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Jan_%C3%85ge_Fj%C3%B8rtoft",
+        "title": "Jan Åge Fjørtoft – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Kaiserslautern» og «1999». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Jan Åge Fjørtoft",
       "mustMention": [
@@ -15681,9 +16425,17 @@
     },
     "era": 2011,
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/St%C3%A5le_Solbakken",
+        "title": "Ståle Solbakken – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Köln». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Ståle Solbakken",
       "mustMention": [
@@ -15713,7 +16465,8 @@
         "1986",
         "Elfmeter"
       ]
-    }
+    },
+    "notes": "Artikkelen «Michael Kutzop» nevner ikke «1986». Sjekk svaret for hånd."
   },
   {
     "kind": "trivia",
@@ -15729,9 +16482,17 @@
     },
     "era": 2006,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Deutschland._Ein_Sommerm%C3%A4rchen",
+        "title": "Deutschland. Ein Sommermärchen – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Wortmann». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Deutschland. Ein Sommermärchen",
       "mustMention": [
@@ -15751,9 +16512,17 @@
       ]
     },
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Das_Wunder_von_Bern",
+        "title": "Das Wunder von Bern – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Sönke Wortmann» og «2003». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Das Wunder von Bern (Film)",
       "mustMention": [
@@ -15780,7 +16549,8 @@
       "mustMention": [
         "1974"
       ]
-    }
+    },
+    "notes": "Artikkelen «Fußball ist unser Leben» nevner ikke «1974». Sjekk svaret for hånd."
   },
   {
     "kind": "trivia",
@@ -15794,9 +16564,17 @@
       ]
     },
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Tor_des_Monats",
+        "title": "Tor des Monats – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Sportschau». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Tor des Monats",
       "mustMention": [
@@ -15825,7 +16603,8 @@
       "mustMention": [
         "Der Klassiker"
       ]
-    }
+    },
+    "notes": "Artikkelen «Borussia Dortmund» nevner ikke «Der Klassiker». Sjekk svaret for hånd."
   },
   {
     "kind": "trivia",
@@ -15841,9 +16620,17 @@
     "fact": "Dortmund gewann das Hinspiel 4:1.",
     "era": 2013,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Robert_Lewandowski",
+        "title": "Robert Lewandowski – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Real Madrid» og «2013». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Robert Lewandowski",
       "mustMention": [
@@ -15873,6 +16660,7 @@
       "mustMention": [
         "7:0"
       ]
-    }
+    },
+    "notes": "Artikkelen «UEFA Champions League 2012/13» nevner ikke «7:0». Sjekk svaret for hånd."
   }
 ]
