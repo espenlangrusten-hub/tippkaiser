@@ -142,12 +142,11 @@
     "enabled": true,
     "sources": [],
     "verify": {
-      "subject": "Signal Iduna Park",
+      "subject": "Borussia Dortmund",
       "mustMention": [
         "Gelbe Wand"
       ]
-    },
-    "notes": "Artikkelen «Signal Iduna Park» nevner ikke «Gelbe Wand». Sjekk svaret for hånd."
+    }
   },
   {
     "kind": "trivia",
@@ -635,7 +634,7 @@
     "kind": "trivia",
     "id": "el-waldstadion",
     "category": "stadion",
-    "prompt": "Welcher Klub spielt im Frankfurter Waldstadion, heute Deutsche Bank Park?",
+    "prompt": "Welcher Klub spielt im Frankfurter Waldstadion, das heute Deutsche Bank Park heißt?",
     "answer": {
       "label": "Eintracht Frankfurt",
       "aliases": [
@@ -649,12 +648,11 @@
     "enabled": true,
     "sources": [],
     "verify": {
-      "subject": "Waldstadion (Frankfurt am Main)",
+      "subject": "Deutsche Bank Park",
       "mustMention": [
         "Eintracht Frankfurt"
       ]
-    },
-    "notes": "Fant ingen artikkel om «Waldstadion (Frankfurt am Main)» på Wikipedia."
+    }
   },
   {
     "kind": "trivia",
@@ -1075,7 +1073,7 @@
     "kind": "trivia",
     "id": "el-prezero-arena",
     "category": "stadion",
-    "prompt": "Welcher Klub spielt in der PreZero Arena in Sinsheim?",
+    "prompt": "Welcher Klub spielt in der SNP Arena in Sinsheim, früher PreZero Arena?",
     "answer": {
       "label": "TSG 1899 Hoffenheim",
       "aliases": [
@@ -1083,7 +1081,7 @@
         "TSG Hoffenheim"
       ]
     },
-    "fact": "Hoffenheim selbst ist nur ein Ortsteil von Sinsheim.",
+    "fact": "Hoffenheim selbst ist nur ein Ortsteil von Sinsheim. Das Stadion hat schon mehrmals den Namen gewechselt.",
     "difficulty": 2,
     "status": "single_source",
     "enabled": true,
