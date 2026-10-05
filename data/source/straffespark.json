@@ -7440,5 +7440,4512 @@
         "1:1"
       ]
     }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-meister-1964",
+    "category": "klubb",
+    "prompt": "Welcher Klub wurde in der Saison 1964/65 Deutscher Meister?",
+    "answer": {
+      "label": "Werder Bremen",
+      "aliases": [
+        "Werder",
+        "Bremen",
+        "SV Werder Bremen"
+      ]
+    },
+    "fact": "Es war Werders erste Meisterschaft.",
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Bundesliga 1964/65",
+      "mustMention": [
+        "Werder Bremen"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-meister-1965",
+    "category": "klubb",
+    "prompt": "Welcher Klub wurde in der Saison 1965/66 Deutscher Meister?",
+    "answer": {
+      "label": "TSV 1860 München",
+      "aliases": [
+        "1860 München",
+        "1860",
+        "Sechzig",
+        "Löwen"
+      ]
+    },
+    "fact": "Trainer war Max Merkel.",
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Bundesliga 1965/66",
+      "mustMention": [
+        "TSV 1860 München"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-meister-1966",
+    "category": "klubb",
+    "prompt": "Welcher Klub wurde in der Saison 1966/67 Deutscher Meister?",
+    "answer": {
+      "label": "Eintracht Braunschweig",
+      "aliases": [
+        "Braunschweig",
+        "Eintracht"
+      ]
+    },
+    "fact": "Es ist bis heute Braunschweigs einziger Meistertitel.",
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Bundesliga 1966/67",
+      "mustMention": [
+        "Eintracht Braunschweig"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-meister-1967",
+    "category": "klubb",
+    "prompt": "Welcher Klub wurde in der Saison 1967/68 Deutscher Meister?",
+    "answer": {
+      "label": "1. FC Nürnberg",
+      "aliases": [
+        "Nürnberg",
+        "FCN",
+        "Der Club"
+      ]
+    },
+    "fact": "Ein Jahr später stieg der Club als Meister ab.",
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Bundesliga 1967/68",
+      "mustMention": [
+        "1. FC Nürnberg"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-meister-1968",
+    "category": "klubb",
+    "prompt": "Welcher Klub wurde in der Saison 1968/69 Deutscher Meister?",
+    "answer": {
+      "label": "FC Bayern München",
+      "aliases": [
+        "Bayern",
+        "FC Bayern",
+        "Bayern München"
+      ]
+    },
+    "fact": "Es war Bayerns erste Bundesliga-Meisterschaft.",
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Bundesliga 1968/69",
+      "mustMention": [
+        "FC Bayern München"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-meister-1969",
+    "category": "klubb",
+    "prompt": "Welcher Klub wurde in der Saison 1969/70 Deutscher Meister?",
+    "answer": {
+      "label": "Borussia Mönchengladbach",
+      "aliases": [
+        "Gladbach",
+        "Mönchengladbach",
+        "Borussia"
+      ]
+    },
+    "fact": "Es war Gladbachs erster Meistertitel.",
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Bundesliga 1969/70",
+      "mustMention": [
+        "Borussia Mönchengladbach"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-meister-1970",
+    "category": "klubb",
+    "prompt": "Welcher Klub wurde in der Saison 1970/71 Deutscher Meister?",
+    "answer": {
+      "label": "Borussia Mönchengladbach",
+      "aliases": [
+        "Gladbach",
+        "Mönchengladbach",
+        "Borussia"
+      ]
+    },
+    "fact": "Gladbach verteidigte als erster Klub den Bundesliga-Titel.",
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Bundesliga 1970/71",
+      "mustMention": [
+        "Borussia Mönchengladbach"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-meister-1975",
+    "category": "klubb",
+    "prompt": "Welcher Klub wurde in der Saison 1975/76 Deutscher Meister?",
+    "answer": {
+      "label": "Borussia Mönchengladbach",
+      "aliases": [
+        "Gladbach",
+        "Mönchengladbach",
+        "Borussia"
+      ]
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Bundesliga 1975/76",
+      "mustMention": [
+        "Borussia Mönchengladbach"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-meister-1976",
+    "category": "klubb",
+    "prompt": "Welcher Klub wurde in der Saison 1976/77 Deutscher Meister?",
+    "answer": {
+      "label": "Borussia Mönchengladbach",
+      "aliases": [
+        "Gladbach",
+        "Mönchengladbach",
+        "Borussia"
+      ]
+    },
+    "fact": "Es war der dritte Titel in Folge.",
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Bundesliga 1976/77",
+      "mustMention": [
+        "Borussia Mönchengladbach"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-meister-1977",
+    "category": "klubb",
+    "prompt": "Welcher Klub wurde in der Saison 1977/78 Deutscher Meister?",
+    "answer": {
+      "label": "1. FC Köln",
+      "aliases": [
+        "Köln",
+        "FC Köln",
+        "Effzeh"
+      ]
+    },
+    "fact": "Köln holte in dieser Saison auch den DFB-Pokal.",
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Bundesliga 1977/78",
+      "mustMention": [
+        "1. FC Köln"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-meister-1981",
+    "category": "klubb",
+    "prompt": "Welcher Klub wurde in der Saison 1981/82 Deutscher Meister?",
+    "answer": {
+      "label": "Hamburger SV",
+      "aliases": [
+        "HSV",
+        "Hamburg"
+      ]
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Bundesliga 1981/82",
+      "mustMention": [
+        "Hamburger SV"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-meister-1982",
+    "category": "klubb",
+    "prompt": "Welcher Klub wurde in der Saison 1982/83 Deutscher Meister?",
+    "answer": {
+      "label": "Hamburger SV",
+      "aliases": [
+        "HSV",
+        "Hamburg"
+      ]
+    },
+    "fact": "Im selben Jahr gewann der HSV den Landesmeisterpokal.",
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Bundesliga 1982/83",
+      "mustMention": [
+        "Hamburger SV"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-meister-1983",
+    "category": "klubb",
+    "prompt": "Welcher Klub wurde in der Saison 1983/84 Deutscher Meister?",
+    "answer": {
+      "label": "VfB Stuttgart",
+      "aliases": [
+        "Stuttgart",
+        "VfB"
+      ]
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Bundesliga 1983/84",
+      "mustMention": [
+        "VfB Stuttgart"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-meister-1987",
+    "category": "klubb",
+    "prompt": "Welcher Klub wurde in der Saison 1987/88 Deutscher Meister?",
+    "answer": {
+      "label": "Werder Bremen",
+      "aliases": [
+        "Werder",
+        "Bremen",
+        "SV Werder Bremen"
+      ]
+    },
+    "fact": "Trainer war Otto Rehhagel.",
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Bundesliga 1987/88",
+      "mustMention": [
+        "Werder Bremen"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-meister-1990",
+    "category": "klubb",
+    "prompt": "Welcher Klub wurde in der Saison 1990/91 Deutscher Meister?",
+    "answer": {
+      "label": "1. FC Kaiserslautern",
+      "aliases": [
+        "Kaiserslautern",
+        "FCK",
+        "Lautern"
+      ]
+    },
+    "era": 1991,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Bundesliga 1990/91",
+      "mustMention": [
+        "1. FC Kaiserslautern"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-meister-1992",
+    "category": "klubb",
+    "prompt": "Welcher Klub wurde in der Saison 1992/93 Deutscher Meister?",
+    "answer": {
+      "label": "Werder Bremen",
+      "aliases": [
+        "Werder",
+        "Bremen",
+        "SV Werder Bremen"
+      ]
+    },
+    "era": 1993,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Bundesliga 1992/93",
+      "mustMention": [
+        "Werder Bremen"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-meister-1994",
+    "category": "klubb",
+    "prompt": "Welcher Klub wurde in der Saison 1994/95 Deutscher Meister?",
+    "answer": {
+      "label": "Borussia Dortmund",
+      "aliases": [
+        "Dortmund",
+        "BVB",
+        "Borussia"
+      ]
+    },
+    "fact": "Es war der erste Meistertitel des BVB in der Bundesliga.",
+    "era": 1995,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Bundesliga 1994/95",
+      "mustMention": [
+        "Borussia Dortmund"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-meister-1995",
+    "category": "klubb",
+    "prompt": "Welcher Klub wurde in der Saison 1995/96 Deutscher Meister?",
+    "answer": {
+      "label": "Borussia Dortmund",
+      "aliases": [
+        "Dortmund",
+        "BVB",
+        "Borussia"
+      ]
+    },
+    "era": 1996,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Bundesliga 1995/96",
+      "mustMention": [
+        "Borussia Dortmund"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-meister-2001",
+    "category": "klubb",
+    "prompt": "Welcher Klub wurde in der Saison 2001/02 Deutscher Meister?",
+    "answer": {
+      "label": "Borussia Dortmund",
+      "aliases": [
+        "Dortmund",
+        "BVB",
+        "Borussia"
+      ]
+    },
+    "fact": "Trainer war Matthias Sammer.",
+    "era": 2002,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Bundesliga 2001/02",
+      "mustMention": [
+        "Borussia Dortmund"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-meister-2006",
+    "category": "klubb",
+    "prompt": "Welcher Klub wurde in der Saison 2006/07 Deutscher Meister?",
+    "answer": {
+      "label": "VfB Stuttgart",
+      "aliases": [
+        "Stuttgart",
+        "VfB"
+      ]
+    },
+    "fact": "Trainer war Armin Veh.",
+    "era": 2007,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Bundesliga 2006/07",
+      "mustMention": [
+        "VfB Stuttgart"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-meister-2011",
+    "category": "klubb",
+    "prompt": "Welcher Klub wurde in der Saison 2011/12 Deutscher Meister?",
+    "answer": {
+      "label": "Borussia Dortmund",
+      "aliases": [
+        "Dortmund",
+        "BVB",
+        "Borussia"
+      ]
+    },
+    "fact": "Der BVB holte in dieser Saison auch den DFB-Pokal.",
+    "era": 2012,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Bundesliga 2011/12",
+      "mustMention": [
+        "Borussia Dortmund"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-pokal-1985",
+    "category": "klubb",
+    "prompt": "Welcher Klub besiegte 1985 im DFB-Pokal-Finale überraschend den FC Bayern?",
+    "answer": {
+      "label": "Bayer 05 Uerdingen",
+      "aliases": [
+        "Uerdingen",
+        "KFC Uerdingen",
+        "Bayer Uerdingen"
+      ]
+    },
+    "fact": "Es war das erste Pokalfinale im Berliner Olympiastadion.",
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 1984/85",
+      "mustMention": [
+        "Bayer 05 Uerdingen"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-pokal-1987",
+    "category": "klubb",
+    "prompt": "Welcher Zweitligist aus Stuttgart verlor 1987 das DFB-Pokal-Finale gegen den HSV?",
+    "answer": {
+      "label": "Stuttgarter Kickers",
+      "aliases": [
+        "Kickers"
+      ]
+    },
+    "difficulty": 4,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 1986/87",
+      "mustMention": [
+        "Stuttgarter Kickers"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-pokal-1988",
+    "category": "klubb",
+    "prompt": "Welcher Klub gewann 1988 das DFB-Pokal-Finale gegen den VfL Bochum?",
+    "answer": {
+      "label": "Eintracht Frankfurt",
+      "aliases": [
+        "Frankfurt",
+        "Eintracht"
+      ]
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 1987/88",
+      "mustMention": [
+        "Eintracht Frankfurt"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-pokal-1989",
+    "category": "klubb",
+    "prompt": "Welcher Klub gewann 1989 das DFB-Pokal-Finale gegen Werder Bremen?",
+    "answer": {
+      "label": "Borussia Dortmund",
+      "aliases": [
+        "Dortmund",
+        "BVB",
+        "Borussia"
+      ]
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 1988/89",
+      "mustMention": [
+        "Borussia Dortmund"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-pokal-1994",
+    "category": "klubb",
+    "prompt": "Welcher Zweitligist verlor 1994 das DFB-Pokal-Finale gegen Werder Bremen?",
+    "answer": {
+      "label": "Rot-Weiss Essen",
+      "aliases": [
+        "RWE",
+        "Essen"
+      ]
+    },
+    "era": 1994,
+    "difficulty": 4,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 1993/94",
+      "mustMention": [
+        "Rot-Weiss Essen"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-pokal-1995",
+    "category": "klubb",
+    "prompt": "Welcher Klub gewann 1995 das DFB-Pokal-Finale gegen den Zweitligisten VfL Wolfsburg?",
+    "answer": {
+      "label": "Borussia Mönchengladbach",
+      "aliases": [
+        "Gladbach",
+        "Mönchengladbach",
+        "Borussia"
+      ]
+    },
+    "era": 1995,
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 1994/95",
+      "mustMention": [
+        "Borussia Mönchengladbach"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-pokal-1996",
+    "category": "klubb",
+    "prompt": "Welcher Klub gewann 1996 den DFB-Pokal und stieg im selben Jahr aus der Bundesliga ab?",
+    "answer": {
+      "label": "1. FC Kaiserslautern",
+      "aliases": [
+        "Kaiserslautern",
+        "FCK",
+        "Lautern"
+      ]
+    },
+    "fact": "Im Finale schlug der FCK den Karlsruher SC.",
+    "era": 1996,
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 1995/96",
+      "mustMention": [
+        "1. FC Kaiserslautern"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-pokal-1998",
+    "category": "klubb",
+    "prompt": "Welcher Klub verlor 1998 das DFB-Pokal-Finale gegen den FC Bayern?",
+    "answer": {
+      "label": "MSV Duisburg",
+      "aliases": [
+        "Duisburg",
+        "MSV"
+      ]
+    },
+    "era": 1998,
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 1997/98",
+      "mustMention": [
+        "MSV Duisburg"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-pokal-1999",
+    "category": "klubb",
+    "prompt": "Welcher Klub besiegte 1999 im DFB-Pokal-Finale den FC Bayern im Elfmeterschießen?",
+    "answer": {
+      "label": "Werder Bremen",
+      "aliases": [
+        "Werder",
+        "Bremen",
+        "SV Werder Bremen"
+      ]
+    },
+    "era": 1999,
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 1998/99",
+      "mustMention": [
+        "Werder Bremen"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-pokal-2001",
+    "category": "klubb",
+    "prompt": "Welcher Drittligist aus Berlin verlor 2001 das DFB-Pokal-Finale gegen Schalke?",
+    "answer": {
+      "label": "1. FC Union Berlin",
+      "aliases": [
+        "Union",
+        "Union Berlin"
+      ]
+    },
+    "fact": "Union spielte in der folgenden Saison im UEFA-Pokal.",
+    "era": 2001,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 2000/01",
+      "mustMention": [
+        "1. FC Union Berlin"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-pokal-2004",
+    "category": "klubb",
+    "prompt": "Welcher Zweitligist verlor 2004 das DFB-Pokal-Finale gegen Werder Bremen?",
+    "answer": {
+      "label": "Alemannia Aachen",
+      "aliases": [
+        "Aachen",
+        "Alemannia"
+      ]
+    },
+    "fact": "Aachen spielte danach im UEFA-Pokal.",
+    "era": 2004,
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 2003/04",
+      "mustMention": [
+        "Alemannia Aachen"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-pokal-2007",
+    "category": "klubb",
+    "prompt": "Welcher Klub gewann 2007 das DFB-Pokal-Finale gegen den VfB Stuttgart?",
+    "answer": {
+      "label": "1. FC Nürnberg",
+      "aliases": [
+        "Nürnberg",
+        "FCN",
+        "Der Club"
+      ]
+    },
+    "era": 2007,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 2006/07",
+      "mustMention": [
+        "1. FC Nürnberg"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-pokal-2009",
+    "category": "klubb",
+    "prompt": "Welcher Klub gewann 2009 das DFB-Pokal-Finale gegen Bayer Leverkusen?",
+    "answer": {
+      "label": "Werder Bremen",
+      "aliases": [
+        "Werder",
+        "Bremen",
+        "SV Werder Bremen"
+      ]
+    },
+    "fact": "Mesut Özil schoss das einzige Tor.",
+    "era": 2009,
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 2008/09",
+      "mustMention": [
+        "Werder Bremen"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-pokal-2012",
+    "category": "resultat",
+    "prompt": "Mit welchem Ergebnis gewann Borussia Dortmund 2012 das DFB-Pokal-Finale gegen den FC Bayern?",
+    "answer": {
+      "label": "5:2",
+      "aliases": [
+        "5 zu 2"
+      ]
+    },
+    "fact": "Robert Lewandowski traf dreimal.",
+    "era": 2012,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 2011/12",
+      "mustMention": [
+        "5:2"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-pokal-2016",
+    "category": "klubb",
+    "prompt": "Gegen welchen Klub gewann der FC Bayern 2016 das DFB-Pokal-Finale im Elfmeterschießen?",
+    "answer": {
+      "label": "Borussia Dortmund",
+      "aliases": [
+        "Dortmund",
+        "BVB",
+        "Borussia"
+      ]
+    },
+    "era": 2016,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 2015/16",
+      "mustMention": [
+        "Borussia Dortmund"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-pokal-2019",
+    "category": "klubb",
+    "prompt": "Gegen welchen Klub gewann der FC Bayern 2019 das DFB-Pokal-Finale 3:0?",
+    "answer": {
+      "label": "RB Leipzig",
+      "aliases": [
+        "Leipzig"
+      ]
+    },
+    "era": 2019,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 2018/19",
+      "mustMention": [
+        "RB Leipzig"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-pokal-2020",
+    "category": "klubb",
+    "prompt": "Gegen welchen Klub gewann der FC Bayern 2020 das DFB-Pokal-Finale 4:2?",
+    "answer": {
+      "label": "Bayer 04 Leverkusen",
+      "aliases": [
+        "Leverkusen",
+        "Bayer Leverkusen"
+      ]
+    },
+    "era": 2020,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 2019/20",
+      "mustMention": [
+        "Bayer 04 Leverkusen"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-pokal-2022",
+    "category": "klubb",
+    "prompt": "Welcher Klub gewann 2022 das DFB-Pokal-Finale gegen den SC Freiburg?",
+    "answer": {
+      "label": "RB Leipzig",
+      "aliases": [
+        "Leipzig"
+      ]
+    },
+    "fact": "Es war Leipzigs erster großer Titel.",
+    "era": 2022,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 2021/22",
+      "mustMention": [
+        "RB Leipzig"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-ec-1966",
+    "category": "klubb",
+    "prompt": "Welcher Klub gewann 1966 als erster deutscher Verein einen Europapokal?",
+    "answer": {
+      "label": "Borussia Dortmund",
+      "aliases": [
+        "Dortmund",
+        "BVB",
+        "Borussia"
+      ]
+    },
+    "fact": "Im Finale der Pokalsieger schlug der BVB den FC Liverpool.",
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Borussia Dortmund",
+      "mustMention": [
+        "1966",
+        "Liverpool"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-ec-1966-gegner",
+    "category": "resultat",
+    "prompt": "Gegen welchen Klub gewann Borussia Dortmund 1966 das Finale im Europapokal der Pokalsieger?",
+    "answer": {
+      "label": "FC Liverpool",
+      "aliases": [
+        "Liverpool"
+      ]
+    },
+    "fact": "Das Finale fand in Glasgow statt.",
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Europapokal der Pokalsieger 1965/66",
+      "mustMention": [
+        "FC Liverpool"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-ec-1967",
+    "category": "klubb",
+    "prompt": "Welcher deutsche Klub gewann 1967 den Europapokal der Pokalsieger?",
+    "answer": {
+      "label": "FC Bayern München",
+      "aliases": [
+        "Bayern",
+        "FC Bayern",
+        "Bayern München"
+      ]
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Europapokal der Pokalsieger 1966/67",
+      "mustMention": [
+        "FC Bayern München"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-ec-1977-hsv",
+    "category": "klubb",
+    "prompt": "Welcher deutsche Klub gewann 1977 den Europapokal der Pokalsieger?",
+    "answer": {
+      "label": "Hamburger SV",
+      "aliases": [
+        "HSV",
+        "Hamburg"
+      ]
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Europapokal der Pokalsieger 1976/77",
+      "mustMention": [
+        "Hamburger SV"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-ec-1974-gegner",
+    "category": "resultat",
+    "prompt": "Gegen welchen Klub gewann der FC Bayern 1974 das Landesmeister-Finale im Wiederholungsspiel?",
+    "answer": {
+      "label": "Atlético Madrid",
+      "aliases": [
+        "Atlético"
+      ]
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Europapokal der Landesmeister 1973/74",
+      "mustMention": [
+        "Atlético Madrid"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-ec-1975-gegner",
+    "category": "resultat",
+    "prompt": "Gegen welchen englischen Klub gewann der FC Bayern 1975 das Landesmeister-Finale?",
+    "answer": {
+      "label": "Leeds United",
+      "aliases": [
+        "Leeds"
+      ]
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Europapokal der Landesmeister 1974/75",
+      "mustMention": [
+        "Leeds United"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-ec-1976-gegner",
+    "category": "resultat",
+    "prompt": "Gegen welchen französischen Klub gewann der FC Bayern 1976 das Landesmeister-Finale in Glasgow?",
+    "answer": {
+      "label": "AS Saint-Étienne",
+      "aliases": [
+        "Saint-Étienne",
+        "St. Etienne"
+      ]
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Europapokal der Landesmeister 1975/76",
+      "mustMention": [
+        "AS Saint-Étienne"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-ec-1977-gladbach",
+    "category": "klubb",
+    "prompt": "Welcher deutsche Klub verlor 1977 das Landesmeister-Finale gegen den FC Liverpool?",
+    "answer": {
+      "label": "Borussia Mönchengladbach",
+      "aliases": [
+        "Gladbach",
+        "Mönchengladbach",
+        "Borussia"
+      ]
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Europapokal der Landesmeister 1976/77",
+      "mustMention": [
+        "Borussia Mönchengladbach"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-uefa-1975",
+    "category": "klubb",
+    "prompt": "Welcher deutsche Klub gewann 1975 den UEFA-Pokal gegen Twente Enschede?",
+    "answer": {
+      "label": "Borussia Mönchengladbach",
+      "aliases": [
+        "Gladbach",
+        "Mönchengladbach",
+        "Borussia"
+      ]
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "UEFA-Pokal 1974/75",
+      "mustMention": [
+        "Borussia Mönchengladbach"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-uefa-1979",
+    "category": "klubb",
+    "prompt": "Welcher deutsche Klub gewann 1979 den UEFA-Pokal gegen Roter Stern Belgrad?",
+    "answer": {
+      "label": "Borussia Mönchengladbach",
+      "aliases": [
+        "Gladbach",
+        "Mönchengladbach",
+        "Borussia"
+      ]
+    },
+    "fact": "Trainer war Udo Lattek.",
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "UEFA-Pokal 1978/79",
+      "mustMention": [
+        "Borussia Mönchengladbach"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-ec-1980-hsv",
+    "category": "klubb",
+    "prompt": "Welcher deutsche Klub verlor 1980 das Landesmeister-Finale gegen Nottingham Forest?",
+    "answer": {
+      "label": "Hamburger SV",
+      "aliases": [
+        "HSV",
+        "Hamburg"
+      ]
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Europapokal der Landesmeister 1979/80",
+      "mustMention": [
+        "Hamburger SV"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-ec-1982-bayern",
+    "category": "klubb",
+    "prompt": "Welcher deutsche Klub verlor 1982 das Landesmeister-Finale gegen Aston Villa?",
+    "answer": {
+      "label": "FC Bayern München",
+      "aliases": [
+        "Bayern",
+        "FC Bayern",
+        "Bayern München"
+      ]
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Europapokal der Landesmeister 1981/82",
+      "mustMention": [
+        "FC Bayern München"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-madjer",
+    "category": "spiller",
+    "prompt": "Welcher Spieler des FC Porto traf 1987 im Landesmeister-Finale gegen Bayern mit der Hacke?",
+    "answer": {
+      "label": "Rabah Madjer",
+      "aliases": [
+        "Madjer"
+      ]
+    },
+    "fact": "Porto gewann das Finale in Wien 2:1.",
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Rabah Madjer",
+      "mustMention": [
+        "Bayern",
+        "1987"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-uefa-1993",
+    "category": "klubb",
+    "prompt": "Welcher deutsche Klub verlor 1993 das UEFA-Pokal-Finale gegen Juventus Turin?",
+    "answer": {
+      "label": "Borussia Dortmund",
+      "aliases": [
+        "Dortmund",
+        "BVB",
+        "Borussia"
+      ]
+    },
+    "era": 1993,
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "UEFA-Pokal 1992/93",
+      "mustMention": [
+        "Borussia Dortmund"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-uefa-1996",
+    "category": "klubb",
+    "prompt": "Welcher deutsche Klub gewann 1996 den UEFA-Pokal gegen Girondins Bordeaux?",
+    "answer": {
+      "label": "FC Bayern München",
+      "aliases": [
+        "Bayern",
+        "FC Bayern",
+        "Bayern München"
+      ]
+    },
+    "era": 1996,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "UEFA-Pokal 1995/96",
+      "mustMention": [
+        "FC Bayern München"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-uefa-2002",
+    "category": "klubb",
+    "prompt": "Welcher deutsche Klub verlor 2002 das UEFA-Pokal-Finale gegen Feyenoord in Rotterdam?",
+    "answer": {
+      "label": "Borussia Dortmund",
+      "aliases": [
+        "Dortmund",
+        "BVB",
+        "Borussia"
+      ]
+    },
+    "era": 2002,
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "UEFA-Pokal 2001/02",
+      "mustMention": [
+        "Borussia Dortmund"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-uefa-2009",
+    "category": "klubb",
+    "prompt": "Welcher deutsche Klub verlor 2009 das letzte UEFA-Pokal-Finale gegen Schachtar Donezk?",
+    "answer": {
+      "label": "Werder Bremen",
+      "aliases": [
+        "Werder",
+        "Bremen",
+        "SV Werder Bremen"
+      ]
+    },
+    "fact": "Danach hieß der Wettbewerb Europa League.",
+    "era": 2009,
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "UEFA-Pokal 2008/09",
+      "mustMention": [
+        "Werder Bremen"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-cl-2010",
+    "category": "resultat",
+    "prompt": "Gegen welchen Klub verlor der FC Bayern 2010 das Champions-League-Finale in Madrid?",
+    "answer": {
+      "label": "Inter Mailand",
+      "aliases": [
+        "Inter",
+        "Internazionale"
+      ]
+    },
+    "fact": "Diego Milito traf zweimal.",
+    "era": 2010,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "UEFA Champions League 2009/10",
+      "mustMention": [
+        "Inter Mailand"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-weltpokal-2001",
+    "category": "resultat",
+    "prompt": "Gegen welchen Klub gewann der FC Bayern 2001 den Weltpokal in Tokio?",
+    "answer": {
+      "label": "Boca Juniors",
+      "aliases": [
+        "Boca"
+      ]
+    },
+    "fact": "Samuel Kuffour traf in der Verlängerung.",
+    "era": 2001,
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Weltpokal 2001",
+      "mustMention": [
+        "Boca Juniors"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-weltpokal-1997",
+    "category": "resultat",
+    "prompt": "Gegen welchen brasilianischen Klub gewann Borussia Dortmund 1997 den Weltpokal?",
+    "answer": {
+      "label": "Cruzeiro Belo Horizonte",
+      "aliases": [
+        "Cruzeiro",
+        "Cruzeiro EC"
+      ]
+    },
+    "era": 1997,
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Weltpokal 1997",
+      "mustMention": [
+        "Cruzeiro Belo Horizonte"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-klub-wm-2013",
+    "category": "resultat",
+    "prompt": "Gegen welchen marokkanischen Klub gewann der FC Bayern 2013 das Finale der Klub-WM?",
+    "answer": {
+      "label": "Raja Casablanca",
+      "aliases": [
+        "Raja"
+      ]
+    },
+    "era": 2013,
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "FIFA-Klub-Weltmeisterschaft 2013",
+      "mustMention": [
+        "Raja Casablanca"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-lok-leipzig-1987",
+    "category": "klubb",
+    "prompt": "Welcher DDR-Klub verlor 1987 das Finale im Europapokal der Pokalsieger gegen Ajax Amsterdam?",
+    "answer": {
+      "label": "Lokomotive Leipzig",
+      "aliases": [
+        "Lok Leipzig",
+        "1. FC Lokomotive Leipzig",
+        "1. FC Lok Leipzig"
+      ]
+    },
+    "difficulty": 4,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Europapokal der Pokalsieger 1986/87",
+      "mustMention": [
+        "Lokomotive Leipzig"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-jena-1981",
+    "category": "klubb",
+    "prompt": "Welcher DDR-Klub verlor 1981 das Finale im Europapokal der Pokalsieger gegen Dinamo Tiflis?",
+    "answer": {
+      "label": "FC Carl Zeiss Jena",
+      "aliases": [
+        "Carl Zeiss Jena",
+        "Jena"
+      ]
+    },
+    "difficulty": 4,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Europapokal der Pokalsieger 1980/81",
+      "mustMention": [
+        "FC Carl Zeiss Jena"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-erstes-tor",
+    "category": "spiller",
+    "prompt": "Wer schoss 1963 das erste Tor der Bundesliga-Geschichte?",
+    "answer": {
+      "label": "Timo Konietzka",
+      "aliases": [
+        "Konietzka",
+        "Friedhelm Konietzka"
+      ]
+    },
+    "fact": "Er traf für Dortmund in Bremen nach weniger als einer Minute.",
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Timo Konietzka",
+      "mustMention": [
+        "1963",
+        "Werder"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-hertha-1965",
+    "category": "klubb",
+    "prompt": "Welcher Klub musste 1965 wegen überhöhter Spielergehälter aus der Bundesliga absteigen?",
+    "answer": {
+      "label": "Hertha BSC",
+      "aliases": [
+        "Hertha",
+        "Hertha Berlin"
+      ]
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Hertha BSC",
+      "mustMention": [
+        "1965",
+        "Lizenz"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-tasmania",
+    "category": "klubb",
+    "prompt": "Welcher Berliner Klub stellte 1965/66 die schlechteste Bilanz der Bundesliga-Geschichte auf?",
+    "answer": {
+      "label": "Tasmania Berlin",
+      "aliases": [
+        "Tasmania",
+        "SC Tasmania 1900 Berlin"
+      ]
+    },
+    "fact": "Tasmania gewann in der ganzen Saison nur zwei Spiele.",
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "SC Tasmania 1900 Berlin",
+      "mustMention": [
+        "Tasmania Berlin",
+        "1965"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-skandal-1971",
+    "category": "klubb",
+    "prompt": "Der Präsident welches Klubs deckte 1971 den Bundesliga-Skandal auf?",
+    "answer": {
+      "label": "Kickers Offenbach",
+      "aliases": [
+        "Offenbach",
+        "OFC"
+      ]
+    },
+    "fact": "Horst-Gregorio Canellas spielte Tonbänder auf seiner Geburtstagsfeier vor.",
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Bundesliga-Skandal (1971)",
+      "mustMention": [
+        "Kickers Offenbach",
+        "Canellas"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-frankfurt-1999",
+    "category": "klubb",
+    "prompt": "Welcher Klub rettete sich 1999 am letzten Spieltag mit einem 5:1 gegen Kaiserslautern vor dem Abstieg?",
+    "answer": {
+      "label": "Eintracht Frankfurt",
+      "aliases": [
+        "Frankfurt",
+        "Eintracht"
+      ]
+    },
+    "fact": "Dafür stieg der 1. FC Nürnberg ab.",
+    "era": 1999,
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Bundesliga 1998/99",
+      "mustMention": [
+        "Eintracht Frankfurt"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-helmer-phantomtor",
+    "category": "spiller",
+    "prompt": "Welcher Bayern-Spieler erzielte 1994 gegen Nürnberg das berühmte Phantomtor?",
+    "answer": {
+      "label": "Thomas Helmer",
+      "aliases": [
+        "Helmer"
+      ]
+    },
+    "fact": "Das Spiel wurde wiederholt.",
+    "era": 1994,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Thomas Helmer",
+      "mustMention": [
+        "Phantomtor",
+        "Nürnberg"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-kiessling-phantomtor",
+    "category": "spiller",
+    "prompt": "Welcher Leverkusener erzielte 2013 in Hoffenheim ein Phantomtor durch das Außennetz?",
+    "answer": {
+      "label": "Stefan Kießling",
+      "aliases": [
+        "Kießling"
+      ]
+    },
+    "era": 2013,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Stefan Kießling",
+      "mustMention": [
+        "Phantomtor",
+        "Hoffenheim"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-dreipunkte",
+    "category": "klubb",
+    "prompt": "Seit welcher Saison gibt es in der Bundesliga drei Punkte für einen Sieg?",
+    "answer": {
+      "label": "1995/96",
+      "aliases": [
+        "1995"
+      ]
+    },
+    "era": 1995,
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Bundesliga 1995/96",
+      "mustMention": [
+        "Drei-Punkte-Regel"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-dritte-liga",
+    "category": "klubb",
+    "prompt": "Welche Spielklasse wurde 2008 als neue dritthöchste Liga eingeführt?",
+    "answer": {
+      "label": "3. Liga",
+      "aliases": [
+        "Dritte Liga"
+      ]
+    },
+    "era": 2008,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "3. Fußball-Liga",
+      "mustMention": [
+        "3. Liga",
+        "2008"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-moukoko",
+    "category": "spiller",
+    "prompt": "Welcher Dortmunder wurde 2020 mit 16 Jahren jüngster Torschütze der Bundesliga-Geschichte?",
+    "answer": {
+      "label": "Youssoufa Moukoko",
+      "aliases": [
+        "Moukoko"
+      ]
+    },
+    "era": 2020,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Youssoufa Moukoko",
+      "mustMention": [
+        "Union"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-revierderby-4-4",
+    "category": "resultat",
+    "prompt": "Wie endete das Revierderby 2017, in dem Schalke einen 0:4-Rückstand aufholte?",
+    "answer": {
+      "label": "4:4",
+      "aliases": [
+        "4 zu 4"
+      ]
+    },
+    "era": 2017,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Revierderby",
+      "mustMention": [
+        "4:4"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-hoyzer",
+    "category": "klubb",
+    "prompt": "Welcher Schiedsrichter stand im Mittelpunkt des Wettskandals von 2005?",
+    "answer": {
+      "label": "Robert Hoyzer",
+      "aliases": [
+        "Hoyzer"
+      ]
+    },
+    "fact": "Er hatte unter anderem ein Pokalspiel des SC Paderborn gegen den HSV manipuliert.",
+    "era": 2005,
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Robert Hoyzer",
+      "mustMention": [
+        "Paderborn",
+        "2004"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-merk-2003",
+    "category": "klubb",
+    "prompt": "Welcher deutsche Schiedsrichter leitete 2003 das Champions-League-Finale in Manchester?",
+    "answer": {
+      "label": "Markus Merk",
+      "aliases": [
+        "Merk"
+      ]
+    },
+    "fact": "Er ist von Beruf Zahnarzt.",
+    "era": 2003,
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Markus Merk",
+      "mustMention": [
+        "2003",
+        "Manchester"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-brych-2017",
+    "category": "klubb",
+    "prompt": "Welcher deutsche Schiedsrichter leitete 2017 das Champions-League-Finale in Cardiff?",
+    "answer": {
+      "label": "Felix Brych",
+      "aliases": [
+        "Brych"
+      ]
+    },
+    "era": 2017,
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Felix Brych",
+      "mustMention": [
+        "Cardiff"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-wm-1954-ort",
+    "category": "landslag",
+    "prompt": "In welchem Land fand die WM 1954 statt?",
+    "answer": {
+      "label": "Schweiz",
+      "aliases": []
+    },
+    "difficulty": 1,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Weltmeisterschaft 1954",
+      "mustMention": [
+        "Schweiz"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-wm-1966-finale",
+    "category": "landslag",
+    "prompt": "Gegen welches Land verlor Deutschland das WM-Finale 1966?",
+    "answer": {
+      "label": "England",
+      "aliases": []
+    },
+    "fact": "Das Finale ging in die Verlängerung.",
+    "difficulty": 1,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Weltmeisterschaft 1966",
+      "mustMention": [
+        "England"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-wm-1982-finale",
+    "category": "landslag",
+    "prompt": "Gegen welches Land verlor Deutschland das WM-Finale 1982?",
+    "answer": {
+      "label": "Italien",
+      "aliases": []
+    },
+    "fact": "Das Finale fand in Madrid statt.",
+    "difficulty": 1,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Weltmeisterschaft 1982",
+      "mustMention": [
+        "Italien"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-wm-1986-finale",
+    "category": "landslag",
+    "prompt": "Gegen welches Land verlor Deutschland das WM-Finale 1986?",
+    "answer": {
+      "label": "Argentinien",
+      "aliases": []
+    },
+    "fact": "Das Finale in Mexiko-Stadt endete 2:3.",
+    "difficulty": 1,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Weltmeisterschaft 1986",
+      "mustMention": [
+        "Argentinien"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-wm-1994-aus",
+    "category": "landslag",
+    "prompt": "Gegen welches Land schied Deutschland bei der WM 1994 im Viertelfinale aus?",
+    "answer": {
+      "label": "Bulgarien",
+      "aliases": []
+    },
+    "era": 1994,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Weltmeisterschaft 1994",
+      "mustMention": [
+        "Bulgarien"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-wm-1998-aus",
+    "category": "landslag",
+    "prompt": "Gegen welches Land verlor Deutschland 1998 das WM-Viertelfinale 0:3?",
+    "answer": {
+      "label": "Kroatien",
+      "aliases": []
+    },
+    "era": 1998,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Weltmeisterschaft 1998",
+      "mustMention": [
+        "Kroatien"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-wm-2010-aus",
+    "category": "landslag",
+    "prompt": "Gegen welches Land schied Deutschland 2010 im WM-Halbfinale aus?",
+    "answer": {
+      "label": "Spanien",
+      "aliases": []
+    },
+    "fact": "Carles Puyol köpfte das einzige Tor.",
+    "era": 2010,
+    "difficulty": 1,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Weltmeisterschaft 2010",
+      "mustMention": [
+        "Spanien"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-wm-2010-arg",
+    "category": "resultat",
+    "prompt": "Mit welchem Ergebnis schlug Deutschland Argentinien im WM-Viertelfinale 2010?",
+    "answer": {
+      "label": "4:0",
+      "aliases": [
+        "4 zu 0"
+      ]
+    },
+    "era": 2010,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Weltmeisterschaft 2010",
+      "mustMention": [
+        "4:0"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-wm-2010-eng",
+    "category": "resultat",
+    "prompt": "Mit welchem Ergebnis schlug Deutschland England im WM-Achtelfinale 2010?",
+    "answer": {
+      "label": "4:1",
+      "aliases": [
+        "4 zu 1"
+      ]
+    },
+    "fact": "Ein klares Tor von Frank Lampard wurde nicht gegeben.",
+    "era": 2010,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Weltmeisterschaft 2010",
+      "mustMention": [
+        "4:1"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-wm-2002-ksa",
+    "category": "resultat",
+    "prompt": "Mit welchem Ergebnis schlug Deutschland Saudi-Arabien zum Auftakt der WM 2002?",
+    "answer": {
+      "label": "8:0",
+      "aliases": [
+        "8 zu 0"
+      ]
+    },
+    "fact": "Miroslav Klose traf dreimal per Kopf.",
+    "era": 2002,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Weltmeisterschaft 2002",
+      "mustMention": [
+        "8:0"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-san-marino",
+    "category": "resultat",
+    "prompt": "Mit welchem Ergebnis gewann Deutschland 2006 in San Marino – bis heute Rekordsieg?",
+    "answer": {
+      "label": "13:0",
+      "aliases": [
+        "13 zu 0"
+      ]
+    },
+    "era": 2006,
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Deutsche Fußballnationalmannschaft",
+      "mustMention": [
+        "13:0"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-klose-2006",
+    "category": "spiller",
+    "prompt": "Wer wurde bei der Heim-WM 2006 Torschützenkönig?",
+    "answer": {
+      "label": "Miroslav Klose",
+      "aliases": [
+        "Klose"
+      ]
+    },
+    "fact": "Er traf fünfmal.",
+    "era": 2006,
+    "difficulty": 1,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Weltmeisterschaft 2006",
+      "mustMention": [
+        "Miroslav Klose"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-lahm-2006",
+    "category": "spiller",
+    "prompt": "Wer schoss 2006 das erste Tor der Heim-WM, gegen Costa Rica?",
+    "answer": {
+      "label": "Philipp Lahm",
+      "aliases": [
+        "Lahm"
+      ]
+    },
+    "fact": "Es war ein Schlenzer in den Winkel.",
+    "era": 2006,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Philipp Lahm",
+      "mustMention": [
+        "Costa Rica",
+        "2006"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-wm-2006-slogan",
+    "category": "landslag",
+    "prompt": "Wie lautete das Motto der WM 2006 in Deutschland?",
+    "answer": {
+      "label": "Die Welt zu Gast bei Freunden",
+      "aliases": [
+        "Welt zu Gast bei Freunden"
+      ]
+    },
+    "era": 2006,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Weltmeisterschaft 2006",
+      "mustMention": [
+        "Die Welt zu Gast bei Freunden"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-goleo",
+    "category": "landslag",
+    "prompt": "Wie hieß das Löwen-Maskottchen der WM 2006?",
+    "answer": {
+      "label": "Goleo",
+      "aliases": [
+        "Goleo VI"
+      ]
+    },
+    "era": 2006,
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Weltmeisterschaft 2006",
+      "mustMention": [
+        "Goleo"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-albaert",
+    "category": "landslag",
+    "prompt": "Wie hieß das Bären-Maskottchen der EM 2024?",
+    "answer": {
+      "label": "Albärt",
+      "aliases": [
+        "Albaert"
+      ]
+    },
+    "era": 2024,
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Europameisterschaft 2024",
+      "mustMention": [
+        "Albärt"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-em-2024-sieger",
+    "category": "landslag",
+    "prompt": "Wer gewann 2024 das EM-Finale in Berlin?",
+    "answer": {
+      "label": "Spanien",
+      "aliases": []
+    },
+    "fact": "Spanien schlug England 2:1.",
+    "era": 2024,
+    "difficulty": 1,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Europameisterschaft 2024",
+      "mustMention": [
+        "Spanien"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-em-1988-gast",
+    "category": "landslag",
+    "prompt": "Welches Land richtete die EM 1988 aus?",
+    "answer": {
+      "label": "Deutschland",
+      "aliases": [
+        "BRD",
+        "Bundesrepublik Deutschland",
+        "Westdeutschland"
+      ]
+    },
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Europameisterschaft 1988",
+      "mustMention": [
+        "Deutschland"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-em-1988-sieger",
+    "category": "landslag",
+    "prompt": "Wer gewann die EM 1988?",
+    "answer": {
+      "label": "Niederlande",
+      "aliases": [
+        "Holland"
+      ]
+    },
+    "fact": "Marco van Basten traf im Finale per Volley.",
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Europameisterschaft 1988",
+      "mustMention": [
+        "Niederlande"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-em-1992-finale",
+    "category": "landslag",
+    "prompt": "Gegen welches Land verlor Deutschland das EM-Finale 1992?",
+    "answer": {
+      "label": "Dänemark",
+      "aliases": []
+    },
+    "fact": "Dänemark war erst kurzfristig nachgerückt.",
+    "era": 1992,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Europameisterschaft 1992",
+      "mustMention": [
+        "Dänemark"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-em-2012-balotelli",
+    "category": "spiller",
+    "prompt": "Wer schoss 2012 beide Tore für Italien im EM-Halbfinale gegen Deutschland?",
+    "answer": {
+      "label": "Mario Balotelli",
+      "aliases": [
+        "Balotelli"
+      ]
+    },
+    "era": 2012,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Europameisterschaft 2012",
+      "mustMention": [
+        "Mario Balotelli"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-em-2016-aus",
+    "category": "landslag",
+    "prompt": "Gegen welches Land schied Deutschland bei der EM 2016 im Halbfinale aus?",
+    "answer": {
+      "label": "Frankreich",
+      "aliases": []
+    },
+    "era": 2016,
+    "difficulty": 1,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Europameisterschaft 2016",
+      "mustMention": [
+        "Frankreich"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-em-2021-aus",
+    "category": "landslag",
+    "prompt": "Gegen welches Land schied Deutschland bei der EM 2021 im Achtelfinale aus?",
+    "answer": {
+      "label": "England",
+      "aliases": []
+    },
+    "fact": "Das Spiel fand in Wembley statt.",
+    "era": 2021,
+    "difficulty": 1,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Europameisterschaft 2021",
+      "mustMention": [
+        "England"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-confed-2017",
+    "category": "landslag",
+    "prompt": "Welches Land gewann 2017 mit einer jungen Mannschaft den Confed-Cup?",
+    "answer": {
+      "label": "Deutschland",
+      "aliases": []
+    },
+    "fact": "Im Finale schlug Deutschland Chile 1:0.",
+    "era": 2017,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "FIFA-Konföderationen-Pokal 2017",
+      "mustMention": [
+        "Deutschland",
+        "Chile"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-stindl",
+    "category": "spiller",
+    "prompt": "Wer schoss im Confed-Cup-Finale 2017 das Siegtor gegen Chile?",
+    "answer": {
+      "label": "Lars Stindl",
+      "aliases": [
+        "Stindl"
+      ]
+    },
+    "era": 2017,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "FIFA-Konföderationen-Pokal 2017",
+      "mustMention": [
+        "Lars Stindl"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-schuerrle-flanke",
+    "category": "spiller",
+    "prompt": "Wer gab im WM-Finale 2014 die Flanke zu Mario Götzes Siegtor?",
+    "answer": {
+      "label": "André Schürrle",
+      "aliases": [
+        "Schürrle"
+      ]
+    },
+    "era": 2014,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Mario Götze",
+      "mustMention": [
+        "André Schürrle"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-sammer-ddr",
+    "category": "spiller",
+    "prompt": "Wer schoss 1990 beim letzten Länderspiel der DDR beide Tore in Belgien?",
+    "answer": {
+      "label": "Matthias Sammer",
+      "aliases": [
+        "Sammer"
+      ]
+    },
+    "era": 1990,
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Matthias Sammer",
+      "mustMention": [
+        "Belgien",
+        "1990"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-prinz",
+    "category": "spiller",
+    "prompt": "Welche Spielerin wurde von 2003 bis 2005 dreimal in Folge Weltfußballerin?",
+    "answer": {
+      "label": "Birgit Prinz",
+      "aliases": [
+        "Prinz"
+      ]
+    },
+    "era": 2005,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Birgit Prinz",
+      "mustMention": [
+        "Weltfußballerin"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-kuenzer",
+    "category": "spiller",
+    "prompt": "Wer schoss im WM-Finale 2003 das Golden Goal für die deutschen Frauen?",
+    "answer": {
+      "label": "Nia Künzer",
+      "aliases": [
+        "Künzer"
+      ]
+    },
+    "fact": "Es war ein Kopfballtor gegen Schweden.",
+    "era": 2003,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Nia Künzer",
+      "mustMention": [
+        "Golden Goal",
+        "2003"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-frauen-wm-2003",
+    "category": "landslag",
+    "prompt": "Gegen welches Land gewannen die deutschen Frauen 2003 das WM-Finale?",
+    "answer": {
+      "label": "Schweden",
+      "aliases": []
+    },
+    "era": 2003,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Weltmeisterschaft der Frauen 2003",
+      "mustMention": [
+        "Schweden"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-frauen-wm-2007",
+    "category": "landslag",
+    "prompt": "Gegen welches Land gewannen die deutschen Frauen 2007 das WM-Finale?",
+    "answer": {
+      "label": "Brasilien",
+      "aliases": []
+    },
+    "fact": "Deutschland blieb das ganze Turnier ohne Gegentor.",
+    "era": 2007,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Weltmeisterschaft der Frauen 2007",
+      "mustMention": [
+        "Brasilien"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-angerer",
+    "category": "spiller",
+    "prompt": "Welche Torhüterin hielt im WM-Finale 2007 einen Elfmeter der Brasilianerin Marta?",
+    "answer": {
+      "label": "Nadine Angerer",
+      "aliases": [
+        "Angerer"
+      ]
+    },
+    "era": 2007,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Nadine Angerer",
+      "mustMention": [
+        "Marta",
+        "2007"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-theune",
+    "category": "trener",
+    "prompt": "Welche Trainerin führte die deutschen Frauen 2003 zum ersten WM-Titel?",
+    "answer": {
+      "label": "Tina Theune",
+      "aliases": [
+        "Theune",
+        "Tina Theune-Meyer"
+      ]
+    },
+    "era": 2003,
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Tina Theune",
+      "mustMention": [
+        "2003"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-neid-2016",
+    "category": "trener",
+    "prompt": "Welche Bundestrainerin holte 2016 in Rio de Janeiro olympisches Gold?",
+    "answer": {
+      "label": "Silvia Neid",
+      "aliases": [
+        "Neid"
+      ]
+    },
+    "fact": "Es war ihr letztes Turnier als Bundestrainerin.",
+    "era": 2016,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Silvia Neid",
+      "mustMention": [
+        "Rio de Janeiro"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-frauen-em-2022",
+    "category": "landslag",
+    "prompt": "Gegen welches Land verloren die deutschen Frauen 2022 das EM-Finale in Wembley?",
+    "answer": {
+      "label": "England",
+      "aliases": []
+    },
+    "fact": "England gewann 2:1 nach Verlängerung.",
+    "era": 2022,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fußball-Europameisterschaft der Frauen 2022",
+      "mustMention": [
+        "England"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-popp-2022",
+    "category": "spiller",
+    "prompt": "Welche Kapitänin fiel 2022 kurz vor dem EM-Finale verletzt aus?",
+    "answer": {
+      "label": "Alexandra Popp",
+      "aliases": [
+        "Popp"
+      ]
+    },
+    "fact": "Sie hatte zuvor in jedem Spiel des Turniers getroffen.",
+    "era": 2022,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Alexandra Popp",
+      "mustMention": [
+        "2022",
+        "Finale"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-rahn-boss",
+    "category": "spiller",
+    "prompt": "Welchen Spitznamen trug Helmut Rahn?",
+    "answer": {
+      "label": "Der Boss",
+      "aliases": [
+        "Boss"
+      ]
+    },
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Helmut Rahn",
+      "mustMention": [
+        "Der Boss"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-turek",
+    "category": "spiller",
+    "prompt": "Welchen Torwart nannte Reporter Zimmermann 1954 einen „Fußballgott“?",
+    "answer": {
+      "label": "Toni Turek",
+      "aliases": [
+        "Turek"
+      ]
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Toni Turek",
+      "mustMention": [
+        "Fußballgott"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-fischer-fallrueckzieher",
+    "category": "spiller",
+    "prompt": "Welcher Schalker Stürmer wurde durch seine Fallrückzieher berühmt?",
+    "answer": {
+      "label": "Klaus Fischer",
+      "aliases": [
+        "Fischer"
+      ]
+    },
+    "fact": "Sein Fallrückzieher gegen die Schweiz 1977 wurde zum Tor des Jahrhunderts gewählt.",
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Klaus Fischer",
+      "mustMention": [
+        "Fallrückzieher"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-kaltz",
+    "category": "spiller",
+    "prompt": "Welcher HSV-Verteidiger wurde für seine „Bananenflanken“ bekannt?",
+    "answer": {
+      "label": "Manfred Kaltz",
+      "aliases": [
+        "Kaltz"
+      ]
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Manfred Kaltz",
+      "mustMention": [
+        "Bananenflanken"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-buchwald-diego",
+    "category": "spiller",
+    "prompt": "Welcher Weltmeister von 1990 bekam den Spitznamen „Diego“, weil er Maradona im Finale ausschaltete?",
+    "answer": {
+      "label": "Guido Buchwald",
+      "aliases": [
+        "Buchwald"
+      ]
+    },
+    "era": 1990,
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Guido Buchwald",
+      "mustMention": [
+        "Diego"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-voeller-tante",
+    "category": "spiller",
+    "prompt": "Welcher Stürmer trägt den Spitznamen „Tante Käthe“?",
+    "answer": {
+      "label": "Rudi Völler",
+      "aliases": [
+        "Völler"
+      ]
+    },
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Rudi Völler",
+      "mustMention": [
+        "Tante Käthe"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-kahn-titan",
+    "category": "spiller",
+    "prompt": "Welcher Torwart wurde „Titan“ genannt?",
+    "answer": {
+      "label": "Oliver Kahn",
+      "aliases": [
+        "Kahn"
+      ]
+    },
+    "difficulty": 1,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Oliver Kahn",
+      "mustMention": [
+        "Titan"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-schweini",
+    "category": "spiller",
+    "prompt": "Welcher Weltmeister von 2014 wurde „Schweini“ genannt?",
+    "answer": {
+      "label": "Bastian Schweinsteiger",
+      "aliases": [
+        "Schweinsteiger"
+      ]
+    },
+    "difficulty": 1,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Bastian Schweinsteiger",
+      "mustMention": [
+        "Schweini"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-poldi",
+    "category": "spiller",
+    "prompt": "Welcher Weltmeister von 2014 wird „Poldi“ genannt?",
+    "answer": {
+      "label": "Lukas Podolski",
+      "aliases": [
+        "Podolski"
+      ]
+    },
+    "difficulty": 1,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Lukas Podolski",
+      "mustMention": [
+        "Poldi"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-kimmich-leipzig",
+    "category": "spiller",
+    "prompt": "Von welchem Klub kam Joshua Kimmich 2015 zum FC Bayern?",
+    "answer": {
+      "label": "RB Leipzig",
+      "aliases": [
+        "Leipzig"
+      ]
+    },
+    "era": 2015,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Joshua Kimmich",
+      "mustMention": [
+        "RB Leipzig",
+        "2015"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-sane-city",
+    "category": "spiller",
+    "prompt": "Von welchem Klub kam Leroy Sané 2020 zum FC Bayern?",
+    "answer": {
+      "label": "Manchester City",
+      "aliases": [
+        "City",
+        "Man City"
+      ]
+    },
+    "era": 2020,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Leroy Sané",
+      "mustMention": [
+        "Manchester City",
+        "2020"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-ruediger-real",
+    "category": "spiller",
+    "prompt": "Für welchen Klub spielt Antonio Rüdiger seit 2022?",
+    "answer": {
+      "label": "Real Madrid",
+      "aliases": [
+        "Real"
+      ]
+    },
+    "era": 2022,
+    "difficulty": 1,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Antonio Rüdiger",
+      "mustMention": [
+        "Real Madrid",
+        "2022"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-ter-stegen",
+    "category": "spiller",
+    "prompt": "Bei welchem Klub steht Marc-André ter Stegen seit 2014 im Tor?",
+    "answer": {
+      "label": "FC Barcelona",
+      "aliases": [
+        "Barcelona",
+        "Barça"
+      ]
+    },
+    "era": 2014,
+    "difficulty": 1,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Marc-André ter Stegen",
+      "mustMention": [
+        "FC Barcelona",
+        "2014"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-goretzka",
+    "category": "spiller",
+    "prompt": "Von welchem Klub kam Leon Goretzka 2018 zum FC Bayern?",
+    "answer": {
+      "label": "FC Schalke 04",
+      "aliases": [
+        "Schalke",
+        "Schalke 04"
+      ]
+    },
+    "era": 2018,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Leon Goretzka",
+      "mustMention": [
+        "FC Schalke 04",
+        "2018"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-gnabry-arsenal",
+    "category": "spiller",
+    "prompt": "Bei welchem Londoner Klub wurde Serge Gnabry ausgebildet?",
+    "answer": {
+      "label": "FC Arsenal",
+      "aliases": [
+        "Arsenal",
+        "Arsenal London"
+      ]
+    },
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Serge Gnabry",
+      "mustMention": [
+        "FC Arsenal"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-fuellkrug",
+    "category": "spiller",
+    "prompt": "Mit welchem Klub wurde Niclas Füllkrug 2022/23 Torschützenkönig der Bundesliga?",
+    "answer": {
+      "label": "Werder Bremen",
+      "aliases": [
+        "Werder",
+        "Bremen",
+        "SV Werder Bremen"
+      ]
+    },
+    "era": 2023,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Niclas Füllkrug",
+      "mustMention": [
+        "Werder Bremen",
+        "Torschützenkönig"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-goetze-frankfurt",
+    "category": "spiller",
+    "prompt": "Für welchen Klub spielt Mario Götze seit 2022?",
+    "answer": {
+      "label": "Eintracht Frankfurt",
+      "aliases": [
+        "Frankfurt",
+        "Eintracht"
+      ]
+    },
+    "era": 2022,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Mario Götze",
+      "mustMention": [
+        "Eintracht Frankfurt",
+        "2022"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-boateng-bruder",
+    "category": "spiller",
+    "prompt": "Welcher Halbbruder von Jérôme Boateng spielte für Ghana?",
+    "answer": {
+      "label": "Kevin-Prince Boateng",
+      "aliases": [
+        "Kevin-Prince"
+      ]
+    },
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Jérôme Boateng",
+      "mustMention": [
+        "Kevin-Prince Boateng",
+        "Ghana"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-mertesacker",
+    "category": "spiller",
+    "prompt": "Zu welchem Londoner Klub wechselte Per Mertesacker 2011?",
+    "answer": {
+      "label": "FC Arsenal",
+      "aliases": [
+        "Arsenal",
+        "Arsenal London"
+      ]
+    },
+    "fact": "Später leitete er dort die Nachwuchsakademie.",
+    "era": 2011,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Per Mertesacker",
+      "mustMention": [
+        "FC Arsenal",
+        "2011"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-khedira-2014",
+    "category": "spiller",
+    "prompt": "Mit welchem Klub gewann Sami Khedira 2014 die Champions League?",
+    "answer": {
+      "label": "Real Madrid",
+      "aliases": [
+        "Real"
+      ]
+    },
+    "era": 2014,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Sami Khedira",
+      "mustMention": [
+        "Real Madrid",
+        "2014"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-lehmann-invincibles",
+    "category": "spiller",
+    "prompt": "Mit welchem Klub blieb Jens Lehmann 2003/04 eine ganze Premier-League-Saison ungeschlagen?",
+    "answer": {
+      "label": "FC Arsenal",
+      "aliases": [
+        "Arsenal",
+        "Arsenal London"
+      ]
+    },
+    "era": 2004,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Jens Lehmann",
+      "mustMention": [
+        "FC Arsenal",
+        "ungeschlagen"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-hamann-wembley",
+    "category": "spiller",
+    "prompt": "Welcher Deutsche schoss im Jahr 2000 das letzte Tor im alten Wembley-Stadion?",
+    "answer": {
+      "label": "Dietmar Hamann",
+      "aliases": [
+        "Hamann",
+        "Didi Hamann"
+      ]
+    },
+    "fact": "Er traf per Freistoß zum 1:0 gegen England.",
+    "era": 2000,
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Dietmar Hamann",
+      "mustMention": [
+        "Wembley",
+        "2000"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-bierhoff-udinese",
+    "category": "spiller",
+    "prompt": "Mit welchem italienischen Klub wurde Oliver Bierhoff 1998 Torschützenkönig der Serie A?",
+    "answer": {
+      "label": "Udinese Calcio",
+      "aliases": [
+        "Udinese"
+      ]
+    },
+    "era": 1998,
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Oliver Bierhoff",
+      "mustMention": [
+        "Udinese Calcio"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-riedle-1997",
+    "category": "spiller",
+    "prompt": "Wer schoss im Champions-League-Finale 1997 die ersten beiden Dortmunder Tore?",
+    "answer": {
+      "label": "Karl-Heinz Riedle",
+      "aliases": [
+        "Riedle"
+      ]
+    },
+    "era": 1997,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Karl-Heinz Riedle",
+      "mustMention": [
+        "Juventus",
+        "1997"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-robbery",
+    "category": "spiller",
+    "prompt": "Unter welchem Namen wurde das Bayern-Flügelduo Robben und Ribéry bekannt?",
+    "answer": {
+      "label": "Robbery",
+      "aliases": []
+    },
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Franck Ribéry",
+      "mustMention": [
+        "Robbery"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-kane-tottenham",
+    "category": "spiller",
+    "prompt": "Von welchem Klub kam Harry Kane 2023 zum FC Bayern?",
+    "answer": {
+      "label": "Tottenham Hotspur",
+      "aliases": [
+        "Tottenham",
+        "Spurs"
+      ]
+    },
+    "era": 2023,
+    "difficulty": 1,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Harry Kane",
+      "mustMention": [
+        "Tottenham Hotspur",
+        "2023"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-musiala-geburt",
+    "category": "spiller",
+    "prompt": "In welcher Stadt wurde Jamal Musiala geboren?",
+    "answer": {
+      "label": "Stuttgart",
+      "aliases": []
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Jamal Musiala",
+      "mustMention": [
+        "Stuttgart"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-havertz-arsenal",
+    "category": "spiller",
+    "prompt": "Zu welchem Londoner Klub wechselte Kai Havertz 2023?",
+    "answer": {
+      "label": "FC Arsenal",
+      "aliases": [
+        "Arsenal",
+        "Arsenal London"
+      ]
+    },
+    "era": 2023,
+    "difficulty": 1,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Kai Havertz",
+      "mustMention": [
+        "FC Arsenal",
+        "2023"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-wirtz-profi",
+    "category": "spiller",
+    "prompt": "Bei welchem Klub wurde Florian Wirtz Bundesliga-Profi?",
+    "answer": {
+      "label": "Bayer 04 Leverkusen",
+      "aliases": [
+        "Leverkusen",
+        "Bayer Leverkusen"
+      ]
+    },
+    "fact": "Zuvor spielte er in der Jugend des 1. FC Köln.",
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Florian Wirtz",
+      "mustMention": [
+        "Bayer 04 Leverkusen"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-hummels-bayern",
+    "category": "spiller",
+    "prompt": "Von welchem Klub kam Mats Hummels 2008 zu Borussia Dortmund?",
+    "answer": {
+      "label": "FC Bayern München",
+      "aliases": [
+        "Bayern",
+        "FC Bayern",
+        "Bayern München"
+      ]
+    },
+    "era": 2008,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Mats Hummels",
+      "mustMention": [
+        "FC Bayern München",
+        "2008"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-kroos-ende",
+    "category": "spiller",
+    "prompt": "In welchem Jahr beendete Toni Kroos seine Karriere?",
+    "answer": {
+      "label": "2024",
+      "aliases": []
+    },
+    "fact": "Sein letztes Spiel war das EM-Viertelfinale gegen Spanien.",
+    "era": 2024,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Toni Kroos",
+      "mustMention": [
+        "2024"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-guendogan-bvb",
+    "category": "spiller",
+    "prompt": "Für welchen Klub spielte İlkay Gündoğan vor seinem Wechsel zu Manchester City?",
+    "answer": {
+      "label": "Borussia Dortmund",
+      "aliases": [
+        "Dortmund",
+        "BVB",
+        "Borussia"
+      ]
+    },
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "İlkay Gündoğan",
+      "mustMention": [
+        "Borussia Dortmund"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-oezil-fener",
+    "category": "spiller",
+    "prompt": "Zu welchem türkischen Klub wechselte Mesut Özil 2021?",
+    "answer": {
+      "label": "Fenerbahçe",
+      "aliases": [
+        "Fenerbahce Istanbul"
+      ]
+    },
+    "era": 2021,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Mesut Özil",
+      "mustMention": [
+        "Fenerbahçe",
+        "2021"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-klose-fck",
+    "category": "spiller",
+    "prompt": "Bei welchem Klub wurde Miroslav Klose Bundesliga-Profi?",
+    "answer": {
+      "label": "1. FC Kaiserslautern",
+      "aliases": [
+        "Kaiserslautern",
+        "FCK",
+        "Lautern"
+      ]
+    },
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Miroslav Klose",
+      "mustMention": [
+        "1. FC Kaiserslautern"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-matthaeus-metrostars",
+    "category": "spiller",
+    "prompt": "Bei welchem US-Klub beendete Lothar Matthäus im Jahr 2000 seine Karriere?",
+    "answer": {
+      "label": "MetroStars",
+      "aliases": [
+        "New York MetroStars",
+        "NY/NJ MetroStars"
+      ]
+    },
+    "era": 2000,
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Lothar Matthäus",
+      "mustMention": [
+        "MetroStars"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-klinsmann-inter",
+    "category": "spiller",
+    "prompt": "Mit welchem Klub gewann Jürgen Klinsmann 1991 als Spieler den UEFA-Pokal?",
+    "answer": {
+      "label": "Inter Mailand",
+      "aliases": [
+        "Inter",
+        "Internazionale"
+      ]
+    },
+    "era": 1991,
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Jürgen Klinsmann",
+      "mustMention": [
+        "Inter Mailand",
+        "1991"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-voeller-marseille",
+    "category": "spiller",
+    "prompt": "Mit welchem französischen Klub gewann Rudi Völler 1993 die Champions League?",
+    "answer": {
+      "label": "Olympique Marseille",
+      "aliases": [
+        "Marseille",
+        "OM"
+      ]
+    },
+    "era": 1993,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Rudi Völler",
+      "mustMention": [
+        "Olympique Marseille",
+        "1993"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-libero",
+    "category": "spiller",
+    "prompt": "Welche Position hat Franz Beckenbauer geprägt wie kein anderer?",
+    "answer": {
+      "label": "Libero",
+      "aliases": []
+    },
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Franz Beckenbauer",
+      "mustMention": [
+        "Libero"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-maier-unfall",
+    "category": "spiller",
+    "prompt": "In welchem Jahr beendete ein Autounfall die Karriere von Sepp Maier?",
+    "answer": {
+      "label": "1979",
+      "aliases": []
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Sepp Maier",
+      "mustMention": [
+        "1979",
+        "Autounfall"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-mueller-usa",
+    "category": "spiller",
+    "prompt": "Für welchen US-Klub spielte Gerd Müller ab 1979?",
+    "answer": {
+      "label": "Fort Lauderdale Strikers",
+      "aliases": [
+        "Fort Lauderdale"
+      ]
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Gerd Müller",
+      "mustMention": [
+        "Fort Lauderdale Strikers"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-breitner-real",
+    "category": "spiller",
+    "prompt": "Zu welchem Klub wechselte Paul Breitner nach der WM 1974?",
+    "answer": {
+      "label": "Real Madrid",
+      "aliases": [
+        "Real"
+      ]
+    },
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Paul Breitner",
+      "mustMention": [
+        "Real Madrid",
+        "1974"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-netzer-delling",
+    "category": "spiller",
+    "prompt": "Welcher frühere Spielmacher bildete jahrelang ein TV-Expertenduo mit Gerhard Delling?",
+    "answer": {
+      "label": "Günter Netzer",
+      "aliases": [
+        "Netzer"
+      ]
+    },
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Günter Netzer",
+      "mustMention": [
+        "Delling"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-rummenigge-ballon",
+    "category": "spiller",
+    "prompt": "Welcher Deutsche gewann 1980 und 1981 den Ballon d’Or?",
+    "answer": {
+      "label": "Karl-Heinz Rummenigge",
+      "aliases": [
+        "Rummenigge",
+        "Kalle Rummenigge"
+      ]
+    },
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Karl-Heinz Rummenigge",
+      "mustMention": [
+        "1980",
+        "1981"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-beckenbauer-ballon",
+    "category": "spiller",
+    "prompt": "Welcher Deutsche gewann 1972 und 1976 den Ballon d’Or?",
+    "answer": {
+      "label": "Franz Beckenbauer",
+      "aliases": [
+        "Beckenbauer",
+        "Kaiser"
+      ]
+    },
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Franz Beckenbauer",
+      "mustMention": [
+        "1972",
+        "1976"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-kirsten",
+    "category": "spiller",
+    "prompt": "Welcher frühere DDR-Nationalspieler wurde mit Bayer Leverkusen dreimal Torschützenkönig der Bundesliga?",
+    "answer": {
+      "label": "Ulf Kirsten",
+      "aliases": [
+        "Kirsten"
+      ]
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Ulf Kirsten",
+      "mustMention": [
+        "Torschützenkönig",
+        "Leverkusen"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-aubameyang",
+    "category": "spiller",
+    "prompt": "Welcher BVB-Stürmer wurde 2016/17 Torschützenkönig der Bundesliga?",
+    "answer": {
+      "label": "Pierre-Emerick Aubameyang",
+      "aliases": [
+        "Aubameyang",
+        "Auba"
+      ]
+    },
+    "era": 2017,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Pierre-Emerick Aubameyang",
+      "mustMention": [
+        "Torschützenkönig",
+        "2017"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-haaland-salzburg",
+    "category": "spiller",
+    "prompt": "Von welchem Klub kam Erling Haaland 2020 nach Dortmund?",
+    "answer": {
+      "label": "Red Bull Salzburg",
+      "aliases": [
+        "Salzburg",
+        "FC Red Bull Salzburg"
+      ]
+    },
+    "era": 2020,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Erling Haaland",
+      "mustMention": [
+        "Red Bull Salzburg",
+        "2020"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-kane-torschuetze",
+    "category": "spiller",
+    "prompt": "Welcher Engländer wurde 2024 in seiner ersten Bundesliga-Saison Torschützenkönig?",
+    "answer": {
+      "label": "Harry Kane",
+      "aliases": [
+        "Kane"
+      ]
+    },
+    "fact": "Er traf 36 Mal.",
+    "era": 2024,
+    "difficulty": 1,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Harry Kane",
+      "mustMention": [
+        "Torschützenkönig",
+        "Bayern"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-leipzig-gruendung",
+    "category": "klubb",
+    "prompt": "Welcher Bundesligist wurde erst 2009 gegründet?",
+    "answer": {
+      "label": "RB Leipzig",
+      "aliases": [
+        "Leipzig",
+        "Rasenballsport Leipzig"
+      ]
+    },
+    "fact": "In der Saison 2016/17 spielte Leipzig erstmals in der Bundesliga.",
+    "era": 2009,
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "RB Leipzig",
+      "mustMention": [
+        "2009"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-bayern-gruendung",
+    "category": "klubb",
+    "prompt": "In welchem Jahr wurde der FC Bayern München gegründet?",
+    "answer": {
+      "label": "1900",
+      "aliases": []
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "FC Bayern München",
+      "mustMention": [
+        "1900"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-schalke-gruendung",
+    "category": "klubb",
+    "prompt": "In welchem Jahr wurde der FC Schalke 04 gegründet?",
+    "answer": {
+      "label": "1904",
+      "aliases": []
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "FC Schalke 04",
+      "mustMention": [
+        "1904"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-hsv-gruendung",
+    "category": "klubb",
+    "prompt": "Auf welches Jahr führt der Hamburger SV seine Gründung zurück?",
+    "answer": {
+      "label": "1887",
+      "aliases": []
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Hamburger SV",
+      "mustMention": [
+        "1887"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-koeln-gruendung",
+    "category": "klubb",
+    "prompt": "In welchem Jahr entstand der 1. FC Köln durch eine Fusion?",
+    "answer": {
+      "label": "1948",
+      "aliases": []
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "1. FC Köln",
+      "mustMention": [
+        "1948"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-union-gruendung",
+    "category": "klubb",
+    "prompt": "In welchem Jahr wurde der 1. FC Union Berlin unter diesem Namen gegründet?",
+    "answer": {
+      "label": "1966",
+      "aliases": []
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "1. FC Union Berlin",
+      "mustMention": [
+        "1966"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-stoerche",
+    "category": "klubb",
+    "prompt": "Welcher Klub wird „die Störche“ genannt?",
+    "answer": {
+      "label": "Holstein Kiel",
+      "aliases": [
+        "Kiel",
+        "Holstein"
+      ]
+    },
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Holstein Kiel",
+      "mustMention": [
+        "Störche"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-kleeblaetter",
+    "category": "klubb",
+    "prompt": "Welcher Klub wird „die Kleeblätter“ genannt?",
+    "answer": {
+      "label": "SpVgg Greuther Fürth",
+      "aliases": [
+        "Greuther Fürth",
+        "Fürth"
+      ]
+    },
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "SpVgg Greuther Fürth",
+      "mustMention": [
+        "Kleeblätter"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-veilchen",
+    "category": "klubb",
+    "prompt": "Welcher Klub aus dem Erzgebirge wird „die Veilchen“ genannt?",
+    "answer": {
+      "label": "FC Erzgebirge Aue",
+      "aliases": [
+        "Erzgebirge Aue",
+        "Aue"
+      ]
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "FC Erzgebirge Aue",
+      "mustMention": [
+        "Veilchen"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-schanzer",
+    "category": "klubb",
+    "prompt": "Welcher Klub wird „die Schanzer“ genannt?",
+    "answer": {
+      "label": "FC Ingolstadt 04",
+      "aliases": [
+        "Ingolstadt",
+        "FC Ingolstadt"
+      ]
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "FC Ingolstadt 04",
+      "mustMention": [
+        "Schanzer"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-pillendreher",
+    "category": "klubb",
+    "prompt": "Welcher Klub wird wegen seines Konzerns spöttisch „Pillendreher“ genannt?",
+    "answer": {
+      "label": "Bayer 04 Leverkusen",
+      "aliases": [
+        "Leverkusen",
+        "Bayer Leverkusen"
+      ]
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Bayer 04 Leverkusen",
+      "mustMention": [
+        "Pillendreher"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-clubberer",
+    "category": "klubb",
+    "prompt": "Wie werden die Anhänger und Spieler des 1. FC Nürnberg oft genannt?",
+    "answer": {
+      "label": "Clubberer",
+      "aliases": [
+        "Die Clubberer"
+      ]
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "1. FC Nürnberg",
+      "mustMention": [
+        "Clubberer"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-elf-niederrhein",
+    "category": "supportere",
+    "prompt": "Welcher Klub wird in einem bekannten Fanlied „die Elf vom Niederrhein“ genannt?",
+    "answer": {
+      "label": "Borussia Mönchengladbach",
+      "aliases": [
+        "Gladbach",
+        "Mönchengladbach",
+        "Borussia"
+      ]
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Borussia Mönchengladbach",
+      "mustMention": [
+        "Elf vom Niederrhein"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-stern-des-suedens",
+    "category": "supportere",
+    "prompt": "Welcher Klub hat die Hymne „Stern des Südens“?",
+    "answer": {
+      "label": "FC Bayern München",
+      "aliases": [
+        "Bayern",
+        "FC Bayern",
+        "Bayern München"
+      ]
+    },
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "FC Bayern München",
+      "mustMention": [
+        "Stern des Südens"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-herzen-europa",
+    "category": "supportere",
+    "prompt": "Welcher Klub hat die Hymne „Im Herzen von Europa“?",
+    "answer": {
+      "label": "Eintracht Frankfurt",
+      "aliases": [
+        "Frankfurt",
+        "Eintracht"
+      ]
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Eintracht Frankfurt",
+      "mustMention": [
+        "Im Herzen von Europa"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-lebenslang-gruen-weiss",
+    "category": "supportere",
+    "prompt": "Welcher Klub hat die Hymne „Lebenslang Grün-Weiß“?",
+    "answer": {
+      "label": "Werder Bremen",
+      "aliases": [
+        "Werder",
+        "Bremen",
+        "SV Werder Bremen"
+      ]
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Werder Bremen",
+      "mustMention": [
+        "Lebenslang Grün-Weiß"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-nina-hagen",
+    "category": "supportere",
+    "prompt": "Welche Sängerin singt die Vereinshymne von Union Berlin?",
+    "answer": {
+      "label": "Nina Hagen",
+      "aliases": [
+        "Hagen"
+      ]
+    },
+    "fact": "Die Hymne heißt „Eisern Union“.",
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "1. FC Union Berlin",
+      "mustMention": [
+        "Nina Hagen"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-hells-bells",
+    "category": "supportere",
+    "prompt": "Zu welchem AC/DC-Song laufen die Spieler des FC St. Pauli ein?",
+    "answer": {
+      "label": "Hells Bells",
+      "aliases": []
+    },
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "FC St. Pauli",
+      "mustMention": [
+        "Hells Bells"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-erwin",
+    "category": "supportere",
+    "prompt": "Wie heißt das Maskottchen des FC Schalke 04?",
+    "answer": {
+      "label": "Erwin",
+      "aliases": []
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "FC Schalke 04",
+      "mustMention": [
+        "Erwin"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-dino-hermann",
+    "category": "supportere",
+    "prompt": "Wie heißt der Dinosaurier, der Maskottchen des Hamburger SV ist?",
+    "answer": {
+      "label": "Dino Hermann",
+      "aliases": [
+        "Hermann"
+      ]
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Hamburger SV",
+      "mustMention": [
+        "Dino Hermann"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-juenter",
+    "category": "supportere",
+    "prompt": "Wie heißt das Fohlen-Maskottchen von Borussia Mönchengladbach?",
+    "answer": {
+      "label": "Jünter",
+      "aliases": []
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Borussia Mönchengladbach",
+      "mustMention": [
+        "Jünter"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-fritzle",
+    "category": "supportere",
+    "prompt": "Wie heißt das Krokodil-Maskottchen des VfB Stuttgart?",
+    "answer": {
+      "label": "Fritzle",
+      "aliases": []
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "VfB Stuttgart",
+      "mustMention": [
+        "Fritzle"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-woelfi",
+    "category": "supportere",
+    "prompt": "Wie heißt das Maskottchen des VfL Wolfsburg?",
+    "answer": {
+      "label": "Wölfi",
+      "aliases": []
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "VfL Wolfsburg",
+      "mustMention": [
+        "Wölfi"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-rote-erde",
+    "category": "stadion",
+    "prompt": "In welchem Stadion spielte Borussia Dortmund vor dem Bau des Westfalenstadions?",
+    "answer": {
+      "label": "Stadion Rote Erde",
+      "aliases": [
+        "Rote Erde"
+      ]
+    },
+    "fact": "Es steht direkt neben dem heutigen Stadion.",
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Stadion Rote Erde",
+      "mustMention": [
+        "Borussia Dortmund"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-bremer-bruecke",
+    "category": "stadion",
+    "prompt": "Welcher Klub spielt an der „Bremer Brücke“?",
+    "answer": {
+      "label": "VfL Osnabrück",
+      "aliases": [
+        "Osnabrück"
+      ]
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Stadion an der Bremer Brücke",
+      "mustMention": [
+        "VfL Osnabrück"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-ronhof",
+    "category": "stadion",
+    "prompt": "Welcher Klub spielt im Sportpark Ronhof?",
+    "answer": {
+      "label": "SpVgg Greuther Fürth",
+      "aliases": [
+        "Greuther Fürth",
+        "Fürth"
+      ]
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Sportpark Ronhof Thomas Sommer",
+      "mustMention": [
+        "SpVgg Greuther Fürth"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-stadion-am-zoo",
+    "category": "stadion",
+    "prompt": "Welcher Klub spielt im Stadion am Zoo?",
+    "answer": {
+      "label": "Wuppertaler SV",
+      "aliases": [
+        "Wuppertal",
+        "WSV"
+      ]
+    },
+    "difficulty": 4,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Stadion am Zoo",
+      "mustMention": [
+        "Wuppertaler SV"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-ernst-abbe",
+    "category": "stadion",
+    "prompt": "Welcher Klub spielt im Ernst-Abbe-Sportfeld?",
+    "answer": {
+      "label": "FC Carl Zeiss Jena",
+      "aliases": [
+        "Carl Zeiss Jena",
+        "Jena"
+      ]
+    },
+    "difficulty": 4,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Ernst-Abbe-Sportfeld",
+      "mustMention": [
+        "FC Carl Zeiss Jena"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-steigerwald",
+    "category": "stadion",
+    "prompt": "Welcher Klub spielt im Steigerwaldstadion?",
+    "answer": {
+      "label": "FC Rot-Weiß Erfurt",
+      "aliases": [
+        "Rot-Weiß Erfurt",
+        "Erfurt"
+      ]
+    },
+    "difficulty": 4,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Steigerwaldstadion",
+      "mustMention": [
+        "FC Rot-Weiß Erfurt"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-audi-sportpark",
+    "category": "stadion",
+    "prompt": "Welcher Klub spielt im Audi Sportpark?",
+    "answer": {
+      "label": "FC Ingolstadt 04",
+      "aliases": [
+        "Ingolstadt",
+        "FC Ingolstadt"
+      ]
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Audi Sportpark",
+      "mustMention": [
+        "FC Ingolstadt 04"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-hardtwald",
+    "category": "stadion",
+    "prompt": "Welcher Klub spielt im Stadion am Hardtwald?",
+    "answer": {
+      "label": "SV Sandhausen",
+      "aliases": [
+        "Sandhausen"
+      ]
+    },
+    "difficulty": 4,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "BWT-Stadion am Hardtwald",
+      "mustMention": [
+        "SV Sandhausen"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-brita-arena",
+    "category": "stadion",
+    "prompt": "Welcher Klub spielt in der Brita-Arena?",
+    "answer": {
+      "label": "SV Wehen Wiesbaden",
+      "aliases": [
+        "Wehen Wiesbaden",
+        "Wehen"
+      ]
+    },
+    "difficulty": 4,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Brita-Arena",
+      "mustMention": [
+        "SV Wehen Wiesbaden"
+      ]
+    }
   }
 ]
