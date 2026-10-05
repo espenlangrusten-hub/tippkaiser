@@ -1,5 +1,5 @@
 /**
- * Check the hand-written Straffespark and coach-quiz questions against Norwegian Wikipedia.
+ * Check the hand-written Elfmeter and Trainer-Genie questions against German Wikipedia.
  *
  * Questions written from memory sit at `recall` and never reach a player. This reads
  * the article each one names in its `verify` block, checks that the article text
@@ -12,14 +12,17 @@
  *
  * The build sandbox cannot reach wikipedia.org; run it through the
  * "Verifiser spørsmål" GitHub Action.
+ *
+ * Every question names a German Wikipedia article in `verify.subject`, so the article
+ * title and the strings in `mustMention` are written the way de.wikipedia writes them.
  */
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { coachQuizFile, straffesparkFile } from "../../src/data/schema";
 import { articleMatchesSubject, pendingVerification, verdictFor, type Checkable, type WikiPage } from "../../src/data/verify";
 
-const API = "https://no.wikipedia.org/w/api.php";
-const UA = "Tippetuppen trivia verifier (https://github.com/espenlangrusten-hub/tippetuppen)";
+const API = "https://de.wikipedia.org/w/api.php";
+const UA = "Tippkaiser trivia verifier (https://github.com/espenlangrusten-hub/tippkaiser)";
 // Both banks are checked the same way; a question written from memory is a question
 // written from memory whichever game it belongs to.
 const POOLS = [
@@ -42,7 +45,7 @@ const EXTRACT = { prop: "extracts|info", explaintext: "1", exlimit: "1", inprop:
 
 /**
  * Exact title first, search second. Search is what saves the run when an article has
- * been renamed ("Sogndal Fotball" vs "Sogndal IL"), but it will answer any query with
+ * been renamed ("Werder Bremen" vs "SV Werder Bremen"), but it will answer any query with
  * something, so a hit that shares nothing with the subject is treated as no hit.
  */
 async function fetchArticle(subject: string): Promise<WikiPage> {

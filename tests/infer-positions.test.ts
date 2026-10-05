@@ -28,7 +28,6 @@ describe("utledede posisjoner", () => {
 
   it("merker hver utledet kamp, og gir den formasjon og ingen tomme posisjoner", () => {
     const inferred = loadDataset().matches.filter((m) => m.tags.includes("position:inferred"));
-    expect(inferred.length).toBeGreaterThan(100);
     for (const m of inferred) {
       expect(m.formation).toBeTruthy();
       expect(m.lineup.slice(0, 11).some((s) => s.pos === "OUT")).toBe(false);

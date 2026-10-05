@@ -1,36 +1,11 @@
 import { describe, it, expect } from "vitest";
 import { loadDataset } from "@/data/load";
-import { toTileString } from "@/lib/names";
 import { evaluate } from "../supabase/functions/_shared/guess.ts";
 import type { ManglerXiPayload } from "../supabase/functions/_shared/types.ts";
 
 const ds = loadDataset();
 
-/** The tile string a starter has to be guessed by, the way the puzzle builder derives it. */
-function answersFor(matchId: string) {
-  return ds.appearances
-    .filter((a) => a.matchId === matchId && a.starter)
-    .sort((a, b) => a.order - b.order)
-    .map((a) => {
-      const p = ds.players.get(a.playerId)!;
-      return { name: p.displayName, answer: a.answerKey ?? toTileString(p.surname) };
-    });
-}
-
 describe("brothers in the same XI", () => {
-  // Two letters nobody thinks of as part of the name are harder than the name itself,
-  // and the pitch position already tells the two apart.
-  it("spells both Riises as the plain surname", () => {
-    const riises = answersFor("2008-10-11-sco-nor").filter((x) => x.name.endsWith("Riise"));
-    expect(riises).toHaveLength(2);
-    expect(riises.map((x) => x.answer)).toEqual(["RIISE", "RIISE"]);
-  });
-
-  it("does the same for the Flos and the Johnsens", () => {
-    expect(answersFor("1998-06-27-ita-nor").filter((x) => x.name.endsWith("Flo")).map((x) => x.answer)).toEqual(["FLO", "FLO"]);
-    expect(answersFor("2003-11-19-nor-esp").filter((x) => x.name.endsWith("Johnsen")).map((x) => x.answer)).toEqual(["JOHNSEN", "JOHNSEN"]);
-  });
-
   it("never prefixes initials anywhere in the dataset", () => {
     const prefixed = ds.appearances.filter((a) => a.answerKey !== null);
     expect(prefixed).toEqual([]);

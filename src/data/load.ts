@@ -309,8 +309,11 @@ export function loadDataset(): Dataset {
     for (const r of s.relegated) if (!seen.has(r)) problems.push(`season ${s.id}: relegated club ${r} not in table`);
     for (const r of markedRelegated) if (!s.relegated.includes(r)) problems.push(`season ${s.id}: ${r} is marked relegated but missing from relegated list`);
   }
+  // Tippkaiser has no league tables yet. Once the first one is in, every season of the
+  // span is required, so a half-imported run cannot slip through.
   const topDivisionYears = new Set(seasons.filter((s) => s.competition === "eliteserien").map((s) => s.year));
-  for (let year = 1990; year <= 2025; year++) if (!topDivisionYears.has(year)) problems.push(`missing eliteserien season ${year}`);
+  if (topDivisionYears.size > 0)
+    for (let year = 1990; year <= 2025; year++) if (!topDivisionYears.has(year)) problems.push(`missing eliteserien season ${year}`);
   for (const h of honours) {
     if (h.club && !clubIds.has(h.club)) problems.push(`honour ${h.kind} ${h.year}: unknown club ${h.club}`);
     if (h.player) ensurePlayer(h.player);
@@ -402,7 +405,8 @@ export function loadDataset(): Dataset {
     gullordetWords.add(w.word);
   }
   const gullordetAnswers = gullordet.filter((w) => w.enabled && w.answerEligible).length;
-  if (gullordetAnswers < 100) problems.push(`gullordet: only ${gullordetAnswers} enabled daily answers; expected at least 100`);
+  // An empty list is a game not stocked yet (Goldwort is filled in later); a short one is a bad edit.
+  if (gullordet.length > 0 && gullordetAnswers < 100) problems.push(`gullordet: only ${gullordetAnswers} enabled daily answers; expected at least 100`);
 
   // No two questions in the game ask the same thing.
   const asked = new Set(straffespark.flatMap((q) => (q.kind === "trivia" ? [normalizeName(q.prompt)] : [])));

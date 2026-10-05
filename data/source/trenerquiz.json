@@ -1,1 +1,3206 @@
-[]
+[
+  {
+    "id": "tq-juergen-klopp-1",
+    "coachId": "juergen-klopp",
+    "category": "trener",
+    "prompt": "Welcher Trainer führte Borussia Dortmund 2011 und 2012 zur deutschen Meisterschaft?",
+    "answer": {
+      "label": "Jürgen Klopp",
+      "aliases": [
+        "Klopp",
+        "Kloppo"
+      ]
+    },
+    "fact": "2012 holte der BVB unter ihm sogar das erste Double der Vereinsgeschichte.",
+    "era": 2012,
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Jürgen Klopp",
+      "mustMention": [
+        "Dortmund",
+        "2011",
+        "2012"
+      ]
+    }
+  },
+  {
+    "id": "tq-juergen-klopp-2",
+    "coachId": "juergen-klopp",
+    "category": "trener",
+    "prompt": "Mit welchem Klub gewann Jürgen Klopp 2019 die Champions League?",
+    "answer": {
+      "label": "FC Liverpool",
+      "aliases": [
+        "Liverpool",
+        "Liverpool FC"
+      ]
+    },
+    "fact": "Im Finale in Madrid schlug Liverpool Tottenham 2:0.",
+    "era": 2019,
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Jürgen Klopp",
+      "mustMention": [
+        "FC Liverpool",
+        "2019"
+      ]
+    }
+  },
+  {
+    "id": "tq-juergen-klopp-3",
+    "coachId": "juergen-klopp",
+    "category": "trener",
+    "prompt": "Bei welchem Verein begann Jürgen Klopp 2001 seine Trainerlaufbahn – direkt nach seiner Zeit als Spieler dort?",
+    "answer": {
+      "label": "1. FSV Mainz 05",
+      "aliases": [
+        "Mainz",
+        "Mainz 05",
+        "FSV Mainz"
+      ]
+    },
+    "fact": "2004 führte er Mainz erstmals in die Bundesliga.",
+    "era": 2001,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Jürgen Klopp",
+      "mustMention": [
+        "1. FSV Mainz 05"
+      ]
+    }
+  },
+  {
+    "id": "tq-juergen-klopp-4",
+    "coachId": "juergen-klopp",
+    "category": "trener",
+    "prompt": "In welcher Stadt wurde Jürgen Klopp 1967 geboren?",
+    "answer": {
+      "label": "Stuttgart",
+      "aliases": []
+    },
+    "fact": "Aufgewachsen ist er im Schwarzwald, in Glatten.",
+    "difficulty": 3,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Jürgen Klopp",
+      "mustMention": [
+        "Stuttgart",
+        "1967"
+      ]
+    }
+  },
+  {
+    "id": "tq-jupp-heynckes-1",
+    "coachId": "jupp-heynckes",
+    "category": "trener",
+    "prompt": "Welcher Trainer gewann 2013 mit dem FC Bayern das Triple?",
+    "answer": {
+      "label": "Jupp Heynckes",
+      "aliases": [
+        "Heynckes",
+        "Josef Heynckes"
+      ]
+    },
+    "fact": "Meisterschaft, DFB-Pokal und Champions League in einer Saison – ein deutsches Novum.",
+    "era": 2013,
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Jupp Heynckes",
+      "mustMention": [
+        "Triple",
+        "2013"
+      ]
+    }
+  },
+  {
+    "id": "tq-jupp-heynckes-2",
+    "coachId": "jupp-heynckes",
+    "category": "trener",
+    "prompt": "Mit welchem Klub gewann Jupp Heynckes 1998 die Champions League?",
+    "answer": {
+      "label": "Real Madrid",
+      "aliases": [
+        "Real"
+      ]
+    },
+    "fact": "Im Finale in Amsterdam schlug Real Juventus 1:0.",
+    "era": 1998,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Jupp Heynckes",
+      "mustMention": [
+        "Real Madrid",
+        "1998"
+      ]
+    }
+  },
+  {
+    "id": "tq-jupp-heynckes-3",
+    "coachId": "jupp-heynckes",
+    "category": "trener",
+    "prompt": "Bei welchem Klub war Jupp Heynckes erst Torjäger und ab 1979 Cheftrainer?",
+    "answer": {
+      "label": "Borussia Mönchengladbach",
+      "aliases": [
+        "Gladbach",
+        "Mönchengladbach",
+        "Borussia"
+      ]
+    },
+    "fact": "Er ist einer der besten Torschützen der Bundesliga-Geschichte.",
+    "era": 1979,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Jupp Heynckes",
+      "mustMention": [
+        "Borussia Mönchengladbach",
+        "1979"
+      ]
+    }
+  },
+  {
+    "id": "tq-jupp-heynckes-4",
+    "coachId": "jupp-heynckes",
+    "category": "trener",
+    "prompt": "Welcher Trainer kehrte 2017 mit 72 Jahren noch einmal als Retter zum FC Bayern zurück?",
+    "answer": {
+      "label": "Jupp Heynckes",
+      "aliases": [
+        "Heynckes"
+      ]
+    },
+    "fact": "Es war seine vierte Amtszeit in München.",
+    "era": 2017,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Jupp Heynckes",
+      "mustMention": [
+        "2017",
+        "Bayern"
+      ]
+    }
+  },
+  {
+    "id": "tq-ottmar-hitzfeld-1",
+    "coachId": "ottmar-hitzfeld",
+    "category": "trener",
+    "prompt": "Welcher Trainer gewann die Champions League mit Borussia Dortmund (1997) und dem FC Bayern (2001)?",
+    "answer": {
+      "label": "Ottmar Hitzfeld",
+      "aliases": [
+        "Hitzfeld"
+      ]
+    },
+    "fact": "Er war der zweite Trainer, der mit zwei Klubs den Henkelpott holte.",
+    "era": 2001,
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Ottmar Hitzfeld",
+      "mustMention": [
+        "1997",
+        "2001"
+      ]
+    }
+  },
+  {
+    "id": "tq-ottmar-hitzfeld-2",
+    "coachId": "ottmar-hitzfeld",
+    "category": "trener",
+    "prompt": "Welche Nationalmannschaft trainierte Ottmar Hitzfeld von 2008 bis 2014?",
+    "answer": {
+      "label": "Schweiz",
+      "aliases": [
+        "Schweizer Nationalmannschaft"
+      ]
+    },
+    "fact": "Mit der Schweiz fuhr er zu den WM-Turnieren 2010 und 2014.",
+    "era": 2008,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Ottmar Hitzfeld",
+      "mustMention": [
+        "Schweiz",
+        "2008"
+      ]
+    }
+  },
+  {
+    "id": "tq-ottmar-hitzfeld-3",
+    "coachId": "ottmar-hitzfeld",
+    "category": "trener",
+    "prompt": "Unter welchem Spitznamen war Ottmar Hitzfeld bekannt?",
+    "answer": {
+      "label": "General",
+      "aliases": [
+        "Der General"
+      ]
+    },
+    "fact": "Er stand für Disziplin und eine kühle Spielanalyse.",
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Ottmar Hitzfeld",
+      "mustMention": [
+        "General"
+      ]
+    }
+  },
+  {
+    "id": "tq-ottmar-hitzfeld-4",
+    "coachId": "ottmar-hitzfeld",
+    "category": "trener",
+    "prompt": "Mit welchem Zürcher Klub wurde Ottmar Hitzfeld zweimal Schweizer Meister?",
+    "answer": {
+      "label": "Grasshopper Club Zürich",
+      "aliases": [
+        "Grasshoppers",
+        "GC Zürich",
+        "Grasshopper"
+      ]
+    },
+    "fact": "Danach wechselte er 1991 zu Borussia Dortmund.",
+    "era": 1990,
+    "difficulty": 3,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Ottmar Hitzfeld",
+      "mustMention": [
+        "Grasshopper Club Zürich"
+      ]
+    }
+  },
+  {
+    "id": "tq-udo-lattek-1",
+    "coachId": "udo-lattek",
+    "category": "trener",
+    "prompt": "Welcher Trainer gewann Europapokale mit dem FC Bayern, Gladbach und dem FC Barcelona?",
+    "answer": {
+      "label": "Udo Lattek",
+      "aliases": [
+        "Lattek"
+      ]
+    },
+    "fact": "Er gewann alle drei damaligen Europapokal-Wettbewerbe.",
+    "era": 1982,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Udo Lattek",
+      "mustMention": [
+        "Barcelona",
+        "Mönchengladbach"
+      ]
+    }
+  },
+  {
+    "id": "tq-udo-lattek-2",
+    "coachId": "udo-lattek",
+    "category": "trener",
+    "prompt": "Mit welchem Verein holte Udo Lattek 1974 den Europapokal der Landesmeister?",
+    "answer": {
+      "label": "FC Bayern München",
+      "aliases": [
+        "Bayern",
+        "Bayern München",
+        "FC Bayern"
+      ]
+    },
+    "fact": "Es war der erste von drei Landesmeister-Titeln in Folge.",
+    "era": 1974,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Udo Lattek",
+      "mustMention": [
+        "FC Bayern München",
+        "1974",
+        "Landesmeister"
+      ]
+    }
+  },
+  {
+    "id": "tq-udo-lattek-3",
+    "coachId": "udo-lattek",
+    "category": "trener",
+    "prompt": "Welchen spanischen Spitzenklub trainierte Udo Lattek Anfang der 1980er-Jahre?",
+    "answer": {
+      "label": "FC Barcelona",
+      "aliases": [
+        "Barcelona",
+        "Barça"
+      ]
+    },
+    "fact": "Mit Barça gewann er 1982 den Europapokal der Pokalsieger.",
+    "era": 1981,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Udo Lattek",
+      "mustMention": [
+        "FC Barcelona"
+      ]
+    }
+  },
+  {
+    "id": "tq-udo-lattek-4",
+    "coachId": "udo-lattek",
+    "category": "trener",
+    "prompt": "Bei welchem Ruhrgebietsklub sprang Udo Lattek im Jahr 2000 als Retter gegen den Abstieg ein?",
+    "answer": {
+      "label": "Borussia Dortmund",
+      "aliases": [
+        "Dortmund",
+        "BVB"
+      ]
+    },
+    "fact": "Mit Matthias Sammer an seiner Seite hielt er den BVB in der Liga.",
+    "era": 2000,
+    "difficulty": 3,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Udo Lattek",
+      "mustMention": [
+        "Borussia Dortmund",
+        "2000"
+      ]
+    }
+  },
+  {
+    "id": "tq-hennes-weisweiler-1",
+    "coachId": "hennes-weisweiler",
+    "category": "trener",
+    "prompt": "Welcher Trainer führte den 1. FC Köln 1978 zum Double?",
+    "answer": {
+      "label": "Hennes Weisweiler",
+      "aliases": [
+        "Weisweiler"
+      ]
+    },
+    "fact": "Zuvor hatte er Gladbach zur „Fohlenelf“ geformt.",
+    "era": 1978,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Hennes Weisweiler",
+      "mustMention": [
+        "Köln",
+        "1978",
+        "Double"
+      ]
+    }
+  },
+  {
+    "id": "tq-hennes-weisweiler-2",
+    "coachId": "hennes-weisweiler",
+    "category": "trener",
+    "prompt": "Welcher Trainer formte bei Borussia Mönchengladbach die legendäre „Fohlenelf“?",
+    "answer": {
+      "label": "Hennes Weisweiler",
+      "aliases": [
+        "Weisweiler"
+      ]
+    },
+    "fact": "Junge, schnelle Spieler wie Netzer und Heynckes prägten die Mannschaft.",
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Hennes Weisweiler",
+      "mustMention": [
+        "Fohlenelf"
+      ]
+    }
+  },
+  {
+    "id": "tq-hennes-weisweiler-3",
+    "coachId": "hennes-weisweiler",
+    "category": "trener",
+    "prompt": "Welchen amerikanischen Klub trainierte Hennes Weisweiler nach seiner Kölner Zeit?",
+    "answer": {
+      "label": "New York Cosmos",
+      "aliases": [
+        "Cosmos"
+      ]
+    },
+    "fact": "Er war einer der ersten deutschen Spitzentrainer in Nordamerika.",
+    "era": 1980,
+    "difficulty": 3,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Hennes Weisweiler",
+      "mustMention": [
+        "New York Cosmos"
+      ]
+    }
+  },
+  {
+    "id": "tq-hennes-weisweiler-4",
+    "coachId": "hennes-weisweiler",
+    "category": "trener",
+    "prompt": "Welchen spanischen Klub trainierte Hennes Weisweiler in der Saison 1975/76?",
+    "answer": {
+      "label": "FC Barcelona",
+      "aliases": [
+        "Barcelona",
+        "Barça"
+      ]
+    },
+    "fact": "Das Gastspiel endete nach einer Saison.",
+    "era": 1975,
+    "difficulty": 3,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Hennes Weisweiler",
+      "mustMention": [
+        "FC Barcelona"
+      ]
+    }
+  },
+  {
+    "id": "tq-helmut-schoen-1",
+    "coachId": "helmut-schoen",
+    "category": "trener",
+    "prompt": "Welcher Bundestrainer gewann die EM 1972 und die WM 1974?",
+    "answer": {
+      "label": "Helmut Schön",
+      "aliases": [
+        "Schön"
+      ]
+    },
+    "fact": "Er betreute Deutschland bei vier Weltmeisterschaften.",
+    "era": 1974,
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Helmut Schön",
+      "mustMention": [
+        "1972",
+        "1974"
+      ]
+    }
+  },
+  {
+    "id": "tq-helmut-schoen-2",
+    "coachId": "helmut-schoen",
+    "category": "trener",
+    "prompt": "Wessen Nachfolger wurde Helmut Schön 1964 als Bundestrainer?",
+    "answer": {
+      "label": "Sepp Herberger",
+      "aliases": [
+        "Herberger"
+      ]
+    },
+    "fact": "Herberger war seit 1936 Reichs- und Bundestrainer gewesen.",
+    "era": 1964,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Helmut Schön",
+      "mustMention": [
+        "Sepp Herberger"
+      ]
+    }
+  },
+  {
+    "id": "tq-helmut-schoen-3",
+    "coachId": "helmut-schoen",
+    "category": "trener",
+    "prompt": "In welcher Stadt wurde Helmut Schön geboren?",
+    "answer": {
+      "label": "Dresden",
+      "aliases": []
+    },
+    "fact": "Als Spieler stürmte er für den Dresdner SC.",
+    "difficulty": 3,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Helmut Schön",
+      "mustMention": [
+        "Dresden"
+      ]
+    }
+  },
+  {
+    "id": "tq-helmut-schoen-4",
+    "coachId": "helmut-schoen",
+    "category": "trener",
+    "prompt": "Wer folgte Helmut Schön 1978 als Bundestrainer?",
+    "answer": {
+      "label": "Jupp Derwall",
+      "aliases": [
+        "Derwall"
+      ]
+    },
+    "fact": "Derwall war zuvor Schöns Assistent.",
+    "era": 1978,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Helmut Schön",
+      "mustMention": [
+        "Jupp Derwall"
+      ]
+    }
+  },
+  {
+    "id": "tq-sepp-herberger-1",
+    "coachId": "sepp-herberger",
+    "category": "trener",
+    "prompt": "Welcher Trainer führte Deutschland 1954 zum ersten WM-Titel?",
+    "answer": {
+      "label": "Sepp Herberger",
+      "aliases": [
+        "Herberger",
+        "Josef Herberger"
+      ]
+    },
+    "fact": "Das Finale in Bern ging als „Wunder von Bern“ in die Geschichte ein.",
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Sepp Herberger",
+      "mustMention": [
+        "1954",
+        "Bern"
+      ]
+    }
+  },
+  {
+    "id": "tq-sepp-herberger-2",
+    "coachId": "sepp-herberger",
+    "category": "trener",
+    "prompt": "Von welchem Trainer stammt der Satz „Der Ball ist rund“?",
+    "answer": {
+      "label": "Sepp Herberger",
+      "aliases": [
+        "Herberger"
+      ]
+    },
+    "fact": "Auch „Das nächste Spiel ist immer das schwerste“ wird ihm zugeschrieben.",
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Sepp Herberger",
+      "mustMention": [
+        "Ball ist rund"
+      ]
+    }
+  },
+  {
+    "id": "tq-sepp-herberger-3",
+    "coachId": "sepp-herberger",
+    "category": "trener",
+    "prompt": "Welcher Spieler war Herbergers Kapitän und verlängerter Arm beim WM-Titel 1954?",
+    "answer": {
+      "label": "Fritz Walter",
+      "aliases": [
+        "Walter"
+      ]
+    },
+    "fact": "Fritz Walter spielte seine ganze Karriere in Kaiserslautern.",
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Sepp Herberger",
+      "mustMention": [
+        "Fritz Walter"
+      ]
+    }
+  },
+  {
+    "id": "tq-franz-beckenbauer-1",
+    "coachId": "franz-beckenbauer",
+    "category": "trener",
+    "prompt": "Wer war Teamchef, als Deutschland 1990 Weltmeister wurde?",
+    "answer": {
+      "label": "Franz Beckenbauer",
+      "aliases": [
+        "Beckenbauer",
+        "Kaiser"
+      ]
+    },
+    "fact": "Er war damit Weltmeister als Spieler und als Teamchef.",
+    "era": 1990,
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Franz Beckenbauer",
+      "mustMention": [
+        "Teamchef",
+        "1990"
+      ]
+    }
+  },
+  {
+    "id": "tq-franz-beckenbauer-2",
+    "coachId": "franz-beckenbauer",
+    "category": "trener",
+    "prompt": "Welchen französischen Klub trainierte Franz Beckenbauer 1990/91?",
+    "answer": {
+      "label": "Olympique Marseille",
+      "aliases": [
+        "Marseille",
+        "OM"
+      ]
+    },
+    "fact": "Marseille wurde in dieser Saison französischer Meister.",
+    "era": 1990,
+    "difficulty": 3,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Franz Beckenbauer",
+      "mustMention": [
+        "Olympique Marseille"
+      ]
+    }
+  },
+  {
+    "id": "tq-franz-beckenbauer-3",
+    "coachId": "franz-beckenbauer",
+    "category": "trener",
+    "prompt": "Mit welchem Klub gewann Franz Beckenbauer 1996 als Trainer den UEFA-Pokal?",
+    "answer": {
+      "label": "FC Bayern München",
+      "aliases": [
+        "Bayern",
+        "FC Bayern",
+        "Bayern München"
+      ]
+    },
+    "fact": "Er übernahm im Frühjahr 1996 von Otto Rehhagel.",
+    "era": 1996,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Franz Beckenbauer",
+      "mustMention": [
+        "FC Bayern München",
+        "UEFA-Pokal",
+        "1996"
+      ]
+    }
+  },
+  {
+    "id": "tq-franz-beckenbauer-4",
+    "coachId": "franz-beckenbauer",
+    "category": "trener",
+    "prompt": "Unter welchem Spitznamen kennt ganz Deutschland Franz Beckenbauer?",
+    "answer": {
+      "label": "Kaiser",
+      "aliases": [
+        "Der Kaiser"
+      ]
+    },
+    "fact": "Der Name blieb ihm ein Leben lang.",
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Franz Beckenbauer",
+      "mustMention": [
+        "Kaiser"
+      ]
+    }
+  },
+  {
+    "id": "tq-berti-vogts-1",
+    "coachId": "berti-vogts",
+    "category": "trener",
+    "prompt": "Welcher Bundestrainer gewann die EM 1996 in England?",
+    "answer": {
+      "label": "Berti Vogts",
+      "aliases": [
+        "Vogts",
+        "Hans-Hubert Vogts"
+      ]
+    },
+    "fact": "Im Finale schlug Deutschland Tschechien 2:1 durch ein Golden Goal.",
+    "era": 1996,
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Berti Vogts",
+      "mustMention": [
+        "1996",
+        "England"
+      ]
+    }
+  },
+  {
+    "id": "tq-berti-vogts-2",
+    "coachId": "berti-vogts",
+    "category": "trener",
+    "prompt": "Welche Nationalmannschaft trainierte Berti Vogts von 2002 bis 2004?",
+    "answer": {
+      "label": "Schottland",
+      "aliases": [
+        "Schottische Nationalmannschaft"
+      ]
+    },
+    "fact": "Später trainierte er auch Nigeria und Aserbaidschan.",
+    "era": 2002,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Berti Vogts",
+      "mustMention": [
+        "Schottland"
+      ]
+    }
+  },
+  {
+    "id": "tq-berti-vogts-3",
+    "coachId": "berti-vogts",
+    "category": "trener",
+    "prompt": "Welchen Spitznamen trug Berti Vogts als bissiger Verteidiger?",
+    "answer": {
+      "label": "Terrier",
+      "aliases": [
+        "Der Terrier"
+      ]
+    },
+    "fact": "Er galt als einer der härtesten Manndecker seiner Zeit.",
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Berti Vogts",
+      "mustMention": [
+        "Terrier"
+      ]
+    }
+  },
+  {
+    "id": "tq-berti-vogts-4",
+    "coachId": "berti-vogts",
+    "category": "trener",
+    "prompt": "Für welchen Klub spielte Berti Vogts seine gesamte Profikarriere?",
+    "answer": {
+      "label": "Borussia Mönchengladbach",
+      "aliases": [
+        "Gladbach",
+        "Mönchengladbach"
+      ]
+    },
+    "fact": "Mit Gladbach wurde er fünfmal Deutscher Meister.",
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Berti Vogts",
+      "mustMention": [
+        "Borussia Mönchengladbach"
+      ]
+    }
+  },
+  {
+    "id": "tq-rudi-voeller-1",
+    "coachId": "rudi-voeller",
+    "category": "trener",
+    "prompt": "Welcher Teamchef führte Deutschland 2002 ins WM-Finale?",
+    "answer": {
+      "label": "Rudi Völler",
+      "aliases": [
+        "Völler"
+      ]
+    },
+    "fact": "Im Finale in Yokohama unterlag Deutschland Brasilien 0:2.",
+    "era": 2002,
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Rudi Völler",
+      "mustMention": [
+        "2002",
+        "Teamchef"
+      ]
+    }
+  },
+  {
+    "id": "tq-rudi-voeller-2",
+    "coachId": "rudi-voeller",
+    "category": "trener",
+    "prompt": "Nach einem Länderspiel in welchem Land hielt Rudi Völler 2003 seine berühmte Wutrede?",
+    "answer": {
+      "label": "Island",
+      "aliases": []
+    },
+    "fact": "Das Spiel in Reykjavík endete 0:0.",
+    "era": 2003,
+    "difficulty": 3,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Rudi Völler",
+      "mustMention": [
+        "Island"
+      ]
+    }
+  },
+  {
+    "id": "tq-rudi-voeller-3",
+    "coachId": "rudi-voeller",
+    "category": "trener",
+    "prompt": "Bei welchem Klub war Rudi Völler lange Sportdirektor und Geschäftsführer Sport?",
+    "answer": {
+      "label": "Bayer 04 Leverkusen",
+      "aliases": [
+        "Leverkusen",
+        "Bayer Leverkusen"
+      ]
+    },
+    "fact": "Für Leverkusen hatte er schon als Spieler gestürmt.",
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Rudi Völler",
+      "mustMention": [
+        "Bayer 04 Leverkusen"
+      ]
+    }
+  },
+  {
+    "id": "tq-rudi-voeller-4",
+    "coachId": "rudi-voeller",
+    "category": "trener",
+    "prompt": "Zu welchem italienischen Klub wechselte Rudi Völler 1987 als Spieler?",
+    "answer": {
+      "label": "AS Rom",
+      "aliases": [
+        "AS Roma",
+        "Roma"
+      ]
+    },
+    "fact": "In Rom wurde er als „Il tedesco volante“ gefeiert.",
+    "era": 1987,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Rudi Völler",
+      "mustMention": [
+        "AS Rom"
+      ]
+    }
+  },
+  {
+    "id": "tq-juergen-klinsmann-1",
+    "coachId": "juergen-klinsmann",
+    "category": "trener",
+    "prompt": "Welcher Bundestrainer führte Deutschland bei der Heim-WM 2006 auf Platz drei?",
+    "answer": {
+      "label": "Jürgen Klinsmann",
+      "aliases": [
+        "Klinsmann",
+        "Klinsi"
+      ]
+    },
+    "fact": "Das „Sommermärchen“ endete im Halbfinale gegen Italien.",
+    "era": 2006,
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Jürgen Klinsmann",
+      "mustMention": [
+        "2006"
+      ]
+    }
+  },
+  {
+    "id": "tq-juergen-klinsmann-2",
+    "coachId": "juergen-klinsmann",
+    "category": "trener",
+    "prompt": "Welche Nationalmannschaft trainierte Jürgen Klinsmann von 2011 bis 2016?",
+    "answer": {
+      "label": "USA",
+      "aliases": [
+        "Vereinigte Staaten",
+        "US-Nationalmannschaft"
+      ]
+    },
+    "fact": "Er lebt seit vielen Jahren in Kalifornien.",
+    "era": 2011,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Jürgen Klinsmann",
+      "mustMention": [
+        "USA",
+        "2011",
+        "Vereinigten Staaten"
+      ]
+    }
+  },
+  {
+    "id": "tq-juergen-klinsmann-3",
+    "coachId": "juergen-klinsmann",
+    "category": "trener",
+    "prompt": "Welchen Bundesligisten trainierte Jürgen Klinsmann 2019/20 nur wenige Wochen?",
+    "answer": {
+      "label": "Hertha BSC",
+      "aliases": [
+        "Hertha",
+        "Hertha Berlin"
+      ]
+    },
+    "fact": "Er trat im Februar 2020 per Facebook-Post zurück.",
+    "era": 2019,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Jürgen Klinsmann",
+      "mustMention": [
+        "Hertha BSC"
+      ]
+    }
+  },
+  {
+    "id": "tq-juergen-klinsmann-4",
+    "coachId": "juergen-klinsmann",
+    "category": "trener",
+    "prompt": "Welche asiatische Nationalmannschaft übernahm Jürgen Klinsmann 2023?",
+    "answer": {
+      "label": "Südkorea",
+      "aliases": [
+        "Korea"
+      ]
+    },
+    "fact": "Nach dem Halbfinal-Aus beim Asien-Cup 2024 musste er gehen.",
+    "era": 2023,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Jürgen Klinsmann",
+      "mustMention": [
+        "Südkorea",
+        "2023"
+      ]
+    }
+  },
+  {
+    "id": "tq-joachim-loew-1",
+    "coachId": "joachim-loew",
+    "category": "trener",
+    "prompt": "Welcher Bundestrainer gewann die WM 2014 in Brasilien?",
+    "answer": {
+      "label": "Joachim Löw",
+      "aliases": [
+        "Löw",
+        "Jogi Löw",
+        "Jogi"
+      ]
+    },
+    "fact": "Im Finale schlug Deutschland Argentinien 1:0 nach Verlängerung.",
+    "era": 2014,
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Joachim Löw",
+      "mustMention": [
+        "2014",
+        "Brasilien"
+      ]
+    }
+  },
+  {
+    "id": "tq-joachim-loew-2",
+    "coachId": "joachim-loew",
+    "category": "trener",
+    "prompt": "Mit welchem Klub gewann Joachim Löw 1997 den DFB-Pokal?",
+    "answer": {
+      "label": "VfB Stuttgart",
+      "aliases": [
+        "Stuttgart",
+        "VfB"
+      ]
+    },
+    "fact": "Im Finale schlug der VfB Energie Cottbus 2:0.",
+    "era": 1997,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Joachim Löw",
+      "mustMention": [
+        "VfB Stuttgart",
+        "1997"
+      ]
+    }
+  },
+  {
+    "id": "tq-joachim-loew-3",
+    "coachId": "joachim-loew",
+    "category": "trener",
+    "prompt": "Wessen Assistent war Joachim Löw, bevor er 2006 selbst Bundestrainer wurde?",
+    "answer": {
+      "label": "Jürgen Klinsmann",
+      "aliases": [
+        "Klinsmann"
+      ]
+    },
+    "fact": "Löw war ab 2004 Klinsmanns Co-Trainer.",
+    "era": 2004,
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Joachim Löw",
+      "mustMention": [
+        "Jürgen Klinsmann"
+      ]
+    }
+  },
+  {
+    "id": "tq-joachim-loew-4",
+    "coachId": "joachim-loew",
+    "category": "trener",
+    "prompt": "Welchen österreichischen Klub führte Joachim Löw 2002 zur Meisterschaft?",
+    "answer": {
+      "label": "FC Tirol Innsbruck",
+      "aliases": [
+        "Tirol Innsbruck",
+        "FC Tirol",
+        "Innsbruck"
+      ]
+    },
+    "fact": "Kurz darauf ging der Klub in Konkurs.",
+    "era": 2002,
+    "difficulty": 3,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Joachim Löw",
+      "mustMention": [
+        "FC Tirol Innsbruck"
+      ]
+    }
+  },
+  {
+    "id": "tq-joachim-loew-5",
+    "coachId": "joachim-loew",
+    "category": "trener",
+    "prompt": "Welchen türkischen Klub trainierte Joachim Löw in der Saison 1998/99?",
+    "answer": {
+      "label": "Fenerbahçe",
+      "aliases": [
+        "Fenerbahçe Istanbul"
+      ]
+    },
+    "fact": "Es blieb bei einer Saison in Istanbul.",
+    "era": 1998,
+    "difficulty": 3,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Joachim Löw",
+      "mustMention": [
+        "Fenerbahçe"
+      ]
+    }
+  },
+  {
+    "id": "tq-hansi-flick-1",
+    "coachId": "hansi-flick",
+    "category": "trener",
+    "prompt": "Welcher Trainer gewann mit dem FC Bayern 2020 die Champions League – nur Monate nach seiner Beförderung vom Assistenten?",
+    "answer": {
+      "label": "Hansi Flick",
+      "aliases": [
+        "Flick",
+        "Hans-Dieter Flick"
+      ]
+    },
+    "fact": "Bayern holte unter ihm sechs Titel innerhalb eines Jahres.",
+    "era": 2020,
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Hansi Flick",
+      "mustMention": [
+        "2020",
+        "Champions League"
+      ]
+    }
+  },
+  {
+    "id": "tq-hansi-flick-2",
+    "coachId": "hansi-flick",
+    "category": "trener",
+    "prompt": "Wessen Assistent war Hansi Flick beim WM-Titel 2014?",
+    "answer": {
+      "label": "Joachim Löw",
+      "aliases": [
+        "Löw",
+        "Jogi Löw"
+      ]
+    },
+    "fact": "Flick war von 2006 bis 2014 Co-Trainer der Nationalmannschaft.",
+    "era": 2014,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Hansi Flick",
+      "mustMention": [
+        "Joachim Löw"
+      ]
+    }
+  },
+  {
+    "id": "tq-hansi-flick-3",
+    "coachId": "hansi-flick",
+    "category": "trener",
+    "prompt": "Welchen Klub übernahm Hansi Flick 2024?",
+    "answer": {
+      "label": "FC Barcelona",
+      "aliases": [
+        "Barcelona",
+        "Barça"
+      ]
+    },
+    "fact": "In seiner ersten Saison wurde Barça spanischer Meister.",
+    "era": 2024,
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Hansi Flick",
+      "mustMention": [
+        "FC Barcelona",
+        "2024"
+      ]
+    }
+  },
+  {
+    "id": "tq-hansi-flick-4",
+    "coachId": "hansi-flick",
+    "category": "trener",
+    "prompt": "Bei welchem Klub war Hansi Flick ab 2000 Trainer, lange bevor dieser in die Bundesliga kam?",
+    "answer": {
+      "label": "TSG 1899 Hoffenheim",
+      "aliases": [
+        "Hoffenheim",
+        "TSG Hoffenheim"
+      ]
+    },
+    "fact": "Damals spielte Hoffenheim noch in der Oberliga und Regionalliga.",
+    "era": 2000,
+    "difficulty": 3,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Hansi Flick",
+      "mustMention": [
+        "TSG 1899 Hoffenheim"
+      ]
+    }
+  },
+  {
+    "id": "tq-julian-nagelsmann-1",
+    "coachId": "julian-nagelsmann",
+    "category": "trener",
+    "prompt": "Wer wurde 2016 mit 28 Jahren jüngster Cheftrainer der Bundesliga-Geschichte?",
+    "answer": {
+      "label": "Julian Nagelsmann",
+      "aliases": [
+        "Nagelsmann"
+      ]
+    },
+    "fact": "Er rettete Hoffenheim noch vor dem Abstieg.",
+    "era": 2016,
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Julian Nagelsmann",
+      "mustMention": [
+        "Hoffenheim",
+        "2016"
+      ]
+    }
+  },
+  {
+    "id": "tq-julian-nagelsmann-2",
+    "coachId": "julian-nagelsmann",
+    "category": "trener",
+    "prompt": "Welchen Klub führte Julian Nagelsmann 2020 ins Halbfinale der Champions League?",
+    "answer": {
+      "label": "RB Leipzig",
+      "aliases": [
+        "Leipzig"
+      ]
+    },
+    "fact": "Im Halbfinale in Lissabon war gegen Paris Saint-Germain Schluss.",
+    "era": 2020,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Julian Nagelsmann",
+      "mustMention": [
+        "RB Leipzig",
+        "2020"
+      ]
+    }
+  },
+  {
+    "id": "tq-julian-nagelsmann-3",
+    "coachId": "julian-nagelsmann",
+    "category": "trener",
+    "prompt": "Welches Amt übernahm Julian Nagelsmann im September 2023?",
+    "answer": {
+      "label": "Bundestrainer",
+      "aliases": [
+        "Trainer der Nationalmannschaft",
+        "Nationaltrainer"
+      ]
+    },
+    "fact": "Er war bei Amtsantritt 36 Jahre alt.",
+    "era": 2023,
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Julian Nagelsmann",
+      "mustMention": [
+        "Bundestrainer",
+        "2023"
+      ]
+    }
+  },
+  {
+    "id": "tq-julian-nagelsmann-4",
+    "coachId": "julian-nagelsmann",
+    "category": "trener",
+    "prompt": "Wer folgte 2023 auf Julian Nagelsmann als Trainer des FC Bayern?",
+    "answer": {
+      "label": "Thomas Tuchel",
+      "aliases": [
+        "Tuchel"
+      ]
+    },
+    "fact": "Tuchel holte in derselben Saison noch die Meisterschaft.",
+    "era": 2023,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Julian Nagelsmann",
+      "mustMention": [
+        "Thomas Tuchel"
+      ]
+    }
+  },
+  {
+    "id": "tq-thomas-tuchel-1",
+    "coachId": "thomas-tuchel",
+    "category": "trener",
+    "prompt": "Mit welchem Klub gewann Thomas Tuchel 2021 die Champions League?",
+    "answer": {
+      "label": "FC Chelsea",
+      "aliases": [
+        "Chelsea",
+        "Chelsea FC"
+      ]
+    },
+    "fact": "Im Finale in Porto schlug Chelsea Manchester City 1:0.",
+    "era": 2021,
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Thomas Tuchel",
+      "mustMention": [
+        "FC Chelsea",
+        "2021"
+      ]
+    }
+  },
+  {
+    "id": "tq-thomas-tuchel-2",
+    "coachId": "thomas-tuchel",
+    "category": "trener",
+    "prompt": "Welche Nationalmannschaft übernahm Thomas Tuchel 2025?",
+    "answer": {
+      "label": "England",
+      "aliases": [
+        "Englische Nationalmannschaft"
+      ]
+    },
+    "fact": "Er ist der dritte ausländische Cheftrainer Englands.",
+    "era": 2025,
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Thomas Tuchel",
+      "mustMention": [
+        "England",
+        "2025"
+      ]
+    }
+  },
+  {
+    "id": "tq-thomas-tuchel-3",
+    "coachId": "thomas-tuchel",
+    "category": "trener",
+    "prompt": "Mit welchem Klub gewann Thomas Tuchel 2017 den DFB-Pokal?",
+    "answer": {
+      "label": "Borussia Dortmund",
+      "aliases": [
+        "Dortmund",
+        "BVB"
+      ]
+    },
+    "fact": "Im Finale schlug der BVB Eintracht Frankfurt 2:1.",
+    "era": 2017,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Thomas Tuchel",
+      "mustMention": [
+        "Borussia Dortmund",
+        "2017"
+      ]
+    }
+  },
+  {
+    "id": "tq-thomas-tuchel-4",
+    "coachId": "thomas-tuchel",
+    "category": "trener",
+    "prompt": "Bei welchem Bundesligisten war Thomas Tuchel von 2009 bis 2014 Cheftrainer?",
+    "answer": {
+      "label": "1. FSV Mainz 05",
+      "aliases": [
+        "Mainz",
+        "Mainz 05"
+      ]
+    },
+    "fact": "Wie Klopp machte er sich in Mainz einen Namen.",
+    "era": 2009,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Thomas Tuchel",
+      "mustMention": [
+        "1. FSV Mainz 05",
+        "2009"
+      ]
+    }
+  },
+  {
+    "id": "tq-thomas-tuchel-5",
+    "coachId": "thomas-tuchel",
+    "category": "trener",
+    "prompt": "Welchen französischen Klub führte Thomas Tuchel 2020 ins Champions-League-Finale?",
+    "answer": {
+      "label": "Paris Saint-Germain",
+      "aliases": [
+        "PSG",
+        "Paris"
+      ]
+    },
+    "fact": "Im Finale verlor Paris 0:1 gegen den FC Bayern.",
+    "era": 2020,
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Thomas Tuchel",
+      "mustMention": [
+        "Paris Saint-Germain"
+      ]
+    }
+  },
+  {
+    "id": "tq-felix-magath-1",
+    "coachId": "felix-magath",
+    "category": "trener",
+    "prompt": "Welcher Trainer wurde 2009 mit dem VfL Wolfsburg Deutscher Meister?",
+    "answer": {
+      "label": "Felix Magath",
+      "aliases": [
+        "Magath"
+      ]
+    },
+    "fact": "Es ist bis heute Wolfsburgs einziger Meistertitel.",
+    "era": 2009,
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Felix Magath",
+      "mustMention": [
+        "Wolfsburg",
+        "2009"
+      ]
+    }
+  },
+  {
+    "id": "tq-felix-magath-2",
+    "coachId": "felix-magath",
+    "category": "trener",
+    "prompt": "Welchen Spitznamen bekam Felix Magath wegen seiner harten Trainingsmethoden?",
+    "answer": {
+      "label": "Quälix",
+      "aliases": []
+    },
+    "fact": "Berüchtigt waren seine Medizinball-Einheiten und Bergläufe.",
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Felix Magath",
+      "mustMention": [
+        "Quälix"
+      ]
+    }
+  },
+  {
+    "id": "tq-felix-magath-3",
+    "coachId": "felix-magath",
+    "category": "trener",
+    "prompt": "Mit welchem Klub holte Felix Magath 2005 und 2006 jeweils das Double?",
+    "answer": {
+      "label": "FC Bayern München",
+      "aliases": [
+        "Bayern",
+        "FC Bayern",
+        "Bayern München"
+      ]
+    },
+    "fact": "Zwei Doubles in Folge hatte zuvor kein Bundesligatrainer geschafft.",
+    "era": 2006,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Felix Magath",
+      "mustMention": [
+        "FC Bayern München",
+        "2005",
+        "2006"
+      ]
+    }
+  },
+  {
+    "id": "tq-felix-magath-4",
+    "coachId": "felix-magath",
+    "category": "trener",
+    "prompt": "Gegen welchen Klub schoss Felix Magath 1983 das Siegtor im Landesmeister-Finale für den HSV?",
+    "answer": {
+      "label": "Juventus Turin",
+      "aliases": [
+        "Juventus",
+        "Juve"
+      ]
+    },
+    "fact": "Das Finale in Athen endete 1:0.",
+    "era": 1983,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Felix Magath",
+      "mustMention": [
+        "Juventus Turin",
+        "1983"
+      ]
+    }
+  },
+  {
+    "id": "tq-otto-rehhagel-1",
+    "coachId": "otto-rehhagel",
+    "category": "trener",
+    "prompt": "Welcher deutsche Trainer wurde 2004 mit Griechenland Europameister?",
+    "answer": {
+      "label": "Otto Rehhagel",
+      "aliases": [
+        "Rehhagel",
+        "Rehakles"
+      ]
+    },
+    "fact": "Im Finale in Lissabon schlug Griechenland Gastgeber Portugal 1:0.",
+    "era": 2004,
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Otto Rehhagel",
+      "mustMention": [
+        "Griechenland",
+        "2004"
+      ]
+    }
+  },
+  {
+    "id": "tq-otto-rehhagel-2",
+    "coachId": "otto-rehhagel",
+    "category": "trener",
+    "prompt": "Mit welchem Klub wurde Otto Rehhagel 1998 als Aufsteiger Deutscher Meister?",
+    "answer": {
+      "label": "1. FC Kaiserslautern",
+      "aliases": [
+        "Kaiserslautern",
+        "FCK",
+        "Lautern"
+      ]
+    },
+    "fact": "Das ist in der Bundesliga bis heute einmalig.",
+    "era": 1998,
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Otto Rehhagel",
+      "mustMention": [
+        "1. FC Kaiserslautern",
+        "1998"
+      ]
+    }
+  },
+  {
+    "id": "tq-otto-rehhagel-3",
+    "coachId": "otto-rehhagel",
+    "category": "trener",
+    "prompt": "Bei welchem Klub war Otto Rehhagel von 1981 bis 1995 Trainer?",
+    "answer": {
+      "label": "Werder Bremen",
+      "aliases": [
+        "Werder",
+        "SV Werder Bremen",
+        "Bremen"
+      ]
+    },
+    "fact": "Mit Werder wurde er zweimal Meister und gewann 1992 den Europapokal.",
+    "era": 1981,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Otto Rehhagel",
+      "mustMention": [
+        "Werder Bremen",
+        "1981"
+      ]
+    }
+  },
+  {
+    "id": "tq-otto-rehhagel-4",
+    "coachId": "otto-rehhagel",
+    "category": "trener",
+    "prompt": "Welchen Spitznamen gaben die Griechen Otto Rehhagel?",
+    "answer": {
+      "label": "Rehakles",
+      "aliases": [
+        "König Otto"
+      ]
+    },
+    "fact": "Eine Anspielung auf den Sagenhelden Herakles.",
+    "era": 2004,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Otto Rehhagel",
+      "mustMention": [
+        "Rehakles"
+      ]
+    }
+  },
+  {
+    "id": "tq-christoph-daum-1",
+    "coachId": "christoph-daum",
+    "category": "trener",
+    "prompt": "Mit welchem Klub wurde Christoph Daum 1992 Deutscher Meister?",
+    "answer": {
+      "label": "VfB Stuttgart",
+      "aliases": [
+        "Stuttgart",
+        "VfB"
+      ]
+    },
+    "fact": "Der VfB setzte sich am letzten Spieltag gegen Frankfurt und Dortmund durch.",
+    "era": 1992,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Christoph Daum",
+      "mustMention": [
+        "VfB Stuttgart",
+        "1992"
+      ]
+    }
+  },
+  {
+    "id": "tq-christoph-daum-2",
+    "coachId": "christoph-daum",
+    "category": "trener",
+    "prompt": "Welcher designierte Bundestrainer musste im Jahr 2000 nach einer Kokain-Affäre verzichten?",
+    "answer": {
+      "label": "Christoph Daum",
+      "aliases": [
+        "Daum"
+      ]
+    },
+    "fact": "Statt ihm übernahm Rudi Völler als Teamchef.",
+    "era": 2000,
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Christoph Daum",
+      "mustMention": [
+        "Kokain",
+        "2000"
+      ]
+    }
+  },
+  {
+    "id": "tq-christoph-daum-3",
+    "coachId": "christoph-daum",
+    "category": "trener",
+    "prompt": "Mit welchem Istanbuler Klub wurde Christoph Daum 1995 türkischer Meister?",
+    "answer": {
+      "label": "Beşiktaş",
+      "aliases": [
+        "Beşiktaş Istanbul"
+      ]
+    },
+    "fact": "Auch mit Fenerbahçe holte er später Meistertitel.",
+    "era": 1995,
+    "difficulty": 3,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Christoph Daum",
+      "mustMention": [
+        "Beşiktaş"
+      ]
+    }
+  },
+  {
+    "id": "tq-christoph-daum-4",
+    "coachId": "christoph-daum",
+    "category": "trener",
+    "prompt": "Welchen Bundesligisten trainierte Christoph Daum von 1996 bis 2000?",
+    "answer": {
+      "label": "Bayer 04 Leverkusen",
+      "aliases": [
+        "Leverkusen",
+        "Bayer Leverkusen"
+      ]
+    },
+    "fact": "Leverkusen wurde in dieser Zeit mehrfach Vizemeister.",
+    "era": 1996,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Christoph Daum",
+      "mustMention": [
+        "Bayer 04 Leverkusen"
+      ]
+    }
+  },
+  {
+    "id": "tq-ernst-happel-1",
+    "coachId": "ernst-happel",
+    "category": "trener",
+    "prompt": "Welcher Trainer führte den HSV 1983 zum Sieg im Europapokal der Landesmeister?",
+    "answer": {
+      "label": "Ernst Happel",
+      "aliases": [
+        "Happel"
+      ]
+    },
+    "fact": "Es ist der größte Erfolg der Hamburger Vereinsgeschichte.",
+    "era": 1983,
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Ernst Happel",
+      "mustMention": [
+        "1983",
+        "Landesmeister"
+      ]
+    }
+  },
+  {
+    "id": "tq-ernst-happel-2",
+    "coachId": "ernst-happel",
+    "category": "trener",
+    "prompt": "Welche Nationalmannschaft führte Ernst Happel 1978 ins WM-Finale?",
+    "answer": {
+      "label": "Niederlande",
+      "aliases": [
+        "Holland"
+      ]
+    },
+    "fact": "Im Finale in Buenos Aires unterlagen die Niederlande Argentinien.",
+    "era": 1978,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Ernst Happel",
+      "mustMention": [
+        "Niederlande",
+        "1978"
+      ]
+    }
+  },
+  {
+    "id": "tq-ernst-happel-3",
+    "coachId": "ernst-happel",
+    "category": "trener",
+    "prompt": "Mit welchem niederländischen Klub gewann Ernst Happel 1970 den Landesmeisterpokal?",
+    "answer": {
+      "label": "Feyenoord Rotterdam",
+      "aliases": [
+        "Feyenoord"
+      ]
+    },
+    "fact": "Feyenoord war der erste niederländische Sieger des Wettbewerbs.",
+    "era": 1970,
+    "difficulty": 3,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Ernst Happel",
+      "mustMention": [
+        "Feyenoord Rotterdam",
+        "1970"
+      ]
+    }
+  },
+  {
+    "id": "tq-ernst-happel-4",
+    "coachId": "ernst-happel",
+    "category": "trener",
+    "prompt": "Aus welchem Land stammte Ernst Happel?",
+    "answer": {
+      "label": "Österreich",
+      "aliases": []
+    },
+    "fact": "Das größte Stadion Wiens trägt heute seinen Namen.",
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Ernst Happel",
+      "mustMention": [
+        "Österreich"
+      ]
+    }
+  },
+  {
+    "id": "tq-branko-zebec-1",
+    "coachId": "branko-zebec",
+    "category": "trener",
+    "prompt": "Welcher Trainer wurde 1979 mit dem Hamburger SV Deutscher Meister?",
+    "answer": {
+      "label": "Branko Zebec",
+      "aliases": [
+        "Zebec"
+      ]
+    },
+    "fact": "Mit Kevin Keegan war der HSV damals eine Spitzenmannschaft.",
+    "era": 1979,
+    "difficulty": 3,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Branko Zebec",
+      "mustMention": [
+        "Hamburger SV",
+        "1979"
+      ]
+    }
+  },
+  {
+    "id": "tq-branko-zebec-2",
+    "coachId": "branko-zebec",
+    "category": "trener",
+    "prompt": "Mit welchem Klub gewann Branko Zebec 1969 das Double?",
+    "answer": {
+      "label": "FC Bayern München",
+      "aliases": [
+        "Bayern",
+        "FC Bayern",
+        "Bayern München"
+      ]
+    },
+    "fact": "Es war Bayerns erste Meisterschaft in der Bundesliga.",
+    "era": 1969,
+    "difficulty": 3,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Branko Zebec",
+      "mustMention": [
+        "FC Bayern München",
+        "1969"
+      ]
+    }
+  },
+  {
+    "id": "tq-max-merkel-1",
+    "coachId": "max-merkel",
+    "category": "trener",
+    "prompt": "Welcher Trainer wurde mit 1860 München (1966) und dem 1. FC Nürnberg (1968) Deutscher Meister?",
+    "answer": {
+      "label": "Max Merkel",
+      "aliases": [
+        "Merkel"
+      ]
+    },
+    "fact": "Der Wiener war für seine spitze Zunge bekannt.",
+    "era": 1968,
+    "difficulty": 3,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Max Merkel",
+      "mustMention": [
+        "1966",
+        "1968"
+      ]
+    }
+  },
+  {
+    "id": "tq-dettmar-cramer-1",
+    "coachId": "dettmar-cramer",
+    "category": "trener",
+    "prompt": "Welcher Trainer gewann mit dem FC Bayern 1975 und 1976 den Landesmeisterpokal?",
+    "answer": {
+      "label": "Dettmar Cramer",
+      "aliases": [
+        "Cramer"
+      ]
+    },
+    "fact": "Er übernahm Anfang 1975 von Udo Lattek.",
+    "era": 1976,
+    "difficulty": 3,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Dettmar Cramer",
+      "mustMention": [
+        "1975",
+        "1976"
+      ]
+    }
+  },
+  {
+    "id": "tq-dettmar-cramer-2",
+    "coachId": "dettmar-cramer",
+    "category": "trener",
+    "prompt": "In welchem Land gilt Dettmar Cramer als Vater des modernen Fußballs?",
+    "answer": {
+      "label": "Japan",
+      "aliases": []
+    },
+    "fact": "Mit Japan holte er 1968 olympisches Bronze als Berater.",
+    "difficulty": 3,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Dettmar Cramer",
+      "mustMention": [
+        "Japan"
+      ]
+    }
+  },
+  {
+    "id": "tq-dettmar-cramer-3",
+    "coachId": "dettmar-cramer",
+    "category": "trener",
+    "prompt": "Welchen Spitznamen trug der kleingewachsene Dettmar Cramer?",
+    "answer": {
+      "label": "Napoleon",
+      "aliases": [
+        "Fußball-Napoleon"
+      ]
+    },
+    "fact": "Er war für seine detailversessene Taktikarbeit bekannt.",
+    "difficulty": 3,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Dettmar Cramer",
+      "mustMention": [
+        "Napoleon"
+      ]
+    }
+  },
+  {
+    "id": "tq-huub-stevens-1",
+    "coachId": "huub-stevens",
+    "category": "trener",
+    "prompt": "Welcher Trainer gewann 1997 mit Schalke 04 den UEFA-Pokal?",
+    "answer": {
+      "label": "Huub Stevens",
+      "aliases": [
+        "Stevens"
+      ]
+    },
+    "fact": "Im Finale setzte sich Schalke im Elfmeterschießen gegen Inter Mailand durch.",
+    "era": 1997,
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Huub Stevens",
+      "mustMention": [
+        "UEFA-Pokal",
+        "1997"
+      ]
+    }
+  },
+  {
+    "id": "tq-huub-stevens-2",
+    "coachId": "huub-stevens",
+    "category": "trener",
+    "prompt": "Welcher Trainer prägte den Satz „Die Null muss stehen“?",
+    "answer": {
+      "label": "Huub Stevens",
+      "aliases": [
+        "Stevens"
+      ]
+    },
+    "fact": "Er stand für eine kompromisslose Abwehrarbeit.",
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Huub Stevens",
+      "mustMention": [
+        "Null muss stehen"
+      ]
+    }
+  },
+  {
+    "id": "tq-huub-stevens-3",
+    "coachId": "huub-stevens",
+    "category": "trener",
+    "prompt": "Aus welchem Land stammt Huub Stevens?",
+    "answer": {
+      "label": "Niederlande",
+      "aliases": [
+        "Holland"
+      ]
+    },
+    "fact": "Als Spieler gehörte er zur Elf der PSV Eindhoven.",
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Huub Stevens",
+      "mustMention": [
+        "Niederlande"
+      ]
+    }
+  },
+  {
+    "id": "tq-huub-stevens-4",
+    "coachId": "huub-stevens",
+    "category": "trener",
+    "prompt": "Unter welchem Namen wurden Schalkes UEFA-Pokal-Sieger von 1997 berühmt?",
+    "answer": {
+      "label": "Eurofighter",
+      "aliases": [
+        "Die Eurofighter"
+      ]
+    },
+    "fact": "Die Mannschaft hatte kaum große Namen, aber einen enormen Zusammenhalt.",
+    "era": 1997,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Huub Stevens",
+      "mustMention": [
+        "Eurofighter"
+      ]
+    }
+  },
+  {
+    "id": "tq-thomas-schaaf-1",
+    "coachId": "thomas-schaaf",
+    "category": "trener",
+    "prompt": "Welcher Trainer holte mit Werder Bremen 2004 das Double?",
+    "answer": {
+      "label": "Thomas Schaaf",
+      "aliases": [
+        "Schaaf"
+      ]
+    },
+    "fact": "Er trainierte Werder 14 Jahre lang.",
+    "era": 2004,
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Thomas Schaaf",
+      "mustMention": [
+        "2004",
+        "Double"
+      ]
+    }
+  },
+  {
+    "id": "tq-thomas-schaaf-2",
+    "coachId": "thomas-schaaf",
+    "category": "trener",
+    "prompt": "Welchen Klub trainierte Thomas Schaaf in der Saison 2014/15?",
+    "answer": {
+      "label": "Eintracht Frankfurt",
+      "aliases": [
+        "Frankfurt",
+        "Eintracht"
+      ]
+    },
+    "fact": "Nach einer Saison trat er dort zurück.",
+    "era": 2014,
+    "difficulty": 3,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Thomas Schaaf",
+      "mustMention": [
+        "Eintracht Frankfurt",
+        "2014"
+      ]
+    }
+  },
+  {
+    "id": "tq-thomas-schaaf-3",
+    "coachId": "thomas-schaaf",
+    "category": "trener",
+    "prompt": "Für welchen Klub spielte Thomas Schaaf seine gesamte Profikarriere?",
+    "answer": {
+      "label": "Werder Bremen",
+      "aliases": [
+        "Werder",
+        "SV Werder Bremen",
+        "Bremen"
+      ]
+    },
+    "fact": "Als Spieler wurde er mit Werder 1988 und 1993 Meister.",
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Thomas Schaaf",
+      "mustMention": [
+        "Werder Bremen"
+      ]
+    }
+  },
+  {
+    "id": "tq-armin-veh-1",
+    "coachId": "armin-veh",
+    "category": "trener",
+    "prompt": "Mit welchem Klub wurde Armin Veh 2007 Deutscher Meister?",
+    "answer": {
+      "label": "VfB Stuttgart",
+      "aliases": [
+        "Stuttgart",
+        "VfB"
+      ]
+    },
+    "fact": "Die junge Mannschaft um Mario Gómez überraschte die Liga.",
+    "era": 2007,
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Armin Veh",
+      "mustMention": [
+        "VfB Stuttgart",
+        "2007"
+      ]
+    }
+  },
+  {
+    "id": "tq-armin-veh-2",
+    "coachId": "armin-veh",
+    "category": "trener",
+    "prompt": "Welchen Klub führte Armin Veh 2012 zurück in die Bundesliga?",
+    "answer": {
+      "label": "Eintracht Frankfurt",
+      "aliases": [
+        "Frankfurt",
+        "Eintracht"
+      ]
+    },
+    "fact": "In der Saison danach erreichte Frankfurt die Europa League.",
+    "era": 2012,
+    "difficulty": 3,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Armin Veh",
+      "mustMention": [
+        "Eintracht Frankfurt",
+        "2012"
+      ]
+    }
+  },
+  {
+    "id": "tq-matthias-sammer-1",
+    "coachId": "matthias-sammer",
+    "category": "trener",
+    "prompt": "Wer wurde 2002 als Trainer mit Borussia Dortmund Deutscher Meister?",
+    "answer": {
+      "label": "Matthias Sammer",
+      "aliases": [
+        "Sammer"
+      ]
+    },
+    "fact": "Er war damals erst 34 Jahre alt.",
+    "era": 2002,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Matthias Sammer",
+      "mustMention": [
+        "2002"
+      ]
+    }
+  },
+  {
+    "id": "tq-matthias-sammer-2",
+    "coachId": "matthias-sammer",
+    "category": "trener",
+    "prompt": "Welche große Einzelauszeichnung gewann Matthias Sammer 1996 als Spieler?",
+    "answer": {
+      "label": "Europas Fußballer des Jahres",
+      "aliases": [
+        "Ballon d’Or",
+        "Goldener Ball"
+      ]
+    },
+    "fact": "Im selben Jahr wurde er mit Deutschland Europameister.",
+    "era": 1996,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Matthias Sammer",
+      "mustMention": [
+        "Europas Fußballer des Jahres",
+        "1996"
+      ]
+    }
+  },
+  {
+    "id": "tq-lucien-favre-1",
+    "coachId": "lucien-favre",
+    "category": "trener",
+    "prompt": "Welcher Schweizer Trainer rettete Borussia Mönchengladbach 2011 in der Relegation vor dem Abstieg?",
+    "answer": {
+      "label": "Lucien Favre",
+      "aliases": [
+        "Favre"
+      ]
+    },
+    "fact": "Ein Jahr später spielte Gladbach in der Champions-League-Qualifikation.",
+    "era": 2011,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Lucien Favre",
+      "mustMention": [
+        "Relegation",
+        "2011"
+      ]
+    }
+  },
+  {
+    "id": "tq-lucien-favre-2",
+    "coachId": "lucien-favre",
+    "category": "trener",
+    "prompt": "Welchen Klub trainierte Lucien Favre von 2018 bis 2020?",
+    "answer": {
+      "label": "Borussia Dortmund",
+      "aliases": [
+        "Dortmund",
+        "BVB"
+      ]
+    },
+    "fact": "Zuvor hatte er OGC Nizza trainiert.",
+    "era": 2018,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Lucien Favre",
+      "mustMention": [
+        "Borussia Dortmund",
+        "2018"
+      ]
+    }
+  },
+  {
+    "id": "tq-xabi-alonso-1",
+    "coachId": "xabi-alonso",
+    "category": "trener",
+    "prompt": "Welcher Trainer wurde 2024 mit Bayer Leverkusen ungeschlagen Deutscher Meister?",
+    "answer": {
+      "label": "Xabi Alonso",
+      "aliases": [
+        "Alonso"
+      ]
+    },
+    "fact": "Es war Leverkusens erste Meisterschaft.",
+    "era": 2024,
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Xabi Alonso",
+      "mustMention": [
+        "Leverkusen",
+        "2024"
+      ]
+    }
+  },
+  {
+    "id": "tq-xabi-alonso-2",
+    "coachId": "xabi-alonso",
+    "category": "trener",
+    "prompt": "Welchen Klub übernahm Xabi Alonso 2025?",
+    "answer": {
+      "label": "Real Madrid",
+      "aliases": [
+        "Real"
+      ]
+    },
+    "fact": "Für Real hatte er schon als Spieler die Champions League gewonnen.",
+    "era": 2025,
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Xabi Alonso",
+      "mustMention": [
+        "Real Madrid",
+        "2025"
+      ]
+    }
+  },
+  {
+    "id": "tq-xabi-alonso-3",
+    "coachId": "xabi-alonso",
+    "category": "trener",
+    "prompt": "Für welchen deutschen Klub spielte Xabi Alonso von 2014 bis 2017?",
+    "answer": {
+      "label": "FC Bayern München",
+      "aliases": [
+        "Bayern",
+        "FC Bayern",
+        "Bayern München"
+      ]
+    },
+    "fact": "In München beendete er 2017 seine Spielerkarriere.",
+    "era": 2014,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Xabi Alonso",
+      "mustMention": [
+        "FC Bayern München"
+      ]
+    }
+  },
+  {
+    "id": "tq-xabi-alonso-4",
+    "coachId": "xabi-alonso",
+    "category": "trener",
+    "prompt": "Mit welchem Klub gewann Xabi Alonso als Spieler 2005 die Champions League?",
+    "answer": {
+      "label": "FC Liverpool",
+      "aliases": [
+        "Liverpool"
+      ]
+    },
+    "fact": "Im Finale von Istanbul glich er per Nachschuss zum 3:3 aus.",
+    "era": 2005,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Xabi Alonso",
+      "mustMention": [
+        "FC Liverpool",
+        "2005"
+      ]
+    }
+  },
+  {
+    "id": "tq-pep-guardiola-1",
+    "coachId": "pep-guardiola",
+    "category": "trener",
+    "prompt": "Welcher Katalane trainierte den FC Bayern von 2013 bis 2016?",
+    "answer": {
+      "label": "Pep Guardiola",
+      "aliases": [
+        "Guardiola",
+        "Josep Guardiola"
+      ]
+    },
+    "fact": "In jeder seiner drei Saisons wurde Bayern Meister.",
+    "era": 2013,
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Pep Guardiola",
+      "mustMention": [
+        "Bayern",
+        "2013"
+      ]
+    }
+  },
+  {
+    "id": "tq-pep-guardiola-2",
+    "coachId": "pep-guardiola",
+    "category": "trener",
+    "prompt": "Welchen Klub übernahm Pep Guardiola nach seiner Zeit in München?",
+    "answer": {
+      "label": "Manchester City",
+      "aliases": [
+        "City",
+        "Man City"
+      ]
+    },
+    "fact": "Mit City gewann er 2023 das Triple.",
+    "era": 2016,
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Pep Guardiola",
+      "mustMention": [
+        "Manchester City"
+      ]
+    }
+  },
+  {
+    "id": "tq-louis-van-gaal-1",
+    "coachId": "louis-van-gaal",
+    "category": "trener",
+    "prompt": "Welcher Niederländer holte 2010 mit dem FC Bayern das Double?",
+    "answer": {
+      "label": "Louis van Gaal",
+      "aliases": [
+        "van Gaal"
+      ]
+    },
+    "fact": "Im Champions-League-Finale unterlag Bayern Inter Mailand.",
+    "era": 2010,
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Louis van Gaal",
+      "mustMention": [
+        "2010",
+        "Bayern"
+      ]
+    }
+  },
+  {
+    "id": "tq-louis-van-gaal-2",
+    "coachId": "louis-van-gaal",
+    "category": "trener",
+    "prompt": "Mit welchem Klub gewann Louis van Gaal 1995 die Champions League?",
+    "answer": {
+      "label": "Ajax Amsterdam",
+      "aliases": [
+        "Ajax"
+      ]
+    },
+    "fact": "Im Finale schlug die junge Ajax-Elf den AC Mailand.",
+    "era": 1995,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Louis van Gaal",
+      "mustMention": [
+        "Ajax Amsterdam",
+        "1995"
+      ]
+    }
+  },
+  {
+    "id": "tq-carlo-ancelotti-1",
+    "coachId": "carlo-ancelotti",
+    "category": "trener",
+    "prompt": "Welcher Italiener trainierte den FC Bayern 2016/17?",
+    "answer": {
+      "label": "Carlo Ancelotti",
+      "aliases": [
+        "Ancelotti"
+      ]
+    },
+    "fact": "Er wurde mit Bayern Meister und im September 2017 entlassen.",
+    "era": 2016,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Carlo Ancelotti",
+      "mustMention": [
+        "Bayern",
+        "2016"
+      ]
+    }
+  },
+  {
+    "id": "tq-carlo-ancelotti-2",
+    "coachId": "carlo-ancelotti",
+    "category": "trener",
+    "prompt": "Welche Nationalmannschaft übernahm Carlo Ancelotti 2025?",
+    "answer": {
+      "label": "Brasilien",
+      "aliases": [
+        "Seleção"
+      ]
+    },
+    "fact": "Er ist einer der wenigen ausländischen Trainer der Seleção.",
+    "era": 2025,
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Carlo Ancelotti",
+      "mustMention": [
+        "Brasilien",
+        "2025"
+      ]
+    }
+  },
+  {
+    "id": "tq-niko-kovac-1",
+    "coachId": "niko-kovac",
+    "category": "trener",
+    "prompt": "Welcher Trainer gewann 2018 mit Eintracht Frankfurt den DFB-Pokal gegen den FC Bayern?",
+    "answer": {
+      "label": "Niko Kovač",
+      "aliases": [
+        "Kovač"
+      ]
+    },
+    "fact": "Danach wechselte er ausgerechnet nach München.",
+    "era": 2018,
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Niko Kovač",
+      "mustMention": [
+        "Frankfurt",
+        "2018"
+      ]
+    }
+  },
+  {
+    "id": "tq-niko-kovac-2",
+    "coachId": "niko-kovac",
+    "category": "trener",
+    "prompt": "Welche Nationalmannschaft trainierte Niko Kovač von 2013 bis 2015?",
+    "answer": {
+      "label": "Kroatien",
+      "aliases": []
+    },
+    "fact": "Für Kroatien hatte er auch als Spieler viele Länderspiele bestritten.",
+    "era": 2013,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Niko Kovač",
+      "mustMention": [
+        "Kroatien"
+      ]
+    }
+  },
+  {
+    "id": "tq-niko-kovac-3",
+    "coachId": "niko-kovac",
+    "category": "trener",
+    "prompt": "Mit welchem Klub holte Niko Kovač 2019 das Double?",
+    "answer": {
+      "label": "FC Bayern München",
+      "aliases": [
+        "Bayern",
+        "FC Bayern",
+        "Bayern München"
+      ]
+    },
+    "fact": "Im November 2019 trennte sich Bayern von ihm.",
+    "era": 2019,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Niko Kovač",
+      "mustMention": [
+        "FC Bayern München",
+        "2019"
+      ]
+    }
+  },
+  {
+    "id": "tq-oliver-glasner-1",
+    "coachId": "oliver-glasner",
+    "category": "trener",
+    "prompt": "Welcher Österreicher gewann 2022 mit Eintracht Frankfurt die Europa League?",
+    "answer": {
+      "label": "Oliver Glasner",
+      "aliases": [
+        "Glasner"
+      ]
+    },
+    "fact": "Im Finale in Sevilla siegte Frankfurt im Elfmeterschießen gegen die Rangers.",
+    "era": 2022,
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Oliver Glasner",
+      "mustMention": [
+        "Europa League",
+        "2022"
+      ]
+    }
+  },
+  {
+    "id": "tq-oliver-glasner-2",
+    "coachId": "oliver-glasner",
+    "category": "trener",
+    "prompt": "Mit welchem englischen Klub gewann Oliver Glasner 2025 den FA Cup?",
+    "answer": {
+      "label": "Crystal Palace",
+      "aliases": [
+        "Palace"
+      ]
+    },
+    "fact": "Es war der erste große Titel der Vereinsgeschichte.",
+    "era": 2025,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Oliver Glasner",
+      "mustMention": [
+        "Crystal Palace",
+        "2025"
+      ]
+    }
+  },
+  {
+    "id": "tq-oliver-glasner-3",
+    "coachId": "oliver-glasner",
+    "category": "trener",
+    "prompt": "Welchen Bundesligisten trainierte Oliver Glasner von 2019 bis 2021?",
+    "answer": {
+      "label": "VfL Wolfsburg",
+      "aliases": [
+        "Wolfsburg"
+      ]
+    },
+    "fact": "2021 führte er Wolfsburg in die Champions League.",
+    "era": 2019,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Oliver Glasner",
+      "mustMention": [
+        "VfL Wolfsburg"
+      ]
+    }
+  },
+  {
+    "id": "tq-edin-terzic-1",
+    "coachId": "edin-terzic",
+    "category": "trener",
+    "prompt": "Wer führte Borussia Dortmund 2024 als Trainer ins Champions-League-Finale?",
+    "answer": {
+      "label": "Edin Terzić",
+      "aliases": [
+        "Terzić"
+      ]
+    },
+    "fact": "Im Finale in Wembley unterlag der BVB Real Madrid 0:2.",
+    "era": 2024,
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Edin Terzić",
+      "mustMention": [
+        "2024",
+        "Finale"
+      ]
+    }
+  },
+  {
+    "id": "tq-edin-terzic-2",
+    "coachId": "edin-terzic",
+    "category": "trener",
+    "prompt": "Welchen Titel gewann Edin Terzić 2021 in seiner ersten Amtszeit als BVB-Trainer?",
+    "answer": {
+      "label": "DFB-Pokal",
+      "aliases": [
+        "Pokal"
+      ]
+    },
+    "fact": "Im Finale schlug Dortmund RB Leipzig 4:1.",
+    "era": 2021,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Edin Terzić",
+      "mustMention": [
+        "DFB-Pokal",
+        "2021"
+      ]
+    }
+  },
+  {
+    "id": "tq-friedhelm-funkel-1",
+    "coachId": "friedhelm-funkel",
+    "category": "trener",
+    "prompt": "Welcher Trainer rettete den 1. FC Köln 2021 als Feuerwehrmann über die Relegation?",
+    "answer": {
+      "label": "Friedhelm Funkel",
+      "aliases": [
+        "Funkel"
+      ]
+    },
+    "fact": "Er war damals bereits 67 Jahre alt.",
+    "era": 2021,
+    "difficulty": 3,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Friedhelm Funkel",
+      "mustMention": [
+        "Köln",
+        "2021"
+      ]
+    }
+  },
+  {
+    "id": "tq-friedhelm-funkel-2",
+    "coachId": "friedhelm-funkel",
+    "category": "trener",
+    "prompt": "Mit welchem Klub erreichte Friedhelm Funkel 2006 das DFB-Pokal-Finale?",
+    "answer": {
+      "label": "Eintracht Frankfurt",
+      "aliases": [
+        "Frankfurt",
+        "Eintracht"
+      ]
+    },
+    "fact": "Im Finale verlor Frankfurt 0:1 gegen den FC Bayern.",
+    "era": 2006,
+    "difficulty": 3,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Friedhelm Funkel",
+      "mustMention": [
+        "Eintracht Frankfurt",
+        "2006"
+      ]
+    }
+  },
+  {
+    "id": "tq-ralf-rangnick-1",
+    "coachId": "ralf-rangnick",
+    "category": "trener",
+    "prompt": "Welche Nationalmannschaft trainiert Ralf Rangnick seit 2022?",
+    "answer": {
+      "label": "Österreich",
+      "aliases": []
+    },
+    "fact": "Bei der EM 2024 gewann Österreich unter ihm die Gruppe vor Frankreich.",
+    "era": 2022,
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Ralf Rangnick",
+      "mustMention": [
+        "Österreich",
+        "2022"
+      ]
+    }
+  },
+  {
+    "id": "tq-ralf-rangnick-2",
+    "coachId": "ralf-rangnick",
+    "category": "trener",
+    "prompt": "Welchen englischen Klub trainierte Ralf Rangnick 2021/22 als Interimstrainer?",
+    "answer": {
+      "label": "Manchester United",
+      "aliases": [
+        "ManUnited",
+        "Man United"
+      ]
+    },
+    "fact": "Danach sollte er als Berater bleiben.",
+    "era": 2021,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Ralf Rangnick",
+      "mustMention": [
+        "Manchester United"
+      ]
+    }
+  },
+  {
+    "id": "tq-ralf-rangnick-3",
+    "coachId": "ralf-rangnick",
+    "category": "trener",
+    "prompt": "Welchen Spitznamen trägt Ralf Rangnick seit einem Taktik-Auftritt im „Sportstudio“?",
+    "answer": {
+      "label": "Professor",
+      "aliases": [
+        "Der Professor",
+        "Fußball-Professor"
+      ]
+    },
+    "fact": "Er erklärte 1998 im Fernsehen die Viererkette an einer Taktiktafel.",
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Ralf Rangnick",
+      "mustMention": [
+        "Professor"
+      ]
+    }
+  },
+  {
+    "id": "tq-ralf-rangnick-4",
+    "coachId": "ralf-rangnick",
+    "category": "trener",
+    "prompt": "Mit welchem Klub gewann Ralf Rangnick 2011 den DFB-Pokal?",
+    "answer": {
+      "label": "FC Schalke 04",
+      "aliases": [
+        "Schalke",
+        "Schalke 04"
+      ]
+    },
+    "fact": "Im Finale schlug Schalke den MSV Duisburg 5:0.",
+    "era": 2011,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Ralf Rangnick",
+      "mustMention": [
+        "FC Schalke 04",
+        "2011"
+      ]
+    }
+  },
+  {
+    "id": "tq-jupp-derwall-1",
+    "coachId": "jupp-derwall",
+    "category": "trener",
+    "prompt": "Welcher Bundestrainer gewann die EM 1980 in Italien?",
+    "answer": {
+      "label": "Jupp Derwall",
+      "aliases": [
+        "Derwall"
+      ]
+    },
+    "fact": "Im Finale schlug Deutschland Belgien 2:1.",
+    "era": 1980,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Jupp Derwall",
+      "mustMention": [
+        "1980"
+      ]
+    }
+  },
+  {
+    "id": "tq-jupp-derwall-2",
+    "coachId": "jupp-derwall",
+    "category": "trener",
+    "prompt": "Welchen türkischen Klub führte Jupp Derwall nach seiner Zeit als Bundestrainer?",
+    "answer": {
+      "label": "Galatasaray",
+      "aliases": [
+        "Galatasaray Istanbul"
+      ]
+    },
+    "fact": "In Istanbul gilt er als Modernisierer des türkischen Fußballs.",
+    "era": 1984,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Jupp Derwall",
+      "mustMention": [
+        "Galatasaray"
+      ]
+    }
+  },
+  {
+    "id": "tq-erich-ribbeck-1",
+    "coachId": "erich-ribbeck",
+    "category": "trener",
+    "prompt": "Welcher Teamchef schied mit Deutschland bei der EM 2000 in der Vorrunde aus?",
+    "answer": {
+      "label": "Erich Ribbeck",
+      "aliases": [
+        "Ribbeck"
+      ]
+    },
+    "fact": "Deutschland holte nur einen Punkt in drei Spielen.",
+    "era": 2000,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Erich Ribbeck",
+      "mustMention": [
+        "2000"
+      ]
+    }
+  },
+  {
+    "id": "tq-erich-ribbeck-2",
+    "coachId": "erich-ribbeck",
+    "category": "trener",
+    "prompt": "Mit welchem Klub gewann Erich Ribbeck 1988 den UEFA-Pokal?",
+    "answer": {
+      "label": "Bayer 04 Leverkusen",
+      "aliases": [
+        "Leverkusen",
+        "Bayer Leverkusen"
+      ]
+    },
+    "fact": "Leverkusen siegte im Elfmeterschießen gegen Espanyol Barcelona.",
+    "era": 1988,
+    "difficulty": 3,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Erich Ribbeck",
+      "mustMention": [
+        "Bayer 04 Leverkusen",
+        "UEFA-Pokal",
+        "1988"
+      ]
+    }
+  },
+  {
+    "id": "tq-giovanni-trapattoni-1",
+    "coachId": "giovanni-trapattoni",
+    "category": "trener",
+    "prompt": "Welcher Bayern-Trainer hielt 1998 die berühmte Wutrede mit „Ich habe fertig“?",
+    "answer": {
+      "label": "Giovanni Trapattoni",
+      "aliases": [
+        "Trapattoni",
+        "Trap"
+      ]
+    },
+    "fact": "Die Pressekonferenz ist eine der bekanntesten der Bundesliga.",
+    "era": 1998,
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Giovanni Trapattoni",
+      "mustMention": [
+        "fertig"
+      ]
+    }
+  },
+  {
+    "id": "tq-giovanni-trapattoni-2",
+    "coachId": "giovanni-trapattoni",
+    "category": "trener",
+    "prompt": "Welchen Bayern-Spieler kritisierte Trapattoni in seiner Wutrede 1998 namentlich?",
+    "answer": {
+      "label": "Thomas Strunz",
+      "aliases": [
+        "Strunz"
+      ]
+    },
+    "fact": "„Was erlauben Strunz?“ wurde zum geflügelten Wort.",
+    "era": 1998,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Giovanni Trapattoni",
+      "mustMention": [
+        "Thomas Strunz"
+      ]
+    }
+  },
+  {
+    "id": "tq-giovanni-trapattoni-3",
+    "coachId": "giovanni-trapattoni",
+    "category": "trener",
+    "prompt": "Mit welcher Nationalmannschaft nahm Giovanni Trapattoni an der EM 2012 teil?",
+    "answer": {
+      "label": "Irland",
+      "aliases": [
+        "Republik Irland"
+      ]
+    },
+    "fact": "Irland schied in der Gruppe mit Spanien und Italien aus.",
+    "era": 2012,
+    "difficulty": 3,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Giovanni Trapattoni",
+      "mustMention": [
+        "Irland"
+      ]
+    }
+  },
+  {
+    "id": "tq-volker-finke-1",
+    "coachId": "volker-finke",
+    "category": "trener",
+    "prompt": "Welcher Trainer prägte den SC Freiburg von 1991 bis 2007?",
+    "answer": {
+      "label": "Volker Finke",
+      "aliases": [
+        "Finke"
+      ]
+    },
+    "fact": "Mit ihm stieg Freiburg 1993 erstmals in die Bundesliga auf.",
+    "era": 1991,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Volker Finke",
+      "mustMention": [
+        "Freiburg",
+        "1991"
+      ]
+    }
+  },
+  {
+    "id": "tq-christian-streich-1",
+    "coachId": "christian-streich",
+    "category": "trener",
+    "prompt": "Welcher Trainer verabschiedete sich 2024 nach über zwölf Jahren als Cheftrainer des SC Freiburg?",
+    "answer": {
+      "label": "Christian Streich",
+      "aliases": [
+        "Streich"
+      ]
+    },
+    "fact": "Zuvor hatte er lange die Freiburger Jugend trainiert.",
+    "era": 2024,
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Christian Streich",
+      "mustMention": [
+        "Freiburg",
+        "2024"
+      ]
+    }
+  },
+  {
+    "id": "tq-christian-streich-2",
+    "coachId": "christian-streich",
+    "category": "trener",
+    "prompt": "Gegen welchen Klub verlor Christian Streichs SC Freiburg 2022 das DFB-Pokal-Finale?",
+    "answer": {
+      "label": "RB Leipzig",
+      "aliases": [
+        "Leipzig"
+      ]
+    },
+    "fact": "Das Finale wurde erst im Elfmeterschießen entschieden.",
+    "era": 2022,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Christian Streich",
+      "mustMention": [
+        "RB Leipzig",
+        "2022"
+      ]
+    }
+  },
+  {
+    "id": "tq-urs-fischer-1",
+    "coachId": "urs-fischer",
+    "category": "trener",
+    "prompt": "Welcher Schweizer Trainer führte Union Berlin 2023 in die Champions League?",
+    "answer": {
+      "label": "Urs Fischer",
+      "aliases": [
+        "Fischer"
+      ]
+    },
+    "fact": "Mit Union war er 2019 auch in die Bundesliga aufgestiegen.",
+    "era": 2023,
+    "difficulty": 1,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Urs Fischer (Fußballspieler, 1966)",
+      "mustMention": [
+        "Union",
+        "2023"
+      ]
+    }
+  },
+  {
+    "id": "tq-urs-fischer-2",
+    "coachId": "urs-fischer",
+    "category": "trener",
+    "prompt": "Mit welchem Schweizer Klub wurde Urs Fischer 2016 und 2017 Meister?",
+    "answer": {
+      "label": "FC Basel",
+      "aliases": [
+        "Basel"
+      ]
+    },
+    "fact": "2017 holte Basel unter ihm sogar das Double.",
+    "era": 2017,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Urs Fischer (Fußballspieler, 1966)",
+      "mustMention": [
+        "FC Basel"
+      ]
+    }
+  },
+  {
+    "id": "tq-sebastian-hoeness-1",
+    "coachId": "sebastian-hoeness",
+    "category": "trener",
+    "prompt": "Mit welchem Klub wurde Sebastian Hoeneß 2024 Vizemeister?",
+    "answer": {
+      "label": "VfB Stuttgart",
+      "aliases": [
+        "Stuttgart",
+        "VfB"
+      ]
+    },
+    "fact": "Ein Jahr zuvor hatte der VfB noch in der Relegation gespielt.",
+    "era": 2024,
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Sebastian Hoeneß",
+      "mustMention": [
+        "VfB Stuttgart",
+        "2024"
+      ]
+    }
+  },
+  {
+    "id": "tq-sebastian-hoeness-2",
+    "coachId": "sebastian-hoeness",
+    "category": "trener",
+    "prompt": "Welcher langjährige Bayern-Macher ist der Onkel des Trainers Sebastian Hoeneß?",
+    "answer": {
+      "label": "Uli Hoeneß",
+      "aliases": [
+        "Uli"
+      ]
+    },
+    "fact": "Sein Vater Dieter Hoeneß war ebenfalls Nationalspieler.",
+    "difficulty": 2,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Sebastian Hoeneß",
+      "mustMention": [
+        "Uli Hoeneß"
+      ]
+    }
+  }
+]

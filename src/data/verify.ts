@@ -6,11 +6,20 @@ export type WikiPage = { title: string; url: string; extract: string } | null;
 
 /**
  * Wikipedia's search answers every query with something. A hit only counts as the
- * article we asked for if it shares a real word with the subject - "Sogndal Fotball"
- * may legitimately come back as "Sogndal IL", but not as "Sogndal (kommune)".
+ * article we asked for if it shares a real word with the subject - "Werder Bremen"
+ * may legitimately come back as "SV Werder Bremen", but not as "Bremen (Stadt)".
+ * Club prefixes and the names several clubs share (Borussia, Eintracht, a city with
+ * two clubs) prove nothing, so they do not count as a shared word.
  */
+const SHARED_WORDS = new Set([
+  "fk", "if", "il", "bk", "ff", "ik", "sk", "fotball", "oslo",
+  "fc", "sv", "vfb", "vfl", "tsv", "tsg", "fsv", "spvgg", "bv", "sc", "ssv", "verein", "fussball", "fussballclub", "sport",
+  "borussia", "eintracht", "fortuna", "union", "rot", "weiss", "stadion", "arena", "park",
+  "berlin", "munchen", "hamburg", "deutschland", "deutsche", "nationalmannschaft",
+]);
+
 export function articleMatchesSubject(title: string, subject: string): boolean {
-  const stop = new Set(["fk", "if", "il", "bk", "ff", "ik", "sk", "fotball", "stadion", "arena", "oslo"]);
+  const stop = SHARED_WORDS;
   const words = (s: string) => normalizeName(s).split(" ").filter((w) => w.length > 2 && !stop.has(w));
   const wanted = words(subject);
   if (!wanted.length) return true;

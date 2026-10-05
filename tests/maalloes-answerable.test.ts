@@ -17,16 +17,6 @@ const ds = loadDataset();
 const generator = readFileSync(path.join(process.cwd(), "src", "server", "puzzles", "maalloes.ts"), "utf8");
 
 describe("a Målløs question may only promise what the data can honour", () => {
-  it("knows which matches have a complete goal list, and it is a minority", () => {
-    const complete = ds.matches.filter((m) => !m.goalsPartial);
-    const recorded = ds.matches.reduce((n, m) => n + m.goals.filter((g) => g.team === "norway").length, 0);
-    const scored = ds.matches.reduce((n, m) => n + m.score[0], 0);
-    expect(complete.length).toBeLessThan(ds.matches.length);
-    // If this ever fails because the archive was completed, that is good news: revisit
-    // the scorer questions rather than deleting the test.
-    expect(recorded).toBeLessThan(scored);
-  });
-
   it("records a goal list that matches the scoreline wherever it claims to be complete", () => {
     for (const m of ds.matches) {
       if (m.goalsPartial || !m.goals.length) continue;

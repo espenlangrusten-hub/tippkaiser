@@ -1,1 +1,723 @@
-[]
+[
+  {
+    "id": "juergen-klopp",
+    "name": "Jürgen Klopp",
+    "nicknames": [
+      "Kloppo"
+    ],
+    "nationality": "GER",
+    "spells": [],
+    "honours": [
+      "Deutscher Meister 2011 und 2012 mit Borussia Dortmund",
+      "Champions-League-Sieger 2019 mit Liverpool"
+    ],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Jürgen Klopp"
+    }
+  },
+  {
+    "id": "jupp-heynckes",
+    "name": "Jupp Heynckes",
+    "nicknames": [
+      "Osram"
+    ],
+    "nationality": "GER",
+    "spells": [],
+    "honours": [
+      "Triple 2013 mit dem FC Bayern",
+      "Champions-League-Sieger 1998 mit Real Madrid"
+    ],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Jupp Heynckes"
+    }
+  },
+  {
+    "id": "ottmar-hitzfeld",
+    "name": "Ottmar Hitzfeld",
+    "nicknames": [
+      "Der General"
+    ],
+    "nationality": "GER",
+    "spells": [],
+    "honours": [
+      "Champions-League-Sieger 1997 mit Dortmund und 2001 mit Bayern"
+    ],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Ottmar Hitzfeld"
+    }
+  },
+  {
+    "id": "udo-lattek",
+    "name": "Udo Lattek",
+    "nicknames": [],
+    "nationality": "GER",
+    "spells": [],
+    "honours": [
+      "Europapokal der Landesmeister 1974",
+      "UEFA-Pokal 1979",
+      "Europapokal der Pokalsieger 1982"
+    ],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Udo Lattek"
+    }
+  },
+  {
+    "id": "hennes-weisweiler",
+    "name": "Hennes Weisweiler",
+    "nicknames": [],
+    "nationality": "GER",
+    "spells": [],
+    "honours": [
+      "Double 1978 mit dem 1. FC Köln"
+    ],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Hennes Weisweiler"
+    }
+  },
+  {
+    "id": "helmut-schoen",
+    "name": "Helmut Schön",
+    "nicknames": [],
+    "nationality": "GER",
+    "spells": [],
+    "honours": [
+      "Europameister 1972",
+      "Weltmeister 1974"
+    ],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Helmut Schön"
+    }
+  },
+  {
+    "id": "sepp-herberger",
+    "name": "Sepp Herberger",
+    "nicknames": [
+      "Chef"
+    ],
+    "nationality": "GER",
+    "spells": [],
+    "honours": [
+      "Weltmeister 1954"
+    ],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Sepp Herberger"
+    }
+  },
+  {
+    "id": "franz-beckenbauer",
+    "name": "Franz Beckenbauer",
+    "nicknames": [
+      "Kaiser"
+    ],
+    "nationality": "GER",
+    "spells": [],
+    "honours": [
+      "Weltmeister 1990 als Teamchef",
+      "UEFA-Pokal 1996 mit dem FC Bayern"
+    ],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Franz Beckenbauer"
+    }
+  },
+  {
+    "id": "berti-vogts",
+    "name": "Berti Vogts",
+    "nicknames": [
+      "Terrier"
+    ],
+    "nationality": "GER",
+    "spells": [],
+    "honours": [
+      "Europameister 1996"
+    ],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Berti Vogts"
+    }
+  },
+  {
+    "id": "rudi-voeller",
+    "name": "Rudi Völler",
+    "nicknames": [
+      "Tante Käthe"
+    ],
+    "nationality": "GER",
+    "spells": [],
+    "honours": [
+      "WM-Finale 2002"
+    ],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Rudi Völler"
+    }
+  },
+  {
+    "id": "juergen-klinsmann",
+    "name": "Jürgen Klinsmann",
+    "nicknames": [
+      "Klinsi"
+    ],
+    "nationality": "GER",
+    "spells": [],
+    "honours": [
+      "WM-Dritter 2006"
+    ],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Jürgen Klinsmann"
+    }
+  },
+  {
+    "id": "joachim-loew",
+    "name": "Joachim Löw",
+    "nicknames": [
+      "Jogi"
+    ],
+    "nationality": "GER",
+    "spells": [],
+    "honours": [
+      "Weltmeister 2014",
+      "DFB-Pokal 1997 mit dem VfB Stuttgart"
+    ],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Joachim Löw"
+    }
+  },
+  {
+    "id": "hansi-flick",
+    "name": "Hansi Flick",
+    "nicknames": [],
+    "nationality": "GER",
+    "spells": [],
+    "honours": [
+      "Sextuple 2020 mit dem FC Bayern"
+    ],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Hansi Flick"
+    }
+  },
+  {
+    "id": "julian-nagelsmann",
+    "name": "Julian Nagelsmann",
+    "nicknames": [],
+    "nationality": "GER",
+    "spells": [],
+    "honours": [
+      "Jüngster Bundesligatrainer 2016"
+    ],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Julian Nagelsmann"
+    }
+  },
+  {
+    "id": "thomas-tuchel",
+    "name": "Thomas Tuchel",
+    "nicknames": [],
+    "nationality": "GER",
+    "spells": [],
+    "honours": [
+      "Champions-League-Sieger 2021 mit Chelsea",
+      "DFB-Pokal 2017 mit Dortmund"
+    ],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Thomas Tuchel"
+    }
+  },
+  {
+    "id": "felix-magath",
+    "name": "Felix Magath",
+    "nicknames": [
+      "Quälix"
+    ],
+    "nationality": "GER",
+    "spells": [],
+    "honours": [
+      "Deutscher Meister 2009 mit Wolfsburg",
+      "Double 2005 und 2006 mit dem FC Bayern"
+    ],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Felix Magath"
+    }
+  },
+  {
+    "id": "otto-rehhagel",
+    "name": "Otto Rehhagel",
+    "nicknames": [
+      "Rehakles",
+      "König Otto"
+    ],
+    "nationality": "GER",
+    "spells": [],
+    "honours": [
+      "Europameister 2004 mit Griechenland",
+      "Meister 1998 als Aufsteiger mit Kaiserslautern"
+    ],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Otto Rehhagel"
+    }
+  },
+  {
+    "id": "christoph-daum",
+    "name": "Christoph Daum",
+    "nicknames": [],
+    "nationality": "GER",
+    "spells": [],
+    "honours": [
+      "Deutscher Meister 1992 mit dem VfB Stuttgart"
+    ],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Christoph Daum"
+    }
+  },
+  {
+    "id": "ernst-happel",
+    "name": "Ernst Happel",
+    "nicknames": [
+      "Wödmasta"
+    ],
+    "nationality": "AUT",
+    "spells": [],
+    "honours": [
+      "Europapokal der Landesmeister 1970 mit Feyenoord und 1983 mit dem HSV"
+    ],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Ernst Happel"
+    }
+  },
+  {
+    "id": "branko-zebec",
+    "name": "Branko Zebec",
+    "nicknames": [],
+    "nationality": "YUG",
+    "spells": [],
+    "honours": [
+      "Double 1969 mit dem FC Bayern",
+      "Deutscher Meister 1979 mit dem HSV"
+    ],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Branko Zebec"
+    }
+  },
+  {
+    "id": "max-merkel",
+    "name": "Max Merkel",
+    "nicknames": [],
+    "nationality": "AUT",
+    "spells": [],
+    "honours": [
+      "Deutscher Meister 1966 mit 1860 München und 1968 mit Nürnberg"
+    ],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Max Merkel"
+    }
+  },
+  {
+    "id": "dettmar-cramer",
+    "name": "Dettmar Cramer",
+    "nicknames": [],
+    "nationality": "GER",
+    "spells": [],
+    "honours": [
+      "Europapokal der Landesmeister 1975 und 1976"
+    ],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Dettmar Cramer"
+    }
+  },
+  {
+    "id": "huub-stevens",
+    "name": "Huub Stevens",
+    "nicknames": [],
+    "nationality": "NED",
+    "spells": [],
+    "honours": [
+      "UEFA-Pokal 1997 mit Schalke 04"
+    ],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Huub Stevens"
+    }
+  },
+  {
+    "id": "thomas-schaaf",
+    "name": "Thomas Schaaf",
+    "nicknames": [],
+    "nationality": "GER",
+    "spells": [],
+    "honours": [
+      "Double 2004 mit Werder Bremen"
+    ],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Thomas Schaaf"
+    }
+  },
+  {
+    "id": "armin-veh",
+    "name": "Armin Veh",
+    "nicknames": [],
+    "nationality": "GER",
+    "spells": [],
+    "honours": [
+      "Deutscher Meister 2007 mit dem VfB Stuttgart"
+    ],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Armin Veh"
+    }
+  },
+  {
+    "id": "matthias-sammer",
+    "name": "Matthias Sammer",
+    "nicknames": [],
+    "nationality": "GER",
+    "spells": [],
+    "honours": [
+      "Deutscher Meister 2002 als Trainer von Dortmund"
+    ],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Matthias Sammer"
+    }
+  },
+  {
+    "id": "lucien-favre",
+    "name": "Lucien Favre",
+    "nicknames": [],
+    "nationality": "SUI",
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Lucien Favre"
+    }
+  },
+  {
+    "id": "xabi-alonso",
+    "name": "Xabi Alonso",
+    "nicknames": [],
+    "nationality": "ESP",
+    "spells": [],
+    "honours": [
+      "Ungeschlagen Meister 2024 mit Leverkusen"
+    ],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Xabi Alonso"
+    }
+  },
+  {
+    "id": "pep-guardiola",
+    "name": "Pep Guardiola",
+    "nicknames": [],
+    "nationality": "ESP",
+    "spells": [],
+    "honours": [
+      "Drei Meistertitel mit dem FC Bayern"
+    ],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Pep Guardiola"
+    }
+  },
+  {
+    "id": "louis-van-gaal",
+    "name": "Louis van Gaal",
+    "nicknames": [],
+    "nationality": "NED",
+    "spells": [],
+    "honours": [
+      "Double 2010 mit dem FC Bayern"
+    ],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Louis van Gaal"
+    }
+  },
+  {
+    "id": "carlo-ancelotti",
+    "name": "Carlo Ancelotti",
+    "nicknames": [],
+    "nationality": "ITA",
+    "spells": [],
+    "honours": [
+      "Deutscher Meister 2017"
+    ],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Carlo Ancelotti"
+    }
+  },
+  {
+    "id": "niko-kovac",
+    "name": "Niko Kovač",
+    "nicknames": [],
+    "nationality": "CRO",
+    "spells": [],
+    "honours": [
+      "DFB-Pokal 2018 mit Frankfurt",
+      "Double 2019 mit dem FC Bayern"
+    ],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Niko Kovač"
+    }
+  },
+  {
+    "id": "oliver-glasner",
+    "name": "Oliver Glasner",
+    "nicknames": [],
+    "nationality": "AUT",
+    "spells": [],
+    "honours": [
+      "Europa League 2022 mit Frankfurt"
+    ],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Oliver Glasner"
+    }
+  },
+  {
+    "id": "edin-terzic",
+    "name": "Edin Terzić",
+    "nicknames": [],
+    "nationality": "GER",
+    "spells": [],
+    "honours": [
+      "DFB-Pokal 2021"
+    ],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Edin Terzić"
+    }
+  },
+  {
+    "id": "friedhelm-funkel",
+    "name": "Friedhelm Funkel",
+    "nicknames": [],
+    "nationality": "GER",
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Friedhelm Funkel"
+    }
+  },
+  {
+    "id": "ralf-rangnick",
+    "name": "Ralf Rangnick",
+    "nicknames": [
+      "Professor"
+    ],
+    "nationality": "GER",
+    "spells": [],
+    "honours": [
+      "DFB-Pokal 2011 mit Schalke 04"
+    ],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Ralf Rangnick"
+    }
+  },
+  {
+    "id": "jupp-derwall",
+    "name": "Jupp Derwall",
+    "nicknames": [],
+    "nationality": "GER",
+    "spells": [],
+    "honours": [
+      "Europameister 1980"
+    ],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Jupp Derwall"
+    }
+  },
+  {
+    "id": "erich-ribbeck",
+    "name": "Erich Ribbeck",
+    "nicknames": [],
+    "nationality": "GER",
+    "spells": [],
+    "honours": [
+      "UEFA-Pokal 1988 mit Leverkusen"
+    ],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Erich Ribbeck"
+    }
+  },
+  {
+    "id": "giovanni-trapattoni",
+    "name": "Giovanni Trapattoni",
+    "nicknames": [
+      "Trap"
+    ],
+    "nationality": "ITA",
+    "spells": [],
+    "honours": [
+      "Deutscher Meister 1997"
+    ],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Giovanni Trapattoni"
+    }
+  },
+  {
+    "id": "volker-finke",
+    "name": "Volker Finke",
+    "nicknames": [],
+    "nationality": "GER",
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Volker Finke"
+    }
+  },
+  {
+    "id": "christian-streich",
+    "name": "Christian Streich",
+    "nicknames": [],
+    "nationality": "GER",
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Christian Streich"
+    }
+  },
+  {
+    "id": "urs-fischer",
+    "name": "Urs Fischer",
+    "nicknames": [],
+    "nationality": "SUI",
+    "spells": [],
+    "honours": [
+      "Champions-League-Qualifikation 2023 mit Union Berlin"
+    ],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Urs Fischer (Fußballspieler, 1966)"
+    }
+  },
+  {
+    "id": "sebastian-hoeness",
+    "name": "Sebastian Hoeneß",
+    "nicknames": [],
+    "nationality": "GER",
+    "spells": [],
+    "honours": [
+      "Vizemeister 2024 mit dem VfB Stuttgart"
+    ],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Sebastian Hoeneß"
+    }
+  }
+]

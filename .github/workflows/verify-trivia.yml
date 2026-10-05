@@ -1,6 +1,6 @@
 name: Verifiser spørsmål
 
-# Checks the hand-written Straffespark questions against Norwegian Wikipedia and opens
+# Checks the hand-written Elfmeter and Trainer-Genie questions against German Wikipedia and opens
 # a pull request with the result. A question written from memory sits at `recall` and
 # is never served; this is what turns it into a sourced question - or flags it for a
 # person when the article does not back it up.
@@ -55,7 +55,7 @@ jobs:
         run: |
           set -euo pipefail
           # Every bank: watching only one of them silently discarded a whole run.
-          if [ -z "$(git status --porcelain data/source/straffespark.json data/source/kjappen.json data/source/trenerquiz.json)" ]; then
+          if [ -z "$(git status --porcelain data/source/straffespark.json data/source/trenerquiz.json)" ]; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "Ingen endringer – ingen spørsmål ventet på kontroll." >> "$GITHUB_STEP_SUMMARY"
           else
@@ -72,7 +72,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -b "$branch"
-          git add data/source/straffespark.json data/source/kjappen.json data/source/trenerquiz.json
+          git add data/source/straffespark.json data/source/trenerquiz.json
           git commit -m "Kontroller håndskrevne spørsmål mot Wikipedia
 
           Spørsmål artikkelen dekker er oppgradert til single_source med artikkelen
@@ -80,13 +80,13 @@ jobs:
           git push -u origin "$branch"
 
           {
-            echo "Kontroll av de håndskrevne spørsmålene mot norsk Wikipedia."
+            echo "Kontroll av de håndskrevne spørsmålene mot tysk Wikipedia (de.wikipedia.org)."
             echo
             echo "## Hva kontrollen faktisk gjør"
             echo
             echo "Den henter artikkelen spørsmålet peker på og sjekker at teksten inneholder det svaret påstår."
-            echo "Det er et **tekstsøk, ikke et bevis for sammenhengen**: at artikkelen om Lars Lagerbäck nevner"
-            echo "både «Norge» og «2017» gjør det sannsynlig at han overtok da, men sier det ikke ordrett."
+            echo "Det er et **tekstsøk, ikke et bevis for sammenhengen**: at artikkelen om Jürgen Klopp nevner"
+            echo "både «Liverpool» og «2015» gjør det sannsynlig at han overtok da, men sier det ikke ordrett."
             echo "Derfor står de godkjente på \`single_source\` – samme nivå som «bekreftet i et søkeutdrag»"
             echo "ellers i datasettet – og kildenotatet sier at ingen har lest artikkelen."
             echo

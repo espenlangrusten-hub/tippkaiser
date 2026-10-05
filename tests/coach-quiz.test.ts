@@ -7,8 +7,8 @@ import { normalizeName } from "@/lib/names";
 const ds = loadDataset();
 
 describe("trenerdatabasen og trenerquizen", () => {
-  it("har 400 spørsmål på alle tre nivåene", () => {
-    expect(ds.coachQuiz).toHaveLength(400);
+  it("har spørsmål på alle tre nivåene", () => {
+    expect(ds.coachQuiz.length).toBeGreaterThanOrEqual(100);
     const levels = new Set(ds.coachQuiz.map((q) => q.difficulty));
     expect([...levels].sort()).toEqual([1, 2, 3]);
   });

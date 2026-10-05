@@ -1,0 +1,1610 @@
+[
+  {
+    "sourceId": "tq-juergen-klopp-1",
+    "expectedAnswer": "Jürgen Klopp",
+    "difficulty": 1,
+    "category": "Titel",
+    "distractors": [
+      "Thomas Tuchel",
+      "Ottmar Hitzfeld",
+      "Lucien Favre"
+    ],
+    "fact": "2012 holte der BVB unter ihm sogar das erste Double der Vereinsgeschichte."
+  },
+  {
+    "sourceId": "tq-juergen-klopp-2",
+    "expectedAnswer": "FC Liverpool",
+    "difficulty": 1,
+    "category": "Titel",
+    "distractors": [
+      "FC Chelsea",
+      "Manchester City",
+      "Tottenham Hotspur"
+    ],
+    "fact": "Im Finale in Madrid schlug Liverpool Tottenham 2:0."
+  },
+  {
+    "sourceId": "tq-juergen-klopp-3",
+    "expectedAnswer": "1. FSV Mainz 05",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "SC Freiburg",
+      "Eintracht Frankfurt",
+      "Karlsruher SC"
+    ],
+    "fact": "2004 führte er Mainz erstmals in die Bundesliga."
+  },
+  {
+    "sourceId": "tq-juergen-klopp-4",
+    "expectedAnswer": "Stuttgart",
+    "difficulty": 3,
+    "category": "Wer war's?",
+    "distractors": [
+      "Freiburg",
+      "Mainz",
+      "Karlsruhe"
+    ],
+    "fact": "Aufgewachsen ist er im Schwarzwald, in Glatten."
+  },
+  {
+    "sourceId": "tq-jupp-heynckes-1",
+    "expectedAnswer": "Jupp Heynckes",
+    "difficulty": 1,
+    "category": "Titel",
+    "distractors": [
+      "Louis van Gaal",
+      "Pep Guardiola",
+      "Ottmar Hitzfeld"
+    ],
+    "fact": "Meisterschaft, DFB-Pokal und Champions League in einer Saison – ein deutsches Novum."
+  },
+  {
+    "sourceId": "tq-jupp-heynckes-2",
+    "expectedAnswer": "Real Madrid",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "FC Barcelona",
+      "Juventus Turin",
+      "Benfica Lissabon"
+    ],
+    "fact": "Im Finale in Amsterdam schlug Real Juventus 1:0."
+  },
+  {
+    "sourceId": "tq-jupp-heynckes-3",
+    "expectedAnswer": "Borussia Mönchengladbach",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "1. FC Köln",
+      "Hannover 96",
+      "Schalke 04"
+    ],
+    "fact": "Er ist einer der besten Torschützen der Bundesliga-Geschichte."
+  },
+  {
+    "sourceId": "tq-jupp-heynckes-4",
+    "expectedAnswer": "Jupp Heynckes",
+    "difficulty": 2,
+    "category": "Wer war's?",
+    "distractors": [
+      "Udo Lattek",
+      "Ottmar Hitzfeld",
+      "Felix Magath"
+    ],
+    "fact": "Es war seine vierte Amtszeit in München."
+  },
+  {
+    "sourceId": "tq-ottmar-hitzfeld-1",
+    "expectedAnswer": "Ottmar Hitzfeld",
+    "difficulty": 1,
+    "category": "Titel",
+    "distractors": [
+      "Jupp Heynckes",
+      "Udo Lattek",
+      "Matthias Sammer"
+    ],
+    "fact": "Er war der zweite Trainer, der mit zwei Klubs den Henkelpott holte."
+  },
+  {
+    "sourceId": "tq-ottmar-hitzfeld-2",
+    "expectedAnswer": "Schweiz",
+    "difficulty": 2,
+    "category": "Nationalteams",
+    "distractors": [
+      "Österreich",
+      "Griechenland",
+      "Polen"
+    ],
+    "fact": "Mit der Schweiz fuhr er zu den WM-Turnieren 2010 und 2014."
+  },
+  {
+    "sourceId": "tq-ottmar-hitzfeld-3",
+    "expectedAnswer": "General",
+    "difficulty": 2,
+    "category": "Spitznamen",
+    "distractors": [
+      "Kaiser",
+      "Terrier",
+      "Professor"
+    ],
+    "fact": "Er stand für Disziplin und eine kühle Spielanalyse."
+  },
+  {
+    "sourceId": "tq-ottmar-hitzfeld-4",
+    "expectedAnswer": "Grasshopper Club Zürich",
+    "difficulty": 3,
+    "category": "Stationen",
+    "distractors": [
+      "FC Zürich",
+      "FC Basel",
+      "BSC Young Boys"
+    ],
+    "fact": "Danach wechselte er 1991 zu Borussia Dortmund."
+  },
+  {
+    "sourceId": "tq-udo-lattek-1",
+    "expectedAnswer": "Udo Lattek",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "Hennes Weisweiler",
+      "Dettmar Cramer",
+      "Ernst Happel"
+    ],
+    "fact": "Er gewann alle drei damaligen Europapokal-Wettbewerbe."
+  },
+  {
+    "sourceId": "tq-udo-lattek-2",
+    "expectedAnswer": "FC Bayern München",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "Borussia Mönchengladbach",
+      "Hamburger SV",
+      "1. FC Köln"
+    ],
+    "fact": "Es war der erste von drei Landesmeister-Titeln in Folge."
+  },
+  {
+    "sourceId": "tq-udo-lattek-3",
+    "expectedAnswer": "FC Barcelona",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "Real Madrid",
+      "Atlético Madrid",
+      "FC Valencia"
+    ],
+    "fact": "Mit Barça gewann er 1982 den Europapokal der Pokalsieger."
+  },
+  {
+    "sourceId": "tq-udo-lattek-4",
+    "expectedAnswer": "Borussia Dortmund",
+    "difficulty": 3,
+    "category": "Stationen",
+    "distractors": [
+      "FC Schalke 04",
+      "VfL Bochum",
+      "MSV Duisburg"
+    ],
+    "fact": "Mit Matthias Sammer an seiner Seite hielt er den BVB in der Liga."
+  },
+  {
+    "sourceId": "tq-hennes-weisweiler-1",
+    "expectedAnswer": "Hennes Weisweiler",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "Udo Lattek",
+      "Branko Zebec",
+      "Max Merkel"
+    ],
+    "fact": "Zuvor hatte er Gladbach zur „Fohlenelf“ geformt."
+  },
+  {
+    "sourceId": "tq-hennes-weisweiler-2",
+    "expectedAnswer": "Hennes Weisweiler",
+    "difficulty": 1,
+    "category": "Wer war's?",
+    "distractors": [
+      "Udo Lattek",
+      "Helmut Schön",
+      "Dettmar Cramer"
+    ],
+    "fact": "Junge, schnelle Spieler wie Netzer und Heynckes prägten die Mannschaft."
+  },
+  {
+    "sourceId": "tq-hennes-weisweiler-3",
+    "expectedAnswer": "New York Cosmos",
+    "difficulty": 3,
+    "category": "Stationen",
+    "distractors": [
+      "LA Galaxy",
+      "Chicago Sting",
+      "Tampa Bay Rowdies"
+    ],
+    "fact": "Er war einer der ersten deutschen Spitzentrainer in Nordamerika."
+  },
+  {
+    "sourceId": "tq-hennes-weisweiler-4",
+    "expectedAnswer": "FC Barcelona",
+    "difficulty": 3,
+    "category": "Stationen",
+    "distractors": [
+      "Real Madrid",
+      "Atlético Madrid",
+      "Real Sociedad"
+    ],
+    "fact": "Das Gastspiel endete nach einer Saison."
+  },
+  {
+    "sourceId": "tq-helmut-schoen-1",
+    "expectedAnswer": "Helmut Schön",
+    "difficulty": 1,
+    "category": "Titel",
+    "distractors": [
+      "Sepp Herberger",
+      "Jupp Derwall",
+      "Berti Vogts"
+    ],
+    "fact": "Er betreute Deutschland bei vier Weltmeisterschaften."
+  },
+  {
+    "sourceId": "tq-helmut-schoen-2",
+    "expectedAnswer": "Sepp Herberger",
+    "difficulty": 2,
+    "category": "Wer war's?",
+    "distractors": [
+      "Jupp Derwall",
+      "Dettmar Cramer",
+      "Hennes Weisweiler"
+    ],
+    "fact": "Herberger war seit 1936 Reichs- und Bundestrainer gewesen."
+  },
+  {
+    "sourceId": "tq-helmut-schoen-3",
+    "expectedAnswer": "Dresden",
+    "difficulty": 3,
+    "category": "Wer war's?",
+    "distractors": [
+      "Leipzig",
+      "Berlin",
+      "Chemnitz"
+    ],
+    "fact": "Als Spieler stürmte er für den Dresdner SC."
+  },
+  {
+    "sourceId": "tq-helmut-schoen-4",
+    "expectedAnswer": "Jupp Derwall",
+    "difficulty": 2,
+    "category": "Wer war's?",
+    "distractors": [
+      "Berti Vogts",
+      "Erich Ribbeck",
+      "Franz Beckenbauer"
+    ],
+    "fact": "Derwall war zuvor Schöns Assistent."
+  },
+  {
+    "sourceId": "tq-sepp-herberger-1",
+    "expectedAnswer": "Sepp Herberger",
+    "difficulty": 1,
+    "category": "Titel",
+    "distractors": [
+      "Helmut Schön",
+      "Otto Nerz",
+      "Dettmar Cramer"
+    ],
+    "fact": "Das Finale in Bern ging als „Wunder von Bern“ in die Geschichte ein."
+  },
+  {
+    "sourceId": "tq-sepp-herberger-2",
+    "expectedAnswer": "Sepp Herberger",
+    "difficulty": 1,
+    "category": "Wer war's?",
+    "distractors": [
+      "Helmut Schön",
+      "Otto Rehhagel",
+      "Giovanni Trapattoni"
+    ],
+    "fact": "Auch „Das nächste Spiel ist immer das schwerste“ wird ihm zugeschrieben."
+  },
+  {
+    "sourceId": "tq-sepp-herberger-3",
+    "expectedAnswer": "Fritz Walter",
+    "difficulty": 2,
+    "category": "Wer war's?",
+    "distractors": [
+      "Helmut Rahn",
+      "Max Morlock",
+      "Toni Turek"
+    ],
+    "fact": "Fritz Walter spielte seine ganze Karriere in Kaiserslautern."
+  },
+  {
+    "sourceId": "tq-franz-beckenbauer-1",
+    "expectedAnswer": "Franz Beckenbauer",
+    "difficulty": 1,
+    "category": "Titel",
+    "distractors": [
+      "Berti Vogts",
+      "Jupp Derwall",
+      "Helmut Schön"
+    ],
+    "fact": "Er war damit Weltmeister als Spieler und als Teamchef."
+  },
+  {
+    "sourceId": "tq-franz-beckenbauer-2",
+    "expectedAnswer": "Olympique Marseille",
+    "difficulty": 3,
+    "category": "Stationen",
+    "distractors": [
+      "Paris Saint-Germain",
+      "AS Monaco",
+      "Girondins Bordeaux"
+    ],
+    "fact": "Marseille wurde in dieser Saison französischer Meister."
+  },
+  {
+    "sourceId": "tq-franz-beckenbauer-3",
+    "expectedAnswer": "FC Bayern München",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "Borussia Dortmund",
+      "Schalke 04",
+      "Hamburger SV"
+    ],
+    "fact": "Er übernahm im Frühjahr 1996 von Otto Rehhagel."
+  },
+  {
+    "sourceId": "tq-franz-beckenbauer-4",
+    "expectedAnswer": "Kaiser",
+    "difficulty": 1,
+    "category": "Spitznamen",
+    "distractors": [
+      "Bomber",
+      "General",
+      "Terrier"
+    ],
+    "fact": "Der Name blieb ihm ein Leben lang."
+  },
+  {
+    "sourceId": "tq-berti-vogts-1",
+    "expectedAnswer": "Berti Vogts",
+    "difficulty": 1,
+    "category": "Titel",
+    "distractors": [
+      "Jupp Derwall",
+      "Erich Ribbeck",
+      "Franz Beckenbauer"
+    ],
+    "fact": "Im Finale schlug Deutschland Tschechien 2:1 durch ein Golden Goal."
+  },
+  {
+    "sourceId": "tq-berti-vogts-2",
+    "expectedAnswer": "Schottland",
+    "difficulty": 2,
+    "category": "Nationalteams",
+    "distractors": [
+      "Irland",
+      "Wales",
+      "Norwegen"
+    ],
+    "fact": "Später trainierte er auch Nigeria und Aserbaidschan."
+  },
+  {
+    "sourceId": "tq-berti-vogts-3",
+    "expectedAnswer": "Terrier",
+    "difficulty": 2,
+    "category": "Spitznamen",
+    "distractors": [
+      "Kaiser",
+      "Bomber",
+      "Tiger"
+    ],
+    "fact": "Er galt als einer der härtesten Manndecker seiner Zeit."
+  },
+  {
+    "sourceId": "tq-berti-vogts-4",
+    "expectedAnswer": "Borussia Mönchengladbach",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "1. FC Köln",
+      "Fortuna Düsseldorf",
+      "FC Bayern München"
+    ],
+    "fact": "Mit Gladbach wurde er fünfmal Deutscher Meister."
+  },
+  {
+    "sourceId": "tq-rudi-voeller-1",
+    "expectedAnswer": "Rudi Völler",
+    "difficulty": 1,
+    "category": "Titel",
+    "distractors": [
+      "Jürgen Klinsmann",
+      "Erich Ribbeck",
+      "Berti Vogts"
+    ],
+    "fact": "Im Finale in Yokohama unterlag Deutschland Brasilien 0:2."
+  },
+  {
+    "sourceId": "tq-rudi-voeller-2",
+    "expectedAnswer": "Island",
+    "difficulty": 3,
+    "category": "Wer war's?",
+    "distractors": [
+      "Schottland",
+      "Litauen",
+      "Färöer"
+    ],
+    "fact": "Das Spiel in Reykjavík endete 0:0."
+  },
+  {
+    "sourceId": "tq-rudi-voeller-3",
+    "expectedAnswer": "Bayer 04 Leverkusen",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "Werder Bremen",
+      "AS Rom",
+      "Eintracht Frankfurt"
+    ],
+    "fact": "Für Leverkusen hatte er schon als Spieler gestürmt."
+  },
+  {
+    "sourceId": "tq-rudi-voeller-4",
+    "expectedAnswer": "AS Rom",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "Inter Mailand",
+      "Juventus Turin",
+      "Lazio Rom"
+    ],
+    "fact": "In Rom wurde er als „Il tedesco volante“ gefeiert."
+  },
+  {
+    "sourceId": "tq-juergen-klinsmann-1",
+    "expectedAnswer": "Jürgen Klinsmann",
+    "difficulty": 1,
+    "category": "Titel",
+    "distractors": [
+      "Joachim Löw",
+      "Rudi Völler",
+      "Berti Vogts"
+    ],
+    "fact": "Das „Sommermärchen“ endete im Halbfinale gegen Italien."
+  },
+  {
+    "sourceId": "tq-juergen-klinsmann-2",
+    "expectedAnswer": "USA",
+    "difficulty": 2,
+    "category": "Nationalteams",
+    "distractors": [
+      "Mexiko",
+      "Kanada",
+      "Australien"
+    ],
+    "fact": "Er lebt seit vielen Jahren in Kalifornien."
+  },
+  {
+    "sourceId": "tq-juergen-klinsmann-3",
+    "expectedAnswer": "Hertha BSC",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "Schalke 04",
+      "Hamburger SV",
+      "VfB Stuttgart"
+    ],
+    "fact": "Er trat im Februar 2020 per Facebook-Post zurück."
+  },
+  {
+    "sourceId": "tq-juergen-klinsmann-4",
+    "expectedAnswer": "Südkorea",
+    "difficulty": 2,
+    "category": "Nationalteams",
+    "distractors": [
+      "Japan",
+      "China",
+      "Saudi-Arabien"
+    ],
+    "fact": "Nach dem Halbfinal-Aus beim Asien-Cup 2024 musste er gehen."
+  },
+  {
+    "sourceId": "tq-joachim-loew-1",
+    "expectedAnswer": "Joachim Löw",
+    "difficulty": 1,
+    "category": "Titel",
+    "distractors": [
+      "Jürgen Klinsmann",
+      "Hansi Flick",
+      "Rudi Völler"
+    ],
+    "fact": "Im Finale schlug Deutschland Argentinien 1:0 nach Verlängerung."
+  },
+  {
+    "sourceId": "tq-joachim-loew-2",
+    "expectedAnswer": "VfB Stuttgart",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "Karlsruher SC",
+      "SC Freiburg",
+      "Bayer Leverkusen"
+    ],
+    "fact": "Im Finale schlug der VfB Energie Cottbus 2:0."
+  },
+  {
+    "sourceId": "tq-joachim-loew-3",
+    "expectedAnswer": "Jürgen Klinsmann",
+    "difficulty": 1,
+    "category": "Wer war's?",
+    "distractors": [
+      "Rudi Völler",
+      "Berti Vogts",
+      "Ottmar Hitzfeld"
+    ],
+    "fact": "Löw war ab 2004 Klinsmanns Co-Trainer."
+  },
+  {
+    "sourceId": "tq-joachim-loew-4",
+    "expectedAnswer": "FC Tirol Innsbruck",
+    "difficulty": 3,
+    "category": "Stationen",
+    "distractors": [
+      "Austria Wien",
+      "Sturm Graz",
+      "Rapid Wien"
+    ],
+    "fact": "Kurz darauf ging der Klub in Konkurs."
+  },
+  {
+    "sourceId": "tq-joachim-loew-5",
+    "expectedAnswer": "Fenerbahçe",
+    "difficulty": 3,
+    "category": "Stationen",
+    "distractors": [
+      "Galatasaray",
+      "Beşiktaş",
+      "Trabzonspor"
+    ],
+    "fact": "Es blieb bei einer Saison in Istanbul."
+  },
+  {
+    "sourceId": "tq-hansi-flick-1",
+    "expectedAnswer": "Hansi Flick",
+    "difficulty": 1,
+    "category": "Titel",
+    "distractors": [
+      "Niko Kovač",
+      "Julian Nagelsmann",
+      "Thomas Tuchel"
+    ],
+    "fact": "Bayern holte unter ihm sechs Titel innerhalb eines Jahres."
+  },
+  {
+    "sourceId": "tq-hansi-flick-2",
+    "expectedAnswer": "Joachim Löw",
+    "difficulty": 2,
+    "category": "Wer war's?",
+    "distractors": [
+      "Jürgen Klinsmann",
+      "Rudi Völler",
+      "Oliver Bierhoff"
+    ],
+    "fact": "Flick war von 2006 bis 2014 Co-Trainer der Nationalmannschaft."
+  },
+  {
+    "sourceId": "tq-hansi-flick-3",
+    "expectedAnswer": "FC Barcelona",
+    "difficulty": 1,
+    "category": "Stationen",
+    "distractors": [
+      "Real Madrid",
+      "Manchester United",
+      "Juventus Turin"
+    ],
+    "fact": "In seiner ersten Saison wurde Barça spanischer Meister."
+  },
+  {
+    "sourceId": "tq-hansi-flick-4",
+    "expectedAnswer": "TSG 1899 Hoffenheim",
+    "difficulty": 3,
+    "category": "Stationen",
+    "distractors": [
+      "SV Sandhausen",
+      "Karlsruher SC",
+      "Waldhof Mannheim"
+    ],
+    "fact": "Damals spielte Hoffenheim noch in der Oberliga und Regionalliga."
+  },
+  {
+    "sourceId": "tq-julian-nagelsmann-1",
+    "expectedAnswer": "Julian Nagelsmann",
+    "difficulty": 1,
+    "category": "Wer war's?",
+    "distractors": [
+      "Edin Terzić",
+      "Domenico Tedesco",
+      "Thomas Tuchel"
+    ],
+    "fact": "Er rettete Hoffenheim noch vor dem Abstieg."
+  },
+  {
+    "sourceId": "tq-julian-nagelsmann-2",
+    "expectedAnswer": "RB Leipzig",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "TSG Hoffenheim",
+      "Borussia Dortmund",
+      "Bayer Leverkusen"
+    ],
+    "fact": "Im Halbfinale in Lissabon war gegen Paris Saint-Germain Schluss."
+  },
+  {
+    "sourceId": "tq-julian-nagelsmann-3",
+    "expectedAnswer": "Bundestrainer",
+    "difficulty": 1,
+    "category": "Wer war's?",
+    "distractors": [
+      "Sportdirektor beim DFB",
+      "Trainer von Real Madrid",
+      "Trainer von Chelsea"
+    ],
+    "fact": "Er war bei Amtsantritt 36 Jahre alt."
+  },
+  {
+    "sourceId": "tq-julian-nagelsmann-4",
+    "expectedAnswer": "Thomas Tuchel",
+    "difficulty": 2,
+    "category": "Wer war's?",
+    "distractors": [
+      "Hansi Flick",
+      "Xabi Alonso",
+      "Vincent Kompany"
+    ],
+    "fact": "Tuchel holte in derselben Saison noch die Meisterschaft."
+  },
+  {
+    "sourceId": "tq-thomas-tuchel-1",
+    "expectedAnswer": "FC Chelsea",
+    "difficulty": 1,
+    "category": "Titel",
+    "distractors": [
+      "Paris Saint-Germain",
+      "FC Bayern München",
+      "FC Liverpool"
+    ],
+    "fact": "Im Finale in Porto schlug Chelsea Manchester City 1:0."
+  },
+  {
+    "sourceId": "tq-thomas-tuchel-2",
+    "expectedAnswer": "England",
+    "difficulty": 1,
+    "category": "Nationalteams",
+    "distractors": [
+      "Deutschland",
+      "USA",
+      "Frankreich"
+    ],
+    "fact": "Er ist der dritte ausländische Cheftrainer Englands."
+  },
+  {
+    "sourceId": "tq-thomas-tuchel-3",
+    "expectedAnswer": "Borussia Dortmund",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "1. FSV Mainz 05",
+      "FC Bayern München",
+      "VfL Wolfsburg"
+    ],
+    "fact": "Im Finale schlug der BVB Eintracht Frankfurt 2:1."
+  },
+  {
+    "sourceId": "tq-thomas-tuchel-4",
+    "expectedAnswer": "1. FSV Mainz 05",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "FC Augsburg",
+      "SC Freiburg",
+      "TSG Hoffenheim"
+    ],
+    "fact": "Wie Klopp machte er sich in Mainz einen Namen."
+  },
+  {
+    "sourceId": "tq-thomas-tuchel-5",
+    "expectedAnswer": "Paris Saint-Germain",
+    "difficulty": 1,
+    "category": "Stationen",
+    "distractors": [
+      "Olympique Lyon",
+      "AS Monaco",
+      "Olympique Marseille"
+    ],
+    "fact": "Im Finale verlor Paris 0:1 gegen den FC Bayern."
+  },
+  {
+    "sourceId": "tq-felix-magath-1",
+    "expectedAnswer": "Felix Magath",
+    "difficulty": 1,
+    "category": "Titel",
+    "distractors": [
+      "Armin Veh",
+      "Dieter Hecking",
+      "Klaus Allofs"
+    ],
+    "fact": "Es ist bis heute Wolfsburgs einziger Meistertitel."
+  },
+  {
+    "sourceId": "tq-felix-magath-2",
+    "expectedAnswer": "Quälix",
+    "difficulty": 1,
+    "category": "Spitznamen",
+    "distractors": [
+      "General",
+      "Professor",
+      "Terrier"
+    ],
+    "fact": "Berüchtigt waren seine Medizinball-Einheiten und Bergläufe."
+  },
+  {
+    "sourceId": "tq-felix-magath-3",
+    "expectedAnswer": "FC Bayern München",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "VfB Stuttgart",
+      "VfL Wolfsburg",
+      "Schalke 04"
+    ],
+    "fact": "Zwei Doubles in Folge hatte zuvor kein Bundesligatrainer geschafft."
+  },
+  {
+    "sourceId": "tq-felix-magath-4",
+    "expectedAnswer": "Juventus Turin",
+    "difficulty": 2,
+    "category": "Wer war's?",
+    "distractors": [
+      "AC Mailand",
+      "Real Madrid",
+      "FC Liverpool"
+    ],
+    "fact": "Das Finale in Athen endete 1:0."
+  },
+  {
+    "sourceId": "tq-otto-rehhagel-1",
+    "expectedAnswer": "Otto Rehhagel",
+    "difficulty": 1,
+    "category": "Titel",
+    "distractors": [
+      "Berti Vogts",
+      "Christoph Daum",
+      "Winfried Schäfer"
+    ],
+    "fact": "Im Finale in Lissabon schlug Griechenland Gastgeber Portugal 1:0."
+  },
+  {
+    "sourceId": "tq-otto-rehhagel-2",
+    "expectedAnswer": "1. FC Kaiserslautern",
+    "difficulty": 1,
+    "category": "Titel",
+    "distractors": [
+      "Werder Bremen",
+      "VfB Stuttgart",
+      "Bayer Leverkusen"
+    ],
+    "fact": "Das ist in der Bundesliga bis heute einmalig."
+  },
+  {
+    "sourceId": "tq-otto-rehhagel-3",
+    "expectedAnswer": "Werder Bremen",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "Hamburger SV",
+      "1. FC Kaiserslautern",
+      "Fortuna Düsseldorf"
+    ],
+    "fact": "Mit Werder wurde er zweimal Meister und gewann 1992 den Europapokal."
+  },
+  {
+    "sourceId": "tq-otto-rehhagel-4",
+    "expectedAnswer": "Rehakles",
+    "difficulty": 2,
+    "category": "Spitznamen",
+    "distractors": [
+      "Kaiser",
+      "General",
+      "Quälix"
+    ],
+    "fact": "Eine Anspielung auf den Sagenhelden Herakles."
+  },
+  {
+    "sourceId": "tq-christoph-daum-1",
+    "expectedAnswer": "VfB Stuttgart",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "1. FC Köln",
+      "Bayer Leverkusen",
+      "Eintracht Frankfurt"
+    ],
+    "fact": "Der VfB setzte sich am letzten Spieltag gegen Frankfurt und Dortmund durch."
+  },
+  {
+    "sourceId": "tq-christoph-daum-2",
+    "expectedAnswer": "Christoph Daum",
+    "difficulty": 1,
+    "category": "Wer war's?",
+    "distractors": [
+      "Erich Ribbeck",
+      "Felix Magath",
+      "Otto Rehhagel"
+    ],
+    "fact": "Statt ihm übernahm Rudi Völler als Teamchef."
+  },
+  {
+    "sourceId": "tq-christoph-daum-3",
+    "expectedAnswer": "Beşiktaş",
+    "difficulty": 3,
+    "category": "Stationen",
+    "distractors": [
+      "Galatasaray",
+      "Fenerbahçe",
+      "Trabzonspor"
+    ],
+    "fact": "Auch mit Fenerbahçe holte er später Meistertitel."
+  },
+  {
+    "sourceId": "tq-christoph-daum-4",
+    "expectedAnswer": "Bayer 04 Leverkusen",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "1. FC Köln",
+      "VfB Stuttgart",
+      "Eintracht Frankfurt"
+    ],
+    "fact": "Leverkusen wurde in dieser Zeit mehrfach Vizemeister."
+  },
+  {
+    "sourceId": "tq-ernst-happel-1",
+    "expectedAnswer": "Ernst Happel",
+    "difficulty": 1,
+    "category": "Titel",
+    "distractors": [
+      "Branko Zebec",
+      "Udo Lattek",
+      "Hennes Weisweiler"
+    ],
+    "fact": "Es ist der größte Erfolg der Hamburger Vereinsgeschichte."
+  },
+  {
+    "sourceId": "tq-ernst-happel-2",
+    "expectedAnswer": "Niederlande",
+    "difficulty": 2,
+    "category": "Nationalteams",
+    "distractors": [
+      "Österreich",
+      "Belgien",
+      "Schweiz"
+    ],
+    "fact": "Im Finale in Buenos Aires unterlagen die Niederlande Argentinien."
+  },
+  {
+    "sourceId": "tq-ernst-happel-3",
+    "expectedAnswer": "Feyenoord Rotterdam",
+    "difficulty": 3,
+    "category": "Titel",
+    "distractors": [
+      "Ajax Amsterdam",
+      "PSV Eindhoven",
+      "FC Brügge"
+    ],
+    "fact": "Feyenoord war der erste niederländische Sieger des Wettbewerbs."
+  },
+  {
+    "sourceId": "tq-ernst-happel-4",
+    "expectedAnswer": "Österreich",
+    "difficulty": 2,
+    "category": "Wer war's?",
+    "distractors": [
+      "Schweiz",
+      "Ungarn",
+      "Niederlande"
+    ],
+    "fact": "Das größte Stadion Wiens trägt heute seinen Namen."
+  },
+  {
+    "sourceId": "tq-branko-zebec-1",
+    "expectedAnswer": "Branko Zebec",
+    "difficulty": 3,
+    "category": "Titel",
+    "distractors": [
+      "Ernst Happel",
+      "Kuno Klötzer",
+      "Udo Lattek"
+    ],
+    "fact": "Mit Kevin Keegan war der HSV damals eine Spitzenmannschaft."
+  },
+  {
+    "sourceId": "tq-branko-zebec-2",
+    "expectedAnswer": "FC Bayern München",
+    "difficulty": 3,
+    "category": "Titel",
+    "distractors": [
+      "1. FC Köln",
+      "1860 München",
+      "1. FC Nürnberg"
+    ],
+    "fact": "Es war Bayerns erste Meisterschaft in der Bundesliga."
+  },
+  {
+    "sourceId": "tq-max-merkel-1",
+    "expectedAnswer": "Max Merkel",
+    "difficulty": 3,
+    "category": "Titel",
+    "distractors": [
+      "Udo Lattek",
+      "Branko Zebec",
+      "Ernst Happel"
+    ],
+    "fact": "Der Wiener war für seine spitze Zunge bekannt."
+  },
+  {
+    "sourceId": "tq-dettmar-cramer-1",
+    "expectedAnswer": "Dettmar Cramer",
+    "difficulty": 3,
+    "category": "Titel",
+    "distractors": [
+      "Udo Lattek",
+      "Pál Csernai",
+      "Branko Zebec"
+    ],
+    "fact": "Er übernahm Anfang 1975 von Udo Lattek."
+  },
+  {
+    "sourceId": "tq-dettmar-cramer-2",
+    "expectedAnswer": "Japan",
+    "difficulty": 3,
+    "category": "Nationalteams",
+    "distractors": [
+      "USA",
+      "Südkorea",
+      "Ägypten"
+    ],
+    "fact": "Mit Japan holte er 1968 olympisches Bronze als Berater."
+  },
+  {
+    "sourceId": "tq-dettmar-cramer-3",
+    "expectedAnswer": "Napoleon",
+    "difficulty": 3,
+    "category": "Spitznamen",
+    "distractors": [
+      "General",
+      "Professor",
+      "Kaiser"
+    ],
+    "fact": "Er war für seine detailversessene Taktikarbeit bekannt."
+  },
+  {
+    "sourceId": "tq-huub-stevens-1",
+    "expectedAnswer": "Huub Stevens",
+    "difficulty": 1,
+    "category": "Titel",
+    "distractors": [
+      "Ralf Rangnick",
+      "Felix Magath",
+      "Jörg Berger"
+    ],
+    "fact": "Im Finale setzte sich Schalke im Elfmeterschießen gegen Inter Mailand durch."
+  },
+  {
+    "sourceId": "tq-huub-stevens-2",
+    "expectedAnswer": "Huub Stevens",
+    "difficulty": 1,
+    "category": "Wer war's?",
+    "distractors": [
+      "Otto Rehhagel",
+      "Felix Magath",
+      "Giovanni Trapattoni"
+    ],
+    "fact": "Er stand für eine kompromisslose Abwehrarbeit."
+  },
+  {
+    "sourceId": "tq-huub-stevens-3",
+    "expectedAnswer": "Niederlande",
+    "difficulty": 2,
+    "category": "Wer war's?",
+    "distractors": [
+      "Belgien",
+      "Österreich",
+      "Schweiz"
+    ],
+    "fact": "Als Spieler gehörte er zur Elf der PSV Eindhoven."
+  },
+  {
+    "sourceId": "tq-huub-stevens-4",
+    "expectedAnswer": "Eurofighter",
+    "difficulty": 2,
+    "category": "Spitznamen",
+    "distractors": [
+      "Knappen-Elf",
+      "Fohlenelf",
+      "Meister der Herzen"
+    ],
+    "fact": "Die Mannschaft hatte kaum große Namen, aber einen enormen Zusammenhalt."
+  },
+  {
+    "sourceId": "tq-thomas-schaaf-1",
+    "expectedAnswer": "Thomas Schaaf",
+    "difficulty": 1,
+    "category": "Titel",
+    "distractors": [
+      "Otto Rehhagel",
+      "Felix Magath",
+      "Klaus Allofs"
+    ],
+    "fact": "Er trainierte Werder 14 Jahre lang."
+  },
+  {
+    "sourceId": "tq-thomas-schaaf-2",
+    "expectedAnswer": "Eintracht Frankfurt",
+    "difficulty": 3,
+    "category": "Stationen",
+    "distractors": [
+      "Hannover 96",
+      "Hamburger SV",
+      "VfL Wolfsburg"
+    ],
+    "fact": "Nach einer Saison trat er dort zurück."
+  },
+  {
+    "sourceId": "tq-thomas-schaaf-3",
+    "expectedAnswer": "Werder Bremen",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "Hamburger SV",
+      "Hannover 96",
+      "VfL Osnabrück"
+    ],
+    "fact": "Als Spieler wurde er mit Werder 1988 und 1993 Meister."
+  },
+  {
+    "sourceId": "tq-armin-veh-1",
+    "expectedAnswer": "VfB Stuttgart",
+    "difficulty": 1,
+    "category": "Titel",
+    "distractors": [
+      "VfL Wolfsburg",
+      "Werder Bremen",
+      "Hamburger SV"
+    ],
+    "fact": "Die junge Mannschaft um Mario Gómez überraschte die Liga."
+  },
+  {
+    "sourceId": "tq-armin-veh-2",
+    "expectedAnswer": "Eintracht Frankfurt",
+    "difficulty": 3,
+    "category": "Stationen",
+    "distractors": [
+      "1. FC Köln",
+      "Hertha BSC",
+      "Hamburger SV"
+    ],
+    "fact": "In der Saison danach erreichte Frankfurt die Europa League."
+  },
+  {
+    "sourceId": "tq-matthias-sammer-1",
+    "expectedAnswer": "Matthias Sammer",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "Ottmar Hitzfeld",
+      "Jürgen Klopp",
+      "Udo Lattek"
+    ],
+    "fact": "Er war damals erst 34 Jahre alt."
+  },
+  {
+    "sourceId": "tq-matthias-sammer-2",
+    "expectedAnswer": "Europas Fußballer des Jahres",
+    "difficulty": 2,
+    "category": "Wer war's?",
+    "distractors": [
+      "Goldener Schuh",
+      "FIFA-Weltfußballer",
+      "Golden Boy"
+    ],
+    "fact": "Im selben Jahr wurde er mit Deutschland Europameister."
+  },
+  {
+    "sourceId": "tq-lucien-favre-1",
+    "expectedAnswer": "Lucien Favre",
+    "difficulty": 2,
+    "category": "Wer war's?",
+    "distractors": [
+      "Urs Fischer",
+      "Ottmar Hitzfeld",
+      "Christian Gross"
+    ],
+    "fact": "Ein Jahr später spielte Gladbach in der Champions-League-Qualifikation."
+  },
+  {
+    "sourceId": "tq-lucien-favre-2",
+    "expectedAnswer": "Borussia Dortmund",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "Hertha BSC",
+      "FC Schalke 04",
+      "Bayer Leverkusen"
+    ],
+    "fact": "Zuvor hatte er OGC Nizza trainiert."
+  },
+  {
+    "sourceId": "tq-xabi-alonso-1",
+    "expectedAnswer": "Xabi Alonso",
+    "difficulty": 1,
+    "category": "Titel",
+    "distractors": [
+      "Gerardo Seoane",
+      "Peter Bosz",
+      "Oliver Glasner"
+    ],
+    "fact": "Es war Leverkusens erste Meisterschaft."
+  },
+  {
+    "sourceId": "tq-xabi-alonso-2",
+    "expectedAnswer": "Real Madrid",
+    "difficulty": 1,
+    "category": "Stationen",
+    "distractors": [
+      "FC Liverpool",
+      "FC Bayern München",
+      "Manchester City"
+    ],
+    "fact": "Für Real hatte er schon als Spieler die Champions League gewonnen."
+  },
+  {
+    "sourceId": "tq-xabi-alonso-3",
+    "expectedAnswer": "FC Bayern München",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "Borussia Dortmund",
+      "Bayer Leverkusen",
+      "Schalke 04"
+    ],
+    "fact": "In München beendete er 2017 seine Spielerkarriere."
+  },
+  {
+    "sourceId": "tq-xabi-alonso-4",
+    "expectedAnswer": "FC Liverpool",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "Real Madrid",
+      "AC Mailand",
+      "Real Sociedad"
+    ],
+    "fact": "Im Finale von Istanbul glich er per Nachschuss zum 3:3 aus."
+  },
+  {
+    "sourceId": "tq-pep-guardiola-1",
+    "expectedAnswer": "Pep Guardiola",
+    "difficulty": 1,
+    "category": "Wer war's?",
+    "distractors": [
+      "Carlo Ancelotti",
+      "Louis van Gaal",
+      "Xabi Alonso"
+    ],
+    "fact": "In jeder seiner drei Saisons wurde Bayern Meister."
+  },
+  {
+    "sourceId": "tq-pep-guardiola-2",
+    "expectedAnswer": "Manchester City",
+    "difficulty": 1,
+    "category": "Stationen",
+    "distractors": [
+      "FC Chelsea",
+      "Manchester United",
+      "FC Barcelona"
+    ],
+    "fact": "Mit City gewann er 2023 das Triple."
+  },
+  {
+    "sourceId": "tq-louis-van-gaal-1",
+    "expectedAnswer": "Louis van Gaal",
+    "difficulty": 1,
+    "category": "Titel",
+    "distractors": [
+      "Huub Stevens",
+      "Arjen Robben",
+      "Guus Hiddink"
+    ],
+    "fact": "Im Champions-League-Finale unterlag Bayern Inter Mailand."
+  },
+  {
+    "sourceId": "tq-louis-van-gaal-2",
+    "expectedAnswer": "Ajax Amsterdam",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "Feyenoord Rotterdam",
+      "FC Barcelona",
+      "PSV Eindhoven"
+    ],
+    "fact": "Im Finale schlug die junge Ajax-Elf den AC Mailand."
+  },
+  {
+    "sourceId": "tq-carlo-ancelotti-1",
+    "expectedAnswer": "Carlo Ancelotti",
+    "difficulty": 2,
+    "category": "Wer war's?",
+    "distractors": [
+      "Giovanni Trapattoni",
+      "Antonio Conte",
+      "Massimiliano Allegri"
+    ],
+    "fact": "Er wurde mit Bayern Meister und im September 2017 entlassen."
+  },
+  {
+    "sourceId": "tq-carlo-ancelotti-2",
+    "expectedAnswer": "Brasilien",
+    "difficulty": 1,
+    "category": "Nationalteams",
+    "distractors": [
+      "Italien",
+      "Spanien",
+      "Argentinien"
+    ],
+    "fact": "Er ist einer der wenigen ausländischen Trainer der Seleção."
+  },
+  {
+    "sourceId": "tq-niko-kovac-1",
+    "expectedAnswer": "Niko Kovač",
+    "difficulty": 1,
+    "category": "Titel",
+    "distractors": [
+      "Adi Hütter",
+      "Armin Veh",
+      "Oliver Glasner"
+    ],
+    "fact": "Danach wechselte er ausgerechnet nach München."
+  },
+  {
+    "sourceId": "tq-niko-kovac-2",
+    "expectedAnswer": "Kroatien",
+    "difficulty": 2,
+    "category": "Nationalteams",
+    "distractors": [
+      "Serbien",
+      "Bosnien und Herzegowina",
+      "Österreich"
+    ],
+    "fact": "Für Kroatien hatte er auch als Spieler viele Länderspiele bestritten."
+  },
+  {
+    "sourceId": "tq-niko-kovac-3",
+    "expectedAnswer": "FC Bayern München",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "Eintracht Frankfurt",
+      "AS Monaco",
+      "VfL Wolfsburg"
+    ],
+    "fact": "Im November 2019 trennte sich Bayern von ihm."
+  },
+  {
+    "sourceId": "tq-oliver-glasner-1",
+    "expectedAnswer": "Oliver Glasner",
+    "difficulty": 1,
+    "category": "Titel",
+    "distractors": [
+      "Adi Hütter",
+      "Ralph Hasenhüttl",
+      "Peter Stöger"
+    ],
+    "fact": "Im Finale in Sevilla siegte Frankfurt im Elfmeterschießen gegen die Rangers."
+  },
+  {
+    "sourceId": "tq-oliver-glasner-2",
+    "expectedAnswer": "Crystal Palace",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "FC Fulham",
+      "Brighton & Hove Albion",
+      "Aston Villa"
+    ],
+    "fact": "Es war der erste große Titel der Vereinsgeschichte."
+  },
+  {
+    "sourceId": "tq-oliver-glasner-3",
+    "expectedAnswer": "VfL Wolfsburg",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "RB Leipzig",
+      "FC Augsburg",
+      "TSG Hoffenheim"
+    ],
+    "fact": "2021 führte er Wolfsburg in die Champions League."
+  },
+  {
+    "sourceId": "tq-edin-terzic-1",
+    "expectedAnswer": "Edin Terzić",
+    "difficulty": 1,
+    "category": "Titel",
+    "distractors": [
+      "Nuri Şahin",
+      "Marco Rose",
+      "Lucien Favre"
+    ],
+    "fact": "Im Finale in Wembley unterlag der BVB Real Madrid 0:2."
+  },
+  {
+    "sourceId": "tq-edin-terzic-2",
+    "expectedAnswer": "DFB-Pokal",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "Deutsche Meisterschaft",
+      "Supercup",
+      "Europa League"
+    ],
+    "fact": "Im Finale schlug Dortmund RB Leipzig 4:1."
+  },
+  {
+    "sourceId": "tq-friedhelm-funkel-1",
+    "expectedAnswer": "Friedhelm Funkel",
+    "difficulty": 3,
+    "category": "Wer war's?",
+    "distractors": [
+      "Huub Stevens",
+      "Peter Neururer",
+      "Markus Gisdol"
+    ],
+    "fact": "Er war damals bereits 67 Jahre alt."
+  },
+  {
+    "sourceId": "tq-friedhelm-funkel-2",
+    "expectedAnswer": "Eintracht Frankfurt",
+    "difficulty": 3,
+    "category": "Titel",
+    "distractors": [
+      "Fortuna Düsseldorf",
+      "MSV Duisburg",
+      "1. FC Köln"
+    ],
+    "fact": "Im Finale verlor Frankfurt 0:1 gegen den FC Bayern."
+  },
+  {
+    "sourceId": "tq-ralf-rangnick-1",
+    "expectedAnswer": "Österreich",
+    "difficulty": 1,
+    "category": "Nationalteams",
+    "distractors": [
+      "Schweiz",
+      "Ungarn",
+      "Tschechien"
+    ],
+    "fact": "Bei der EM 2024 gewann Österreich unter ihm die Gruppe vor Frankreich."
+  },
+  {
+    "sourceId": "tq-ralf-rangnick-2",
+    "expectedAnswer": "Manchester United",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "FC Chelsea",
+      "Manchester City",
+      "FC Arsenal"
+    ],
+    "fact": "Danach sollte er als Berater bleiben."
+  },
+  {
+    "sourceId": "tq-ralf-rangnick-3",
+    "expectedAnswer": "Professor",
+    "difficulty": 2,
+    "category": "Spitznamen",
+    "distractors": [
+      "General",
+      "Kaiser",
+      "Quälix"
+    ],
+    "fact": "Er erklärte 1998 im Fernsehen die Viererkette an einer Taktiktafel."
+  },
+  {
+    "sourceId": "tq-ralf-rangnick-4",
+    "expectedAnswer": "FC Schalke 04",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "TSG Hoffenheim",
+      "Hannover 96",
+      "VfB Stuttgart"
+    ],
+    "fact": "Im Finale schlug Schalke den MSV Duisburg 5:0."
+  },
+  {
+    "sourceId": "tq-jupp-derwall-1",
+    "expectedAnswer": "Jupp Derwall",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "Helmut Schön",
+      "Franz Beckenbauer",
+      "Berti Vogts"
+    ],
+    "fact": "Im Finale schlug Deutschland Belgien 2:1."
+  },
+  {
+    "sourceId": "tq-jupp-derwall-2",
+    "expectedAnswer": "Galatasaray",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "Fenerbahçe",
+      "Beşiktaş",
+      "Trabzonspor"
+    ],
+    "fact": "In Istanbul gilt er als Modernisierer des türkischen Fußballs."
+  },
+  {
+    "sourceId": "tq-erich-ribbeck-1",
+    "expectedAnswer": "Erich Ribbeck",
+    "difficulty": 2,
+    "category": "Wer war's?",
+    "distractors": [
+      "Berti Vogts",
+      "Rudi Völler",
+      "Jupp Derwall"
+    ],
+    "fact": "Deutschland holte nur einen Punkt in drei Spielen."
+  },
+  {
+    "sourceId": "tq-erich-ribbeck-2",
+    "expectedAnswer": "Bayer 04 Leverkusen",
+    "difficulty": 3,
+    "category": "Titel",
+    "distractors": [
+      "Eintracht Frankfurt",
+      "FC Bayern München",
+      "1. FC Kaiserslautern"
+    ],
+    "fact": "Leverkusen siegte im Elfmeterschießen gegen Espanyol Barcelona."
+  },
+  {
+    "sourceId": "tq-giovanni-trapattoni-1",
+    "expectedAnswer": "Giovanni Trapattoni",
+    "difficulty": 1,
+    "category": "Wer war's?",
+    "distractors": [
+      "Ottmar Hitzfeld",
+      "Carlo Ancelotti",
+      "Otto Rehhagel"
+    ],
+    "fact": "Die Pressekonferenz ist eine der bekanntesten der Bundesliga."
+  },
+  {
+    "sourceId": "tq-giovanni-trapattoni-2",
+    "expectedAnswer": "Thomas Strunz",
+    "difficulty": 2,
+    "category": "Wer war's?",
+    "distractors": [
+      "Mehmet Scholl",
+      "Mario Basler",
+      "Lothar Matthäus"
+    ],
+    "fact": "„Was erlauben Strunz?“ wurde zum geflügelten Wort."
+  },
+  {
+    "sourceId": "tq-giovanni-trapattoni-3",
+    "expectedAnswer": "Irland",
+    "difficulty": 3,
+    "category": "Nationalteams",
+    "distractors": [
+      "Italien",
+      "Schottland",
+      "Wales"
+    ],
+    "fact": "Irland schied in der Gruppe mit Spanien und Italien aus."
+  },
+  {
+    "sourceId": "tq-volker-finke-1",
+    "expectedAnswer": "Volker Finke",
+    "difficulty": 2,
+    "category": "Wer war's?",
+    "distractors": [
+      "Christian Streich",
+      "Robin Dutt",
+      "Joachim Löw"
+    ],
+    "fact": "Mit ihm stieg Freiburg 1993 erstmals in die Bundesliga auf."
+  },
+  {
+    "sourceId": "tq-christian-streich-1",
+    "expectedAnswer": "Christian Streich",
+    "difficulty": 1,
+    "category": "Wer war's?",
+    "distractors": [
+      "Volker Finke",
+      "Julian Schuster",
+      "Robin Dutt"
+    ],
+    "fact": "Zuvor hatte er lange die Freiburger Jugend trainiert."
+  },
+  {
+    "sourceId": "tq-christian-streich-2",
+    "expectedAnswer": "RB Leipzig",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "Borussia Dortmund",
+      "Eintracht Frankfurt",
+      "Bayer Leverkusen"
+    ],
+    "fact": "Das Finale wurde erst im Elfmeterschießen entschieden."
+  },
+  {
+    "sourceId": "tq-urs-fischer-1",
+    "expectedAnswer": "Urs Fischer",
+    "difficulty": 1,
+    "category": "Titel",
+    "distractors": [
+      "Lucien Favre",
+      "Marcel Koller",
+      "Gerardo Seoane"
+    ],
+    "fact": "Mit Union war er 2019 auch in die Bundesliga aufgestiegen."
+  },
+  {
+    "sourceId": "tq-urs-fischer-2",
+    "expectedAnswer": "FC Basel",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "FC Zürich",
+      "BSC Young Boys",
+      "Grasshopper Club Zürich"
+    ],
+    "fact": "2017 holte Basel unter ihm sogar das Double."
+  },
+  {
+    "sourceId": "tq-sebastian-hoeness-1",
+    "expectedAnswer": "VfB Stuttgart",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "TSG Hoffenheim",
+      "RB Leipzig",
+      "Bayer Leverkusen"
+    ],
+    "fact": "Ein Jahr zuvor hatte der VfB noch in der Relegation gespielt."
+  },
+  {
+    "sourceId": "tq-sebastian-hoeness-2",
+    "expectedAnswer": "Uli Hoeneß",
+    "difficulty": 2,
+    "category": "Wer war's?",
+    "distractors": [
+      "Karl-Heinz Rummenigge",
+      "Franz Beckenbauer",
+      "Paul Breitner"
+    ],
+    "fact": "Sein Vater Dieter Hoeneß war ebenfalls Nationalspieler."
+  }
+]

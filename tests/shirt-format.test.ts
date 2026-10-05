@@ -2,7 +2,8 @@ import { describe, expect, it } from "vitest";
 import { readFileSync } from "node:fs";
 import { parseNffStarters, serialize, type Match } from "../scripts/import/shirt-format";
 
-const read = (f: string) => readFileSync(`data/source/matches/${f}`, "utf8");
+// Two hand-formatted match files kept from Tippetuppen: the formatter is the same, only the data differs.
+const read = (f: string) => readFileSync(`tests/fixtures/matches/${f}`, "utf8");
 /** Lines in b that a does not have (as a multiset): what a diff would show as added. */
 const changedLines = (a: string, b: string) => {
   const left = new Map<string, number>();
