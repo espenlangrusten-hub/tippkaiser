@@ -12,7 +12,7 @@ on:
     inputs:
       limit:
         description: "Hvor mange spørsmål som kontrolleres i denne kjøringen"
-        default: "40"
+        default: "400"
         required: false
   # A push to this branch starts the job. The assistant working on this repository can
   # push but cannot dispatch a workflow, so without this every run waits on someone
@@ -41,7 +41,7 @@ jobs:
 
       - name: Slå opp på Wikipedia
         env:
-          LIMIT: ${{ inputs.limit || '40' }}
+          LIMIT: ${{ inputs.limit || '400' }}
         run: |
           set -euo pipefail
           node --import tsx scripts/import/verify-trivia.ts --limit "$LIMIT" | tee verify.log
