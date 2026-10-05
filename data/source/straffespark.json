@@ -16662,5 +16662,427 @@
       ]
     },
     "notes": "Artikkelen «UEFA Champions League 2012/13» nevner ikke «7:0». Sjekk svaret for hånd."
+  },
+  {
+    "kind": "trivia",
+    "id": "el-gruendung-werder",
+    "category": "klubb",
+    "prompt": "In welchem Jahr wurde Werder Bremen gegründet?",
+    "answer": {
+      "label": "1899",
+      "aliases": []
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Werder Bremen",
+      "mustMention": [
+        "1899"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-gruendung-eintracht",
+    "category": "klubb",
+    "prompt": "In welchem Jahr wurde Eintracht Frankfurt gegründet?",
+    "answer": {
+      "label": "1899",
+      "aliases": []
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Eintracht Frankfurt",
+      "mustMention": [
+        "1899"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-gruendung-vfb",
+    "category": "klubb",
+    "prompt": "In welchem Jahr wurde der VfB Stuttgart gegründet?",
+    "answer": {
+      "label": "1893",
+      "aliases": []
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "VfB Stuttgart",
+      "mustMention": [
+        "1893"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-gruendung-gladbach",
+    "category": "klubb",
+    "prompt": "In welchem Jahr wurde Borussia Mönchengladbach gegründet?",
+    "answer": {
+      "label": "1900",
+      "aliases": []
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Borussia Mönchengladbach",
+      "mustMention": [
+        "1900"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-gruendung-st-pauli",
+    "category": "klubb",
+    "prompt": "In welchem Jahr wurde der FC St. Pauli gegründet?",
+    "answer": {
+      "label": "1910",
+      "aliases": []
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "FC St. Pauli",
+      "mustMention": [
+        "1910"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-gruendung-hertha",
+    "category": "klubb",
+    "prompt": "In welchem Jahr wurde Hertha BSC gegründet?",
+    "answer": {
+      "label": "1892",
+      "aliases": []
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Hertha BSC",
+      "mustMention": [
+        "1892"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-gruendung-wolfsburg",
+    "category": "klubb",
+    "prompt": "In welchem Jahr wurde der VfL Wolfsburg gegründet?",
+    "answer": {
+      "label": "1945",
+      "aliases": []
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "VfL Wolfsburg",
+      "mustMention": [
+        "1945"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-gruendung-augsburg",
+    "category": "klubb",
+    "prompt": "In welchem Jahr wurde der FC Augsburg gegründet?",
+    "answer": {
+      "label": "1907",
+      "aliases": []
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "FC Augsburg",
+      "mustMention": [
+        "1907"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-gruendung-freiburg",
+    "category": "klubb",
+    "prompt": "In welchem Jahr wurde der SC Freiburg gegründet?",
+    "answer": {
+      "label": "1904",
+      "aliases": []
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "SC Freiburg",
+      "mustMention": [
+        "1904"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-gruendung-nuernberg",
+    "category": "klubb",
+    "prompt": "In welchem Jahr wurde der 1. FC Nürnberg gegründet?",
+    "answer": {
+      "label": "1900",
+      "aliases": []
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "1. FC Nürnberg",
+      "mustMention": [
+        "1900"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-gruendung-fck",
+    "category": "klubb",
+    "prompt": "In welchem Jahr wurde der 1. FC Kaiserslautern gegründet?",
+    "answer": {
+      "label": "1900",
+      "aliases": []
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "1. FC Kaiserslautern",
+      "mustMention": [
+        "1900"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-gruendung-arminia",
+    "category": "klubb",
+    "prompt": "In welchem Jahr wurde Arminia Bielefeld gegründet?",
+    "answer": {
+      "label": "1905",
+      "aliases": []
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "DSC Arminia Bielefeld",
+      "mustMention": [
+        "1905"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-gruendung-fortuna",
+    "category": "klubb",
+    "prompt": "In welchem Jahr wurde Fortuna Düsseldorf gegründet?",
+    "answer": {
+      "label": "1895",
+      "aliases": []
+    },
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Fortuna Düsseldorf",
+      "mustMention": [
+        "1895"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-westfalenstadion-1974",
+    "category": "stadion",
+    "prompt": "In welchem Jahr wurde das Dortmunder Westfalenstadion eröffnet?",
+    "answer": {
+      "label": "1974",
+      "aliases": []
+    },
+    "fact": "Es wurde für die WM 1974 gebaut.",
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Signal Iduna Park",
+      "mustMention": [
+        "1974"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-olympiastadion-muenchen-1972",
+    "category": "stadion",
+    "prompt": "Für welche Olympischen Sommerspiele wurde das Münchner Olympiastadion gebaut?",
+    "answer": {
+      "label": "1972",
+      "aliases": [
+        "Olympia 1972",
+        "Sommerspiele 1972"
+      ]
+    },
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Olympiastadion München",
+      "mustMention": [
+        "1972"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-olympiastadion-berlin-1936",
+    "category": "stadion",
+    "prompt": "Für welche Olympischen Spiele wurde das Berliner Olympiastadion gebaut?",
+    "answer": {
+      "label": "1936",
+      "aliases": [
+        "Olympia 1936",
+        "Sommerspiele 1936"
+      ]
+    },
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Olympiastadion Berlin",
+      "mustMention": [
+        "1936"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-elber",
+    "category": "spiller",
+    "prompt": "Welcher Brasilianer stürmte von 1997 bis 2003 für den FC Bayern und wurde 2003 Torschützenkönig?",
+    "answer": {
+      "label": "Giovane Élber",
+      "aliases": [
+        "Élber"
+      ]
+    },
+    "difficulty": 2,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Giovane Élber",
+      "mustMention": [
+        "Torschützenkönig",
+        "Bayern"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-ebbe-sand",
+    "category": "spiller",
+    "prompt": "Welcher Däne wurde 2001 mit Schalke 04 Torschützenkönig der Bundesliga?",
+    "answer": {
+      "label": "Ebbe Sand",
+      "aliases": [
+        "Sand"
+      ]
+    },
+    "era": 2001,
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Ebbe Sand",
+      "mustMention": [
+        "Torschützenkönig",
+        "Schalke"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-barbarez",
+    "category": "spiller",
+    "prompt": "Welcher Bosnier wurde 2001 mit dem Hamburger SV Torschützenkönig der Bundesliga?",
+    "answer": {
+      "label": "Sergej Barbarez",
+      "aliases": [
+        "Barbarez"
+      ]
+    },
+    "era": 2001,
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Sergej Barbarez",
+      "mustMention": [
+        "Torschützenkönig",
+        "Hamburger SV"
+      ]
+    }
+  },
+  {
+    "kind": "trivia",
+    "id": "el-chapuisat",
+    "category": "spiller",
+    "prompt": "Welcher Schweizer Stürmer gewann 1997 mit Borussia Dortmund die Champions League?",
+    "answer": {
+      "label": "Stéphane Chapuisat",
+      "aliases": [
+        "Chapuisat"
+      ]
+    },
+    "era": 1997,
+    "difficulty": 3,
+    "status": "recall",
+    "enabled": true,
+    "sources": [],
+    "verify": {
+      "subject": "Stéphane Chapuisat",
+      "mustMention": [
+        "Dortmund",
+        "1997"
+      ]
+    }
   }
 ]
