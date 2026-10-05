@@ -13,9 +13,17 @@
     "fact": "Die Außenhaut der Arena kann in verschiedenen Farben leuchten.",
     "era": 2005,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Allianz_Arena",
+        "title": "Allianz Arena – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «2005». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Allianz Arena",
       "mustMention": [
@@ -40,9 +48,17 @@
     "fact": "Die Löwen kehrten ins Grünwalder Stadion zurück.",
     "era": 2017,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Allianz_Arena",
+        "title": "Allianz Arena – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «TSV 1860 München» og «2017». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Allianz Arena",
       "mustMention": [
@@ -62,9 +78,17 @@
     },
     "fact": "Die Arena liegt im Norden Münchens an der A 9.",
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Allianz_Arena",
+        "title": "Allianz Arena – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Fröttmaning». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Allianz Arena",
       "mustMention": [
@@ -83,9 +107,17 @@
     },
     "fact": "Es ist das größte Fußballstadion Deutschlands.",
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Signal_Iduna_Park",
+        "title": "Signal Iduna Park – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Westfalenstadion». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Signal Iduna Park",
       "mustMention": [
@@ -114,7 +146,8 @@
       "mustMention": [
         "Gelbe Wand"
       ]
-    }
+    },
+    "notes": "Artikkelen «Signal Iduna Park» nevner ikke «Gelbe Wand». Sjekk svaret for hånd."
   },
   {
     "kind": "trivia",
@@ -130,9 +163,17 @@
     },
     "fact": "Deutschland schlug dort die Niederlande 2:1.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Olympiastadion_M%C3%BCnchen",
+        "title": "Olympiastadion München – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1974». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Olympiastadion München",
       "mustMention": [
@@ -155,9 +196,17 @@
     },
     "fact": "Das Finale in Berlin ist für viele Fans eine Pilgerfahrt.",
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Olympiastadion_Berlin",
+        "title": "Olympiastadion Berlin – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1985» og «DFB-Pokal». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Olympiastadion Berlin",
       "mustMention": [
@@ -181,9 +230,17 @@
     },
     "fact": "Das Stadion liegt direkt am Ufer der Weser.",
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Weserstadion",
+        "title": "Weserstadion – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Werder Bremen». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Weserstadion",
       "mustMention": [
@@ -205,9 +262,17 @@
     },
     "fact": "Das Stadion steht im Hamburger Stadtteil Bahrenfeld.",
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Volksparkstadion",
+        "title": "Volksparkstadion – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Hamburger SV». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Volksparkstadion",
       "mustMention": [
@@ -228,9 +293,17 @@
     },
     "fact": "Es liegt mitten auf dem Hamburger Kiez.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Millerntor-Stadion",
+        "title": "Millerntor-Stadion – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Pauli». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Millerntor-Stadion",
       "mustMention": [
@@ -252,9 +325,17 @@
     },
     "fact": "Es steht im Berliner Ortsteil Köpenick.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Stadion_An_der_Alten_F%C3%B6rsterei",
+        "title": "Stadion An der Alten Försterei – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Köpenick». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Stadion An der Alten Försterei",
       "mustMention": [
@@ -277,9 +358,17 @@
     },
     "fact": "Der Borussia-Park wurde 2004 eröffnet.",
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Borussia-Park",
+        "title": "Borussia-Park – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Borussia Mönchengladbach». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Borussia-Park",
       "mustMention": [
@@ -301,9 +390,17 @@
     },
     "fact": "Dort feierte die Fohlenelf ihre großen Erfolge.",
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/B%C3%B6kelbergstadion",
+        "title": "Bökelbergstadion – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Mönchengladbach». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Bökelbergstadion",
       "mustMention": [
@@ -325,9 +422,17 @@
     },
     "fact": "Die Arena hat ein verschließbares Dach und einen ausfahrbaren Rasen.",
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Veltins-Arena",
+        "title": "Veltins-Arena – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «FC Schalke 04». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Veltins-Arena",
       "mustMention": [
@@ -346,9 +451,17 @@
     },
     "fact": "Es war ein Spielort der WM 1974.",
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Parkstadion",
+        "title": "Parkstadion – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Schalke» og «1973». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Parkstadion (Gelsenkirchen)",
       "mustMention": [
@@ -372,9 +485,17 @@
     },
     "fact": "Das Stadion steht im Stadtteil Müngersdorf.",
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Rheinenergiestadion",
+        "title": "Rheinenergiestadion – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1. FC Köln». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "RheinEnergieStadion",
       "mustMention": [
@@ -397,9 +518,17 @@
     },
     "fact": "Für Gegner galt der „Betze“ als gefürchtete Festung.",
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fritz-Walter-Stadion",
+        "title": "Fritz-Walter-Stadion – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1. FC Kaiserslautern». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fritz-Walter-Stadion",
       "mustMention": [
@@ -420,9 +549,17 @@
     },
     "fact": "Viele Fans nennen das Stadion einfach nur „Betze“.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fritz-Walter-Stadion",
+        "title": "Fritz-Walter-Stadion – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Betzenberg». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fritz-Walter-Stadion",
       "mustMention": [
@@ -444,9 +581,17 @@
     },
     "fact": "Das Stadion hieß früher Ulrich-Haberland-Stadion.",
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/BayArena",
+        "title": "BayArena – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Bayer 04 Leverkusen». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "BayArena",
       "mustMention": [
@@ -468,9 +613,17 @@
     },
     "fact": "Das Stadion liegt im Stuttgarter Stadtteil Bad Cannstatt.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/MHPArena",
+        "title": "MHPArena – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «VfB Stuttgart». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "MHPArena",
       "mustMention": [
@@ -500,7 +653,8 @@
       "mustMention": [
         "Eintracht Frankfurt"
       ]
-    }
+    },
+    "notes": "Fant ingen artikkel om «Waldstadion (Frankfurt am Main)» på Wikipedia."
   },
   {
     "kind": "trivia",
@@ -517,9 +671,17 @@
     },
     "fact": "Das Stadion liegt am ehemaligen Reichsparteitagsgelände.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Max-Morlock-Stadion",
+        "title": "Max-Morlock-Stadion – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1. FC Nürnberg». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Max-Morlock-Stadion",
       "mustMention": [
@@ -540,9 +702,17 @@
     },
     "fact": "Das Nürnberger Stadion trägt seit 2017 seinen Namen.",
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Max_Morlock",
+        "title": "Max Morlock – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1954». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Max Morlock",
       "mustMention": [
@@ -564,9 +734,17 @@
     },
     "fact": "Die Arena wurde in die Schüssel des alten Zentralstadions gebaut.",
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Red_Bull_Arena_(Leipzig)",
+        "title": "Red Bull Arena (Leipzig) – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «RB Leipzig». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Red Bull Arena (Leipzig)",
       "mustMention": [
@@ -586,9 +764,17 @@
     "fact": "Der Name stammt vom großen DDR-Stadion, in dessen Wällen die Arena steht.",
     "era": 2006,
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Red_Bull_Arena_(Leipzig)",
+        "title": "Red Bull Arena (Leipzig) – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Zentralstadion». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Red Bull Arena (Leipzig)",
       "mustMention": [
@@ -610,9 +796,17 @@
     },
     "fact": "Das Stadion fasst rund 29.000 Zuschauer.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Ostseestadion",
+        "title": "Ostseestadion – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Hansa Rostock». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Ostseestadion",
       "mustMention": [
@@ -635,9 +829,17 @@
     },
     "fact": "Rudolf Harbig war ein Dresdner Weltrekordläufer.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Rudolf-Harbig-Stadion",
+        "title": "Rudolf-Harbig-Stadion – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Dynamo Dresden». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Rudolf-Harbig-Stadion",
       "mustMention": [
@@ -659,9 +861,17 @@
     },
     "fact": "Das Stadion wurde zuletzt komplett neu gebaut.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Wildparkstadion",
+        "title": "Wildparkstadion – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Karlsruher SC». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Wildparkstadion",
       "mustMention": [
@@ -683,9 +893,17 @@
     },
     "fact": "Offiziell trägt das Stadion seit Jahren einen Sponsorennamen.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Sch%C3%BCcoArena",
+        "title": "SchücoArena – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Arminia Bielefeld». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Bielefelder Alm",
       "mustMention": [
@@ -706,9 +924,17 @@
     },
     "fact": "Herbert Grönemeyer besang den Klub in seinem Lied „Bochum“.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Ruhrstadion",
+        "title": "Ruhrstadion – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «VfL Bochum». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Ruhrstadion",
       "mustMention": [
@@ -730,9 +956,17 @@
     },
     "fact": "Die Arena war Spielort der EM 2024.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Merkur_Spiel-Arena",
+        "title": "Merkur Spiel-Arena – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Fortuna Düsseldorf». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Merkur Spiel-Arena",
       "mustMention": [
@@ -754,9 +988,17 @@
     },
     "fact": "Das Stadion ist nach dem Mannheimer Automobilpionier benannt.",
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Carl-Benz-Stadion",
+        "title": "Carl-Benz-Stadion – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «SV Waldhof Mannheim». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Carl-Benz-Stadion",
       "mustMention": [
@@ -779,9 +1021,17 @@
     "fact": "Zuvor spielte der Klub im Dreisamstadion.",
     "era": 2021,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Europa-Park-Stadion",
+        "title": "Europa-Park-Stadion – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «SC Freiburg» og «2021». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Europa-Park Stadion",
       "mustMention": [
@@ -803,9 +1053,17 @@
     },
     "fact": "Der Klub gehört zum Volkswagen-Konzern.",
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Volkswagen_Arena",
+        "title": "Volkswagen Arena – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «VfL Wolfsburg». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Volkswagen Arena",
       "mustMention": [
@@ -827,9 +1085,17 @@
     },
     "fact": "Hoffenheim selbst ist nur ein Ortsteil von Sinsheim.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/SNP_Arena",
+        "title": "SNP Arena – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «TSG 1899 Hoffenheim». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "PreZero Arena",
       "mustMention": [
@@ -851,9 +1117,17 @@
     },
     "fact": "Die Arena wurde 2009 eröffnet.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/WWK-Arena",
+        "title": "WWK-Arena – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «FC Augsburg». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "WWK Arena",
       "mustMention": [
@@ -875,9 +1149,17 @@
     },
     "fact": "Die Arena löste 2011 das alte Bruchwegstadion ab.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Mewa_Arena",
+        "title": "Mewa Arena – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1. FSV Mainz 05». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Mewa Arena",
       "mustMention": [
@@ -899,9 +1181,17 @@
     },
     "fact": "Es war Spielort der WM 1974 und 2006.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Heinz-von-Heiden-Arena",
+        "title": "Heinz-von-Heiden-Arena – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Hannover 96». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Niedersachsenstadion",
       "mustMention": [
@@ -925,9 +1215,17 @@
     },
     "fact": "Auch der FC Bayern spielte hier einst.",
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/St%C3%A4dtisches_Stadion_an_der_Gr%C3%BCnwalder_Stra%C3%9Fe",
+        "title": "Städtisches Stadion an der Grünwalder Straße – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «TSV 1860 München». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Städtisches Stadion an der Grünwalder Straße",
       "mustMention": [
@@ -950,9 +1248,17 @@
     "fact": "Italien gewann dort im Elfmeterschießen gegen Frankreich.",
     "era": 2006,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Olympiastadion_Berlin",
+        "title": "Olympiastadion Berlin – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «2006». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Olympiastadion Berlin",
       "mustMention": [
