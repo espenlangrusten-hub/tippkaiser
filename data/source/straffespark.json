@@ -16673,9 +16673,17 @@
       "aliases": []
     },
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Werder_Bremen",
+        "title": "Werder Bremen – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1899». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Werder Bremen",
       "mustMention": [
@@ -16693,9 +16701,17 @@
       "aliases": []
     },
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Eintracht_Frankfurt",
+        "title": "Eintracht Frankfurt – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1899». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Eintracht Frankfurt",
       "mustMention": [
@@ -16713,9 +16729,17 @@
       "aliases": []
     },
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/VfB_Stuttgart",
+        "title": "VfB Stuttgart – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1893». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "VfB Stuttgart",
       "mustMention": [
@@ -16733,9 +16757,17 @@
       "aliases": []
     },
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Borussia_M%C3%B6nchengladbach",
+        "title": "Borussia Mönchengladbach – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1900». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Borussia Mönchengladbach",
       "mustMention": [
@@ -16753,9 +16785,17 @@
       "aliases": []
     },
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/FC_St._Pauli",
+        "title": "FC St. Pauli – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1910». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "FC St. Pauli",
       "mustMention": [
@@ -16773,9 +16813,17 @@
       "aliases": []
     },
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Hertha_BSC",
+        "title": "Hertha BSC – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1892». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Hertha BSC",
       "mustMention": [
@@ -16793,9 +16841,17 @@
       "aliases": []
     },
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/VfL_Wolfsburg",
+        "title": "VfL Wolfsburg – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1945». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "VfL Wolfsburg",
       "mustMention": [
@@ -16813,9 +16869,17 @@
       "aliases": []
     },
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/FC_Augsburg",
+        "title": "FC Augsburg – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1907». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "FC Augsburg",
       "mustMention": [
@@ -16833,9 +16897,17 @@
       "aliases": []
     },
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/SC_Freiburg",
+        "title": "SC Freiburg – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1904». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "SC Freiburg",
       "mustMention": [
@@ -16853,9 +16925,17 @@
       "aliases": []
     },
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/1._FC_N%C3%BCrnberg",
+        "title": "1. FC Nürnberg – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1900». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "1. FC Nürnberg",
       "mustMention": [
@@ -16873,9 +16953,17 @@
       "aliases": []
     },
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/1._FC_Kaiserslautern",
+        "title": "1. FC Kaiserslautern – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1900». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "1. FC Kaiserslautern",
       "mustMention": [
@@ -16893,9 +16981,17 @@
       "aliases": []
     },
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Arminia_Bielefeld",
+        "title": "Arminia Bielefeld – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1905». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DSC Arminia Bielefeld",
       "mustMention": [
@@ -16913,9 +17009,17 @@
       "aliases": []
     },
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fortuna_D%C3%BCsseldorf",
+        "title": "Fortuna Düsseldorf – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1895». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fortuna Düsseldorf",
       "mustMention": [
@@ -16934,9 +17038,17 @@
     },
     "fact": "Es wurde für die WM 1974 gebaut.",
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Signal_Iduna_Park",
+        "title": "Signal Iduna Park – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1974». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Signal Iduna Park",
       "mustMention": [
@@ -16957,9 +17069,17 @@
       ]
     },
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Olympiastadion_M%C3%BCnchen",
+        "title": "Olympiastadion München – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1972». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Olympiastadion München",
       "mustMention": [
@@ -16980,9 +17100,17 @@
       ]
     },
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Olympiastadion_Berlin",
+        "title": "Olympiastadion Berlin – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «1936». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Olympiastadion Berlin",
       "mustMention": [
@@ -17002,9 +17130,17 @@
       ]
     },
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Giovane_%C3%89lber",
+        "title": "Giovane Élber – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Torschützenkönig» og «Bayern». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Giovane Élber",
       "mustMention": [
@@ -17026,9 +17162,17 @@
     },
     "era": 2001,
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Ebbe_Sand",
+        "title": "Ebbe Sand – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Torschützenkönig» og «Schalke». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Ebbe Sand",
       "mustMention": [
@@ -17050,9 +17194,17 @@
     },
     "era": 2001,
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Sergej_Barbarez",
+        "title": "Sergej Barbarez – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Torschützenkönig» og «Hamburger SV». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Sergej Barbarez",
       "mustMention": [
@@ -17074,9 +17226,17 @@
     },
     "era": 1997,
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/St%C3%A9phane_Chapuisat",
+        "title": "Stéphane Chapuisat – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-05",
+        "note": "Artikkelteksten nevner «Dortmund» og «1997». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Stéphane Chapuisat",
       "mustMention": [
