@@ -32,11 +32,14 @@ export type FactAppearance = {
 };
 export type FactGoal = { matchId: string; playerId: string | null };
 
+/** "2014-07-13" -> "13.07.2014". */
+const de = (date: string) => date.split("-").reverse().join(".");
+
 export type PlayerFact = { kind: string; text: string; matchIds: string[] };
 
 /** How the scoreline reads from Norway's side. */
 export const scoreline = (m: FactMatch) =>
-  m.norwayHome ? `Norge ${m.score[0]}–${m.score[1]} ${m.opponent}` : `${m.opponent} ${m.score[1]}–${m.score[0]} Norge`;
+  m.norwayHome ? `Deutschland ${m.score[0]}:${m.score[1]} ${m.opponent}` : `${m.opponent} ${m.score[1]}:${m.score[0]} Deutschland`;
 
 /**
  * A fact that contains the player's own name is not a hint, it is the answer.
@@ -86,7 +89,7 @@ export function factsFor(
 
   out.push({
     kind: "debut",
-    text: `Startet sin første kamp i arkivet mot ${debut.match.opponent} ${debut.match.date}, ${debut.match.competitionLabel}. Det endte ${scoreline(debut.match)}.`,
+    text: `Erstes Spiel im Archiv in der Startelf: ${de(debut.match.date)}, ${debut.match.competitionLabel}. Es endete ${scoreline(debut.match)}.`,
     matchIds: [debut.matchId],
   });
 
@@ -95,8 +98,8 @@ export function factsFor(
     out.push({
       kind: "omfang",
       text: years >= 1
-        ? `Startet ${starts.length} kamper i arkivet, fordelt over ${years} år fra ${debut.match.date.slice(0, 4)} til ${last.match.date.slice(0, 4)}.`
-        : `Startet ${starts.length} kamper i arkivet, alle i ${debut.match.date.slice(0, 4)}.`,
+        ? `${starts.length} Spiele im Archiv in der Startelf, verteilt über ${years} ${years === 1 ? "Jahr" : "Jahre"} von ${debut.match.date.slice(0, 4)} bis ${last.match.date.slice(0, 4)}.`
+        : `${starts.length} Spiele im Archiv in der Startelf, alle ${debut.match.date.slice(0, 4)}.`,
       matchIds: starts.map((a) => a.matchId),
     });
   }
@@ -110,8 +113,8 @@ export function factsFor(
     out.push({
       kind: "mål",
       text: scoredOnDebut
-        ? `Scoret allerede i sin første kamp, mot ${debut.match.opponent} ${debut.match.date}.`
-        : `Scoret mot ${scored[0].opponent} ${scored[0].date}${scored.length > 1 ? `, og mot ${scored[scored.length - 1].opponent} ${scored[scored.length - 1].date}` : ""}.`,
+        ? `Traf schon im ersten Spiel im Archiv (${de(debut.match.date)}, Gegner: ${debut.match.opponent}).`
+        : `Traf am ${de(scored[0].date)} (Gegner: ${scored[0].opponent})${scored.length > 1 ? ` und am ${de(scored[scored.length - 1].date)} (Gegner: ${scored[scored.length - 1].opponent})` : ""}.`,
       matchIds: scored.map((m) => m.id),
     });
   }
@@ -120,19 +123,19 @@ export function factsFor(
   if (asCaptain.length)
     out.push({
       kind: "kaptein",
-      text: `Bar kapteinsbindet i ${asCaptain.length === 1 ? "én kamp" : `${asCaptain.length} kamper`}, første gang mot ${asCaptain[0].match.opponent} ${asCaptain[0].match.date}.`,
+      text: `Trug die Kapitänsbinde in ${asCaptain.length === 1 ? "einem Spiel" : `${asCaptain.length} Spielen`}, zuerst am ${de(asCaptain[0].match.date)} (Gegner: ${asCaptain[0].match.opponent}).`,
       matchIds: asCaptain.map((a) => a.matchId),
     });
 
   const positions = [...new Set(starts.map((a) => a.position).filter((p): p is Position => !!p && p !== "OUT"))];
   if (positions.length === 1)
-    out.push({ kind: "posisjon", text: `Startet alltid som ${POSITION_LABEL[positions[0]].toLowerCase()} i de kampene rollene er dokumentert.`, matchIds: starts.map((a) => a.matchId) });
+    out.push({ kind: "posisjon", text: `Stand in den Spielen mit dokumentierter Rolle immer als ${POSITION_LABEL[positions[0]]} in der Startelf.`, matchIds: starts.map((a) => a.matchId) });
   else if (positions.length > 1)
-    out.push({ kind: "posisjon", text: `Brukt i flere roller: ${positions.map((p) => POSITION_LABEL[p].toLowerCase()).join(", ")}.`, matchIds: starts.map((a) => a.matchId) });
+    out.push({ kind: "posisjon", text: `In mehreren Rollen eingesetzt: ${positions.map((p) => POSITION_LABEL[p]).join(", ")}.`, matchIds: starts.map((a) => a.matchId) });
 
   const numbers = [...new Set(starts.map((a) => a.shirtNumber).filter((n): n is number => n != null))].sort((a, b) => a - b);
-  if (numbers.length === 1) out.push({ kind: "draktnummer", text: `Spilte alltid med draktnummer ${numbers[0]}.`, matchIds: starts.map((a) => a.matchId) });
-  else if (numbers.length > 1) out.push({ kind: "draktnummer", text: `Har båret ${numbers.length} ulike draktnumre: ${numbers.join(", ")}.`, matchIds: starts.map((a) => a.matchId) });
+  if (numbers.length === 1) out.push({ kind: "draktnummer", text: `Trug immer die Rückennummer ${numbers[0]}.`, matchIds: starts.map((a) => a.matchId) });
+  else if (numbers.length > 1) out.push({ kind: "draktnummer", text: `Trug ${numbers.length} verschiedene Rückennummern: ${numbers.join(", ")}.`, matchIds: starts.map((a) => a.matchId) });
 
   const wins = starts.filter((a) => a.match.score[0] > a.match.score[1]);
   if (wins.length) {
@@ -143,7 +146,7 @@ export function factsFor(
       const g = best.match;
       out.push({
         kind: "største seier",
-        text: `Var på banen da Norge vant ${g.score[0]}–${g.score[1]} ${g.norwayHome ? "hjemme mot" : "borte mot"} ${g.opponent} ${g.date}.`,
+        text: `Stand auf dem Platz, als Deutschland am ${de(g.date)} ${g.norwayHome ? "zu Hause" : "auswärts"} ${g.score[0]}:${g.score[1]} gewann (Gegner: ${g.opponent}).`,
         matchIds: [best.matchId],
       });
     }

@@ -159,7 +159,21 @@ function makePuzzle(opts: {
   };
 }
 
-const INTRO = "Fem svar. Velg svar vi anslår at færrest vil velge. Poengene er faste for alle som spiller oppgaven.";
+const INTRO = "Fünf Antworten. Wähle die, von denen wir schätzen, dass sie am wenigsten andere wählen. Die Punkte sind für alle gleich.";
+
+/**
+ * Whether the line-up archive holds every match of the national team.
+ *
+ * The starter questions ("Nenne einen Spieler, der 2014 in der Startelf stand") are only
+ * honest over a complete archive: a player who names someone from a match we do not hold
+ * is charged the full 100 points for being right. Tippetuppen held every Norway match;
+ * Tippkaiser starts with a handful of famous ones, so these questions stay off until the
+ * archive is complete. Squads, honours and seasons are closed lists and are unaffected.
+ */
+const LINEUP_ARCHIVE_COMPLETE = false;
+
+/** A Bundesliga season runs over the new year; an honour carries the year it ended. */
+const seasonOf = (endYear: number) => `${endYear - 1}/${String(endYear).slice(2)}`;
 
 /**
  * Hvilken periode spørsmålene gjelder.
@@ -219,12 +233,12 @@ export async function buildMaalloesPuzzles(db: Db): Promise<MaalloesPuzzleRow[]>
       makePuzzle({
         id: `mal-season-${se.year}`,
         kind: "season-members",
-        category: se.year >= 2017 ? "Eliteserien" : "Tippeligaen",
-        question: `Navngi et lag som spilte i ${se.name}`,
+        category: "Bundesliga",
+        question: `Nenne einen Klub aus der ${se.name}`,
         intro: INTRO,
         answerKind: "club",
-        answers: rows.map((r) => clubAnswer(ctx, r.clubId, r.clubId === champion ? 15 : r.outcome === "relegated" ? -4 : 0, r.outcome === "champion" ? "Seriemester" : r.outcome === "relegated" ? "Rykket ned" : r.points != null ? `${r.position}. plass` : undefined)),
-        explanation: `${rows.length} lag spilte i ${se.name}.${champion ? ` ${ctx.clubs.get(champion)?.name} vant serien.` : ""}`,
+        answers: rows.map((r) => clubAnswer(ctx, r.clubId, r.clubId === champion ? 15 : r.outcome === "relegated" ? -4 : 0, r.outcome === "champion" ? "Meister" : r.outcome === "relegated" ? "Abgestiegen" : r.points != null ? `Platz ${r.position}` : undefined)),
+        explanation: `${rows.length} Klubs spielten in der ${se.name}.${champion ? ` Meister wurde ${ctx.clubs.get(champion)?.name}.` : ""}`,
         sourceIds: [se.id],
         status: st,
         era: Math.floor(se.year / 10) * 10,
@@ -253,14 +267,14 @@ export async function buildMaalloesPuzzles(db: Db): Promise<MaalloesPuzzleRow[]>
       makePuzzle({
         id: `mal-seasons-both-${pair[0].year}-${pair[1].year}`,
         kind: "season-pair-both",
-        category: "Toppdivisjonen",
-        question: `Navngi et lag som spilte i norsk toppdivisjon i både ${pair[0].year} og ${pair[1].year}`,
+        category: "Bundesliga",
+        question: `Nenne einen Klub, der sowohl ${pair[0].year} als auch ${pair[1].year} in der Bundesliga spielte`,
         intro: INTRO,
         answerKind: "club",
         answers: Array.from(years)
           .filter(([, played]) => played.length === 2)
-          .map(([clubId]) => clubAnswer(ctx, clubId, 4, "Spilte begge sesongene")),
-        explanation: `Medlemslistene for ${pair[0].year}- og ${pair[1].year}-sesongen.`,
+          .map(([clubId]) => clubAnswer(ctx, clubId, 4, "In beiden Spielzeiten dabei")),
+        explanation: `Teilnehmerlisten der Spielzeiten ${pair[0].year} und ${pair[1].year}.`,
         sourceIds,
         status,
         era: Math.floor(pair[0].year / 10) * 10,
@@ -271,12 +285,12 @@ export async function buildMaalloesPuzzles(db: Db): Promise<MaalloesPuzzleRow[]>
       makePuzzle({
         id: `mal-seasons-either-${pair[0].year}-${pair[1].year}`,
         kind: "season-pair-either",
-        category: "Toppdivisjonen",
-        question: `Navngi et lag som spilte i norsk toppdivisjon i minst én av sesongene ${pair[0].year} og ${pair[1].year}`,
+        category: "Bundesliga",
+        question: `Nenne einen Klub, der ${pair[0].year} oder ${pair[1].year} in der Bundesliga spielte`,
         intro: INTRO,
         answerKind: "club",
-        answers: Array.from(years).map(([clubId, played]) => clubAnswer(ctx, clubId, played.length === 2 ? 6 : 0, played.length === 2 ? "Begge sesongene" : `${played[0]}-sesongen`)),
-        explanation: `Samlet medlemsliste for sesongene ${pair[0].year} og ${pair[1].year}.`,
+        answers: Array.from(years).map(([clubId, played]) => clubAnswer(ctx, clubId, played.length === 2 ? 6 : 0, played.length === 2 ? "Beide Spielzeiten" : `Spielzeit ${played[0]}`)),
+        explanation: `Gemeinsame Teilnehmerliste der Spielzeiten ${pair[0].year} und ${pair[1].year}.`,
         sourceIds,
         status,
         era: Math.floor(pair[0].year / 10) * 10,
@@ -285,9 +299,9 @@ export async function buildMaalloesPuzzles(db: Db): Promise<MaalloesPuzzleRow[]>
     );
   }
   const windowSpecs = [
-    { size: 3, sizeWord: "tre", threshold: 2, thresholdWord: "to", thresholdKey: "two" },
-    { size: 4, sizeWord: "fire", threshold: 3, thresholdWord: "tre", thresholdKey: "three" },
-    { size: 5, sizeWord: "fem", threshold: 3, thresholdWord: "tre", thresholdKey: "three" },
+    { size: 3, sizeWord: "drei", threshold: 2, thresholdWord: "zwei", thresholdKey: "two" },
+    { size: 4, sizeWord: "vier", threshold: 3, thresholdWord: "drei", thresholdKey: "three" },
+    { size: 5, sizeWord: "fünf", threshold: 3, thresholdWord: "drei", thresholdKey: "three" },
   ] as const;
   for (const spec of windowSpecs) {
     for (let i = 0; i <= sortedSeasons.length - spec.size; i++) {
@@ -304,12 +318,12 @@ export async function buildMaalloesPuzzles(db: Db): Promise<MaalloesPuzzleRow[]>
         makePuzzle({
           id: `mal-season-window${idSize}-any-${start}-${end}`,
           kind: `season-window${kindSize}-any`,
-          category: "Toppdivisjonen",
-          question: `Navngi et lag som spilte i norsk toppdivisjon mellom ${start} og ${end}`,
+          category: "Bundesliga",
+          question: `Nenne einen Klub, der zwischen ${start} und ${end} in der Bundesliga spielte`,
           intro: INTRO,
           answerKind: "club",
-          answers: Array.from(years).map(([clubId, played]) => clubAnswer(ctx, clubId, Math.min(10, played.length * 2), `${played.length} av ${spec.size} sesonger`)),
-          explanation: `Samlet medlemsliste for ${spec.sizeWord} sesonger, ${start}–${end}.`,
+          answers: Array.from(years).map(([clubId, played]) => clubAnswer(ctx, clubId, Math.min(10, played.length * 2), `${played.length} von ${spec.size} Spielzeiten`)),
+          explanation: `Gemeinsame Teilnehmerliste für ${spec.sizeWord} Spielzeiten, ${start}–${end}.`,
           sourceIds,
           status,
           era: Math.floor(start / 10) * 10,
@@ -320,14 +334,14 @@ export async function buildMaalloesPuzzles(db: Db): Promise<MaalloesPuzzleRow[]>
         makePuzzle({
           id: `mal-season-window${idSize}-${spec.thresholdKey}-${start}-${end}`,
           kind: `season-window${kindSize}-${spec.thresholdKey}`,
-          category: "Toppdivisjonen",
-          question: `Navngi et lag som spilte minst ${spec.thresholdWord} sesonger i norsk toppdivisjon mellom ${start} og ${end}`,
+          category: "Bundesliga",
+          question: `Nenne einen Klub, der zwischen ${start} und ${end} mindestens ${spec.thresholdWord} Spielzeiten in der Bundesliga spielte`,
           intro: INTRO,
           answerKind: "club",
           answers: Array.from(years)
             .filter(([, played]) => played.length >= spec.threshold)
-            .map(([clubId, played]) => clubAnswer(ctx, clubId, Math.min(10, played.length * 2), `${played.length} av ${spec.size} sesonger`)),
-          explanation: `Opptalt fra medlemslistene for sesongene ${start}–${end}.`,
+            .map(([clubId, played]) => clubAnswer(ctx, clubId, Math.min(10, played.length * 2), `${played.length} von ${spec.size} Spielzeiten`)),
+          explanation: `Ausgezählt aus den Teilnehmerlisten der Spielzeiten ${start}–${end}.`,
           sourceIds,
           status,
           era: Math.floor(start / 10) * 10,
@@ -351,17 +365,17 @@ export async function buildMaalloesPuzzles(db: Db): Promise<MaalloesPuzzleRow[]>
   }
   for (const [dec, d] of byDecade) {
     if (d.seasons < 8) continue; // only decades with (near) complete coverage
-    const label = dec === 1990 ? "1990-tallet" : dec === 2000 ? "2000-tallet" : dec === 2010 ? "2010-tallet" : "2020-tallet";
+    const label = `${dec}er-Jahren`;
     push(
       makePuzzle({
         id: `mal-relegated-${dec}`,
         kind: "relegated-decade",
-        category: "Nedrykk",
-        question: `Navngi et lag som rykket ned fra toppdivisjonen på ${label}`,
+        category: "Abstieg",
+        question: `Nenne einen Klub, der in den ${label} aus der Bundesliga abgestiegen ist`,
         intro: INTRO,
         answerKind: "club",
         answers: Array.from(d.relegated).map((c) => clubAnswer(ctx, c)),
-        explanation: `Basert på ${d.seasons} sesonger i databasen.`,
+        explanation: `Grundlage: ${d.seasons} Spielzeiten in der Datenbank.`,
         sourceIds: seasons.filter((x) => Math.floor(x.year / 10) * 10 === dec).map((x) => x.id),
         status: d.allOk ? "single_source" : "recall",
         era: dec,
@@ -377,11 +391,11 @@ export async function buildMaalloesPuzzles(db: Db): Promise<MaalloesPuzzleRow[]>
     makePuzzle({
       id: "mal-champions-all",
       kind: "champions",
-      category: "Seriemestere",
-      question: `Navngi et lag som har vunnet seriegull i Norge mellom ${minYear} og ${maxYear}`,
+      category: "Meister",
+      question: `Nenne einen Klub, der zwischen ${minYear} und ${maxYear} Deutscher Meister wurde`,
       intro: INTRO,
       answerKind: "club",
-      answers: Array.from(allChampions).map(([c, years]) => clubAnswer(ctx, c, years.length > 3 ? 20 : 0, `${years.length} gull (${years.join(", ")})`)),
+      answers: Array.from(allChampions).map(([c, years]) => clubAnswer(ctx, c, years.length > 3 ? 20 : 0, `${years.length} Titel (${years.join(", ")})`)),
       sourceIds: seasons.map((x) => x.id),
       status: seasons.every((x) => ok(x.status)) ? "single_source" : "recall",
       era: null,
@@ -403,11 +417,11 @@ export async function buildMaalloesPuzzles(db: Db): Promise<MaalloesPuzzleRow[]>
       makePuzzle({
         id: "mal-cup-winners",
         kind: "cup-winners",
-        category: "NM-cupen",
-        question: `Navngi et lag som har vunnet NM-cupen for menn i perioden ${Math.min(...cup.map((h) => h.year))}–${Math.max(...cup.map((h) => h.year))}`,
+        category: "DFB-Pokal",
+        question: `Nenne einen Klub, der zwischen ${Math.min(...cup.map((h) => h.year))} und ${Math.max(...cup.map((h) => h.year))} den DFB-Pokal gewann`,
         intro: INTRO,
         answerKind: "club",
-        answers: Array.from(wins).map(([c, years]) => clubAnswer(ctx, c, years.length > 3 ? 15 : 0, `${years.length} ${years.length === 1 ? "tittel" : "titler"} (${years.join(", ")})`)),
+        answers: Array.from(wins).map(([c, years]) => clubAnswer(ctx, c, years.length > 3 ? 15 : 0, `${years.length} ${years.length === 1 ? "Titel" : "Titel"} (${years.join(", ")})`)),
         sourceIds: ["honours:cup_title"],
         status: cup.every((h) => ok(h.status)) ? "single_source" : "recall",
         era: null,
@@ -423,11 +437,11 @@ export async function buildMaalloesPuzzles(db: Db): Promise<MaalloesPuzzleRow[]>
       makePuzzle({
         id: "mal-top-scorers",
         kind: "top-scorers",
-        category: "Toppscorere",
-        question: `Navngi en toppscorer i norsk toppdivisjon i perioden ${Math.min(...topScorers.map((h) => h.year))}–${Math.max(...topScorers.map((h) => h.year))}`,
+        category: "Torschützenkönige",
+        question: `Nenne einen Torschützenkönig der Bundesliga aus den Spielzeiten ${seasonOf(Math.min(...topScorers.map((h) => h.year)))} bis ${seasonOf(Math.max(...topScorers.map((h) => h.year)))}`,
         intro: INTRO,
         answerKind: "player",
-        answers: Array.from(byPlayer).map(([p, years]) => playerAnswer(ctx, p, years.length > 1 ? 10 : 0, `Toppscorer ${years.join(", ")}`)),
+        answers: Array.from(byPlayer).map(([p, years]) => playerAnswer(ctx, p, years.length > 1 ? 10 : 0, `Torschützenkönig ${years.map(seasonOf).join(", ")}`)),
         sourceIds: ["honours:top_scorer"],
         status: topScorers.every((h) => ok(h.status)) ? "single_source" : "recall",
         era: null,
@@ -443,11 +457,11 @@ export async function buildMaalloesPuzzles(db: Db): Promise<MaalloesPuzzleRow[]>
         makePuzzle({
           id: `mal-top-scorers-${dec}`,
           kind: "top-scorers-decade",
-          category: "Toppscorere",
-          question: `Navngi en toppscorer i Tippeligaen/Eliteserien på ${dec === 1990 ? "1990-tallet" : dec === 2000 ? "2000-tallet" : dec === 2010 ? "2010-tallet" : "2020-tallet"}`,
+          category: "Torschützenkönige",
+          question: `Nenne einen Torschützenkönig der Bundesliga, dessen Saison in den ${dec}er-Jahren endete`,
           intro: INTRO,
           answerKind: "player",
-          answers: Array.from(bp).map(([p, years]) => playerAnswer(ctx, p, 0, `Toppscorer ${years.join(", ")}`)),
+          answers: Array.from(bp).map(([p, years]) => playerAnswer(ctx, p, 0, `Torschützenkönig ${years.map(seasonOf).join(", ")}`)),
           sourceIds: ["honours:top_scorer"],
           status: sub.every((h) => ok(h.status)) ? "single_source" : "recall",
           era: dec,
@@ -464,11 +478,11 @@ export async function buildMaalloesPuzzles(db: Db): Promise<MaalloesPuzzleRow[]>
       makePuzzle({
         id: "mal-kniksen",
         kind: "kniksen",
-        category: "Kniksenprisen",
-        question: "Navngi en spiller som har blitt kåret til Årets spiller (Kniksenprisen)",
+        category: "Auszeichnungen",
+        question: "Nenne einen Spieler, der zum Fußballer des Jahres gewählt wurde",
         intro: INTRO,
         answerKind: "player",
-        answers: Array.from(bp).map(([p, years]) => playerAnswer(ctx, p, 0, `Årets spiller ${years.join(", ")}`)),
+        answers: Array.from(bp).map(([p, years]) => playerAnswer(ctx, p, 0, `Fußballer des Jahres ${years.join(", ")}`)),
         sourceIds: ["honours:kniksen_player"],
         status: kniksen.every((h) => ok(h.status)) ? "single_source" : "recall",
         era: null,
@@ -482,8 +496,8 @@ export async function buildMaalloesPuzzles(db: Db): Promise<MaalloesPuzzleRow[]>
       makePuzzle({
         id: "mal-norway-managers",
         kind: "managers",
-        category: "Landslaget",
-        question: "Navngi en som har vært landslagssjef for Norges herrelandslag siden 1990",
+        category: "Nationalmannschaft",
+        question: "Nenne einen Trainer der deutschen Nationalmannschaft der Männer",
         intro: INTRO,
         answerKind: "person",
         answers: managers.map((h) => personAnswer(h.personName ?? "?", h.value ?? 40, h.note ?? undefined)),
@@ -508,17 +522,18 @@ export async function buildMaalloesPuzzles(db: Db): Promise<MaalloesPuzzleRow[]>
     return set;
   };
   const pushStarterGroup = (opts: { id: string; kind: string; question: string; matches: typeof matches; era: number | null; quality?: number }) => {
+    if (!LINEUP_ARCHIVE_COMPLETE) return;
     const set = starterSet(opts.matches);
     push(
       makePuzzle({
         id: opts.id,
         kind: opts.kind,
-        category: "Landslaget",
+        category: "Nationalmannschaft",
         question: opts.question,
         intro: INTRO,
         answerKind: "player",
-        answers: Array.from(set).map(([playerId, starts]) => playerAnswer(ctx, playerId, Math.min(12, starts * 2), `${starts} ${starts === 1 ? "kamp" : "kamper"} fra start`)),
-        explanation: `Basert på ${opts.matches.length} ${opts.matches.length === 1 ? "kamp" : "kamper"} som er med i spillet.`,
+        answers: Array.from(set).map(([playerId, starts]) => playerAnswer(ctx, playerId, Math.min(12, starts * 2), `${starts} ${starts === 1 ? "Spiel" : "Spiele"} in der Startelf`)),
+        explanation: `Grundlage: ${opts.matches.length} ${opts.matches.length === 1 ? "Spiel" : "Spiele"} aus dem Archiv.`,
         sourceIds: opts.matches.map((match) => match.id),
         status: "single_source",
         era: opts.era,
@@ -537,21 +552,21 @@ export async function buildMaalloesPuzzles(db: Db): Promise<MaalloesPuzzleRow[]>
     pushStarterGroup({
       id: `mal-starters-year-${year}`,
       kind: "starters-year",
-      question: `Navngi en spiller som startet en av Norges landskamper fra ${year}`,
+      question: `Nenne einen Spieler, der ${year} in einem Länderspiel für Deutschland in der Startelf stand`,
       matches: yearMatches,
       era: Math.floor(year / 10) * 10,
     });
     const resultGroups = [
-      { key: "win", label: "en seier", matches: yearMatches.filter((match) => match.norwayScore > match.opponentScore) },
-      { key: "draw", label: "en uavgjort kamp", matches: yearMatches.filter((match) => match.norwayScore === match.opponentScore) },
-      { key: "loss", label: "et tap", matches: yearMatches.filter((match) => match.norwayScore < match.opponentScore) },
+      { key: "win", label: "bei einem Sieg", matches: yearMatches.filter((match) => match.norwayScore > match.opponentScore) },
+      { key: "draw", label: "bei einem Unentschieden", matches: yearMatches.filter((match) => match.norwayScore === match.opponentScore) },
+      { key: "loss", label: "bei einer Niederlage", matches: yearMatches.filter((match) => match.norwayScore < match.opponentScore) },
     ];
     for (const result of resultGroups) {
       if (!result.matches.length) continue;
       pushStarterGroup({
         id: `mal-starters-${result.key}-${year}`,
         kind: `starters-result-${result.key}`,
-        question: `Navngi en spiller som startet ${result.label} for Norge i ${year}`,
+        question: `Nenne einen Spieler, der ${year} ${result.label} für Deutschland in der Startelf stand`,
         matches: result.matches,
         era: Math.floor(year / 10) * 10,
         quality: 3,
@@ -565,7 +580,7 @@ export async function buildMaalloesPuzzles(db: Db): Promise<MaalloesPuzzleRow[]>
     pushStarterGroup({
       id: `mal-starters-years-${first}-${second}`,
       kind: "starters-two-years",
-      question: `Navngi en spiller som startet en landskamp for Norge i ${first} eller ${second}`,
+      question: `Nenne einen Spieler, der ${first} oder ${second} in einem Länderspiel für Deutschland in der Startelf stand`,
       matches: [...matchesByYear.get(first)!, ...matchesByYear.get(second)!],
       era: Math.floor(first / 10) * 10,
       quality: 3.1,
@@ -577,7 +592,7 @@ export async function buildMaalloesPuzzles(db: Db): Promise<MaalloesPuzzleRow[]>
     pushStarterGroup({
       id: `mal-starters-opponent-${slugify(opponent)}`,
       kind: "starters-opponent",
-      question: `Navngi en spiller som startet en Norge-kamp mot ${opponent}${scopeFor(opponentMatches)}`,
+      question: `Nenne einen Spieler, der für Deutschland gegen ${opponent}${scopeFor(opponentMatches)} in der Startelf stand`,
       matches: opponentMatches,
       era: null,
       quality: 3.3,
@@ -590,15 +605,15 @@ export async function buildMaalloesPuzzles(db: Db): Promise<MaalloesPuzzleRow[]>
   }
   for (const [decade, decadeMatches] of matchesByDecade) {
     for (const result of [
-      { key: "win", label: "vant", matches: decadeMatches.filter((match) => match.norwayScore > match.opponentScore) },
-      { key: "draw", label: "spilte uavgjort", matches: decadeMatches.filter((match) => match.norwayScore === match.opponentScore) },
-      { key: "loss", label: "tapte", matches: decadeMatches.filter((match) => match.norwayScore < match.opponentScore) },
+      { key: "win", label: "gewann", matches: decadeMatches.filter((match) => match.norwayScore > match.opponentScore) },
+      { key: "draw", label: "unentschieden spielte", matches: decadeMatches.filter((match) => match.norwayScore === match.opponentScore) },
+      { key: "loss", label: "verlor", matches: decadeMatches.filter((match) => match.norwayScore < match.opponentScore) },
     ]) {
       if (!result.matches.length) continue;
       pushStarterGroup({
         id: `mal-starters-decade-${result.key}-${decade}`,
         kind: `starters-decade-${result.key}`,
-        question: `Navngi en spiller som startet en landskamp Norge ${result.label} på ${decade}-tallet`,
+        question: `Nenne einen Spieler, der in den ${decade}er-Jahren in einem Länderspiel in der Startelf stand, das Deutschland ${result.label}`,
         matches: result.matches,
         era: decade,
         quality: 3.4,
@@ -613,19 +628,20 @@ export async function buildMaalloesPuzzles(db: Db): Promise<MaalloesPuzzleRow[]>
     tournaments.set(key, [...(tournaments.get(key) ?? []), m]);
   }
   for (const [key, ms] of tournaments) {
+    if (!LINEUP_ARCHIVE_COMPLETE) continue;
     const set = starterSet(ms);
     if (set.size < MIN_ANSWERS) continue;
-    const label = `${key.startsWith("world") ? "VM" : "EM"} ${key.slice(-4)}`;
+    const label = `${key.startsWith("world") ? "WM" : "EM"} ${key.slice(-4)}`;
     push(
       makePuzzle({
         id: `mal-starters-${key}`,
         kind: "starters-tournament",
-        category: "Landslaget",
-        question: `Navngi en spiller som startet en kamp for Norge i ${label}`,
+        category: "Nationalmannschaft",
+        question: `Nenne einen Spieler, der bei der ${label} für Deutschland in der Startelf stand`,
         intro: INTRO,
         answerKind: "player",
-        answers: Array.from(set).map(([p, n]) => playerAnswer(ctx, p, n >= ms.length ? 8 : 0, `${n} av ${ms.length} kamper fra start`)),
-        explanation: `${ms.length} ${ms.length === 1 ? "kamp" : "kamper"} i databasen: ${ms.map((m) => `${m.opponent} ${m.norwayScore}–${m.opponentScore}`).join(", ")}.`,
+        answers: Array.from(set).map(([p, n]) => playerAnswer(ctx, p, n >= ms.length ? 8 : 0, `${n} von ${ms.length} Spielen in der Startelf`)),
+        explanation: `${ms.length} ${ms.length === 1 ? "Spiel" : "Spiele"} in der Datenbank: ${ms.map((m) => `${m.opponent} ${m.norwayScore}–${m.opponentScore}`).join(", ")}.`,
         sourceIds: ms.map((m) => m.id),
         status: "single_source",
         era: Number(key.slice(-4)),
@@ -637,7 +653,7 @@ export async function buildMaalloesPuzzles(db: Db): Promise<MaalloesPuzzleRow[]>
   const byManager = new Map<string, typeof matches>();
   for (const m of okMatches) if (m.manager) byManager.set(m.manager, [...(byManager.get(m.manager) ?? []), m]);
   for (const [mgr, ms] of byManager) {
-    if (ms.length < 4) continue;
+    if (!LINEUP_ARCHIVE_COMPLETE || ms.length < 4) continue;
     const set = starterSet(ms);
     if (set.size < 12) continue;
     const years = ms.map((m) => Number(m.date.slice(0, 4)));
@@ -645,12 +661,12 @@ export async function buildMaalloesPuzzles(db: Db): Promise<MaalloesPuzzleRow[]>
       makePuzzle({
         id: `mal-starters-manager-${slugify(mgr)}`,
         kind: "starters-manager",
-        category: "Landslaget",
-        question: `Navngi en spiller som startet en landskamp under ${mgr} (${Math.min(...years)}–${Math.max(...years)})`,
+        category: "Nationalmannschaft",
+        question: `Nenne einen Spieler, der unter ${mgr} (${Math.min(...years)}–${Math.max(...years)}) in einem Länderspiel in der Startelf stand`,
         intro: INTRO,
         answerKind: "player",
-        answers: Array.from(set).map(([p, n]) => playerAnswer(ctx, p, n >= ms.length * 0.7 ? 10 : 0, `${n} ${n === 1 ? "kamp" : "kamper"} fra start i databasen`)),
-        explanation: `Basert på ${ms.length} ${ms.length === 1 ? "kamp" : "kamper"} i databasen.`,
+        answers: Array.from(set).map(([p, n]) => playerAnswer(ctx, p, n >= ms.length * 0.7 ? 10 : 0, `${n} ${n === 1 ? "Spiel" : "Spiele"} in der Startelf (Datenbank)`)),
+        explanation: `Grundlage: ${ms.length} ${ms.length === 1 ? "Spiel" : "Spiele"} in der Datenbank.`,
         sourceIds: ms.map((m) => m.id),
         status: "single_source",
         era: Math.floor(Math.min(...years) / 10) * 10,
@@ -675,16 +691,16 @@ export async function buildMaalloesPuzzles(db: Db): Promise<MaalloesPuzzleRow[]>
   const scoredMatches = okMatches.filter((m) => m.goalsComplete);
   const tMatches = scoredMatches.filter((m) => m.competitionId === "world-cup" || m.competitionId === "euro");
   const tScorers = scorers(tMatches);
-  if (tScorers.size >= MIN_ANSWERS)
+  if (LINEUP_ARCHIVE_COMPLETE && tScorers.size >= MIN_ANSWERS)
     push(
       makePuzzle({
         id: "mal-scorers-tournaments",
         kind: "scorers-tournaments",
-        category: "Landslaget",
-        question: `Navngi en spiller som har scoret for Norge i et VM- eller EM-sluttspill (${Math.min(...tMatches.map((m) => Number(m.date.slice(0, 4))))}\u2013${Math.max(...tMatches.map((m) => Number(m.date.slice(0, 4))))})`,
+        category: "Nationalmannschaft",
+        question: `Nenne einen Spieler, der bei einer WM- oder EM-Endrunde für Deutschland getroffen hat (${Math.min(...tMatches.map((m) => Number(m.date.slice(0, 4))))}\u2013${Math.max(...tMatches.map((m) => Number(m.date.slice(0, 4))))})`,
         intro: INTRO,
         answerKind: "player",
-        answers: Array.from(tScorers).map(([p, n]) => playerAnswer(ctx, p, n > 1 ? 10 : 0, `${n} mål`)),
+        answers: Array.from(tScorers).map(([p, n]) => playerAnswer(ctx, p, n > 1 ? 10 : 0, `${n} ${n === 1 ? "Tor" : "Tore"}`)),
         sourceIds: tMatches.map((m) => m.id),
         status: "single_source",
         era: null,
@@ -707,16 +723,16 @@ export async function buildMaalloesPuzzles(db: Db): Promise<MaalloesPuzzleRow[]>
   for (const sq of squads) bySquad.set(sq.tournamentId, [...(bySquad.get(sq.tournamentId) ?? []), sq]);
   for (const [t, members] of bySquad) {
     if (members.length < 16) continue;
-    const label = t.startsWith("wc") ? `VM ${t.slice(-4)}` : `EM ${t.slice(-4)}`;
+    const label = t.startsWith("wc") ? `WM ${t.slice(-4)}` : `EM ${t.slice(-4)}`;
     push(
       makePuzzle({
         id: `mal-squad-${t}`,
         kind: "squad",
-        category: "Landslaget",
-        question: `Navngi en spiller i Norges tropp til ${label}`,
+        category: "Nationalmannschaft",
+        question: `Nenne einen Spieler aus Deutschlands Kader für die ${label}`,
         intro: INTRO,
         answerKind: "player",
-        answers: members.map((m) => playerAnswer(ctx, m.playerId, 0, m.clubName ? `${m.clubName}${m.shirtNumber ? ` · nr. ${m.shirtNumber}` : ""}` : undefined)),
+        answers: members.map((m) => playerAnswer(ctx, m.playerId, 0, m.clubName ? `${m.clubName}${m.shirtNumber ? ` · Nr. ${m.shirtNumber}` : ""}` : undefined)),
         sourceIds: [`squad:${t}`],
         status: members.every((m) => ok(m.status)) ? "single_source" : "recall",
         era: Number(t.slice(-4)),

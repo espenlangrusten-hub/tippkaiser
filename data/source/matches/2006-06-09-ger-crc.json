@@ -1,0 +1,139 @@
+{
+  "id": "2006-06-09-ger-crc",
+  "date": "2006-06-09",
+  "competition": "world-cup",
+  "stage": "Gruppe A",
+  "opponent": "Costa Rica",
+  "opponentCode": "CRC",
+  "norwayHome": true,
+  "score": [
+    4,
+    2
+  ],
+  "venue": "Allianz Arena",
+  "city": "München",
+  "manager": "Jürgen Klinsmann",
+  "formation": "4-4-2",
+  "importance": 4,
+  "tags": [
+    "import:tippkaiser-test"
+  ],
+  "status": "recall",
+  "sources": [],
+  "notes": "Startelf aus dem Gedächtnis; die Wikipedia-Prüfung bestätigt die Namen im Artikel. Positionen und Rückennummern stammen nicht aus der Prüfung.",
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Jens Lehmann",
+      "pos": "GK",
+      "no": 1
+    },
+    {
+      "name": "Arne Friedrich",
+      "pos": "RB",
+      "no": 3
+    },
+    {
+      "name": "Per Mertesacker",
+      "pos": "CB",
+      "no": 17
+    },
+    {
+      "name": "Christoph Metzelder",
+      "pos": "CB",
+      "no": 21
+    },
+    {
+      "name": "Philipp Lahm",
+      "pos": "LB",
+      "no": 16
+    },
+    {
+      "name": "Bernd Schneider",
+      "pos": "RM",
+      "no": 19,
+      "captain": true
+    },
+    {
+      "name": "Torsten Frings",
+      "pos": "CM",
+      "no": 8
+    },
+    {
+      "name": "Tim Borowski",
+      "pos": "CM",
+      "no": 18
+    },
+    {
+      "name": "Bastian Schweinsteiger",
+      "pos": "LM",
+      "no": 7
+    },
+    {
+      "name": "Miroslav Klose",
+      "pos": "CF",
+      "no": 11
+    },
+    {
+      "name": "Lukas Podolski",
+      "pos": "CF",
+      "no": 20
+    }
+  ],
+  "subs": [],
+  "goals": [
+    {
+      "team": "norway",
+      "name": "Philipp Lahm",
+      "minute": 6,
+      "kind": "goal"
+    },
+    {
+      "team": "opponent",
+      "scorer": "Paulo Wanchope",
+      "minute": 12,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "Miroslav Klose",
+      "minute": 17,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "Miroslav Klose",
+      "minute": 61,
+      "kind": "goal"
+    },
+    {
+      "team": "opponent",
+      "scorer": "Paulo Wanchope",
+      "minute": 73,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "Torsten Frings",
+      "minute": 87,
+      "kind": "goal"
+    }
+  ],
+  "verify": {
+    "subject": "Fußball-Weltmeisterschaft 2006/Gruppe A",
+    "mustMention": [
+      "Borowski",
+      "Friedrich",
+      "Frings",
+      "Klose",
+      "Lahm",
+      "Lehmann",
+      "Mertesacker",
+      "Metzelder",
+      "Podolski",
+      "Schneider",
+      "Schweinsteiger",
+      "Costa Rica"
+    ]
+  }
+}

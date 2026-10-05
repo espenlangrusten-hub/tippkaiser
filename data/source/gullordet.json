@@ -1,1 +1,1010 @@
-[]
+[
+  {
+    "word": "LATTE",
+    "label": "Latte – die Querstange des Tores",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 1,
+    "enabled": true
+  },
+  {
+    "word": "ELFER",
+    "label": "Elfer – umgangssprachlich für Elfmeter",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "KURVE",
+    "label": "Kurve – die Fankurve",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 1,
+    "enabled": true
+  },
+  {
+    "word": "RASEN",
+    "label": "Rasen – das Spielfeld",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 1,
+    "enabled": true
+  },
+  {
+    "word": "PFIFF",
+    "label": "Pfiff – das Signal des Schiedsrichters",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "KARTE",
+    "label": "Karte – Gelb oder Rot",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 1,
+    "enabled": true
+  },
+  {
+    "word": "DERBY",
+    "label": "Derby – das Duell zweier Rivalen",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 1,
+    "enabled": true
+  },
+  {
+    "word": "POKAL",
+    "label": "Pokal – Trophäe und Wettbewerb",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 1,
+    "enabled": true
+  },
+  {
+    "word": "TITEL",
+    "label": "Titel – Meisterschaft oder Pokalsieg",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 1,
+    "enabled": true
+  },
+  {
+    "word": "SPIEL",
+    "label": "Spiel – die Partie",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 1,
+    "enabled": true
+  },
+  {
+    "word": "KADER",
+    "label": "Kader – das Aufgebot",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "PUNKT",
+    "label": "Punkt – der Lohn für ein Unentschieden",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 1,
+    "enabled": true
+  },
+  {
+    "word": "HACKE",
+    "label": "Hacke – der Hackentrick",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "SPANN",
+    "label": "Spann – der Vollspannschuss",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "STURM",
+    "label": "Sturm – die Angriffsreihe",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 1,
+    "enabled": true
+  },
+  {
+    "word": "MITTE",
+    "label": "Mitte – Flanke in die Mitte",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "BÄLLE",
+    "label": "Bälle – Mehrzahl von Ball",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "TRITT",
+    "label": "Tritt – ein grobes Foul",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 3,
+    "enabled": true
+  },
+  {
+    "word": "JOKER",
+    "label": "Joker – der Einwechselspieler, der trifft",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "PAUSE",
+    "label": "Pause – die Halbzeitpause",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 1,
+    "enabled": true
+  },
+  {
+    "word": "RUNDE",
+    "label": "Runde – die Pokalrunde",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 1,
+    "enabled": true
+  },
+  {
+    "word": "ARENA",
+    "label": "Arena – das Stadion",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 1,
+    "enabled": true
+  },
+  {
+    "word": "BLOCK",
+    "label": "Block – der Fanblock",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "ULTRA",
+    "label": "Ultra – Mitglied der aktiven Fanszene",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "FAHNE",
+    "label": "Fahne – Eck- oder Vereinsfahne",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "SCHAL",
+    "label": "Schal – der Fanschal",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 1,
+    "enabled": true
+  },
+  {
+    "word": "HYMNE",
+    "label": "Hymne – Vereins- oder Nationalhymne",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "RÄNGE",
+    "label": "Ränge – die Tribünen",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 3,
+    "enabled": true
+  },
+  {
+    "word": "LINIE",
+    "label": "Linie – Tor- oder Seitenlinie",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 1,
+    "enabled": true
+  },
+  {
+    "word": "KREIS",
+    "label": "Kreis – der Mittelkreis",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "ECKEN",
+    "label": "Ecken – Mehrzahl von Ecke",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "REMIS",
+    "label": "Remis – das Unentschieden",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "FINTE",
+    "label": "Finte – die Täuschung",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "TRICK",
+    "label": "Trick – ein Kunststück am Ball",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "HAKEN",
+    "label": "Haken – der Richtungswechsel mit Ball",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 3,
+    "enabled": true
+  },
+  {
+    "word": "HEBER",
+    "label": "Heber – der Lupfer über den Torwart",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "MAUER",
+    "label": "Mauer – die Spielerwand beim Freistoß",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 1,
+    "enabled": true
+  },
+  {
+    "word": "DUELL",
+    "label": "Duell – der Zweikampf",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "PLATZ",
+    "label": "Platz – Spielfeld oder Tabellenplatz",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 1,
+    "enabled": true
+  },
+  {
+    "word": "FALLE",
+    "label": "Falle – die Abseitsfalle",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "PÄSSE",
+    "label": "Pässe – Mehrzahl von Pass",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 3,
+    "enabled": true
+  },
+  {
+    "word": "SCHUH",
+    "label": "Schuh – der Fußballschuh",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "BINDE",
+    "label": "Binde – die Kapitänsbinde",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "REGEL",
+    "label": "Regel – die Spielregel",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "TAFEL",
+    "label": "Tafel – die Anzeigetafel",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 3,
+    "enabled": true
+  },
+  {
+    "word": "KISTE",
+    "label": "Kiste – umgangssprachlich für das Tor",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 3,
+    "enabled": true
+  },
+  {
+    "word": "BOMBE",
+    "label": "Bombe – ein harter Schuss",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 3,
+    "enabled": true
+  },
+  {
+    "word": "RAUTE",
+    "label": "Raute – das Mittelfeld in Rautenform",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 3,
+    "enabled": true
+  },
+  {
+    "word": "KETTE",
+    "label": "Kette – die Viererkette",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "TIEFE",
+    "label": "Tiefe – der Pass in die Tiefe",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 3,
+    "enabled": true
+  },
+  {
+    "word": "STAND",
+    "label": "Stand – der Spielstand",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "SERIE",
+    "label": "Serie – eine Sieges- oder Niederlagenserie",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "PROFI",
+    "label": "Profi – der Berufsfußballer",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 1,
+    "enabled": true
+  },
+  {
+    "word": "LEIHE",
+    "label": "Leihe – das Leihgeschäft",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 3,
+    "enabled": true
+  },
+  {
+    "word": "MARKT",
+    "label": "Markt – der Transfermarkt",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "TEMPO",
+    "label": "Tempo – die Schnelligkeit",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "STEIL",
+    "label": "Steil – der steile Pass",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 3,
+    "enabled": true
+  },
+  {
+    "word": "FLACH",
+    "label": "Flach – flach spielen",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 3,
+    "enabled": true
+  },
+  {
+    "word": "FAUST",
+    "label": "Faust – die Faustabwehr",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 3,
+    "enabled": true
+  },
+  {
+    "word": "HECHT",
+    "label": "Hecht – der Hechtsprung des Torwarts",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 3,
+    "enabled": true
+  },
+  {
+    "word": "GELBE",
+    "label": "Gelbe – die Gelbe Karte",
+    "category": "begrep",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "NEUER",
+    "label": "Manuel Neuer",
+    "category": "spiller",
+    "answerEligible": true,
+    "difficulty": 1,
+    "enabled": true
+  },
+  {
+    "word": "KLOSE",
+    "label": "Miroslav Klose",
+    "category": "spiller",
+    "answerEligible": true,
+    "difficulty": 1,
+    "enabled": true
+  },
+  {
+    "word": "KROOS",
+    "label": "Toni Kroos",
+    "category": "spiller",
+    "answerEligible": true,
+    "difficulty": 1,
+    "enabled": true
+  },
+  {
+    "word": "GÖTZE",
+    "label": "Mario Götze",
+    "category": "spiller",
+    "answerEligible": true,
+    "difficulty": 1,
+    "enabled": true
+  },
+  {
+    "word": "WIRTZ",
+    "label": "Florian Wirtz",
+    "category": "spiller",
+    "answerEligible": true,
+    "difficulty": 1,
+    "enabled": true
+  },
+  {
+    "word": "MAIER",
+    "label": "Sepp Maier",
+    "category": "spiller",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "VOGTS",
+    "label": "Berti Vogts",
+    "category": "spiller",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "ELBER",
+    "label": "Giovane Élber",
+    "category": "spiller",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "ALABA",
+    "label": "David Alaba",
+    "category": "spiller",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "GOMEZ",
+    "label": "Mario Gómez",
+    "category": "spiller",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "DZEKO",
+    "label": "Edin Džeko",
+    "category": "spiller",
+    "answerEligible": true,
+    "difficulty": 3,
+    "enabled": true
+  },
+  {
+    "word": "SAHIN",
+    "label": "Nuri Şahin",
+    "category": "spiller",
+    "answerEligible": true,
+    "difficulty": 3,
+    "enabled": true
+  },
+  {
+    "word": "KÖPKE",
+    "label": "Andreas Köpke",
+    "category": "spiller",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "KALTZ",
+    "label": "Manfred Kaltz",
+    "category": "spiller",
+    "answerEligible": true,
+    "difficulty": 3,
+    "enabled": true
+  },
+  {
+    "word": "KUNTZ",
+    "label": "Stefan Kuntz",
+    "category": "spiller",
+    "answerEligible": true,
+    "difficulty": 3,
+    "enabled": true
+  },
+  {
+    "word": "BOBIC",
+    "label": "Fredi Bobic",
+    "category": "spiller",
+    "answerEligible": true,
+    "difficulty": 3,
+    "enabled": true
+  },
+  {
+    "word": "MEIER",
+    "label": "Alexander Meier",
+    "category": "spiller",
+    "answerEligible": true,
+    "difficulty": 3,
+    "enabled": true
+  },
+  {
+    "word": "ZIEGE",
+    "label": "Christian Ziege",
+    "category": "spiller",
+    "answerEligible": true,
+    "difficulty": 3,
+    "enabled": true
+  },
+  {
+    "word": "TUREK",
+    "label": "Toni Turek",
+    "category": "spiller",
+    "answerEligible": true,
+    "difficulty": 4,
+    "enabled": true
+  },
+  {
+    "word": "ECKEL",
+    "label": "Horst Eckel",
+    "category": "spiller",
+    "answerEligible": true,
+    "difficulty": 4,
+    "enabled": true
+  },
+  {
+    "word": "UNDAV",
+    "label": "Deniz Undav",
+    "category": "spiller",
+    "answerEligible": true,
+    "difficulty": 3,
+    "enabled": true
+  },
+  {
+    "word": "BEIER",
+    "label": "Maximilian Beier",
+    "category": "spiller",
+    "answerEligible": true,
+    "difficulty": 3,
+    "enabled": true
+  },
+  {
+    "word": "LUCIO",
+    "label": "Lúcio",
+    "category": "spiller",
+    "answerEligible": true,
+    "difficulty": 3,
+    "enabled": true
+  },
+  {
+    "word": "NALDO",
+    "label": "Naldo",
+    "category": "spiller",
+    "answerEligible": true,
+    "difficulty": 3,
+    "enabled": true
+  },
+  {
+    "word": "DIEGO",
+    "label": "Diego (Werder Bremen)",
+    "category": "spiller",
+    "answerEligible": true,
+    "difficulty": 3,
+    "enabled": true
+  },
+  {
+    "word": "XHAKA",
+    "label": "Granit Xhaka",
+    "category": "spiller",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "OLISE",
+    "label": "Michael Olise",
+    "category": "spiller",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "COMAN",
+    "label": "Kingsley Coman",
+    "category": "spiller",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "GROSS",
+    "label": "Pascal Groß",
+    "category": "spiller",
+    "answerEligible": true,
+    "difficulty": 3,
+    "enabled": true
+  },
+  {
+    "word": "EILTS",
+    "label": "Dieter Eilts",
+    "category": "spiller",
+    "answerEligible": true,
+    "difficulty": 4,
+    "enabled": true
+  },
+  {
+    "word": "KLOPP",
+    "label": "Jürgen Klopp",
+    "category": "trener",
+    "answerEligible": true,
+    "difficulty": 1,
+    "enabled": true
+  },
+  {
+    "word": "FLICK",
+    "label": "Hansi Flick",
+    "category": "trener",
+    "answerEligible": true,
+    "difficulty": 1,
+    "enabled": true
+  },
+  {
+    "word": "FAVRE",
+    "label": "Lucien Favre",
+    "category": "trener",
+    "answerEligible": true,
+    "difficulty": 3,
+    "enabled": true
+  },
+  {
+    "word": "ZEBEC",
+    "label": "Branko Zebec",
+    "category": "trener",
+    "answerEligible": true,
+    "difficulty": 4,
+    "enabled": true
+  },
+  {
+    "word": "SCHÖN",
+    "label": "Helmut Schön",
+    "category": "trener",
+    "answerEligible": true,
+    "difficulty": 3,
+    "enabled": true
+  },
+  {
+    "word": "KOVAC",
+    "label": "Niko Kovač",
+    "category": "trener",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "MEYER",
+    "label": "Hans Meyer",
+    "category": "trener",
+    "answerEligible": true,
+    "difficulty": 4,
+    "enabled": true
+  },
+  {
+    "word": "FINKE",
+    "label": "Volker Finke",
+    "category": "trener",
+    "answerEligible": true,
+    "difficulty": 3,
+    "enabled": true
+  },
+  {
+    "word": "BAYER",
+    "label": "Bayer 04 Leverkusen",
+    "category": "klubb",
+    "answerEligible": true,
+    "difficulty": 1,
+    "enabled": true
+  },
+  {
+    "word": "UNION",
+    "label": "1. FC Union Berlin",
+    "category": "klubb",
+    "answerEligible": true,
+    "difficulty": 1,
+    "enabled": true
+  },
+  {
+    "word": "MAINZ",
+    "label": "1. FSV Mainz 05",
+    "category": "klubb",
+    "answerEligible": true,
+    "difficulty": 1,
+    "enabled": true
+  },
+  {
+    "word": "FÜRTH",
+    "label": "SpVgg Greuther Fürth",
+    "category": "klubb",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "ESSEN",
+    "label": "Rot-Weiss Essen",
+    "category": "klubb",
+    "answerEligible": true,
+    "difficulty": 3,
+    "enabled": true
+  },
+  {
+    "word": "HANSA",
+    "label": "FC Hansa Rostock",
+    "category": "klubb",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "LÖWEN",
+    "label": "Die Löwen – TSV 1860 München",
+    "category": "klubb",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "WÖLFE",
+    "label": "Die Wölfe – VfL Wolfsburg",
+    "category": "klubb",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "ADLER",
+    "label": "Die Adler – Eintracht Frankfurt",
+    "category": "klubb",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "ZEISS",
+    "label": "FC Carl Zeiss Jena",
+    "category": "klubb",
+    "answerEligible": true,
+    "difficulty": 3,
+    "enabled": true
+  },
+  {
+    "word": "ZEBRA",
+    "label": "Die Zebras – MSV Duisburg",
+    "category": "klubb",
+    "answerEligible": true,
+    "difficulty": 3,
+    "enabled": true
+  },
+  {
+    "word": "CHILE",
+    "label": "Chile – Gegner im Confed-Cup-Finale 2017",
+    "category": "landslag",
+    "answerEligible": true,
+    "difficulty": 3,
+    "enabled": true
+  },
+  {
+    "word": "JAPAN",
+    "label": "Japan – WM-Gegner 2022",
+    "category": "landslag",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "KOREA",
+    "label": "Südkorea – WM-Gegner 2018",
+    "category": "landslag",
+    "answerEligible": true,
+    "difficulty": 2,
+    "enabled": true
+  },
+  {
+    "word": "SIEGE",
+    "label": "Siege",
+    "category": "begrep",
+    "answerEligible": false,
+    "difficulty": 4,
+    "enabled": true
+  },
+  {
+    "word": "NETZE",
+    "label": "Netze",
+    "category": "begrep",
+    "answerEligible": false,
+    "difficulty": 4,
+    "enabled": true
+  },
+  {
+    "word": "TEAMS",
+    "label": "Teams",
+    "category": "begrep",
+    "answerEligible": false,
+    "difficulty": 4,
+    "enabled": true
+  },
+  {
+    "word": "STARS",
+    "label": "Stars",
+    "category": "begrep",
+    "answerEligible": false,
+    "difficulty": 4,
+    "enabled": true
+  },
+  {
+    "word": "FOULS",
+    "label": "Fouls",
+    "category": "begrep",
+    "answerEligible": false,
+    "difficulty": 4,
+    "enabled": true
+  },
+  {
+    "word": "ZONEN",
+    "label": "Zonen",
+    "category": "begrep",
+    "answerEligible": false,
+    "difficulty": 4,
+    "enabled": true
+  },
+  {
+    "word": "WADEN",
+    "label": "Waden",
+    "category": "begrep",
+    "answerEligible": false,
+    "difficulty": 4,
+    "enabled": true
+  },
+  {
+    "word": "LIGEN",
+    "label": "Ligen",
+    "category": "begrep",
+    "answerEligible": false,
+    "difficulty": 4,
+    "enabled": true
+  },
+  {
+    "word": "CLUBS",
+    "label": "Clubs",
+    "category": "begrep",
+    "answerEligible": false,
+    "difficulty": 4,
+    "enabled": true
+  },
+  {
+    "word": "MATCH",
+    "label": "Match",
+    "category": "begrep",
+    "answerEligible": false,
+    "difficulty": 4,
+    "enabled": true
+  },
+  {
+    "word": "STOSS",
+    "label": "Stoß – der Anstoß",
+    "category": "begrep",
+    "answerEligible": false,
+    "difficulty": 4,
+    "enabled": true
+  },
+  {
+    "word": "PHASE",
+    "label": "Phase",
+    "category": "begrep",
+    "answerEligible": false,
+    "difficulty": 4,
+    "enabled": true
+  },
+  {
+    "word": "TREUE",
+    "label": "Treue – die Vereinstreue",
+    "category": "begrep",
+    "answerEligible": false,
+    "difficulty": 4,
+    "enabled": true
+  }
+]

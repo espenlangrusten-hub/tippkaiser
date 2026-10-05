@@ -11,6 +11,13 @@ export const sourceRef = z.object({
 
 export const dataStatus = z.enum(DATA_STATUSES);
 
+/**
+ * What the Wikipedia check (scripts/import/verify-trivia.ts) looks up for an entry written
+ * from memory: the German article, and the strings its text has to contain. The same block
+ * serves questions, match line-ups, squads, honours and player clues.
+ */
+export const verifyBlock = z.object({ subject: z.string().min(1), mustMention: z.array(z.string()).min(1) });
+
 export const competitionFile = z.array(
   z.object({ id: z.string(), name: z.string(), kind: z.enum(["tournament", "qualifier", "friendly", "nations-league", "league", "cup", "playoff"]) }),
 );
@@ -95,6 +102,7 @@ export const matchFile = z.object({
   lineup: z.array(lineupEntry),
   subs: z.array(subEntry).default([]),
   goals: z.array(goalEntry).default([]),
+  verify: verifyBlock.optional(),
 });
 export type MatchFile = z.infer<typeof matchFile>;
 
@@ -156,6 +164,7 @@ export const honourFile = z.array(
     note: z.string().optional(),
     status: dataStatus.default("recall"),
     sources: z.array(sourceRef).default([]),
+    verify: verifyBlock.optional(),
   }),
 );
 
@@ -166,6 +175,7 @@ export const squadFile = z.array(
     status: dataStatus.default("recall"),
     sources: z.array(sourceRef).default([]),
     players: z.array(z.object({ name: z.string(), no: z.number().int().optional(), club: z.string().optional() })),
+    verify: verifyBlock.optional(),
   }),
 );
 
@@ -209,7 +219,7 @@ const straffesparkBase = {
    * read, and the strings that have to appear in it. Present on entries written from
    * memory; absent on entries derived from data that already carries its own source.
    */
-  verify: z.object({ subject: z.string().min(1), mustMention: z.array(z.string()).min(1) }).optional(),
+  verify: verifyBlock.optional(),
 };
 
 const straffesparkAnswer = z.object({

@@ -40,8 +40,8 @@ describe("faktaene sier bare det arkivet kan belegge", () => {
     // «scoret én gang for Norge» og vært feil for nesten alle.
     const facts = factsFor("x", "En Spiller", matches, [app("a", "x"), app("b", "x")], [{ matchId: "b", playerId: "x" }]);
     const goalFact = facts.find((f) => f.kind === "mål");
-    expect(goalFact?.text).toContain("Scoret mot Italia");
-    expect(goalFact?.text).not.toMatch(/\b(ett|1|2|to) mål\b/);
+    expect(goalFact?.text).toContain("Gegner: Italia");
+    expect(goalFact?.text).not.toMatch(/\b(ein|eins|1|2|zwei) (Tor|Tore)\b/);
   });
 
   it("kan belegge hvert faktum med kampene det er regnet ut fra", () => {

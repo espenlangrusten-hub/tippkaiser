@@ -1,0 +1,121 @@
+{
+  "id": "1974-07-07-ger-ned",
+  "date": "1974-07-07",
+  "competition": "world-cup",
+  "stage": "Finale",
+  "opponent": "Niederlande",
+  "opponentCode": "NED",
+  "norwayHome": true,
+  "score": [
+    2,
+    1
+  ],
+  "venue": "Olympiastadion",
+  "city": "München",
+  "manager": "Helmut Schön",
+  "formation": "4-3-3",
+  "importance": 5,
+  "tags": [
+    "import:tippkaiser-test"
+  ],
+  "status": "recall",
+  "sources": [],
+  "notes": "Startelf aus dem Gedächtnis; die Wikipedia-Prüfung bestätigt die Namen im Artikel. Positionen und Rückennummern stammen nicht aus der Prüfung.",
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Sepp Maier",
+      "pos": "GK",
+      "no": 1
+    },
+    {
+      "name": "Berti Vogts",
+      "pos": "RB",
+      "no": 2
+    },
+    {
+      "name": "Hans-Georg Schwarzenbeck",
+      "pos": "CB",
+      "no": 4
+    },
+    {
+      "name": "Franz Beckenbauer",
+      "pos": "CB",
+      "no": 5,
+      "captain": true
+    },
+    {
+      "name": "Paul Breitner",
+      "pos": "LB",
+      "no": 3
+    },
+    {
+      "name": "Rainer Bonhof",
+      "pos": "CM",
+      "no": 16
+    },
+    {
+      "name": "Uli Hoeneß",
+      "pos": "CM",
+      "no": 14
+    },
+    {
+      "name": "Wolfgang Overath",
+      "pos": "CM",
+      "no": 12
+    },
+    {
+      "name": "Jürgen Grabowski",
+      "pos": "RW",
+      "no": 9
+    },
+    {
+      "name": "Gerd Müller",
+      "pos": "CF",
+      "no": 13
+    },
+    {
+      "name": "Bernd Hölzenbein",
+      "pos": "LW",
+      "no": 17
+    }
+  ],
+  "subs": [],
+  "goals": [
+    {
+      "team": "opponent",
+      "scorer": "Johan Neeskens",
+      "minute": 2,
+      "kind": "pen"
+    },
+    {
+      "team": "norway",
+      "name": "Paul Breitner",
+      "minute": 25,
+      "kind": "pen"
+    },
+    {
+      "team": "norway",
+      "name": "Gerd Müller",
+      "minute": 43,
+      "kind": "goal"
+    }
+  ],
+  "verify": {
+    "subject": "Fußball-Weltmeisterschaft 1974/Finalrunde",
+    "mustMention": [
+      "Beckenbauer",
+      "Bonhof",
+      "Breitner",
+      "Grabowski",
+      "Hoeneß",
+      "Hölzenbein",
+      "Maier",
+      "Müller",
+      "Overath",
+      "Schwarzenbeck",
+      "Vogts",
+      "Niederlande"
+    ]
+  }
+}

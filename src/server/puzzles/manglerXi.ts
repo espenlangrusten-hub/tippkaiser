@@ -6,14 +6,14 @@ import type { ManglerXiPayload } from "./types";
 import { factsFor, factsForPuzzle, type FactMatch } from "../playerFacts";
 
 const COMP_LABEL: Record<string, string> = {
-  "world-cup": "VM",
+  "world-cup": "WM",
   euro: "EM",
-  "wc-qual": "VM-kvalifisering",
-  "euro-qual": "EM-kvalifisering",
+  "wc-qual": "WM-Qualifikation",
+  "euro-qual": "EM-Qualifikation",
   "nations-league": "Nations League",
   playoff: "Playoff",
-  friendly: "Privatlandskamp",
-  international: "Landskamp",
+  friendly: "Freundschaftsspiel",
+  international: "Länderspiel",
 };
 
 export function competitionLabel(id: string, date: string): string {
@@ -131,7 +131,7 @@ export async function buildManglerXiPuzzles(db: Db) {
       id: `mxi-${m.id}`,
       game: "mangler-xi",
       kind: "lineup",
-      title: `Norge – ${m.opponent} ${m.date.slice(0, 4)}`,
+      title: `Deutschland – ${m.opponent} ${m.date.slice(0, 4)}`,
       payload,
       difficulty: Math.round(difficulty * 10) / 10,
       quality: m.importance,

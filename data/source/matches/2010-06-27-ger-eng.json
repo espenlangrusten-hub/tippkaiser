@@ -1,0 +1,133 @@
+{
+  "id": "2010-06-27-ger-eng",
+  "date": "2010-06-27",
+  "competition": "world-cup",
+  "stage": "Achtelfinale",
+  "opponent": "England",
+  "opponentCode": "ENG",
+  "norwayHome": true,
+  "score": [
+    4,
+    1
+  ],
+  "venue": "Free State Stadium",
+  "city": "Bloemfontein",
+  "manager": "Joachim Löw",
+  "formation": "4-2-3-1",
+  "importance": 4,
+  "tags": [
+    "import:tippkaiser-test"
+  ],
+  "status": "recall",
+  "sources": [],
+  "notes": "Startelf aus dem Gedächtnis; die Wikipedia-Prüfung bestätigt die Namen im Artikel. Positionen und Rückennummern stammen nicht aus der Prüfung.",
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Manuel Neuer",
+      "pos": "GK",
+      "no": 1
+    },
+    {
+      "name": "Philipp Lahm",
+      "pos": "RB",
+      "no": 16,
+      "captain": true
+    },
+    {
+      "name": "Arne Friedrich",
+      "pos": "CB",
+      "no": 3
+    },
+    {
+      "name": "Per Mertesacker",
+      "pos": "CB",
+      "no": 17
+    },
+    {
+      "name": "Jérôme Boateng",
+      "pos": "LB",
+      "no": 20
+    },
+    {
+      "name": "Sami Khedira",
+      "pos": "DM",
+      "no": 6
+    },
+    {
+      "name": "Bastian Schweinsteiger",
+      "pos": "DM",
+      "no": 7
+    },
+    {
+      "name": "Thomas Müller",
+      "pos": "RM",
+      "no": 13
+    },
+    {
+      "name": "Mesut Özil",
+      "pos": "AM",
+      "no": 8
+    },
+    {
+      "name": "Lukas Podolski",
+      "pos": "LM",
+      "no": 10
+    },
+    {
+      "name": "Miroslav Klose",
+      "pos": "CF",
+      "no": 11
+    }
+  ],
+  "subs": [],
+  "goals": [
+    {
+      "team": "norway",
+      "name": "Miroslav Klose",
+      "minute": 20,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "Lukas Podolski",
+      "minute": 32,
+      "kind": "goal"
+    },
+    {
+      "team": "opponent",
+      "scorer": "Matthew Upson",
+      "minute": 37,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "Thomas Müller",
+      "minute": 67,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "Thomas Müller",
+      "minute": 70,
+      "kind": "goal"
+    }
+  ],
+  "verify": {
+    "subject": "Fußball-Weltmeisterschaft 2010/Finalrunde",
+    "mustMention": [
+      "Boateng",
+      "Friedrich",
+      "Khedira",
+      "Klose",
+      "Lahm",
+      "Mertesacker",
+      "Müller",
+      "Neuer",
+      "Podolski",
+      "Schweinsteiger",
+      "Özil",
+      "England"
+    ]
+  }
+}

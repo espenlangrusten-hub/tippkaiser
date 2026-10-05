@@ -1,0 +1,127 @@
+{
+  "id": "2010-07-03-arg-ger",
+  "date": "2010-07-03",
+  "competition": "world-cup",
+  "stage": "Viertelfinale",
+  "opponent": "Argentinien",
+  "opponentCode": "ARG",
+  "norwayHome": false,
+  "score": [
+    4,
+    0
+  ],
+  "venue": "Green Point Stadium",
+  "city": "Kapstadt",
+  "manager": "Joachim Löw",
+  "formation": "4-2-3-1",
+  "importance": 4,
+  "tags": [
+    "import:tippkaiser-test"
+  ],
+  "status": "recall",
+  "sources": [],
+  "notes": "Startelf aus dem Gedächtnis; die Wikipedia-Prüfung bestätigt die Namen im Artikel. Positionen und Rückennummern stammen nicht aus der Prüfung.",
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Manuel Neuer",
+      "pos": "GK",
+      "no": 1
+    },
+    {
+      "name": "Philipp Lahm",
+      "pos": "RB",
+      "no": 16,
+      "captain": true
+    },
+    {
+      "name": "Arne Friedrich",
+      "pos": "CB",
+      "no": 3
+    },
+    {
+      "name": "Per Mertesacker",
+      "pos": "CB",
+      "no": 17
+    },
+    {
+      "name": "Jérôme Boateng",
+      "pos": "LB",
+      "no": 20
+    },
+    {
+      "name": "Sami Khedira",
+      "pos": "DM",
+      "no": 6
+    },
+    {
+      "name": "Bastian Schweinsteiger",
+      "pos": "DM",
+      "no": 7
+    },
+    {
+      "name": "Thomas Müller",
+      "pos": "RM",
+      "no": 13
+    },
+    {
+      "name": "Mesut Özil",
+      "pos": "AM",
+      "no": 8
+    },
+    {
+      "name": "Lukas Podolski",
+      "pos": "LM",
+      "no": 10
+    },
+    {
+      "name": "Miroslav Klose",
+      "pos": "CF",
+      "no": 11
+    }
+  ],
+  "subs": [],
+  "goals": [
+    {
+      "team": "norway",
+      "name": "Thomas Müller",
+      "minute": 3,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "Miroslav Klose",
+      "minute": 68,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "Arne Friedrich",
+      "minute": 74,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "Miroslav Klose",
+      "minute": 89,
+      "kind": "goal"
+    }
+  ],
+  "verify": {
+    "subject": "Fußball-Weltmeisterschaft 2010/Finalrunde",
+    "mustMention": [
+      "Boateng",
+      "Friedrich",
+      "Khedira",
+      "Klose",
+      "Lahm",
+      "Mertesacker",
+      "Müller",
+      "Neuer",
+      "Podolski",
+      "Schweinsteiger",
+      "Özil",
+      "Argentinien"
+    ]
+  }
+}

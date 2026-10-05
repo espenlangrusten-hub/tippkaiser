@@ -1,0 +1,128 @@
+{
+  "id": "2014-07-13-ger-arg",
+  "date": "2014-07-13",
+  "competition": "world-cup",
+  "stage": "Finale",
+  "opponent": "Argentinien",
+  "opponentCode": "ARG",
+  "norwayHome": true,
+  "score": [
+    1,
+    0
+  ],
+  "venue": "Maracanã",
+  "city": "Rio de Janeiro",
+  "manager": "Joachim Löw",
+  "formation": "4-3-3",
+  "importance": 5,
+  "tags": [
+    "import:tippkaiser-test"
+  ],
+  "status": "recall",
+  "sources": [],
+  "notes": "Startelf aus dem Gedächtnis; die Wikipedia-Prüfung bestätigt die Namen im Artikel. Positionen und Rückennummern stammen nicht aus der Prüfung.",
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Manuel Neuer",
+      "pos": "GK",
+      "no": 1
+    },
+    {
+      "name": "Philipp Lahm",
+      "pos": "RB",
+      "no": 16,
+      "captain": true
+    },
+    {
+      "name": "Jérôme Boateng",
+      "pos": "CB",
+      "no": 20
+    },
+    {
+      "name": "Mats Hummels",
+      "pos": "CB",
+      "no": 5
+    },
+    {
+      "name": "Benedikt Höwedes",
+      "pos": "LB",
+      "no": 4
+    },
+    {
+      "name": "Bastian Schweinsteiger",
+      "pos": "DM",
+      "no": 7
+    },
+    {
+      "name": "Christoph Kramer",
+      "pos": "CM",
+      "no": 23
+    },
+    {
+      "name": "Toni Kroos",
+      "pos": "CM",
+      "no": 18
+    },
+    {
+      "name": "Thomas Müller",
+      "pos": "RW",
+      "no": 13
+    },
+    {
+      "name": "Mesut Özil",
+      "pos": "LW",
+      "no": 8
+    },
+    {
+      "name": "Miroslav Klose",
+      "pos": "CF",
+      "no": 11
+    }
+  ],
+  "subs": [
+    {
+      "name": "André Schürrle",
+      "on": 31,
+      "for": "Christoph Kramer",
+      "no": 9
+    },
+    {
+      "name": "Mario Götze",
+      "on": 88,
+      "for": "Miroslav Klose",
+      "no": 19
+    },
+    {
+      "name": "Per Mertesacker",
+      "on": 120,
+      "for": "Mesut Özil",
+      "no": 17
+    }
+  ],
+  "goals": [
+    {
+      "team": "norway",
+      "name": "Mario Götze",
+      "minute": 113,
+      "kind": "goal"
+    }
+  ],
+  "verify": {
+    "subject": "Fußball-Weltmeisterschaft 2014/Finalrunde",
+    "mustMention": [
+      "Boateng",
+      "Hummels",
+      "Höwedes",
+      "Klose",
+      "Kramer",
+      "Kroos",
+      "Lahm",
+      "Müller",
+      "Neuer",
+      "Schweinsteiger",
+      "Özil",
+      "Argentinien"
+    ]
+  }
+}

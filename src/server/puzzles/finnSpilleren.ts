@@ -24,6 +24,9 @@ export type FinnSpillerenPuzzleRow = {
  * derived from the same match row as the answer, so adding a new verified lineup
  * automatically adds eleven more candidate rounds without editorial guesswork.
  */
+/** "2014-07-13" -> "13.07.2014", the way a German reader writes a date. */
+const germanDate = (date: string) => date.split("-").reverse().join(".");
+
 export async function buildFinnSpillerenPuzzles(db: Db): Promise<FinnSpillerenPuzzleRow[]> {
   const matches = (await db.select().from(s.matches)).filter((m) => m.lineupComplete && (m.status === "verified" || m.status === "single_source"));
   if (!matches.length) return [];
@@ -48,29 +51,30 @@ export async function buildFinnSpillerenPuzzles(db: Db): Promise<FinnSpillerenPu
       // A round is only worth serving when the opening clue points at the person.
       if (!profile) continue;
       const squad = squads.filter((s) => s.playerId === player.id).sort((a, b) => a.tournamentId.localeCompare(b.tournamentId))[0];
-      const tournament = squad?.tournamentId.replace("wc-", "VM ").replace("euro-", "EM ");
-      const matchClue = `Jeg startet som ${POSITION_LABEL[app.position].toLowerCase()}${app.shirtNumber != null ? ` med draktnummer ${app.shirtNumber}` : ""} mot ${match.opponent} ${match.date}.`;
+      const tournament = squad?.tournamentId.replace("wc-", "WM ").replace("euro-", "EM ");
+      // "Gegner: Niederlande" rather than "gegen Niederlande": some countries take an article.
+      const matchClue = `Am ${germanDate(match.date)} stand ich in der Startelf (Gegner: ${match.opponent}), Position: ${POSITION_LABEL[app.position]}${app.shirtNumber != null ? `, Rückennummer ${app.shirtNumber}` : ""}.`;
       // Personal first, narrowing to the match last: the three profile clues are about
       // the person, then the squad or result places him, then the match, then the name.
       const hints: FinnSpillerenPayload["hints"] = [
         profile.hints[0],
         profile.hints[1],
         profile.hints[2],
-        squad ? `I Norges tropp til ${tournament} var jeg oppført som spiller i ${squad.clubName}.` : matchClue,
-        `Navnet mitt begynner med ${first}, og etternavnet begynner på ${surname[0].toUpperCase()}.`,
+        squad ? `Im deutschen Kader für die ${tournament} stand ich als Spieler von ${squad.clubName}.` : matchClue,
+        `Mein Vorname ist ${first}, mein Nachname beginnt mit ${surname[0].toUpperCase()}.`,
       ];
       out.push({
         id: `finn-${match.id}-${player.id}`,
         game: "finn-spilleren",
         kind: "lineup-player",
-        title: "Hvem er spilleren?",
+        title: "Wer ist der Spieler?",
         payload: {
           answerId: player.id,
           answer: player.displayName,
           aliases: Array.from(new Set([player.fullName, player.displayName, player.surname, ...(aliasesById.get(player.id) ?? [])])),
           role: "spiller",
           hints,
-          explanation: `${player.displayName} startet for Norge mot ${match.opponent} ${match.date}. ${profile.hints.join(" ")}`,
+          explanation: `${player.displayName} stand am ${germanDate(match.date)} in Deutschlands Startelf (Gegner: ${match.opponent}). ${profile.hints.join(" ")}`,
           status: "single_source",
           sourceIds: [match.id, ...profile.sources.map((src) => src.url)],
         },

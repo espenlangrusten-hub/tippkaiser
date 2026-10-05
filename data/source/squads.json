@@ -1,1 +1,293 @@
-[]
+[
+  {
+    "tournament": "wc-2014",
+    "name": "WM 2014",
+    "status": "recall",
+    "sources": [],
+    "players": [
+      {
+        "name": "Manuel Neuer",
+        "no": 1,
+        "club": "FC Bayern München"
+      },
+      {
+        "name": "Kevin Großkreutz",
+        "no": 2,
+        "club": "Borussia Dortmund"
+      },
+      {
+        "name": "Matthias Ginter",
+        "no": 3,
+        "club": "SC Freiburg"
+      },
+      {
+        "name": "Benedikt Höwedes",
+        "no": 4,
+        "club": "FC Schalke 04"
+      },
+      {
+        "name": "Mats Hummels",
+        "no": 5,
+        "club": "Borussia Dortmund"
+      },
+      {
+        "name": "Sami Khedira",
+        "no": 6,
+        "club": "Real Madrid"
+      },
+      {
+        "name": "Bastian Schweinsteiger",
+        "no": 7,
+        "club": "FC Bayern München"
+      },
+      {
+        "name": "Mesut Özil",
+        "no": 8,
+        "club": "FC Arsenal"
+      },
+      {
+        "name": "André Schürrle",
+        "no": 9,
+        "club": "FC Chelsea"
+      },
+      {
+        "name": "Lukas Podolski",
+        "no": 10,
+        "club": "FC Arsenal"
+      },
+      {
+        "name": "Miroslav Klose",
+        "no": 11,
+        "club": "Lazio Rom"
+      },
+      {
+        "name": "Ron-Robert Zieler",
+        "no": 12,
+        "club": "Hannover 96"
+      },
+      {
+        "name": "Thomas Müller",
+        "no": 13,
+        "club": "FC Bayern München"
+      },
+      {
+        "name": "Julian Draxler",
+        "no": 14,
+        "club": "FC Schalke 04"
+      },
+      {
+        "name": "Erik Durm",
+        "no": 15,
+        "club": "Borussia Dortmund"
+      },
+      {
+        "name": "Philipp Lahm",
+        "no": 16,
+        "club": "FC Bayern München"
+      },
+      {
+        "name": "Per Mertesacker",
+        "no": 17,
+        "club": "FC Arsenal"
+      },
+      {
+        "name": "Toni Kroos",
+        "no": 18,
+        "club": "FC Bayern München"
+      },
+      {
+        "name": "Mario Götze",
+        "no": 19,
+        "club": "FC Bayern München"
+      },
+      {
+        "name": "Jérôme Boateng",
+        "no": 20,
+        "club": "FC Bayern München"
+      },
+      {
+        "name": "Shkodran Mustafi",
+        "no": 21,
+        "club": "Sampdoria Genua"
+      },
+      {
+        "name": "Roman Weidenfeller",
+        "no": 22,
+        "club": "Borussia Dortmund"
+      },
+      {
+        "name": "Christoph Kramer",
+        "no": 23,
+        "club": "Borussia Mönchengladbach"
+      }
+    ],
+    "verify": {
+      "subject": "Fußball-Weltmeisterschaft 2014/Kader",
+      "mustMention": [
+        "Neuer",
+        "Großkreutz",
+        "Ginter",
+        "Höwedes",
+        "Hummels",
+        "Khedira",
+        "Schweinsteiger",
+        "Özil",
+        "Schürrle",
+        "Podolski",
+        "Klose",
+        "Zieler",
+        "Draxler",
+        "Durm",
+        "Lahm",
+        "Mertesacker",
+        "Kroos",
+        "Götze",
+        "Boateng",
+        "Mustafi",
+        "Weidenfeller",
+        "Kramer"
+      ]
+    }
+  },
+  {
+    "tournament": "euro-2024",
+    "name": "EM 2024",
+    "status": "recall",
+    "sources": [],
+    "players": [
+      {
+        "name": "Manuel Neuer",
+        "club": "FC Bayern München"
+      },
+      {
+        "name": "Marc-André ter Stegen",
+        "club": "FC Barcelona"
+      },
+      {
+        "name": "Oliver Baumann",
+        "club": "TSG Hoffenheim"
+      },
+      {
+        "name": "Antonio Rüdiger",
+        "club": "Real Madrid"
+      },
+      {
+        "name": "Jonathan Tah",
+        "club": "Bayer 04 Leverkusen"
+      },
+      {
+        "name": "Nico Schlotterbeck",
+        "club": "Borussia Dortmund"
+      },
+      {
+        "name": "Waldemar Anton",
+        "club": "VfB Stuttgart"
+      },
+      {
+        "name": "Joshua Kimmich",
+        "club": "FC Bayern München"
+      },
+      {
+        "name": "David Raum",
+        "club": "RB Leipzig"
+      },
+      {
+        "name": "Maximilian Mittelstädt",
+        "club": "VfB Stuttgart"
+      },
+      {
+        "name": "Benjamin Henrichs",
+        "club": "RB Leipzig"
+      },
+      {
+        "name": "Robin Koch",
+        "club": "Eintracht Frankfurt"
+      },
+      {
+        "name": "İlkay Gündoğan",
+        "club": "FC Barcelona"
+      },
+      {
+        "name": "Toni Kroos",
+        "club": "Real Madrid"
+      },
+      {
+        "name": "Robert Andrich",
+        "club": "Bayer 04 Leverkusen"
+      },
+      {
+        "name": "Pascal Groß",
+        "club": "Brighton & Hove Albion"
+      },
+      {
+        "name": "Emre Can",
+        "club": "Borussia Dortmund"
+      },
+      {
+        "name": "Jamal Musiala",
+        "club": "FC Bayern München"
+      },
+      {
+        "name": "Florian Wirtz",
+        "club": "Bayer 04 Leverkusen"
+      },
+      {
+        "name": "Leroy Sané",
+        "club": "FC Bayern München"
+      },
+      {
+        "name": "Chris Führich",
+        "club": "VfB Stuttgart"
+      },
+      {
+        "name": "Maximilian Beier",
+        "club": "TSG Hoffenheim"
+      },
+      {
+        "name": "Kai Havertz",
+        "club": "FC Arsenal"
+      },
+      {
+        "name": "Niclas Füllkrug",
+        "club": "Borussia Dortmund"
+      },
+      {
+        "name": "Deniz Undav",
+        "club": "VfB Stuttgart"
+      },
+      {
+        "name": "Thomas Müller",
+        "club": "FC Bayern München"
+      }
+    ],
+    "verify": {
+      "subject": "Fußball-Europameisterschaft 2024/Kader",
+      "mustMention": [
+        "Neuer",
+        "Baumann",
+        "Rüdiger",
+        "Tah",
+        "Schlotterbeck",
+        "Anton",
+        "Kimmich",
+        "Raum",
+        "Mittelstädt",
+        "Henrichs",
+        "Koch",
+        "Gündoğan",
+        "Kroos",
+        "Andrich",
+        "Groß",
+        "Can",
+        "Musiala",
+        "Wirtz",
+        "Sané",
+        "Führich",
+        "Beier",
+        "Havertz",
+        "Füllkrug",
+        "Undav"
+      ]
+    }
+  }
+]

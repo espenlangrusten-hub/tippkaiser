@@ -1,0 +1,170 @@
+{
+  "id": "2014-07-08-bra-ger",
+  "date": "2014-07-08",
+  "competition": "world-cup",
+  "stage": "Halbfinale",
+  "opponent": "Brasilien",
+  "opponentCode": "BRA",
+  "norwayHome": false,
+  "score": [
+    7,
+    1
+  ],
+  "venue": "Estádio Mineirão",
+  "city": "Belo Horizonte",
+  "manager": "Joachim Löw",
+  "formation": "4-3-3",
+  "importance": 5,
+  "tags": [
+    "import:tippkaiser-test"
+  ],
+  "status": "recall",
+  "sources": [],
+  "notes": "Startelf aus dem Gedächtnis; die Wikipedia-Prüfung bestätigt die Namen im Artikel. Positionen und Rückennummern stammen nicht aus der Prüfung.",
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Manuel Neuer",
+      "pos": "GK",
+      "no": 1
+    },
+    {
+      "name": "Philipp Lahm",
+      "pos": "RB",
+      "no": 16,
+      "captain": true
+    },
+    {
+      "name": "Jérôme Boateng",
+      "pos": "CB",
+      "no": 20
+    },
+    {
+      "name": "Mats Hummels",
+      "pos": "CB",
+      "no": 5
+    },
+    {
+      "name": "Benedikt Höwedes",
+      "pos": "LB",
+      "no": 4
+    },
+    {
+      "name": "Bastian Schweinsteiger",
+      "pos": "DM",
+      "no": 7
+    },
+    {
+      "name": "Sami Khedira",
+      "pos": "CM",
+      "no": 6
+    },
+    {
+      "name": "Toni Kroos",
+      "pos": "CM",
+      "no": 18
+    },
+    {
+      "name": "Thomas Müller",
+      "pos": "RW",
+      "no": 13
+    },
+    {
+      "name": "Mesut Özil",
+      "pos": "LW",
+      "no": 8
+    },
+    {
+      "name": "Miroslav Klose",
+      "pos": "CF",
+      "no": 11
+    }
+  ],
+  "subs": [
+    {
+      "name": "Per Mertesacker",
+      "on": 46,
+      "for": "Mats Hummels",
+      "no": 17
+    },
+    {
+      "name": "André Schürrle",
+      "on": 58,
+      "for": "Miroslav Klose",
+      "no": 9
+    },
+    {
+      "name": "Julian Draxler",
+      "on": 76,
+      "for": "Sami Khedira",
+      "no": 14
+    }
+  ],
+  "goals": [
+    {
+      "team": "norway",
+      "name": "Thomas Müller",
+      "minute": 11,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "Miroslav Klose",
+      "minute": 23,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "Toni Kroos",
+      "minute": 24,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "Toni Kroos",
+      "minute": 26,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "Sami Khedira",
+      "minute": 29,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "André Schürrle",
+      "minute": 69,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "André Schürrle",
+      "minute": 79,
+      "kind": "goal"
+    },
+    {
+      "team": "opponent",
+      "scorer": "Oscar",
+      "minute": 90,
+      "kind": "goal"
+    }
+  ],
+  "verify": {
+    "subject": "Fußball-Weltmeisterschaft 2014/Finalrunde",
+    "mustMention": [
+      "Boateng",
+      "Hummels",
+      "Höwedes",
+      "Khedira",
+      "Klose",
+      "Kroos",
+      "Lahm",
+      "Müller",
+      "Neuer",
+      "Schweinsteiger",
+      "Özil",
+      "Brasilien"
+    ]
+  }
+}

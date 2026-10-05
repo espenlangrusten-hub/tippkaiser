@@ -1,1 +1,302 @@
-[]
+[
+  {
+    "playerId": "manuel-neuer",
+    "hints": [
+      "Ich wurde 1986 in Gelsenkirchen geboren.",
+      "Meine Profikarriere begann in meiner Heimatstadt beim FC Schalke 04.",
+      "2011 wechselte ich zum FC Bayern München."
+    ],
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Manuel Neuer",
+      "mustMention": [
+        "Gelsenkirchen",
+        "1986",
+        "Schalke",
+        "2011"
+      ]
+    }
+  },
+  {
+    "playerId": "philipp-lahm",
+    "hints": [
+      "Ich wurde 1983 in München geboren.",
+      "Von 2003 bis 2005 war ich an den VfB Stuttgart ausgeliehen.",
+      "Bei der Heim-EM 2024 war ich Turnierdirektor."
+    ],
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Philipp Lahm",
+      "mustMention": [
+        "München",
+        "1983",
+        "Stuttgart",
+        "Turnierdirektor"
+      ]
+    }
+  },
+  {
+    "playerId": "miroslav-klose",
+    "hints": [
+      "Ich wurde 1978 in Polen geboren.",
+      "Bei der WM 2006 wurde ich Torschützenkönig.",
+      "Meine Karriere beendete ich bei Lazio Rom."
+    ],
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Miroslav Klose",
+      "mustMention": [
+        "Polen",
+        "1978",
+        "Lazio"
+      ]
+    }
+  },
+  {
+    "playerId": "thomas-muller",
+    "hints": [
+      "Ich wurde 1989 in Weilheim in Oberbayern geboren.",
+      "Bei der WM 2010 wurde ich Torschützenkönig.",
+      "2025 wechselte ich zu den Vancouver Whitecaps."
+    ],
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Thomas Müller",
+      "mustMention": [
+        "Weilheim",
+        "1989",
+        "Vancouver"
+      ]
+    }
+  },
+  {
+    "playerId": "toni-kroos",
+    "hints": [
+      "Ich wurde 1990 in Greifswald geboren.",
+      "2009/10 war ich an Bayer Leverkusen ausgeliehen.",
+      "Von 2014 bis 2024 spielte ich für Real Madrid."
+    ],
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Toni Kroos",
+      "mustMention": [
+        "Greifswald",
+        "1990",
+        "Leverkusen",
+        "Real Madrid"
+      ]
+    }
+  },
+  {
+    "playerId": "bastian-schweinsteiger",
+    "hints": [
+      "Ich wurde 1984 in Kolbermoor geboren.",
+      "2015 wechselte ich vom FC Bayern zu Manchester United.",
+      "Meine Karriere endete 2019 bei Chicago Fire."
+    ],
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Bastian Schweinsteiger",
+      "mustMention": [
+        "Kolbermoor",
+        "1984",
+        "Manchester United",
+        "Chicago"
+      ]
+    }
+  },
+  {
+    "playerId": "mesut-ozil",
+    "hints": [
+      "Ich wurde 1988 in Gelsenkirchen geboren.",
+      "2010 wechselte ich von Werder Bremen zu Real Madrid.",
+      "2013 ging ich zum FC Arsenal nach London."
+    ],
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Mesut Özil",
+      "mustMention": [
+        "Gelsenkirchen",
+        "1988",
+        "Werder",
+        "Arsenal"
+      ]
+    }
+  },
+  {
+    "playerId": "franz-beckenbauer",
+    "hints": [
+      "Ich wurde 1945 in München geboren.",
+      "Ich prägte die Position des Liberos.",
+      "Ab 1977 spielte ich für New York Cosmos."
+    ],
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Franz Beckenbauer",
+      "mustMention": [
+        "München",
+        "1945",
+        "Libero",
+        "Cosmos"
+      ]
+    }
+  },
+  {
+    "playerId": "gerd-muller",
+    "hints": [
+      "Ich wurde 1945 in Nördlingen geboren.",
+      "In der Saison 1971/72 erzielte ich 40 Bundesligatore.",
+      "Gegen Ende meiner Karriere spielte ich für die Fort Lauderdale Strikers."
+    ],
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Gerd Müller",
+      "mustMention": [
+        "Nördlingen",
+        "1945",
+        "Fort Lauderdale"
+      ]
+    }
+  },
+  {
+    "playerId": "lothar-matthaus",
+    "hints": [
+      "Ich wurde 1961 in Erlangen geboren.",
+      "Mit Inter Mailand wurde ich 1989 italienischer Meister.",
+      "1991 wurde ich als erster Spieler FIFA-Weltfußballer."
+    ],
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Lothar Matthäus",
+      "mustMention": [
+        "Erlangen",
+        "1961",
+        "Inter",
+        "Weltfußballer"
+      ]
+    }
+  },
+  {
+    "playerId": "andreas-brehme",
+    "hints": [
+      "Ich wurde 1960 in Hamburg geboren.",
+      "Ich schoss mit dem linken und dem rechten Fuß gleich gut.",
+      "Mit dem 1. FC Kaiserslautern wurde ich 1998 Deutscher Meister."
+    ],
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Andreas Brehme",
+      "mustMention": [
+        "Hamburg",
+        "1960",
+        "Kaiserslautern"
+      ]
+    }
+  },
+  {
+    "playerId": "jamal-musiala",
+    "hints": [
+      "Ich wurde 2003 in Stuttgart geboren.",
+      "Einen Teil meiner Jugend spielte ich beim FC Chelsea in London.",
+      "In Junioren-Nationalmannschaften spielte ich für England."
+    ],
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Jamal Musiala",
+      "mustMention": [
+        "Stuttgart",
+        "2003",
+        "Chelsea",
+        "England"
+      ]
+    }
+  },
+  {
+    "playerId": "florian-wirtz",
+    "hints": [
+      "Ich wurde 2003 in Pulheim geboren.",
+      "In der Jugend spielte ich beim 1. FC Köln.",
+      "2025 wechselte ich zum FC Liverpool."
+    ],
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Florian Wirtz",
+      "mustMention": [
+        "Pulheim",
+        "2003",
+        "Köln",
+        "Liverpool"
+      ]
+    }
+  },
+  {
+    "playerId": "lukas-podolski",
+    "hints": [
+      "Ich wurde 1985 in Gleiwitz in Polen geboren.",
+      "Meine Profikarriere begann beim 1. FC Köln.",
+      "In Japan spielte ich für Vissel Kobe."
+    ],
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Lukas Podolski",
+      "mustMention": [
+        "Gleiwitz",
+        "1985",
+        "Köln",
+        "Vissel"
+      ]
+    }
+  },
+  {
+    "playerId": "rudi-voller",
+    "hints": [
+      "Ich wurde 1960 in Hanau geboren.",
+      "Mit Olympique Marseille gewann ich 1993 die Champions League.",
+      "Später war ich Teamchef der Nationalmannschaft."
+    ],
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Rudi Völler",
+      "mustMention": [
+        "Hanau",
+        "1960",
+        "Marseille",
+        "Teamchef"
+      ]
+    }
+  },
+  {
+    "playerId": "jurgen-klinsmann",
+    "hints": [
+      "Ich wurde 1964 in Göppingen geboren.",
+      "Meine Profikarriere begann bei den Stuttgarter Kickers.",
+      "Bei Tottenham Hotspur feierte ich Tore mit einem Hechtsprung."
+    ],
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Jürgen Klinsmann",
+      "mustMention": [
+        "Göppingen",
+        "1964",
+        "Stuttgarter Kickers",
+        "Tottenham"
+      ]
+    }
+  }
+]

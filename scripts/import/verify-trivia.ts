@@ -1,5 +1,6 @@
 /**
- * Check the hand-written Elfmeter and Trainer-Genie questions against German Wikipedia.
+ * Check everything written from memory against German Wikipedia: the Elfmeter and
+ * Trainer-Genie questions, and the line-ups, squads, honours and player clues.
  *
  * Questions written from memory sit at `recall` and never reach a player. This reads
  * the article each one names in its `verify` block, checks that the article text
@@ -16,19 +17,65 @@
  * Every question names a German Wikipedia article in `verify.subject`, so the article
  * title and the strings in `mustMention` are written the way de.wikipedia writes them.
  */
-import { existsSync, readFileSync, writeFileSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
-import { coachQuizFile, straffesparkFile } from "../../src/data/schema";
-import { articleMatchesSubject, pendingVerification, verdictFor, type Checkable, type WikiPage } from "../../src/data/verify";
+import type { z } from "zod";
+import { coachQuizFile, honourFile, matchFile, squadFile, straffesparkFile } from "../../src/data/schema";
+import { articleMatchesSubject, verdictFor, type Checkable, type WikiPage } from "../../src/data/verify";
+import { playerClueFile } from "../../src/server/puzzles/playerClues";
 
 const API = "https://de.wikipedia.org/w/api.php";
 const UA = "Tippkaiser trivia verifier (https://github.com/espenlangrusten-hub/tippkaiser)";
-// Both banks are checked the same way; a question written from memory is a question
-// written from memory whichever game it belongs to.
-const POOLS = [
-  { file: path.join(process.cwd(), "data", "source", "straffespark.json"), schema: straffesparkFile },
-  { file: path.join(process.cwd(), "data", "source", "trenerquiz.json"), schema: coachQuizFile },
-] as const;
+const DATA = path.join(process.cwd(), "data", "source");
+
+/**
+ * Everything written from memory is checked the same way, whichever game it feeds: the
+ * question banks, the line-ups behind Fehlende Elf, the squads and honours behind Torlos
+ * and the player clues behind Finde den Spieler. A unit is one file; an entry is one
+ * thing in it with a `verify` block. Entries without an id get one from `idOf`.
+ */
+type Raw = Record<string, unknown>;
+type Unit = { file: string; raw: unknown; entries: { id: string; target: Raw }[] };
+
+function arrayUnit(name: string, schema: z.ZodType, idOf: (e: Raw, i: number) => string): Unit | null {
+  const file = path.join(DATA, name);
+  if (!existsSync(file)) return null;
+  const raw = JSON.parse(readFileSync(file, "utf8")) as Raw[];
+  schema.parse(raw); // a file that does not parse is not checked, it is fixed
+  return { file, raw, entries: raw.map((e, i) => ({ id: idOf(e, i), target: e })) };
+}
+
+function matchUnits(): Unit[] {
+  const dir = path.join(DATA, "matches");
+  if (!existsSync(dir)) return [];
+  return readdirSync(dir)
+    .filter((f) => f.endsWith(".json"))
+    .sort()
+    .map((f) => {
+      const file = path.join(dir, f);
+      const raw = JSON.parse(readFileSync(file, "utf8")) as Raw;
+      matchFile.parse(raw);
+      return { file, raw, entries: [{ id: String(raw.id), target: raw }] };
+    });
+}
+
+const units = (): Unit[] =>
+  [
+    arrayUnit("straffespark.json", straffesparkFile, (e) => String(e.id)),
+    arrayUnit("trenerquiz.json", coachQuizFile, (e) => String(e.id)),
+    arrayUnit("squads.json", squadFile, (e) => `squad:${String(e.tournament)}`),
+    arrayUnit("honours.json", honourFile, (e) => `${String(e.kind)}:${String(e.year)}:${String(e.club ?? e.player ?? e.person ?? "")}`),
+    arrayUnit("player-clues.json", playerClueFile, (e) => `clues:${String(e.playerId)}`),
+    ...matchUnits(),
+  ].filter((u): u is Unit => !!u);
+
+const checkable = (id: string, e: Raw): Checkable => ({
+  id,
+  status: String(e.status ?? "recall"),
+  sources: Array.isArray(e.sources) ? e.sources : [],
+  notes: typeof e.notes === "string" ? e.notes : undefined,
+  verify: e.verify as Checkable["verify"],
+});
 
 type ApiPage = { title: string; missing?: boolean; extract?: string; fullurl?: string };
 
@@ -66,44 +113,39 @@ async function main() {
   let promoted = 0;
   let flagged = 0;
 
-  for (const pool of POOLS) {
+  for (const unit of units()) {
     if (budget <= 0) break;
-    if (!existsSync(pool.file)) continue;
-    const raw = JSON.parse(readFileSync(pool.file, "utf8")) as Record<string, unknown>[];
-    // The two banks have different shapes; the checker only needs the fields they share.
-    const parsed = pool.schema.parse(raw) as Checkable[];
-    const byId = new Map(raw.map((entry) => [String(entry.id), entry]));
-
-    const queue = pendingVerification(parsed).slice(0, budget);
+    const queue = unit.entries.filter((e) => (e.target.status ?? "recall") === "recall" && e.target.verify).slice(0, budget);
+    if (!queue.length) continue;
     budget -= queue.length;
-    console.log(`${path.basename(pool.file)}: ${queue.length} spørsmål å kontrollere.`);
+    console.log(`${path.relative(DATA, unit.file)}: ${queue.length} å kontrollere.`);
 
-    for (const entry of queue) {
+    for (const { id, target } of queue) {
+      const entry = checkable(id, target);
       const subject = entry.verify!.subject;
       let page: WikiPage = null;
       try {
         page = await fetchArticle(subject);
       } catch (err) {
-        console.log(`  ${entry.id}: oppslaget feilet (${(err as Error).message})`);
-        continue; // A network hiccup is not evidence against the question.
+        console.log(`  ${id}: oppslaget feilet (${(err as Error).message})`);
+        continue; // A network hiccup is not evidence against the entry.
       }
       const verdict = verdictFor(entry, page, today);
-      const target = byId.get(entry.id)!;
       if (verdict.ok) {
         delete target.notes;
         target.status = "single_source";
-        target.sources = [...(Array.isArray(target.sources) ? target.sources : []), verdict.source];
+        target.sources = [...entry.sources, verdict.source];
         promoted++;
-        console.log(`  ✓ ${entry.id}: ${verdict.note}`);
+        console.log(`  ✓ ${id}: ${verdict.note}`);
       } else {
         target.notes = verdict.note;
         flagged++;
-        console.log(`  ? ${entry.id}: ${verdict.note}`);
+        console.log(`  ? ${id}: ${verdict.note}`);
       }
       await new Promise((r) => setTimeout(r, 300)); // be a polite API client
     }
 
-    writeFileSync(pool.file, JSON.stringify(raw, null, 2) + "\n");
+    writeFileSync(unit.file, JSON.stringify(unit.raw, null, 2) + "\n");
   }
 
   console.log(`\nGodkjent: ${promoted}. Til manuell sjekk: ${flagged}.`);

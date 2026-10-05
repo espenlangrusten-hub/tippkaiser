@@ -1,1 +1,1135 @@
-[]
+[
+  {
+    "kind": "cup_title",
+    "year": 1985,
+    "club": "uerdingen",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 1984/85",
+      "mustMention": [
+        "Uerdingen"
+      ]
+    }
+  },
+  {
+    "kind": "cup_title",
+    "year": 1986,
+    "club": "bayern",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 1985/86",
+      "mustMention": [
+        "Bayern München"
+      ]
+    }
+  },
+  {
+    "kind": "cup_title",
+    "year": 1987,
+    "club": "hsv",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 1986/87",
+      "mustMention": [
+        "Hamburger SV"
+      ]
+    }
+  },
+  {
+    "kind": "cup_title",
+    "year": 1988,
+    "club": "frankfurt",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 1987/88",
+      "mustMention": [
+        "Eintracht Frankfurt"
+      ]
+    }
+  },
+  {
+    "kind": "cup_title",
+    "year": 1989,
+    "club": "dortmund",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 1988/89",
+      "mustMention": [
+        "Borussia Dortmund"
+      ]
+    }
+  },
+  {
+    "kind": "cup_title",
+    "year": 1990,
+    "club": "kaiserslautern",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 1989/90",
+      "mustMention": [
+        "Kaiserslautern"
+      ]
+    }
+  },
+  {
+    "kind": "cup_title",
+    "year": 1991,
+    "club": "werder",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 1990/91",
+      "mustMention": [
+        "Werder Bremen"
+      ]
+    }
+  },
+  {
+    "kind": "cup_title",
+    "year": 1992,
+    "club": "hannover",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 1991/92",
+      "mustMention": [
+        "Hannover 96"
+      ]
+    }
+  },
+  {
+    "kind": "cup_title",
+    "year": 1993,
+    "club": "leverkusen",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 1992/93",
+      "mustMention": [
+        "Leverkusen"
+      ]
+    }
+  },
+  {
+    "kind": "cup_title",
+    "year": 1994,
+    "club": "werder",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 1993/94",
+      "mustMention": [
+        "Werder Bremen"
+      ]
+    }
+  },
+  {
+    "kind": "cup_title",
+    "year": 1995,
+    "club": "gladbach",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 1994/95",
+      "mustMention": [
+        "Mönchengladbach"
+      ]
+    }
+  },
+  {
+    "kind": "cup_title",
+    "year": 1996,
+    "club": "kaiserslautern",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 1995/96",
+      "mustMention": [
+        "Kaiserslautern"
+      ]
+    }
+  },
+  {
+    "kind": "cup_title",
+    "year": 1997,
+    "club": "stuttgart",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 1996/97",
+      "mustMention": [
+        "VfB Stuttgart"
+      ]
+    }
+  },
+  {
+    "kind": "cup_title",
+    "year": 1998,
+    "club": "bayern",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 1997/98",
+      "mustMention": [
+        "Bayern München"
+      ]
+    }
+  },
+  {
+    "kind": "cup_title",
+    "year": 1999,
+    "club": "werder",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 1998/99",
+      "mustMention": [
+        "Werder Bremen"
+      ]
+    }
+  },
+  {
+    "kind": "cup_title",
+    "year": 2000,
+    "club": "bayern",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 1999/00",
+      "mustMention": [
+        "Bayern München"
+      ]
+    }
+  },
+  {
+    "kind": "cup_title",
+    "year": 2001,
+    "club": "schalke",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 2000/01",
+      "mustMention": [
+        "Schalke 04"
+      ]
+    }
+  },
+  {
+    "kind": "cup_title",
+    "year": 2002,
+    "club": "schalke",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 2001/02",
+      "mustMention": [
+        "Schalke 04"
+      ]
+    }
+  },
+  {
+    "kind": "cup_title",
+    "year": 2003,
+    "club": "bayern",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 2002/03",
+      "mustMention": [
+        "Bayern München"
+      ]
+    }
+  },
+  {
+    "kind": "cup_title",
+    "year": 2004,
+    "club": "werder",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 2003/04",
+      "mustMention": [
+        "Werder Bremen"
+      ]
+    }
+  },
+  {
+    "kind": "cup_title",
+    "year": 2005,
+    "club": "bayern",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 2004/05",
+      "mustMention": [
+        "Bayern München"
+      ]
+    }
+  },
+  {
+    "kind": "cup_title",
+    "year": 2006,
+    "club": "bayern",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 2005/06",
+      "mustMention": [
+        "Bayern München"
+      ]
+    }
+  },
+  {
+    "kind": "cup_title",
+    "year": 2007,
+    "club": "nuernberg",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 2006/07",
+      "mustMention": [
+        "1. FC Nürnberg"
+      ]
+    }
+  },
+  {
+    "kind": "cup_title",
+    "year": 2008,
+    "club": "bayern",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 2007/08",
+      "mustMention": [
+        "Bayern München"
+      ]
+    }
+  },
+  {
+    "kind": "cup_title",
+    "year": 2009,
+    "club": "werder",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 2008/09",
+      "mustMention": [
+        "Werder Bremen"
+      ]
+    }
+  },
+  {
+    "kind": "cup_title",
+    "year": 2010,
+    "club": "bayern",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 2009/10",
+      "mustMention": [
+        "Bayern München"
+      ]
+    }
+  },
+  {
+    "kind": "cup_title",
+    "year": 2011,
+    "club": "schalke",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 2010/11",
+      "mustMention": [
+        "Schalke 04"
+      ]
+    }
+  },
+  {
+    "kind": "cup_title",
+    "year": 2012,
+    "club": "dortmund",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 2011/12",
+      "mustMention": [
+        "Borussia Dortmund"
+      ]
+    }
+  },
+  {
+    "kind": "cup_title",
+    "year": 2013,
+    "club": "bayern",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 2012/13",
+      "mustMention": [
+        "Bayern München"
+      ]
+    }
+  },
+  {
+    "kind": "cup_title",
+    "year": 2014,
+    "club": "bayern",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 2013/14",
+      "mustMention": [
+        "Bayern München"
+      ]
+    }
+  },
+  {
+    "kind": "cup_title",
+    "year": 2015,
+    "club": "wolfsburg",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 2014/15",
+      "mustMention": [
+        "VfL Wolfsburg"
+      ]
+    }
+  },
+  {
+    "kind": "cup_title",
+    "year": 2016,
+    "club": "bayern",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 2015/16",
+      "mustMention": [
+        "Bayern München"
+      ]
+    }
+  },
+  {
+    "kind": "cup_title",
+    "year": 2017,
+    "club": "dortmund",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 2016/17",
+      "mustMention": [
+        "Borussia Dortmund"
+      ]
+    }
+  },
+  {
+    "kind": "cup_title",
+    "year": 2018,
+    "club": "frankfurt",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 2017/18",
+      "mustMention": [
+        "Eintracht Frankfurt"
+      ]
+    }
+  },
+  {
+    "kind": "cup_title",
+    "year": 2019,
+    "club": "bayern",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 2018/19",
+      "mustMention": [
+        "Bayern München"
+      ]
+    }
+  },
+  {
+    "kind": "cup_title",
+    "year": 2020,
+    "club": "bayern",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 2019/20",
+      "mustMention": [
+        "Bayern München"
+      ]
+    }
+  },
+  {
+    "kind": "cup_title",
+    "year": 2021,
+    "club": "dortmund",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 2020/21",
+      "mustMention": [
+        "Borussia Dortmund"
+      ]
+    }
+  },
+  {
+    "kind": "cup_title",
+    "year": 2022,
+    "club": "leipzig",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 2021/22",
+      "mustMention": [
+        "RB Leipzig"
+      ]
+    }
+  },
+  {
+    "kind": "cup_title",
+    "year": 2023,
+    "club": "leipzig",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 2022/23",
+      "mustMention": [
+        "RB Leipzig"
+      ]
+    }
+  },
+  {
+    "kind": "cup_title",
+    "year": 2024,
+    "club": "leverkusen",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 2023/24",
+      "mustMention": [
+        "Leverkusen"
+      ]
+    }
+  },
+  {
+    "kind": "cup_title",
+    "year": 2025,
+    "club": "stuttgart",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "DFB-Pokal 2024/25",
+      "mustMention": [
+        "VfB Stuttgart"
+      ]
+    }
+  },
+  {
+    "kind": "top_scorer",
+    "year": 2000,
+    "player": "Martin Max",
+    "value": 19,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
+      "mustMention": [
+        "Martin Max"
+      ]
+    }
+  },
+  {
+    "kind": "top_scorer",
+    "year": 2001,
+    "player": "Sergej Barbarez",
+    "value": 22,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
+      "mustMention": [
+        "Sergej Barbarez"
+      ]
+    }
+  },
+  {
+    "kind": "top_scorer",
+    "year": 2001,
+    "player": "Ebbe Sand",
+    "value": 22,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
+      "mustMention": [
+        "Ebbe Sand"
+      ]
+    }
+  },
+  {
+    "kind": "top_scorer",
+    "year": 2002,
+    "player": "Márcio Amoroso",
+    "value": 18,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
+      "mustMention": [
+        "Márcio Amoroso"
+      ]
+    }
+  },
+  {
+    "kind": "top_scorer",
+    "year": 2002,
+    "player": "Martin Max",
+    "value": 18,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
+      "mustMention": [
+        "Martin Max"
+      ]
+    }
+  },
+  {
+    "kind": "top_scorer",
+    "year": 2003,
+    "player": "Thomas Christiansen",
+    "value": 21,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
+      "mustMention": [
+        "Thomas Christiansen"
+      ]
+    }
+  },
+  {
+    "kind": "top_scorer",
+    "year": 2003,
+    "player": "Giovane Élber",
+    "value": 21,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
+      "mustMention": [
+        "Giovane Élber"
+      ]
+    }
+  },
+  {
+    "kind": "top_scorer",
+    "year": 2004,
+    "player": "Aílton",
+    "value": 28,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
+      "mustMention": [
+        "Aílton"
+      ]
+    }
+  },
+  {
+    "kind": "top_scorer",
+    "year": 2005,
+    "player": "Marek Mintál",
+    "value": 24,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
+      "mustMention": [
+        "Marek Mintál"
+      ]
+    }
+  },
+  {
+    "kind": "top_scorer",
+    "year": 2006,
+    "player": "Miroslav Klose",
+    "value": 25,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
+      "mustMention": [
+        "Miroslav Klose"
+      ]
+    }
+  },
+  {
+    "kind": "top_scorer",
+    "year": 2007,
+    "player": "Theofanis Gekas",
+    "value": 20,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
+      "mustMention": [
+        "Theofanis Gekas"
+      ]
+    }
+  },
+  {
+    "kind": "top_scorer",
+    "year": 2008,
+    "player": "Luca Toni",
+    "value": 24,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
+      "mustMention": [
+        "Luca Toni"
+      ]
+    }
+  },
+  {
+    "kind": "top_scorer",
+    "year": 2009,
+    "player": "Grafite",
+    "value": 28,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
+      "mustMention": [
+        "Grafite"
+      ]
+    }
+  },
+  {
+    "kind": "top_scorer",
+    "year": 2010,
+    "player": "Edin Džeko",
+    "value": 22,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
+      "mustMention": [
+        "Edin Džeko"
+      ]
+    }
+  },
+  {
+    "kind": "top_scorer",
+    "year": 2011,
+    "player": "Mario Gómez",
+    "value": 28,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
+      "mustMention": [
+        "Mario Gómez"
+      ]
+    }
+  },
+  {
+    "kind": "top_scorer",
+    "year": 2012,
+    "player": "Klaas-Jan Huntelaar",
+    "value": 29,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
+      "mustMention": [
+        "Klaas-Jan Huntelaar"
+      ]
+    }
+  },
+  {
+    "kind": "top_scorer",
+    "year": 2013,
+    "player": "Stefan Kießling",
+    "value": 25,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
+      "mustMention": [
+        "Stefan Kießling"
+      ]
+    }
+  },
+  {
+    "kind": "top_scorer",
+    "year": 2014,
+    "player": "Robert Lewandowski",
+    "value": 20,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
+      "mustMention": [
+        "Robert Lewandowski"
+      ]
+    }
+  },
+  {
+    "kind": "top_scorer",
+    "year": 2015,
+    "player": "Alexander Meier",
+    "value": 19,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
+      "mustMention": [
+        "Alexander Meier"
+      ]
+    }
+  },
+  {
+    "kind": "top_scorer",
+    "year": 2016,
+    "player": "Robert Lewandowski",
+    "value": 30,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
+      "mustMention": [
+        "Robert Lewandowski"
+      ]
+    }
+  },
+  {
+    "kind": "top_scorer",
+    "year": 2017,
+    "player": "Pierre-Emerick Aubameyang",
+    "value": 31,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
+      "mustMention": [
+        "Pierre-Emerick Aubameyang"
+      ]
+    }
+  },
+  {
+    "kind": "top_scorer",
+    "year": 2018,
+    "player": "Robert Lewandowski",
+    "value": 29,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
+      "mustMention": [
+        "Robert Lewandowski"
+      ]
+    }
+  },
+  {
+    "kind": "top_scorer",
+    "year": 2019,
+    "player": "Robert Lewandowski",
+    "value": 22,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
+      "mustMention": [
+        "Robert Lewandowski"
+      ]
+    }
+  },
+  {
+    "kind": "top_scorer",
+    "year": 2020,
+    "player": "Robert Lewandowski",
+    "value": 34,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
+      "mustMention": [
+        "Robert Lewandowski"
+      ]
+    }
+  },
+  {
+    "kind": "top_scorer",
+    "year": 2021,
+    "player": "Robert Lewandowski",
+    "value": 41,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
+      "mustMention": [
+        "Robert Lewandowski"
+      ]
+    }
+  },
+  {
+    "kind": "top_scorer",
+    "year": 2022,
+    "player": "Robert Lewandowski",
+    "value": 35,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
+      "mustMention": [
+        "Robert Lewandowski"
+      ]
+    }
+  },
+  {
+    "kind": "top_scorer",
+    "year": 2023,
+    "player": "Niclas Füllkrug",
+    "value": 16,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
+      "mustMention": [
+        "Niclas Füllkrug"
+      ]
+    }
+  },
+  {
+    "kind": "top_scorer",
+    "year": 2023,
+    "player": "Christopher Nkunku",
+    "value": 16,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
+      "mustMention": [
+        "Christopher Nkunku"
+      ]
+    }
+  },
+  {
+    "kind": "top_scorer",
+    "year": 2024,
+    "player": "Harry Kane",
+    "value": 36,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
+      "mustMention": [
+        "Harry Kane"
+      ]
+    }
+  },
+  {
+    "kind": "top_scorer",
+    "year": 2025,
+    "player": "Harry Kane",
+    "value": 26,
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
+      "mustMention": [
+        "Harry Kane"
+      ]
+    }
+  },
+  {
+    "kind": "norway_manager",
+    "year": 1926,
+    "person": "Otto Nerz",
+    "value": 15,
+    "note": "1926–1936",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Deutsche Fußballnationalmannschaft",
+      "mustMention": [
+        "Otto Nerz"
+      ]
+    }
+  },
+  {
+    "kind": "norway_manager",
+    "year": 1936,
+    "person": "Sepp Herberger",
+    "value": 85,
+    "note": "1936–1942 und 1950–1964",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Deutsche Fußballnationalmannschaft",
+      "mustMention": [
+        "Sepp Herberger"
+      ]
+    }
+  },
+  {
+    "kind": "norway_manager",
+    "year": 1964,
+    "person": "Helmut Schön",
+    "value": 70,
+    "note": "1964–1978",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Deutsche Fußballnationalmannschaft",
+      "mustMention": [
+        "Helmut Schön"
+      ]
+    }
+  },
+  {
+    "kind": "norway_manager",
+    "year": 1978,
+    "person": "Jupp Derwall",
+    "value": 45,
+    "note": "1978–1984",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Deutsche Fußballnationalmannschaft",
+      "mustMention": [
+        "Jupp Derwall"
+      ]
+    }
+  },
+  {
+    "kind": "norway_manager",
+    "year": 1984,
+    "person": "Franz Beckenbauer",
+    "value": 90,
+    "note": "1984–1990 als Teamchef",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Deutsche Fußballnationalmannschaft",
+      "mustMention": [
+        "Franz Beckenbauer"
+      ]
+    }
+  },
+  {
+    "kind": "norway_manager",
+    "year": 1990,
+    "person": "Berti Vogts",
+    "value": 75,
+    "note": "1990–1998",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Deutsche Fußballnationalmannschaft",
+      "mustMention": [
+        "Berti Vogts"
+      ]
+    }
+  },
+  {
+    "kind": "norway_manager",
+    "year": 1998,
+    "person": "Erich Ribbeck",
+    "value": 50,
+    "note": "1998–2000",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Deutsche Fußballnationalmannschaft",
+      "mustMention": [
+        "Erich Ribbeck"
+      ]
+    }
+  },
+  {
+    "kind": "norway_manager",
+    "year": 2000,
+    "person": "Rudi Völler",
+    "value": 80,
+    "note": "2000–2004 als Teamchef",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Deutsche Fußballnationalmannschaft",
+      "mustMention": [
+        "Rudi Völler"
+      ]
+    }
+  },
+  {
+    "kind": "norway_manager",
+    "year": 2004,
+    "person": "Jürgen Klinsmann",
+    "value": 85,
+    "note": "2004–2006",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Deutsche Fußballnationalmannschaft",
+      "mustMention": [
+        "Jürgen Klinsmann"
+      ]
+    }
+  },
+  {
+    "kind": "norway_manager",
+    "year": 2006,
+    "person": "Joachim Löw",
+    "value": 95,
+    "note": "2006–2021",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Deutsche Fußballnationalmannschaft",
+      "mustMention": [
+        "Joachim Löw"
+      ]
+    }
+  },
+  {
+    "kind": "norway_manager",
+    "year": 2021,
+    "person": "Hansi Flick",
+    "value": 80,
+    "note": "2021–2023",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Deutsche Fußballnationalmannschaft",
+      "mustMention": [
+        "Hansi Flick"
+      ]
+    }
+  },
+  {
+    "kind": "norway_manager",
+    "year": 2023,
+    "person": "Julian Nagelsmann",
+    "value": 80,
+    "note": "seit 2023",
+    "status": "recall",
+    "sources": [],
+    "verify": {
+      "subject": "Deutsche Fußballnationalmannschaft",
+      "mustMention": [
+        "Julian Nagelsmann"
+      ]
+    }
+  }
+]

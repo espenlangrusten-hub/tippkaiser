@@ -1,10 +1,10 @@
 import { loadDataset } from "../src/data/load";
 import { summarizePool } from "../src/data/straffespark";
-import { playerClues } from "../src/server/puzzles/playerClues";
+import { allPlayerClues, playerClues } from "../src/server/puzzles/playerClues";
 
 const ds = loadDataset();
-for (const id of playerClues.keys()) if (!ds.players.has(id)) ds.problems.push(`Unknown player in biography clues: ${id}`);
-console.log(`Biographical clue profiles: ${playerClues.size}`);
+for (const { playerId } of allPlayerClues) if (!ds.players.has(playerId)) ds.problems.push(`Unknown player in biography clues: ${playerId}`);
+console.log(`Biographical clue profiles: ${playerClues.size} playable of ${allPlayerClues.length}`);
 const byStatus: Record<string, number> = {};
 for (const m of ds.matches) byStatus[m.status] = (byStatus[m.status] ?? 0) + 1;
 console.log(`Matches: ${ds.matches.length}`, byStatus);

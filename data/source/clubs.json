@@ -1,1 +1,303 @@
-[]
+[
+  {
+    "id": "bayern",
+    "name": "FC Bayern",
+    "fullName": "FC Bayern München",
+    "city": "München",
+    "aliases": [
+      "Bayern",
+      "Bayern München",
+      "FCB"
+    ],
+    "fame": 5,
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/FC_Bayern_München",
+        "title": "FC Bayern München – Wikipedia",
+        "kind": "web",
+        "note": "Vereinsname; die Titel stehen in honours.json mit eigener Prüfung."
+      }
+    ]
+  },
+  {
+    "id": "dortmund",
+    "name": "Borussia Dortmund",
+    "fullName": "Ballspielverein Borussia 09 e. V. Dortmund",
+    "city": "Dortmund",
+    "aliases": [
+      "Dortmund",
+      "BVB"
+    ],
+    "fame": 5,
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Ballspielverein_Borussia_09_e._V._Dortmund",
+        "title": "Ballspielverein Borussia 09 e. V. Dortmund – Wikipedia",
+        "kind": "web",
+        "note": "Vereinsname; die Titel stehen in honours.json mit eigener Prüfung."
+      }
+    ]
+  },
+  {
+    "id": "schalke",
+    "name": "Schalke 04",
+    "fullName": "FC Schalke 04",
+    "city": "Gelsenkirchen",
+    "aliases": [
+      "Schalke",
+      "FC Schalke 04"
+    ],
+    "fame": 4,
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/FC_Schalke_04",
+        "title": "FC Schalke 04 – Wikipedia",
+        "kind": "web",
+        "note": "Vereinsname; die Titel stehen in honours.json mit eigener Prüfung."
+      }
+    ]
+  },
+  {
+    "id": "werder",
+    "name": "Werder Bremen",
+    "fullName": "SV Werder Bremen",
+    "city": "Bremen",
+    "aliases": [
+      "Werder",
+      "Bremen"
+    ],
+    "fame": 4,
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/SV_Werder_Bremen",
+        "title": "SV Werder Bremen – Wikipedia",
+        "kind": "web",
+        "note": "Vereinsname; die Titel stehen in honours.json mit eigener Prüfung."
+      }
+    ]
+  },
+  {
+    "id": "nuernberg",
+    "name": "1. FC Nürnberg",
+    "fullName": "1. FC Nürnberg",
+    "city": "Nürnberg",
+    "aliases": [
+      "Nürnberg",
+      "FCN",
+      "Club"
+    ],
+    "fame": 3,
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/1._FC_Nürnberg",
+        "title": "1. FC Nürnberg – Wikipedia",
+        "kind": "web",
+        "note": "Vereinsname; die Titel stehen in honours.json mit eigener Prüfung."
+      }
+    ]
+  },
+  {
+    "id": "wolfsburg",
+    "name": "VfL Wolfsburg",
+    "fullName": "VfL Wolfsburg",
+    "city": "Wolfsburg",
+    "aliases": [
+      "Wolfsburg"
+    ],
+    "fame": 3,
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/VfL_Wolfsburg",
+        "title": "VfL Wolfsburg – Wikipedia",
+        "kind": "web",
+        "note": "Vereinsname; die Titel stehen in honours.json mit eigener Prüfung."
+      }
+    ]
+  },
+  {
+    "id": "frankfurt",
+    "name": "Eintracht Frankfurt",
+    "fullName": "Eintracht Frankfurt",
+    "city": "Frankfurt am Main",
+    "aliases": [
+      "Frankfurt",
+      "Eintracht"
+    ],
+    "fame": 4,
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Eintracht_Frankfurt",
+        "title": "Eintracht Frankfurt – Wikipedia",
+        "kind": "web",
+        "note": "Vereinsname; die Titel stehen in honours.json mit eigener Prüfung."
+      }
+    ]
+  },
+  {
+    "id": "leipzig",
+    "name": "RB Leipzig",
+    "fullName": "RasenBallsport Leipzig",
+    "city": "Leipzig",
+    "aliases": [
+      "Leipzig"
+    ],
+    "fame": 3,
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/RasenBallsport_Leipzig",
+        "title": "RasenBallsport Leipzig – Wikipedia",
+        "kind": "web",
+        "note": "Vereinsname; die Titel stehen in honours.json mit eigener Prüfung."
+      }
+    ]
+  },
+  {
+    "id": "leverkusen",
+    "name": "Bayer Leverkusen",
+    "fullName": "Bayer 04 Leverkusen",
+    "city": "Leverkusen",
+    "aliases": [
+      "Leverkusen",
+      "Bayer"
+    ],
+    "fame": 4,
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Bayer_04_Leverkusen",
+        "title": "Bayer 04 Leverkusen – Wikipedia",
+        "kind": "web",
+        "note": "Vereinsname; die Titel stehen in honours.json mit eigener Prüfung."
+      }
+    ]
+  },
+  {
+    "id": "stuttgart",
+    "name": "VfB Stuttgart",
+    "fullName": "VfB Stuttgart",
+    "city": "Stuttgart",
+    "aliases": [
+      "Stuttgart",
+      "VfB"
+    ],
+    "fame": 4,
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/VfB_Stuttgart",
+        "title": "VfB Stuttgart – Wikipedia",
+        "kind": "web",
+        "note": "Vereinsname; die Titel stehen in honours.json mit eigener Prüfung."
+      }
+    ]
+  },
+  {
+    "id": "uerdingen",
+    "name": "Bayer Uerdingen",
+    "fullName": "Bayer 05 Uerdingen",
+    "city": "Krefeld",
+    "aliases": [
+      "Uerdingen",
+      "KFC Uerdingen",
+      "Bayer 05 Uerdingen"
+    ],
+    "fame": 1,
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Bayer_05_Uerdingen",
+        "title": "Bayer 05 Uerdingen – Wikipedia",
+        "kind": "web",
+        "note": "Vereinsname; die Titel stehen in honours.json mit eigener Prüfung."
+      }
+    ]
+  },
+  {
+    "id": "hsv",
+    "name": "Hamburger SV",
+    "fullName": "Hamburger SV",
+    "city": "Hamburg",
+    "aliases": [
+      "HSV",
+      "Hamburg"
+    ],
+    "fame": 4,
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Hamburger_SV",
+        "title": "Hamburger SV – Wikipedia",
+        "kind": "web",
+        "note": "Vereinsname; die Titel stehen in honours.json mit eigener Prüfung."
+      }
+    ]
+  },
+  {
+    "id": "kaiserslautern",
+    "name": "1. FC Kaiserslautern",
+    "fullName": "1. FC Kaiserslautern",
+    "city": "Kaiserslautern",
+    "aliases": [
+      "Kaiserslautern",
+      "FCK",
+      "Lautern"
+    ],
+    "fame": 3,
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/1._FC_Kaiserslautern",
+        "title": "1. FC Kaiserslautern – Wikipedia",
+        "kind": "web",
+        "note": "Vereinsname; die Titel stehen in honours.json mit eigener Prüfung."
+      }
+    ]
+  },
+  {
+    "id": "hannover",
+    "name": "Hannover 96",
+    "fullName": "Hannover 96",
+    "city": "Hannover",
+    "aliases": [
+      "Hannover"
+    ],
+    "fame": 2,
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Hannover_96",
+        "title": "Hannover 96 – Wikipedia",
+        "kind": "web",
+        "note": "Vereinsname; die Titel stehen in honours.json mit eigener Prüfung."
+      }
+    ]
+  },
+  {
+    "id": "gladbach",
+    "name": "Borussia Mönchengladbach",
+    "fullName": "Borussia Mönchengladbach",
+    "city": "Mönchengladbach",
+    "aliases": [
+      "Gladbach",
+      "Mönchengladbach"
+    ],
+    "fame": 4,
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Borussia_Mönchengladbach",
+        "title": "Borussia Mönchengladbach – Wikipedia",
+        "kind": "web",
+        "note": "Vereinsname; die Titel stehen in honours.json mit eigener Prüfung."
+      }
+    ]
+  }
+]

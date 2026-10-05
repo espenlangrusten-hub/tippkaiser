@@ -138,9 +138,9 @@ export function deriveStraffesparkTrivia(input: DeriveInput): Trivia[] {
         id: `str-auto-cup-${honour.year}`,
         category: "klubb",
         enabled: true,
-        prompt: `Hvilket lag vant NM-cupen for menn i ${honour.year}?`,
+        prompt: `Welcher Klub gewann ${honour.year} den DFB-Pokal?`,
         answer,
-        fact: `${club.name} vant cupen i ${honour.year}.`,
+        fact: `${club.name} gewann ${honour.year} das Pokalfinale.`,
         era,
         difficulty: clamp(ageDifficulty(honour.year) + (5 - (club.fame ?? 2)) - 2),
         status: honour.status,
@@ -154,15 +154,16 @@ export function deriveStraffesparkTrivia(input: DeriveInput): Trivia[] {
       const player = input.players.get(slugify(honour.player));
       const label = player?.displayName ?? honour.player;
       const aliases = extraAliases(label, [honour.player, player?.fullName, ...(player?.aliases ?? []).map((a) => a.alias)]);
-      const league = seasonNameByYear.get(honour.year) ?? `Eliteserien ${honour.year}`;
+      // A Bundesliga season runs over the new year; the honour carries the year it ended.
+      const league = seasonNameByYear.get(honour.year) ?? `der Bundesliga-Saison ${honour.year - 1}/${String(honour.year).slice(2)}`;
       out.push({
         kind: "trivia",
         id: `str-auto-toppscorer-${honour.year}`,
         category: "spiller",
         enabled: true,
-        prompt: `Hvem ble toppscorer i ${league}?`,
+        prompt: `Wer wurde Torschützenkönig ${league}?`,
         answer: { label, aliases },
-        fact: honour.value != null ? `${label} scoret ${honour.value} mål.` : undefined,
+        fact: honour.value != null ? `${label} traf ${honour.value} Mal.` : undefined,
         era,
         // Top scorers are harder than champions: a title is remembered by a whole town.
         difficulty: clamp(ageDifficulty(honour.year) + 1),

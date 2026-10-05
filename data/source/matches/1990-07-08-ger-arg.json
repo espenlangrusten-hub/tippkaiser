@@ -1,0 +1,115 @@
+{
+  "id": "1990-07-08-ger-arg",
+  "date": "1990-07-08",
+  "competition": "world-cup",
+  "stage": "Finale",
+  "opponent": "Argentinien",
+  "opponentCode": "ARG",
+  "norwayHome": true,
+  "score": [
+    1,
+    0
+  ],
+  "venue": "Stadio Olimpico",
+  "city": "Rom",
+  "manager": "Franz Beckenbauer",
+  "formation": "3-5-2",
+  "importance": 5,
+  "tags": [
+    "import:tippkaiser-test"
+  ],
+  "status": "recall",
+  "sources": [],
+  "notes": "Startelf aus dem Gedächtnis; die Wikipedia-Prüfung bestätigt die Namen im Artikel. Positionen und Rückennummern stammen nicht aus der Prüfung.",
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Bodo Illgner",
+      "pos": "GK",
+      "no": 1
+    },
+    {
+      "name": "Jürgen Kohler",
+      "pos": "CB",
+      "no": 4
+    },
+    {
+      "name": "Klaus Augenthaler",
+      "pos": "CB",
+      "no": 5
+    },
+    {
+      "name": "Guido Buchwald",
+      "pos": "CB",
+      "no": 6
+    },
+    {
+      "name": "Thomas Berthold",
+      "pos": "RWB",
+      "no": 14
+    },
+    {
+      "name": "Andreas Brehme",
+      "pos": "LWB",
+      "no": 3
+    },
+    {
+      "name": "Thomas Häßler",
+      "pos": "CM",
+      "no": 8
+    },
+    {
+      "name": "Lothar Matthäus",
+      "pos": "CM",
+      "no": 10,
+      "captain": true
+    },
+    {
+      "name": "Pierre Littbarski",
+      "pos": "CM",
+      "no": 7
+    },
+    {
+      "name": "Rudi Völler",
+      "pos": "CF",
+      "no": 9
+    },
+    {
+      "name": "Jürgen Klinsmann",
+      "pos": "CF",
+      "no": 18
+    }
+  ],
+  "subs": [
+    {
+      "name": "Stefan Reuter",
+      "on": 73,
+      "for": "Thomas Berthold"
+    }
+  ],
+  "goals": [
+    {
+      "team": "norway",
+      "name": "Andreas Brehme",
+      "minute": 85,
+      "kind": "pen"
+    }
+  ],
+  "verify": {
+    "subject": "Fußball-Weltmeisterschaft 1990/Finalrunde",
+    "mustMention": [
+      "Augenthaler",
+      "Berthold",
+      "Brehme",
+      "Buchwald",
+      "Häßler",
+      "Illgner",
+      "Klinsmann",
+      "Kohler",
+      "Littbarski",
+      "Matthäus",
+      "Völler",
+      "Argentinien"
+    ]
+  }
+}

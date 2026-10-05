@@ -1,0 +1,146 @@
+{
+  "id": "2024-06-14-ger-sco",
+  "date": "2024-06-14",
+  "competition": "euro",
+  "stage": "Gruppe A",
+  "opponent": "Schottland",
+  "opponentCode": "SCO",
+  "norwayHome": true,
+  "score": [
+    5,
+    1
+  ],
+  "venue": "Allianz Arena",
+  "city": "München",
+  "manager": "Julian Nagelsmann",
+  "formation": "4-2-3-1",
+  "importance": 4,
+  "tags": [
+    "import:tippkaiser-test"
+  ],
+  "status": "recall",
+  "sources": [],
+  "notes": "Startelf aus dem Gedächtnis; die Wikipedia-Prüfung bestätigt die Namen im Artikel. Positionen und Rückennummern stammen nicht aus der Prüfung.",
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Manuel Neuer",
+      "pos": "GK",
+      "no": 1
+    },
+    {
+      "name": "Joshua Kimmich",
+      "pos": "RB",
+      "no": 6
+    },
+    {
+      "name": "Antonio Rüdiger",
+      "pos": "CB",
+      "no": 2
+    },
+    {
+      "name": "Jonathan Tah",
+      "pos": "CB",
+      "no": 4
+    },
+    {
+      "name": "Maximilian Mittelstädt",
+      "pos": "LB",
+      "no": 18
+    },
+    {
+      "name": "Robert Andrich",
+      "pos": "DM",
+      "no": 23
+    },
+    {
+      "name": "Toni Kroos",
+      "pos": "DM",
+      "no": 8
+    },
+    {
+      "name": "Jamal Musiala",
+      "pos": "RM",
+      "no": 10
+    },
+    {
+      "name": "İlkay Gündoğan",
+      "pos": "AM",
+      "no": 21,
+      "captain": true
+    },
+    {
+      "name": "Florian Wirtz",
+      "pos": "LM",
+      "no": 17
+    },
+    {
+      "name": "Kai Havertz",
+      "pos": "CF",
+      "no": 7
+    }
+  ],
+  "subs": [
+    {
+      "name": "Niclas Füllkrug"
+    },
+    {
+      "name": "Emre Can"
+    }
+  ],
+  "goals": [
+    {
+      "team": "norway",
+      "name": "Florian Wirtz",
+      "minute": 10,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "Jamal Musiala",
+      "minute": 19,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "Kai Havertz",
+      "minute": 45,
+      "kind": "pen"
+    },
+    {
+      "team": "norway",
+      "name": "Niclas Füllkrug",
+      "minute": 68,
+      "kind": "goal"
+    },
+    {
+      "team": "opponent",
+      "scorer": "Antonio Rüdiger (Eigentor)",
+      "minute": 87,
+      "kind": "og"
+    },
+    {
+      "team": "norway",
+      "name": "Emre Can",
+      "minute": 90,
+      "kind": "goal"
+    }
+  ],
+  "verify": {
+    "subject": "Fußball-Europameisterschaft 2024/Gruppe A",
+    "mustMention": [
+      "Andrich",
+      "Gündoğan",
+      "Havertz",
+      "Kimmich",
+      "Kroos",
+      "Mittelstädt",
+      "Musiala",
+      "Neuer",
+      "Rüdiger",
+      "Tah",
+      "Wirtz",
+      "Schottland"
+    ]
+  }
+}

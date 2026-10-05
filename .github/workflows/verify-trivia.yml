@@ -55,7 +55,7 @@ jobs:
         run: |
           set -euo pipefail
           # Every bank: watching only one of them silently discarded a whole run.
-          if [ -z "$(git status --porcelain data/source/straffespark.json data/source/trenerquiz.json)" ]; then
+          if [ -z "$(git status --porcelain data/source/straffespark.json data/source/trenerquiz.json data/source/squads.json data/source/honours.json data/source/player-clues.json data/source/matches)" ]; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "Ingen endringer – ingen spørsmål ventet på kontroll." >> "$GITHUB_STEP_SUMMARY"
           else
@@ -72,7 +72,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -b "$branch"
-          git add data/source/straffespark.json data/source/trenerquiz.json
+          git add data/source/straffespark.json data/source/trenerquiz.json data/source/squads.json data/source/honours.json data/source/player-clues.json data/source/matches
           git commit -m "Kontroller håndskrevne spørsmål mot Wikipedia
 
           Spørsmål artikkelen dekker er oppgradert til single_source med artikkelen
