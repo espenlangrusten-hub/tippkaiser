@@ -6,13 +6,13 @@
  * which then breaks things far from the cause (an empty SITE_URL used to crash the
  * build inside `new URL()`).
  */
-export const SITE_NAME = process.env.NEXT_PUBLIC_SITE_NAME || "Tippkaiser";
+export const SITE_NAME = process.env.NEXT_PUBLIC_SITE_NAME || "Quizkaiser";
 export const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || "";
 export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3200").replace(/\/$/, "");
-export const SITE_TAGLINE = "Die täglichen Fußballspiele";
+export const SITE_TAGLINE = "Tägliches Fußballquiz";
 /**
  * Search engines are kept out until launch: the test site on github.io is for invited
- * testers. Set NEXT_PUBLIC_INDEXABLE=true for the build on tippkaiser.de.
+ * testers. Set NEXT_PUBLIC_INDEXABLE=true for the build on quizkaiser.de.
  */
 export const INDEXABLE = process.env.NEXT_PUBLIC_INDEXABLE === "true";
 

@@ -54,7 +54,7 @@ export function TodayCards() {
         <div className={s.heroCopy}>
           <p className={s.eyebrow}>Fußballwissen <span>•</span> Jeden Tag <span>•</span> Für alle</p>
           <h1>Die Fußballspiele des Tages — jeden Tag neue Aufgaben<span className="sr-only"> Wie gut kennst du den deutschen Fußball?</span></h1>
-          <p className={s.lead}>Tippkaiser ist der Ort für alle, die Fußball und gute Knobeleien lieben. Sechs tägliche Spiele, neue Herausforderungen und eine Liga mit Freunden und anderen Fußballverrückten.</p>
+          <p className={s.lead}>Quizkaiser ist der Ort für alle, die Fußball und gute Knobeleien lieben. Sechs tägliche Spiele, neue Herausforderungen und eine Liga mit Freunden und anderen Fußballverrückten.</p>
           <div className={s.heroActions}>
             <Link href="#spill" className={s.primary}>Spiele des Tages starten <span aria-hidden="true">→</span></Link>
             {streak ? <span className={s.streak}><b>{streak}</b> {streak === 1 ? "Tag" : "Tage"} in Folge</span> : null}

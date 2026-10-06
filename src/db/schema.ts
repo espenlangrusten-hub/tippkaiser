@@ -17,7 +17,7 @@ import { POSITIONS, type Position } from "@/lib/positions";
 export { POSITIONS };
 export type { Position };
 
-/** All Tippkaiser tables live in their own schema so the app can share a Postgres instance with other apps. */
+/** All Quizkaiser tables live in their own schema so the app can share a Postgres instance with other apps. */
 export const tt = pgSchema("tippkaiser");
 
 /**

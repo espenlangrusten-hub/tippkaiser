@@ -167,7 +167,7 @@ const INTRO = "Fünf Antworten. Wähle die, von denen wir schätzen, dass sie am
  * The starter questions ("Nenne einen Spieler, der 2014 in der Startelf stand") are only
  * honest over a complete archive: a player who names someone from a match we do not hold
  * is charged the full 100 points for being right. Tippetuppen held every Norway match;
- * Tippkaiser starts with a handful of famous ones, so these questions stay off until the
+ * Quizkaiser starts with a handful of famous ones, so these questions stay off until the
  * archive is complete. Squads, honours and seasons are closed lists and are unaffected.
  */
 const LINEUP_ARCHIVE_COMPLETE = false;

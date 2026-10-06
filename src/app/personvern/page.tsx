@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { ConsentSettingsButton } from "@/components/consent/ConsentSettingsButton";
 
-export const metadata: Metadata = { title: "Datenschutz und Cookies", description: "Wie Tippkaiser mit Daten, Werbung und dem Speicher im Browser umgeht.", alternates: { canonical: "/personvern" } };
+export const metadata: Metadata = { title: "Datenschutz und Cookies", description: "Wie Quizkaiser mit Daten, Werbung und dem Speicher im Browser umgeht.", alternates: { canonical: "/personvern" } };
 
 export default function Page() {
   return (
@@ -16,7 +16,7 @@ export default function Page() {
       <h2 className="font-display text-2xl font-bold uppercase">Statistik</h2>
       <p className="text-mist">Wir zählen Seitenaufrufe und Spiele mit einem anonymen, täglich wechselnden Schlüssel, der auf dem Server aus IP-Adresse und Browsertyp gebildet wird. Der Schlüssel lässt sich nicht auf dich zurückführen, wird nicht in deinem Browser gespeichert, und die IP-Adresse wird nicht gespeichert.</p>
       <h2 className="font-display text-2xl font-bold uppercase">Werbung</h2>
-      <p className="text-mist">Tippkaiser ist kostenlos und kann durch Werbung von Google AdSense finanziert werden. Google kann Cookies verwenden, um Werbung anzuzeigen. Du entscheidest selbst, ob du personalisierte Werbung erlaubst. Ohne Einwilligung wird nicht personalisierte Werbung angezeigt. Du kannst deine Wahl jederzeit ändern:</p>
+      <p className="text-mist">Quizkaiser ist kostenlos und kann durch Werbung von Google AdSense finanziert werden. Google kann Cookies verwenden, um Werbung anzuzeigen. Du entscheidest selbst, ob du personalisierte Werbung erlaubst. Ohne Einwilligung wird nicht personalisierte Werbung angezeigt. Du kannst deine Wahl jederzeit ändern:</p>
       <ConsentSettingsButton />
       <p className="text-mist">
         Mehr dazu, wie Google Daten verwendet:{" "}
@@ -26,9 +26,9 @@ export default function Page() {
         .
       </p>
       <h2 className="font-display text-2xl font-bold uppercase">Kontaktformular</h2>
-      <p className="text-mist">Wenn du über das Kontaktformular eine Nachricht sendest, speichern wir Betreff, Nachricht und die angegebene E-Mail-Adresse, zusammen mit einem anonymen, täglich wechselnden Code, der nur dazu dient, die Zahl der Nachrichten pro Tag zu begrenzen. Die Nachricht wird über den E-Mail-Dienst Resend an den Betreiber von Tippkaiser weitergeleitet. Wir verwenden die Angaben nur, um dir zu antworten, und Nachrichten werden nach 12 Monaten automatisch gelöscht.</p>
+      <p className="text-mist">Wenn du über das Kontaktformular eine Nachricht sendest, speichern wir Betreff, Nachricht und die angegebene E-Mail-Adresse, zusammen mit einem anonymen, täglich wechselnden Code, der nur dazu dient, die Zahl der Nachrichten pro Tag zu begrenzen. Die Nachricht wird über den E-Mail-Dienst Resend an den Betreiber von Quizkaiser weitergeleitet. Wir verwenden die Angaben nur, um dir zu antworten, und Nachrichten werden nach 12 Monaten automatisch gelöscht.</p>
       <h2 className="font-display text-2xl font-bold uppercase">Verantwortlicher und Kontakt</h2>
-      <p className="text-mist">Tippkaiser wird als unabhängiges Projekt betrieben. Fragen zum Datenschutz oder zur Auskunft kannst du über das <Link href="/kontakt" className="underline">Kontaktformular</Link> stellen. Du hast das Recht, dich bei einer Datenschutz-Aufsichtsbehörde zu beschweren.</p>
+      <p className="text-mist">Quizkaiser wird als unabhängiges Projekt betrieben. Fragen zum Datenschutz oder zur Auskunft kannst du über das <Link href="/kontakt" className="underline">Kontaktformular</Link> stellen. Du hast das Recht, dich bei einer Datenschutz-Aufsichtsbehörde zu beschweren.</p>
     </article>
   );
 }

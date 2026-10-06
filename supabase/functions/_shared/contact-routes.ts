@@ -67,10 +67,10 @@ export async function contactRoute(req: Request, visitor: string, mail: Mailer =
   const failure = to
     ? await mail({
         to,
-        from: env("CONTACT_FROM") || "Tippkaiser <onboarding@resend.dev>",
+        from: env("CONTACT_FROM") || "Quizkaiser <onboarding@resend.dev>",
         replyTo: sender,
-        subject: `[Tippkaiser] ${title}`,
-        text: `${message}\n\n— ${sender}\nSendt fra kontaktskjemaet på Tippkaiser. Svar på denne e-posten for å svare avsenderen.`,
+        subject: `[Quizkaiser] ${title}`,
+        text: `${message}\n\n— ${sender}\nSendt fra kontaktskjemaet på Quizkaiser. Svar på denne e-posten for å svare avsenderen.`,
       })
     : "CONTACT_TO er ikke satt";
 

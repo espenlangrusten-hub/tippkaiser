@@ -49,7 +49,7 @@ test("profile and friend-league flow works end-to-end", async ({ page }, testInf
   await page.getByRole("button", { name: "Abmelden" }).click();
 
   await page.goto("/liga/?join=" + code);
-  await expect(page.getByText(/Du brauchst ein Tippkaiser-Profil/)).toBeVisible();
+  await expect(page.getByText(/Du brauchst ein Quizkaiser-Profil/)).toBeVisible();
   await page.getByRole("link", { name: "Profil anlegen" }).click();
 
   await expect(page).toHaveURL(new RegExp("/profil/\\?join=" + code + "#register$"));

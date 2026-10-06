@@ -2,7 +2,7 @@ import { readFileSync } from "node:fs";
 import path from "node:path";
 import { ImageResponse } from "next/og";
 
-export const alt = "Tippkaiser – die täglichen Fußballspiele";
+export const alt = "Quizkaiser – Tägliches Fußballquiz";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 export const dynamic = "force-static";
@@ -25,7 +25,7 @@ const RED = "#dd0000";
 const GOLD = "#ffce00";
 const SNOW = "#f4f7fb";
 
-/** The Tippkaiser wordmark, read from disk at build time like the fonts. */
+/** The Quizkaiser wordmark, read from disk at build time like the fonts. */
 const logo = `data:image/png;base64,${readFileSync(path.join(process.cwd(), "public/brand/logo.png")).toString("base64")}`;
 
 export default function Image() {

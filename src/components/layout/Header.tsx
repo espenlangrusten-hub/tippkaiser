@@ -49,7 +49,7 @@ export function Header() {
   return (
     <header className="stadium-header">
       <div className="stadium-header-inner">
-        <Link href="/" className="stadium-brand tt-wordmark" aria-label="Tippkaiser – Startseite">
+        <Link href="/" className="stadium-brand tt-wordmark" aria-label="Quizkaiser – Startseite">
           <span className="tt-reference-logo"><ReferenceArt name="logo" /></span>
         </Link>
 

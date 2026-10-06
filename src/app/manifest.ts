@@ -4,16 +4,16 @@ import { BASE_PATH } from "@/lib/site";
 export const dynamic = "force-static";
 
 /**
- * Lets "Zum Home-Bildschirm" install Tippkaiser with its own icon and without the
+ * Lets "Zum Home-Bildschirm" install Quizkaiser with its own icon and without the
  * browser bar - a daily game lives on the home screen. Paths carry the base path so the
  * same build works on github.io/tippetuppen and on tippetuppen.no.
  */
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Tippkaiser – die täglichen Fußballspiele",
-    short_name: "Tippkaiser",
-    description: "Das tägliche Fußballquiz: Fehlende Elf, Torlos, Finde den Spieler, Elfmeter, Trainer-Genie und Goldwort.",
-    lang: "nb",
+    name: "Quizkaiser – Tägliches Fußballquiz",
+    short_name: "Quizkaiser",
+    description: "Tägliches Fußballquiz: Fehlende Elf, Torlos, Finde den Spieler, Elfmeter, Trainer-Genie und Goldwort.",
+    lang: "de",
     start_url: `${BASE_PATH}/`,
     scope: `${BASE_PATH}/`,
     display: "standalone",

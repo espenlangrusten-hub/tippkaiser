@@ -31,7 +31,7 @@ describe("Månedens Tippetupp sier det riktige hver dag i måneden", () => {
     const c = monthCopy(on("2026-09-23"), null);
     expect(c.pulse.urgent).toBe(true);
     expect(c.pulse.lead).toBe("Noch 7 Tage im September.");
-    expect(c.pulse.rest).toBe("Wer wird Tippkaiser des Monats?");
+    expect(c.pulse.rest).toBe("Wer wird Quizkaiser des Monats?");
   });
 
   it("sier én dag, ikke «1 dager», dagen før", () => {
@@ -41,7 +41,7 @@ describe("Månedens Tippetupp sier det riktige hver dag i måneden", () => {
   it("varsler kåringen på siste dag", () => {
     const c = monthCopy(on("2026-09-30"), null);
     expect(c.pulse.lead).toBe("Letzter Tag.");
-    expect(c.pulse.rest).toContain("Um Mitternacht steht der Tippkaiser im September fest");
+    expect(c.pulse.rest).toContain("Um Mitternacht steht der Quizkaiser im September fest");
   });
 
   it("starter en ny måned på null", () => {
@@ -60,7 +60,7 @@ describe("forrige måneds vinner", () => {
   it("står i gull med måneden den vant", () => {
     const c = monthCopy(on("2026-10-05"), { month: "2026-09", username: "bergensbanen", points: 2410 });
     expect(c.champion?.name).toBe("bergensbanen");
-    expect(c.champion?.kicker).toBe("Tippkaiser des Monats · September");
+    expect(c.champion?.kicker).toBe("Quizkaiser des Monats · September");
     expect(c.champion?.points).toMatch(/^2[.\s]?410 Punkte$/);
     expect(c.noChampion).toBeNull();
   });
@@ -69,7 +69,7 @@ describe("forrige måneds vinner", () => {
     // September 2026 er den første måneden med resultater, så i dag finnes ingen.
     const c = monthCopy(on("2026-09-23"), null);
     expect(c.champion).toBeNull();
-    expect(c.noChampion).toBe("Am 1. Oktober steht hier der Tippkaiser im September in Gold. Bleib dran bis zum Monatsende!");
+    expect(c.noChampion).toBe("Am 1. Oktober steht hier der Quizkaiser im September in Gold. Bleib dran bis zum Monatsende!");
   });
 
   it("lover ikke «første» gullnavn, som bare er sant én gang", () => {

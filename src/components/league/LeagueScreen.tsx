@@ -262,10 +262,10 @@ export function LeagueScreen() {
   const shareLeague = async () => {
     if (!selected) return;
     const inviteUrl = window.location.origin + BASE_PATH + "/liga/?join=" + encodeURIComponent(selected.code);
-    const text = `Spiel mit in der Freundesliga „${selected.name}“ auf Tippkaiser. Code: ${selected.code}`;
+    const text = `Spiel mit in der Freundesliga „${selected.name}“ auf Quizkaiser. Code: ${selected.code}`;
     try {
       if (navigator.share) {
-        await navigator.share({ title: selected.name + " – Tippkaiser", text, url: inviteUrl });
+        await navigator.share({ title: selected.name + " – Quizkaiser", text, url: inviteUrl });
         return;
       }
       await navigator.clipboard.writeText(inviteUrl);
@@ -437,7 +437,7 @@ function LeagueDashboard(props: {
               <ProfileAvatar avatarId={props.me?.avatar_id ?? null} size={76} />
               <div>
                 <strong>{props.user.username}</strong>
-                <span>Dein Tippkaiser-Profil</span>
+                <span>Dein Quizkaiser-Profil</span>
               </div>
             </div>
             <div className="league-profile-stats">
@@ -630,7 +630,7 @@ function FriendLeagues(props: {
     return (
       <section className="card p-5">
         <h2 className="font-display text-2xl font-bold uppercase">Freundesligen</h2>
-        <p className="mt-2 text-mist">Du brauchst ein Tippkaiser-Profil und musst angemeldet sein, um eine Freundesliga zu gründen oder ihr beizutreten.</p>
+        <p className="mt-2 text-mist">Du brauchst ein Quizkaiser-Profil und musst angemeldet sein, um eine Freundesliga zu gründen oder ihr beizutreten.</p>
         <div className="mt-4 flex flex-wrap gap-2">
           <Link href={props.joinCode ? "/profil/?join=" + encodeURIComponent(props.joinCode) + "#login" : "/profil/#login"} className="btn btn-primary">Anmelden</Link>
           <Link href={props.joinCode ? "/profil/?join=" + encodeURIComponent(props.joinCode) + "#register" : "/profil/#register"} className="btn btn-secondary">Profil anlegen</Link>
@@ -644,7 +644,7 @@ function FriendLeagues(props: {
       <section className="grid gap-4 md:grid-cols-2">
         <form className="card p-5" onSubmit={props.onCreate}>
           <h2 className="font-display text-2xl font-bold uppercase">Freundesliga gründen</h2>
-          <p className="mt-1 text-sm text-mist">Wähle einen Namen. Tippkaiser erstellt automatisch einen privaten Code.</p>
+          <p className="mt-1 text-sm text-mist">Wähle einen Namen. Quizkaiser erstellt automatisch einen privaten Code.</p>
           <input
             className="input mt-4"
             value={props.createName}
@@ -707,7 +707,7 @@ function FriendLeagues(props: {
             <div className="flex flex-wrap items-start justify-between gap-3">
               <div>
                 <h2 className="font-display text-3xl font-bold">{props.selected.name}</h2>
-                <p className="text-sm text-mist">Dieselben Monatspunkte wie in der offenen Tippkaiser-Liga.</p>
+                <p className="text-sm text-mist">Dieselben Monatspunkte wie in der offenen Quizkaiser-Liga.</p>
               </div>
               <div className="flex flex-wrap gap-2">
                 <button className="btn btn-primary" type="button" onClick={props.onShare}>Liga teilen</button>

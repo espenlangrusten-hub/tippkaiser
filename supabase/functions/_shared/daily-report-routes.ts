@@ -74,7 +74,7 @@ async function send(input: ReportInput, mail: Mailer): Promise<string | null> {
   const to = env("CONTACT_TO");
   if (!to) return "CONTACT_TO er ikke satt";
   const { subject, text } = buildDailyReport(input);
-  return await mail({ to, from: env("CONTACT_FROM") || "Tippkaiser <onboarding@resend.dev>", subject, text, html: reportHtml(text) });
+  return await mail({ to, from: env("CONTACT_FROM") || "Quizkaiser <onboarding@resend.dev>", subject, text, html: reportHtml(text) });
 }
 
 /** The scheduled send: at most once per Oslo day, never before 18:00. */

@@ -39,11 +39,11 @@ export function monthCopy(month: LeagueMonth, champion: Champion): MonthCopy {
 
   let pulse: MonthCopy["pulse"];
   if (daysLeft === 0) {
-    pulse = { lead: "Letzter Tag.", rest: `Um Mitternacht steht der Tippkaiser im ${name} fest.`, urgent: true };
+    pulse = { lead: "Letzter Tag.", rest: `Um Mitternacht steht der Quizkaiser im ${name} fest.`, urgent: true };
   } else if (daysLeft === 1) {
-    pulse = { lead: "Noch ein Tag.", rest: "Wer wird Tippkaiser des Monats?", urgent: true };
+    pulse = { lead: "Noch ein Tag.", rest: "Wer wird Quizkaiser des Monats?", urgent: true };
   } else if (daysLeft <= FINAL_STRETCH_DAYS) {
-    pulse = { lead: `Noch ${daysLeft} Tage im ${name}.`, rest: "Wer wird Tippkaiser des Monats?", urgent: true };
+    pulse = { lead: `Noch ${daysLeft} Tage im ${name}.`, rest: "Wer wird Quizkaiser des Monats?", urgent: true };
   } else if (dayOfMonth <= 3) {
     pulse = { lead: "Neuer Monat, neues Glück.", rest: "Alle starten bei null.", urgent: false };
   } else {
@@ -56,12 +56,12 @@ export function monthCopy(month: LeagueMonth, champion: Champion): MonthCopy {
     period: `${capital(name)} ${month.to.slice(0, 4)} · Ligapunkte`,
     pulse,
     champion: shown
-      ? { kicker: `Tippkaiser des Monats · ${monthNameNo(`${shown.month}-01`)}`, name: shown.username, points: fmtPoints(shown.points) }
+      ? { kicker: `Quizkaiser des Monats · ${monthNameNo(`${shown.month}-01`)}`, name: shown.username, points: fmtPoints(shown.points) }
       : null,
     // No month has been decided yet, or last month nobody played. Either way the honest
     // thing to say is when the next one is decided, and that it is still open.
     // Not "the first gold name": that stops being true the first time a later month ends
     // without a winner, and nothing on the client knows which case it is in.
-    noChampion: shown ? null : `Am 1. ${next} steht hier der Tippkaiser im ${name} in Gold. Bleib dran bis zum Monatsende!`,
+    noChampion: shown ? null : `Am 1. ${next} steht hier der Quizkaiser im ${name} in Gold. Bleib dran bis zum Monatsende!`,
   };
 }

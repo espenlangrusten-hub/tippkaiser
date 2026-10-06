@@ -5,11 +5,11 @@ export function Footer() {
   return (
     <footer className="tt-footer">
       <div className="tt-footer-inner">
-        <Link href="/" className="stadium-brand tt-wordmark tt-footer-brand" aria-label="Tippkaiser – Startseite">
+        <Link href="/" className="stadium-brand tt-wordmark tt-footer-brand" aria-label="Quizkaiser – Startseite">
           <span className="tt-reference-logo"><ReferenceArt name="logo" /></span>
         </Link>
         <nav className="tt-footer-links" aria-label="Fußzeilenmenü">
-          <Link href="/om/">Über Tippkaiser</Link>
+          <Link href="/om/">Über Quizkaiser</Link>
           <Link href="/kontakt/">Häufige Fragen</Link>
           <Link href="/personvern/">Datenschutz</Link>
           <Link href="/kontakt/">Kontakt</Link>
