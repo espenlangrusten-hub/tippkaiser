@@ -80,6 +80,7 @@ jobs:
         env:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
         run: |
+          node --import tsx scripts/check-db-url.ts
           npm run db:migrate
           npm run db:seed
           node --import tsx scripts/schedule.ts --days 400

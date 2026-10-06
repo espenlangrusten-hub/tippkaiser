@@ -53,6 +53,10 @@ jobs:
         env:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
         run: test -n "$DATABASE_URL" || { echo "::error::DATABASE_URL is missing; refusing to use a temporary local database."; exit 1; }
+      - name: Check database connection
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: node --import tsx scripts/check-db-url.ts
       - name: Apply migrations
         env:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
