@@ -5,8 +5,8 @@ import type { BetaQuestion } from "@/lib/straffespark-beta";
 import { BetaGame } from "./BetaGame";
 
 export const metadata: Metadata = {
-  title: "Elfmeter – die 5 des Tages",
-  description: "Jeden Tag fünf neue Fragen zum deutschen Fußball. Eine Frage nach der anderen.",
+  title: "Elfmeter – Fünf Fußballfragen am Tag",
+  description: "Fünf schnelle Fragen zum deutschen Fußball. Täglich neu auf Quizkaiser.",
   alternates: { canonical: "/straffespark" },
 };
 

@@ -8,8 +8,10 @@ import { SITE_URL } from "@/lib/site";
  * the crawlable surface is the landing pages; the daily games are the point.
  */
 export default function sitemap(): MetadataRoute.Sitemap {
+  const lastModified = new Date();
   const page = (path: string, priority: number, changeFrequency: "daily" | "monthly") => ({
     url: `${SITE_URL}${path}`,
+    lastModified,
     changeFrequency,
     priority,
   });
