@@ -18,9 +18,16 @@
   "tags": [
     "import:tippkaiser-test"
   ],
-  "status": "recall",
-  "sources": [],
-  "notes": "Startelf aus dem Gedächtnis; die Wikipedia-Prüfung bestätigt die Namen im Artikel. Positionen und Rückennummern stammen nicht aus der Prüfung.",
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Europameisterschaft_2024/Gruppe_A",
+      "title": "Fußball-Europameisterschaft 2024/Gruppe A – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-06",
+      "note": "Artikkelteksten nevner «Andrich» og «Gündoğan» og «Havertz» og «Kimmich» og «Kroos» og «Mittelstädt» og «Musiala» og «Neuer» og «Rüdiger» og «Tah» og «Wirtz» og «Schottland». Automatisk kontroll, ikke lest av et menneske."
+    }
+  ],
   "goalsPartial": false,
   "lineup": [
     {

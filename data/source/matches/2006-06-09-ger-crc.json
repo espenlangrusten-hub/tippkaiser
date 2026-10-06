@@ -18,9 +18,16 @@
   "tags": [
     "import:tippkaiser-test"
   ],
-  "status": "recall",
-  "sources": [],
-  "notes": "Startelf aus dem Gedächtnis; die Wikipedia-Prüfung bestätigt die Namen im Artikel. Positionen und Rückennummern stammen nicht aus der Prüfung.",
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Weltmeisterschaft_2006/Gruppe_A",
+      "title": "Fußball-Weltmeisterschaft 2006/Gruppe A – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-06",
+      "note": "Artikkelteksten nevner «Borowski» og «Friedrich» og «Frings» og «Klose» og «Lahm» og «Lehmann» og «Mertesacker» og «Metzelder» og «Podolski» og «Schneider» og «Schweinsteiger» og «Costa Rica». Automatisk kontroll, ikke lest av et menneske."
+    }
+  ],
   "goalsPartial": false,
   "lineup": [
     {
