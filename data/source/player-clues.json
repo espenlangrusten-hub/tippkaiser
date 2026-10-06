@@ -245,7 +245,7 @@
   {
     "playerId": "lukas-podolski",
     "hints": [
-      "Ich wurde 1985 in Gleiwitz in Polen geboren.",
+      "Ich wurde 1985 in Gliwice in Polen geboren.",
       "Meine Profikarriere begann beim 1. FC Köln.",
       "In Japan spielte ich für Vissel Kobe."
     ],
@@ -254,7 +254,7 @@
     "verify": {
       "subject": "Lukas Podolski",
       "mustMention": [
-        "Gleiwitz",
+        "Gliwice",
         "1985",
         "Köln",
         "Vissel"

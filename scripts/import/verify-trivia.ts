@@ -77,7 +77,13 @@ const checkable = (id: string, e: Raw): Checkable => ({
   verify: e.verify as Checkable["verify"],
 });
 
-type ApiPage = { title: string; missing?: boolean; extract?: string; fullurl?: string };
+type ApiPage = {
+  title: string;
+  missing?: boolean;
+  extract?: string;
+  fullurl?: string;
+  revisions?: { slots?: { main?: { content?: string } } }[];
+};
 
 async function query(params: Record<string, string>): Promise<ApiPage[]> {
   const url = new URL(API);
@@ -88,7 +94,14 @@ async function query(params: Record<string, string>): Promise<ApiPage[]> {
   return json.query?.pages ?? [];
 }
 
-const EXTRACT = { prop: "extracts|info", explaintext: "1", exlimit: "1", inprop: "url" };
+/**
+ * The plain-text extract drops every table, and line-ups, squads and lists of winners
+ * live in tables. The page's wikitext is read alongside it, so a name that is only in a
+ * table still counts as written in the article. Both are the same article: nothing is
+ * read from anywhere else.
+ */
+const EXTRACT = { prop: "extracts|info|revisions", explaintext: "1", exlimit: "1", inprop: "url", rvprop: "content", rvslots: "main" };
+const textOf = (page: ApiPage) => [page.extract ?? "", page.revisions?.[0]?.slots?.main?.content ?? ""].join("\n");
 
 /**
  * Exact title first, search second. Search is what saves the run when an article has
@@ -97,12 +110,12 @@ const EXTRACT = { prop: "extracts|info", explaintext: "1", exlimit: "1", inprop:
  */
 async function fetchArticle(subject: string): Promise<WikiPage> {
   const [exact] = await query({ titles: subject, redirects: "1", ...EXTRACT });
-  if (exact && !exact.missing && exact.extract) return { title: exact.title, url: exact.fullurl ?? "", extract: exact.extract };
+  if (exact && !exact.missing && textOf(exact).trim()) return { title: exact.title, url: exact.fullurl ?? "", extract: textOf(exact) };
 
   const [hit] = await query({ generator: "search", gsrsearch: subject, gsrlimit: "1", ...EXTRACT });
-  if (!hit || hit.missing || !hit.extract) return null;
+  if (!hit || hit.missing || !textOf(hit).trim()) return null;
   if (!articleMatchesSubject(hit.title, subject)) return null;
-  return { title: hit.title, url: hit.fullurl ?? "", extract: hit.extract };
+  return { title: hit.title, url: hit.fullurl ?? "", extract: textOf(hit) };
 }
 
 async function main() {
