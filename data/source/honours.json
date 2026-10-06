@@ -1261,8 +1261,16 @@
     "year": 2015,
     "player": "Alexander Meier",
     "value": 19,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Alex_Meier",
+        "title": "Alex Meier – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Torschützenkönig» og «Eintracht Frankfurt». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Alexander Meier",
       "mustMention": [
