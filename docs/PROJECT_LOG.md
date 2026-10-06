@@ -21,6 +21,11 @@ Slik fjernes alt igjen, hvis Tippkaiser legges ned (irreversibelt, ta backup fø
 `drop schema tippkaiser cascade; drop schema tippkaiser_drizzle cascade;` og slett
 funksjonen `kaiser-api` og `KAISER_*`-secrets i Supabase.
 
+Første kjøringer: `DATABASE_URL` var først «Direct connection» (`db.….supabase.co:5432`), som
+bare er IPv6 og som GitHubs maskiner ikke når (`ENETUNREACH`). Med «Transaction pooler»
+gikk databasen og `kaiser-api` gjennom; publiseringen stoppet til GitHub Pages var slått
+på med kilde «GitHub Actions». `scripts/check-db-url.ts` sjekker nå adressen først.
+
 Innholdet ved oppstart, alt kontrollert mot tysk Wikipedia: Goldwort 113 dager,
 Finde den Spieler 42, Trainer-Genie 22, Fehlende Elf 8, Torlos 6 og Elfmeter 532
 spørsmål.
