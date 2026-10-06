@@ -1264,12 +1264,12 @@
     "status": "recall",
     "sources": [],
     "verify": {
-      "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
+      "subject": "Alexander Meier",
       "mustMention": [
-        "Alexander Meier"
+        "Torschützenkönig",
+        "Eintracht Frankfurt"
       ]
-    },
-    "notes": "Artikkelen «Liste der Torschützenkönige der Fußball-Bundesliga» nevner ikke «Alexander Meier». Sjekk svaret for hånd."
+    }
   },
   {
     "kind": "top_scorer",

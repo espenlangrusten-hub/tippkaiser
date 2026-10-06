@@ -2335,5 +2335,100 @@
         "url": "https://de.wikipedia.org/wiki/Sebastian_Hoene%C3%9F"
       }
     ]
+  },
+  {
+    "sourceId": "tq-hennes-weisweiler-2",
+    "expectedAnswer": "Hennes Weisweiler",
+    "difficulty": 1,
+    "category": "Wer war's?",
+    "distractors": [
+      "Udo Lattek",
+      "Helmut Schön",
+      "Dettmar Cramer"
+    ],
+    "fact": "Junge, schnelle Spieler wie Netzer und Heynckes prägten die Mannschaft.",
+    "reviewedAt": "2026-10-06",
+    "sources": [
+      {
+        "title": "Hennes Weisweiler – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Hennes_Weisweiler"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-thomas-tuchel-2",
+    "expectedAnswer": "England",
+    "difficulty": 1,
+    "category": "Nationalteams",
+    "distractors": [
+      "Deutschland",
+      "USA",
+      "Frankreich"
+    ],
+    "fact": "Er ist der dritte ausländische Cheftrainer Englands.",
+    "reviewedAt": "2026-10-06",
+    "sources": [
+      {
+        "title": "Thomas Tuchel – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Thomas_Tuchel"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-ernst-happel-3",
+    "expectedAnswer": "Feyenoord Rotterdam",
+    "difficulty": 3,
+    "category": "Titel",
+    "distractors": [
+      "Ajax Amsterdam",
+      "PSV Eindhoven",
+      "FC Brügge"
+    ],
+    "fact": "Feyenoord war der erste niederländische Sieger des Wettbewerbs.",
+    "reviewedAt": "2026-10-06",
+    "sources": [
+      {
+        "title": "Ernst Happel – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Ernst_Happel"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-thomas-schaaf-1",
+    "expectedAnswer": "Thomas Schaaf",
+    "difficulty": 1,
+    "category": "Titel",
+    "distractors": [
+      "Otto Rehhagel",
+      "Felix Magath",
+      "Klaus Allofs"
+    ],
+    "fact": "Er trainierte Werder 14 Jahre lang.",
+    "reviewedAt": "2026-10-06",
+    "sources": [
+      {
+        "title": "Thomas Schaaf – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Thomas_Schaaf"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-niko-kovac-2",
+    "expectedAnswer": "Kroatien",
+    "difficulty": 2,
+    "category": "Nationalteams",
+    "distractors": [
+      "Serbien",
+      "Bosnien und Herzegowina",
+      "Österreich"
+    ],
+    "fact": "Für Kroatien hatte er auch als Spieler viele Länderspiele bestritten.",
+    "reviewedAt": "2026-10-06",
+    "sources": [
+      {
+        "title": "Niko Kovač – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Niko_Kova%C4%8D"
+      }
+    ]
   }
 ]
