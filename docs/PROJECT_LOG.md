@@ -1,6 +1,29 @@
-# Tippetuppen – prosjektlogg
+# Tippkaiser – prosjektlogg
 
-Kort logg over viktige beslutninger, milepæler og blokkere. Nyeste øverst.
+Kort logg over viktige beslutninger, milepæler og blokkere. Nyeste øverst. Oppføringene
+før 2026-10-04 er arvet fra Tippetuppen, som Tippkaiser er kopiert fra.
+
+## 2026-10-06 – Første publisering: eget schema i den delte databasen
+
+Tippkaiser bruker Supabase-prosjektet «dommer», det samme som Tippetuppen. Første
+deploy oppretter derfor varige objekter i den databasen:
+- **Schemaet `tippkaiser`** med alle spillets tabeller (brukere, økter, oppgaver,
+  dagsplan, resultater, ligaer og meldinger), med radsikkerhet på brukertabellene.
+- **Schemaet `tippkaiser_drizzle`** med migreringshistorikken
+  (`__drizzle_migrations`), adskilt fra Tippetuppens.
+- **Edge-funksjonen `kaiser-api`**.
+
+Migreringene er kontrollert før første kjøring: de oppretter og endrer bare objekter i
+de to schemaene over. Ingen rettigheter, roller, utvidelser eller noe i `tippetuppen`
+eller `public` røres. Funksjonen leser bare egne `KAISER_*`-secrets, aldri Tippetuppens.
+
+Slik fjernes alt igjen, hvis Tippkaiser legges ned (irreversibelt, ta backup først):
+`drop schema tippkaiser cascade; drop schema tippkaiser_drizzle cascade;` og slett
+funksjonen `kaiser-api` og `KAISER_*`-secrets i Supabase.
+
+Innholdet ved oppstart, alt kontrollert mot tysk Wikipedia: Goldwort 113 dager,
+Finde den Spieler 42, Trainer-Genie 22, Fehlende Elf 8, Torlos 6 og Elfmeter 532
+spørsmål.
 
 ## 2026-10-03 – Stygge brukernavn stoppes
 
