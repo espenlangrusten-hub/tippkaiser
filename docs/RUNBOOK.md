@@ -33,7 +33,7 @@ På Tippkaiser-repoet: **Settings → Pages → Source: GitHub Actions**.
 | --- | --- |
 | `SUPABASE_ACCESS_TOKEN` | Gyldig personlig Supabase-token med tilgang til å deploye funksjonen. |
 | `SUPABASE_PROJECT_REF` | `ocmdsghjehrckwtbehne` (prosjektet dommer). |
-| `DATABASE_URL` | Transaction-pooler-tilkoblingen fra prosjektets Connect-dialog, med databasepassord. |
+| `DATABASE_URL` | Transaction-pooler-tilkoblingen fra prosjektets Connect-dialog, med databasepassord. Kjennetegn: bruker `postgres.ocmdsghjehrckwtbehne`, vert `….pooler.supabase.com`, port `6543`. **Ikke** «Direct connection» (`db.….supabase.co:5432`): den er bare IPv6, og GitHubs maskiner når den ikke (`ENETUNREACH`). Hele `%5BYOUR-PASSWORD%5D` byttes med passordet; spesialtegn i passordet URL-kodes. `scripts/check-db-url.ts` sjekker adressen først i Deploy og Oppdater data. |
 
 Ikke del secrets i chat eller legg dem i kode. Ikke nullstill det delte databasepassordet
 for å konfigurere dette repoet; det kan bryte Tippetuppen.
