@@ -18,9 +18,16 @@
   "tags": [
     "import:tippkaiser-test"
   ],
-  "status": "recall",
-  "sources": [],
-  "notes": "Startelf aus dem Gedächtnis; die Wikipedia-Prüfung bestätigt die Namen im Artikel. Positionen und Rückennummern stammen nicht aus der Prüfung.",
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Weltmeisterschaft_2014/Finalrunde",
+      "title": "Fußball-Weltmeisterschaft 2014/Finalrunde – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-06",
+      "note": "Artikkelteksten nevner «Boateng» og «Hummels» og «Höwedes» og «Khedira» og «Klose» og «Kroos» og «Lahm» og «Müller» og «Neuer» og «Schweinsteiger» og «Özil» og «Brasilien». Automatisk kontroll, ikke lest av et menneske."
+    }
+  ],
   "goalsPartial": false,
   "lineup": [
     {

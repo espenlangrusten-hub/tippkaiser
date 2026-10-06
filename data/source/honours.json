@@ -3,8 +3,16 @@
     "kind": "cup_title",
     "year": 1985,
     "club": "uerdingen",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_1984/85",
+        "title": "DFB-Pokal 1984/85 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Uerdingen». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 1984/85",
       "mustMention": [
@@ -16,8 +24,16 @@
     "kind": "cup_title",
     "year": 1986,
     "club": "bayern",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_1985/86",
+        "title": "DFB-Pokal 1985/86 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Bayern München». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 1985/86",
       "mustMention": [
@@ -29,8 +45,16 @@
     "kind": "cup_title",
     "year": 1987,
     "club": "hsv",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_1986/87",
+        "title": "DFB-Pokal 1986/87 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Hamburger SV». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 1986/87",
       "mustMention": [
@@ -42,8 +66,16 @@
     "kind": "cup_title",
     "year": 1988,
     "club": "frankfurt",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_1987/88",
+        "title": "DFB-Pokal 1987/88 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Eintracht Frankfurt». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 1987/88",
       "mustMention": [
@@ -55,8 +87,16 @@
     "kind": "cup_title",
     "year": 1989,
     "club": "dortmund",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_1988/89",
+        "title": "DFB-Pokal 1988/89 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Borussia Dortmund». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 1988/89",
       "mustMention": [
@@ -68,8 +108,16 @@
     "kind": "cup_title",
     "year": 1990,
     "club": "kaiserslautern",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_1989/90",
+        "title": "DFB-Pokal 1989/90 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Kaiserslautern». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 1989/90",
       "mustMention": [
@@ -81,8 +129,16 @@
     "kind": "cup_title",
     "year": 1991,
     "club": "werder",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_1990/91",
+        "title": "DFB-Pokal 1990/91 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Werder Bremen». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 1990/91",
       "mustMention": [
@@ -94,8 +150,16 @@
     "kind": "cup_title",
     "year": 1992,
     "club": "hannover",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_1991/92",
+        "title": "DFB-Pokal 1991/92 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Hannover 96». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 1991/92",
       "mustMention": [
@@ -107,8 +171,16 @@
     "kind": "cup_title",
     "year": 1993,
     "club": "leverkusen",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_1992/93",
+        "title": "DFB-Pokal 1992/93 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Leverkusen». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 1992/93",
       "mustMention": [
@@ -120,8 +192,16 @@
     "kind": "cup_title",
     "year": 1994,
     "club": "werder",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_1993/94",
+        "title": "DFB-Pokal 1993/94 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Werder Bremen». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 1993/94",
       "mustMention": [
@@ -133,8 +213,16 @@
     "kind": "cup_title",
     "year": 1995,
     "club": "gladbach",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_1994/95",
+        "title": "DFB-Pokal 1994/95 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Mönchengladbach». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 1994/95",
       "mustMention": [
@@ -146,8 +234,16 @@
     "kind": "cup_title",
     "year": 1996,
     "club": "kaiserslautern",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_1995/96",
+        "title": "DFB-Pokal 1995/96 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Kaiserslautern». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 1995/96",
       "mustMention": [
@@ -159,8 +255,16 @@
     "kind": "cup_title",
     "year": 1997,
     "club": "stuttgart",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_1996/97",
+        "title": "DFB-Pokal 1996/97 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «VfB Stuttgart». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 1996/97",
       "mustMention": [
@@ -172,8 +276,16 @@
     "kind": "cup_title",
     "year": 1998,
     "club": "bayern",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_1997/98",
+        "title": "DFB-Pokal 1997/98 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Bayern München». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 1997/98",
       "mustMention": [
@@ -185,8 +297,16 @@
     "kind": "cup_title",
     "year": 1999,
     "club": "werder",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_1998/99",
+        "title": "DFB-Pokal 1998/99 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Werder Bremen». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 1998/99",
       "mustMention": [
@@ -198,8 +318,16 @@
     "kind": "cup_title",
     "year": 2000,
     "club": "bayern",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_1999/2000",
+        "title": "DFB-Pokal 1999/2000 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Bayern München». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 1999/2000",
       "mustMention": [
@@ -211,8 +339,16 @@
     "kind": "cup_title",
     "year": 2001,
     "club": "schalke",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_2000/01",
+        "title": "DFB-Pokal 2000/01 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Schalke 04». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 2000/01",
       "mustMention": [
@@ -224,8 +360,16 @@
     "kind": "cup_title",
     "year": 2002,
     "club": "schalke",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_2001/02",
+        "title": "DFB-Pokal 2001/02 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Schalke 04». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 2001/02",
       "mustMention": [
@@ -237,8 +381,16 @@
     "kind": "cup_title",
     "year": 2003,
     "club": "bayern",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_2002/03",
+        "title": "DFB-Pokal 2002/03 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Bayern München». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 2002/03",
       "mustMention": [
@@ -250,8 +402,16 @@
     "kind": "cup_title",
     "year": 2004,
     "club": "werder",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_2003/04",
+        "title": "DFB-Pokal 2003/04 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Werder Bremen». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 2003/04",
       "mustMention": [
@@ -263,8 +423,16 @@
     "kind": "cup_title",
     "year": 2005,
     "club": "bayern",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_2004/05",
+        "title": "DFB-Pokal 2004/05 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Bayern München». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 2004/05",
       "mustMention": [
@@ -276,8 +444,16 @@
     "kind": "cup_title",
     "year": 2006,
     "club": "bayern",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_2005/06",
+        "title": "DFB-Pokal 2005/06 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Bayern München». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 2005/06",
       "mustMention": [
@@ -289,8 +465,16 @@
     "kind": "cup_title",
     "year": 2007,
     "club": "nuernberg",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_2006/07",
+        "title": "DFB-Pokal 2006/07 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «1. FC Nürnberg». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 2006/07",
       "mustMention": [
@@ -302,8 +486,16 @@
     "kind": "cup_title",
     "year": 2008,
     "club": "bayern",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_2007/08",
+        "title": "DFB-Pokal 2007/08 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Bayern München». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 2007/08",
       "mustMention": [
@@ -315,8 +507,16 @@
     "kind": "cup_title",
     "year": 2009,
     "club": "werder",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_2008/09",
+        "title": "DFB-Pokal 2008/09 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Werder Bremen». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 2008/09",
       "mustMention": [
@@ -328,8 +528,16 @@
     "kind": "cup_title",
     "year": 2010,
     "club": "bayern",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_2009/10",
+        "title": "DFB-Pokal 2009/10 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Bayern München». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 2009/10",
       "mustMention": [
@@ -341,8 +549,16 @@
     "kind": "cup_title",
     "year": 2011,
     "club": "schalke",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_2010/11",
+        "title": "DFB-Pokal 2010/11 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Schalke 04». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 2010/11",
       "mustMention": [
@@ -354,8 +570,16 @@
     "kind": "cup_title",
     "year": 2012,
     "club": "dortmund",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_2011/12",
+        "title": "DFB-Pokal 2011/12 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Borussia Dortmund». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 2011/12",
       "mustMention": [
@@ -367,8 +591,16 @@
     "kind": "cup_title",
     "year": 2013,
     "club": "bayern",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_2012/13",
+        "title": "DFB-Pokal 2012/13 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Bayern München». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 2012/13",
       "mustMention": [
@@ -380,8 +612,16 @@
     "kind": "cup_title",
     "year": 2014,
     "club": "bayern",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_2013/14",
+        "title": "DFB-Pokal 2013/14 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Bayern München». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 2013/14",
       "mustMention": [
@@ -393,8 +633,16 @@
     "kind": "cup_title",
     "year": 2015,
     "club": "wolfsburg",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_2014/15",
+        "title": "DFB-Pokal 2014/15 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «VfL Wolfsburg». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 2014/15",
       "mustMention": [
@@ -406,8 +654,16 @@
     "kind": "cup_title",
     "year": 2016,
     "club": "bayern",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_2015/16",
+        "title": "DFB-Pokal 2015/16 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Bayern München». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 2015/16",
       "mustMention": [
@@ -419,8 +675,16 @@
     "kind": "cup_title",
     "year": 2017,
     "club": "dortmund",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_2016/17",
+        "title": "DFB-Pokal 2016/17 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Borussia Dortmund». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 2016/17",
       "mustMention": [
@@ -432,8 +696,16 @@
     "kind": "cup_title",
     "year": 2018,
     "club": "frankfurt",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_2017/18",
+        "title": "DFB-Pokal 2017/18 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Eintracht Frankfurt». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 2017/18",
       "mustMention": [
@@ -445,8 +717,16 @@
     "kind": "cup_title",
     "year": 2019,
     "club": "bayern",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_2018/19",
+        "title": "DFB-Pokal 2018/19 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Bayern München». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 2018/19",
       "mustMention": [
@@ -458,8 +738,16 @@
     "kind": "cup_title",
     "year": 2020,
     "club": "bayern",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_2019/20",
+        "title": "DFB-Pokal 2019/20 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Bayern München». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 2019/20",
       "mustMention": [
@@ -471,8 +759,16 @@
     "kind": "cup_title",
     "year": 2021,
     "club": "dortmund",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_2020/21",
+        "title": "DFB-Pokal 2020/21 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Borussia Dortmund». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 2020/21",
       "mustMention": [
@@ -484,8 +780,16 @@
     "kind": "cup_title",
     "year": 2022,
     "club": "leipzig",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_2021/22",
+        "title": "DFB-Pokal 2021/22 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «RB Leipzig». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 2021/22",
       "mustMention": [
@@ -497,8 +801,16 @@
     "kind": "cup_title",
     "year": 2023,
     "club": "leipzig",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_2022/23",
+        "title": "DFB-Pokal 2022/23 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «RB Leipzig». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 2022/23",
       "mustMention": [
@@ -510,8 +822,16 @@
     "kind": "cup_title",
     "year": 2024,
     "club": "leverkusen",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_2023/24",
+        "title": "DFB-Pokal 2023/24 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Leverkusen». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 2023/24",
       "mustMention": [
@@ -523,8 +843,16 @@
     "kind": "cup_title",
     "year": 2025,
     "club": "stuttgart",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_2024/25",
+        "title": "DFB-Pokal 2024/25 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «VfB Stuttgart». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 2024/25",
       "mustMention": [
@@ -537,8 +865,16 @@
     "year": 2000,
     "player": "Martin Max",
     "value": 19,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Liste_der_Torsch%C3%BCtzenk%C3%B6nige_der_Fu%C3%9Fball-Bundesliga",
+        "title": "Liste der Torschützenkönige der Fußball-Bundesliga – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Martin Max». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
       "mustMention": [
@@ -551,8 +887,16 @@
     "year": 2001,
     "player": "Sergej Barbarez",
     "value": 22,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Liste_der_Torsch%C3%BCtzenk%C3%B6nige_der_Fu%C3%9Fball-Bundesliga",
+        "title": "Liste der Torschützenkönige der Fußball-Bundesliga – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Sergej Barbarez». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
       "mustMention": [
@@ -565,8 +909,16 @@
     "year": 2001,
     "player": "Ebbe Sand",
     "value": 22,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Liste_der_Torsch%C3%BCtzenk%C3%B6nige_der_Fu%C3%9Fball-Bundesliga",
+        "title": "Liste der Torschützenkönige der Fußball-Bundesliga – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Ebbe Sand». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
       "mustMention": [
@@ -579,8 +931,16 @@
     "year": 2002,
     "player": "Márcio Amoroso",
     "value": 18,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Liste_der_Torsch%C3%BCtzenk%C3%B6nige_der_Fu%C3%9Fball-Bundesliga",
+        "title": "Liste der Torschützenkönige der Fußball-Bundesliga – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Márcio Amoroso». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
       "mustMention": [
@@ -593,8 +953,16 @@
     "year": 2002,
     "player": "Martin Max",
     "value": 18,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Liste_der_Torsch%C3%BCtzenk%C3%B6nige_der_Fu%C3%9Fball-Bundesliga",
+        "title": "Liste der Torschützenkönige der Fußball-Bundesliga – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Martin Max». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
       "mustMention": [
@@ -607,8 +975,16 @@
     "year": 2003,
     "player": "Thomas Christiansen",
     "value": 21,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Liste_der_Torsch%C3%BCtzenk%C3%B6nige_der_Fu%C3%9Fball-Bundesliga",
+        "title": "Liste der Torschützenkönige der Fußball-Bundesliga – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Thomas Christiansen». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
       "mustMention": [
@@ -621,8 +997,16 @@
     "year": 2003,
     "player": "Giovane Élber",
     "value": 21,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Liste_der_Torsch%C3%BCtzenk%C3%B6nige_der_Fu%C3%9Fball-Bundesliga",
+        "title": "Liste der Torschützenkönige der Fußball-Bundesliga – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Giovane Élber». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
       "mustMention": [
@@ -635,8 +1019,16 @@
     "year": 2004,
     "player": "Aílton",
     "value": 28,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Liste_der_Torsch%C3%BCtzenk%C3%B6nige_der_Fu%C3%9Fball-Bundesliga",
+        "title": "Liste der Torschützenkönige der Fußball-Bundesliga – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Aílton». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
       "mustMention": [
@@ -649,8 +1041,16 @@
     "year": 2005,
     "player": "Marek Mintál",
     "value": 24,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Liste_der_Torsch%C3%BCtzenk%C3%B6nige_der_Fu%C3%9Fball-Bundesliga",
+        "title": "Liste der Torschützenkönige der Fußball-Bundesliga – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Marek Mintál». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
       "mustMention": [
@@ -663,8 +1063,16 @@
     "year": 2006,
     "player": "Miroslav Klose",
     "value": 25,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Liste_der_Torsch%C3%BCtzenk%C3%B6nige_der_Fu%C3%9Fball-Bundesliga",
+        "title": "Liste der Torschützenkönige der Fußball-Bundesliga – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Miroslav Klose». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
       "mustMention": [
@@ -677,8 +1085,16 @@
     "year": 2007,
     "player": "Theofanis Gekas",
     "value": 20,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Liste_der_Torsch%C3%BCtzenk%C3%B6nige_der_Fu%C3%9Fball-Bundesliga",
+        "title": "Liste der Torschützenkönige der Fußball-Bundesliga – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Theofanis Gekas». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
       "mustMention": [
@@ -691,8 +1107,16 @@
     "year": 2008,
     "player": "Luca Toni",
     "value": 24,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Liste_der_Torsch%C3%BCtzenk%C3%B6nige_der_Fu%C3%9Fball-Bundesliga",
+        "title": "Liste der Torschützenkönige der Fußball-Bundesliga – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Luca Toni». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
       "mustMention": [
@@ -705,8 +1129,16 @@
     "year": 2009,
     "player": "Grafite",
     "value": 28,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Liste_der_Torsch%C3%BCtzenk%C3%B6nige_der_Fu%C3%9Fball-Bundesliga",
+        "title": "Liste der Torschützenkönige der Fußball-Bundesliga – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Grafite». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
       "mustMention": [
@@ -719,8 +1151,16 @@
     "year": 2010,
     "player": "Edin Džeko",
     "value": 22,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Liste_der_Torsch%C3%BCtzenk%C3%B6nige_der_Fu%C3%9Fball-Bundesliga",
+        "title": "Liste der Torschützenkönige der Fußball-Bundesliga – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Edin Džeko». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
       "mustMention": [
@@ -733,8 +1173,16 @@
     "year": 2011,
     "player": "Mario Gómez",
     "value": 28,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Liste_der_Torsch%C3%BCtzenk%C3%B6nige_der_Fu%C3%9Fball-Bundesliga",
+        "title": "Liste der Torschützenkönige der Fußball-Bundesliga – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Mario Gómez». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
       "mustMention": [
@@ -747,8 +1195,16 @@
     "year": 2012,
     "player": "Klaas-Jan Huntelaar",
     "value": 29,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Liste_der_Torsch%C3%BCtzenk%C3%B6nige_der_Fu%C3%9Fball-Bundesliga",
+        "title": "Liste der Torschützenkönige der Fußball-Bundesliga – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Klaas-Jan Huntelaar». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
       "mustMention": [
@@ -761,8 +1217,16 @@
     "year": 2013,
     "player": "Stefan Kießling",
     "value": 25,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Liste_der_Torsch%C3%BCtzenk%C3%B6nige_der_Fu%C3%9Fball-Bundesliga",
+        "title": "Liste der Torschützenkönige der Fußball-Bundesliga – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Stefan Kießling». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
       "mustMention": [
@@ -775,8 +1239,16 @@
     "year": 2014,
     "player": "Robert Lewandowski",
     "value": 20,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Liste_der_Torsch%C3%BCtzenk%C3%B6nige_der_Fu%C3%9Fball-Bundesliga",
+        "title": "Liste der Torschützenkönige der Fußball-Bundesliga – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Robert Lewandowski». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
       "mustMention": [
@@ -796,15 +1268,24 @@
       "mustMention": [
         "Alexander Meier"
       ]
-    }
+    },
+    "notes": "Artikkelen «Liste der Torschützenkönige der Fußball-Bundesliga» nevner ikke «Alexander Meier». Sjekk svaret for hånd."
   },
   {
     "kind": "top_scorer",
     "year": 2016,
     "player": "Robert Lewandowski",
     "value": 30,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Liste_der_Torsch%C3%BCtzenk%C3%B6nige_der_Fu%C3%9Fball-Bundesliga",
+        "title": "Liste der Torschützenkönige der Fußball-Bundesliga – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Robert Lewandowski». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
       "mustMention": [
@@ -817,8 +1298,16 @@
     "year": 2017,
     "player": "Pierre-Emerick Aubameyang",
     "value": 31,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Liste_der_Torsch%C3%BCtzenk%C3%B6nige_der_Fu%C3%9Fball-Bundesliga",
+        "title": "Liste der Torschützenkönige der Fußball-Bundesliga – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Pierre-Emerick Aubameyang». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
       "mustMention": [
@@ -831,8 +1320,16 @@
     "year": 2018,
     "player": "Robert Lewandowski",
     "value": 29,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Liste_der_Torsch%C3%BCtzenk%C3%B6nige_der_Fu%C3%9Fball-Bundesliga",
+        "title": "Liste der Torschützenkönige der Fußball-Bundesliga – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Robert Lewandowski». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
       "mustMention": [
@@ -845,8 +1342,16 @@
     "year": 2019,
     "player": "Robert Lewandowski",
     "value": 22,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Liste_der_Torsch%C3%BCtzenk%C3%B6nige_der_Fu%C3%9Fball-Bundesliga",
+        "title": "Liste der Torschützenkönige der Fußball-Bundesliga – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Robert Lewandowski». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
       "mustMention": [
@@ -859,8 +1364,16 @@
     "year": 2020,
     "player": "Robert Lewandowski",
     "value": 34,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Liste_der_Torsch%C3%BCtzenk%C3%B6nige_der_Fu%C3%9Fball-Bundesliga",
+        "title": "Liste der Torschützenkönige der Fußball-Bundesliga – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Robert Lewandowski». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
       "mustMention": [
@@ -873,8 +1386,16 @@
     "year": 2021,
     "player": "Robert Lewandowski",
     "value": 41,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Liste_der_Torsch%C3%BCtzenk%C3%B6nige_der_Fu%C3%9Fball-Bundesliga",
+        "title": "Liste der Torschützenkönige der Fußball-Bundesliga – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Robert Lewandowski». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
       "mustMention": [
@@ -887,8 +1408,16 @@
     "year": 2022,
     "player": "Robert Lewandowski",
     "value": 35,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Liste_der_Torsch%C3%BCtzenk%C3%B6nige_der_Fu%C3%9Fball-Bundesliga",
+        "title": "Liste der Torschützenkönige der Fußball-Bundesliga – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Robert Lewandowski». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
       "mustMention": [
@@ -901,8 +1430,16 @@
     "year": 2023,
     "player": "Niclas Füllkrug",
     "value": 16,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Liste_der_Torsch%C3%BCtzenk%C3%B6nige_der_Fu%C3%9Fball-Bundesliga",
+        "title": "Liste der Torschützenkönige der Fußball-Bundesliga – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Niclas Füllkrug». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
       "mustMention": [
@@ -915,8 +1452,16 @@
     "year": 2023,
     "player": "Christopher Nkunku",
     "value": 16,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Liste_der_Torsch%C3%BCtzenk%C3%B6nige_der_Fu%C3%9Fball-Bundesliga",
+        "title": "Liste der Torschützenkönige der Fußball-Bundesliga – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Christopher Nkunku». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
       "mustMention": [
@@ -929,8 +1474,16 @@
     "year": 2024,
     "player": "Harry Kane",
     "value": 36,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Liste_der_Torsch%C3%BCtzenk%C3%B6nige_der_Fu%C3%9Fball-Bundesliga",
+        "title": "Liste der Torschützenkönige der Fußball-Bundesliga – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Harry Kane». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
       "mustMention": [
@@ -943,8 +1496,16 @@
     "year": 2025,
     "player": "Harry Kane",
     "value": 26,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Liste_der_Torsch%C3%BCtzenk%C3%B6nige_der_Fu%C3%9Fball-Bundesliga",
+        "title": "Liste der Torschützenkönige der Fußball-Bundesliga – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Harry Kane». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Liste der Torschützenkönige der Fußball-Bundesliga",
       "mustMention": [
@@ -958,8 +1519,16 @@
     "person": "Otto Nerz",
     "value": 15,
     "note": "1926–1936",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Deutsche_Fu%C3%9Fballnationalmannschaft",
+        "title": "Deutsche Fußballnationalmannschaft – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Otto Nerz». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Deutsche Fußballnationalmannschaft",
       "mustMention": [
@@ -973,8 +1542,16 @@
     "person": "Sepp Herberger",
     "value": 85,
     "note": "1936–1942 und 1950–1964",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Deutsche_Fu%C3%9Fballnationalmannschaft",
+        "title": "Deutsche Fußballnationalmannschaft – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Sepp Herberger». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Deutsche Fußballnationalmannschaft",
       "mustMention": [
@@ -988,8 +1565,16 @@
     "person": "Helmut Schön",
     "value": 70,
     "note": "1964–1978",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Deutsche_Fu%C3%9Fballnationalmannschaft",
+        "title": "Deutsche Fußballnationalmannschaft – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Helmut Schön». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Deutsche Fußballnationalmannschaft",
       "mustMention": [
@@ -1003,8 +1588,16 @@
     "person": "Jupp Derwall",
     "value": 45,
     "note": "1978–1984",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Deutsche_Fu%C3%9Fballnationalmannschaft",
+        "title": "Deutsche Fußballnationalmannschaft – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Jupp Derwall». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Deutsche Fußballnationalmannschaft",
       "mustMention": [
@@ -1018,8 +1611,16 @@
     "person": "Franz Beckenbauer",
     "value": 90,
     "note": "1984–1990 als Teamchef",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Deutsche_Fu%C3%9Fballnationalmannschaft",
+        "title": "Deutsche Fußballnationalmannschaft – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Franz Beckenbauer». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Deutsche Fußballnationalmannschaft",
       "mustMention": [
@@ -1033,8 +1634,16 @@
     "person": "Berti Vogts",
     "value": 75,
     "note": "1990–1998",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Deutsche_Fu%C3%9Fballnationalmannschaft",
+        "title": "Deutsche Fußballnationalmannschaft – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Berti Vogts». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Deutsche Fußballnationalmannschaft",
       "mustMention": [
@@ -1048,8 +1657,16 @@
     "person": "Erich Ribbeck",
     "value": 50,
     "note": "1998–2000",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Deutsche_Fu%C3%9Fballnationalmannschaft",
+        "title": "Deutsche Fußballnationalmannschaft – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Erich Ribbeck». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Deutsche Fußballnationalmannschaft",
       "mustMention": [
@@ -1063,8 +1680,16 @@
     "person": "Rudi Völler",
     "value": 80,
     "note": "2000–2004 als Teamchef",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Deutsche_Fu%C3%9Fballnationalmannschaft",
+        "title": "Deutsche Fußballnationalmannschaft – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Rudi Völler». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Deutsche Fußballnationalmannschaft",
       "mustMention": [
@@ -1078,8 +1703,16 @@
     "person": "Jürgen Klinsmann",
     "value": 85,
     "note": "2004–2006",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Deutsche_Fu%C3%9Fballnationalmannschaft",
+        "title": "Deutsche Fußballnationalmannschaft – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Jürgen Klinsmann». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Deutsche Fußballnationalmannschaft",
       "mustMention": [
@@ -1093,8 +1726,16 @@
     "person": "Joachim Löw",
     "value": 95,
     "note": "2006–2021",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Deutsche_Fu%C3%9Fballnationalmannschaft",
+        "title": "Deutsche Fußballnationalmannschaft – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Joachim Löw». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Deutsche Fußballnationalmannschaft",
       "mustMention": [
@@ -1108,8 +1749,16 @@
     "person": "Hansi Flick",
     "value": 80,
     "note": "2021–2023",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Deutsche_Fu%C3%9Fballnationalmannschaft",
+        "title": "Deutsche Fußballnationalmannschaft – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Hansi Flick». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Deutsche Fußballnationalmannschaft",
       "mustMention": [
@@ -1123,8 +1772,16 @@
     "person": "Julian Nagelsmann",
     "value": 80,
     "note": "seit 2023",
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Deutsche_Fu%C3%9Fballnationalmannschaft",
+        "title": "Deutsche Fußballnationalmannschaft – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Julian Nagelsmann». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Deutsche Fußballnationalmannschaft",
       "mustMention": [

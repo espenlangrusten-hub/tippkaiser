@@ -564,15 +564,22 @@
     },
     "fact": "Junge, schnelle Spieler wie Netzer und Heynckes prägten die Mannschaft.",
     "difficulty": 1,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Hennes_Weisweiler",
+        "title": "Hennes Weisweiler – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Fohlenelf». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Hennes Weisweiler",
       "mustMention": [
         "Fohlenelf"
       ]
-    },
-    "notes": "Artikkelen «Hennes Weisweiler» nevner ikke «Fohlenelf». Sjekk svaret for hånd."
+    }
   },
   {
     "id": "tq-hennes-weisweiler-3",
@@ -1827,16 +1834,23 @@
     "fact": "Er ist der dritte ausländische Cheftrainer Englands.",
     "era": 2025,
     "difficulty": 1,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Thomas_Tuchel",
+        "title": "Thomas Tuchel – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «England» og «2025». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Thomas Tuchel",
       "mustMention": [
         "England",
         "2025"
       ]
-    },
-    "notes": "Artikkelen «Thomas Tuchel» nevner ikke «England». Sjekk svaret for hånd."
+    }
   },
   {
     "id": "tq-thomas-tuchel-3",
@@ -2402,16 +2416,23 @@
     "fact": "Feyenoord war der erste niederländische Sieger des Wettbewerbs.",
     "era": 1970,
     "difficulty": 3,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Ernst_Happel",
+        "title": "Ernst Happel – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Feyenoord Rotterdam» og «1970». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Ernst Happel",
       "mustMention": [
         "Feyenoord Rotterdam",
         "1970"
       ]
-    },
-    "notes": "Artikkelen «Ernst Happel» nevner ikke «Feyenoord Rotterdam». Sjekk svaret for hånd."
+    }
   },
   {
     "id": "tq-ernst-happel-4",
@@ -2738,16 +2759,23 @@
     "fact": "Er trainierte Werder 14 Jahre lang.",
     "era": 2004,
     "difficulty": 1,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Thomas_Schaaf",
+        "title": "Thomas Schaaf – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «2004» og «Double». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Thomas Schaaf",
       "mustMention": [
         "2004",
         "Double"
       ]
-    },
-    "notes": "Artikkelen «Thomas Schaaf» nevner ikke «Double». Sjekk svaret for hånd."
+    }
   },
   {
     "id": "tq-thomas-schaaf-2",
@@ -3368,15 +3396,22 @@
     "fact": "Für Kroatien hatte er auch als Spieler viele Länderspiele bestritten.",
     "era": 2013,
     "difficulty": 2,
-    "status": "recall",
-    "sources": [],
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Niko_Kova%C4%8D",
+        "title": "Niko Kovač – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Kroatien». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Niko Kovač",
       "mustMention": [
         "Kroatien"
       ]
-    },
-    "notes": "Artikkelen «Niko Kovač» nevner ikke «Kroatien». Sjekk svaret for hånd."
+    }
   },
   {
     "id": "tq-niko-kovac-3",

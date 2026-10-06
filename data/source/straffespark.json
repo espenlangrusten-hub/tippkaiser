@@ -138,16 +138,23 @@
     },
     "fact": "Sie ist die größte Stehplatztribüne Europas.",
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Borussia_Dortmund",
+        "title": "Borussia Dortmund – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Gelbe Wand». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Borussia Dortmund",
       "mustMention": [
         "Gelbe Wand"
       ]
-    },
-    "notes": "Artikkelen «Borussia Dortmund» nevner ikke «Gelbe Wand». Sjekk svaret for hånd."
+    }
   },
   {
     "kind": "trivia",
@@ -2443,16 +2450,23 @@
     "fact": "Das Tor fiel in der 89. Minute.",
     "era": 2013,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/UEFA_Champions_League_2012/13",
+        "title": "UEFA Champions League 2012/13 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Arjen Robben». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "UEFA Champions League 2012/13",
       "mustMention": [
         "Arjen Robben"
       ]
-    },
-    "notes": "Artikkelen «UEFA Champions League 2012/13» nevner ikke «Arjen Robben». Sjekk svaret for hånd."
+    }
   },
   {
     "kind": "trivia",
@@ -2730,16 +2744,23 @@
     "fact": "Das Finale fand in Glasgow statt.",
     "era": 2002,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/UEFA_Champions_League_2001/02",
+        "title": "UEFA Champions League 2001/02 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Zinédine Zidane». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "UEFA Champions League 2001/02",
       "mustMention": [
         "Zinédine Zidane"
       ]
-    },
-    "notes": "Artikkelen «UEFA Champions League 2001/02» nevner ikke «Zinédine Zidane». Sjekk svaret for hånd."
+    }
   },
   {
     "kind": "trivia",
@@ -3348,16 +3369,23 @@
     "fact": "Im Finale unterlagen die Amateure Leverkusen nur 0:1.",
     "era": 1993,
     "difficulty": 4,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_1992/93",
+        "title": "DFB-Pokal 1992/93 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Hertha BSC Amateure». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 1992/93",
       "mustMention": [
         "Hertha BSC Amateure"
       ]
-    },
-    "notes": "Artikkelen «DFB-Pokal 1992/93» nevner ikke «Hertha BSC Amateure». Sjekk svaret for hånd."
+    }
   },
   {
     "kind": "trivia",
@@ -6093,17 +6121,24 @@
     "fact": "Bundestrainer Berti Vogts schickte ihn nach Hause.",
     "era": 1994,
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Stefan_Effenberg",
+        "title": "Stefan Effenberg – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Stinkefinger» og «1994». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Stefan Effenberg",
       "mustMention": [
         "Stinkefinger",
         "1994"
       ]
-    },
-    "notes": "Artikkelen «Stefan Effenberg» nevner ikke «Stinkefinger». Sjekk svaret for hånd."
+    }
   },
   {
     "kind": "trivia",
@@ -6404,17 +6439,24 @@
     },
     "fact": "Er ist einer der erfolgreichsten ausländischen Bundesliga-Torschützen.",
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Claudio_Pizarro",
+        "title": "Claudio Pizarro – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Peru» og «Werder». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Claudio Pizarro",
       "mustMention": [
         "Peru",
         "Werder"
       ]
-    },
-    "notes": "Artikkelen «Claudio Pizarro» nevner ikke «Peru». Sjekk svaret for hånd."
+    }
   },
   {
     "kind": "trivia",
@@ -6936,16 +6978,23 @@
     },
     "fact": "Die Schale wiegt rund elf Kilogramm.",
     "difficulty": 1,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Deutsche_Meisterschale",
+        "title": "Deutsche Meisterschale – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Salatschüssel». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Meisterschale",
       "mustMention": [
         "Salatschüssel"
       ]
-    },
-    "notes": "Artikkelen «Deutsche Meisterschale» nevner ikke «Salatschüssel». Sjekk svaret for hånd."
+    }
   },
   {
     "kind": "trivia",
@@ -7398,16 +7447,23 @@
     "fact": "Karl-Heinz Riedle traf doppelt.",
     "era": 1997,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/UEFA_Champions_League_1996/97",
+        "title": "UEFA Champions League 1996/97 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «3:1». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "UEFA Champions League 1996/97",
       "mustMention": [
         "3:1"
       ]
-    },
-    "notes": "Artikkelen «UEFA Champions League 1996/97» nevner ikke «3:1». Sjekk svaret for hånd."
+    }
   },
   {
     "kind": "trivia",
@@ -8664,16 +8720,23 @@
     },
     "era": 2020,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DFB-Pokal_2019/20",
+        "title": "DFB-Pokal 2019/20 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Bayer 04 Leverkusen». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "DFB-Pokal 2019/20",
       "mustMention": [
         "Bayer 04 Leverkusen"
       ]
-    },
-    "notes": "Artikkelen «DFB-Pokal 2019/20» nevner ikke «Bayer 04 Leverkusen». Sjekk svaret for hånd."
+    }
   },
   {
     "kind": "trivia",
@@ -8877,16 +8940,23 @@
       ]
     },
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Europapokal_der_Landesmeister_1974/75",
+        "title": "Europapokal der Landesmeister 1974/75 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Leeds United». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Europapokal der Landesmeister 1974/75",
       "mustMention": [
         "Leeds United"
       ]
-    },
-    "notes": "Artikkelen «Europapokal der Landesmeister 1974/75» nevner ikke «Leeds United». Sjekk svaret for hånd."
+    }
   },
   {
     "kind": "trivia",
@@ -8901,16 +8971,23 @@
       ]
     },
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Europapokal_der_Landesmeister_1975/76",
+        "title": "Europapokal der Landesmeister 1975/76 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «AS Saint-Étienne». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Europapokal der Landesmeister 1975/76",
       "mustMention": [
         "AS Saint-Étienne"
       ]
-    },
-    "notes": "Artikkelen «Europapokal der Landesmeister 1975/76» nevner ikke «AS Saint-Étienne». Sjekk svaret for hånd."
+    }
   },
   {
     "kind": "trivia",
@@ -9022,16 +9099,23 @@
       ]
     },
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Europapokal_der_Landesmeister_1979/80",
+        "title": "Europapokal der Landesmeister 1979/80 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Hamburger SV». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Europapokal der Landesmeister 1979/80",
       "mustMention": [
         "Hamburger SV"
       ]
-    },
-    "notes": "Artikkelen «Europapokal der Landesmeister 1979/80» nevner ikke «Hamburger SV». Sjekk svaret for hånd."
+    }
   },
   {
     "kind": "trivia",
@@ -9047,16 +9131,23 @@
       ]
     },
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Europapokal_der_Landesmeister_1981/82",
+        "title": "Europapokal der Landesmeister 1981/82 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «FC Bayern München». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Europapokal der Landesmeister 1981/82",
       "mustMention": [
         "FC Bayern München"
       ]
-    },
-    "notes": "Artikkelen «Europapokal der Landesmeister 1981/82» nevner ikke «FC Bayern München». Sjekk svaret for hånd."
+    }
   },
   {
     "kind": "trivia",
@@ -9736,16 +9827,23 @@
     },
     "era": 2017,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Revierderby",
+        "title": "Revierderby – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «4:4». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Revierderby",
       "mustMention": [
         "4:4"
       ]
-    },
-    "notes": "Artikkelen «Revierderby» nevner ikke «4:4». Sjekk svaret for hånd."
+    }
   },
   {
     "kind": "trivia",
@@ -10148,16 +10246,23 @@
     },
     "era": 2006,
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Deutsche_Fu%C3%9Fballnationalmannschaft",
+        "title": "Deutsche Fußballnationalmannschaft – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «13:0». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Deutsche Fußballnationalmannschaft",
       "mustMention": [
         "13:0"
       ]
-    },
-    "notes": "Artikkelen «Deutsche Fußballnationalmannschaft» nevner ikke «13:0». Sjekk svaret for hånd."
+    }
   },
   {
     "kind": "trivia",
@@ -13990,16 +14095,23 @@
     },
     "era": 2023,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Domenico_Tedesco",
+        "title": "Domenico Tedesco – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «Belgien». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Domenico Tedesco",
       "mustMention": [
         "Belgien"
       ]
-    },
-    "notes": "Artikkelen «Domenico Tedesco» nevner ikke «Belgien». Sjekk svaret for hånd."
+    }
   },
   {
     "kind": "trivia",
@@ -14173,16 +14285,23 @@
     },
     "era": 2024,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Europameisterschaft_2024",
+        "title": "Fußball-Europameisterschaft 2024 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «5:1». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Fußball-Europameisterschaft 2024",
       "mustMention": [
         "5:1"
       ]
-    },
-    "notes": "Artikkelen «Fußball-Europameisterschaft 2024» nevner ikke «5:1». Sjekk svaret for hånd."
+    }
   },
   {
     "kind": "trivia",
@@ -14712,17 +14831,24 @@
       ]
     },
     "difficulty": 3,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Wolfgang_Overath",
+        "title": "Wolfgang Overath – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «1974» og «Präsident». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "Wolfgang Overath",
       "mustMention": [
         "1974",
         "Präsident"
       ]
-    },
-    "notes": "Artikkelen «Wolfgang Overath» nevner ikke «Präsident». Sjekk svaret for hånd."
+    }
   },
   {
     "kind": "trivia",
@@ -16652,16 +16778,23 @@
     },
     "era": 2013,
     "difficulty": 2,
-    "status": "recall",
+    "status": "single_source",
     "enabled": true,
-    "sources": [],
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/UEFA_Champions_League_2012/13",
+        "title": "UEFA Champions League 2012/13 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-06",
+        "note": "Artikkelteksten nevner «7:0». Automatisk kontroll, ikke lest av et menneske."
+      }
+    ],
     "verify": {
       "subject": "UEFA Champions League 2012/13",
       "mustMention": [
         "7:0"
       ]
-    },
-    "notes": "Artikkelen «UEFA Champions League 2012/13» nevner ikke «7:0». Sjekk svaret for hånd."
+    }
   },
   {
     "kind": "trivia",
