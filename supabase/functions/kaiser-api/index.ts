@@ -264,7 +264,7 @@ Deno.serve(async (req) => {
       const game = q.get("game");
       if (!isGame(game)) return bad("unknown game");
       const r = await scheduled(game, { date: osloDateKey() });
-      if (!r) return json({ ok: true, puzzle: null }, 200, { "cache-control": "public, max-age=60" });
+      if (!r) return json({ ok: true, game, today: osloDateKey(), puzzle: null }, 200, { "cache-control": "public, max-age=60" });
       return json({ ok: true, ...present(game, r) }, 200, { "cache-control": "public, max-age=60" });
     }
 

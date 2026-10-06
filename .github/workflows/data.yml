@@ -49,6 +49,10 @@ jobs:
       - run: npm ci
       - name: Validate source data
         run: npm run data:validate
+      - name: Require production database
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: test -n "$DATABASE_URL" || { echo "::error::DATABASE_URL is missing; refusing to use a temporary local database."; exit 1; }
       - name: Apply migrations
         env:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}

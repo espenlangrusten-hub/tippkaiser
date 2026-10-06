@@ -9,15 +9,15 @@ test("admin renames and then deletes a user", async ({ page, context }, info) =>
 
   // A real account, created the way a player creates one.
   await page.goto("/profil/#register");
-  await page.getByLabel("Brukernavn").fill(stem);
-  await page.getByLabel("Passord").fill("Tippetuppen-123!");
-  await page.getByRole("button", { name: "Opprett spiller" }).click();
-  await expect(page.getByText("Spiller opprettet.")).toBeVisible({ timeout: 10000 });
+  await page.getByLabel("Benutzername").fill(stem);
+  await page.getByLabel("Passwort").fill("Tippetuppen-123!");
+  await page.getByRole("button", { name: "Spieler anlegen" }).click();
+  await expect(page.getByText("Spieler angelegt.")).toBeVisible({ timeout: 10000 });
 
   // The admin works in another tab of the same browser, so the player stays logged in.
   const admin = await context.newPage();
   await admin.goto("/admin/");
-  await admin.getByRole("button", { name: "Kjør!" }).click({ timeout: 5000 }).catch(() => {});
+  await admin.getByRole("button", { name: "Los geht’s!" }).click({ timeout: 5000 }).catch(() => {});
   await admin.locator('input[type="password"]').fill(KEY);
   await admin.getByRole("button", { name: "Hent" }).click();
 
@@ -50,6 +50,6 @@ test("admin renames and then deletes a user", async ({ page, context }, info) =>
 
   // The deleted player's session is gone: the profile page falls back to log in.
   await page.goto("/profil/");
-  await expect(page.getByRole("button", { name: "Opprett spiller" }).or(page.getByRole("button", { name: "Logg inn" })).first()).toBeVisible({ timeout: 10000 });
+  await expect(page.getByRole("button", { name: "Spieler anlegen" }).or(page.getByRole("button", { name: "Anmelden" })).first()).toBeVisible({ timeout: 10000 });
   await expect(page.getByText(renamed)).toHaveCount(0);
 });

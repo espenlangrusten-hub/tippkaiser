@@ -49,11 +49,11 @@ test("a long two-word name still fits the screen", async ({ page }, testInfo) =>
   );
 
   await page.goto("/mangler-xi/");
-  await page.getByRole("button", { name: "Kjør!" }).click({ timeout: 8000 }).catch(() => {});
+  await page.getByRole("button", { name: "Los geht’s!" }).click({ timeout: 8000 }).catch(() => {});
 
   // Pick the shirt whose answer is "MØLLER WOLFE" (11 letters across two words).
-  await page.getByRole("button", { name: /^Drakt 2/ }).click();
-  const row = page.locator('[aria-label="Ditt forsøk"]');
+  await page.getByRole("button", { name: /^Trikot 2/ }).click();
+  const row = page.locator('[aria-label="Dein Versuch"]');
   await expect(row).toBeVisible();
 
   const tiles = row.locator(".tile:not(.tile-space)");

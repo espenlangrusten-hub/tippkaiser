@@ -2,54 +2,67 @@
 
 Alt kjører på GitHub og Supabase.
 
-## 1. Supabase
+## 1. Supabase – Tippkaiser
 
-Prosjektet `dommer` gjenbrukes. Tippetuppen ligger i sitt eget skjema `tippetuppen`, så det kolliderer ikke med de andre tabellene.
+Prosjektet `dommer` deles med Tippetuppen. Tippkaiser bruker bare schemaet
+`tippkaiser`, migreringshistorikken `tippkaiser_drizzle` og funksjonen `kaiser-api`.
+Ikke kjør en enkelt SQL-fil manuelt: kjør hele migreringsrekken gjennom `db:migrate`.
+Ikke endre Tippetuppens schema, funksjon eller eksisterende secrets.
 
-Databaseskjemaet er allerede opprettet. Skal du sette opp et nytt prosjekt fra bunnen: kjør SQL-en i `drizzle/0000_init.sql` i Supabase SQL Editor.
-
-**Hemmeligheter for Edge-funksjonen** (Supabase → Edge Functions → Secrets):
+**Edge Functions → Secrets:**
 
 | Navn | Verdi |
 | --- | --- |
-| `ADMIN_KEY` | Lang tilfeldig streng. Låser opp `/admin` og admin-rutene. |
-| `ANALYTICS_SALT` | Tilfeldig streng for den daglige anonyme besøksnøkkelen. |
-| `DB_URL` | Valgfritt. Sett til «Transaction pooler»-URL-en hvis funksjonen får mye trafikk. |
+| `KAISER_ANALYTICS_SALT` | Egen tilfeldig streng for Tippkaisers besøksstatistikk. |
+| `KAISER_ADMIN_KEY` | Valgfri lang tilfeldig streng. Uten denne er admin stengt. |
+| `KAISER_DB_URL` | Valgfri transaction-pooler-URL. Ellers brukes den automatisk injiserte `SUPABASE_DB_URL`. |
+| `KAISER_SITE_URL` | `https://espenlangrusten-hub.github.io/tippkaiser` |
 
-`SUPABASE_DB_URL` settes automatisk av Supabase.
+E-post er valgfritt: `KAISER_RESEND_API_KEY`, `KAISER_CONTACT_TO` og
+`KAISER_CONTACT_FROM` skal bare ligge i Supabase-secrets. Ikke legg adminadresse
+eller Resend-nøkkel i dette offentlige repoet. Tippkaiser låner ikke lenger
+uprefiksede app-secrets fra andre funksjoner.
 
 ## 2. GitHub
 
-**Repoet må være offentlig**, ellers krever GitHub Pages en betalt plan (GitHub Pro). Settings → Pages → Source: **GitHub Actions**.
+På Tippkaiser-repoet: **Settings → Pages → Source: GitHub Actions**.
 
-**Secrets** (Settings → Secrets and variables → Actions → Secrets):
+**Settings → Secrets and variables → Actions → Secrets:**
 
 | Navn | Verdi |
 | --- | --- |
-| `SUPABASE_ACCESS_TOKEN` | Personlig token fra supabase.com/dashboard/account/tokens |
-| `SUPABASE_PROJECT_REF` | Prosjekt-ref-en (den i URL-en til prosjektet) |
-| `DATABASE_URL` | Supabase → Settings → Database → Transaction pooler |
-| `FOTBALLDATA_CLUB_ID` | NFF/Fotballdata-avtalens `clubId` |
-| `FOTBALLDATA_CID` | NFF/Fotballdata-avtalens `cid` |
-| `FOTBALLDATA_CWD` | NFF/Fotballdata-avtalens `cwd` |
+| `SUPABASE_ACCESS_TOKEN` | Gyldig personlig Supabase-token med tilgang til å deploye funksjonen. |
+| `SUPABASE_PROJECT_REF` | `ocmdsghjehrckwtbehne` (prosjektet dommer). |
+| `DATABASE_URL` | Transaction-pooler-tilkoblingen fra prosjektets Connect-dialog, med databasepassord. |
 
-**Variables** (samme side, fanen Variables):
+Ikke del secrets i chat eller legg dem i kode. Ikke nullstill det delte databasepassordet
+for å konfigurere dette repoet; det kan bryte Tippetuppen.
 
-| Navn | Eksempel |
+**Samme side → Variables:**
+
+| Navn | Verdi |
 | --- | --- |
-| `NEXT_PUBLIC_SITE_URL` | `https://<bruker>.github.io/tippetuppen` |
-| `NEXT_PUBLIC_BASE_PATH` | `/tippetuppen` (tom ved eget domene) |
-| `NEXT_PUBLIC_API_URL` | `https://<ref>.supabase.co/functions/v1/api` |
-| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Supabase → Settings → API (offentlig nøkkel) |
-| `NEXT_PUBLIC_ADSENSE_CLIENT` m.fl. | Valgfritt, se under |
+| `NEXT_PUBLIC_SITE_URL` | `https://espenlangrusten-hub.github.io/tippkaiser` |
+| `NEXT_PUBLIC_BASE_PATH` | `/tippkaiser` |
+| `NEXT_PUBLIC_API_URL` | `https://ocmdsghjehrckwtbehne.supabase.co/functions/v1/kaiser-api` |
+| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Prosjektets offentlige anon-nøkkel, aldri service-role-nøkkelen. |
+| `NEXT_PUBLIC_INDEXABLE` | `false` under testing. |
+
+Build-jobben bruker Pages sine faktiske URL- og base-path-verdier.
 
 ## 3. Første gangs oppsett
 
-1. Gjør repoet offentlig og slå på Pages med kilde «GitHub Actions».
-2. Legg inn secrets og variables over.
-3. Kjør handlingen **Oppdater data** (Actions → Oppdater data → Run workflow). Den validerer kildedataene, kjører migrasjoner, importerer dataene og planlegger 400 dager.
-4. Push til `main` (eller kjør **Deploy** manuelt). Den publiserer nettstedet og ruller ut Edge-funksjonen.
-5. Åpne nettstedet. Begge spillene skal vise dagens utgave.
+1. Legg inn innstillingene over.
+2. Kontroller innholdet før kontrollresultatet merges. Et klubbnavn i en sesongartikkel
+   beviser ikke at klubben vant. Usikre oppføringer beholdes som `recall`.
+3. Kjør **Oppdater data**. Den anvender alle migrasjoner, importerer kildedata og
+   planlegger godkjente oppgaver. Manglende `DATABASE_URL` stopper jobben.
+4. Kjør **CI** og kontroller både unit- og nettlesertester. Uten godkjente oppgaver
+   vil de fulle flytene for Fehlende Elf, Torlos og Finde den Spieler fortsatt mangle innhold.
+5. Kjør **Deploy** først når innhold og tester er klare. Den klargjør databasen,
+   deployer `kaiser-api` og publiserer den statiske siden.
+6. Test med og uten innlogging på mobil og desktop. `noindex` er ikke adgangskontroll:
+   github.io-siden er offentlig selv om bare utvalgte personer får lenken.
 
 ## 4. Daglig drift
 
@@ -59,7 +72,7 @@ Ingenting må gjøres daglig. Planen ligger i databasen, og **Oppdater data** kj
 - **Legge til mange landskamper:** kjør GitHub-handlingen **Importer NFF-kamper**. Første fulle kjøring bruker fiksId `39899`, fra `1990-01-01` til `2026-12-31`. Komplette ellevere foreslås i en pull request; ufullstendige svar legges i `data/source/drafts/fotballdata-review/` og kommer aldri inn i spillet.
 - **Wikipedia-reserve:** handlingen **Importer kamper** kan hente utkast fra konkrete Wikipedia-sider. Generiske GK/DF/MF/FW-posisjoner beholdes som generiske; importøren dikter ikke side eller detaljrolle. Les `data/source/drafts/README.md` før en fil flyttes til `matches/`.
 - **Rette data:** endre JSON-filene i `data/source/`, push, kjør **Oppdater data**. Alt er versjonskontrollert.
-- **Bytte ut eller skru av et puslespill:** åpne `/admin` på nettstedet, lim inn `ADMIN_KEY`, og bruk knappene. Endringer gjelder umiddelbart.
+- **Bytte ut eller skru av et puslespill:** åpne `/admin` på nettstedet, lim inn `KAISER_ADMIN_KEY`, og bruk knappene. Endringer gjelder umiddelbart.
 - **Innholdsrekkevidde:** `/admin` viser hvor mange dager som er planlagt framover. Nærmer det seg 30, legg til flere kamper.
 - **Besøkstall:** `/admin` viser sidevisninger, spill startet og fullført, delinger, fordeling per spill og de siste 30 dagene. Merk at besøkskoden roterer hver natt, med vilje – «besøkende» gjelder derfor bare den enkelte dagen og kan ikke summeres til et antall personer.
 

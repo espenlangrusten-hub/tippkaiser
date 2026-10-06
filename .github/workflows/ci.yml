@@ -42,7 +42,7 @@ jobs:
         timeout-minutes: 5
         env:
           DATABASE_URL: postgres://postgres@127.0.0.1:5544/postgres
-          ADMIN_KEY: local-ci-admin-stats-only
+          KAISER_ADMIN_KEY: local-ci-admin-stats-only
         run: |
           set -euo pipefail
           npm run db:migrate
@@ -110,8 +110,8 @@ jobs:
         run: |
           set -euo pipefail
           SUPABASE_DB_URL="$DATABASE_URL" \
-          ADMIN_KEY="$E2E_ADMIN_KEY" \
-          ANALYTICS_SALT=ci-salt \
+          KAISER_ADMIN_KEY="$E2E_ADMIN_KEY" \
+          KAISER_ANALYTICS_SALT=ci-salt \
             ./node_modules/.bin/deno run --node-modules-dir=manual --allow-net --allow-env --allow-read \
             --config supabase/functions/deno.json supabase/functions/kaiser-api/index.ts > api.log 2>&1 &
           ./node_modules/.bin/serve out -l 3200 > web.log 2>&1 &

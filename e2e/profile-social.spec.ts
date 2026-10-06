@@ -12,30 +12,30 @@ test("profile and friend-league flow works end-to-end", async ({ page }, testInf
   const leagueName = "Testgjengen " + testInfo.project.name;
 
   await page.goto("/profil/#register");
-  await expect(page.getByRole("heading", { name: "Min profil" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Mein Profil" })).toBeVisible();
 
-  await page.getByLabel("Brukernavn").fill(owner);
-  await page.getByLabel("Passord").fill(password);
-  await page.getByRole("button", { name: "Opprett spiller" }).click();
+  await page.getByLabel("Benutzername").fill(owner);
+  await page.getByLabel("Passwort").fill(password);
+  await page.getByRole("button", { name: "Spieler anlegen" }).click();
 
-  await expect(page.getByText("Spiller opprettet.")).toBeVisible({ timeout: 10000 });
-  await expect(page.getByText(/Profilavatar låses opp ved 2 000 totalpoeng/)).toBeVisible();
+  await expect(page.getByText("Spieler angelegt.")).toBeVisible({ timeout: 10000 });
+  await expect(page.getByText(/Der Profilavatar wird bei 2.000 Gesamtpunkten freigeschaltet/)).toBeVisible();
 
-  await page.getByLabel("Navn", { exact: true }).fill("Test Spiller");
-  await page.getByLabel("E-postadresse", { exact: true }).fill(owner + "@example.test");
-  await page.getByRole("button", { name: "Lagre profil" }).click();
-  await expect(page.getByText("Profilen er lagret.")).toBeVisible({ timeout: 10000 });
+  await page.getByLabel("Name", { exact: true }).fill("Test Spiller");
+  await page.getByLabel("E-Mail-Adresse", { exact: true }).fill(owner + "@example.test");
+  await page.getByRole("button", { name: "Profil speichern" }).click();
+  await expect(page.getByText("Das Profil wurde gespeichert.")).toBeVisible({ timeout: 10000 });
 
   await page.reload();
-  await expect(page.getByLabel("Navn", { exact: true })).toHaveValue("Test Spiller");
-  await expect(page.getByLabel("E-postadresse", { exact: true })).toHaveValue(owner + "@example.test");
+  await expect(page.getByLabel("Name", { exact: true })).toHaveValue("Test Spiller");
+  await expect(page.getByLabel("E-Mail-Adresse", { exact: true })).toHaveValue(owner + "@example.test");
 
   await page.goto("/liga/");
-  await page.getByRole("button", { name: "Venneligaer" }).click();
-  await page.getByPlaceholder("F.eks. Monolitten G14").fill(leagueName);
-  await page.getByRole("button", { name: "Opprett liga" }).click();
+  await page.getByRole("button", { name: "Freundesligen" }).click();
+  await page.getByPlaceholder("Z. B. Bolzplatz-Legenden").fill(leagueName);
+  await page.getByRole("button", { name: "Liga gründen" }).click();
 
-  await expect(page.getByText("Venneliga opprettet. Del koden eller invitasjonslenken med vennene dine.")).toBeVisible({ timeout: 10000 });
+  await expect(page.getByText("Freundesliga gegründet. Teile den Code oder den Einladungslink mit deinen Freunden.")).toBeVisible({ timeout: 10000 });
   await expect(page.getByRole("heading", { name: leagueName })).toBeVisible();
 
   const codeNode = page.getByText(/^[A-HJ-NP-Z2-9]{6}$/, { exact: true }).first();
@@ -46,21 +46,21 @@ test("profile and friend-league flow works end-to-end", async ({ page }, testInf
   // Leave the owner account, then follow the same invite flow a real friend gets:
   // invitation -> profile creation -> automatic return to the league join screen.
   await page.goto("/profil/");
-  await page.getByRole("button", { name: "Logg ut" }).click();
+  await page.getByRole("button", { name: "Abmelden" }).click();
 
   await page.goto("/liga/?join=" + code);
-  await expect(page.getByText(/Du må ha Tippetuppen-profil/)).toBeVisible();
-  await page.getByRole("link", { name: "Opprett profil" }).click();
+  await expect(page.getByText(/Du brauchst ein Tippkaiser-Profil/)).toBeVisible();
+  await page.getByRole("link", { name: "Profil anlegen" }).click();
 
   await expect(page).toHaveURL(new RegExp("/profil/\\?join=" + code + "#register$"));
-  await page.getByLabel("Brukernavn").fill(friend);
-  await page.getByLabel("Passord").fill(password);
-  await page.getByRole("button", { name: "Opprett spiller" }).click();
+  await page.getByLabel("Benutzername").fill(friend);
+  await page.getByLabel("Passwort").fill(password);
+  await page.getByRole("button", { name: "Spieler anlegen" }).click();
 
   await expect(page).toHaveURL(new RegExp("/liga/\\?join=" + code + "$"), { timeout: 10000 });
-  await page.getByRole("button", { name: "Bli med i liga" }).click();
+  await page.getByRole("button", { name: "Liga beitreten" }).click();
 
-  await expect(page.getByText("Du er med i " + leagueName + ".")).toBeVisible({ timeout: 10000 });
+  await expect(page.getByText("Du bist jetzt in " + leagueName + ".")).toBeVisible({ timeout: 10000 });
   await expect(page.getByRole("heading", { name: leagueName })).toBeVisible();
 
   const table = page.locator("table").last();
@@ -76,9 +76,9 @@ test("profile and friend-league flow works end-to-end", async ({ page }, testInf
 
 test("an offensive username is refused at registration", async ({ page }) => {
   await page.goto("/profil/#register");
-  await page.getByLabel("Brukernavn").fill("Fuuuck_" + Date.now().toString(36).slice(-4));
-  await page.getByLabel("Passord").fill("Tippetuppen-123!");
-  await page.getByRole("button", { name: "Opprett spiller" }).click();
-  await expect(page.getByText("Det brukernavnet er ikke tillatt. Velg et annet.")).toBeVisible({ timeout: 10000 });
-  await expect(page.getByText("Spiller opprettet.")).toHaveCount(0);
+  await page.getByLabel("Benutzername").fill("Fuuuck_" + Date.now().toString(36).slice(-4));
+  await page.getByLabel("Passwort").fill("Tippetuppen-123!");
+  await page.getByRole("button", { name: "Spieler anlegen" }).click();
+  await expect(page.getByText("Dieser Benutzername ist nicht erlaubt. Wähle einen anderen.")).toBeVisible({ timeout: 10000 });
+  await expect(page.getByText("Spieler angelegt.")).toHaveCount(0);
 });

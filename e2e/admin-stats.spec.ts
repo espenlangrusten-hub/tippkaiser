@@ -8,7 +8,7 @@ if (!KEY) throw new Error("E2E_ADMIN_KEY must be set for the admin end-to-end te
 
 test("admin shows traffic figures behind the key", async ({ page }, info) => {
   await page.goto("/admin/");
-  await page.getByRole("button", { name: "Kjør!" }).click({ timeout: 5000 }).catch(() => {});
+  await page.getByRole("button", { name: "Los geht’s!" }).click({ timeout: 5000 }).catch(() => {});
 
   // Nothing is visible before a key is supplied.
   await expect(page.getByRole("heading", { name: "Besøk" })).toHaveCount(0);
@@ -37,7 +37,7 @@ test("admin shows traffic figures behind the key", async ({ page }, info) => {
 
 test("a wrong admin key shows an error and no figures", async ({ page }) => {
   await page.goto("/admin/");
-  await page.getByRole("button", { name: "Kjør!" }).click({ timeout: 5000 }).catch(() => {});
+  await page.getByRole("button", { name: "Los geht’s!" }).click({ timeout: 5000 }).catch(() => {});
   await page.locator('input[type="password"]').fill("feil-nokkel-0123456789");
   await page.getByRole("button", { name: "Hent" }).click();
   await expect(page.getByText("Feil nøkkel.")).toBeVisible({ timeout: 10000 });

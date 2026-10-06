@@ -4,11 +4,11 @@ import { test, expect } from "@playwright/test";
 // could no longer see which letters you had already ruled out.
 test("every attempt stays visible, not just the last two", async ({ page }, info) => {
   await page.goto("/mangler-xi/");
-  await page.getByRole("button", { name: "Kjør!" }).click({ timeout: 6000 }).catch(() => {});
+  await page.getByRole("button", { name: "Los geht’s!" }).click({ timeout: 6000 }).catch(() => {});
 
   // Shirts are laid out by pitch row, not by payload order, so address one by its label.
-  await page.locator("button[aria-label^='Drakt']").first().click();
-  const input = page.locator("[aria-label='Ditt forsøk']");
+  await page.locator("button[aria-label^='Trikot']").first().click();
+  const input = page.locator("[aria-label='Dein Versuch']");
   await expect(input).toBeVisible();
   const len = await input.locator(".tile:not(.tile-space)").count();
   expect(len).toBeGreaterThan(3);
@@ -19,9 +19,9 @@ test("every attempt stays visible, not just the last two", async ({ page }, info
     await page.waitForTimeout(500);
   }
 
-  await expect(page.locator("text=/Forsøk 6\\/6/")).toBeVisible();
-  await expect(page.locator("[aria-label^='Forsøk: ']")).toHaveCount(5);
+  await expect(page.locator("text=/Versuch 6\\/6/")).toBeVisible();
+  await expect(page.locator("[aria-label^='Versuch: ']")).toHaveCount(5);
   // The keyboard must still be reachable with a full history above it.
-  await expect(page.getByRole("button", { name: "Send inn" })).toBeInViewport();
+  await expect(page.getByRole("button", { name: "Absenden" })).toBeInViewport();
   await page.screenshot({ path: `e2e/screenshots/history-${info.project.name}.png` });
 });

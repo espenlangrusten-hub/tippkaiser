@@ -17,8 +17,8 @@ test("reference illustrations and navigation fit desktop and small phones", asyn
       await expect.poll(() => page.locator(".reference-art img").evaluateAll(images => images.every(image => (image as HTMLImageElement).complete && (image as HTMLImageElement).naturalWidth > 0))).toBe(true);
       expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(width);
       if (path === "/") {
-        await expect(page.getByRole("link", { name: "Spill dagens XI", exact: true })).toBeVisible();
-        await expect(page.getByRole("link", { name: "Spill Trener Genius", exact: true })).toBeVisible();
+        await expect(page.getByRole("link", { name: "Die Elf des Tages spielen", exact: true })).toBeVisible();
+        await expect(page.getByRole("link", { name: "Trainer-Genie spielen", exact: true })).toBeVisible();
       }
       await page.screenshot({ path: `e2e/screenshots/reference-${width}-${path.replaceAll("/", "") || "home"}.png`, fullPage: true });
     }

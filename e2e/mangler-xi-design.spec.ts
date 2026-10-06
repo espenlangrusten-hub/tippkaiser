@@ -29,28 +29,28 @@ test.beforeEach(async ({ page }) => {
     return route.fulfill({ json: { ok: true } });
   });
   await page.goto("/mangler-xi/");
-  await page.getByRole("button", { name: "Kjør!" }).click();
+  await page.getByRole("button", { name: "Los geht’s!" }).click();
 });
 
 test("pitch, keyboard, all attempts and saved progress survive the redesign", async ({ page }, info) => {
-  await expect(page.locator("button[aria-label^='Drakt']")).toHaveCount(11);
-  await page.getByRole("button", { name: /^Drakt 10,/ }).click();
-  await expect(page.getByRole("heading", { name: "Spiller 10", exact: true })).toBeVisible();
+  await expect(page.locator("button[aria-label^='Trikot']")).toHaveCount(11);
+  await page.getByRole("button", { name: /^Trikot 10,/ }).click();
+  await expect(page.getByRole("heading", { name: "Spieler 10", exact: true })).toBeVisible();
   // Both physical keyboard and explicit submit keep their existing API contract.
   for (const c of ["Q", "W", "X", "Z", "V"]) {
     await page.keyboard.type(c.repeat(6));
-    await page.getByRole("button", { name: "Sjekk svar", exact: true }).click();
-    await expect(page.locator("[aria-label^='Forsøk: ']")).toHaveCount(["Q", "W", "X", "Z", "V"].indexOf(c) + 1);
+    await page.getByRole("button", { name: "Antwort prüfen", exact: true }).click();
+    await expect(page.locator("[aria-label^='Versuch: ']")).toHaveCount(["Q", "W", "X", "Z", "V"].indexOf(c) + 1);
   }
-  await expect(page.getByText("Forsøk 6/6")).toBeVisible();
-  await page.getByRole("button", { name: "Send inn", exact: true }).scrollIntoViewIfNeeded();
-  await expect(page.getByRole("button", { name: "Send inn", exact: true })).toBeInViewport();
+  await expect(page.getByText("Versuch 6/6")).toBeVisible();
+  await page.getByRole("button", { name: "Absenden", exact: true }).scrollIntoViewIfNeeded();
+  await expect(page.getByRole("button", { name: "Absenden", exact: true })).toBeInViewport();
   await page.reload();
-  await expect(page.locator("[aria-label^='Forsøk: ']")).toHaveCount(5);
-  await expect(page.getByText("Forsøk 6/6")).toBeVisible();
-  await page.getByRole("button", { name: "Velg en annen spiller" }).click();
-  await page.getByRole("button", { name: /^Drakt 9,/ }).click();
-  await expect(page.getByRole("heading", { name: "Spiller 9", exact: true })).toBeVisible();
+  await expect(page.locator("[aria-label^='Versuch: ']")).toHaveCount(5);
+  await expect(page.getByText("Versuch 6/6")).toBeVisible();
+  await page.getByRole("button", { name: "Anderen Spieler wählen" }).click();
+  await page.getByRole("button", { name: /^Trikot 9,/ }).click();
+  await expect(page.getByRole("heading", { name: "Spieler 9", exact: true })).toBeVisible();
   const pageWidth = await page.evaluate(() => document.documentElement.scrollWidth);
   expect(pageWidth).toBeLessThanOrEqual(page.viewportSize()!.width);
   await page.evaluate(() => window.scrollTo({ top: 0, behavior: "instant" }));
@@ -64,21 +64,21 @@ test("pitch, keyboard, all attempts and saved progress survive the redesign", as
 });
 
 test("hints, instructions and give-up confirmation remain usable", async ({ page }) => {
-  await page.getByRole("button", { name: /^Drakt 10,/ }).click();
-  await page.getByRole("button", { name: /Første bokstav/ }).click();
-  await expect(page.getByText("Forsøk 2/6")).toBeVisible();
+  await page.getByRole("button", { name: /^Trikot 10,/ }).click();
+  await page.getByRole("button", { name: /Erster Buchstabe/ }).click();
+  await expect(page.getByText("Versuch 2/6")).toBeVisible();
   await page.getByRole("button", { name: /Fakta/ }).click();
   await expect(page.getByText("Spilleren har representert Norge.")).toBeVisible();
-  await expect(page.getByText("Forsøk 3/6")).toBeVisible();
-  await page.getByRole("button", { name: /Slik spiller du/ }).click();
+  await expect(page.getByText("Versuch 3/6")).toBeVisible();
+  await page.getByRole("button", { name: /So wird gespielt/ }).click();
   await expect(page.getByRole("dialog")).toBeVisible();
-  await page.getByRole("button", { name: "Kjør!" }).click();
+  await page.getByRole("button", { name: "Los geht’s!" }).click();
   await page.getByRole("button", { name: /Gi opp/ }).click();
-  await expect(page.getByRole("dialog", { name: "Gi opp?" })).toBeVisible();
+  await expect(page.getByRole("dialog", { name: "Aufgeben?" })).toBeVisible();
   await page.getByRole("button", { name: "Fortsett", exact: true }).click();
-  await expect(page.getByText("Forsøk 3/6")).toBeVisible();
+  await expect(page.getByText("Versuch 3/6")).toBeVisible();
   await page.getByRole("button", { name: /Gi opp/ }).click();
   await page.getByRole("dialog").getByRole("button", { name: "Gi opp", exact: true }).click();
   await expect(page.getByRole("heading", { name: "Startelleveren" })).toBeVisible();
-  await expect(page.getByRole("button", { name: "Del resultatet" })).toBeVisible();
+  await expect(page.getByRole("button", { name: "Ergebnis teilen" })).toBeVisible();
 });

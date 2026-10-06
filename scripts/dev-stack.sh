@@ -13,8 +13,8 @@ node --import tsx scripts/pg-socket-server.ts > "$LOG_DIR/pg.log" 2>&1 &
 until grep -q PGLITE_SOCKET_READY "$LOG_DIR/pg.log" 2>/dev/null; do sleep 1; done
 
 SUPABASE_DB_URL="postgres://postgres@127.0.0.1:${PG_PORT:-5433}/postgres" \
-ADMIN_KEY="$ADMIN_KEY" \
-ANALYTICS_SALT="$ANALYTICS_SALT" \
+KAISER_ADMIN_KEY="$ADMIN_KEY" \
+KAISER_ANALYTICS_SALT="$ANALYTICS_SALT" \
   npx deno run --node-modules-dir=manual --allow-net --allow-env --allow-read \
   --config supabase/functions/deno.json supabase/functions/kaiser-api/index.ts > "$LOG_DIR/fn.log" 2>&1 &
 until curl -sf -o /dev/null "http://localhost:8000/api/today?game=mangler-xi"; do sleep 1; done
