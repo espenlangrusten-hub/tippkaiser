@@ -2,9 +2,9 @@
 
 Alt kjører på GitHub og Supabase.
 
-## 1. Supabase – Tippkaiser
+## 1. Supabase – Quizkaiser
 
-Prosjektet `dommer` deles med Tippetuppen. Tippkaiser bruker bare schemaet
+Prosjektet `dommer` deles med Tippetuppen. Quizkaiser bruker bare schemaet
 `tippkaiser`, migreringshistorikken `tippkaiser_drizzle` og funksjonen `kaiser-api`.
 Ikke kjør en enkelt SQL-fil manuelt: kjør hele migreringsrekken gjennom `db:migrate`.
 Ikke endre Tippetuppens schema, funksjon eller eksisterende secrets.
@@ -13,19 +13,19 @@ Ikke endre Tippetuppens schema, funksjon eller eksisterende secrets.
 
 | Navn | Verdi |
 | --- | --- |
-| `KAISER_ANALYTICS_SALT` | Egen tilfeldig streng for Tippkaisers besøksstatistikk. |
+| `KAISER_ANALYTICS_SALT` | Egen tilfeldig streng for Quizkaisers besøksstatistikk. |
 | `KAISER_ADMIN_KEY` | Valgfri lang tilfeldig streng. Uten denne er admin stengt. |
 | `KAISER_DB_URL` | Valgfri transaction-pooler-URL. Ellers brukes den automatisk injiserte `SUPABASE_DB_URL`. |
-| `KAISER_SITE_URL` | `https://espenlangrusten-hub.github.io/tippkaiser` |
+| `KAISER_SITE_URL` | Nå: `https://espenlangrusten-hub.github.io/tippkaiser`. Etter DNS: `https://quizkaiser.de`. |
 
 E-post er valgfritt: `KAISER_RESEND_API_KEY`, `KAISER_CONTACT_TO` og
 `KAISER_CONTACT_FROM` skal bare ligge i Supabase-secrets. Ikke legg adminadresse
-eller Resend-nøkkel i dette offentlige repoet. Tippkaiser låner ikke lenger
+eller Resend-nøkkel i dette offentlige repoet. Quizkaiser låner ikke lenger
 uprefiksede app-secrets fra andre funksjoner.
 
 ## 2. GitHub
 
-På Tippkaiser-repoet: **Settings → Pages → Source: GitHub Actions**.
+På Quizkaiser-repoet: **Settings → Pages → Source: GitHub Actions**.
 
 **Settings → Secrets and variables → Actions → Secrets:**
 
@@ -42,13 +42,33 @@ for å konfigurere dette repoet; det kan bryte Tippetuppen.
 
 | Navn | Verdi |
 | --- | --- |
-| `NEXT_PUBLIC_SITE_URL` | `https://espenlangrusten-hub.github.io/tippkaiser` |
-| `NEXT_PUBLIC_BASE_PATH` | `/tippkaiser` |
+| `NEXT_PUBLIC_SITE_URL` | Nå: `https://espenlangrusten-hub.github.io/tippkaiser`. Etter DNS: `https://quizkaiser.de`. |
+| `NEXT_PUBLIC_BASE_PATH` | Nå: `/tippkaiser`. Etter DNS på eget domene: tom. |
+| `NEXT_PUBLIC_SITE_NAME` | `Quizkaiser` |
 | `NEXT_PUBLIC_API_URL` | `https://ocmdsghjehrckwtbehne.supabase.co/functions/v1/kaiser-api` |
 | `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Prosjektets offentlige anon-nøkkel, aldri service-role-nøkkelen. |
 | `NEXT_PUBLIC_INDEXABLE` | `false` under testing. |
 
 Build-jobben bruker Pages sine faktiske URL- og base-path-verdier.
+
+
+## 2b. Egen domain: quizkaiser.de
+
+Når DNS er klart hos Porkbun (konto quizkaiser):
+
+1. **Porkbun DNS** for `quizkaiser.de`:
+   - `A` / `AAAA` eller `CNAME` mot GitHub Pages (se [GitHub Pages custom domain](https://docs.github.com/pages/configuring-a-custom-domain-for-your-github-pages-site)).
+   - Typisk: `CNAME` `@` → `espenlangrusten-hub.github.io` (eller GitHubs anbefalte A-records).
+2. **GitHub repo** `tippkaiser`: Settings → Pages → Custom domain = `quizkaiser.de`, vent på TLS.
+3. **Actions variables** (etter at Pages serverer på rotdomenet):
+   - `NEXT_PUBLIC_SITE_URL` = `https://quizkaiser.de`
+   - `NEXT_PUBLIC_BASE_PATH` = `` (tom)
+   - Evt. `NEXT_PUBLIC_INDEXABLE` = `true` når lansering er klar
+4. **Supabase secret** `KAISER_SITE_URL` = `https://quizkaiser.de` (delingslenker/e-post).
+5. Kjør **Deploy** på nytt så sitemap, manifest og delingslenker får riktig base path.
+
+Inntil dette er gjort: live-siden forblir `https://espenlangrusten-hub.github.io/tippkaiser/` med `BASE_PATH=/tippkaiser`. Repo-navnet endres ikke uten eksplisitt ønske.
+
 
 ## 3. Første gangs oppsett
 

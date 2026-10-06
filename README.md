@@ -1,59 +1,41 @@
-# Tippetuppen – dagens norske fotballspill
+# Quizkaiser – tägliches Fußballquiz
 
-Tre daglige spill for norske fotballfans:
+Sechs tägliche Spiele für deutsche Fußballfans:
 
-- **Mangler XI** – fyll ut Norges startellever fra en ekte landskamp (1990–2026), bokstav for bokstav.
-- **Målløs** – ett spørsmål om norsk fotball, fem svar; jo færre andre som svarer det samme, jo bedre.
-- **Finn spilleren** – fem kildebaserte hint; tidlig riktig svar gir flest poeng.
+- **Fehlende Elf** – vervollständige Deutschlands Startelf aus einem echten Länderspiel, Buchstabe für Buchstabe.
+- **Torlos** – eine Frage zum deutschen Fußball, fünf Antworten; je weniger andere dasselbe antworten, desto besser.
+- **Finde den Spieler** – fünf quellenbasierte Hinweise; frühe richtige Antwort gibt die meisten Punkte.
+- **Elfmeter**, **Trainer-Genie** und **Goldwort** – weitere tägliche Herausforderungen.
 
-Nytt spill hver dag kl. 00:00 norsk tid (Europe/Berlin).
+Neues Spiel jede Nacht um 00:00 Uhr deutscher Zeit (Europe/Berlin).
 
-## Arkitektur
+Live (GitHub Pages): https://espenlangrusten-hub.github.io/tippkaiser/  
+Eigene Domain (geplant): https://quizkaiser.de
 
-Hele produktet kjører på GitHub og Supabase – ingen andre leverandører.
+## Architektur
 
-| Lag | Hvor | Hva |
+Das Produkt läuft auf GitHub und Supabase – keine anderen Anbieter.
+
+| Schicht | Wo | Was |
 | --- | --- | --- |
-| Nettsted | GitHub Pages | Statisk eksport av Next.js-appen |
-| Spill-API | Supabase Edge Function (`supabase/functions/kaiser-api`) | Alt som ikke tåler å ligge i nettleseren: fasit, gjettevurdering, Målløs-poeng |
-| Database | Supabase Postgres, skjema `tippetuppen` | Kamper, spillere, puslespill, plan, statistikk |
-| «Serveren» for data | GitHub Actions (`.github/workflows/data.yml`) | Importerer kildedata og fyller på dagsplanen |
+| Website | GitHub Pages | Statischer Export der Next.js-App |
+| Spiel-API | Supabase Edge Function (`supabase/functions/kaiser-api`) | Alles, was nicht im Browser liegen darf: Lösungen, Bewertung, Torlos-Punkte |
+| Datenbank | Supabase Postgres, Schema `tippkaiser` | Spiele, Nutzer, Plan, Statistik (geteilt mit Tippetuppen im Projekt «dommer», eigene Schemas) |
+| Daten-Pipeline | GitHub Actions (`.github/workflows/data.yml`) | Import und Tagesplan |
 
-Fasiten forlater aldri Edge-funksjonen. Nettleseren får bare ordlengder, og en test feiler hvis et svar noen gang skulle lekke inn i det maskerte svaret.
-
-## Kom i gang lokalt
+## Lokal starten
 
 ```bash
 npm install
-npm run db:migrate      # embedded PGlite i .data/pglite
-npm run db:seed         # data/source/*.json → database
-npm run data:schedule    # genererer puslespill og planlegger 400 dager
-ADMIN_KEY=<lokal-nøkkel> ANALYTICS_SALT=<lokalt-salt> npm run dev:stack
-                         # Postgres-protokoll + Edge-funksjonen under Deno på :8000
-npm run build && npm start   # statisk eksport på :3200
+npm run db:migrate
+npm run db:seed
+npm run data:schedule
+ADMIN_KEY=<lokal> ANALYTICS_SALT=<lokal> npm run dev:stack
+npm run build && npm start
 ```
 
-`npm run dev` kjører fortsatt Next i utviklingsmodus, men spillene henter data fra `NEXT_PUBLIC_API_URL`, så `dev:stack` må kjøre ved siden av.
+Tests: `npm test` (Vitest), `npm run check:deno` (Edge Function), `npm run e2e` (Playwright).
 
-Tester: `npm test` (Vitest), `npm run check:deno` (Edge-funksjonen), `npm run e2e` (Playwright mot den statiske eksporten).
+## Produktion
 
-## Struktur
-
-| Sti | Hva |
-| --- | --- |
-| `data/source/` | Kildefiler med kildereferanser og status. Sannheten om fotballdataene. |
-| `scripts/` | Validering, seed, planlegging og import fra den avtalte NFF/Fotballdata-kilden |
-| `src/lib/` | Ren spill-logikk (navn, brikker, datoer, baneoppsett) – deles med Edge-funksjonen |
-| `supabase/functions/kaiser-api/` | Spill-API-et |
-| `src/app/`, `src/components/` | Den statiske frontenden |
-| `docs/` | Driftsveiledning og prosjektlogg |
-
-Regel-koden ligger ett sted: `scripts/sync-shared.ts` kopierer `src/lib` inn i funksjonen, og en test feiler hvis kopiene kommer ut av takt.
-
-## Oppsett i produksjon
-
-Se `docs/RUNBOOK.md`.
-
-## Datakvalitet
-
-Kildestatus per kamp: `verified`, `single_source`, `recall`, `uncertain`, `rejected`. Bare `verified` og `single_source` går inn i den daglige rotasjonen. Vi finner aldri på oppstillinger. Eliteserien/Tippeligaen har komplette sesongtabeller for hvert år 1990–2025; valideringen stopper byggingen hvis en sesong mangler eller er åpenbart ufullstendig.
+Siehe `docs/RUNBOOK.md`. Repo-Pfad und DB-Schema bleiben `tippkaiser`; die Marke in der UI ist **Quizkaiser**.

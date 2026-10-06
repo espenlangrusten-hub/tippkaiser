@@ -3,7 +3,7 @@ import { ContactForm } from "./ContactForm";
 
 export const metadata: Metadata = {
   title: "Kontakt",
-  description: "Schreib Tippkaiser eine Nachricht – ein Fehler in einer Aufstellung, eine Frage, die nicht stimmt, oder eine Idee.",
+  description: "Schreib Quizkaiser eine Nachricht – ein Fehler in einer Aufstellung, eine Frage, die nicht stimmt, oder eine Idee.",
   alternates: { canonical: "/kontakt" },
 };
 

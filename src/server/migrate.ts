@@ -6,7 +6,7 @@ import { getDbHandle } from "./db";
 import * as schema from "@/db/schema";
 
 /**
- * Tippkaiser keeps its own record of applied migrations. Drizzle's default record lives in
+ * Quizkaiser keeps its own record of applied migrations. Drizzle's default record lives in
  * the shared "drizzle" schema; in a database that also holds Tippetuppen it would show
  * these migrations as already applied and the tippkaiser schema would never be created.
  */

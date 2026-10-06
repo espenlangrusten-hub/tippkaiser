@@ -18,7 +18,7 @@ export function MonthChampion({ copy }: { copy: MonthCopy }) {
   }
   return (
     <div className="league-champion league-champion-open">
-      <p className="league-champion-kicker">Tippkaiser des Monats</p>
+      <p className="league-champion-kicker">Quizkaiser des Monats</p>
       <p className="league-champion-wait">{copy.noChampion}</p>
     </div>
   );

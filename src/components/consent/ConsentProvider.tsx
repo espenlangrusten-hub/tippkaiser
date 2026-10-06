@@ -97,7 +97,7 @@ export function ConsentProvider({ children }: { children: React.ReactNode }) {
               Werbung und Datenschutz
             </h2>
             <p className="mt-1 text-sm text-mist">
-              Tippkaiser ist kostenlos und wird durch Werbung finanziert. Für die Statistik verwenden wir keine Tracking-Cookies. Möchtest du personalisierte Werbung von Google erlauben?{" "}
+              Quizkaiser ist kostenlos und wird durch Werbung finanziert. Für die Statistik verwenden wir keine Tracking-Cookies. Möchtest du personalisierte Werbung von Google erlauben?{" "}
               <a href="/personvern" className="underline">
                 Mehr erfahren
               </a>

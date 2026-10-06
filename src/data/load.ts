@@ -309,7 +309,7 @@ export function loadDataset(): Dataset {
     for (const r of s.relegated) if (!seen.has(r)) problems.push(`season ${s.id}: relegated club ${r} not in table`);
     for (const r of markedRelegated) if (!s.relegated.includes(r)) problems.push(`season ${s.id}: ${r} is marked relegated but missing from relegated list`);
   }
-  // Tippkaiser has no league tables yet. Once the first one is in, every season of the
+  // Quizkaiser has no league tables yet. Once the first one is in, every season of the
   // span is required, so a half-imported run cannot slip through.
   const topDivisionYears = new Set(seasons.filter((s) => s.competition === "eliteserien").map((s) => s.year));
   if (topDivisionYears.size > 0)

@@ -7,7 +7,7 @@ declare global {
 
 afterEach(() => vi.unstubAllGlobals());
 
-describe("Tippkaiser secret isolation", () => {
+describe("Quizkaiser secret isolation", () => {
   it("never borrows Tippetuppen's admin or email configuration", () => {
     const values: Record<string, string> = {
       ADMIN_KEY: "other-site-key", RESEND_API_KEY: "other-site-mail",

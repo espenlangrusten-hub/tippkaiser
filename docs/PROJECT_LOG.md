@@ -1,11 +1,20 @@
-# Tippkaiser – prosjektlogg
+# Quizkaiser – prosjektlogg
 
 Kort logg over viktige beslutninger, milepæler og blokkere. Nyeste øverst. Oppføringene
-før 2026-10-04 er arvet fra Tippetuppen, som Tippkaiser er kopiert fra.
+før 2026-10-04 er arvet fra Tippetuppen, som Quizkaiser er kopiert fra.
+
+## 2026-10-06 – Rebrand: Tippkaiser → Quizkaiser
+
+Brukerrettet merkevare byttet til **Quizkaiser** (UI, manifest, meta, e-postemner, liga-tekster).
+Logo C (wordmark med grønn ball over i) koblet inn i `public/brand/` og app-ikoner.
+Tekniske identifikatorer uendret med vilje: GitHub-repo `tippkaiser`, Postgres-schema
+`tippkaiser` / `tippkaiser_drizzle`, Edge-funksjon `kaiser-api`, concurrency-grupper – for å
+ikke røre det delte Supabase-prosjektet «dommer» / Tippetuppen.
+Domene `quizkaiser.de` er kjøpt (Porkbun); DNS + Pages custom domain gjenstår (se RUNBOOK §2b).
 
 ## 2026-10-06 – Første publisering: eget schema i den delte databasen
 
-Tippkaiser bruker Supabase-prosjektet «dommer», det samme som Tippetuppen. Første
+Quizkaiser bruker Supabase-prosjektet «dommer», det samme som Tippetuppen. Første
 deploy oppretter derfor varige objekter i den databasen:
 - **Schemaet `tippkaiser`** med alle spillets tabeller (brukere, økter, oppgaver,
   dagsplan, resultater, ligaer og meldinger), med radsikkerhet på brukertabellene.
@@ -17,7 +26,7 @@ Migreringene er kontrollert før første kjøring: de oppretter og endrer bare o
 de to schemaene over. Ingen rettigheter, roller, utvidelser eller noe i `tippetuppen`
 eller `public` røres. Funksjonen leser bare egne `KAISER_*`-secrets, aldri Tippetuppens.
 
-Slik fjernes alt igjen, hvis Tippkaiser legges ned (irreversibelt, ta backup først):
+Slik fjernes alt igjen, hvis Quizkaiser legges ned (irreversibelt, ta backup først):
 `drop schema tippkaiser cascade; drop schema tippkaiser_drizzle cascade;` og slett
 funksjonen `kaiser-api` og `KAISER_*`-secrets i Supabase.
 

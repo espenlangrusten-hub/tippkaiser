@@ -155,7 +155,7 @@ export function ProfileScreen() {
       }
       setMessage(mode === "register" ? "Spieler angelegt." : "Du bist angemeldet.");
     } catch {
-      setMessage("Keine Verbindung zu Tippkaiser. Versuch es noch einmal.");
+      setMessage("Keine Verbindung zu Quizkaiser. Versuch es noch einmal.");
     } finally {
       setBusy(false);
     }
@@ -243,7 +243,7 @@ export function ProfileScreen() {
       <div className="profile-reference-page flex flex-col gap-5">
         <section className="profile-reference-hero"><div className="reference-hero-art"><ReferenceArt name="leagueHero" /></div>
           <h1 className="font-display text-4xl font-bold uppercase">Mein Profil</h1>
-          <p className="mt-2 text-mist">Melde dich an, um Punkte zu speichern, in Ligen mitzuspielen und dein Tippkaiser-Profil aufzubauen.</p>
+          <p className="mt-2 text-mist">Melde dich an, um Punkte zu speichern, in Ligen mitzuspielen und dein Quizkaiser-Profil aufzubauen.</p>
         </section>
         <section className="card p-5">
           <div className="mb-4 flex gap-2">
@@ -306,7 +306,7 @@ export function ProfileScreen() {
         <section className="card border-gold p-5">
           <div className="font-display text-2xl font-bold text-gold">🎉 Avatare freigeschaltet!</div>
           <p className="mt-1 text-sm text-mist">
-            Du hast 2.000 Gesamtpunkte erreicht. Wähle unten einen Profilavatar – er erscheint in der Tippkaiser-Liga und in den Freundesligen.
+            Du hast 2.000 Gesamtpunkte erreicht. Wähle unten einen Profilavatar – er erscheint in der Quizkaiser-Liga und in den Freundesligen.
           </p>
         </section>
       )}

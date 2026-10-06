@@ -79,7 +79,7 @@ export function buildDailyReport(r: ReportInput): { subject: string; text: strin
   const p = parts(r.today);
 
   const lines: string[] = [];
-  lines.push(`Tippkaiser – dagsrapport ${WEEKDAY_LONG[p.weekday]} ${p.d}. ${MONTH[p.m - 1]} kl. ${r.clock}`);
+  lines.push(`Quizkaiser – dagsrapport ${WEEKDAY_LONG[p.weekday]} ${p.d}. ${MONTH[p.m - 1]} kl. ${r.clock}`);
   lines.push("");
   lines.push("BESØKENDE");
   const row = (label: string, d: ReportDay | undefined) =>
@@ -117,7 +117,7 @@ export function buildDailyReport(r: ReportInput): { subject: string; text: strin
   lines.push("Besøkende telles per dag med en anonym nøkkel som byttes hvert døgn, så samme person to dager telles to ganger. Admin-besøk er holdt utenfor.");
   if (r.adminUrl) lines.push(`Admin: ${r.adminUrl}`);
 
-  const subject = `Tippkaiser ${p.d}.${p.m}.: ${num(today?.visitors ?? 0)} besøkende i dag (i går ${num(yesterday?.visitors ?? 0)})`;
+  const subject = `Quizkaiser ${p.d}.${p.m}.: ${num(today?.visitors ?? 0)} besøkende i dag (i går ${num(yesterday?.visitors ?? 0)})`;
   return { subject, text: lines.join("\n") };
 }
 

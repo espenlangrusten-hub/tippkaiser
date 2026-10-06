@@ -1,5 +1,5 @@
 /**
- * Tippkaiser game API.
+ * Quizkaiser game API.
  *
  * The static site on GitHub Pages has no server of its own, so this function is the
  * only place that ever sees puzzle answers. Everything it returns to the browser is

@@ -19,7 +19,7 @@ const windows = {
   ground: ["xi", 706, 306, 247, 128],
 } as const;
 
-// Tippkaiser's own art, drawn for the same frames: each image has the shape of the
+// Quizkaiser's own art, drawn for the same frames: each image has the shape of the
 // window it replaces, so it fills it and the layout stays as it was. Where a frame is
 // narrower than the art (the hero on desktop), the empty paper on the left gives way.
 const standalone: Partial<Record<keyof typeof windows, string>> = {

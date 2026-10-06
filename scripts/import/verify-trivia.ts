@@ -25,7 +25,7 @@ import { articleMatchesSubject, verdictFor, type Checkable, type WikiPage } from
 import { playerClueFile } from "../../src/server/puzzles/playerClues";
 
 const API = "https://de.wikipedia.org/w/api.php";
-const UA = "Tippkaiser trivia verifier (https://github.com/espenlangrusten-hub/tippkaiser)";
+const UA = "Quizkaiser trivia verifier (https://github.com/espenlangrusten-hub/tippkaiser)";
 const DATA = path.join(process.cwd(), "data", "source");
 
 /**
