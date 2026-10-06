@@ -4,8 +4,8 @@ import { MaalloesScreen } from "./MaalloesScreen";
 import { GameSkeleton } from "@/components/GameLoader";
 
 export const metadata: Metadata = {
-  title: "Torlos – finde die seltensten Antworten",
-  description: "Das tägliche Quiz zu Bundesliga und Nationalmannschaft: fünf Antworten, und je weniger dasselbe antworten, desto besser. Jeden Tag eine neue Frage.",
+  title: "Torlos – Das Seltenheits-Quiz zum Fußball",
+  description: "Fünf Antworten auf eine Frage zum deutschen Fußball. Je weniger andere dasselbe tippen, desto mehr Punkte.",
   alternates: { canonical: "/maalloes" },
 };
 

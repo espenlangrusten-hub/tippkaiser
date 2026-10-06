@@ -4,8 +4,8 @@ import { ManglerXiScreen } from "./ManglerXiScreen";
 import { GameSkeleton } from "@/components/GameLoader";
 
 export const metadata: Metadata = {
-  title: "Fehlende Elf – errate Deutschlands Startelf",
-  description: "Das tägliche Fußballquiz: Vervollständige Deutschlands Startelf aus einem historischen Länderspiel, Buchstabe für Buchstabe. Jeden Tag um 00:00 Uhr eine neue Elf.",
+  title: "Fehlende Elf – Tägliches Aufstellungs-Quiz",
+  description: "Vervollständige Deutschlands Startelf aus einem echten Länderspiel – Buchstabe für Buchstabe. Jeden Tag neu auf Quizkaiser.",
   alternates: { canonical: "/mangler-xi" },
 };
 

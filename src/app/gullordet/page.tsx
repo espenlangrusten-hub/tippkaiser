@@ -4,8 +4,8 @@ import { GameSkeleton } from "@/components/GameLoader";
 import { GullordetScreen } from "./GullordetScreen";
 
 export const metadata: Metadata = {
-  title: "Goldwort",
-  description: "Errate das deutsche Fußballwort des Tages in sechs Versuchen.",
+  title: "Goldwort – Fußball-Wordle auf Deutsch",
+  description: "Fünf Buchstaben, sechs Versuche: errate das Fußballwort oder den Namen des Tages.",
   alternates: { canonical: "/gullordet" },
 };
 
