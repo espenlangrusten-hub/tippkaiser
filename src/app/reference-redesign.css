@@ -136,7 +136,7 @@ a  {
 .stadium-header-inner  {
   width: min(calc(100vw - 56px), 1390px);
   max-width: none;
-  height: 70px;
+  height: 72px;
   margin: auto;
   padding: 0 38px;
   display: grid;
@@ -1107,7 +1107,7 @@ transform:rotate(8deg)
     box-shadow: 0 1px 0 rgb(31 48 55 / .05);
 }
   .stadium-header-inner  {
-    height: 58px;
+    height: 64px;
     padding: 0 14px;
     gap: 12px;
 }
@@ -1180,7 +1180,7 @@ background:#faf8f3
 }
 .stadium-header-inner {
 width:100%;
-height:60px;
+height:72px;
 grid-template-columns:310px 1fr auto;
 gap:30px
 }
@@ -1370,7 +1370,7 @@ border-radius:0
 }
 .stadium-header-inner {
 display:flex;
-height:60px;
+height:64px;
 padding:0 14px;
 gap:12px
 }
@@ -1453,10 +1453,13 @@ font-size:25px
   .stadium-header .tt-brand-ball, .stadium-header .tt-brand-ball svg { width: 22px; height: 22px; }
   .stadium-header .tt-brand-slashes i { width: 4px; }
 }
-.tt-reference-logo { display: block; width: 270px; height: 40px; }
-.tt-footer .tt-reference-logo { width: 189px; height: 28px; }
-@media (max-width: 1100px) { .stadium-header .tt-reference-logo { width: 236px; height: 35px; } }
-@media (max-width: 760px) { .stadium-header .tt-reference-logo { width: 182px; height: 27px; } }
-@media (max-width: 370px) { .stadium-header .tt-reference-logo { width: 162px; height: 24px; } }
+/* Quizkaiser logo.webp is taller (wordmark + tagline, ~3.19:1) than Tippetuppen's
+   270×40 crop. Same-height CSS made the wordmark look tiny; size the slot to the
+   asset AR so the wordmark matches Tippetuppen visual weight (esp. mobile). */
+.tt-reference-logo { display: block; width: 185px; height: 58px; }
+.tt-footer .tt-reference-logo { width: 130px; height: 41px; }
+@media (max-width: 1100px) { .stadium-header .tt-reference-logo { width: 166px; height: 52px; } }
+@media (max-width: 760px) { .stadium-header .tt-reference-logo { width: 140px; height: 44px; } }
+@media (max-width: 370px) { .stadium-header .tt-reference-logo { width: 124px; height: 39px; } }
 .league-create-card > p { position: relative; z-index: 2; }
 .league-friends-art::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg,#f0eadd,transparent 20%); }
