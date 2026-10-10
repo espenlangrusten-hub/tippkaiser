@@ -2430,5 +2430,3805 @@
         "url": "https://de.wikipedia.org/wiki/Niko_Kova%C4%8D"
       }
     ]
+  },
+  {
+    "sourceId": "tq-georg-knoepfle-1",
+    "expectedAnswer": "Georg Knöpfle",
+    "difficulty": 3,
+    "category": "Titel",
+    "distractors": [
+      "Hennes Weisweiler",
+      "Zlatko Čajkovski",
+      "Willi Multhaup"
+    ],
+    "fact": "Nach Beendigung seiner Laufbahn als Fußballspieler war er als Trainer aktiv, in dieser Funktion zählt der Gewinn der ersten deutschen Meisterschaft nach Einführung der Bundesliga mit dem 1. FC Köln 1964 zu den …",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Georg Knöpfle – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Georg_Kn%C3%B6pfle"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-willi-multhaup-1",
+    "expectedAnswer": "Willi Multhaup",
+    "difficulty": 3,
+    "category": "Titel",
+    "distractors": [
+      "Otto Rehhagel",
+      "Georg Knöpfle",
+      "Helmuth Johannsen"
+    ],
+    "fact": "Willi Multhaup wurde 1965 mit Werder Bremen Deutscher Meister, gewann 1966 mit Borussia Dortmund den Europapokal der Pokalsieger und 1968 mit dem 1. FC Köln den DFB-Pokal.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Willi Multhaup – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Willi_Multhaup"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-helmuth-johannsen-1",
+    "expectedAnswer": "Helmuth Johannsen",
+    "difficulty": 3,
+    "category": "Titel",
+    "distractors": [
+      "Max Merkel",
+      "Willi Multhaup",
+      "Branko Zebec"
+    ],
+    "fact": "Er gewann mit Eintracht Braunschweig 1967 in der Bundesliga die deutsche Meisterschaft und wurde 1978 mit Grasshoppers Zürich Schweizer Meister.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Helmuth Johannsen – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Helmuth_Johannsen"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-pal-csernai-1",
+    "expectedAnswer": "Pál Csernai",
+    "difficulty": 3,
+    "category": "Titel",
+    "distractors": [
+      "Udo Lattek",
+      "Gyula Lóránt",
+      "Dettmar Cramer"
+    ],
+    "fact": "Er gewann mit dem Verein 1980 und 1981 die deutsche Meisterschaft und 1982 den DFB-Pokal.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Pál Csernai – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/P%C3%A1l_Csernai"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-pal-csernai-2",
+    "expectedAnswer": "Ungarn",
+    "difficulty": 3,
+    "category": "Nationalteams",
+    "distractors": [
+      "Jugoslawien",
+      "Österreich",
+      "Tschechoslowakei"
+    ],
+    "fact": "Pál Csernai [ˈpaːl ˈʧɛrnɒ.i] (* 21. Oktober 1932 in Pilis; † 1. September 2013 in Budapest) war ein ungarischer Fußballspieler und -trainer.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Pál Csernai – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/P%C3%A1l_Csernai"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-helmut-benthaus-1",
+    "expectedAnswer": "Helmut Benthaus",
+    "difficulty": 3,
+    "category": "Titel",
+    "distractors": [
+      "Christoph Daum",
+      "Jürgen Sundermann",
+      "Arie Haan"
+    ],
+    "fact": "Er gewann die deutsche Meisterschaft als Spieler 1964 mit dem 1. FC Köln und als Trainer 1984 mit dem VfB Stuttgart.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Helmut Benthaus – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Helmut_Benthaus"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-helmut-benthaus-2",
+    "expectedAnswer": "FC Basel",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "FC Zürich",
+      "Grasshopper Club Zürich",
+      "Servette Genf"
+    ],
+    "fact": "Zuvor hatte er mit dem FC Basel als Spielertrainer und als Trainer von 1965 bis 1982 sieben Schweizer Meisterschaften gewonnen.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Helmut Benthaus – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Helmut_Benthaus"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-karl-heinz-feldkamp-1",
+    "expectedAnswer": "Karl-Heinz Feldkamp",
+    "difficulty": 3,
+    "category": "Titel",
+    "distractors": [
+      "Otto Rehhagel",
+      "Friedel Rausch",
+      "Gerd Zewe"
+    ],
+    "fact": "Er wurde mit dem 1. FC Kaiserslautern 1991 Deutscher Meister und gewann als einziger Trainer mit drei verschiedenen Vereinen den DFB-Pokal.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Karl-Heinz Feldkamp – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Karl-Heinz_Feldkamp"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-karl-heinz-feldkamp-2",
+    "expectedAnswer": "Bayer 05 Uerdingen",
+    "difficulty": 3,
+    "category": "Titel",
+    "distractors": [
+      "Fortuna Düsseldorf",
+      "Borussia Mönchengladbach",
+      "1. FC Kaiserslautern"
+    ],
+    "fact": "Von 1984 bis 1987 trainierte er Bayer 05 Uerdingen, mit dem er 1985 durch einen 2:1-Sieg im DFB-Pokalfinale gegen den FC Bayern München erstmals den Titel gewann.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Karl-Heinz Feldkamp – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Karl-Heinz_Feldkamp"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-karl-heinz-feldkamp-3",
+    "expectedAnswer": "Eintracht Frankfurt",
+    "difficulty": 3,
+    "category": "Titel",
+    "distractors": [
+      "VfL Bochum",
+      "Hamburger SV",
+      "1. FC Kaiserslautern"
+    ],
+    "fact": "1988: DFB-Pokal mit Eintracht Frankfurt",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Karl-Heinz Feldkamp – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Karl-Heinz_Feldkamp"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-udo-lattek-5",
+    "expectedAnswer": "Borussia Mönchengladbach",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "FC Bayern München",
+      "1. FC Köln",
+      "Hamburger SV"
+    ],
+    "fact": "Deutscher Meister (8): 1972, 1973, 1974 (alle FC Bayern München), 1976, 1977 (beide Borussia Mönchengladbach), 1985, 1986, 1987 (alle FC Bayern München)",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Udo Lattek – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Udo_Lattek"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-zlatko-cajkovski-1",
+    "expectedAnswer": "Zlatko Čajkovski",
+    "difficulty": 3,
+    "category": "Titel",
+    "distractors": [
+      "Branko Zebec",
+      "Udo Lattek",
+      "Max Merkel"
+    ],
+    "fact": "Er blieb dort bis 1968 Trainer und gewann zweimal den DFB-Pokal sowie 1966/67 den Europapokal der Pokalsieger.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Zlatko Čajkovski – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Zlatko_%C4%8Cajkovski"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-zlatko-cajkovski-2",
+    "expectedAnswer": "Tschik",
+    "difficulty": 3,
+    "category": "Spitznamen",
+    "distractors": [
+      "Zladdi",
+      "Der Kleine",
+      "Bomber"
+    ],
+    "fact": "Zlatko „Tschik“ Čajkovski (* 24. November 1923 in Zagreb; † 27. Juli 1998 in München), wegen seiner Größe von 1,64 m „Tschik“ (serbokroat. Čik, „(Zigaretten-)Stummel“) genannt, war ein jugoslawischer Fußballspieler …",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Zlatko Čajkovski – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Zlatko_%C4%8Cajkovski"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-gyula-lorant-1",
+    "expectedAnswer": "Gyula Lóránt",
+    "difficulty": 3,
+    "category": "Stationen",
+    "distractors": [
+      "Pál Csernai",
+      "Ferenc Puskás",
+      "Béla Guttmann"
+    ],
+    "fact": "Anfang Dezember 1977 erfolgte ein einvernehmlicher Trainertausch: Lóránt wechselte nach dem 16. Bundesligaspieltag für Dettmar Cramer, der gerade fünf Niederlagen am Stück eingefahren hatte, zu Bayern München, Cramer …",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Gyula Lóránt – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Gyula_L%C3%B3r%C3%A1nt"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-rinus-michels-1",
+    "expectedAnswer": "Rinus Michels",
+    "difficulty": 3,
+    "category": "Titel",
+    "distractors": [
+      "Hennes Weisweiler",
+      "Christoph Daum",
+      "Johannes Löhr"
+    ],
+    "fact": "Mit dem FC Barcelona gewann Michels die spanische Meisterschaft und die Copa del Rey sowie mit dem 1. FC Köln den DFB-Pokal.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Rinus Michels – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Rinus_Michels"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-dragoslav-stepanovic-1",
+    "expectedAnswer": "Dragoslav Stepanović",
+    "difficulty": 3,
+    "category": "Titel",
+    "distractors": [
+      "Erich Ribbeck",
+      "Christoph Daum",
+      "Reinhard Saftig"
+    ],
+    "fact": "Da Leverkusen sich seinerseits bereits vorzeitig von Reinhard Saftig getrennt hatte, trat Stepanović den Posten des Cheftrainers noch in der laufenden Saison 1992/1993 an und betreute die Mannschaft auch beim …",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Dragoslav Stepanović – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Dragoslav_Stepanovi%C4%87"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-dragoslav-stepanovic-2",
+    "expectedAnswer": "Dragoslav Stepanović",
+    "difficulty": 2,
+    "category": "Wer war's?",
+    "distractors": [
+      "Ernst Happel",
+      "Huub Stevens",
+      "Werner Lorant"
+    ],
+    "fact": "In der Pressekonferenz nach dem verlorenen Spiel im Bundesliga-Saisonfinale 1992 gegen Hansa Rostock prägte Stepanović das mittlerweile legendäre Bonmot „Lebbe geht weider“, welches für ihn zu einer Art Markenzeichen …",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Dragoslav Stepanović – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Dragoslav_Stepanovi%C4%87"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-michael-lorkowski-1",
+    "expectedAnswer": "Michael Lorkowski",
+    "difficulty": 3,
+    "category": "Titel",
+    "distractors": [
+      "Eberhard Vogel",
+      "Jörg Berger",
+      "Klaus Schlappner"
+    ],
+    "fact": "Der größte Erfolg in der Trainerkarriere von Lorkowskis ist der Gewinn des DFB-Pokals 1992 mit Hannover 96. Der Zweitligist setzte sich zum Auftakt mit 7:0 gegen Marathon Berlin und anschließend zunächst zweimal …",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Michael Lorkowski – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Michael_Lorkowski"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-eckhard-krautzun-1",
+    "expectedAnswer": "Eckhard Krautzun",
+    "difficulty": 3,
+    "category": "Titel",
+    "distractors": [
+      "Friedel Rausch",
+      "Otto Rehhagel",
+      "Karl-Heinz Feldkamp"
+    ],
+    "fact": "Den erstmaligen Abstieg des Vereins aus der Bundesliga im selben Jahr konnte er vorher jedoch nicht verhindern, deshalb blieb das Pokalfinale sein letztes Pflichtspiel als Trainer in Kaiserslautern. 1998 gewann …",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Eckhard Krautzun – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Eckhard_Krautzun"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-bernd-krauss-1",
+    "expectedAnswer": "Bernd Krauss",
+    "difficulty": 3,
+    "category": "Titel",
+    "distractors": [
+      "Hans Meyer",
+      "Jupp Heynckes",
+      "Friedel Rausch"
+    ],
+    "fact": "Mit diesem Verein gewann er 1995 den DFB-Pokal, nachdem er zuvor als erster Trainer in der Bundesliga mit Viererkette in der Abwehr spielen ließ.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Bernd Krauss – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Bernd_Krauss"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-horst-koeppel-1",
+    "expectedAnswer": "Horst Köppel",
+    "difficulty": 3,
+    "category": "Titel",
+    "distractors": [
+      "Ottmar Hitzfeld",
+      "Reinhard Saftig",
+      "Pál Csernai"
+    ],
+    "fact": "Unter seiner Leitung gewann die Mannschaft um Thomas Helmer, Michael Zorc, Andreas Möller und Michael Rummenigge nach Toren des Doppelpackers Norbert Dickel, Frank Mill und Michael Lusch mit einem 4:1-Endspielerfolg …",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Horst Köppel – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Horst_K%C3%B6ppel"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-dietrich-weise-1",
+    "expectedAnswer": "Dietrich Weise",
+    "difficulty": 3,
+    "category": "Titel",
+    "distractors": [
+      "Gyula Lóránt",
+      "Lothar Buchmann",
+      "Erich Ribbeck"
+    ],
+    "fact": "Mit der Eintracht gewann er 1974 und 1975 den DFB-Pokal.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Dietrich Weise – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Dietrich_Weise"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-lothar-buchmann-1",
+    "expectedAnswer": "Lothar Buchmann",
+    "difficulty": 3,
+    "category": "Titel",
+    "distractors": [
+      "Dietrich Weise",
+      "Friedel Rausch",
+      "Gyula Lóránt"
+    ],
+    "fact": "Mit Eintracht Frankfurt gewann der Fußball-Lehrer 1981 den DFB-Pokal.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Lothar Buchmann – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Lothar_Buchmann"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-friedel-rausch-1",
+    "expectedAnswer": "Friedel Rausch",
+    "difficulty": 3,
+    "category": "Titel",
+    "distractors": [
+      "Lothar Buchmann",
+      "Dietrich Weise",
+      "Gyula Lóránt"
+    ],
+    "fact": "UEFA-Pokalsieg 1980 mit Eintracht Frankfurt",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Friedel Rausch – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Friedel_Rausch"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-hans-meyer-1",
+    "expectedAnswer": "1. FC Nürnberg",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "Borussia Mönchengladbach",
+      "Hertha BSC",
+      "VfB Stuttgart"
+    ],
+    "fact": "Zu seinen größten Erfolgen als Trainer zählen der überraschende Gewinn des DFB-Pokals 2007 mit dem 1. FC Nürnberg sowie drei DDR-Pokalsiege und das Erreichen des Europapokal-Finales 1981 mit dem FC Carl Zeiss Jena.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Hans Meyer (Fußballtrainer) – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Hans_Meyer_(Fu%C3%9Fballtrainer)"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-hans-meyer-2",
+    "expectedAnswer": "FC Carl Zeiss Jena",
+    "difficulty": 3,
+    "category": "Stationen",
+    "distractors": [
+      "1. FC Magdeburg",
+      "Dynamo Dresden",
+      "1. FC Lokomotive Leipzig"
+    ],
+    "fact": "1981 Finale Europapokal der Pokalsieger in Düsseldorf (mit dem FC Carl Zeiss Jena 1:2 gegen Dinamo Tiflis)",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Hans Meyer (Fußballtrainer) – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Hans_Meyer_(Fu%C3%9Fballtrainer)"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-heinz-kruegel-1",
+    "expectedAnswer": "Heinz Krügel",
+    "difficulty": 3,
+    "category": "Titel",
+    "distractors": [
+      "Georg Buschner",
+      "Walter Fritzsch",
+      "Hans Meyer"
+    ],
+    "fact": "Mit dem 1. FC Magdeburg gewann er 1974 den Europapokal der Pokalsieger.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Heinz Krügel – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Heinz_Kr%C3%BCgel"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-georg-buschner-1",
+    "expectedAnswer": "Georg Buschner",
+    "difficulty": 3,
+    "category": "Nationalteams",
+    "distractors": [
+      "Hans Meyer",
+      "Bernd Stange",
+      "Heinz Krügel"
+    ],
+    "fact": "Da A-Auswahl und Olympiaelf personell in den frühen und mittleren 1970er-Jahren identisch waren, zeichnete Buschner auch für Erfolge auf olympischem Parkett verantwortlich: 1972 wurde das DFV-Team in München …",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Georg Buschner – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Georg_Buschner"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-georg-buschner-2",
+    "expectedAnswer": "FC Carl Zeiss Jena",
+    "difficulty": 3,
+    "category": "Stationen",
+    "distractors": [
+      "Dynamo Dresden",
+      "1. FC Magdeburg",
+      "BFC Dynamo"
+    ],
+    "fact": "Er wurde 1963 mit seinem Team erstmals DDR-Meister – ein Erfolg, den er 1968 und 1970 mit dem 1966 in FC Carl Zeiss Jena umbenannten Fußballclub wiederholte.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Georg Buschner – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Georg_Buschner"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-walter-fritzsch-1",
+    "expectedAnswer": "Walter Fritzsch",
+    "difficulty": 3,
+    "category": "Titel",
+    "distractors": [
+      "Eduard Geyer",
+      "Georg Buschner",
+      "Klaus Sammer"
+    ],
+    "fact": "Mit fünf DDR-Meistertiteln und zwei FDGB-Pokalsiegen in den 1970er Jahren ist er der erfolgreichste aller Trainer von Dynamo Dresden und mit neun Jahren zugleich der am längsten amtierende.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Walter Fritzsch – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Walter_Fritzsch"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-juergen-bogs-1",
+    "expectedAnswer": "Jürgen Bogs",
+    "difficulty": 3,
+    "category": "Titel",
+    "distractors": [
+      "Hans Meyer",
+      "Eduard Geyer",
+      "Walter Fritzsch"
+    ],
+    "fact": "Jürgen Bogs führte den BFC Dynamo von 1979 bis 1988 in der DDR zu zehn nationalen Meistertiteln in Serie, eine Leistung, die bisher im europäischen Vereinsfußball von keinem anderen Trainer erreicht wurde.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Jürgen Bogs – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Bogs"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-eduard-geyer-1",
+    "expectedAnswer": "Eduard Geyer",
+    "difficulty": 3,
+    "category": "Nationalteams",
+    "distractors": [
+      "Bernd Stange",
+      "Manfred Zapf",
+      "Georg Buschner"
+    ],
+    "fact": "Anschließend betreute Geyer die Nationalmannschaft bis zu ihrer Auflösung 1990 in weiteren sieben Länderspielen, darunter das letzte Länderspiel gegen Belgien.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Eduard Geyer – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Eduard_Geyer"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-eduard-geyer-2",
+    "expectedAnswer": "Energie Cottbus",
+    "difficulty": 3,
+    "category": "Stationen",
+    "distractors": [
+      "Hansa Rostock",
+      "Dynamo Dresden",
+      "VfL Wolfsburg"
+    ],
+    "fact": "Nach weiteren drei Jahren wurde 2000 der Aufstieg in die 1. Bundesliga erreicht.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Eduard Geyer – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Eduard_Geyer"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-bernd-stange-1",
+    "expectedAnswer": "Irak",
+    "difficulty": 3,
+    "category": "Nationalteams",
+    "distractors": [
+      "Iran",
+      "Oman",
+      "Syrien"
+    ],
+    "fact": "Vom 10. November 2002 bis zum 5. Juli 2004 war er Trainer der irakischen Fußballnationalmannschaft.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Bernd Stange – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Bernd_Stange"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-otto-nerz-1",
+    "expectedAnswer": "Otto Nerz",
+    "difficulty": 3,
+    "category": "Nationalteams",
+    "distractors": [
+      "Sepp Herberger",
+      "Helmut Schön",
+      "Hugo Meisl"
+    ],
+    "fact": "Otto Nerz (* 21. Oktober 1892 in Hechingen, Hohenzollernsche Lande; † 19. April 1949 im Speziallager Nr. 7 Sachsenhausen, Oranienburg) war ein deutscher Fußballspieler und erster Reichstrainer des Deutschen …",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Otto Nerz – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Otto_Nerz"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-gero-bisanz-1",
+    "expectedAnswer": "Gero Bisanz",
+    "difficulty": 3,
+    "category": "Nationalteams",
+    "distractors": [
+      "Tina Theune",
+      "Silvia Neid",
+      "Horst Hrubesch"
+    ],
+    "fact": "Er trainierte von 1982 bis 1996 die deutsche Fußballnationalmannschaft der Frauen und gewann mit der Nationalmannschaft 1989, 1991 und 1995 die Fußball-Europameisterschaft und wurde 1995 Vize-Weltmeister.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Gero Bisanz – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Gero_Bisanz"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-tina-theune-1",
+    "expectedAnswer": "Tina Theune",
+    "difficulty": 2,
+    "category": "Nationalteams",
+    "distractors": [
+      "Silvia Neid",
+      "Martina Voss-Tecklenburg",
+      "Steffi Jones"
+    ],
+    "fact": "Von 1996 bis 2005 war sie Bundestrainerin der deutschen Nationalmannschaft der Frauen, die sie zum Gewinn von drei Europameisterschaften in Folge (1997, 2001, 2005) und 2003 erstmals zum Gewinn der Weltmeisterschaft …",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Tina Theune – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Tina_Theune"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-silvia-neid-1",
+    "expectedAnswer": "Silvia Neid",
+    "difficulty": 1,
+    "category": "Nationalteams",
+    "distractors": [
+      "Tina Theune",
+      "Steffi Jones",
+      "Martina Voss-Tecklenburg"
+    ],
+    "fact": "Weltmeisterin 2007 (sowie 2003 als Co-Trainerin)",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Silvia Neid – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Silvia_Neid"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-silvia-neid-2",
+    "expectedAnswer": "Olympische Goldmedaille",
+    "difficulty": 2,
+    "category": "Nationalteams",
+    "distractors": [
+      "Olympische Silbermedaille",
+      "Olympische Bronzemedaille",
+      "WM-Silbermedaille"
+    ],
+    "fact": "Olympische Goldmedaille 2016",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Silvia Neid – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Silvia_Neid"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-martina-voss-tecklenburg-1",
+    "expectedAnswer": "Schweiz",
+    "difficulty": 2,
+    "category": "Nationalteams",
+    "distractors": [
+      "Österreich",
+      "Niederlande",
+      "Belgien"
+    ],
+    "fact": "Von 2012 bis 2018 leitete sie die Schweizer Frauennationalmannschaft, direkt anschließend war sie bis November 2023 die Bundestrainerin der deutschen Nationalmannschaft der Frauen.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Martina Voss-Tecklenburg – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Martina_Voss-Tecklenburg"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-horst-hrubesch-1",
+    "expectedAnswer": "Horst Hrubesch",
+    "difficulty": 1,
+    "category": "Nationalteams",
+    "distractors": [
+      "Uwe Seeler",
+      "Felix Magath",
+      "Dieter Hecking"
+    ],
+    "fact": "Unter seiner Leitung errang die Mannschaft die Bronzemedaille bei den Olympischen Sommerspielen 2024 in Paris.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Horst Hrubesch – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Horst_Hrubesch"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-horst-hrubesch-2",
+    "expectedAnswer": "Kopfballungeheuer",
+    "difficulty": 1,
+    "category": "Spitznamen",
+    "distractors": [
+      "Bomber der Nation",
+      "Turm von Hamburg",
+      "Der Kaiser"
+    ],
+    "fact": "Daher stammt auch sein Spitzname „Kopfballungeheuer“.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Horst Hrubesch – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Horst_Hrubesch"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-horst-hrubesch-3",
+    "expectedAnswer": "U21-Europameisterschaft",
+    "difficulty": 2,
+    "category": "Nationalteams",
+    "distractors": [
+      "U19-Europameisterschaft",
+      "U20-Weltmeisterschaft",
+      "U17-Europameisterschaft"
+    ],
+    "fact": "Seine größten Erfolge waren der Gewinn der U21-Europameisterschaft 2009 und die olympische Silbermedaille 2016 im Männerfußball sowie die olympische Bronzemedaille 2024 im Frauenfußball.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Horst Hrubesch – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Horst_Hrubesch"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-steffi-jones-1",
+    "expectedAnswer": "Steffi Jones",
+    "difficulty": 2,
+    "category": "Nationalteams",
+    "distractors": [
+      "Birgit Prinz",
+      "Nia Künzer",
+      "Inka Grings"
+    ],
+    "fact": "Von September 2016 bis März 2018 war sie Nachfolgerin von Silvia Neid als Bundestrainerin.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Steffi Jones – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Steffi_Jones"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-dieter-hecking-1",
+    "expectedAnswer": "VfL Wolfsburg",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "1. FC Nürnberg",
+      "Hannover 96",
+      "Borussia Mönchengladbach"
+    ],
+    "fact": "Am 30. Mai 2015 gewann er mit Wolfsburg den DFB-Pokal gegen Borussia Dortmund (3:1).",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Dieter Hecking – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Dieter_Hecking"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-domenico-tedesco-1",
+    "expectedAnswer": "Domenico Tedesco",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "Marco Rose",
+      "Julian Nagelsmann",
+      "Jesse Marsch"
+    ],
+    "fact": "Im Mai 2022 gewann RB Leipzig erstmals den DFB-Pokal.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Domenico Tedesco – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Domenico_Tedesco"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-domenico-tedesco-2",
+    "expectedAnswer": "Belgische Nationalmannschaft",
+    "difficulty": 2,
+    "category": "Nationalteams",
+    "distractors": [
+      "Schweizer Nationalmannschaft",
+      "Italienische Nationalmannschaft",
+      "Österreichische Nationalmannschaft"
+    ],
+    "fact": "Anfang Februar 2023 übernahm Tedesco die belgische Nationalmannschaft als Nachfolger von Roberto Martínez, der nach dem Vorrunden-Aus bei der Weltmeisterschaft 2022 zurückgetreten war.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Domenico Tedesco – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Domenico_Tedesco"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-domenico-tedesco-3",
+    "expectedAnswer": "FC Schalke 04",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "Erzgebirge Aue",
+      "RB Leipzig",
+      "Spartak Moskau"
+    ],
+    "fact": "Nachdem man in seiner ersten Saison Vizemeister geworden war und im DFB-Pokal das Halbfinale erreicht hatte, verlängerte er im August 2018 seinen Vertrag „auf Schalke“ vorzeitig bis Sommer 2022. Mitte März 2019 …",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Domenico Tedesco – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Domenico_Tedesco"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-marco-rose-1",
+    "expectedAnswer": "RB Leipzig",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "Borussia Dortmund",
+      "Borussia Mönchengladbach",
+      "SC Freiburg"
+    ],
+    "fact": "Roses Team gewann den DFB-Pokal 2023, im Finale gegen Eintracht Frankfurt.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Marco Rose – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Marco_Rose"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-marco-rose-2",
+    "expectedAnswer": "FC Red Bull Salzburg",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "Rapid Wien",
+      "Austria Wien",
+      "LASK"
+    ],
+    "fact": "Im April 2017 gewann die U19 die UEFA Youth League gegen Benfica Lissabon mit einem 2:1 im Finale.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Marco Rose – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Marco_Rose"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-vincent-kompany-1",
+    "expectedAnswer": "Vincent Kompany",
+    "difficulty": 1,
+    "category": "Titel",
+    "distractors": [
+      "Domenico Tedesco",
+      "Roberto Martínez",
+      "Thomas Tuchel"
+    ],
+    "fact": "Deutscher Meister (2): 2025, 2026",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Vincent Kompany – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Vincent_Kompany"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-vincent-kompany-2",
+    "expectedAnswer": "Manchester City",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "Manchester United",
+      "FC Chelsea",
+      "FC Arsenal"
+    ],
+    "fact": "Nach über zehn Jahren und mehr als 250 Ligaspielen für Manchester City beendete er 2020 seine Profi-Karriere beim RSC Anderlecht, für den er bereits in der Jugend und zu Beginn seiner Karriere gespielt hatte.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Vincent Kompany – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Vincent_Kompany"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-vincent-kompany-3",
+    "expectedAnswer": "FC Burnley",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "Sheffield United",
+      "Luton Town",
+      "Leicester City"
+    ],
+    "fact": "Englischer Zweitligameister und Aufstieg in die Premier League: 2023",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Vincent Kompany – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Vincent_Kompany"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-vincent-kompany-4",
+    "expectedAnswer": "Hamburger SV",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "FC St. Pauli",
+      "Werder Bremen",
+      "VfL Wolfsburg"
+    ],
+    "fact": "Zur Saison 2006/07 verpflichtete ihn der Hamburger SV (HSV) als Nachfolger von Daniel Van Buyten für ca. acht Mio.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Vincent Kompany – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Vincent_Kompany"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-bruno-labbadia-1",
+    "expectedAnswer": "Hamburger SV",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "VfB Stuttgart",
+      "Hertha BSC",
+      "Bayer 04 Leverkusen"
+    ],
+    "fact": "Unter Labbadia holte der HSV 10 von 18 möglichen Punkten und erreichte am letzten Spieltag den Relegationsplatz 16. In der Relegation traf man auf den Karlsruher SC.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Bruno Labbadia – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Bruno_Labbadia"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-bruno-labbadia-2",
+    "expectedAnswer": "Hamburger SV",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "Bayer 04 Leverkusen",
+      "VfB Stuttgart",
+      "Werder Bremen"
+    ],
+    "fact": "In der Europa League führte Labbadia die Mannschaft bis ins Halbfinale.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Bruno Labbadia – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Bruno_Labbadia"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-mirko-slomka-1",
+    "expectedAnswer": "FC Schalke 04",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "Hannover 96",
+      "Hamburger SV",
+      "VfL Wolfsburg"
+    ],
+    "fact": "In der Champions League Saison 2007/08, für die sich der Verein aufgrund des zweiten Tabellenplatzes in der Bundesliga qualifiziert hatte, spielte man sich bis in das Viertelfinale.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Mirko Slomka – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Mirko_Slomka"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-klaus-toppmoeller-1",
+    "expectedAnswer": "Klaus Toppmöller",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "Christoph Daum",
+      "Berti Vogts",
+      "Thomas Hörster"
+    ],
+    "fact": "Am 1. Juli 2001 wurde er schließlich doch noch Cheftrainer bei Bayer 04, das er 2002 bis zum Finale der Champions League sowie auf Platz zwei der Fußball-Bundesliga und ins deutsche Pokalfinale führte.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Klaus Toppmöller – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Klaus_Toppm%C3%B6ller"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-klaus-toppmoeller-2",
+    "expectedAnswer": "Georgien",
+    "difficulty": 2,
+    "category": "Nationalteams",
+    "distractors": [
+      "Aserbaidschan",
+      "Armenien",
+      "Bulgarien"
+    ],
+    "fact": "Zum 1. Februar 2006 übernahm Klaus Toppmöller das Amt des Nationaltrainers in Georgien.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Klaus Toppmöller – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Klaus_Toppm%C3%B6ller"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-werner-lorant-1",
+    "expectedAnswer": "TSV 1860 München",
+    "difficulty": 3,
+    "category": "Stationen",
+    "distractors": [
+      "SpVgg Unterhaching",
+      "FC Bayern München II",
+      "Wacker Burghausen"
+    ],
+    "fact": "Als Trainer führte er in den 1990er Jahren den TSV 1860 München von der Drittligameisterschaft bis zur Qualifikation für die Champions League.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Werner Lorant – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Werner_Lorant"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-werner-lorant-2",
+    "expectedAnswer": "Werner Beinhart",
+    "difficulty": 2,
+    "category": "Spitznamen",
+    "distractors": [
+      "Werner Eisenfuß",
+      "Der General",
+      "Quälix"
+    ],
+    "fact": "Lorant war als harter Spieler bekannt und erwarb sich den Beinamen Werner Beinhart.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Werner Lorant – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Werner_Lorant"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-winfried-schaefer-1",
+    "expectedAnswer": "Kamerun",
+    "difficulty": 2,
+    "category": "Nationalteams",
+    "distractors": [
+      "Senegal",
+      "Nigeria",
+      "Ghana"
+    ],
+    "fact": "Ab November 2001 war Schäfer Trainer der Fußballnationalmannschaft Kameruns, wurde 2002 Afrikameister und nahm mit der Mannschaft an der WM 2002 teil.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Winfried Schäfer – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Winfried_Sch%C3%A4fer"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-joerg-berger-1",
+    "expectedAnswer": "Jörg Berger",
+    "difficulty": 3,
+    "category": "Wer war's?",
+    "distractors": [
+      "Hans Meyer",
+      "Eduard Geyer",
+      "Bernd Stange"
+    ],
+    "fact": "Berger nutzte jedoch als Trainer der Nachwuchs-Auswahlmannschaft der DDR 1979 ein Spiel in Jugoslawien, um in den Westen zu flüchten.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Jörg Berger – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/J%C3%B6rg_Berger"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-frank-pagelsdorf-1",
+    "expectedAnswer": "FC Hansa Rostock",
+    "difficulty": 3,
+    "category": "Stationen",
+    "distractors": [
+      "Energie Cottbus",
+      "1. FC Union Berlin",
+      "VfB Leipzig"
+    ],
+    "fact": "Im Sommer 1994 wechselte Frank Pagelsdorf zum Zweitligisten Hansa Rostock, wo ihm nach einer Saison mit der Mannschaft der Aufstieg in die erste Fußball-Bundesliga gelang.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Frank Pagelsdorf – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Frank_Pagelsdorf"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-holger-osieck-1",
+    "expectedAnswer": "Australien",
+    "difficulty": 2,
+    "category": "Nationalteams",
+    "distractors": [
+      "Kanada",
+      "Japan",
+      "Türkei"
+    ],
+    "fact": "Im Juni 2013 qualifizierte sich die Nationalmannschaft Australiens als Gruppenzweiter hinter Japan vor Jordanien, Oman und Irak für die WM 2014 in Brasilien.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Holger Osieck – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Holger_Osieck"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-bernd-schuster-1",
+    "expectedAnswer": "Real Madrid",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "FC Barcelona",
+      "FC Getafe",
+      "Atlético Madrid"
+    ],
+    "fact": "Spanischer Meister: 2008",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Bernd Schuster – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Bernd_Schuster"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-lothar-matthaeus-1",
+    "expectedAnswer": "Ungarn",
+    "difficulty": 2,
+    "category": "Nationalteams",
+    "distractors": [
+      "Bulgarien",
+      "Serbien",
+      "Österreich"
+    ],
+    "fact": "In dieser Zeit konnte Matthäus einen Achtungserfolg erzielen, als Ungarn die DFB-Auswahl in einem Länderspiel anlässlich des 50-jährigen Jubiläums des WM-Endspiels von 1954 in Bern am 6. Juni 2004 in Kaiserslautern …",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Lothar Matthäus – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Lothar_Matth%C3%A4us"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-lothar-matthaeus-2",
+    "expectedAnswer": "FC Red Bull Salzburg",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "Rapid Wien",
+      "Austria Wien",
+      "Sturm Graz"
+    ],
+    "fact": "Österreichischer Meister: 2007 (Red Bull Salzburg)",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Lothar Matthäus – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Lothar_Matth%C3%A4us"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-peter-neururer-1",
+    "expectedAnswer": "VfL Bochum",
+    "difficulty": 3,
+    "category": "Stationen",
+    "distractors": [
+      "Hannover 96",
+      "MSV Duisburg",
+      "FC Schalke 04"
+    ],
+    "fact": "Aufgrund dieses Erfolges verlängerte der VfL den Vertrag mit Neururer am 4. März 2004 um weitere zwei Jahre bis zum 30. Juni 2007. Der VfL erreichte in der Saison 2003/04 den fünften Platz in der Bundesliga und …",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Peter Neururer – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Peter_Neururer"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-ewald-lienen-1",
+    "expectedAnswer": "1. FC Köln",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "MSV Duisburg",
+      "Hansa Rostock",
+      "Borussia Mönchengladbach"
+    ],
+    "fact": "Zum Saisonbeginn 1999/2000 wurde er Trainer beim Zweitligisten 1. FC Köln, den er zurück in die 1. Bundesliga führte.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Ewald Lienen – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Ewald_Lienen"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-jupp-heynckes-5",
+    "expectedAnswer": "FC Bayern München",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "Borussia Mönchengladbach",
+      "Werder Bremen",
+      "1. FC Köln"
+    ],
+    "fact": "Meister (4): 1989, 1990, 2013, 2018 (alle FC Bayern München)",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Jupp Heynckes – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Jupp_Heynckes"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-jupp-heynckes-6",
+    "expectedAnswer": "Athletic Bilbao",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "Real Sociedad",
+      "CA Osasuna",
+      "Deportivo Alavés"
+    ],
+    "fact": "Im Sommer 1992 unterschrieb Heynckes beim spanischen Erstligisten Athletic Bilbao einen Kontrakt und wurde nach Hennes Weisweiler und Udo Lattek der dritte deutsche Trainer in Spaniens höchster Fußball-Liga.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Jupp Heynckes – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Jupp_Heynckes"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-ernst-happel-5",
+    "expectedAnswer": "Hamburger SV",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "Werder Bremen",
+      "Stuttgarter Kickers",
+      "FC Bayern München"
+    ],
+    "fact": "Deutscher Pokalsieger: 1987 (Hamburger SV)",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Ernst Happel – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Ernst_Happel"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-hennes-weisweiler-5",
+    "expectedAnswer": "Sporthochschule Köln",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "Sportschule Hennef",
+      "Universität Leipzig",
+      "Technische Universität München"
+    ],
+    "fact": "Von 1957 bis 1970 leitete er Lehrgänge an der Deutschen Sporthochschule Köln zur Ausbildung von Fußballlehrern.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Hennes Weisweiler – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Hennes_Weisweiler"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-helmut-schoen-5",
+    "expectedAnswer": "Saarland",
+    "difficulty": 2,
+    "category": "Nationalteams",
+    "distractors": [
+      "Österreich",
+      "Luxemburg",
+      "Schweiz"
+    ],
+    "fact": "Er fand in Wiesbaden mit seiner Familie eine neue Heimat, nahm aber 1952 das Angebot des Saarländischen Fußballbundes (SFB) vom damals autonomen Saarland an und wurde dort Nationaltrainer.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Helmut Schön – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Helmut_Sch%C3%B6n"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-felix-magath-5",
+    "expectedAnswer": "VfB Stuttgart",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "Werder Bremen",
+      "Eintracht Frankfurt",
+      "VfL Wolfsburg"
+    ],
+    "fact": "Magath zog dreimal in Folge in den internationalen Wettbewerb ein und wurde 2003 Vizemeister hinter dem FC Bayern München.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Felix Magath – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Felix_Magath"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-felix-magath-6",
+    "expectedAnswer": "FC Fulham",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "FC Watford",
+      "Aston Villa",
+      "Norwich City"
+    ],
+    "fact": "Einen Tag später übernahm Magath als Nachfolger von René Meulensteen als Teammanager die auf dem letzten Tabellenplatz liegende Premier-League-Elf des FC Fulham, womit er erstmals im Ausland aktiv und zum ersten …",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Felix Magath – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Felix_Magath"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-thomas-schaaf-4",
+    "expectedAnswer": "DFB-Pokal",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "Deutsche Meisterschaft",
+      "UEFA-Pokal",
+      "Ligapokal"
+    ],
+    "fact": "DFB-Pokalsieger: 1999, 2004, 2009",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Thomas Schaaf – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Thomas_Schaaf"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-otto-rehhagel-5",
+    "expectedAnswer": "Werder Bremen",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "1. FC Kaiserslautern",
+      "FC Bayern München",
+      "Borussia Dortmund"
+    ],
+    "fact": "Die Mannschaft von Werder Bremen, die Rehhagel nach einigen kurzen Stationen von 1981 bis 1995 zum zweiten Mal trainierte, wurde 1988 und 1993 Deutscher Meister, viermal Vizemeister, gewann den DFB-Pokal 1991 und …",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Otto Rehhagel – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Otto_Rehhagel"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-otto-rehhagel-6",
+    "expectedAnswer": "Hertha BSC",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "1. FC Kaiserslautern",
+      "Rot-Weiss Essen",
+      "Fortuna Düsseldorf"
+    ],
+    "fact": "Die Hertha stieg nach Relegationsspielen gegen Fortuna Düsseldorf, deren endgültiger Ausgang vor dem DFB-Sportgericht verhandelt wurde, im Mai 2012 ab.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Otto Rehhagel – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Otto_Rehhagel"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-ottmar-hitzfeld-5",
+    "expectedAnswer": "FC Basel",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "FC Zürich",
+      "FC Lugano",
+      "Grasshopper Club Zürich"
+    ],
+    "fact": "Seine aktive Spielerkarriere verbrachte der ehemalige Stürmer überwiegend bei Vereinen aus der Schweiz und gewann mit dem FC Basel zweimal den Meistertitel.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Ottmar Hitzfeld – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Ottmar_Hitzfeld"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-giovanni-trapattoni-4",
+    "expectedAnswer": "Deutsche Meisterschaft",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "DFB-Pokal",
+      "Champions League",
+      "UEFA-Pokal"
+    ],
+    "fact": "Dort gewann er die deutsche Meisterschaft 1997, im DFB-Pokal 1996/97 war jedoch bereits im Viertelfinale gegen den Karlsruher SC Schluss.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Giovanni Trapattoni – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Giovanni_Trapattoni"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-ralf-rangnick-5",
+    "expectedAnswer": "TSG 1899 Hoffenheim",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "RB Leipzig",
+      "SSV Ulm",
+      "Hannover 96"
+    ],
+    "fact": "Im ersten Bundesligajahr errang die von Rangnick trainierte Mannschaft die inoffizielle Herbstmeisterschaft (Platz eins in der Tabelle zum Ende der Hinrunde), in der Rückrunde spielte sie nicht mehr ganz so …",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Ralf Rangnick – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Ralf_Rangnick"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-alex-ferguson-1",
+    "expectedAnswer": "Manchester United",
+    "difficulty": 1,
+    "category": "Stationen",
+    "distractors": [
+      "FC Liverpool",
+      "FC Arsenal",
+      "FC Aberdeen"
+    ],
+    "fact": "Am 6. November 1986 übernahm Alex Ferguson den Trainerposten bei Manchester United.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Alex Ferguson – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Alex_Ferguson"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-alex-ferguson-2",
+    "expectedAnswer": "FC Aberdeen",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "Celtic Glasgow",
+      "Glasgow Rangers",
+      "Dundee United"
+    ],
+    "fact": "Der Höhepunkt von Fergusons Wirken war der Sieg im Europapokal der Pokalsieger 1983. Wegweisend für den späteren Erfolg war Aberdeens spektakulärer 3:2-Sieg über den FC Bayern München im heimischen Pittodrie Stadium.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Alex Ferguson – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Alex_Ferguson"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-jose-mourinho-1",
+    "expectedAnswer": "José Mourinho",
+    "difficulty": 1,
+    "category": "Spitznamen",
+    "distractors": [
+      "Pep Guardiola",
+      "Jürgen Klopp",
+      "Carlo Ancelotti"
+    ],
+    "fact": "Diese Äußerung erlangte Kultstatus und verhalf dem Portugiesen zu seinem, von britischen Boulevardmedien gern verwendeten, Spitznamen The Special One.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "José Mourinho – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Jos%C3%A9_Mourinho"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-jose-mourinho-2",
+    "expectedAnswer": "FC Porto",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "Benfica Lissabon",
+      "Sporting Lissabon",
+      "Sporting Braga"
+    ],
+    "fact": "Champions-League-Sieger (2): 2004 (FC Porto), 2010 (Inter Mailand)",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "José Mourinho – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Jos%C3%A9_Mourinho"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-jose-mourinho-3",
+    "expectedAnswer": "Inter Mailand",
+    "difficulty": 1,
+    "category": "Titel",
+    "distractors": [
+      "AC Mailand",
+      "FC Chelsea",
+      "Real Madrid"
+    ],
+    "fact": "Die Münchner – von Mourinhos ehemaligem Vorgesetzten und Förderer, Louis van Gaal, trainiert – unterlagen im Endspiel mit 0:2. Damit gewann Mourinho zum zweiten Mal die Champions League und erstmals das große …",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "José Mourinho – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Jos%C3%A9_Mourinho"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-arsene-wenger-1",
+    "expectedAnswer": "FC Arsenal",
+    "difficulty": 1,
+    "category": "Stationen",
+    "distractors": [
+      "FC Chelsea",
+      "Tottenham Hotspur",
+      "West Ham United"
+    ],
+    "fact": "Nach Stationen in Frankreich und Japan erlangte er vor allem als langjähriger Trainer des Premier-League-Klubs FC Arsenal internationale Bekanntheit, den er von 1996 bis 2018 betreute.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Arsène Wenger – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Ars%C3%A8ne_Wenger"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-arsene-wenger-2",
+    "expectedAnswer": "Nagoya Grampus",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "Urawa Red Diamonds",
+      "Kashima Antlers",
+      "Yokohama F. Marinos"
+    ],
+    "fact": "Ernüchtert durch den Korruptionsskandal in der französischen Liga, suchte Wenger eine neue Herausforderung und unterschrieb im Dezember 1994 einen Zwei-Jahres-Vertrag bei Toyotas Werksmannschaft Nagoya Grampus Eight.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Arsène Wenger – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Ars%C3%A8ne_Wenger"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-arsene-wenger-3",
+    "expectedAnswer": "AS Monaco",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "Olympique Marseille",
+      "Paris Saint-Germain",
+      "AS Nancy"
+    ],
+    "fact": "Mit teilweise berauschendem Angriffsfußball und sehenswerten Kombinationen gewann Monaco 1987/88 vorzeitig die französische Meisterschaft und hatte sechs Punkte Vorsprung auf den Zweitplatzierten.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Arsène Wenger – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Ars%C3%A8ne_Wenger"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-zinedine-zidane-1",
+    "expectedAnswer": "Zinedine Zidane",
+    "difficulty": 1,
+    "category": "Titel",
+    "distractors": [
+      "Carlo Ancelotti",
+      "José Mourinho",
+      "Vicente del Bosque"
+    ],
+    "fact": "Zudem gewann er als bisher einziger Trainer dreimal hintereinander die Champions League. 2017 wurde er als FIFA-Welttrainer des Jahres ausgezeichnet.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Zinédine Zidane – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Zin%C3%A9dine_Zidane"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-vicente-del-bosque-1",
+    "expectedAnswer": "Vicente del Bosque",
+    "difficulty": 1,
+    "category": "Nationalteams",
+    "distractors": [
+      "Luis Aragonés",
+      "Julen Lopetegui",
+      "Luis Enrique"
+    ],
+    "fact": "Zudem führte er den Verein 2000 und 2002 zu zwei Champions-League-Titeln. 2010 wurde er als Trainer der spanischen Fußballnationalmannschaft Weltmeister und 2012 Europameister.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Vicente del Bosque – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Vicente_del_Bosque"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-luis-aragones-1",
+    "expectedAnswer": "Luis Aragonés",
+    "difficulty": 2,
+    "category": "Nationalteams",
+    "distractors": [
+      "Vicente del Bosque",
+      "José Antonio Camacho",
+      "Javier Clemente"
+    ],
+    "fact": "2008 führte er die Spanier als ältester Trainer des Turniers (69 Jahre) zum zweiten Europameistertitel.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Luis Aragonés – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Luis_Aragon%C3%A9s"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-didier-deschamps-1",
+    "expectedAnswer": "Didier Deschamps",
+    "difficulty": 1,
+    "category": "Nationalteams",
+    "distractors": [
+      "Zinedine Zidane",
+      "Laurent Blanc",
+      "Raymond Domenech"
+    ],
+    "fact": "Von 2012 bis 2026 war er Trainer der französischen Nationalmannschaft, mit der er 2018 Weltmeister wurde.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Didier Deschamps – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Didier_Deschamps"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-lionel-scaloni-1",
+    "expectedAnswer": "Lionel Scaloni",
+    "difficulty": 1,
+    "category": "Nationalteams",
+    "distractors": [
+      "Jorge Sampaoli",
+      "Gerardo Martino",
+      "Diego Simeone"
+    ],
+    "fact": "2022 gewann Scaloni mit der argentinischen Nationalmannschaft in Katar die Fußball-Weltmeisterschaft.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Lionel Scaloni – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Lionel_Scaloni"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-diego-simeone-1",
+    "expectedAnswer": "Atlético Madrid",
+    "difficulty": 1,
+    "category": "Stationen",
+    "distractors": [
+      "FC Valencia",
+      "FC Sevilla",
+      "Real Madrid"
+    ],
+    "fact": "Seit 2011 steht er als Cheftrainer bei Atlético Madrid unter Vertrag.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Diego Simeone – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Diego_Simeone"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-diego-simeone-2",
+    "expectedAnswer": "Argentinien",
+    "difficulty": 1,
+    "category": "Nationalteams",
+    "distractors": [
+      "Uruguay",
+      "Spanien",
+      "Chile"
+    ],
+    "fact": "Diego Pablo Simeone (* 28. April 1970 in Buenos Aires), auch bekannt unter seinem Spitznamen El Cholo, ist ein argentinischer Fußballtrainer und ehemaliger -spieler.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Diego Simeone – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Diego_Simeone"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-arrigo-sacchi-1",
+    "expectedAnswer": "AC Mailand",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "Inter Mailand",
+      "Juventus Turin",
+      "SSC Neapel"
+    ],
+    "fact": "Die AC Mailand entwickelte sich zu einer der dominantesten Mannschaften Europas, denn besonders auf internationaler Bühne demonstrierte das Team eindrucksvoll die Wirksamkeit der Spielphilosophie. 1989 gewann Milan …",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Arrigo Sacchi – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Arrigo_Sacchi"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-rinus-michels-2",
+    "expectedAnswer": "Rinus Michels",
+    "difficulty": 2,
+    "category": "Nationalteams",
+    "distractors": [
+      "Johan Cruyff",
+      "Guus Hiddink",
+      "Leo Beenhakker"
+    ],
+    "fact": "Er gilt als Begründer des „Totalen Fußballs“ und führte die niederländische Nationalmannschaft 1974 ins WM-Finale sowie zum Gewinn der Europameisterschaft 1988. Auf Vereinsebene feierte Michels seine größten Erfolge …",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Rinus Michels – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Rinus_Michels"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-bob-paisley-1",
+    "expectedAnswer": "Bob Paisley",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "Bill Shankly",
+      "Joe Fagan",
+      "Kenny Dalglish"
+    ],
+    "fact": "Paisley gewann als erster Trainer dreimal den Europapokal der Landesmeister.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Bob Paisley – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Bob_Paisley"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-mario-zagallo-1",
+    "expectedAnswer": "Mário Zagallo",
+    "difficulty": 2,
+    "category": "Nationalteams",
+    "distractors": [
+      "Carlos Alberto Parreira",
+      "Telê Santana",
+      "Vicente Feola"
+    ],
+    "fact": "Mit dieser gewann er die Fußball-Weltmeisterschaft 1958 und 1962 als Spieler, 1970 als Cheftrainer und 1994 als Koordinator.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Mário Zagallo – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/M%C3%A1rio_Zagallo"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-gareth-southgate-1",
+    "expectedAnswer": "Gareth Southgate",
+    "difficulty": 1,
+    "category": "Nationalteams",
+    "distractors": [
+      "Roy Hodgson",
+      "Sam Allardyce",
+      "Fabio Capello"
+    ],
+    "fact": "Southgate führte seine Mannschaft bei der Europameisterschaft 2024 in Deutschland ins Finale gegen Spanien.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Gareth Southgate – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Gareth_Southgate"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-carlo-ancelotti-3",
+    "expectedAnswer": "Carlo Ancelotti",
+    "difficulty": 1,
+    "category": "Titel",
+    "distractors": [
+      "Zinedine Zidane",
+      "Pep Guardiola",
+      "Bob Paisley"
+    ],
+    "fact": "Mit fünf Titeln als Trainer ist er Rekordsieger der Champions League, er gewann zwei Mal mit der AC Mailand und drei Mal mit Real Madrid.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Carlo Ancelotti – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Carlo_Ancelotti"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-carlo-ancelotti-4",
+    "expectedAnswer": "AC Mailand",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "Juventus Turin",
+      "Real Madrid",
+      "FC Chelsea"
+    ],
+    "fact": "Mit fünf Titeln als Trainer ist er Rekordsieger der Champions League, er gewann zwei Mal mit der AC Mailand und drei Mal mit Real Madrid.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Carlo Ancelotti – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Carlo_Ancelotti"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-pep-guardiola-3",
+    "expectedAnswer": "2023",
+    "difficulty": 1,
+    "category": "Titel",
+    "distractors": [
+      "2021",
+      "2019",
+      "2022"
+    ],
+    "fact": "Im Finale in Istanbul am 10. Juni 2023 schlug man Inter Mailand mit 1:0, wodurch Guardiola zum vierten Mal die Champions League als Spieler und Trainer gewann.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Pep Guardiola – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Pep_Guardiola"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-juergen-klopp-5",
+    "expectedAnswer": "2020",
+    "difficulty": 1,
+    "category": "Titel",
+    "distractors": [
+      "2019",
+      "2021",
+      "2022"
+    ],
+    "fact": "Mit dem Verein gewann er acht Titel, darunter 2019 die Champions League und 2020 die erste englische Meisterschaft seit 1990.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Jürgen Klopp – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Klopp"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-juergen-klopp-6",
+    "expectedAnswer": "2024",
+    "difficulty": 1,
+    "category": "Stationen",
+    "distractors": [
+      "2023",
+      "2022",
+      "2025"
+    ],
+    "fact": "Von Oktober 2015 bis Mai 2024 war Klopp Cheftrainer des FC Liverpool.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Jürgen Klopp – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Klopp"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-louis-van-gaal-4",
+    "expectedAnswer": "Manchester United",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "FC Arsenal",
+      "Tottenham Hotspur",
+      "FC Everton"
+    ],
+    "fact": "Am 19. Mai 2014 bestätigte Manchester United, dass van Gaal den Klub nach der WM als Trainer übernehmen werde.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Louis van Gaal – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Louis_van_Gaal"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-thomas-tuchel-6",
+    "expectedAnswer": "FC Bayern München",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "Borussia Dortmund",
+      "RB Leipzig",
+      "Bayer 04 Leverkusen"
+    ],
+    "fact": "Meister: 2023 (FC Bayern München)",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Thomas Tuchel – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Thomas_Tuchel"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-xabi-alonso-5",
+    "expectedAnswer": "DFB-Pokal",
+    "difficulty": 1,
+    "category": "Titel",
+    "distractors": [
+      "Europa League",
+      "Supercup",
+      "UEFA Conference League"
+    ],
+    "fact": "Im selben Jahr gewann er zudem den DFB-Pokal sowie DFL-Supercup.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Xabi Alonso – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Xabi_Alonso"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-xabi-alonso-6",
+    "expectedAnswer": "Real Sociedad",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "Athletic Bilbao",
+      "CA Osasuna",
+      "SD Eibar"
+    ],
+    "fact": "Er spielte bei Real Sociedad San Sebastián, dem FC Liverpool, Real Madrid und dem FC Bayern München.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Xabi Alonso – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Xabi_Alonso"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-hansi-flick-5",
+    "expectedAnswer": "Weltmeisterschaft 2022",
+    "difficulty": 2,
+    "category": "Nationalteams",
+    "distractors": [
+      "Weltmeisterschaft 2018",
+      "Europameisterschaft 2021",
+      "Europameisterschaft 2024"
+    ],
+    "fact": "Er betreute die Nationalmannschaft bei der Weltmeisterschaft 2022, bei der man zum zweiten Mal in Folge in der Vorrunde ausschied, und war der erste DFB-Bundestrainer, dessen Amtszeit durch Entlassung vorzeitig …",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Hansi Flick – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Hansi_Flick"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-joachim-loew-6",
+    "expectedAnswer": "Jogi",
+    "difficulty": 1,
+    "category": "Spitznamen",
+    "distractors": [
+      "Jockel",
+      "Achim",
+      "Der Bundesjogi"
+    ],
+    "fact": "Joachim „Jogi“ Löw (* 3. Februar 1960 in Schönau im Schwarzwald) ist ein ehemaliger deutscher Fußballtrainer und Fußballspieler.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Joachim Löw – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Joachim_L%C3%B6w"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-joachim-loew-7",
+    "expectedAnswer": "EM 2021",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "WM 2018",
+      "EM 2016",
+      "WM 2022"
+    ],
+    "fact": "Bei der WM 2018 und der EM 2021, vor der der in den vergangenen Jahren öfter kritisierte Löw seinen Rücktritt angekündigt hatte, kam es jeweils zu einem frühen Ausscheiden in der Vorrunde bzw. im Achtelfinale.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Joachim Löw – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Joachim_L%C3%B6w"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-berti-vogts-5",
+    "expectedAnswer": "Aserbaidschan",
+    "difficulty": 2,
+    "category": "Nationalteams",
+    "distractors": [
+      "Georgien",
+      "Nigeria",
+      "Kasachstan"
+    ],
+    "fact": "Am 4. April 2008 wurde Vogts als neuer Nationaltrainer Aserbaidschans vorgestellt und unterzeichnete einen Zweijahresvertrag.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Berti Vogts – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Berti_Vogts"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-rudi-voeller-5",
+    "expectedAnswer": "Tante Käthe",
+    "difficulty": 1,
+    "category": "Spitznamen",
+    "distractors": [
+      "Der Bomber",
+      "Kalle",
+      "Ente"
+    ],
+    "fact": "In seiner aktiven Zeit erhielt Völler den Spitznamen Tante Käthe.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Rudi Völler – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Rudi_V%C3%B6ller"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-rudi-voeller-6",
+    "expectedAnswer": "Sportdirektor",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "Präsident",
+      "Teamchef",
+      "Vizepräsident"
+    ],
+    "fact": "Seit Februar 2023 ist er der Sportdirektor unter anderem für die A-Nationalmannschaft.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Rudi Völler – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Rudi_V%C3%B6ller"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-franz-beckenbauer-5",
+    "expectedAnswer": "Präsident des Organisationskomitees",
+    "difficulty": 2,
+    "category": "Nationalteams",
+    "distractors": [
+      "Teamchef",
+      "Bundestrainer",
+      "DFB-Präsident"
+    ],
+    "fact": "Zudem war er Präsident des Organisationskomitees der Fußball-Weltmeisterschaft 2006 und Aufsichtsratsvorsitzender der FC Bayern München AG.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Franz Beckenbauer – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Franz_Beckenbauer"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-ernst-happel-6",
+    "expectedAnswer": "Wödmasta",
+    "difficulty": 2,
+    "category": "Spitznamen",
+    "distractors": [
+      "Grantler",
+      "Der General",
+      "Professor"
+    ],
+    "fact": "In seiner Heimat nannte man ihn dennoch „Wödmasta“ – ein Titel, der ihm von Josef Blum zugefallen war.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Ernst Happel – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Ernst_Happel"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-staale-solbakken-1",
+    "expectedAnswer": "1. FC Köln",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "Hamburger SV",
+      "Hannover 96",
+      "Hertha BSC"
+    ],
+    "fact": "Ab Januar 2012 sollte Solbakken Egil Olsen ersetzen und norwegischer Nationaltrainer werden, doch dann verpflichtete der 1. FC Köln den Norweger zum 1. Juli 2011 als neuen Cheftrainer, nachdem der Norges …",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Ståle Solbakken – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/St%C3%A5le_Solbakken"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-staale-solbakken-2",
+    "expectedAnswer": "Norwegen",
+    "difficulty": 1,
+    "category": "Nationalteams",
+    "distractors": [
+      "Dänemark",
+      "Schweden",
+      "Island"
+    ],
+    "fact": "Seit Dezember 2020 ist er Nationaltrainer seines Heimatlandes.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Ståle Solbakken – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/St%C3%A5le_Solbakken"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-staale-solbakken-3",
+    "expectedAnswer": "FC Kopenhagen",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "Brøndby IF",
+      "FC Midtjylland",
+      "Aalborg BK"
+    ],
+    "fact": "Danach ging er für 4 Monate nach England zum FC Wimbledon. 1998 wechselte er nach Dänemark, wo er seine erfolgreichste Zeit als Spieler verbrachte. 1999 gewann er mit Aalborg BK die dänische Meisterschaft, im Jahr …",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Ståle Solbakken – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/St%C3%A5le_Solbakken"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-joern-andersen-1",
+    "expectedAnswer": "1. FSV Mainz 05",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "1. FC Kaiserslautern",
+      "Fortuna Düsseldorf",
+      "Alemannia Aachen"
+    ],
+    "fact": "Als Trainer führte er 2009 den 1. FSV Mainz 05 zum Wiederaufstieg in die Bundesliga.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Jørn Andersen – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/J%C3%B8rn_Andersen"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-joern-andersen-2",
+    "expectedAnswer": "Jørn Andersen",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "Rune Bratseth",
+      "Kjetil Rekdal",
+      "Jan Åge Fjørtoft"
+    ],
+    "fact": "Bei seinem nachfolgenden Engagement bei Eintracht Frankfurt wurde er der erste ausländische Torschützenkönig der Bundesliga.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Jørn Andersen – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/J%C3%B8rn_Andersen"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-egil-olsen-1",
+    "expectedAnswer": "Drillo",
+    "difficulty": 1,
+    "category": "Spitznamen",
+    "distractors": [
+      "Gamle",
+      "Professoren",
+      "Ego"
+    ],
+    "fact": "Egil Roger Olsen (* 22. April 1942 in Fredrikstad), Spitzname Drillo, ist ein norwegischer Fußballtrainer.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Egil Olsen – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Egil_Olsen"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-nils-arne-eggen-1",
+    "expectedAnswer": "Rosenborg BK",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "Molde FK",
+      "Brann Bergen",
+      "Vålerenga Oslo"
+    ],
+    "fact": "Mit Rosenborg BK gewann er als Spieler zwei- und als Trainer dreizehnmal den norwegischen Meistertitel.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Nils Arne Eggen – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Nils_Arne_Eggen"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-ole-gunnar-solskjaer-1",
+    "expectedAnswer": "Manchester United",
+    "difficulty": 1,
+    "category": "Stationen",
+    "distractors": [
+      "FC Liverpool",
+      "FC Chelsea",
+      "Cardiff City"
+    ],
+    "fact": "Von Dezember 2018 bis November 2021 war er Cheftrainer von Manchester United.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Ole Gunnar Solskjær – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Ole_Gunnar_Solskj%C3%A6r"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-ole-gunnar-solskjaer-2",
+    "expectedAnswer": "Molde FK",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "Rosenborg BK",
+      "Bodø/Glimt",
+      "Brann Bergen"
+    ],
+    "fact": "Von 2011 bis 2014 war Solskjær Trainer des norwegischen Erstligisten Molde FK und gewann mit dem Klub in dieser Zeit zweimal die norwegische Meisterschaft.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Ole Gunnar Solskjær – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Ole_Gunnar_Solskj%C3%A6r"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-willi-multhaup-2",
+    "expectedAnswer": "Borussia Dortmund",
+    "difficulty": 3,
+    "category": "Titel",
+    "distractors": [
+      "Werder Bremen",
+      "TSV 1860 München",
+      "1. FC Köln"
+    ],
+    "fact": "Willi Multhaup wurde 1965 mit Werder Bremen Deutscher Meister, gewann 1966 mit Borussia Dortmund den Europapokal der Pokalsieger und 1968 mit dem 1. FC Köln den DFB-Pokal.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Willi Multhaup – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Willi_Multhaup"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-helmuth-johannsen-2",
+    "expectedAnswer": "Grasshopper Club Zürich",
+    "difficulty": 3,
+    "category": "Titel",
+    "distractors": [
+      "FC Basel",
+      "FC Zürich",
+      "Servette Genf"
+    ],
+    "fact": "Im Hardturmstadion konnte er dann im Jahre 1978, nachdem man sich knapp gegen Servette Genf und FC Basel durchgesetzt hatte, den Gewinn der Schweizer Meisterschaft feiern, wobei GC in der gleichen Saison auch den …",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Helmuth Johannsen – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Helmuth_Johannsen"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-pal-csernai-3",
+    "expectedAnswer": "DFB-Pokal",
+    "difficulty": 3,
+    "category": "Titel",
+    "distractors": [
+      "Deutsche Meisterschaft",
+      "Europapokal der Landesmeister",
+      "UEFA-Pokal"
+    ],
+    "fact": "Er gewann mit dem Verein 1980 und 1981 die deutsche Meisterschaft und 1982 den DFB-Pokal.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Pál Csernai – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/P%C3%A1l_Csernai"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-karl-heinz-feldkamp-4",
+    "expectedAnswer": "Karl-Heinz Feldkamp",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "Otto Rehhagel",
+      "Udo Lattek",
+      "Hennes Weisweiler"
+    ],
+    "fact": "Feldkamp ist bis zum heutigen Tag der einzige Trainer, dem es gelang, mit drei verschiedenen Vereinen den DFB-Pokal zu gewinnen.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Karl-Heinz Feldkamp – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Karl-Heinz_Feldkamp"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-dragoslav-stepanovic-3",
+    "expectedAnswer": "Hertha BSC",
+    "difficulty": 3,
+    "category": "Titel",
+    "distractors": [
+      "Hannover 96",
+      "Werder Bremen",
+      "Kickers Offenbach"
+    ],
+    "fact": "Da Leverkusen sich seinerseits bereits vorzeitig von Reinhard Saftig getrennt hatte, trat Stepanović den Posten des Cheftrainers noch in der laufenden Saison 1992/1993 an und betreute die Mannschaft auch beim …",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Dragoslav Stepanović – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Dragoslav_Stepanovi%C4%87"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-michael-lorkowski-2",
+    "expectedAnswer": "Kickers Offenbach",
+    "difficulty": 3,
+    "category": "Titel",
+    "distractors": [
+      "SV Darmstadt 98",
+      "Fortuna Köln",
+      "SpVgg Fürth"
+    ],
+    "fact": "Im Elfmeterschießen gewann der Außenseiter schließlich mit 4:3. Hannover 96 war damit nach den Kickers Offenbach im DFB-Pokal 1969/70 erst die zweite Mannschaft unterhalb der Bundesliga, die den DFB-Pokal gewann.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Michael Lorkowski – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Michael_Lorkowski"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-bernd-krauss-2",
+    "expectedAnswer": "Bernd Krauss",
+    "difficulty": 3,
+    "category": "Wer war's?",
+    "distractors": [
+      "Volker Finke",
+      "Ralf Rangnick",
+      "Hans Meyer"
+    ],
+    "fact": "Mit diesem Verein gewann er 1995 den DFB-Pokal, nachdem er zuvor als erster Trainer in der Bundesliga mit Viererkette in der Abwehr spielen ließ.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Bernd Krauss – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Bernd_Krauss"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-mirko-slomka-2",
+    "expectedAnswer": "Atlético Madrid",
+    "difficulty": 3,
+    "category": "Stationen",
+    "distractors": [
+      "FC Valencia",
+      "Athletic Bilbao",
+      "Sporting Lissabon"
+    ],
+    "fact": "Nach Siegen gegen den FC Brügge und erneut Standard Lüttich scheiterte Hannover 96 im Viertelfinale in Hin- und Rückspiel mit insgesamt 2:4 an Atlético Madrid, das später das Finale gewinnen sollte.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Mirko Slomka – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Mirko_Slomka"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-domenico-tedesco-4",
+    "expectedAnswer": "Spartak Moskau",
+    "difficulty": 3,
+    "category": "Stationen",
+    "distractors": [
+      "Zenit St. Petersburg",
+      "ZSKA Moskau",
+      "Lokomotive Moskau"
+    ],
+    "fact": "Im weiteren Verlauf der Saison führte er den Verein auf Platz zwei und schloss somit sein Engagement in Moskau mit dem Gewinn der Vizemeisterschaft ab.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Domenico Tedesco – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Domenico_Tedesco"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-ernst-happel-7",
+    "expectedAnswer": "FC Brügge",
+    "difficulty": 3,
+    "category": "Titel",
+    "distractors": [
+      "RSC Anderlecht",
+      "Standard Lüttich",
+      "Royal Antwerpen"
+    ],
+    "fact": "Belgischer Meister (3): 1976, 1977, 1978 (FC Brügge)",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Ernst Happel – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Ernst_Happel"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-sepp-herberger-4",
+    "expectedAnswer": "Otto Nerz",
+    "difficulty": 3,
+    "category": "Nationalteams",
+    "distractors": [
+      "Helmut Schön",
+      "Hugo Meisl",
+      "Dettmar Cramer"
+    ],
+    "fact": "Zwar hatte Nerz, dessen allmählicher Rückzug ebenso vorgesehen war wie die Person Herbergers als Nachfolger, am 1. April des Jahres bereits seinen Dienst an der Reichsakademie angetreten, doch wollte Nerz neben …",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Sepp Herberger – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Sepp_Herberger"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-helmut-benthaus-3",
+    "expectedAnswer": "Helmut Benthaus",
+    "difficulty": 3,
+    "category": "Wer war's?",
+    "distractors": [
+      "Hennes Weisweiler",
+      "Udo Lattek",
+      "Karl Rappan"
+    ],
+    "fact": "Zwischen 1968 und 1971 spielte Hitzfeld für den FV Lörrach in der 1. Amateurliga Südbaden, zum damaligen Zeitpunkt die dritthöchste deutsche Spielklasse. 1971 holte Trainer Helmut Benthaus den talentierten Stürmer …",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Ottmar Hitzfeld – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Ottmar_Hitzfeld"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-dettmar-cramer-4",
+    "expectedAnswer": "Eintracht Frankfurt",
+    "difficulty": 3,
+    "category": "Stationen",
+    "distractors": [
+      "Hertha BSC",
+      "1. FC Köln",
+      "Hamburger SV"
+    ],
+    "fact": "Anfang Dezember 1977 erfolgte ein einvernehmlicher Trainertausch: Lóránt wechselte nach dem 16. Bundesligaspieltag für Dettmar Cramer, der gerade fünf Niederlagen am Stück eingefahren hatte, zu Bayern München, Cramer …",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Gyula Lóránt – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Gyula_L%C3%B3r%C3%A1nt"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-otto-rehhagel-7",
+    "expectedAnswer": "1988 und 1993",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "1987 und 1992",
+      "1988 und 1991",
+      "1993 und 1995"
+    ],
+    "fact": "Deutscher Meister (3): 1988, 1993 (beide Werder Bremen), 1998 (1. FC Kaiserslautern)",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Otto Rehhagel – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Otto_Rehhagel"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-kuno-kloetzer-1",
+    "expectedAnswer": "Kuno Klötzer",
+    "difficulty": 3,
+    "category": "Titel",
+    "distractors": [
+      "Branko Zebec",
+      "Ernst Happel",
+      "Rudi Gutendorf"
+    ],
+    "fact": "Kuno Klötzer (* 19. April 1922 in Geyer; † 6. August 2011 in Norderstedt) war ein deutscher Fußballspieler und ‑trainer, der mit dem Hamburger SV im Jahr 1977 den Europapokal der Pokalsieger gewann.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Kuno Klötzer – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Kuno_Kl%C3%B6tzer"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-kuno-kloetzer-2",
+    "expectedAnswer": "Hamburger SV",
+    "difficulty": 3,
+    "category": "Titel",
+    "distractors": [
+      "1. FC Kaiserslautern",
+      "Hertha BSC",
+      "Fortuna Düsseldorf"
+    ],
+    "fact": "Am 26. Juni 1976 holte sich die Klötzer-Truppe mit einem 2:0-Sieg gegen den 1. FC Kaiserslautern den DFB-Pokal des Jahres 1976. Mit den Neuzugängen Ferdinand Keller, Felix Magath und Arno Steffenhagen startete der …",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Kuno Klötzer – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Kuno_Kl%C3%B6tzer"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-georg-buschner-3",
+    "expectedAnswer": "München",
+    "difficulty": 3,
+    "category": "Nationalteams",
+    "distractors": [
+      "Montreal",
+      "Mexiko-Stadt",
+      "Moskau"
+    ],
+    "fact": "Da A-Auswahl und Olympiaelf personell in den frühen und mittleren 1970er-Jahren identisch waren, zeichnete Buschner auch für Erfolge auf olympischem Parkett verantwortlich: 1972 wurde das DFV-Team in München …",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Georg Buschner – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Georg_Buschner"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-juergen-bogs-2",
+    "expectedAnswer": "1988 und 1989",
+    "difficulty": 3,
+    "category": "Titel",
+    "distractors": [
+      "1979 und 1980",
+      "1984 und 1985",
+      "1987 und 1988"
+    ],
+    "fact": "In den Jahren 1988 und 1989 gewann der Verein darüber hinaus unter seiner Leitung den FDGB-Pokal, den nationalen Pokalwettbewerb im DDR-Fußball, und erreichte damit 1988 das Doppel aus Meisterschaft und Pokalsieg.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Jürgen Bogs – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Bogs"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-tina-theune-2",
+    "expectedAnswer": "Silvia Neid",
+    "difficulty": 2,
+    "category": "Nationalteams",
+    "distractors": [
+      "Steffi Jones",
+      "Martina Voss-Tecklenburg",
+      "Bettina Wiegmann"
+    ],
+    "fact": "Im August 1996 löste sie Gero Bisanz als Bundestrainerin der Frauen-Nationalmannschaft ab und behielt gleichzeitig die Verantwortung für die U21-Frauen bis zum August 2005. Nach dem Gewinn der Weltmeisterschaft 2003 …",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Tina Theune – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Tina_Theune"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-alex-ferguson-3",
+    "expectedAnswer": "Schottland",
+    "difficulty": 1,
+    "category": "Nationalteams",
+    "distractors": [
+      "England",
+      "Irland",
+      "Wales"
+    ],
+    "fact": "Sir Alexander Chapman „Alex“ Ferguson, CBE (* 31. Dezember 1941 in Govan, Glasgow) ist ein ehemaliger schottischer Fußballspieler und -trainer.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Alex Ferguson – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Alex_Ferguson"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-jose-mourinho-4",
+    "expectedAnswer": "Portugal",
+    "difficulty": 1,
+    "category": "Nationalteams",
+    "distractors": [
+      "Spanien",
+      "Brasilien",
+      "Italien"
+    ],
+    "fact": "José Mário dos Santos Félix Mourinho (* 26. Januar 1963 in Setúbal) ist ein portugiesischer Fußballtrainer und ehemaliger Profi-Fußballer.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "José Mourinho – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Jos%C3%A9_Mourinho"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-arsene-wenger-4",
+    "expectedAnswer": "Arsène Wenger",
+    "difficulty": 1,
+    "category": "Titel",
+    "distractors": [
+      "George Graham",
+      "José Mourinho",
+      "Alex Ferguson"
+    ],
+    "fact": "Unter Wenger gewann Arsenal dreimal die englische Meisterschaft sowie siebenmal den FA Cup und blieb in der Saison 2003/04 ungeschlagen.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Arsène Wenger – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Ars%C3%A8ne_Wenger"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-arsene-wenger-5",
+    "expectedAnswer": "Frankreich",
+    "difficulty": 1,
+    "category": "Nationalteams",
+    "distractors": [
+      "Belgien",
+      "Schweiz",
+      "Deutschland"
+    ],
+    "fact": "LH (* 22. Oktober 1949 in Straßburg) ist ein ehemaliger französischer Fußballtrainer und- funktionär.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Arsène Wenger – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Ars%C3%A8ne_Wenger"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-vincent-kompany-5",
+    "expectedAnswer": "FC Bayern München",
+    "difficulty": 1,
+    "category": "Stationen",
+    "distractors": [
+      "Borussia Dortmund",
+      "FC Burnley",
+      "RSC Anderlecht"
+    ],
+    "fact": "Seit Sommer 2024 ist er Cheftrainer des FC Bayern München.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Vincent Kompany – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Vincent_Kompany"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-ole-gunnar-solskjaer-3",
+    "expectedAnswer": "Manchester United",
+    "difficulty": 1,
+    "category": "Stationen",
+    "distractors": [
+      "FC Liverpool",
+      "FC Chelsea",
+      "Rosenborg BK"
+    ],
+    "fact": "Der 67-malige norwegische Nationalspieler war von 1996 bis 2007 für Manchester United aktiv und gewann in dieser Zeit neben sechs englischen Meisterschaften 1999 die UEFA Champions League und den Weltpokal.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Ole Gunnar Solskjær – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Ole_Gunnar_Solskj%C3%A6r"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-diego-simeone-3",
+    "expectedAnswer": "El Cholo",
+    "difficulty": 2,
+    "category": "Spitznamen",
+    "distractors": [
+      "El Loco",
+      "El Pibe",
+      "El Tata"
+    ],
+    "fact": "Diego Pablo Simeone (* 28. April 1970 in Buenos Aires), auch bekannt unter seinem Spitznamen El Cholo, ist ein argentinischer Fußballtrainer und ehemaliger -spieler.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Diego Simeone – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Diego_Simeone"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-vicente-del-bosque-2",
+    "expectedAnswer": "Europameisterschaft",
+    "difficulty": 2,
+    "category": "Nationalteams",
+    "distractors": [
+      "Konföderationen-Pokal",
+      "Olympiasieg",
+      "Nations League"
+    ],
+    "fact": "Zudem führte er den Verein 2000 und 2002 zu zwei Champions-League-Titeln. 2010 wurde er als Trainer der spanischen Fußballnationalmannschaft Weltmeister und 2012 Europameister.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Vicente del Bosque – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Vicente_del_Bosque"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-lionel-scaloni-2",
+    "expectedAnswer": "Copa América",
+    "difficulty": 2,
+    "category": "Nationalteams",
+    "distractors": [
+      "Konföderationen-Pokal",
+      "Finalissima",
+      "Olympia-Turnier"
+    ],
+    "fact": "Er ist seit 2018 Cheftrainer der argentinischen Nationalmannschaft, die er 2021 und 2024 zum Gewinn der Copa América und 2022 zum dritten WM-Titel führte.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Lionel Scaloni – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Lionel_Scaloni"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-staale-solbakken-4",
+    "expectedAnswer": "Dezember 2020",
+    "difficulty": 1,
+    "category": "Nationalteams",
+    "distractors": [
+      "Januar 2012",
+      "Juni 2018",
+      "März 2022"
+    ],
+    "fact": "Seit Dezember 2020 ist er Nationaltrainer seines Heimatlandes.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Ståle Solbakken – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/St%C3%A5le_Solbakken"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-zinedine-zidane-2",
+    "expectedAnswer": "Frankreich",
+    "difficulty": 1,
+    "category": "Nationalteams",
+    "distractors": [
+      "Algerien",
+      "Spanien",
+      "Belgien"
+    ],
+    "fact": "LH [zineˈdin jaˈzid ziˈdan], auch Zizou [ziˈzu] genannt (* 23. Juni 1972 in Marseille), ist ein ehemaliger französischer Fußballspieler und heutiger Fußballtrainer.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Zinédine Zidane – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Zin%C3%A9dine_Zidane"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-bob-paisley-2",
+    "expectedAnswer": "Sechs",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "Drei",
+      "Vier",
+      "Acht"
+    ],
+    "fact": "Dies sollte der Startschuss zu Liverpools größter Ära sein – in Paisleys neun Saisons als Cheftrainer gewann Liverpool sechs Meisterschaften, zwei Vizemeisterschaften und die ersten drei Landesmeister-Pokale.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Bob Paisley – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Bob_Paisley"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-mario-zagallo-2",
+    "expectedAnswer": "Professor",
+    "difficulty": 2,
+    "category": "Spitznamen",
+    "distractors": [
+      "Velho Lobo",
+      "O Rei",
+      "Capitão"
+    ],
+    "fact": "Der Trainer, der von seinen Spielern „Professor“ genannt wurde, war an vier der fünf Fußball-Weltmeistertitel der Brasilianer als Spieler, Trainer und Assistenztrainer beteiligt und war zudem der erste in der …",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Mário Zagallo – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/M%C3%A1rio_Zagallo"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-johan-cruyff-1",
+    "expectedAnswer": "FC Barcelona",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "Ajax Amsterdam",
+      "PSV Eindhoven",
+      "Feyenoord Rotterdam"
+    ],
+    "fact": "Im Sommer 1988 wurde er vom FC Barcelona verpflichtet, wo er als Trainer von 1990 bis 1994 viermal in Folge die spanische Meisterschaft und als Krönung 1992 den Europapokal der Landesmeister gewann.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Johan Cruyff – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Johan_Cruyff"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-otto-rehhagel-8",
+    "expectedAnswer": "Otto Rehhagel",
+    "difficulty": 2,
+    "category": "Wer war's?",
+    "distractors": [
+      "Thomas Schaaf",
+      "Jupp Heynckes",
+      "Felix Magath"
+    ],
+    "fact": "Rehhagel führt mit insgesamt 832 betreuten Spielen in über 24 Jahren (1974 bis 2000; 2012) die Rangliste der Bundesliga-Trainereinsätze mit großem Abstand vor Jupp Heynckes an.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Otto Rehhagel – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Otto_Rehhagel"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-jupp-heynckes-7",
+    "expectedAnswer": "Bayer 04 Leverkusen",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "FC Schalke 04",
+      "Borussia Mönchengladbach",
+      "Eintracht Frankfurt"
+    ],
+    "fact": "=== 2009 bis 2011: Bayer 04 Leverkusen ===",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Jupp Heynckes – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Jupp_Heynckes"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-ottmar-hitzfeld-6",
+    "expectedAnswer": "Borussia Dortmund",
+    "difficulty": 1,
+    "category": "Titel",
+    "distractors": [
+      "FC Bayern München",
+      "Werder Bremen",
+      "VfB Stuttgart"
+    ],
+    "fact": "Meister (7): 1995, 1996 (beide Borussia Dortmund), 1999, 2000, 2001, 2003, 2008 (alle FC Bayern München)",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Ottmar Hitzfeld – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Ottmar_Hitzfeld"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-ottmar-hitzfeld-7",
+    "expectedAnswer": "FC Aarau",
+    "difficulty": 3,
+    "category": "Titel",
+    "distractors": [
+      "FC Zug",
+      "FC Basel",
+      "FC Luzern"
+    ],
+    "fact": "Pokalsieger (3): 1985 (FC Aarau), 1989, 1990 (beide Grasshopper Club Zürich)",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Ottmar Hitzfeld – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Ottmar_Hitzfeld"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-oliver-glasner-4",
+    "expectedAnswer": "LASK",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "SV Ried",
+      "FC Red Bull Salzburg",
+      "Wolfsberger AC"
+    ],
+    "fact": "Österreichischer Zweitligameister und Aufstieg in die Bundesliga: 2017 (LASK)",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Oliver Glasner – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Oliver_Glasner"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-lucien-favre-3",
+    "expectedAnswer": "FC Zürich",
+    "difficulty": 3,
+    "category": "Titel",
+    "distractors": [
+      "FC Basel",
+      "Servette Genf",
+      "BSC Young Boys"
+    ],
+    "fact": "2006: Schweizer Meister (FC Zürich)",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Lucien Favre – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Lucien_Favre"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-lucien-favre-4",
+    "expectedAnswer": "Hertha BSC",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "VfL Wolfsburg",
+      "Hamburger SV",
+      "1. FC Köln"
+    ],
+    "fact": "Zur Saison 2007/08 wechselte Favre zum deutschen Bundesligisten Hertha BSC.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Lucien Favre – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Lucien_Favre"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-matthias-sammer-3",
+    "expectedAnswer": "Dynamo Dresden",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "BFC Dynamo",
+      "1. FC Magdeburg",
+      "FC Carl Zeiss Jena"
+    ],
+    "fact": "Matthias Sammer begann als Neunjähriger 1976, in der Kindermannschaft der SG Dynamo Dresden Fußball zu spielen.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Matthias Sammer – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Matthias_Sammer"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-friedhelm-funkel-3",
+    "expectedAnswer": "Fortuna Düsseldorf",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "1. FC Köln",
+      "MSV Duisburg",
+      "1. FC Union Berlin"
+    ],
+    "fact": "Aufstieg in die Bundesliga (7): 1992, 1994 (beide Bayer 05 Uerdingen), 1996 (MSV Duisburg), 2003 (1. FC Köln), 2005 (Eintracht Frankfurt), 2018 (Fortuna Düsseldorf), 2025 (1. FC Köln)",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Friedhelm Funkel – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Friedhelm_Funkel"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-christoph-daum-5",
+    "expectedAnswer": "FK Austria Wien",
+    "difficulty": 3,
+    "category": "Stationen",
+    "distractors": [
+      "SK Rapid Wien",
+      "SK Sturm Graz",
+      "FC Tirol Innsbruck"
+    ],
+    "fact": "Meister: 2003 (FK Austria Wien)",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Christoph Daum – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Christoph_Daum"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-christoph-daum-6",
+    "expectedAnswer": "Rumänische Nationalmannschaft",
+    "difficulty": 2,
+    "category": "Nationalteams",
+    "distractors": [
+      "Bulgarische Nationalmannschaft",
+      "Türkische Nationalmannschaft",
+      "Ungarische Nationalmannschaft"
+    ],
+    "fact": "Von 2016 bis 2017 war er Trainer der rumänischen Nationalmannschaft.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Christoph Daum – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Christoph_Daum"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-edin-terzic-3",
+    "expectedAnswer": "West Ham United",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "FC Everton",
+      "Aston Villa",
+      "FC Fulham"
+    ],
+    "fact": "Zur Saison 2015/16 folgte Terzić seinem Kollegen Bilić in die englische Premier League zu West Ham United.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Edin Terzić – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Edin_Terzi%C4%87"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-giovanni-trapattoni-5",
+    "expectedAnswer": "VfB Stuttgart",
+    "difficulty": 3,
+    "category": "Stationen",
+    "distractors": [
+      "1. FC Köln",
+      "Hertha BSC",
+      "Werder Bremen"
+    ],
+    "fact": "Am 17. Juni 2005 unterschrieb er einen Zweijahresvertrag beim VfB Stuttgart.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Giovanni Trapattoni – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Giovanni_Trapattoni"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-felix-magath-7",
+    "expectedAnswer": "Shandong Luneng Taishan",
+    "difficulty": 3,
+    "category": "Stationen",
+    "distractors": [
+      "Guangzhou Evergrande",
+      "Shanghai SIPG",
+      "Beijing Guoan"
+    ],
+    "fact": "Von Juni 2016 bis Dezember 2017 war Magath Trainer des chinesischen Vereins Shandong Luneng Taishan.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Felix Magath – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Felix_Magath"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-thomas-schaaf-5",
+    "expectedAnswer": "Hannover 96",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "Hamburger SV",
+      "VfL Bochum",
+      "1. FC Nürnberg"
+    ],
+    "fact": "Zur Rückrunde der Saison 2015/16 übernahm Schaaf die auf dem 17. Tabellenplatz stehende Bundesligamannschaft von Hannover 96 vom zurückgetretenen Michael Frontzeck.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Thomas Schaaf – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Thomas_Schaaf"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-armin-veh-3",
+    "expectedAnswer": "Hamburger SV",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "FC St. Pauli",
+      "Altona 93",
+      "Holstein Kiel"
+    ],
+    "fact": "Am 1. Juli 2010 wurde Veh Cheftrainer beim Hamburger SV.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Armin Veh – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Armin_Veh"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-otto-rehhagel-9",
+    "expectedAnswer": "Fortuna Düsseldorf",
+    "difficulty": 3,
+    "category": "Titel",
+    "distractors": [
+      "Werder Bremen",
+      "Borussia Dortmund",
+      "1. FC Kaiserslautern"
+    ],
+    "fact": "Deutscher Pokalsieger (3): 1980 (Fortuna Düsseldorf), 1991, 1994 (beide Werder Bremen)",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Otto Rehhagel – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Otto_Rehhagel"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-erich-ribbeck-3",
+    "expectedAnswer": "FC Bayern München",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "Borussia Dortmund",
+      "1. FC Kaiserslautern",
+      "Eintracht Frankfurt"
+    ],
+    "fact": "Der FC Bayern verpflichtete Ribbeck im März 1992 als Nachfolger von Søren Lerby.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Erich Ribbeck – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Erich_Ribbeck"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-hennes-weisweiler-6",
+    "expectedAnswer": "Grasshopper Club Zürich",
+    "difficulty": 3,
+    "category": "Stationen",
+    "distractors": [
+      "FC Basel",
+      "FC Zürich",
+      "Servette Genf"
+    ],
+    "fact": "In der Schweiz feierte er im Juni 1983 mit dem Grasshopper Club Zürich einen weiteren Double-Erfolg.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Hennes Weisweiler – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Hennes_Weisweiler"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-max-merkel-2",
+    "expectedAnswer": "Atlético Madrid",
+    "difficulty": 3,
+    "category": "Titel",
+    "distractors": [
+      "Real Madrid",
+      "FC Sevilla",
+      "FC Valencia"
+    ],
+    "fact": "Als Aktiver feierte er seine größten Erfolge bei Rapid Wien, als Trainer konnte er neben Rapid auch den TSV 1860 München, den 1. FC Nürnberg und Atlético Madrid zum Meister machen.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Max Merkel – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Max_Merkel"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-sepp-herberger-5",
+    "expectedAnswer": "Bern",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "Zürich",
+      "Basel",
+      "Genf"
+    ],
+    "fact": "Der Höhepunkt seiner Karriere war der Gewinn des Titels der Weltmeisterschaft 1954, deren Endspiel als „Wunder von Bern“ in die Fußballgeschichte einging.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Sepp Herberger – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Sepp_Herberger"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-berti-vogts-6",
+    "expectedAnswer": "1974",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "1970",
+      "1972",
+      "1978"
+    ],
+    "fact": "Weltmeister: 1974",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Berti Vogts – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Berti_Vogts"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-juergen-klinsmann-5",
+    "expectedAnswer": "Tottenham Hotspur",
+    "difficulty": 1,
+    "category": "Stationen",
+    "distractors": [
+      "FC Arsenal",
+      "FC Chelsea",
+      "West Ham United"
+    ],
+    "fact": "Etwas überraschend wechselte Klinsmann zur Saison 1994/95 zu Tottenham Hotspur in die Premier League, wo er sowohl von den Fans als auch von den Medien sehr kritisch begrüßt wurde, da er von einigen englischen Medien …",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Jürgen Klinsmann – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/J%C3%BCrgen_Klinsmann"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-joachim-loew-8",
+    "expectedAnswer": "Confed Cup",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "Europameisterschaft",
+      "Nations League",
+      "Olympisches Turnier"
+    ],
+    "fact": "Dabei führte er die Mannschaft 2014 in Brasilien zum vierten WM-Titel, wofür er zum FIFA-Welttrainer des Jahres gewählt wurde, und 2017 in Russland zum einzigen Gewinn des Confed Cups.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Joachim Löw – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Joachim_L%C3%B6w"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-joachim-loew-9",
+    "expectedAnswer": "Argentinien",
+    "difficulty": 1,
+    "category": "Titel",
+    "distractors": [
+      "Brasilien",
+      "Niederlande",
+      "Frankreich"
+    ],
+    "fact": "Die deutsche Mannschaft gewann das Halbfinale gegen Brasilien mit 7:1 und wurde nach einem 1:0 nach Verlängerung im Finale gegen Argentinien Weltmeister.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Joachim Löw – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Joachim_L%C3%B6w"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-pep-guardiola-4",
+    "expectedAnswer": "FC Barcelona",
+    "difficulty": 1,
+    "category": "Stationen",
+    "distractors": [
+      "FC Bayern München",
+      "Manchester City",
+      "Real Madrid"
+    ],
+    "fact": "Am 8. Mai 2008 gab Joan Laporta, Präsident des FC Barcelona, bekannt, dass Guardiola zur Saison 2008/09 Frank Rijkaard als Cheftrainer des Profi-Kaders ersetzen werde.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Pep Guardiola – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Pep_Guardiola"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-jose-mourinho-5",
+    "expectedAnswer": "FC Chelsea",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "FC Arsenal",
+      "Tottenham Hotspur",
+      "West Ham United"
+    ],
+    "fact": "Er hat drei Einträge im Guinness-Buch der Rekorde: Premier-League-Trainer mit den wenigsten Gegentoren (15, FC Chelsea in 2004/05); längste Heimserie eines Premier-League-Trainers ohne Niederlage (77 Spiele); …",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "José Mourinho – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Jos%C3%A9_Mourinho"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-jose-mourinho-6",
+    "expectedAnswer": "Real Madrid",
+    "difficulty": 1,
+    "category": "Stationen",
+    "distractors": [
+      "FC Barcelona",
+      "Atlético Madrid",
+      "FC Valencia"
+    ],
+    "fact": "Am 28. Mai 2010 bestätigten Real Madrid und Inter Mailand Mourinhos Wechsel zu den Königlichen.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "José Mourinho – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Jos%C3%A9_Mourinho"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-zinedine-zidane-3",
+    "expectedAnswer": "Juventus Turin",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "AC Mailand",
+      "Inter Mailand",
+      "AS Rom"
+    ],
+    "fact": "Schließlich entschied sich Zidane für das Angebot des italienischen Rekordmeisters Juventus Turin und unterschrieb einen Fünf-Jahres-Vertrag mit einem geschätzten Nettogehalt von 2,5 Millionen Euro.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Zinédine Zidane – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Zin%C3%A9dine_Zidane"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-lionel-scaloni-3",
+    "expectedAnswer": "2018",
+    "difficulty": 2,
+    "category": "Nationalteams",
+    "distractors": [
+      "2016",
+      "2019",
+      "2020"
+    ],
+    "fact": "Er ist seit 2018 Cheftrainer der argentinischen Nationalmannschaft, die er 2021 und 2024 zum Gewinn der Copa América und 2022 zum dritten WM-Titel führte.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Lionel Scaloni – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Lionel_Scaloni"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-gareth-southgate-2",
+    "expectedAnswer": "FC Middlesbrough",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "Crystal Palace",
+      "Aston Villa",
+      "Leeds United"
+    ],
+    "fact": "Seine Vereinskarriere umfasste ab 1989 jeweils sechs Jahre bei Crystal Palace in London und Aston Villa in Birmingham, bevor er bei seinem letzten Klub FC Middlesbrough nach fünf Jahren ins Trainerfach wechselte und …",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Gareth Southgate – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Gareth_Southgate"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-ole-gunnar-solskjaer-4",
+    "expectedAnswer": "Cardiff City",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "Swansea City",
+      "Wrexham AFC",
+      "Newport County"
+    ],
+    "fact": "Am 2. Januar 2014 wurde Solskjær Trainer des zu dieser Zeit akut abstiegsgefährdeten walisischen Hauptstadtvereins Cardiff City.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Ole Gunnar Solskjær – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Ole_Gunnar_Solskj%C3%A6r"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-egil-olsen-2",
+    "expectedAnswer": "FC Wimbledon",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "FC Watford",
+      "Leeds United",
+      "Coventry City"
+    ],
+    "fact": "Von 1990 bis 1998 trainierte er erstmals die norwegische Nationalmannschaft und führte sie in die Endrunden der Weltmeisterschaften 1994 und 1998. 1999 wurde Olsen Trainer des FC Wimbledon in England, wurde aber nach …",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Egil Olsen – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Egil_Olsen"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-staale-solbakken-5",
+    "expectedAnswer": "Wolverhampton Wanderers",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "Aston Villa",
+      "FC Fulham",
+      "Stoke City"
+    ],
+    "fact": "Zur Saison 2012/13 wurde er Trainer beim englischen Club Wolverhampton Wanderers, wurde jedoch bereits im Januar 2013 nach einer Niederlage im FA Cup gegen den Fünftligisten Luton Town wieder entlassen.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Ståle Solbakken – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/St%C3%A5le_Solbakken"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-horst-hrubesch-4",
+    "expectedAnswer": "Hamburger SV",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "Eintracht Frankfurt",
+      "Borussia Dortmund",
+      "Rot-Weiss Essen"
+    ],
+    "fact": "Mit dem HSV wurde er 1979, 1982 und 1983 Deutscher Meister und gewann 1983 zudem den Europapokal der Landesmeister.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Horst Hrubesch – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Horst_Hrubesch"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-ralf-rangnick-6",
+    "expectedAnswer": "RB Leipzig",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "TSG 1899 Hoffenheim",
+      "FC Schalke 04",
+      "VfB Stuttgart"
+    ],
+    "fact": "Von 2012 bis 2019 war Rangnick bei RB Leipzig tätig, zunächst als Sportdirektor und zudem in den Spielzeiten 2015/16 und 2018/19 als Cheftrainer.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Ralf Rangnick – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Ralf_Rangnick"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-alex-ferguson-4",
+    "expectedAnswer": "13",
+    "difficulty": 2,
+    "category": "Titel",
+    "distractors": [
+      "10",
+      "11",
+      "15"
+    ],
+    "fact": "Unter Ferguson gewann United u. a. 13-mal die Meisterschaft, 4-mal den FA Cup, 2-mal die UEFA Champions League (1999, 2008) und den Weltpokal (1999).",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Alex Ferguson – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Alex_Ferguson"
+      }
+    ]
+  },
+  {
+    "sourceId": "tq-carlo-ancelotti-5",
+    "expectedAnswer": "FC Chelsea",
+    "difficulty": 2,
+    "category": "Stationen",
+    "distractors": [
+      "Manchester United",
+      "FC Arsenal",
+      "FC Everton"
+    ],
+    "fact": "Ebenso gewann Ancelotti mit Chelsea in dieser Saison den FA-Cup und damit das erste Double der Vereinsgeschichte.",
+    "reviewedAt": "2026-10-10",
+    "sources": [
+      {
+        "title": "Carlo Ancelotti – Wikipedia",
+        "url": "https://de.wikipedia.org/wiki/Carlo_Ancelotti"
+      }
+    ]
   }
 ]
