@@ -268,13 +268,13 @@ export async function buildMaalloesPuzzles(db: Db): Promise<MaalloesPuzzleRow[]>
         id: `mal-seasons-both-${pair[0].year}-${pair[1].year}`,
         kind: "season-pair-both",
         category: "Bundesliga",
-        question: `Nenne einen Klub, der sowohl ${pair[0].year} als auch ${pair[1].year} in der Bundesliga spielte`,
+        question: `Nenne einen Klub, der sowohl ${seasonOf(pair[0].year)} als auch ${seasonOf(pair[1].year)} in der Bundesliga spielte`,
         intro: INTRO,
         answerKind: "club",
         answers: Array.from(years)
           .filter(([, played]) => played.length === 2)
           .map(([clubId]) => clubAnswer(ctx, clubId, 4, "In beiden Spielzeiten dabei")),
-        explanation: `Teilnehmerlisten der Spielzeiten ${pair[0].year} und ${pair[1].year}.`,
+        explanation: `Teilnehmerlisten der Spielzeiten ${seasonOf(pair[0].year)} und ${seasonOf(pair[1].year)}.`,
         sourceIds,
         status,
         era: Math.floor(pair[0].year / 10) * 10,
@@ -286,11 +286,11 @@ export async function buildMaalloesPuzzles(db: Db): Promise<MaalloesPuzzleRow[]>
         id: `mal-seasons-either-${pair[0].year}-${pair[1].year}`,
         kind: "season-pair-either",
         category: "Bundesliga",
-        question: `Nenne einen Klub, der ${pair[0].year} oder ${pair[1].year} in der Bundesliga spielte`,
+        question: `Nenne einen Klub, der ${seasonOf(pair[0].year)} oder ${seasonOf(pair[1].year)} in der Bundesliga spielte`,
         intro: INTRO,
         answerKind: "club",
-        answers: Array.from(years).map(([clubId, played]) => clubAnswer(ctx, clubId, played.length === 2 ? 6 : 0, played.length === 2 ? "Beide Spielzeiten" : `Spielzeit ${played[0]}`)),
-        explanation: `Gemeinsame Teilnehmerliste der Spielzeiten ${pair[0].year} und ${pair[1].year}.`,
+        answers: Array.from(years).map(([clubId, played]) => clubAnswer(ctx, clubId, played.length === 2 ? 6 : 0, played.length === 2 ? "Beide Spielzeiten" : `Spielzeit ${seasonOf(played[0])}`)),
+        explanation: `Zusammengefasste Teilnehmerliste der Spielzeiten ${seasonOf(pair[0].year)} und ${seasonOf(pair[1].year)}.`,
         sourceIds,
         status,
         era: Math.floor(pair[0].year / 10) * 10,
@@ -319,11 +319,11 @@ export async function buildMaalloesPuzzles(db: Db): Promise<MaalloesPuzzleRow[]>
           id: `mal-season-window${idSize}-any-${start}-${end}`,
           kind: `season-window${kindSize}-any`,
           category: "Bundesliga",
-          question: `Nenne einen Klub, der zwischen ${start} und ${end} in der Bundesliga spielte`,
+          question: `Nenne einen Klub, der zwischen ${seasonOf(start)} und ${seasonOf(end)} mindestens eine Saison in der Bundesliga spielte`,
           intro: INTRO,
           answerKind: "club",
           answers: Array.from(years).map(([clubId, played]) => clubAnswer(ctx, clubId, Math.min(10, played.length * 2), `${played.length} von ${spec.size} Spielzeiten`)),
-          explanation: `Gemeinsame Teilnehmerliste für ${spec.sizeWord} Spielzeiten, ${start}–${end}.`,
+          explanation: `Zusammengefasste Teilnehmerliste für ${spec.sizeWord} Spielzeiten, ${seasonOf(start)} bis ${seasonOf(end)}.`,
           sourceIds,
           status,
           era: Math.floor(start / 10) * 10,
@@ -335,13 +335,13 @@ export async function buildMaalloesPuzzles(db: Db): Promise<MaalloesPuzzleRow[]>
           id: `mal-season-window${idSize}-${spec.thresholdKey}-${start}-${end}`,
           kind: `season-window${kindSize}-${spec.thresholdKey}`,
           category: "Bundesliga",
-          question: `Nenne einen Klub, der zwischen ${start} und ${end} mindestens ${spec.thresholdWord} Spielzeiten in der Bundesliga spielte`,
+          question: `Nenne einen Klub, der zwischen ${seasonOf(start)} und ${seasonOf(end)} mindestens ${spec.thresholdWord} Spielzeiten in der Bundesliga spielte`,
           intro: INTRO,
           answerKind: "club",
           answers: Array.from(years)
             .filter(([, played]) => played.length >= spec.threshold)
             .map(([clubId, played]) => clubAnswer(ctx, clubId, Math.min(10, played.length * 2), `${played.length} von ${spec.size} Spielzeiten`)),
-          explanation: `Ausgezählt aus den Teilnehmerlisten der Spielzeiten ${start}–${end}.`,
+          explanation: `Ausgezählt aus den Teilnehmerlisten der Spielzeiten ${seasonOf(start)} bis ${seasonOf(end)}.`,
           sourceIds,
           status,
           era: Math.floor(start / 10) * 10,
@@ -364,7 +364,9 @@ export async function buildMaalloesPuzzles(db: Db): Promise<MaalloesPuzzleRow[]>
     }
   }
   for (const [dec, d] of byDecade) {
-    if (d.seasons < 8) continue; // only decades with (near) complete coverage
+    // Only a decade with every season in the archive: "relegated in the 2000s" over a
+    // partial decade would charge 100 points for a club relegated in a season we lack.
+    if (d.seasons < 10) continue;
     const label = `${dec}er-Jahren`;
     push(
       makePuzzle({
@@ -392,7 +394,7 @@ export async function buildMaalloesPuzzles(db: Db): Promise<MaalloesPuzzleRow[]>
       id: "mal-champions-all",
       kind: "champions",
       category: "Meister",
-      question: `Nenne einen Klub, der zwischen ${minYear} und ${maxYear} Deutscher Meister wurde`,
+      question: `Nenne einen Klub, der von ${seasonOf(minYear)} bis ${seasonOf(maxYear)} Deutscher Meister wurde`,
       intro: INTRO,
       answerKind: "club",
       answers: Array.from(allChampions).map(([c, years]) => clubAnswer(ctx, c, years.length > 3 ? 20 : 0, `${years.length} Titel (${years.join(", ")})`)),
