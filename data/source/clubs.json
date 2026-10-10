@@ -299,5 +299,489 @@
         "note": "Vereinsname; die Titel stehen in honours.json mit eigener Prüfung."
       }
     ]
+  },
+  {
+    "id": "hertha",
+    "name": "Hertha BSC",
+    "fullName": "Hertha, Berliner Sport-Club",
+    "city": "Berlin",
+    "aliases": [
+      "Hertha",
+      "Hertha Berlin"
+    ],
+    "fame": 3,
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Hertha_BSC",
+        "title": "Hertha BSC – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-10",
+        "note": "Vereinsname und gängige Kurzformen."
+      }
+    ]
+  },
+  {
+    "id": "mainz",
+    "name": "1. FSV Mainz 05",
+    "fullName": "1. Fußball- und Sportverein Mainz 05",
+    "city": "Mainz",
+    "aliases": [
+      "Mainz",
+      "Mainz 05",
+      "FSV Mainz"
+    ],
+    "fame": 3,
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/1._FSV_Mainz_05",
+        "title": "1. FSV Mainz 05 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-10",
+        "note": "Vereinsname und gängige Kurzformen."
+      }
+    ]
+  },
+  {
+    "id": "bielefeld",
+    "name": "Arminia Bielefeld",
+    "fullName": "DSC Arminia Bielefeld",
+    "city": "Bielefeld",
+    "aliases": [
+      "Arminia",
+      "Bielefeld"
+    ],
+    "fame": 2,
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/DSC_Arminia_Bielefeld",
+        "title": "Arminia Bielefeld – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-10",
+        "note": "Vereinsname und gängige Kurzformen."
+      }
+    ]
+  },
+  {
+    "id": "koeln",
+    "name": "1. FC Köln",
+    "fullName": "1. FC Köln",
+    "city": "Köln",
+    "aliases": [
+      "Köln",
+      "FC Köln",
+      "Effzeh"
+    ],
+    "fame": 3,
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/1._FC_Köln",
+        "title": "1. FC Köln – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-10",
+        "note": "Vereinsname und gängige Kurzformen."
+      }
+    ]
+  },
+  {
+    "id": "duisburg",
+    "name": "MSV Duisburg",
+    "fullName": "Meidericher Spielverein 02 Duisburg",
+    "city": "Duisburg",
+    "aliases": [
+      "Duisburg",
+      "MSV"
+    ],
+    "fame": 2,
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/MSV_Duisburg",
+        "title": "MSV Duisburg – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-10",
+        "note": "Vereinsname und gängige Kurzformen."
+      }
+    ]
+  },
+  {
+    "id": "bochum",
+    "name": "VfL Bochum",
+    "fullName": "VfL Bochum 1848",
+    "city": "Bochum",
+    "aliases": [
+      "Bochum"
+    ],
+    "fame": 2,
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/VfL_Bochum",
+        "title": "VfL Bochum – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-10",
+        "note": "Vereinsname und gängige Kurzformen."
+      }
+    ]
+  },
+  {
+    "id": "cottbus",
+    "name": "Energie Cottbus",
+    "fullName": "FC Energie Cottbus",
+    "city": "Cottbus",
+    "aliases": [
+      "Cottbus",
+      "Energie"
+    ],
+    "fame": 1,
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/FC_Energie_Cottbus",
+        "title": "Energie Cottbus – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-10",
+        "note": "Vereinsname und gängige Kurzformen."
+      }
+    ]
+  },
+  {
+    "id": "aachen",
+    "name": "Alemannia Aachen",
+    "fullName": "TSV Alemannia Aachen",
+    "city": "Aachen",
+    "aliases": [
+      "Aachen",
+      "Alemannia"
+    ],
+    "fame": 1,
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/TSV_Alemannia_Aachen",
+        "title": "Alemannia Aachen – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-10",
+        "note": "Vereinsname und gängige Kurzformen."
+      }
+    ]
+  },
+  {
+    "id": "karlsruhe",
+    "name": "Karlsruher SC",
+    "fullName": "Karlsruher SC",
+    "city": "Karlsruhe",
+    "aliases": [
+      "Karlsruhe",
+      "KSC"
+    ],
+    "fame": 2,
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Karlsruher_SC",
+        "title": "Karlsruher SC – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-10",
+        "note": "Vereinsname und gängige Kurzformen."
+      }
+    ]
+  },
+  {
+    "id": "rostock",
+    "name": "Hansa Rostock",
+    "fullName": "F.C. Hansa Rostock",
+    "city": "Rostock",
+    "aliases": [
+      "Rostock",
+      "Hansa"
+    ],
+    "fame": 2,
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/F.C._Hansa_Rostock",
+        "title": "Hansa Rostock – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-10",
+        "note": "Vereinsname und gängige Kurzformen."
+      }
+    ]
+  },
+  {
+    "id": "hoffenheim",
+    "name": "TSG Hoffenheim",
+    "fullName": "TSG 1899 Hoffenheim",
+    "city": "Sinsheim",
+    "aliases": [
+      "Hoffenheim",
+      "TSG"
+    ],
+    "fame": 3,
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/TSG_1899_Hoffenheim",
+        "title": "TSG Hoffenheim – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-10",
+        "note": "Vereinsname und gängige Kurzformen."
+      }
+    ]
+  },
+  {
+    "id": "freiburg",
+    "name": "SC Freiburg",
+    "fullName": "Sport-Club Freiburg",
+    "city": "Freiburg",
+    "aliases": [
+      "Freiburg"
+    ],
+    "fame": 3,
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Sport-Club_Freiburg",
+        "title": "SC Freiburg – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-10",
+        "note": "Vereinsname und gängige Kurzformen."
+      }
+    ]
+  },
+  {
+    "id": "st-pauli",
+    "name": "FC St. Pauli",
+    "fullName": "FC St. Pauli",
+    "city": "Hamburg",
+    "aliases": [
+      "St. Pauli",
+      "St Pauli"
+    ],
+    "fame": 2,
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/FC_St._Pauli",
+        "title": "FC St. Pauli – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-10",
+        "note": "Vereinsname und gängige Kurzformen."
+      }
+    ]
+  },
+  {
+    "id": "augsburg",
+    "name": "FC Augsburg",
+    "fullName": "FC Augsburg 1907",
+    "city": "Augsburg",
+    "aliases": [
+      "Augsburg",
+      "FCA"
+    ],
+    "fame": 2,
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/FC_Augsburg",
+        "title": "FC Augsburg – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-10",
+        "note": "Vereinsname und gängige Kurzformen."
+      }
+    ]
+  },
+  {
+    "id": "duesseldorf",
+    "name": "Fortuna Düsseldorf",
+    "fullName": "Düsseldorfer Turn- und Sportverein Fortuna 1895",
+    "city": "Düsseldorf",
+    "aliases": [
+      "Düsseldorf",
+      "Fortuna",
+      "Fortuna Duesseldorf"
+    ],
+    "fame": 2,
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Fortuna_Düsseldorf",
+        "title": "Fortuna Düsseldorf – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-10",
+        "note": "Vereinsname und gängige Kurzformen."
+      }
+    ]
+  },
+  {
+    "id": "fuerth",
+    "name": "SpVgg Greuther Fürth",
+    "fullName": "SpVgg Greuther Fürth",
+    "city": "Fürth",
+    "aliases": [
+      "Fürth",
+      "Greuther Fürth",
+      "Kleeblatt"
+    ],
+    "fame": 1,
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/SpVgg_Greuther_Fürth",
+        "title": "SpVgg Greuther Fürth – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-10",
+        "note": "Vereinsname und gängige Kurzformen."
+      }
+    ]
+  },
+  {
+    "id": "braunschweig",
+    "name": "Eintracht Braunschweig",
+    "fullName": "Braunschweiger TSV Eintracht 1895",
+    "city": "Braunschweig",
+    "aliases": [
+      "Braunschweig"
+    ],
+    "fame": 2,
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Eintracht_Braunschweig",
+        "title": "Eintracht Braunschweig – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-10",
+        "note": "Vereinsname und gängige Kurzformen."
+      }
+    ]
+  },
+  {
+    "id": "paderborn",
+    "name": "SC Paderborn 07",
+    "fullName": "SC Paderborn 07",
+    "city": "Paderborn",
+    "aliases": [
+      "Paderborn"
+    ],
+    "fame": 1,
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/SC_Paderborn_07",
+        "title": "SC Paderborn 07 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-10",
+        "note": "Vereinsname und gängige Kurzformen."
+      }
+    ]
+  },
+  {
+    "id": "ingolstadt",
+    "name": "FC Ingolstadt 04",
+    "fullName": "FC Ingolstadt 04",
+    "city": "Ingolstadt",
+    "aliases": [
+      "Ingolstadt",
+      "Schanzer"
+    ],
+    "fame": 1,
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/FC_Ingolstadt_04",
+        "title": "FC Ingolstadt 04 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-10",
+        "note": "Vereinsname und gängige Kurzformen."
+      }
+    ]
+  },
+  {
+    "id": "darmstadt",
+    "name": "SV Darmstadt 98",
+    "fullName": "SV Darmstadt 98",
+    "city": "Darmstadt",
+    "aliases": [
+      "Darmstadt",
+      "Lilien"
+    ],
+    "fame": 1,
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/SV_Darmstadt_98",
+        "title": "SV Darmstadt 98 – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-10",
+        "note": "Vereinsname und gängige Kurzformen."
+      }
+    ]
+  },
+  {
+    "id": "union-berlin",
+    "name": "1. FC Union Berlin",
+    "fullName": "1. FC Union Berlin",
+    "city": "Berlin",
+    "aliases": [
+      "Union Berlin",
+      "Union",
+      "Eisern Union"
+    ],
+    "fame": 3,
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/1._FC_Union_Berlin",
+        "title": "1. FC Union Berlin – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-10",
+        "note": "Vereinsname und gängige Kurzformen."
+      }
+    ]
+  },
+  {
+    "id": "heidenheim",
+    "name": "1. FC Heidenheim",
+    "fullName": "1. FC Heidenheim 1846",
+    "city": "Heidenheim",
+    "aliases": [
+      "Heidenheim",
+      "FCH"
+    ],
+    "fame": 1,
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/1._FC_Heidenheim",
+        "title": "1. FC Heidenheim – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-10",
+        "note": "Vereinsname und gängige Kurzformen."
+      }
+    ]
+  },
+  {
+    "id": "holstein-kiel",
+    "name": "Holstein Kiel",
+    "fullName": "Kieler Sportvereinigung Holstein von 1900",
+    "city": "Kiel",
+    "aliases": [
+      "Kiel",
+      "Holstein"
+    ],
+    "fame": 1,
+    "status": "single_source",
+    "sources": [
+      {
+        "url": "https://de.wikipedia.org/wiki/Holstein_Kiel",
+        "title": "Holstein Kiel – Wikipedia",
+        "kind": "web",
+        "accessed": "2026-10-10",
+        "note": "Vereinsname und gängige Kurzformen."
+      }
+    ]
   }
 ]
