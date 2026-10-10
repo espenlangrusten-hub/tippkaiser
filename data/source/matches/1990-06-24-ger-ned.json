@@ -77,7 +77,13 @@
       "off": 77
     }
   ],
-  "subs": [],
+  "subs": [
+    {
+      "name": "Karl-Heinz Riedle",
+      "on": 77,
+      "for": "Jürgen Klinsmann"
+    }
+  ],
   "goals": [
     {
       "team": "norway",

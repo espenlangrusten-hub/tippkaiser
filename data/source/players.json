@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "mario-gomez",
+    "fullName": "Mario Gomez",
+    "displayName": "Mario Gomez",
+    "aliases": ["Mario Gómez"],
+    "notes": "DFB og kicker skriver «Gomez» uten aksent; «Gómez» godtas som alias."
+  },
+  {
+    "id": "lars-bender",
+    "fullName": "Lars Bender",
+    "displayName": "Lars Bender",
+    "notes": "Tvillingbror av Sven Bender. Vis alltid fullt navn så de ikke forveksles."
+  }
+]

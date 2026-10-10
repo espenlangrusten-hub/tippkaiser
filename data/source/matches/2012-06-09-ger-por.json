@@ -74,7 +74,7 @@
       "pos": "LW"
     },
     {
-      "name": "Mario Gómez",
+      "name": "Mario Gomez",
       "pos": "CF",
       "off": 80
     }
@@ -99,7 +99,7 @@
   "goals": [
     {
       "team": "norway",
-      "name": "Mario Gómez",
+      "name": "Mario Gomez",
       "minute": 72,
       "kind": "goal"
     }
@@ -117,7 +117,7 @@
       "Müller",
       "Özil",
       "Podolski",
-      "Gómez"
+      "Gomez"
     ]
   }
 }
