@@ -719,5 +719,943 @@
     "verify": {
       "subject": "Sebastian Hoeneß"
     }
+  },
+  {
+    "id": "georg-knoepfle",
+    "name": "Georg Knöpfle",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Georg Knöpfle"
+    }
+  },
+  {
+    "id": "willi-multhaup",
+    "name": "Willi Multhaup",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Willi Multhaup"
+    }
+  },
+  {
+    "id": "helmuth-johannsen",
+    "name": "Helmuth Johannsen",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Helmuth Johannsen"
+    }
+  },
+  {
+    "id": "pal-csernai",
+    "name": "Pál Csernai",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Pál Csernai"
+    }
+  },
+  {
+    "id": "helmut-benthaus",
+    "name": "Helmut Benthaus",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Helmut Benthaus"
+    }
+  },
+  {
+    "id": "karl-heinz-feldkamp",
+    "name": "Karl-Heinz Feldkamp",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Karl-Heinz Feldkamp"
+    }
+  },
+  {
+    "id": "zlatko-cajkovski",
+    "name": "Zlatko Čajkovski",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Zlatko Čajkovski"
+    }
+  },
+  {
+    "id": "gyula-lorant",
+    "name": "Gyula Lóránt",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Gyula Lóránt"
+    }
+  },
+  {
+    "id": "rinus-michels",
+    "name": "Rinus Michels",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Rinus Michels"
+    }
+  },
+  {
+    "id": "dragoslav-stepanovic",
+    "name": "Dragoslav Stepanović",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Dragoslav Stepanović"
+    }
+  },
+  {
+    "id": "michael-lorkowski",
+    "name": "Michael Lorkowski",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Michael Lorkowski"
+    }
+  },
+  {
+    "id": "eckhard-krautzun",
+    "name": "Eckhard Krautzun",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Eckhard Krautzun"
+    }
+  },
+  {
+    "id": "bernd-krauss",
+    "name": "Bernd Krauss",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Bernd Krauss"
+    }
+  },
+  {
+    "id": "horst-koeppel",
+    "name": "Horst Köppel",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Horst Köppel"
+    }
+  },
+  {
+    "id": "dietrich-weise",
+    "name": "Dietrich Weise",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Dietrich Weise"
+    }
+  },
+  {
+    "id": "lothar-buchmann",
+    "name": "Lothar Buchmann",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Lothar Buchmann"
+    }
+  },
+  {
+    "id": "friedel-rausch",
+    "name": "Friedel Rausch",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Friedel Rausch"
+    }
+  },
+  {
+    "id": "hans-meyer",
+    "name": "Hans Meyer",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Hans Meyer (Fußballtrainer)"
+    }
+  },
+  {
+    "id": "heinz-kruegel",
+    "name": "Heinz Krügel",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Heinz Krügel"
+    }
+  },
+  {
+    "id": "georg-buschner",
+    "name": "Georg Buschner",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Georg Buschner"
+    }
+  },
+  {
+    "id": "walter-fritzsch",
+    "name": "Walter Fritzsch",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Walter Fritzsch"
+    }
+  },
+  {
+    "id": "juergen-bogs",
+    "name": "Jürgen Bogs",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Jürgen Bogs"
+    }
+  },
+  {
+    "id": "eduard-geyer",
+    "name": "Eduard Geyer",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Eduard Geyer"
+    }
+  },
+  {
+    "id": "bernd-stange",
+    "name": "Bernd Stange",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Bernd Stange"
+    }
+  },
+  {
+    "id": "otto-nerz",
+    "name": "Otto Nerz",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Otto Nerz"
+    }
+  },
+  {
+    "id": "gero-bisanz",
+    "name": "Gero Bisanz",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Gero Bisanz"
+    }
+  },
+  {
+    "id": "tina-theune",
+    "name": "Tina Theune",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Tina Theune"
+    }
+  },
+  {
+    "id": "silvia-neid",
+    "name": "Silvia Neid",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Silvia Neid"
+    }
+  },
+  {
+    "id": "martina-voss-tecklenburg",
+    "name": "Martina Voss-Tecklenburg",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Martina Voss-Tecklenburg"
+    }
+  },
+  {
+    "id": "horst-hrubesch",
+    "name": "Horst Hrubesch",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Horst Hrubesch"
+    }
+  },
+  {
+    "id": "steffi-jones",
+    "name": "Steffi Jones",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Steffi Jones"
+    }
+  },
+  {
+    "id": "dieter-hecking",
+    "name": "Dieter Hecking",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Dieter Hecking"
+    }
+  },
+  {
+    "id": "domenico-tedesco",
+    "name": "Domenico Tedesco",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Domenico Tedesco"
+    }
+  },
+  {
+    "id": "marco-rose",
+    "name": "Marco Rose",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Marco Rose"
+    }
+  },
+  {
+    "id": "vincent-kompany",
+    "name": "Vincent Kompany",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Vincent Kompany"
+    }
+  },
+  {
+    "id": "bruno-labbadia",
+    "name": "Bruno Labbadia",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Bruno Labbadia"
+    }
+  },
+  {
+    "id": "mirko-slomka",
+    "name": "Mirko Slomka",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Mirko Slomka"
+    }
+  },
+  {
+    "id": "klaus-toppmoeller",
+    "name": "Klaus Toppmöller",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Klaus Toppmöller"
+    }
+  },
+  {
+    "id": "werner-lorant",
+    "name": "Werner Lorant",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Werner Lorant"
+    }
+  },
+  {
+    "id": "winfried-schaefer",
+    "name": "Winfried Schäfer",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Winfried Schäfer"
+    }
+  },
+  {
+    "id": "joerg-berger",
+    "name": "Jörg Berger",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Jörg Berger"
+    }
+  },
+  {
+    "id": "frank-pagelsdorf",
+    "name": "Frank Pagelsdorf",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Frank Pagelsdorf"
+    }
+  },
+  {
+    "id": "holger-osieck",
+    "name": "Holger Osieck",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Holger Osieck"
+    }
+  },
+  {
+    "id": "bernd-schuster",
+    "name": "Bernd Schuster",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Bernd Schuster"
+    }
+  },
+  {
+    "id": "lothar-matthaeus",
+    "name": "Lothar Matthäus",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Lothar Matthäus"
+    }
+  },
+  {
+    "id": "peter-neururer",
+    "name": "Peter Neururer",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Peter Neururer"
+    }
+  },
+  {
+    "id": "ewald-lienen",
+    "name": "Ewald Lienen",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Ewald Lienen"
+    }
+  },
+  {
+    "id": "alex-ferguson",
+    "name": "Alex Ferguson",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Alex Ferguson"
+    }
+  },
+  {
+    "id": "jose-mourinho",
+    "name": "José Mourinho",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "José Mourinho"
+    }
+  },
+  {
+    "id": "arsene-wenger",
+    "name": "Arsène Wenger",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Arsène Wenger"
+    }
+  },
+  {
+    "id": "zinedine-zidane",
+    "name": "Zinedine Zidane",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Zinédine Zidane"
+    }
+  },
+  {
+    "id": "vicente-del-bosque",
+    "name": "Vicente del Bosque",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Vicente del Bosque"
+    }
+  },
+  {
+    "id": "luis-aragones",
+    "name": "Luis Aragonés",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Luis Aragonés"
+    }
+  },
+  {
+    "id": "didier-deschamps",
+    "name": "Didier Deschamps",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Didier Deschamps"
+    }
+  },
+  {
+    "id": "lionel-scaloni",
+    "name": "Lionel Scaloni",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Lionel Scaloni"
+    }
+  },
+  {
+    "id": "diego-simeone",
+    "name": "Diego Simeone",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Diego Simeone"
+    }
+  },
+  {
+    "id": "arrigo-sacchi",
+    "name": "Arrigo Sacchi",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Arrigo Sacchi"
+    }
+  },
+  {
+    "id": "bob-paisley",
+    "name": "Bob Paisley",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Bob Paisley"
+    }
+  },
+  {
+    "id": "mario-zagallo",
+    "name": "Mário Zagallo",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Mário Zagallo"
+    }
+  },
+  {
+    "id": "gareth-southgate",
+    "name": "Gareth Southgate",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Gareth Southgate"
+    }
+  },
+  {
+    "id": "staale-solbakken",
+    "name": "Ståle Solbakken",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Ståle Solbakken"
+    }
+  },
+  {
+    "id": "joern-andersen",
+    "name": "Jørn Andersen",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Jørn Andersen"
+    }
+  },
+  {
+    "id": "egil-olsen",
+    "name": "Egil Olsen",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Egil Olsen"
+    }
+  },
+  {
+    "id": "nils-arne-eggen",
+    "name": "Nils Arne Eggen",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Nils Arne Eggen"
+    }
+  },
+  {
+    "id": "ole-gunnar-solskjaer",
+    "name": "Ole Gunnar Solskjær",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Ole Gunnar Solskjær"
+    }
+  },
+  {
+    "id": "kuno-kloetzer",
+    "name": "Kuno Klötzer",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Kuno Klötzer"
+    }
+  },
+  {
+    "id": "johan-cruyff",
+    "name": "Johan Cruyff",
+    "nicknames": [],
+    "nationality": null,
+    "spells": [],
+    "honours": [],
+    "episodes": [],
+    "status": "recall",
+    "leads": [],
+    "verify": {
+      "subject": "Johan Cruyff"
+    }
   }
 ]
