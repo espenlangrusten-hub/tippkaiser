@@ -1,0 +1,135 @@
+{
+  "id": "2012-06-28-ger-ita",
+  "date": "2012-06-28",
+  "competition": "euro",
+  "stage": "Halbfinale",
+  "opponent": "Italien",
+  "opponentCode": "ITA",
+  "norwayHome": true,
+  "score": [
+    1,
+    2
+  ],
+  "venue": "National Stadium",
+  "city": "Warsaw",
+  "manager": "Joachim Löw",
+  "formation": "4-3-3",
+  "importance": 4,
+  "tags": [
+    "import:wikipedia"
+  ],
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/UEFA_Euro_2012_knockout_stage",
+      "title": "UEFA Euro 2012 knockout stage – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-10",
+      "note": "Startellever, resultat, arena og målscorere er overført fra kampboksen og oppstillingstabellen i artikkelen. Generiske posisjoner (DF/MF/FW) er beholdt slik kilden oppgir dem; draktnumre er utelatt. Automatisk overført, ikke lest av et menneske."
+    }
+  ],
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Manuel Neuer",
+      "pos": "GK"
+    },
+    {
+      "name": "Jérôme Boateng",
+      "pos": "RB",
+      "off": 71
+    },
+    {
+      "name": "Mats Hummels",
+      "pos": "CB"
+    },
+    {
+      "name": "Holger Badstuber",
+      "pos": "CB"
+    },
+    {
+      "name": "Philipp Lahm",
+      "pos": "LB",
+      "captain": true
+    },
+    {
+      "name": "Bastian Schweinsteiger",
+      "pos": "CM"
+    },
+    {
+      "name": "Sami Khedira",
+      "pos": "CM"
+    },
+    {
+      "name": "Toni Kroos",
+      "pos": "RW"
+    },
+    {
+      "name": "Mesut Özil",
+      "pos": "AM"
+    },
+    {
+      "name": "Lukas Podolski",
+      "pos": "LW",
+      "off": 46
+    },
+    {
+      "name": "Mario Gómez",
+      "pos": "CF",
+      "off": 46
+    }
+  ],
+  "subs": [
+    {
+      "name": "Miroslav Klose",
+      "pos": "FW",
+      "on": 46
+    },
+    {
+      "name": "Marco Reus",
+      "pos": "MF",
+      "on": 46
+    },
+    {
+      "name": "Thomas Müller",
+      "pos": "MF",
+      "on": 71
+    }
+  ],
+  "goals": [
+    {
+      "team": "norway",
+      "name": "Mesut Özil",
+      "minute": 90,
+      "kind": "pen"
+    },
+    {
+      "team": "opponent",
+      "scorer": "Balotelli",
+      "minute": 20,
+      "kind": "goal"
+    },
+    {
+      "team": "opponent",
+      "scorer": "Balotelli",
+      "minute": 36,
+      "kind": "goal"
+    }
+  ],
+  "verify": {
+    "subject": "UEFA Euro 2012 knockout stage",
+    "mustMention": [
+      "Neuer",
+      "Boateng",
+      "Hummels",
+      "Badstuber",
+      "Lahm",
+      "Schweinsteiger",
+      "Khedira",
+      "Kroos",
+      "Özil",
+      "Podolski",
+      "Gómez"
+    ]
+  }
+}

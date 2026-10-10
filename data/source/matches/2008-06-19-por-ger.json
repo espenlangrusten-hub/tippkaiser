@@ -1,0 +1,147 @@
+{
+  "id": "2008-06-19-por-ger",
+  "date": "2008-06-19",
+  "competition": "euro",
+  "stage": "Viertelfinale",
+  "opponent": "Portugal",
+  "opponentCode": "POR",
+  "norwayHome": false,
+  "score": [
+    3,
+    2
+  ],
+  "venue": "St. Jakob-Park",
+  "city": "Basel",
+  "manager": "Joachim Löw",
+  "formation": "4-2-4",
+  "importance": 4,
+  "tags": [
+    "import:wikipedia"
+  ],
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/UEFA_Euro_2008_knockout_stage",
+      "title": "UEFA Euro 2008 knockout stage – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-10",
+      "note": "Startellever, resultat, arena og målscorere er overført fra kampboksen og oppstillingstabellen i artikkelen. Generiske posisjoner (DF/MF/FW) er beholdt slik kilden oppgir dem; draktnumre er utelatt. Automatisk overført, ikke lest av et menneske."
+    }
+  ],
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Jens Lehmann",
+      "pos": "GK"
+    },
+    {
+      "name": "Arne Friedrich",
+      "pos": "RB"
+    },
+    {
+      "name": "Per Mertesacker",
+      "pos": "CB"
+    },
+    {
+      "name": "Christoph Metzelder",
+      "pos": "CB"
+    },
+    {
+      "name": "Philipp Lahm",
+      "pos": "LB"
+    },
+    {
+      "name": "Simon Rolfes",
+      "pos": "CM"
+    },
+    {
+      "name": "Michael Ballack",
+      "pos": "CM",
+      "captain": true
+    },
+    {
+      "name": "Bastian Schweinsteiger",
+      "pos": "RW",
+      "off": 83
+    },
+    {
+      "name": "Thomas Hitzlsperger",
+      "pos": "LW",
+      "off": 73
+    },
+    {
+      "name": "Miroslav Klose",
+      "pos": "CF",
+      "off": 89
+    },
+    {
+      "name": "Lukas Podolski",
+      "pos": "CF"
+    }
+  ],
+  "subs": [
+    {
+      "name": "Tim Borowski",
+      "pos": "MF",
+      "on": 73
+    },
+    {
+      "name": "Clemens Fritz",
+      "pos": "DF",
+      "on": 83
+    },
+    {
+      "name": "Marcell Jansen",
+      "pos": "DF",
+      "on": 89
+    }
+  ],
+  "goals": [
+    {
+      "team": "norway",
+      "name": "Bastian Schweinsteiger",
+      "minute": 22,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "Miroslav Klose",
+      "minute": 26,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "Michael Ballack",
+      "minute": 61,
+      "kind": "goal"
+    },
+    {
+      "team": "opponent",
+      "scorer": "Nuno Gomes",
+      "minute": 40,
+      "kind": "goal"
+    },
+    {
+      "team": "opponent",
+      "scorer": "Postiga",
+      "minute": 87,
+      "kind": "goal"
+    }
+  ],
+  "verify": {
+    "subject": "UEFA Euro 2008 knockout stage",
+    "mustMention": [
+      "Lehmann",
+      "Friedrich",
+      "Mertesacker",
+      "Metzelder",
+      "Lahm",
+      "Rolfes",
+      "Ballack",
+      "Schweinsteiger",
+      "Hitzlsperger",
+      "Klose",
+      "Podolski"
+    ]
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "id": "2021-06-23-ger-hun",
+  "date": "2021-06-23",
+  "competition": "euro",
+  "stage": "Gruppe F",
+  "opponent": "Ungarn",
+  "opponentCode": "HUN",
+  "norwayHome": true,
+  "score": [
+    2,
+    2
+  ],
+  "venue": "Allianz Arena",
+  "city": "Munich",
+  "manager": "Joachim Löw",
+  "formation": "3-6-1",
+  "importance": 3,
+  "tags": [
+    "import:wikipedia"
+  ],
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/UEFA_Euro_2020_Group_F",
+      "title": "UEFA Euro 2020 Group F – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-10",
+      "note": "Startellever, resultat, arena og målscorere er overført fra kampboksen og oppstillingstabellen i artikkelen. Generiske posisjoner (DF/MF/FW) er beholdt slik kilden oppgir dem; draktnumre er utelatt. Automatisk overført, ikke lest av et menneske."
+    }
+  ],
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Manuel Neuer",
+      "pos": "GK",
+      "captain": true
+    },
+    {
+      "name": "Matthias Ginter",
+      "pos": "CB",
+      "off": 82
+    },
+    {
+      "name": "Mats Hummels",
+      "pos": "CB"
+    },
+    {
+      "name": "Antonio Rüdiger",
+      "pos": "CB"
+    },
+    {
+      "name": "Joshua Kimmich",
+      "pos": "RM"
+    },
+    {
+      "name": "İlkay Gündoğan",
+      "pos": "CM",
+      "off": 58
+    },
+    {
+      "name": "Toni Kroos",
+      "pos": "CM"
+    },
+    {
+      "name": "Robin Gosens",
+      "pos": "LM",
+      "off": 82
+    },
+    {
+      "name": "Kai Havertz",
+      "pos": "AM",
+      "off": 67
+    },
+    {
+      "name": "Leroy Sané",
+      "pos": "AM"
+    },
+    {
+      "name": "Serge Gnabry",
+      "pos": "CF",
+      "off": 67
+    }
+  ],
+  "subs": [
+    {
+      "name": "Leon Goretzka",
+      "pos": "MF",
+      "on": 58
+    },
+    {
+      "name": "Timo Werner",
+      "pos": "FW",
+      "on": 67
+    },
+    {
+      "name": "Thomas Müller",
+      "pos": "FW",
+      "on": 67
+    },
+    {
+      "name": "Jamal Musiala",
+      "pos": "MF",
+      "on": 82
+    },
+    {
+      "name": "Kevin Volland",
+      "pos": "FW",
+      "on": 82
+    }
+  ],
+  "goals": [
+    {
+      "team": "norway",
+      "name": "Kai Havertz",
+      "minute": 66,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "Leon Goretzka",
+      "minute": 84,
+      "kind": "goal"
+    },
+    {
+      "team": "opponent",
+      "scorer": "Ád. Szalai",
+      "minute": 11,
+      "kind": "goal"
+    },
+    {
+      "team": "opponent",
+      "scorer": "Schäfer",
+      "minute": 68,
+      "kind": "goal"
+    }
+  ],
+  "verify": {
+    "subject": "UEFA Euro 2020 Group F",
+    "mustMention": [
+      "Neuer",
+      "Ginter",
+      "Hummels",
+      "Rüdiger",
+      "Kimmich",
+      "Gündoğan",
+      "Kroos",
+      "Gosens",
+      "Havertz",
+      "Sané",
+      "Gnabry"
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "id": "1990-06-24-ger-ned",
+  "date": "1990-06-24",
+  "competition": "world-cup",
+  "stage": "Achtelfinale",
+  "opponent": "Niederlande",
+  "opponentCode": "NED",
+  "norwayHome": true,
+  "score": [
+    2,
+    1
+  ],
+  "venue": "San Siro",
+  "city": "Milan",
+  "manager": "Franz Beckenbauer",
+  "formation": "5-3-2",
+  "importance": 4,
+  "tags": [
+    "import:wikipedia"
+  ],
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/1990_FIFA_World_Cup_knockout_stage",
+      "title": "1990 FIFA World Cup knockout stage – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-10",
+      "note": "Startellever, resultat, arena og målscorere er overført fra kampboksen og oppstillingstabellen i artikkelen. Generiske posisjoner (DF/MF/FW) er beholdt slik kilden oppgir dem; draktnumre er utelatt. Automatisk overført, ikke lest av et menneske."
+    }
+  ],
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Bodo Illgner",
+      "pos": "GK"
+    },
+    {
+      "name": "Klaus Augenthaler",
+      "pos": "CB"
+    },
+    {
+      "name": "Stefan Reuter",
+      "pos": "RB"
+    },
+    {
+      "name": "Jürgen Kohler",
+      "pos": "CB"
+    },
+    {
+      "name": "Thomas Berthold",
+      "pos": "CB"
+    },
+    {
+      "name": "Andreas Brehme",
+      "pos": "LB"
+    },
+    {
+      "name": "Pierre Littbarski",
+      "pos": "MF"
+    },
+    {
+      "name": "Lothar Matthäus",
+      "pos": "MF",
+      "captain": true
+    },
+    {
+      "name": "Guido Buchwald",
+      "pos": "MF"
+    },
+    {
+      "name": "Rudi Völler",
+      "pos": "FW"
+    },
+    {
+      "name": "Jürgen Klinsmann",
+      "pos": "FW",
+      "off": 77
+    }
+  ],
+  "subs": [],
+  "goals": [
+    {
+      "team": "norway",
+      "name": "Jürgen Klinsmann",
+      "minute": 51,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "Andreas Brehme",
+      "minute": 85,
+      "kind": "goal"
+    },
+    {
+      "team": "opponent",
+      "scorer": "R. Koeman",
+      "minute": 89,
+      "kind": "pen"
+    }
+  ],
+  "verify": {
+    "subject": "1990 FIFA World Cup knockout stage",
+    "mustMention": [
+      "Illgner",
+      "Augenthaler",
+      "Reuter",
+      "Kohler",
+      "Berthold",
+      "Brehme",
+      "Littbarski",
+      "Matthäus",
+      "Buchwald",
+      "Völler",
+      "Klinsmann"
+    ]
+  }
+}

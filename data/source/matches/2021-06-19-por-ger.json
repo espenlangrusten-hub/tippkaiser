@@ -1,0 +1,165 @@
+{
+  "id": "2021-06-19-por-ger",
+  "date": "2021-06-19",
+  "competition": "euro",
+  "stage": "Gruppe F",
+  "opponent": "Portugal",
+  "opponentCode": "POR",
+  "norwayHome": false,
+  "score": [
+    4,
+    2
+  ],
+  "venue": "Allianz Arena",
+  "city": "Munich",
+  "manager": "Joachim Löw",
+  "formation": "3-4-3",
+  "importance": 3,
+  "tags": [
+    "import:wikipedia"
+  ],
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/UEFA_Euro_2020_Group_F",
+      "title": "UEFA Euro 2020 Group F – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-10",
+      "note": "Startellever, resultat, arena og målscorere er overført fra kampboksen og oppstillingstabellen i artikkelen. Generiske posisjoner (DF/MF/FW) er beholdt slik kilden oppgir dem; draktnumre er utelatt. Automatisk overført, ikke lest av et menneske."
+    }
+  ],
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Manuel Neuer",
+      "pos": "GK",
+      "captain": true
+    },
+    {
+      "name": "Matthias Ginter",
+      "pos": "CB"
+    },
+    {
+      "name": "Mats Hummels",
+      "pos": "CB",
+      "off": 62
+    },
+    {
+      "name": "Antonio Rüdiger",
+      "pos": "CB"
+    },
+    {
+      "name": "Joshua Kimmich",
+      "pos": "RM"
+    },
+    {
+      "name": "İlkay Gündoğan",
+      "pos": "CM",
+      "off": 73
+    },
+    {
+      "name": "Toni Kroos",
+      "pos": "CM"
+    },
+    {
+      "name": "Robin Gosens",
+      "pos": "LM",
+      "off": 62
+    },
+    {
+      "name": "Kai Havertz",
+      "pos": "RW",
+      "off": 73
+    },
+    {
+      "name": "Thomas Müller",
+      "pos": "LW"
+    },
+    {
+      "name": "Serge Gnabry",
+      "pos": "CF",
+      "off": 87
+    }
+  ],
+  "subs": [
+    {
+      "name": "Marcel Halstenberg",
+      "pos": "DF",
+      "on": 62
+    },
+    {
+      "name": "Emre Can",
+      "pos": "DF",
+      "on": 62
+    },
+    {
+      "name": "Leon Goretzka",
+      "pos": "MF",
+      "on": 73
+    },
+    {
+      "name": "Niklas Süle",
+      "pos": "DF",
+      "on": 73
+    },
+    {
+      "name": "Leroy Sané",
+      "pos": "MF",
+      "on": 87
+    }
+  ],
+  "goals": [
+    {
+      "team": "norway",
+      "name": "Rúben Dias",
+      "minute": 35,
+      "kind": "og"
+    },
+    {
+      "team": "norway",
+      "name": "Raphaël Guerreiro",
+      "minute": 39,
+      "kind": "og"
+    },
+    {
+      "team": "norway",
+      "name": "Kai Havertz",
+      "minute": 51,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "Robin Gosens",
+      "minute": 60,
+      "kind": "goal"
+    },
+    {
+      "team": "opponent",
+      "scorer": "Ronaldo",
+      "minute": 15,
+      "kind": "goal"
+    },
+    {
+      "team": "opponent",
+      "scorer": "Jota",
+      "minute": 67,
+      "kind": "goal"
+    }
+  ],
+  "verify": {
+    "subject": "UEFA Euro 2020 Group F",
+    "mustMention": [
+      "Neuer",
+      "Ginter",
+      "Hummels",
+      "Rüdiger",
+      "Kimmich",
+      "Gündoğan",
+      "Kroos",
+      "Gosens",
+      "Havertz",
+      "Müller",
+      "Gnabry"
+    ]
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "id": "2004-06-15-ger-ned",
+  "date": "2004-06-15",
+  "competition": "euro",
+  "stage": "Gruppe D",
+  "opponent": "Niederlande",
+  "opponentCode": "NED",
+  "norwayHome": true,
+  "score": [
+    1,
+    1
+  ],
+  "venue": "Estádio do Dragão",
+  "city": "Porto",
+  "manager": "Rudi Völler",
+  "formation": "4-3-3",
+  "importance": 3,
+  "tags": [
+    "import:wikipedia"
+  ],
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/UEFA_Euro_2004_Group_D",
+      "title": "UEFA Euro 2004 Group D – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-10",
+      "note": "Startellever, resultat, arena og målscorere er overført fra kampboksen og oppstillingstabellen i artikkelen. Generiske posisjoner (DF/MF/FW) er beholdt slik kilden oppgir dem; draktnumre er utelatt. Automatisk overført, ikke lest av et menneske."
+    }
+  ],
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Oliver Kahn",
+      "pos": "GK",
+      "captain": true
+    },
+    {
+      "name": "Arne Friedrich",
+      "pos": "RB"
+    },
+    {
+      "name": "Christian Wörns",
+      "pos": "CB"
+    },
+    {
+      "name": "Jens Nowotny",
+      "pos": "CB"
+    },
+    {
+      "name": "Philipp Lahm",
+      "pos": "LB"
+    },
+    {
+      "name": "Dietmar Hamann",
+      "pos": "CM"
+    },
+    {
+      "name": "Frank Baumann",
+      "pos": "CM"
+    },
+    {
+      "name": "Bernd Schneider",
+      "pos": "RW",
+      "off": 68
+    },
+    {
+      "name": "Michael Ballack",
+      "pos": "CM"
+    },
+    {
+      "name": "Torsten Frings",
+      "pos": "LW",
+      "off": 79
+    },
+    {
+      "name": "Kevin Kurányi",
+      "pos": "CF",
+      "off": 85
+    }
+  ],
+  "subs": [
+    {
+      "name": "Bastian Schweinsteiger",
+      "pos": "MF",
+      "on": 68
+    },
+    {
+      "name": "Fabian Ernst",
+      "pos": "MF",
+      "on": 79
+    },
+    {
+      "name": "Fredi Bobic",
+      "pos": "FW",
+      "on": 85
+    }
+  ],
+  "goals": [
+    {
+      "team": "norway",
+      "name": "Torsten Frings",
+      "minute": 30,
+      "kind": "goal"
+    },
+    {
+      "team": "opponent",
+      "scorer": "Van Nistelrooy",
+      "minute": 81,
+      "kind": "goal"
+    }
+  ],
+  "verify": {
+    "subject": "UEFA Euro 2004 Group D",
+    "mustMention": [
+      "Kahn",
+      "Friedrich",
+      "Wörns",
+      "Nowotny",
+      "Lahm",
+      "Hamann",
+      "Baumann",
+      "Schneider",
+      "Ballack",
+      "Frings",
+      "Kurányi"
+    ]
+  }
+}

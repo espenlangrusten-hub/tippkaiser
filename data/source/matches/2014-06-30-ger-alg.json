@@ -1,0 +1,135 @@
+{
+  "id": "2014-06-30-ger-alg",
+  "date": "2014-06-30",
+  "competition": "world-cup",
+  "stage": "Achtelfinale",
+  "opponent": "Algerien",
+  "opponentCode": "ALG",
+  "norwayHome": true,
+  "score": [
+    2,
+    1
+  ],
+  "venue": "Estádio Beira-Rio",
+  "city": "Porto Alegre",
+  "manager": "Joachim Löw",
+  "formation": "4-3-3",
+  "importance": 4,
+  "tags": [
+    "import:wikipedia"
+  ],
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2014_FIFA_World_Cup_knockout_stage",
+      "title": "2014 FIFA World Cup knockout stage – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-10",
+      "note": "Startellever, resultat, arena og målscorere er overført fra kampboksen og oppstillingstabellen i artikkelen. Generiske posisjoner (DF/MF/FW) er beholdt slik kilden oppgir dem; draktnumre er utelatt. Automatisk overført, ikke lest av et menneske."
+    }
+  ],
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Manuel Neuer",
+      "pos": "GK"
+    },
+    {
+      "name": "Shkodran Mustafi",
+      "pos": "RB",
+      "off": 70
+    },
+    {
+      "name": "Per Mertesacker",
+      "pos": "CB"
+    },
+    {
+      "name": "Jérôme Boateng",
+      "pos": "CB"
+    },
+    {
+      "name": "Benedikt Höwedes",
+      "pos": "LB"
+    },
+    {
+      "name": "Philipp Lahm",
+      "pos": "DM",
+      "captain": true
+    },
+    {
+      "name": "Bastian Schweinsteiger",
+      "pos": "CM",
+      "off": 109
+    },
+    {
+      "name": "Toni Kroos",
+      "pos": "CM"
+    },
+    {
+      "name": "Mesut Özil",
+      "pos": "RW"
+    },
+    {
+      "name": "Mario Götze",
+      "pos": "LW",
+      "off": 46
+    },
+    {
+      "name": "Thomas Müller",
+      "pos": "CF"
+    }
+  ],
+  "subs": [
+    {
+      "name": "André Schürrle",
+      "pos": "MF",
+      "on": 46
+    },
+    {
+      "name": "Sami Khedira",
+      "pos": "MF",
+      "on": 70
+    },
+    {
+      "name": "Christoph Kramer",
+      "pos": "MF",
+      "on": 109
+    }
+  ],
+  "goals": [
+    {
+      "team": "norway",
+      "name": "André Schürrle",
+      "minute": 92,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "Mesut Özil",
+      "minute": 119,
+      "kind": "goal"
+    },
+    {
+      "team": "opponent",
+      "scorer": "Djabou",
+      "minute": 120,
+      "kind": "goal"
+    }
+  ],
+  "verify": {
+    "subject": "2014 FIFA World Cup knockout stage",
+    "mustMention": [
+      "Neuer",
+      "Mustafi",
+      "Mertesacker",
+      "Boateng",
+      "Höwedes",
+      "Lahm",
+      "Schweinsteiger",
+      "Kroos",
+      "Özil",
+      "Götze",
+      "Müller"
+    ]
+  }
+}

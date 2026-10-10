@@ -1,0 +1,123 @@
+{
+  "id": "2018-06-17-ger-mex",
+  "date": "2018-06-17",
+  "competition": "world-cup",
+  "stage": "Gruppe F",
+  "opponent": "Mexiko",
+  "opponentCode": "MEX",
+  "norwayHome": true,
+  "score": [
+    0,
+    1
+  ],
+  "venue": "Luzhniki Stadium",
+  "city": "Moscow",
+  "manager": "Joachim Löw",
+  "formation": "4-3-3",
+  "importance": 3,
+  "tags": [
+    "import:wikipedia"
+  ],
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2018_FIFA_World_Cup_Group_F",
+      "title": "2018 FIFA World Cup Group F – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-10",
+      "note": "Startellever, resultat, arena og målscorere er overført fra kampboksen og oppstillingstabellen i artikkelen. Generiske posisjoner (DF/MF/FW) er beholdt slik kilden oppgir dem; draktnumre er utelatt. Automatisk overført, ikke lest av et menneske."
+    }
+  ],
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Manuel Neuer",
+      "pos": "GK",
+      "captain": true
+    },
+    {
+      "name": "Joshua Kimmich",
+      "pos": "RB"
+    },
+    {
+      "name": "Jérôme Boateng",
+      "pos": "CB"
+    },
+    {
+      "name": "Mats Hummels",
+      "pos": "CB"
+    },
+    {
+      "name": "Marvin Plattenhardt",
+      "pos": "LB",
+      "off": 79
+    },
+    {
+      "name": "Toni Kroos",
+      "pos": "CM"
+    },
+    {
+      "name": "Sami Khedira",
+      "pos": "CM",
+      "off": 60
+    },
+    {
+      "name": "Thomas Müller",
+      "pos": "RW"
+    },
+    {
+      "name": "Mesut Özil",
+      "pos": "AM"
+    },
+    {
+      "name": "Julian Draxler",
+      "pos": "LW"
+    },
+    {
+      "name": "Timo Werner",
+      "pos": "CF",
+      "off": 86
+    }
+  ],
+  "subs": [
+    {
+      "name": "Marco Reus",
+      "pos": "FW",
+      "on": 60
+    },
+    {
+      "name": "Mario Gómez",
+      "pos": "FW",
+      "on": 79
+    },
+    {
+      "name": "Julian Brandt",
+      "pos": "MF",
+      "on": 86
+    }
+  ],
+  "goals": [
+    {
+      "team": "opponent",
+      "scorer": "Lozano",
+      "minute": 35,
+      "kind": "goal"
+    }
+  ],
+  "verify": {
+    "subject": "2018 FIFA World Cup Group F",
+    "mustMention": [
+      "Neuer",
+      "Kimmich",
+      "Boateng",
+      "Hummels",
+      "Plattenhardt",
+      "Kroos",
+      "Khedira",
+      "Müller",
+      "Özil",
+      "Draxler",
+      "Werner"
+    ]
+  }
+}

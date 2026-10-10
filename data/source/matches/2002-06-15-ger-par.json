@@ -1,0 +1,123 @@
+{
+  "id": "2002-06-15-ger-par",
+  "date": "2002-06-15",
+  "competition": "world-cup",
+  "stage": "Achtelfinale",
+  "opponent": "Paraguay",
+  "opponentCode": "PAR",
+  "norwayHome": true,
+  "score": [
+    1,
+    0
+  ],
+  "venue": "Jeju World Cup Stadium",
+  "city": "Seogwipo",
+  "manager": "Rudi Völler",
+  "formation": "3-5-2",
+  "importance": 4,
+  "tags": [
+    "import:wikipedia"
+  ],
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2002_FIFA_World_Cup_knockout_stage",
+      "title": "2002 FIFA World Cup knockout stage – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-10",
+      "note": "Startellever, resultat, arena og målscorere er overført fra kampboksen og oppstillingstabellen i artikkelen. Generiske posisjoner (DF/MF/FW) er beholdt slik kilden oppgir dem; draktnumre er utelatt. Automatisk overført, ikke lest av et menneske."
+    }
+  ],
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Oliver Kahn",
+      "pos": "GK",
+      "captain": true
+    },
+    {
+      "name": "Marko Rehmer",
+      "pos": "CB",
+      "off": 46
+    },
+    {
+      "name": "Thomas Linke",
+      "pos": "CB"
+    },
+    {
+      "name": "Christoph Metzelder",
+      "pos": "CB",
+      "off": 60
+    },
+    {
+      "name": "Bernd Schneider",
+      "pos": "RM"
+    },
+    {
+      "name": "Torsten Frings",
+      "pos": "CM"
+    },
+    {
+      "name": "Jens Jeremies",
+      "pos": "CM"
+    },
+    {
+      "name": "Marco Bode",
+      "pos": "LM"
+    },
+    {
+      "name": "Michael Ballack",
+      "pos": "AM"
+    },
+    {
+      "name": "Oliver Neuville",
+      "pos": "CF",
+      "off": 90
+    },
+    {
+      "name": "Miroslav Klose",
+      "pos": "CF"
+    }
+  ],
+  "subs": [
+    {
+      "name": "Sebastian Kehl",
+      "pos": "MF",
+      "on": 46
+    },
+    {
+      "name": "Frank Baumann",
+      "pos": "DF",
+      "on": 60
+    },
+    {
+      "name": "Gerald Asamoah",
+      "pos": "FW",
+      "on": 90
+    }
+  ],
+  "goals": [
+    {
+      "team": "norway",
+      "name": "Oliver Neuville",
+      "minute": 88,
+      "kind": "goal"
+    }
+  ],
+  "verify": {
+    "subject": "2002 FIFA World Cup knockout stage",
+    "mustMention": [
+      "Kahn",
+      "Rehmer",
+      "Linke",
+      "Metzelder",
+      "Schneider",
+      "Frings",
+      "Jeremies",
+      "Bode",
+      "Ballack",
+      "Neuville",
+      "Klose"
+    ]
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "id": "2006-06-14-ger-pol",
+  "date": "2006-06-14",
+  "competition": "world-cup",
+  "stage": "Gruppe A",
+  "opponent": "Polen",
+  "opponentCode": "POL",
+  "norwayHome": true,
+  "score": [
+    1,
+    0
+  ],
+  "venue": "Westfalenstadion",
+  "city": "Dortmund",
+  "manager": "Jürgen Klinsmann",
+  "formation": "4-4-2",
+  "importance": 3,
+  "tags": [
+    "import:wikipedia"
+  ],
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2006_FIFA_World_Cup_Group_A",
+      "title": "2006 FIFA World Cup Group A – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-10",
+      "note": "Startellever, resultat, arena og målscorere er overført fra kampboksen og oppstillingstabellen i artikkelen. Generiske posisjoner (DF/MF/FW) er beholdt slik kilden oppgir dem; draktnumre er utelatt. Automatisk overført, ikke lest av et menneske."
+    }
+  ],
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Jens Lehmann",
+      "pos": "GK"
+    },
+    {
+      "name": "Arne Friedrich",
+      "pos": "RB",
+      "off": 64
+    },
+    {
+      "name": "Per Mertesacker",
+      "pos": "CB"
+    },
+    {
+      "name": "Christoph Metzelder",
+      "pos": "CB"
+    },
+    {
+      "name": "Philipp Lahm",
+      "pos": "LB"
+    },
+    {
+      "name": "Bernd Schneider",
+      "pos": "RM"
+    },
+    {
+      "name": "Torsten Frings",
+      "pos": "CM"
+    },
+    {
+      "name": "Michael Ballack",
+      "pos": "CM",
+      "captain": true
+    },
+    {
+      "name": "Bastian Schweinsteiger",
+      "pos": "LM",
+      "off": 77
+    },
+    {
+      "name": "Miroslav Klose",
+      "pos": "CF"
+    },
+    {
+      "name": "Lukas Podolski",
+      "pos": "CF",
+      "off": 71
+    }
+  ],
+  "subs": [
+    {
+      "name": "David Odonkor",
+      "pos": "MF",
+      "on": 64
+    },
+    {
+      "name": "Oliver Neuville",
+      "pos": "FW",
+      "on": 71
+    },
+    {
+      "name": "Tim Borowski",
+      "pos": "MF",
+      "on": 77
+    }
+  ],
+  "goals": [
+    {
+      "team": "norway",
+      "name": "Oliver Neuville",
+      "minute": 90,
+      "kind": "goal"
+    }
+  ],
+  "verify": {
+    "subject": "2006 FIFA World Cup Group A",
+    "mustMention": [
+      "Lehmann",
+      "Friedrich",
+      "Mertesacker",
+      "Metzelder",
+      "Lahm",
+      "Schneider",
+      "Frings",
+      "Ballack",
+      "Schweinsteiger",
+      "Klose",
+      "Podolski"
+    ]
+  }
+}

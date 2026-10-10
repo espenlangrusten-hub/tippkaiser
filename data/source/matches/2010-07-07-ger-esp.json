@@ -1,0 +1,123 @@
+{
+  "id": "2010-07-07-ger-esp",
+  "date": "2010-07-07",
+  "competition": "world-cup",
+  "stage": "Halbfinale",
+  "opponent": "Spanien",
+  "opponentCode": "ESP",
+  "norwayHome": true,
+  "score": [
+    0,
+    1
+  ],
+  "venue": "Moses Mabhida Stadium",
+  "city": "Durban",
+  "manager": "Joachim Löw",
+  "formation": "4-3-3",
+  "importance": 4,
+  "tags": [
+    "import:wikipedia"
+  ],
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2010_FIFA_World_Cup_knockout_stage",
+      "title": "2010 FIFA World Cup knockout stage – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-10",
+      "note": "Startellever, resultat, arena og målscorere er overført fra kampboksen og oppstillingstabellen i artikkelen. Generiske posisjoner (DF/MF/FW) er beholdt slik kilden oppgir dem; draktnumre er utelatt. Automatisk overført, ikke lest av et menneske."
+    }
+  ],
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Manuel Neuer",
+      "pos": "GK"
+    },
+    {
+      "name": "Philipp Lahm",
+      "pos": "RB",
+      "captain": true
+    },
+    {
+      "name": "Arne Friedrich",
+      "pos": "CB"
+    },
+    {
+      "name": "Per Mertesacker",
+      "pos": "CB"
+    },
+    {
+      "name": "Jérôme Boateng",
+      "pos": "LB",
+      "off": 52
+    },
+    {
+      "name": "Sami Khedira",
+      "pos": "DM",
+      "off": 81
+    },
+    {
+      "name": "Bastian Schweinsteiger",
+      "pos": "DM"
+    },
+    {
+      "name": "Piotr Trochowski",
+      "pos": "RW",
+      "off": 62
+    },
+    {
+      "name": "Mesut Özil",
+      "pos": "AM"
+    },
+    {
+      "name": "Lukas Podolski",
+      "pos": "LW"
+    },
+    {
+      "name": "Miroslav Klose",
+      "pos": "CF"
+    }
+  ],
+  "subs": [
+    {
+      "name": "Marcell Jansen",
+      "pos": "DF",
+      "on": 52
+    },
+    {
+      "name": "Toni Kroos",
+      "pos": "MF",
+      "on": 62
+    },
+    {
+      "name": "Mario Gómez",
+      "pos": "FW",
+      "on": 81
+    }
+  ],
+  "goals": [
+    {
+      "team": "opponent",
+      "scorer": "Puyol",
+      "minute": 73,
+      "kind": "goal"
+    }
+  ],
+  "verify": {
+    "subject": "2010 FIFA World Cup knockout stage",
+    "mustMention": [
+      "Neuer",
+      "Lahm",
+      "Friedrich",
+      "Mertesacker",
+      "Boateng",
+      "Khedira",
+      "Schweinsteiger",
+      "Trochowski",
+      "Özil",
+      "Podolski",
+      "Klose"
+    ]
+  }
+}

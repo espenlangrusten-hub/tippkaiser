@@ -1,0 +1,141 @@
+{
+  "id": "2006-07-08-ger-por",
+  "date": "2006-07-08",
+  "competition": "world-cup",
+  "stage": "Spiel um Platz 3",
+  "opponent": "Portugal",
+  "opponentCode": "POR",
+  "norwayHome": true,
+  "score": [
+    3,
+    1
+  ],
+  "venue": "Gottlieb-Daimler-Stadion",
+  "city": "Stuttgart",
+  "manager": "Jürgen Klinsmann",
+  "formation": "4-4-2",
+  "importance": 4,
+  "tags": [
+    "import:wikipedia"
+  ],
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2006_FIFA_World_Cup_knockout_stage",
+      "title": "2006 FIFA World Cup knockout stage – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-10",
+      "note": "Startellever, resultat, arena og målscorere er overført fra kampboksen og oppstillingstabellen i artikkelen. Generiske posisjoner (DF/MF/FW) er beholdt slik kilden oppgir dem; draktnumre er utelatt. Automatisk overført, ikke lest av et menneske."
+    }
+  ],
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Oliver Kahn",
+      "pos": "GK",
+      "captain": true
+    },
+    {
+      "name": "Philipp Lahm",
+      "pos": "RB"
+    },
+    {
+      "name": "Jens Nowotny",
+      "pos": "CB"
+    },
+    {
+      "name": "Christoph Metzelder",
+      "pos": "CB"
+    },
+    {
+      "name": "Marcell Jansen",
+      "pos": "LB"
+    },
+    {
+      "name": "Bernd Schneider",
+      "pos": "RM"
+    },
+    {
+      "name": "Sebastian Kehl",
+      "pos": "CM"
+    },
+    {
+      "name": "Torsten Frings",
+      "pos": "CM"
+    },
+    {
+      "name": "Bastian Schweinsteiger",
+      "pos": "LM",
+      "off": 79
+    },
+    {
+      "name": "Miroslav Klose",
+      "pos": "CF",
+      "off": 65
+    },
+    {
+      "name": "Lukas Podolski",
+      "pos": "CF",
+      "off": 71
+    }
+  ],
+  "subs": [
+    {
+      "name": "Oliver Neuville",
+      "pos": "FW",
+      "on": 65
+    },
+    {
+      "name": "Mike Hanke",
+      "pos": "FW",
+      "on": 71
+    },
+    {
+      "name": "Thomas Hitzlsperger",
+      "pos": "MF",
+      "on": 79
+    }
+  ],
+  "goals": [
+    {
+      "team": "norway",
+      "name": "Bastian Schweinsteiger",
+      "minute": 56,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "Bastian Schweinsteiger",
+      "minute": 78,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "Armando Petit",
+      "minute": 60,
+      "kind": "og"
+    },
+    {
+      "team": "opponent",
+      "scorer": "Nuno Gomes",
+      "minute": 88,
+      "kind": "goal"
+    }
+  ],
+  "verify": {
+    "subject": "2006 FIFA World Cup knockout stage",
+    "mustMention": [
+      "Kahn",
+      "Lahm",
+      "Nowotny",
+      "Metzelder",
+      "Jansen",
+      "Schneider",
+      "Kehl",
+      "Frings",
+      "Schweinsteiger",
+      "Klose",
+      "Podolski"
+    ]
+  }
+}

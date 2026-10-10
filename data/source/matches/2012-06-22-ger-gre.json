@@ -1,0 +1,153 @@
+{
+  "id": "2012-06-22-ger-gre",
+  "date": "2012-06-22",
+  "competition": "euro",
+  "stage": "Viertelfinale",
+  "opponent": "Griechenland",
+  "opponentCode": "GRE",
+  "norwayHome": true,
+  "score": [
+    4,
+    2
+  ],
+  "venue": "PGE Arena",
+  "city": "Gdańsk",
+  "manager": "Joachim Löw",
+  "formation": "4-3-3",
+  "importance": 4,
+  "tags": [
+    "import:wikipedia"
+  ],
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/UEFA_Euro_2012_knockout_stage",
+      "title": "UEFA Euro 2012 knockout stage – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-10",
+      "note": "Startellever, resultat, arena og målscorere er overført fra kampboksen og oppstillingstabellen i artikkelen. Generiske posisjoner (DF/MF/FW) er beholdt slik kilden oppgir dem; draktnumre er utelatt. Automatisk overført, ikke lest av et menneske."
+    }
+  ],
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Manuel Neuer",
+      "pos": "GK"
+    },
+    {
+      "name": "Jérôme Boateng",
+      "pos": "RB"
+    },
+    {
+      "name": "Mats Hummels",
+      "pos": "CB"
+    },
+    {
+      "name": "Holger Badstuber",
+      "pos": "CB"
+    },
+    {
+      "name": "Philipp Lahm",
+      "pos": "LB",
+      "captain": true
+    },
+    {
+      "name": "Sami Khedira",
+      "pos": "CM"
+    },
+    {
+      "name": "Bastian Schweinsteiger",
+      "pos": "CM"
+    },
+    {
+      "name": "Marco Reus",
+      "pos": "RW",
+      "off": 80
+    },
+    {
+      "name": "Mesut Özil",
+      "pos": "AM"
+    },
+    {
+      "name": "André Schürrle",
+      "pos": "LW",
+      "off": 67
+    },
+    {
+      "name": "Miroslav Klose",
+      "pos": "CF",
+      "off": 80
+    }
+  ],
+  "subs": [
+    {
+      "name": "Thomas Müller",
+      "pos": "MF",
+      "on": 67
+    },
+    {
+      "name": "Mario Gómez",
+      "pos": "FW",
+      "on": 80
+    },
+    {
+      "name": "Mario Götze",
+      "pos": "MF",
+      "on": 80
+    }
+  ],
+  "goals": [
+    {
+      "team": "norway",
+      "name": "Philipp Lahm",
+      "minute": 39,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "Sami Khedira",
+      "minute": 61,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "Miroslav Klose",
+      "minute": 68,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "Marco Reus",
+      "minute": 74,
+      "kind": "goal"
+    },
+    {
+      "team": "opponent",
+      "scorer": "Samaras",
+      "minute": 55,
+      "kind": "goal"
+    },
+    {
+      "team": "opponent",
+      "scorer": "Salpingidis",
+      "minute": 89,
+      "kind": "pen"
+    }
+  ],
+  "verify": {
+    "subject": "UEFA Euro 2012 knockout stage",
+    "mustMention": [
+      "Neuer",
+      "Boateng",
+      "Hummels",
+      "Badstuber",
+      "Lahm",
+      "Khedira",
+      "Schweinsteiger",
+      "Reus",
+      "Özil",
+      "Schürrle",
+      "Klose"
+    ]
+  }
+}

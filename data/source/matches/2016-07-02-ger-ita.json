@@ -1,0 +1,123 @@
+{
+  "id": "2016-07-02-ger-ita",
+  "date": "2016-07-02",
+  "competition": "euro",
+  "stage": "Viertelfinale",
+  "opponent": "Italien",
+  "opponentCode": "ITA",
+  "norwayHome": true,
+  "score": [
+    1,
+    1
+  ],
+  "venue": "Stade de Bordeaux",
+  "city": "Bordeaux",
+  "manager": "Joachim Löw",
+  "formation": "4-4-2",
+  "importance": 4,
+  "tags": [
+    "import:wikipedia"
+  ],
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/UEFA_Euro_2016_knockout_stage",
+      "title": "UEFA Euro 2016 knockout stage – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-10",
+      "note": "Startellever, resultat, arena og målscorere er overført fra kampboksen og oppstillingstabellen i artikkelen. Generiske posisjoner (DF/MF/FW) er beholdt slik kilden oppgir dem; draktnumre er utelatt. Automatisk overført, ikke lest av et menneske."
+    }
+  ],
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Manuel Neuer",
+      "pos": "GK",
+      "captain": true
+    },
+    {
+      "name": "Benedikt Höwedes",
+      "pos": "RB"
+    },
+    {
+      "name": "Jérôme Boateng",
+      "pos": "CB"
+    },
+    {
+      "name": "Mats Hummels",
+      "pos": "CB"
+    },
+    {
+      "name": "Jonas Hector",
+      "pos": "LB"
+    },
+    {
+      "name": "Joshua Kimmich",
+      "pos": "RM"
+    },
+    {
+      "name": "Sami Khedira",
+      "pos": "CM",
+      "off": 16
+    },
+    {
+      "name": "Toni Kroos",
+      "pos": "CM"
+    },
+    {
+      "name": "Mesut Özil",
+      "pos": "LM"
+    },
+    {
+      "name": "Thomas Müller",
+      "pos": "CF"
+    },
+    {
+      "name": "Mario Gómez",
+      "pos": "CF",
+      "off": 72
+    }
+  ],
+  "subs": [
+    {
+      "name": "Bastian Schweinsteiger",
+      "pos": "MF",
+      "on": 16
+    },
+    {
+      "name": "Julian Draxler",
+      "pos": "MF",
+      "on": 72
+    }
+  ],
+  "goals": [
+    {
+      "team": "norway",
+      "name": "Mesut Özil",
+      "minute": 65,
+      "kind": "goal"
+    },
+    {
+      "team": "opponent",
+      "scorer": "Bonucci",
+      "minute": 78,
+      "kind": "pen"
+    }
+  ],
+  "verify": {
+    "subject": "UEFA Euro 2016 knockout stage",
+    "mustMention": [
+      "Neuer",
+      "Höwedes",
+      "Boateng",
+      "Hummels",
+      "Hector",
+      "Kimmich",
+      "Khedira",
+      "Kroos",
+      "Özil",
+      "Müller",
+      "Gómez"
+    ]
+  }
+}

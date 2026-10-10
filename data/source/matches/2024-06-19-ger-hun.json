@@ -1,0 +1,141 @@
+{
+  "id": "2024-06-19-ger-hun",
+  "date": "2024-06-19",
+  "competition": "euro",
+  "stage": "Gruppe A",
+  "opponent": "Ungarn",
+  "opponentCode": "HUN",
+  "norwayHome": true,
+  "score": [
+    2,
+    0
+  ],
+  "venue": "MHPArena",
+  "city": "Stuttgart",
+  "manager": "Julian Nagelsmann",
+  "formation": "4-3-3",
+  "importance": 3,
+  "tags": [
+    "import:wikipedia"
+  ],
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/UEFA_Euro_2024_Group_A",
+      "title": "UEFA Euro 2024 Group A – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-10",
+      "note": "Startellever, resultat, arena og målscorere er overført fra kampboksen og oppstillingstabellen i artikkelen. Generiske posisjoner (DF/MF/FW) er beholdt slik kilden oppgir dem; draktnumre er utelatt. Automatisk overført, ikke lest av et menneske."
+    }
+  ],
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Manuel Neuer",
+      "pos": "GK"
+    },
+    {
+      "name": "Joshua Kimmich",
+      "pos": "RB"
+    },
+    {
+      "name": "Antonio Rüdiger",
+      "pos": "CB"
+    },
+    {
+      "name": "Jonathan Tah",
+      "pos": "CB"
+    },
+    {
+      "name": "Maximilian Mittelstädt",
+      "pos": "LB"
+    },
+    {
+      "name": "Robert Andrich",
+      "pos": "CM",
+      "off": 72
+    },
+    {
+      "name": "Toni Kroos",
+      "pos": "CM"
+    },
+    {
+      "name": "Jamal Musiala",
+      "pos": "RW",
+      "off": 72
+    },
+    {
+      "name": "İlkay Gündoğan",
+      "pos": "AM",
+      "captain": true,
+      "off": 84
+    },
+    {
+      "name": "Florian Wirtz",
+      "pos": "LW",
+      "off": 58
+    },
+    {
+      "name": "Kai Havertz",
+      "pos": "CF",
+      "off": 58
+    }
+  ],
+  "subs": [
+    {
+      "name": "Leroy Sané",
+      "pos": "MF",
+      "on": 58
+    },
+    {
+      "name": "Niclas Füllkrug",
+      "pos": "FW",
+      "on": 58
+    },
+    {
+      "name": "Emre Can",
+      "pos": "MF",
+      "on": 72
+    },
+    {
+      "name": "Chris Führich",
+      "pos": "MF",
+      "on": 72
+    },
+    {
+      "name": "Deniz Undav",
+      "pos": "FW",
+      "on": 84
+    }
+  ],
+  "goals": [
+    {
+      "team": "norway",
+      "name": "Jamal Musiala",
+      "minute": 22,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "İlkay Gündoğan",
+      "minute": 67,
+      "kind": "goal"
+    }
+  ],
+  "verify": {
+    "subject": "UEFA Euro 2024 Group A",
+    "mustMention": [
+      "Neuer",
+      "Kimmich",
+      "Rüdiger",
+      "Tah",
+      "Mittelstädt",
+      "Andrich",
+      "Kroos",
+      "Musiala",
+      "Gündoğan",
+      "Wirtz",
+      "Havertz"
+    ]
+  }
+}

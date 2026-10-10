@@ -1,0 +1,135 @@
+{
+  "id": "2021-06-29-eng-ger",
+  "date": "2021-06-29",
+  "competition": "euro",
+  "stage": "Achtelfinale",
+  "opponent": "England",
+  "opponentCode": "ENG",
+  "norwayHome": false,
+  "score": [
+    0,
+    2
+  ],
+  "venue": "Wembley Stadium",
+  "city": "London",
+  "manager": "Joachim Löw",
+  "formation": "3-6-1",
+  "importance": 4,
+  "tags": [
+    "import:wikipedia"
+  ],
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/UEFA_Euro_2020_knockout_stage",
+      "title": "UEFA Euro 2020 knockout stage – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-10",
+      "note": "Startellever, resultat, arena og målscorere er overført fra kampboksen og oppstillingstabellen i artikkelen. Generiske posisjoner (DF/MF/FW) er beholdt slik kilden oppgir dem; draktnumre er utelatt. Automatisk overført, ikke lest av et menneske."
+    }
+  ],
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Manuel Neuer",
+      "pos": "GK",
+      "captain": true
+    },
+    {
+      "name": "Matthias Ginter",
+      "pos": "CB",
+      "off": 87
+    },
+    {
+      "name": "Mats Hummels",
+      "pos": "CB"
+    },
+    {
+      "name": "Antonio Rüdiger",
+      "pos": "CB"
+    },
+    {
+      "name": "Joshua Kimmich",
+      "pos": "RM"
+    },
+    {
+      "name": "Leon Goretzka",
+      "pos": "CM"
+    },
+    {
+      "name": "Toni Kroos",
+      "pos": "CM"
+    },
+    {
+      "name": "Robin Gosens",
+      "pos": "LM",
+      "off": 87
+    },
+    {
+      "name": "Kai Havertz",
+      "pos": "AM"
+    },
+    {
+      "name": "Thomas Müller",
+      "pos": "AM",
+      "off": 90
+    },
+    {
+      "name": "Timo Werner",
+      "pos": "CF",
+      "off": 69
+    }
+  ],
+  "subs": [
+    {
+      "name": "Serge Gnabry",
+      "pos": "MF",
+      "on": 69
+    },
+    {
+      "name": "Emre Can",
+      "pos": "DF",
+      "on": 87
+    },
+    {
+      "name": "Leroy Sané",
+      "pos": "MF",
+      "on": 87
+    },
+    {
+      "name": "Jamal Musiala",
+      "pos": "MF",
+      "on": 90
+    }
+  ],
+  "goals": [
+    {
+      "team": "opponent",
+      "scorer": "Sterling",
+      "minute": 75,
+      "kind": "goal"
+    },
+    {
+      "team": "opponent",
+      "scorer": "Kane",
+      "minute": 86,
+      "kind": "goal"
+    }
+  ],
+  "verify": {
+    "subject": "UEFA Euro 2020 knockout stage",
+    "mustMention": [
+      "Neuer",
+      "Ginter",
+      "Hummels",
+      "Rüdiger",
+      "Kimmich",
+      "Goretzka",
+      "Kroos",
+      "Gosens",
+      "Havertz",
+      "Müller",
+      "Werner"
+    ]
+  }
+}

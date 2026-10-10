@@ -1,0 +1,129 @@
+{
+  "id": "2006-07-04-ger-ita",
+  "date": "2006-07-04",
+  "competition": "world-cup",
+  "stage": "Halbfinale",
+  "opponent": "Italien",
+  "opponentCode": "ITA",
+  "norwayHome": true,
+  "score": [
+    0,
+    2
+  ],
+  "venue": "Westfalenstadion",
+  "city": "Dortmund",
+  "manager": "Jürgen Klinsmann",
+  "formation": "4-4-2",
+  "importance": 4,
+  "tags": [
+    "import:wikipedia"
+  ],
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2006_FIFA_World_Cup_knockout_stage",
+      "title": "2006 FIFA World Cup knockout stage – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-10",
+      "note": "Startellever, resultat, arena og målscorere er overført fra kampboksen og oppstillingstabellen i artikkelen. Generiske posisjoner (DF/MF/FW) er beholdt slik kilden oppgir dem; draktnumre er utelatt. Automatisk overført, ikke lest av et menneske."
+    }
+  ],
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Jens Lehmann",
+      "pos": "GK"
+    },
+    {
+      "name": "Arne Friedrich",
+      "pos": "RB"
+    },
+    {
+      "name": "Per Mertesacker",
+      "pos": "CB"
+    },
+    {
+      "name": "Christoph Metzelder",
+      "pos": "CB"
+    },
+    {
+      "name": "Philipp Lahm",
+      "pos": "LB"
+    },
+    {
+      "name": "Bernd Schneider",
+      "pos": "RM",
+      "off": 83
+    },
+    {
+      "name": "Michael Ballack",
+      "pos": "CM",
+      "captain": true
+    },
+    {
+      "name": "Sebastian Kehl",
+      "pos": "CM"
+    },
+    {
+      "name": "Tim Borowski",
+      "pos": "LM",
+      "off": 73
+    },
+    {
+      "name": "Miroslav Klose",
+      "pos": "CF",
+      "off": 111
+    },
+    {
+      "name": "Lukas Podolski",
+      "pos": "CF"
+    }
+  ],
+  "subs": [
+    {
+      "name": "Bastian Schweinsteiger",
+      "pos": "MF",
+      "on": 73
+    },
+    {
+      "name": "David Odonkor",
+      "pos": "MF",
+      "on": 83
+    },
+    {
+      "name": "Oliver Neuville",
+      "pos": "FW",
+      "on": 111
+    }
+  ],
+  "goals": [
+    {
+      "team": "opponent",
+      "scorer": "Grosso",
+      "minute": 119,
+      "kind": "goal"
+    },
+    {
+      "team": "opponent",
+      "scorer": "Del Piero",
+      "minute": 120,
+      "kind": "goal"
+    }
+  ],
+  "verify": {
+    "subject": "2006 FIFA World Cup knockout stage",
+    "mustMention": [
+      "Lehmann",
+      "Friedrich",
+      "Mertesacker",
+      "Metzelder",
+      "Lahm",
+      "Schneider",
+      "Ballack",
+      "Kehl",
+      "Borowski",
+      "Klose",
+      "Podolski"
+    ]
+  }
+}

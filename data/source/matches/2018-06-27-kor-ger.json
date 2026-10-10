@@ -1,0 +1,129 @@
+{
+  "id": "2018-06-27-kor-ger",
+  "date": "2018-06-27",
+  "competition": "world-cup",
+  "stage": "Gruppe F",
+  "opponent": "Südkorea",
+  "opponentCode": "KOR",
+  "norwayHome": false,
+  "score": [
+    0,
+    2
+  ],
+  "venue": "Kazan Arena",
+  "city": "Kazan",
+  "manager": "Joachim Löw",
+  "formation": "4-3-3",
+  "importance": 3,
+  "tags": [
+    "import:wikipedia"
+  ],
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2018_FIFA_World_Cup_Group_F",
+      "title": "2018 FIFA World Cup Group F – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-10",
+      "note": "Startellever, resultat, arena og målscorere er overført fra kampboksen og oppstillingstabellen i artikkelen. Generiske posisjoner (DF/MF/FW) er beholdt slik kilden oppgir dem; draktnumre er utelatt. Automatisk overført, ikke lest av et menneske."
+    }
+  ],
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Manuel Neuer",
+      "pos": "GK",
+      "captain": true
+    },
+    {
+      "name": "Joshua Kimmich",
+      "pos": "RB"
+    },
+    {
+      "name": "Mats Hummels",
+      "pos": "CB"
+    },
+    {
+      "name": "Niklas Süle",
+      "pos": "CB"
+    },
+    {
+      "name": "Jonas Hector",
+      "pos": "LB",
+      "off": 78
+    },
+    {
+      "name": "Sami Khedira",
+      "pos": "CM",
+      "off": 58
+    },
+    {
+      "name": "Toni Kroos",
+      "pos": "CM"
+    },
+    {
+      "name": "Leon Goretzka",
+      "pos": "RW",
+      "off": 63
+    },
+    {
+      "name": "Mesut Özil",
+      "pos": "AM"
+    },
+    {
+      "name": "Marco Reus",
+      "pos": "LW"
+    },
+    {
+      "name": "Timo Werner",
+      "pos": "CF"
+    }
+  ],
+  "subs": [
+    {
+      "name": "Mario Gómez",
+      "pos": "FW",
+      "on": 58
+    },
+    {
+      "name": "Thomas Müller",
+      "pos": "FW",
+      "on": 63
+    },
+    {
+      "name": "Julian Brandt",
+      "pos": "MF",
+      "on": 78
+    }
+  ],
+  "goals": [
+    {
+      "team": "opponent",
+      "scorer": "Kim Young-gwon",
+      "minute": 90,
+      "kind": "goal"
+    },
+    {
+      "team": "opponent",
+      "scorer": "Son Heung-min",
+      "minute": 90,
+      "kind": "goal"
+    }
+  ],
+  "verify": {
+    "subject": "2018 FIFA World Cup Group F",
+    "mustMention": [
+      "Neuer",
+      "Kimmich",
+      "Hummels",
+      "Süle",
+      "Hector",
+      "Khedira",
+      "Kroos",
+      "Goretzka",
+      "Özil",
+      "Reus",
+      "Werner"
+    ]
+  }
+}

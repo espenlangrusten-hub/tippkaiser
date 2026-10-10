@@ -1,0 +1,141 @@
+{
+  "id": "2014-06-16-ger-por",
+  "date": "2014-06-16",
+  "competition": "world-cup",
+  "stage": "Gruppe G",
+  "opponent": "Portugal",
+  "opponentCode": "POR",
+  "norwayHome": true,
+  "score": [
+    4,
+    0
+  ],
+  "venue": "Itaipava Arena Fonte Nova",
+  "city": "Salvador",
+  "manager": "Joachim Löw",
+  "formation": "4-3-3",
+  "importance": 3,
+  "tags": [
+    "import:wikipedia"
+  ],
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2014_FIFA_World_Cup_Group_G",
+      "title": "2014 FIFA World Cup Group G – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-10",
+      "note": "Startellever, resultat, arena og målscorere er overført fra kampboksen og oppstillingstabellen i artikkelen. Generiske posisjoner (DF/MF/FW) er beholdt slik kilden oppgir dem; draktnumre er utelatt. Automatisk overført, ikke lest av et menneske."
+    }
+  ],
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Manuel Neuer",
+      "pos": "GK"
+    },
+    {
+      "name": "Jérôme Boateng",
+      "pos": "RB"
+    },
+    {
+      "name": "Per Mertesacker",
+      "pos": "CB"
+    },
+    {
+      "name": "Mats Hummels",
+      "pos": "CB",
+      "off": 73
+    },
+    {
+      "name": "Benedikt Höwedes",
+      "pos": "LB"
+    },
+    {
+      "name": "Philipp Lahm",
+      "pos": "DM",
+      "captain": true
+    },
+    {
+      "name": "Sami Khedira",
+      "pos": "CM"
+    },
+    {
+      "name": "Toni Kroos",
+      "pos": "CM"
+    },
+    {
+      "name": "Thomas Müller",
+      "pos": "RW",
+      "off": 82
+    },
+    {
+      "name": "Mario Götze",
+      "pos": "LW"
+    },
+    {
+      "name": "Mesut Özil",
+      "pos": "CF",
+      "off": 63
+    }
+  ],
+  "subs": [
+    {
+      "name": "André Schürrle",
+      "pos": "MF",
+      "on": 63
+    },
+    {
+      "name": "Shkodran Mustafi",
+      "pos": "DF",
+      "on": 73
+    },
+    {
+      "name": "Lukas Podolski",
+      "pos": "FW",
+      "on": 82
+    }
+  ],
+  "goals": [
+    {
+      "team": "norway",
+      "name": "Thomas Müller",
+      "minute": 12,
+      "kind": "pen"
+    },
+    {
+      "team": "norway",
+      "name": "Thomas Müller",
+      "minute": 45,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "Thomas Müller",
+      "minute": 78,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "Mats Hummels",
+      "minute": 32,
+      "kind": "goal"
+    }
+  ],
+  "verify": {
+    "subject": "2014 FIFA World Cup Group G",
+    "mustMention": [
+      "Neuer",
+      "Boateng",
+      "Mertesacker",
+      "Hummels",
+      "Höwedes",
+      "Lahm",
+      "Khedira",
+      "Kroos",
+      "Müller",
+      "Götze",
+      "Özil"
+    ]
+  }
+}

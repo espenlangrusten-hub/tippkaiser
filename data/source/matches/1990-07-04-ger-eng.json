@@ -1,0 +1,112 @@
+{
+  "id": "1990-07-04-ger-eng",
+  "date": "1990-07-04",
+  "competition": "world-cup",
+  "stage": "Halbfinale",
+  "opponent": "England",
+  "opponentCode": "ENG",
+  "norwayHome": true,
+  "score": [
+    1,
+    1
+  ],
+  "venue": "Stadio delle Alpi",
+  "city": "Turin",
+  "manager": "Franz Beckenbauer",
+  "formation": "5-3-2",
+  "importance": 4,
+  "tags": [
+    "import:wikipedia"
+  ],
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/1990_FIFA_World_Cup_knockout_stage",
+      "title": "1990 FIFA World Cup knockout stage – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-10",
+      "note": "Startellever, resultat, arena og målscorere er overført fra kampboksen og oppstillingstabellen i artikkelen. Generiske posisjoner (DF/MF/FW) er beholdt slik kilden oppgir dem; draktnumre er utelatt. Automatisk overført, ikke lest av et menneske."
+    }
+  ],
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Bodo Illgner",
+      "pos": "GK"
+    },
+    {
+      "name": "Klaus Augenthaler",
+      "pos": "CB"
+    },
+    {
+      "name": "Thomas Berthold",
+      "pos": "RWB"
+    },
+    {
+      "name": "Guido Buchwald",
+      "pos": "DF"
+    },
+    {
+      "name": "Jürgen Kohler",
+      "pos": "DF"
+    },
+    {
+      "name": "Andreas Brehme",
+      "pos": "LWB"
+    },
+    {
+      "name": "Thomas Häßler",
+      "pos": "MF",
+      "off": 66
+    },
+    {
+      "name": "Lothar Matthäus",
+      "pos": "MF",
+      "captain": true
+    },
+    {
+      "name": "Olaf Thon",
+      "pos": "MF"
+    },
+    {
+      "name": "Rudi Völler",
+      "pos": "FW",
+      "off": 38
+    },
+    {
+      "name": "Jürgen Klinsmann",
+      "pos": "FW"
+    }
+  ],
+  "subs": [],
+  "goals": [
+    {
+      "team": "norway",
+      "name": "Andreas Brehme",
+      "minute": 60,
+      "kind": "goal"
+    },
+    {
+      "team": "opponent",
+      "scorer": "Lineker",
+      "minute": 80,
+      "kind": "goal"
+    }
+  ],
+  "verify": {
+    "subject": "1990 FIFA World Cup knockout stage",
+    "mustMention": [
+      "Illgner",
+      "Augenthaler",
+      "Berthold",
+      "Buchwald",
+      "Kohler",
+      "Brehme",
+      "Häßler",
+      "Matthäus",
+      "Thon",
+      "Völler",
+      "Klinsmann"
+    ]
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "id": "2002-06-05-ger-irl",
+  "date": "2002-06-05",
+  "competition": "world-cup",
+  "stage": "Gruppe E",
+  "opponent": "Irland",
+  "opponentCode": "IRL",
+  "norwayHome": true,
+  "score": [
+    1,
+    1
+  ],
+  "venue": "Kashima Soccer Stadium",
+  "city": "Ibaraki",
+  "manager": "Rudi Völler",
+  "formation": "3-3-4",
+  "importance": 3,
+  "tags": [
+    "import:wikipedia"
+  ],
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2002_FIFA_World_Cup_Group_E",
+      "title": "2002 FIFA World Cup Group E – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-10",
+      "note": "Startellever, resultat, arena og målscorere er overført fra kampboksen og oppstillingstabellen i artikkelen. Generiske posisjoner (DF/MF/FW) er beholdt slik kilden oppgir dem; draktnumre er utelatt. Automatisk overført, ikke lest av et menneske."
+    }
+  ],
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Oliver Kahn",
+      "pos": "GK",
+      "captain": true
+    },
+    {
+      "name": "Thomas Linke",
+      "pos": "CB"
+    },
+    {
+      "name": "Carsten Ramelow",
+      "pos": "CB"
+    },
+    {
+      "name": "Christoph Metzelder",
+      "pos": "CB"
+    },
+    {
+      "name": "Torsten Frings",
+      "pos": "CM"
+    },
+    {
+      "name": "Dietmar Hamann",
+      "pos": "CM"
+    },
+    {
+      "name": "Bernd Schneider",
+      "pos": "RW",
+      "off": 89
+    },
+    {
+      "name": "Michael Ballack",
+      "pos": "AM"
+    },
+    {
+      "name": "Christian Ziege",
+      "pos": "LW"
+    },
+    {
+      "name": "Miroslav Klose",
+      "pos": "CF",
+      "off": 85
+    },
+    {
+      "name": "Carsten Jancker",
+      "pos": "CF",
+      "off": 75
+    }
+  ],
+  "subs": [
+    {
+      "name": "Oliver Bierhoff",
+      "pos": "FW",
+      "on": 75
+    },
+    {
+      "name": "Marco Bode",
+      "pos": "MF",
+      "on": 85
+    },
+    {
+      "name": "Jens Jeremies",
+      "pos": "MF",
+      "on": 89
+    }
+  ],
+  "goals": [
+    {
+      "team": "norway",
+      "name": "Miroslav Klose",
+      "minute": 19,
+      "kind": "goal"
+    },
+    {
+      "team": "opponent",
+      "scorer": "Robbie Keane",
+      "minute": 90,
+      "kind": "goal"
+    }
+  ],
+  "verify": {
+    "subject": "2002 FIFA World Cup Group E",
+    "mustMention": [
+      "Kahn",
+      "Linke",
+      "Ramelow",
+      "Metzelder",
+      "Frings",
+      "Hamann",
+      "Schneider",
+      "Ballack",
+      "Ziege",
+      "Klose",
+      "Jancker"
+    ]
+  }
+}

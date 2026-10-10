@@ -1,0 +1,141 @@
+{
+  "id": "2024-06-23-sui-ger",
+  "date": "2024-06-23",
+  "competition": "euro",
+  "stage": "Gruppe A",
+  "opponent": "Schweiz",
+  "opponentCode": "SUI",
+  "norwayHome": false,
+  "score": [
+    1,
+    1
+  ],
+  "venue": "Waldstadion",
+  "city": "Frankfurt",
+  "manager": "Julian Nagelsmann",
+  "formation": "4-3-3",
+  "importance": 3,
+  "tags": [
+    "import:wikipedia"
+  ],
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/UEFA_Euro_2024_Group_A",
+      "title": "UEFA Euro 2024 Group A – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-10",
+      "note": "Startellever, resultat, arena og målscorere er overført fra kampboksen og oppstillingstabellen i artikkelen. Generiske posisjoner (DF/MF/FW) er beholdt slik kilden oppgir dem; draktnumre er utelatt. Automatisk overført, ikke lest av et menneske."
+    }
+  ],
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Manuel Neuer",
+      "pos": "GK"
+    },
+    {
+      "name": "Joshua Kimmich",
+      "pos": "RB"
+    },
+    {
+      "name": "Antonio Rüdiger",
+      "pos": "CB"
+    },
+    {
+      "name": "Jonathan Tah",
+      "pos": "CB",
+      "off": 61
+    },
+    {
+      "name": "Maximilian Mittelstädt",
+      "pos": "LB",
+      "off": 61
+    },
+    {
+      "name": "Robert Andrich",
+      "pos": "CM",
+      "off": 65
+    },
+    {
+      "name": "Toni Kroos",
+      "pos": "CM"
+    },
+    {
+      "name": "Jamal Musiala",
+      "pos": "RW",
+      "off": 76
+    },
+    {
+      "name": "İlkay Gündoğan",
+      "pos": "AM",
+      "captain": true
+    },
+    {
+      "name": "Florian Wirtz",
+      "pos": "LW",
+      "off": 76
+    },
+    {
+      "name": "Kai Havertz",
+      "pos": "CF"
+    }
+  ],
+  "subs": [
+    {
+      "name": "Nico Schlotterbeck",
+      "pos": "DF",
+      "on": 61
+    },
+    {
+      "name": "David Raum",
+      "pos": "DF",
+      "on": 61
+    },
+    {
+      "name": "Maximilian Beier",
+      "pos": "FW",
+      "on": 65
+    },
+    {
+      "name": "Leroy Sané",
+      "pos": "MF",
+      "on": 76
+    },
+    {
+      "name": "Niclas Füllkrug",
+      "pos": "FW",
+      "on": 76
+    }
+  ],
+  "goals": [
+    {
+      "team": "norway",
+      "name": "Niclas Füllkrug",
+      "minute": 90,
+      "kind": "goal"
+    },
+    {
+      "team": "opponent",
+      "scorer": "Ndoye",
+      "minute": 28,
+      "kind": "goal"
+    }
+  ],
+  "verify": {
+    "subject": "UEFA Euro 2024 Group A",
+    "mustMention": [
+      "Neuer",
+      "Kimmich",
+      "Rüdiger",
+      "Tah",
+      "Mittelstädt",
+      "Andrich",
+      "Kroos",
+      "Musiala",
+      "Gündoğan",
+      "Wirtz",
+      "Havertz"
+    ]
+  }
+}

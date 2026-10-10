@@ -1,0 +1,135 @@
+{
+  "id": "2006-06-20-ecu-ger",
+  "date": "2006-06-20",
+  "competition": "world-cup",
+  "stage": "Gruppe A",
+  "opponent": "Ecuador",
+  "opponentCode": "ECU",
+  "norwayHome": false,
+  "score": [
+    3,
+    0
+  ],
+  "venue": "Olympiastadion",
+  "city": "Berlin",
+  "manager": "Jürgen Klinsmann",
+  "formation": "4-4-2",
+  "importance": 3,
+  "tags": [
+    "import:wikipedia"
+  ],
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2006_FIFA_World_Cup_Group_A",
+      "title": "2006 FIFA World Cup Group A – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-10",
+      "note": "Startellever, resultat, arena og målscorere er overført fra kampboksen og oppstillingstabellen i artikkelen. Generiske posisjoner (DF/MF/FW) er beholdt slik kilden oppgir dem; draktnumre er utelatt. Automatisk overført, ikke lest av et menneske."
+    }
+  ],
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Jens Lehmann",
+      "pos": "GK"
+    },
+    {
+      "name": "Arne Friedrich",
+      "pos": "RB"
+    },
+    {
+      "name": "Per Mertesacker",
+      "pos": "CB"
+    },
+    {
+      "name": "Robert Huth",
+      "pos": "CB"
+    },
+    {
+      "name": "Philipp Lahm",
+      "pos": "LB"
+    },
+    {
+      "name": "Bernd Schneider",
+      "pos": "RM",
+      "off": 73
+    },
+    {
+      "name": "Torsten Frings",
+      "pos": "CM",
+      "off": 66
+    },
+    {
+      "name": "Michael Ballack",
+      "pos": "CM",
+      "captain": true
+    },
+    {
+      "name": "Bastian Schweinsteiger",
+      "pos": "LM"
+    },
+    {
+      "name": "Miroslav Klose",
+      "pos": "CF",
+      "off": 66
+    },
+    {
+      "name": "Lukas Podolski",
+      "pos": "CF"
+    }
+  ],
+  "subs": [
+    {
+      "name": "Oliver Neuville",
+      "pos": "FW",
+      "on": 66
+    },
+    {
+      "name": "Tim Borowski",
+      "pos": "MF",
+      "on": 66
+    },
+    {
+      "name": "Gerald Asamoah",
+      "pos": "MF",
+      "on": 73
+    }
+  ],
+  "goals": [
+    {
+      "team": "norway",
+      "name": "Miroslav Klose",
+      "minute": 4,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "Miroslav Klose",
+      "minute": 44,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "Lukas Podolski",
+      "minute": 57,
+      "kind": "goal"
+    }
+  ],
+  "verify": {
+    "subject": "2006 FIFA World Cup Group A",
+    "mustMention": [
+      "Lehmann",
+      "Friedrich",
+      "Mertesacker",
+      "Huth",
+      "Lahm",
+      "Schneider",
+      "Frings",
+      "Ballack",
+      "Schweinsteiger",
+      "Klose",
+      "Podolski"
+    ]
+  }
+}
