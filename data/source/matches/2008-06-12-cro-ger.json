@@ -1,0 +1,135 @@
+{
+  "id": "2008-06-12-cro-ger",
+  "date": "2008-06-12",
+  "competition": "euro",
+  "stage": "Gruppe B",
+  "opponent": "Kroatien",
+  "opponentCode": "CRO",
+  "norwayHome": false,
+  "score": [
+    1,
+    2
+  ],
+  "venue": "Wörthersee Stadion",
+  "city": "Klagenfurt",
+  "manager": "Joachim Löw",
+  "formation": "4-4-2",
+  "importance": 3,
+  "tags": [
+    "import:wikipedia"
+  ],
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/UEFA_Euro_2008_Group_B",
+      "title": "UEFA Euro 2008 Group B – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-10",
+      "note": "Startellever, resultat, arena og målscorere er overført fra kampboksen og oppstillingstabellen i artikkelen. Generiske posisjoner (DF/MF/FW) er beholdt slik kilden oppgir dem; draktnumre er utelatt. Automatisk overført, ikke lest av et menneske."
+    }
+  ],
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Jens Lehmann",
+      "pos": "GK"
+    },
+    {
+      "name": "Philipp Lahm",
+      "pos": "RB"
+    },
+    {
+      "name": "Christoph Metzelder",
+      "pos": "CB"
+    },
+    {
+      "name": "Per Mertesacker",
+      "pos": "CB"
+    },
+    {
+      "name": "Marcell Jansen",
+      "pos": "LB",
+      "off": 46
+    },
+    {
+      "name": "Clemens Fritz",
+      "pos": "RM",
+      "off": 82
+    },
+    {
+      "name": "Torsten Frings",
+      "pos": "CM"
+    },
+    {
+      "name": "Michael Ballack",
+      "pos": "CM",
+      "captain": true
+    },
+    {
+      "name": "Lukas Podolski",
+      "pos": "LM"
+    },
+    {
+      "name": "Mario Gomez",
+      "pos": "CF",
+      "off": 66
+    },
+    {
+      "name": "Miroslav Klose",
+      "pos": "CF"
+    }
+  ],
+  "subs": [
+    {
+      "name": "David Odonkor",
+      "pos": "MF",
+      "on": 46
+    },
+    {
+      "name": "Bastian Schweinsteiger",
+      "pos": "MF",
+      "on": 66
+    },
+    {
+      "name": "Kevin Kurányi",
+      "pos": "FW",
+      "on": 82
+    }
+  ],
+  "goals": [
+    {
+      "team": "norway",
+      "name": "Lukas Podolski",
+      "minute": 79,
+      "kind": "goal"
+    },
+    {
+      "team": "opponent",
+      "scorer": "Srna",
+      "minute": 24,
+      "kind": "goal"
+    },
+    {
+      "team": "opponent",
+      "scorer": "Olić",
+      "minute": 62,
+      "kind": "goal"
+    }
+  ],
+  "verify": {
+    "subject": "UEFA Euro 2008 Group B",
+    "mustMention": [
+      "Lehmann",
+      "Lahm",
+      "Metzelder",
+      "Mertesacker",
+      "Jansen",
+      "Fritz",
+      "Frings",
+      "Ballack",
+      "Podolski",
+      "Gomez",
+      "Klose"
+    ]
+  }
+}

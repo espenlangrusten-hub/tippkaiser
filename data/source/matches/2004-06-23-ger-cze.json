@@ -1,0 +1,135 @@
+{
+  "id": "2004-06-23-ger-cze",
+  "date": "2004-06-23",
+  "competition": "euro",
+  "stage": "Gruppe D",
+  "opponent": "Tschechien",
+  "opponentCode": "CZE",
+  "norwayHome": true,
+  "score": [
+    1,
+    2
+  ],
+  "venue": "Estádio José Alvalade",
+  "city": "Lisbon",
+  "manager": "Rudi Völler",
+  "formation": "3-4-3",
+  "importance": 3,
+  "tags": [
+    "import:wikipedia"
+  ],
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/UEFA_Euro_2004_Group_D",
+      "title": "UEFA Euro 2004 Group D – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-10",
+      "note": "Startellever, resultat, arena og målscorere er overført fra kampboksen og oppstillingstabellen i artikkelen. Generiske posisjoner (DF/MF/FW) er beholdt slik kilden oppgir dem; draktnumre er utelatt. Automatisk overført, ikke lest av et menneske."
+    }
+  ],
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Oliver Kahn",
+      "pos": "GK",
+      "captain": true
+    },
+    {
+      "name": "Arne Friedrich",
+      "pos": "CB"
+    },
+    {
+      "name": "Jens Nowotny",
+      "pos": "CB"
+    },
+    {
+      "name": "Christian Wörns",
+      "pos": "CB"
+    },
+    {
+      "name": "Torsten Frings",
+      "pos": "RM",
+      "off": 46
+    },
+    {
+      "name": "Dietmar Hamann",
+      "pos": "CM",
+      "off": 79
+    },
+    {
+      "name": "Philipp Lahm",
+      "pos": "LM"
+    },
+    {
+      "name": "Bernd Schneider",
+      "pos": "RW"
+    },
+    {
+      "name": "Michael Ballack",
+      "pos": "AM"
+    },
+    {
+      "name": "Bastian Schweinsteiger",
+      "pos": "LW",
+      "off": 86
+    },
+    {
+      "name": "Kevin Kurányi",
+      "pos": "CF"
+    }
+  ],
+  "subs": [
+    {
+      "name": "Lukas Podolski",
+      "pos": "FW",
+      "on": 46
+    },
+    {
+      "name": "Miroslav Klose",
+      "pos": "FW",
+      "on": 79
+    },
+    {
+      "name": "Jens Jeremies",
+      "pos": "MF",
+      "on": 86
+    }
+  ],
+  "goals": [
+    {
+      "team": "norway",
+      "name": "Michael Ballack",
+      "minute": 21,
+      "kind": "goal"
+    },
+    {
+      "team": "opponent",
+      "scorer": "Heinz",
+      "minute": 30,
+      "kind": "goal"
+    },
+    {
+      "team": "opponent",
+      "scorer": "Baroš",
+      "minute": 77,
+      "kind": "goal"
+    }
+  ],
+  "verify": {
+    "subject": "UEFA Euro 2004 Group D",
+    "mustMention": [
+      "Kahn",
+      "Friedrich",
+      "Nowotny",
+      "Wörns",
+      "Frings",
+      "Hamann",
+      "Lahm",
+      "Schneider",
+      "Ballack",
+      "Schweinsteiger",
+      "Kurányi"
+    ]
+  }
+}

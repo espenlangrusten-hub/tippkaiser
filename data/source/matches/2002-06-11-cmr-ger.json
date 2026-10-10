@@ -1,0 +1,129 @@
+{
+  "id": "2002-06-11-cmr-ger",
+  "date": "2002-06-11",
+  "competition": "world-cup",
+  "stage": "Gruppe E",
+  "opponent": "Kamerun",
+  "opponentCode": "CMR",
+  "norwayHome": false,
+  "score": [
+    2,
+    0
+  ],
+  "venue": "Ecopa Stadium",
+  "city": "Shizuoka",
+  "manager": "Rudi Völler",
+  "formation": "3-3-4",
+  "importance": 3,
+  "tags": [
+    "import:wikipedia"
+  ],
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2002_FIFA_World_Cup_Group_E",
+      "title": "2002 FIFA World Cup Group E – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-10",
+      "note": "Startellever, resultat, arena og målscorere er overført fra kampboksen og oppstillingstabellen i artikkelen. Generiske posisjoner (DF/MF/FW) er beholdt slik kilden oppgir dem; draktnumre er utelatt. Automatisk overført, ikke lest av et menneske."
+    }
+  ],
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Oliver Kahn",
+      "pos": "GK",
+      "captain": true
+    },
+    {
+      "name": "Thomas Linke",
+      "pos": "CB"
+    },
+    {
+      "name": "Carsten Ramelow",
+      "pos": "CB"
+    },
+    {
+      "name": "Christoph Metzelder",
+      "pos": "CB"
+    },
+    {
+      "name": "Torsten Frings",
+      "pos": "CM"
+    },
+    {
+      "name": "Dietmar Hamann",
+      "pos": "CM"
+    },
+    {
+      "name": "Bernd Schneider",
+      "pos": "RW",
+      "off": 80
+    },
+    {
+      "name": "Michael Ballack",
+      "pos": "AM"
+    },
+    {
+      "name": "Christian Ziege",
+      "pos": "LW"
+    },
+    {
+      "name": "Miroslav Klose",
+      "pos": "CF",
+      "off": 84
+    },
+    {
+      "name": "Carsten Jancker",
+      "pos": "CF",
+      "off": 46
+    }
+  ],
+  "subs": [
+    {
+      "name": "Marco Bode",
+      "pos": "MF",
+      "on": 46
+    },
+    {
+      "name": "Jens Jeremies",
+      "pos": "MF",
+      "on": 80
+    },
+    {
+      "name": "Oliver Neuville",
+      "pos": "FW",
+      "on": 84
+    }
+  ],
+  "goals": [
+    {
+      "team": "norway",
+      "name": "Marco Bode",
+      "minute": 50,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "Miroslav Klose",
+      "minute": 79,
+      "kind": "goal"
+    }
+  ],
+  "verify": {
+    "subject": "2002 FIFA World Cup Group E",
+    "mustMention": [
+      "Kahn",
+      "Linke",
+      "Ramelow",
+      "Metzelder",
+      "Frings",
+      "Hamann",
+      "Schneider",
+      "Ballack",
+      "Ziege",
+      "Klose",
+      "Jancker"
+    ]
+  }
+}

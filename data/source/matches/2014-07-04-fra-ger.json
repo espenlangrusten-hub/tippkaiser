@@ -1,0 +1,123 @@
+{
+  "id": "2014-07-04-fra-ger",
+  "date": "2014-07-04",
+  "competition": "world-cup",
+  "stage": "Viertelfinale",
+  "opponent": "Frankreich",
+  "opponentCode": "FRA",
+  "norwayHome": false,
+  "score": [
+    1,
+    0
+  ],
+  "venue": "Estádio do Maracanã",
+  "city": "Rio de Janeiro",
+  "manager": "Joachim Löw",
+  "formation": "4-3-3",
+  "importance": 4,
+  "tags": [
+    "import:wikipedia"
+  ],
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2014_FIFA_World_Cup_knockout_stage",
+      "title": "2014 FIFA World Cup knockout stage – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-10",
+      "note": "Startellever, resultat, arena og målscorere er overført fra kampboksen og oppstillingstabellen i artikkelen. Generiske posisjoner (DF/MF/FW) er beholdt slik kilden oppgir dem; draktnumre er utelatt. Automatisk overført, ikke lest av et menneske."
+    }
+  ],
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Manuel Neuer",
+      "pos": "GK"
+    },
+    {
+      "name": "Philipp Lahm",
+      "pos": "RB",
+      "captain": true
+    },
+    {
+      "name": "Jérôme Boateng",
+      "pos": "CB"
+    },
+    {
+      "name": "Mats Hummels",
+      "pos": "CB"
+    },
+    {
+      "name": "Benedikt Höwedes",
+      "pos": "LB"
+    },
+    {
+      "name": "Bastian Schweinsteiger",
+      "pos": "CM"
+    },
+    {
+      "name": "Sami Khedira",
+      "pos": "CM"
+    },
+    {
+      "name": "Thomas Müller",
+      "pos": "RW"
+    },
+    {
+      "name": "Toni Kroos",
+      "pos": "AM",
+      "off": 90
+    },
+    {
+      "name": "Mesut Özil",
+      "pos": "LW",
+      "off": 83
+    },
+    {
+      "name": "Miroslav Klose",
+      "pos": "CF",
+      "off": 68
+    }
+  ],
+  "subs": [
+    {
+      "name": "André Schürrle",
+      "pos": "FW",
+      "on": 68
+    },
+    {
+      "name": "Mario Götze",
+      "pos": "MF",
+      "on": 83
+    },
+    {
+      "name": "Christoph Kramer",
+      "pos": "MF",
+      "on": 90
+    }
+  ],
+  "goals": [
+    {
+      "team": "norway",
+      "name": "Mats Hummels",
+      "minute": 13,
+      "kind": "goal"
+    }
+  ],
+  "verify": {
+    "subject": "2014 FIFA World Cup knockout stage",
+    "mustMention": [
+      "Neuer",
+      "Lahm",
+      "Boateng",
+      "Hummels",
+      "Höwedes",
+      "Schweinsteiger",
+      "Khedira",
+      "Müller",
+      "Kroos",
+      "Özil",
+      "Klose"
+    ]
+  }
+}

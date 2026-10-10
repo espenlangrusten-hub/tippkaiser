@@ -1,0 +1,135 @@
+{
+  "id": "2012-06-13-ned-ger",
+  "date": "2012-06-13",
+  "competition": "euro",
+  "stage": "Gruppe B",
+  "opponent": "Niederlande",
+  "opponentCode": "NED",
+  "norwayHome": false,
+  "score": [
+    2,
+    1
+  ],
+  "venue": "Metalist Stadium",
+  "city": "Kharkiv",
+  "manager": "Joachim Löw",
+  "formation": "4-3-3",
+  "importance": 3,
+  "tags": [
+    "import:wikipedia"
+  ],
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/UEFA_Euro_2012_Group_B",
+      "title": "UEFA Euro 2012 Group B – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-10",
+      "note": "Startellever, resultat, arena og målscorere er overført fra kampboksen og oppstillingstabellen i artikkelen. Generiske posisjoner (DF/MF/FW) er beholdt slik kilden oppgir dem; draktnumre er utelatt. Automatisk overført, ikke lest av et menneske."
+    }
+  ],
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Manuel Neuer",
+      "pos": "GK"
+    },
+    {
+      "name": "Jérôme Boateng",
+      "pos": "RB"
+    },
+    {
+      "name": "Mats Hummels",
+      "pos": "CB"
+    },
+    {
+      "name": "Holger Badstuber",
+      "pos": "CB"
+    },
+    {
+      "name": "Philipp Lahm",
+      "pos": "LB",
+      "captain": true
+    },
+    {
+      "name": "Sami Khedira",
+      "pos": "CM"
+    },
+    {
+      "name": "Bastian Schweinsteiger",
+      "pos": "CM"
+    },
+    {
+      "name": "Thomas Müller",
+      "pos": "RW",
+      "off": 90
+    },
+    {
+      "name": "Mesut Özil",
+      "pos": "AM",
+      "off": 81
+    },
+    {
+      "name": "Lukas Podolski",
+      "pos": "LW"
+    },
+    {
+      "name": "Mario Gomez",
+      "pos": "CF",
+      "off": 72
+    }
+  ],
+  "subs": [
+    {
+      "name": "Miroslav Klose",
+      "pos": "FW",
+      "on": 72
+    },
+    {
+      "name": "Toni Kroos",
+      "pos": "MF",
+      "on": 81
+    },
+    {
+      "name": "Lars Bender",
+      "pos": "MF",
+      "on": 90
+    }
+  ],
+  "goals": [
+    {
+      "team": "norway",
+      "name": "Mario Gomez",
+      "minute": 24,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "Mario Gomez",
+      "minute": 38,
+      "kind": "goal"
+    },
+    {
+      "team": "opponent",
+      "scorer": "Van Persie",
+      "minute": 73,
+      "kind": "goal"
+    }
+  ],
+  "verify": {
+    "subject": "UEFA Euro 2012 Group B",
+    "mustMention": [
+      "Neuer",
+      "Boateng",
+      "Hummels",
+      "Badstuber",
+      "Lahm",
+      "Khedira",
+      "Schweinsteiger",
+      "Müller",
+      "Özil",
+      "Podolski",
+      "Gomez"
+    ]
+  }
+}

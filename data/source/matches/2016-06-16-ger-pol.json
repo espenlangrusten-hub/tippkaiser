@@ -1,0 +1,110 @@
+{
+  "id": "2016-06-16-ger-pol",
+  "date": "2016-06-16",
+  "competition": "euro",
+  "stage": "Gruppe C",
+  "opponent": "Polen",
+  "opponentCode": "POL",
+  "norwayHome": true,
+  "score": [
+    0,
+    0
+  ],
+  "venue": "Stade de France",
+  "city": "Saint-Denis",
+  "manager": "Joachim Löw",
+  "formation": "4-3-3",
+  "importance": 3,
+  "tags": [
+    "import:wikipedia"
+  ],
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/UEFA_Euro_2016_Group_C",
+      "title": "UEFA Euro 2016 Group C – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-10",
+      "note": "Startellever, resultat, arena og målscorere er overført fra kampboksen og oppstillingstabellen i artikkelen. Generiske posisjoner (DF/MF/FW) er beholdt slik kilden oppgir dem; draktnumre er utelatt. Automatisk overført, ikke lest av et menneske."
+    }
+  ],
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Manuel Neuer",
+      "pos": "GK",
+      "captain": true
+    },
+    {
+      "name": "Benedikt Höwedes",
+      "pos": "RB"
+    },
+    {
+      "name": "Jérôme Boateng",
+      "pos": "CB"
+    },
+    {
+      "name": "Mats Hummels",
+      "pos": "CB"
+    },
+    {
+      "name": "Jonas Hector",
+      "pos": "LB"
+    },
+    {
+      "name": "Toni Kroos",
+      "pos": "CM"
+    },
+    {
+      "name": "Sami Khedira",
+      "pos": "CM"
+    },
+    {
+      "name": "Thomas Müller",
+      "pos": "RW"
+    },
+    {
+      "name": "Mesut Özil",
+      "pos": "AM"
+    },
+    {
+      "name": "Julian Draxler",
+      "pos": "LW",
+      "off": 71
+    },
+    {
+      "name": "Mario Götze",
+      "pos": "CF",
+      "off": 66
+    }
+  ],
+  "subs": [
+    {
+      "name": "André Schürrle",
+      "pos": "MF",
+      "on": 66
+    },
+    {
+      "name": "Mario Gomez",
+      "pos": "FW",
+      "on": 71
+    }
+  ],
+  "goals": [],
+  "verify": {
+    "subject": "UEFA Euro 2016 Group C",
+    "mustMention": [
+      "Neuer",
+      "Höwedes",
+      "Boateng",
+      "Hummels",
+      "Hector",
+      "Kroos",
+      "Khedira",
+      "Müller",
+      "Özil",
+      "Draxler",
+      "Götze"
+    ]
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "id": "2010-07-10-uru-ger",
+  "date": "2010-07-10",
+  "competition": "world-cup",
+  "stage": "Spiel um Platz 3",
+  "opponent": "Uruguay",
+  "opponentCode": "URU",
+  "norwayHome": false,
+  "score": [
+    3,
+    2
+  ],
+  "venue": "Nelson Mandela Bay Stadium",
+  "city": "Port Elizabeth",
+  "manager": "Joachim Löw",
+  "formation": "4-3-3",
+  "importance": 4,
+  "tags": [
+    "import:wikipedia"
+  ],
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2010_FIFA_World_Cup_knockout_stage",
+      "title": "2010 FIFA World Cup knockout stage – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-10",
+      "note": "Startellever, resultat, arena og målscorere er overført fra kampboksen og oppstillingstabellen i artikkelen. Generiske posisjoner (DF/MF/FW) er beholdt slik kilden oppgir dem; draktnumre er utelatt. Automatisk overført, ikke lest av et menneske."
+    }
+  ],
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Hans-Jörg Butt",
+      "pos": "GK"
+    },
+    {
+      "name": "Jérôme Boateng",
+      "pos": "RB"
+    },
+    {
+      "name": "Arne Friedrich",
+      "pos": "CB"
+    },
+    {
+      "name": "Per Mertesacker",
+      "pos": "CB"
+    },
+    {
+      "name": "Dennis Aogo",
+      "pos": "LB"
+    },
+    {
+      "name": "Sami Khedira",
+      "pos": "DM"
+    },
+    {
+      "name": "Bastian Schweinsteiger",
+      "pos": "DM",
+      "captain": true
+    },
+    {
+      "name": "Thomas Müller",
+      "pos": "RW"
+    },
+    {
+      "name": "Mesut Özil",
+      "pos": "AM",
+      "off": 90
+    },
+    {
+      "name": "Marcell Jansen",
+      "pos": "LW",
+      "off": 81
+    },
+    {
+      "name": "Cacau",
+      "pos": "CF",
+      "off": 73
+    }
+  ],
+  "subs": [
+    {
+      "name": "Stefan Kießling",
+      "pos": "FW",
+      "on": 73
+    },
+    {
+      "name": "Toni Kroos",
+      "pos": "MF",
+      "on": 81
+    },
+    {
+      "name": "Serdar Tasci",
+      "pos": "DF",
+      "on": 90
+    }
+  ],
+  "goals": [
+    {
+      "team": "norway",
+      "name": "Thomas Müller",
+      "minute": 19,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "Marcell Jansen",
+      "minute": 56,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "Sami Khedira",
+      "minute": 82,
+      "kind": "goal"
+    },
+    {
+      "team": "opponent",
+      "scorer": "Cavani",
+      "minute": 28,
+      "kind": "goal"
+    },
+    {
+      "team": "opponent",
+      "scorer": "Forlán",
+      "minute": 51,
+      "kind": "goal"
+    }
+  ],
+  "verify": {
+    "subject": "2010 FIFA World Cup knockout stage",
+    "mustMention": [
+      "Butt",
+      "Boateng",
+      "Friedrich",
+      "Mertesacker",
+      "Aogo",
+      "Khedira",
+      "Schweinsteiger",
+      "Müller",
+      "Özil",
+      "Jansen",
+      "Cacau"
+    ]
+  }
+}

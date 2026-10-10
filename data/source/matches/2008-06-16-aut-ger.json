@@ -1,0 +1,123 @@
+{
+  "id": "2008-06-16-aut-ger",
+  "date": "2008-06-16",
+  "competition": "euro",
+  "stage": "Gruppe B",
+  "opponent": "Österreich",
+  "opponentCode": "AUT",
+  "norwayHome": false,
+  "score": [
+    1,
+    0
+  ],
+  "venue": "Ernst-Happel-Stadion",
+  "city": "Vienna",
+  "manager": "Joachim Löw",
+  "formation": "4-4-2",
+  "importance": 3,
+  "tags": [
+    "import:wikipedia"
+  ],
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/UEFA_Euro_2008_Group_B",
+      "title": "UEFA Euro 2008 Group B – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-10",
+      "note": "Startellever, resultat, arena og målscorere er overført fra kampboksen og oppstillingstabellen i artikkelen. Generiske posisjoner (DF/MF/FW) er beholdt slik kilden oppgir dem; draktnumre er utelatt. Automatisk overført, ikke lest av et menneske."
+    }
+  ],
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Jens Lehmann",
+      "pos": "GK"
+    },
+    {
+      "name": "Arne Friedrich",
+      "pos": "RB"
+    },
+    {
+      "name": "Per Mertesacker",
+      "pos": "CB"
+    },
+    {
+      "name": "Christoph Metzelder",
+      "pos": "CB"
+    },
+    {
+      "name": "Philipp Lahm",
+      "pos": "LB"
+    },
+    {
+      "name": "Clemens Fritz",
+      "pos": "RM",
+      "off": 90
+    },
+    {
+      "name": "Torsten Frings",
+      "pos": "CM"
+    },
+    {
+      "name": "Michael Ballack",
+      "pos": "CM",
+      "captain": true
+    },
+    {
+      "name": "Lukas Podolski",
+      "pos": "LM",
+      "off": 83
+    },
+    {
+      "name": "Mario Gomez",
+      "pos": "CF",
+      "off": 60
+    },
+    {
+      "name": "Miroslav Klose",
+      "pos": "CF"
+    }
+  ],
+  "subs": [
+    {
+      "name": "Thomas Hitzlsperger",
+      "pos": "MF",
+      "on": 60
+    },
+    {
+      "name": "Oliver Neuville",
+      "pos": "FW",
+      "on": 83
+    },
+    {
+      "name": "Tim Borowski",
+      "pos": "MF",
+      "on": 90
+    }
+  ],
+  "goals": [
+    {
+      "team": "norway",
+      "name": "Michael Ballack",
+      "minute": 49,
+      "kind": "goal"
+    }
+  ],
+  "verify": {
+    "subject": "UEFA Euro 2008 Group B",
+    "mustMention": [
+      "Lehmann",
+      "Friedrich",
+      "Mertesacker",
+      "Metzelder",
+      "Lahm",
+      "Fritz",
+      "Frings",
+      "Ballack",
+      "Podolski",
+      "Gomez",
+      "Klose"
+    ]
+  }
+}

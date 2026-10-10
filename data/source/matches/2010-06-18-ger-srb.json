@@ -1,0 +1,123 @@
+{
+  "id": "2010-06-18-ger-srb",
+  "date": "2010-06-18",
+  "competition": "world-cup",
+  "stage": "Gruppe D",
+  "opponent": "Serbien",
+  "opponentCode": "SRB",
+  "norwayHome": true,
+  "score": [
+    0,
+    1
+  ],
+  "venue": "Nelson Mandela Bay Stadium",
+  "city": "Port Elizabeth",
+  "manager": "Joachim Löw",
+  "formation": "4-3-3",
+  "importance": 3,
+  "tags": [
+    "import:wikipedia"
+  ],
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2010_FIFA_World_Cup_Group_D",
+      "title": "2010 FIFA World Cup Group D – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-10",
+      "note": "Startellever, resultat, arena og målscorere er overført fra kampboksen og oppstillingstabellen i artikkelen. Generiske posisjoner (DF/MF/FW) er beholdt slik kilden oppgir dem; draktnumre er utelatt. Automatisk overført, ikke lest av et menneske."
+    }
+  ],
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Manuel Neuer",
+      "pos": "GK"
+    },
+    {
+      "name": "Philipp Lahm",
+      "pos": "RB",
+      "captain": true
+    },
+    {
+      "name": "Arne Friedrich",
+      "pos": "CB"
+    },
+    {
+      "name": "Per Mertesacker",
+      "pos": "CB"
+    },
+    {
+      "name": "Holger Badstuber",
+      "pos": "LB",
+      "off": 77
+    },
+    {
+      "name": "Sami Khedira",
+      "pos": "CM"
+    },
+    {
+      "name": "Bastian Schweinsteiger",
+      "pos": "CM"
+    },
+    {
+      "name": "Thomas Müller",
+      "pos": "RW",
+      "off": 70
+    },
+    {
+      "name": "Mesut Özil",
+      "pos": "AM",
+      "off": 70
+    },
+    {
+      "name": "Lukas Podolski",
+      "pos": "LW"
+    },
+    {
+      "name": "Miroslav Klose",
+      "pos": "CF"
+    }
+  ],
+  "subs": [
+    {
+      "name": "Cacau",
+      "pos": "FW",
+      "on": 70
+    },
+    {
+      "name": "Marko Marin",
+      "pos": "MF",
+      "on": 70
+    },
+    {
+      "name": "Mario Gomez",
+      "pos": "FW",
+      "on": 77
+    }
+  ],
+  "goals": [
+    {
+      "team": "opponent",
+      "scorer": "Jovanović",
+      "minute": 38,
+      "kind": "goal"
+    }
+  ],
+  "verify": {
+    "subject": "2010 FIFA World Cup Group D",
+    "mustMention": [
+      "Neuer",
+      "Lahm",
+      "Friedrich",
+      "Mertesacker",
+      "Badstuber",
+      "Khedira",
+      "Schweinsteiger",
+      "Müller",
+      "Özil",
+      "Podolski",
+      "Klose"
+    ]
+  }
+}

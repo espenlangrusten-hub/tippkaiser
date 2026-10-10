@@ -1,0 +1,129 @@
+{
+  "id": "2021-06-15-fra-ger",
+  "date": "2021-06-15",
+  "competition": "euro",
+  "stage": "Gruppe F",
+  "opponent": "Frankreich",
+  "opponentCode": "FRA",
+  "norwayHome": false,
+  "score": [
+    0,
+    1
+  ],
+  "venue": "Allianz Arena",
+  "city": "Munich",
+  "manager": "Joachim Löw",
+  "formation": "3-6-1",
+  "importance": 3,
+  "tags": [
+    "import:wikipedia"
+  ],
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/UEFA_Euro_2020_Group_F",
+      "title": "UEFA Euro 2020 Group F – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-10",
+      "note": "Startellever, resultat, arena og målscorere er overført fra kampboksen og oppstillingstabellen i artikkelen. Generiske posisjoner (DF/MF/FW) er beholdt slik kilden oppgir dem; draktnumre er utelatt. Automatisk overført, ikke lest av et menneske."
+    }
+  ],
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Manuel Neuer",
+      "pos": "GK",
+      "captain": true
+    },
+    {
+      "name": "Matthias Ginter",
+      "pos": "CB",
+      "off": 88
+    },
+    {
+      "name": "Mats Hummels",
+      "pos": "CB"
+    },
+    {
+      "name": "Antonio Rüdiger",
+      "pos": "CB"
+    },
+    {
+      "name": "Joshua Kimmich",
+      "pos": "RM"
+    },
+    {
+      "name": "İlkay Gündoğan",
+      "pos": "CM"
+    },
+    {
+      "name": "Toni Kroos",
+      "pos": "CM"
+    },
+    {
+      "name": "Robin Gosens",
+      "pos": "LM",
+      "off": 88
+    },
+    {
+      "name": "Kai Havertz",
+      "pos": "AM",
+      "off": 74
+    },
+    {
+      "name": "Thomas Müller",
+      "pos": "AM"
+    },
+    {
+      "name": "Serge Gnabry",
+      "pos": "CF",
+      "off": 74
+    }
+  ],
+  "subs": [
+    {
+      "name": "Timo Werner",
+      "pos": "FW",
+      "on": 74
+    },
+    {
+      "name": "Leroy Sané",
+      "pos": "MF",
+      "on": 74
+    },
+    {
+      "name": "Kevin Volland",
+      "pos": "FW",
+      "on": 88
+    },
+    {
+      "name": "Emre Can",
+      "pos": "DF",
+      "on": 88
+    }
+  ],
+  "goals": [
+    {
+      "team": "opponent",
+      "scorer": "Mats Hummels (Eigentor)",
+      "minute": 20,
+      "kind": "og"
+    }
+  ],
+  "verify": {
+    "subject": "UEFA Euro 2020 Group F",
+    "mustMention": [
+      "Neuer",
+      "Ginter",
+      "Hummels",
+      "Rüdiger",
+      "Kimmich",
+      "Gündoğan",
+      "Kroos",
+      "Gosens",
+      "Havertz",
+      "Müller",
+      "Gnabry"
+    ]
+  }
+}

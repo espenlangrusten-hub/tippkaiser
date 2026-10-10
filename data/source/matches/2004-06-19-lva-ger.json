@@ -1,0 +1,116 @@
+{
+  "id": "2004-06-19-lva-ger",
+  "date": "2004-06-19",
+  "competition": "euro",
+  "stage": "Gruppe D",
+  "opponent": "Lettland",
+  "opponentCode": "LVA",
+  "norwayHome": false,
+  "score": [
+    0,
+    0
+  ],
+  "venue": "Estádio do Bessa",
+  "city": "Porto",
+  "manager": "Rudi Völler",
+  "formation": "4-4-2",
+  "importance": 3,
+  "tags": [
+    "import:wikipedia"
+  ],
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/UEFA_Euro_2004_Group_D",
+      "title": "UEFA Euro 2004 Group D – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-10",
+      "note": "Startellever, resultat, arena og målscorere er overført fra kampboksen og oppstillingstabellen i artikkelen. Generiske posisjoner (DF/MF/FW) er beholdt slik kilden oppgir dem; draktnumre er utelatt. Automatisk overført, ikke lest av et menneske."
+    }
+  ],
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Oliver Kahn",
+      "pos": "GK",
+      "captain": true
+    },
+    {
+      "name": "Arne Friedrich",
+      "pos": "RB"
+    },
+    {
+      "name": "Christian Wörns",
+      "pos": "CB"
+    },
+    {
+      "name": "Frank Baumann",
+      "pos": "CB"
+    },
+    {
+      "name": "Philipp Lahm",
+      "pos": "LB"
+    },
+    {
+      "name": "Bernd Schneider",
+      "pos": "RM",
+      "off": 46
+    },
+    {
+      "name": "Dietmar Hamann",
+      "pos": "CM"
+    },
+    {
+      "name": "Michael Ballack",
+      "pos": "CM"
+    },
+    {
+      "name": "Torsten Frings",
+      "pos": "LM"
+    },
+    {
+      "name": "Fredi Bobic",
+      "pos": "CF",
+      "off": 67
+    },
+    {
+      "name": "Kevin Kurányi",
+      "pos": "CF",
+      "off": 78
+    }
+  ],
+  "subs": [
+    {
+      "name": "Bastian Schweinsteiger",
+      "pos": "MF",
+      "on": 46
+    },
+    {
+      "name": "Miroslav Klose",
+      "pos": "FW",
+      "on": 67
+    },
+    {
+      "name": "Thomas Brdaric",
+      "pos": "FW",
+      "on": 78
+    }
+  ],
+  "goals": [],
+  "verify": {
+    "subject": "UEFA Euro 2004 Group D",
+    "mustMention": [
+      "Kahn",
+      "Friedrich",
+      "Wörns",
+      "Baumann",
+      "Lahm",
+      "Schneider",
+      "Hamann",
+      "Ballack",
+      "Frings",
+      "Bobic",
+      "Kurányi"
+    ]
+  }
+}

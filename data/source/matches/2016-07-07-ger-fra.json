@@ -1,0 +1,129 @@
+{
+  "id": "2016-07-07-ger-fra",
+  "date": "2016-07-07",
+  "competition": "euro",
+  "stage": "Halbfinale",
+  "opponent": "Frankreich",
+  "opponentCode": "FRA",
+  "norwayHome": true,
+  "score": [
+    0,
+    2
+  ],
+  "venue": "Stade Vélodrome",
+  "city": "Marseille",
+  "manager": "Joachim Löw",
+  "formation": "4-3-3",
+  "importance": 4,
+  "tags": [
+    "import:wikipedia"
+  ],
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/UEFA_Euro_2016_knockout_stage",
+      "title": "UEFA Euro 2016 knockout stage – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-10",
+      "note": "Startellever, resultat, arena og målscorere er overført fra kampboksen og oppstillingstabellen i artikkelen. Generiske posisjoner (DF/MF/FW) er beholdt slik kilden oppgir dem; draktnumre er utelatt. Automatisk overført, ikke lest av et menneske."
+    }
+  ],
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Manuel Neuer",
+      "pos": "GK"
+    },
+    {
+      "name": "Joshua Kimmich",
+      "pos": "RB"
+    },
+    {
+      "name": "Jérôme Boateng",
+      "pos": "CB",
+      "off": 61
+    },
+    {
+      "name": "Benedikt Höwedes",
+      "pos": "CB"
+    },
+    {
+      "name": "Jonas Hector",
+      "pos": "LB"
+    },
+    {
+      "name": "Emre Can",
+      "pos": "CM",
+      "off": 67
+    },
+    {
+      "name": "Bastian Schweinsteiger",
+      "pos": "CM",
+      "captain": true,
+      "off": 79
+    },
+    {
+      "name": "Mesut Özil",
+      "pos": "RW"
+    },
+    {
+      "name": "Toni Kroos",
+      "pos": "AM"
+    },
+    {
+      "name": "Julian Draxler",
+      "pos": "LW"
+    },
+    {
+      "name": "Thomas Müller",
+      "pos": "CF"
+    }
+  ],
+  "subs": [
+    {
+      "name": "Shkodran Mustafi",
+      "pos": "DF",
+      "on": 61
+    },
+    {
+      "name": "Mario Götze",
+      "pos": "MF",
+      "on": 67
+    },
+    {
+      "name": "Leroy Sané",
+      "pos": "MF",
+      "on": 79
+    }
+  ],
+  "goals": [
+    {
+      "team": "opponent",
+      "scorer": "Griezmann",
+      "minute": 45,
+      "kind": "pen"
+    },
+    {
+      "team": "opponent",
+      "scorer": "Griezmann",
+      "minute": 72,
+      "kind": "goal"
+    }
+  ],
+  "verify": {
+    "subject": "UEFA Euro 2016 knockout stage",
+    "mustMention": [
+      "Neuer",
+      "Kimmich",
+      "Boateng",
+      "Höwedes",
+      "Hector",
+      "Can",
+      "Schweinsteiger",
+      "Özil",
+      "Kroos",
+      "Draxler",
+      "Müller"
+    ]
+  }
+}

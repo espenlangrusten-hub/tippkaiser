@@ -1,0 +1,123 @@
+{
+  "id": "2016-06-21-nir-ger",
+  "date": "2016-06-21",
+  "competition": "euro",
+  "stage": "Gruppe C",
+  "opponent": "Nordirland",
+  "opponentCode": "NIR",
+  "norwayHome": false,
+  "score": [
+    1,
+    0
+  ],
+  "venue": "Parc des Princes",
+  "city": "Paris",
+  "manager": "Joachim Löw",
+  "formation": "4-3-3",
+  "importance": 3,
+  "tags": [
+    "import:wikipedia"
+  ],
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/UEFA_Euro_2016_Group_C",
+      "title": "UEFA Euro 2016 Group C – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-10",
+      "note": "Startellever, resultat, arena og målscorere er overført fra kampboksen og oppstillingstabellen i artikkelen. Generiske posisjoner (DF/MF/FW) er beholdt slik kilden oppgir dem; draktnumre er utelatt. Automatisk overført, ikke lest av et menneske."
+    }
+  ],
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Manuel Neuer",
+      "pos": "GK",
+      "captain": true
+    },
+    {
+      "name": "Joshua Kimmich",
+      "pos": "RB"
+    },
+    {
+      "name": "Jérôme Boateng",
+      "pos": "CB",
+      "off": 76
+    },
+    {
+      "name": "Mats Hummels",
+      "pos": "CB"
+    },
+    {
+      "name": "Jonas Hector",
+      "pos": "LB"
+    },
+    {
+      "name": "Sami Khedira",
+      "pos": "CM",
+      "off": 69
+    },
+    {
+      "name": "Toni Kroos",
+      "pos": "CM"
+    },
+    {
+      "name": "Mesut Özil",
+      "pos": "RW"
+    },
+    {
+      "name": "Thomas Müller",
+      "pos": "AM"
+    },
+    {
+      "name": "Mario Götze",
+      "pos": "LW",
+      "off": 55
+    },
+    {
+      "name": "Mario Gomez",
+      "pos": "CF"
+    }
+  ],
+  "subs": [
+    {
+      "name": "André Schürrle",
+      "pos": "MF",
+      "on": 55
+    },
+    {
+      "name": "Bastian Schweinsteiger",
+      "pos": "MF",
+      "on": 69
+    },
+    {
+      "name": "Benedikt Höwedes",
+      "pos": "DF",
+      "on": 76
+    }
+  ],
+  "goals": [
+    {
+      "team": "norway",
+      "name": "Mario Gomez",
+      "minute": 30,
+      "kind": "goal"
+    }
+  ],
+  "verify": {
+    "subject": "UEFA Euro 2016 Group C",
+    "mustMention": [
+      "Neuer",
+      "Kimmich",
+      "Boateng",
+      "Hummels",
+      "Hector",
+      "Khedira",
+      "Kroos",
+      "Özil",
+      "Müller",
+      "Götze",
+      "Gomez"
+    ]
+  }
+}

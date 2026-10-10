@@ -1,0 +1,123 @@
+{
+  "id": "2002-06-25-ger-kor",
+  "date": "2002-06-25",
+  "competition": "world-cup",
+  "stage": "Halbfinale",
+  "opponent": "Südkorea",
+  "opponentCode": "KOR",
+  "norwayHome": true,
+  "score": [
+    1,
+    0
+  ],
+  "venue": "Seoul World Cup Stadium",
+  "city": "Seoul",
+  "manager": "Rudi Völler",
+  "formation": "5-3-2",
+  "importance": 4,
+  "tags": [
+    "import:wikipedia"
+  ],
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2002_FIFA_World_Cup_knockout_stage",
+      "title": "2002 FIFA World Cup knockout stage – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-10",
+      "note": "Startellever, resultat, arena og målscorere er overført fra kampboksen og oppstillingstabellen i artikkelen. Generiske posisjoner (DF/MF/FW) er beholdt slik kilden oppgir dem; draktnumre er utelatt. Automatisk overført, ikke lest av et menneske."
+    }
+  ],
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Oliver Kahn",
+      "pos": "GK",
+      "captain": true
+    },
+    {
+      "name": "Thomas Linke",
+      "pos": "CB"
+    },
+    {
+      "name": "Carsten Ramelow",
+      "pos": "CB"
+    },
+    {
+      "name": "Christoph Metzelder",
+      "pos": "CB"
+    },
+    {
+      "name": "Torsten Frings",
+      "pos": "RWB"
+    },
+    {
+      "name": "Marco Bode",
+      "pos": "LWB"
+    },
+    {
+      "name": "Bernd Schneider",
+      "pos": "CM",
+      "off": 85
+    },
+    {
+      "name": "Dietmar Hamann",
+      "pos": "CM"
+    },
+    {
+      "name": "Michael Ballack",
+      "pos": "AM"
+    },
+    {
+      "name": "Miroslav Klose",
+      "pos": "CF",
+      "off": 70
+    },
+    {
+      "name": "Oliver Neuville",
+      "pos": "CF",
+      "off": 88
+    }
+  ],
+  "subs": [
+    {
+      "name": "Oliver Bierhoff",
+      "pos": "FW",
+      "on": 70
+    },
+    {
+      "name": "Jens Jeremies",
+      "pos": "MF",
+      "on": 85
+    },
+    {
+      "name": "Gerald Asamoah",
+      "pos": "FW",
+      "on": 88
+    }
+  ],
+  "goals": [
+    {
+      "team": "norway",
+      "name": "Michael Ballack",
+      "minute": 75,
+      "kind": "goal"
+    }
+  ],
+  "verify": {
+    "subject": "2002 FIFA World Cup knockout stage",
+    "mustMention": [
+      "Kahn",
+      "Linke",
+      "Ramelow",
+      "Metzelder",
+      "Frings",
+      "Bode",
+      "Schneider",
+      "Hamann",
+      "Ballack",
+      "Klose",
+      "Neuville"
+    ]
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "id": "2006-06-24-ger-swe",
+  "date": "2006-06-24",
+  "competition": "world-cup",
+  "stage": "Achtelfinale",
+  "opponent": "Schweden",
+  "opponentCode": "SWE",
+  "norwayHome": true,
+  "score": [
+    2,
+    0
+  ],
+  "venue": "Allianz Arena",
+  "city": "Munich",
+  "manager": "Jürgen Klinsmann",
+  "formation": "4-4-2",
+  "importance": 4,
+  "tags": [
+    "import:wikipedia"
+  ],
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2006_FIFA_World_Cup_knockout_stage",
+      "title": "2006 FIFA World Cup knockout stage – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-10",
+      "note": "Startellever, resultat, arena og målscorere er overført fra kampboksen og oppstillingstabellen i artikkelen. Generiske posisjoner (DF/MF/FW) er beholdt slik kilden oppgir dem; draktnumre er utelatt. Automatisk overført, ikke lest av et menneske."
+    }
+  ],
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Jens Lehmann",
+      "pos": "GK"
+    },
+    {
+      "name": "Arne Friedrich",
+      "pos": "RB"
+    },
+    {
+      "name": "Per Mertesacker",
+      "pos": "CB"
+    },
+    {
+      "name": "Christoph Metzelder",
+      "pos": "CB"
+    },
+    {
+      "name": "Philipp Lahm",
+      "pos": "LB"
+    },
+    {
+      "name": "Bernd Schneider",
+      "pos": "RM"
+    },
+    {
+      "name": "Torsten Frings",
+      "pos": "CM",
+      "off": 85
+    },
+    {
+      "name": "Michael Ballack",
+      "pos": "CM",
+      "captain": true
+    },
+    {
+      "name": "Bastian Schweinsteiger",
+      "pos": "LM",
+      "off": 72
+    },
+    {
+      "name": "Miroslav Klose",
+      "pos": "CF"
+    },
+    {
+      "name": "Lukas Podolski",
+      "pos": "CF",
+      "off": 74
+    }
+  ],
+  "subs": [
+    {
+      "name": "Tim Borowski",
+      "pos": "MF",
+      "on": 72
+    },
+    {
+      "name": "Oliver Neuville",
+      "pos": "FW",
+      "on": 74
+    },
+    {
+      "name": "Sebastian Kehl",
+      "pos": "MF",
+      "on": 85
+    }
+  ],
+  "goals": [
+    {
+      "team": "norway",
+      "name": "Lukas Podolski",
+      "minute": 4,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "Lukas Podolski",
+      "minute": 12,
+      "kind": "goal"
+    }
+  ],
+  "verify": {
+    "subject": "2006 FIFA World Cup knockout stage",
+    "mustMention": [
+      "Lehmann",
+      "Friedrich",
+      "Mertesacker",
+      "Metzelder",
+      "Lahm",
+      "Schneider",
+      "Frings",
+      "Ballack",
+      "Schweinsteiger",
+      "Klose",
+      "Podolski"
+    ]
+  }
+}

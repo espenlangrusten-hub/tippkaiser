@@ -1,0 +1,135 @@
+{
+  "id": "2012-06-17-den-ger",
+  "date": "2012-06-17",
+  "competition": "euro",
+  "stage": "Gruppe B",
+  "opponent": "Dänemark",
+  "opponentCode": "DEN",
+  "norwayHome": false,
+  "score": [
+    2,
+    1
+  ],
+  "venue": "Arena Lviv",
+  "city": "Lviv",
+  "manager": "Joachim Löw",
+  "formation": "4-3-3",
+  "importance": 3,
+  "tags": [
+    "import:wikipedia"
+  ],
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/UEFA_Euro_2012_Group_B",
+      "title": "UEFA Euro 2012 Group B – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-10",
+      "note": "Startellever, resultat, arena og målscorere er overført fra kampboksen og oppstillingstabellen i artikkelen. Generiske posisjoner (DF/MF/FW) er beholdt slik kilden oppgir dem; draktnumre er utelatt. Automatisk overført, ikke lest av et menneske."
+    }
+  ],
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Manuel Neuer",
+      "pos": "GK"
+    },
+    {
+      "name": "Lars Bender",
+      "pos": "RB"
+    },
+    {
+      "name": "Mats Hummels",
+      "pos": "CB"
+    },
+    {
+      "name": "Holger Badstuber",
+      "pos": "CB"
+    },
+    {
+      "name": "Philipp Lahm",
+      "pos": "LB",
+      "captain": true
+    },
+    {
+      "name": "Sami Khedira",
+      "pos": "CM"
+    },
+    {
+      "name": "Bastian Schweinsteiger",
+      "pos": "CM"
+    },
+    {
+      "name": "Thomas Müller",
+      "pos": "RW",
+      "off": 84
+    },
+    {
+      "name": "Mesut Özil",
+      "pos": "AM"
+    },
+    {
+      "name": "Lukas Podolski",
+      "pos": "LW",
+      "off": 64
+    },
+    {
+      "name": "Mario Gomez",
+      "pos": "CF",
+      "off": 74
+    }
+  ],
+  "subs": [
+    {
+      "name": "André Schürrle",
+      "pos": "MF",
+      "on": 64
+    },
+    {
+      "name": "Miroslav Klose",
+      "pos": "FW",
+      "on": 74
+    },
+    {
+      "name": "Toni Kroos",
+      "pos": "MF",
+      "on": 84
+    }
+  ],
+  "goals": [
+    {
+      "team": "norway",
+      "name": "Lukas Podolski",
+      "minute": 19,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "Lars Bender",
+      "minute": 80,
+      "kind": "goal"
+    },
+    {
+      "team": "opponent",
+      "scorer": "Krohn-Dehli",
+      "minute": 24,
+      "kind": "goal"
+    }
+  ],
+  "verify": {
+    "subject": "UEFA Euro 2012 Group B",
+    "mustMention": [
+      "Neuer",
+      "Bender",
+      "Hummels",
+      "Badstuber",
+      "Lahm",
+      "Khedira",
+      "Schweinsteiger",
+      "Müller",
+      "Özil",
+      "Podolski",
+      "Gomez"
+    ]
+  }
+}

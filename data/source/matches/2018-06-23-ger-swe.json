@@ -1,0 +1,135 @@
+{
+  "id": "2018-06-23-ger-swe",
+  "date": "2018-06-23",
+  "competition": "world-cup",
+  "stage": "Gruppe F",
+  "opponent": "Schweden",
+  "opponentCode": "SWE",
+  "norwayHome": true,
+  "score": [
+    2,
+    1
+  ],
+  "venue": "Fisht Olympic Stadium",
+  "city": "Sochi",
+  "manager": "Joachim Löw",
+  "formation": "4-3-3",
+  "importance": 3,
+  "tags": [
+    "import:wikipedia"
+  ],
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2018_FIFA_World_Cup_Group_F",
+      "title": "2018 FIFA World Cup Group F – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-10",
+      "note": "Startellever, resultat, arena og målscorere er overført fra kampboksen og oppstillingstabellen i artikkelen. Generiske posisjoner (DF/MF/FW) er beholdt slik kilden oppgir dem; draktnumre er utelatt. Automatisk overført, ikke lest av et menneske."
+    }
+  ],
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Manuel Neuer",
+      "pos": "GK",
+      "captain": true
+    },
+    {
+      "name": "Joshua Kimmich",
+      "pos": "RB"
+    },
+    {
+      "name": "Antonio Rüdiger",
+      "pos": "CB"
+    },
+    {
+      "name": "Jérôme Boateng",
+      "pos": "CB"
+    },
+    {
+      "name": "Jonas Hector",
+      "pos": "LB",
+      "off": 87
+    },
+    {
+      "name": "Sebastian Rudy",
+      "pos": "CM",
+      "off": 31
+    },
+    {
+      "name": "Toni Kroos",
+      "pos": "CM"
+    },
+    {
+      "name": "Thomas Müller",
+      "pos": "RW"
+    },
+    {
+      "name": "Julian Draxler",
+      "pos": "AM",
+      "off": 46
+    },
+    {
+      "name": "Marco Reus",
+      "pos": "LW"
+    },
+    {
+      "name": "Timo Werner",
+      "pos": "CF"
+    }
+  ],
+  "subs": [
+    {
+      "name": "İlkay Gündoğan",
+      "pos": "MF",
+      "on": 31
+    },
+    {
+      "name": "Mario Gomez",
+      "pos": "FW",
+      "on": 46
+    },
+    {
+      "name": "Julian Brandt",
+      "pos": "MF",
+      "on": 87
+    }
+  ],
+  "goals": [
+    {
+      "team": "norway",
+      "name": "Marco Reus",
+      "minute": 48,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "Toni Kroos",
+      "minute": 90,
+      "kind": "goal"
+    },
+    {
+      "team": "opponent",
+      "scorer": "Toivonen",
+      "minute": 32,
+      "kind": "goal"
+    }
+  ],
+  "verify": {
+    "subject": "2018 FIFA World Cup Group F",
+    "mustMention": [
+      "Neuer",
+      "Kimmich",
+      "Rüdiger",
+      "Boateng",
+      "Hector",
+      "Rudy",
+      "Kroos",
+      "Müller",
+      "Draxler",
+      "Reus",
+      "Werner"
+    ]
+  }
+}

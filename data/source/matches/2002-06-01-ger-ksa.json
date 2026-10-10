@@ -1,0 +1,165 @@
+{
+  "id": "2002-06-01-ger-ksa",
+  "date": "2002-06-01",
+  "competition": "world-cup",
+  "stage": "Gruppe E",
+  "opponent": "Saudi-Arabien",
+  "opponentCode": "KSA",
+  "norwayHome": true,
+  "score": [
+    8,
+    0
+  ],
+  "venue": "Sapporo Dome",
+  "city": "Sapporo",
+  "manager": "Rudi Völler",
+  "formation": "3-5-2",
+  "importance": 3,
+  "tags": [
+    "import:wikipedia"
+  ],
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2002_FIFA_World_Cup_Group_E",
+      "title": "2002 FIFA World Cup Group E – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-10",
+      "note": "Startellever, resultat, arena og målscorere er overført fra kampboksen og oppstillingstabellen i artikkelen. Generiske posisjoner (DF/MF/FW) er beholdt slik kilden oppgir dem; draktnumre er utelatt. Automatisk overført, ikke lest av et menneske."
+    }
+  ],
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Oliver Kahn",
+      "pos": "GK",
+      "captain": true
+    },
+    {
+      "name": "Thomas Linke",
+      "pos": "CB"
+    },
+    {
+      "name": "Carsten Ramelow",
+      "pos": "CB",
+      "off": 46
+    },
+    {
+      "name": "Christoph Metzelder",
+      "pos": "CB"
+    },
+    {
+      "name": "Torsten Frings",
+      "pos": "RM"
+    },
+    {
+      "name": "Bernd Schneider",
+      "pos": "CM"
+    },
+    {
+      "name": "Dietmar Hamann",
+      "pos": "CM"
+    },
+    {
+      "name": "Christian Ziege",
+      "pos": "LM"
+    },
+    {
+      "name": "Michael Ballack",
+      "pos": "AM"
+    },
+    {
+      "name": "Miroslav Klose",
+      "pos": "CF",
+      "off": 76
+    },
+    {
+      "name": "Carsten Jancker",
+      "pos": "CF",
+      "off": 67
+    }
+  ],
+  "subs": [
+    {
+      "name": "Jens Jeremies",
+      "pos": "MF",
+      "on": 46
+    },
+    {
+      "name": "Oliver Bierhoff",
+      "pos": "FW",
+      "on": 67
+    },
+    {
+      "name": "Oliver Neuville",
+      "pos": "FW",
+      "on": 76
+    }
+  ],
+  "goals": [
+    {
+      "team": "norway",
+      "name": "Miroslav Klose",
+      "minute": 20,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "Miroslav Klose",
+      "minute": 25,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "Miroslav Klose",
+      "minute": 70,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "Michael Ballack",
+      "minute": 40,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "Carsten Jancker",
+      "minute": 45,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "Thomas Linke",
+      "minute": 73,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "Oliver Bierhoff",
+      "minute": 84,
+      "kind": "goal"
+    },
+    {
+      "team": "norway",
+      "name": "Bernd Schneider",
+      "minute": 90,
+      "kind": "goal"
+    }
+  ],
+  "verify": {
+    "subject": "2002 FIFA World Cup Group E",
+    "mustMention": [
+      "Kahn",
+      "Linke",
+      "Ramelow",
+      "Metzelder",
+      "Frings",
+      "Schneider",
+      "Hamann",
+      "Ziege",
+      "Ballack",
+      "Klose",
+      "Jancker"
+    ]
+  }
+}

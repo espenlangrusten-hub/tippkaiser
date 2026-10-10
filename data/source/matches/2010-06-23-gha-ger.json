@@ -1,0 +1,123 @@
+{
+  "id": "2010-06-23-gha-ger",
+  "date": "2010-06-23",
+  "competition": "world-cup",
+  "stage": "Gruppe D",
+  "opponent": "Ghana",
+  "opponentCode": "GHA",
+  "norwayHome": false,
+  "score": [
+    1,
+    0
+  ],
+  "venue": "Soccer City",
+  "city": "Johannesburg",
+  "manager": "Joachim Löw",
+  "formation": "4-3-3",
+  "importance": 3,
+  "tags": [
+    "import:wikipedia"
+  ],
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/2010_FIFA_World_Cup_Group_D",
+      "title": "2010 FIFA World Cup Group D – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-10",
+      "note": "Startellever, resultat, arena og målscorere er overført fra kampboksen og oppstillingstabellen i artikkelen. Generiske posisjoner (DF/MF/FW) er beholdt slik kilden oppgir dem; draktnumre er utelatt. Automatisk overført, ikke lest av et menneske."
+    }
+  ],
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Manuel Neuer",
+      "pos": "GK"
+    },
+    {
+      "name": "Philipp Lahm",
+      "pos": "RB",
+      "captain": true
+    },
+    {
+      "name": "Per Mertesacker",
+      "pos": "CB"
+    },
+    {
+      "name": "Arne Friedrich",
+      "pos": "CB"
+    },
+    {
+      "name": "Jérôme Boateng",
+      "pos": "LB",
+      "off": 73
+    },
+    {
+      "name": "Bastian Schweinsteiger",
+      "pos": "CM",
+      "off": 81
+    },
+    {
+      "name": "Sami Khedira",
+      "pos": "CM"
+    },
+    {
+      "name": "Thomas Müller",
+      "pos": "RW",
+      "off": 67
+    },
+    {
+      "name": "Mesut Özil",
+      "pos": "AM"
+    },
+    {
+      "name": "Lukas Podolski",
+      "pos": "LW"
+    },
+    {
+      "name": "Cacau",
+      "pos": "CF"
+    }
+  ],
+  "subs": [
+    {
+      "name": "Piotr Trochowski",
+      "pos": "MF",
+      "on": 67
+    },
+    {
+      "name": "Marcell Jansen",
+      "pos": "MF",
+      "on": 73
+    },
+    {
+      "name": "Toni Kroos",
+      "pos": "MF",
+      "on": 81
+    }
+  ],
+  "goals": [
+    {
+      "team": "norway",
+      "name": "Mesut Özil",
+      "minute": 60,
+      "kind": "goal"
+    }
+  ],
+  "verify": {
+    "subject": "2010 FIFA World Cup Group D",
+    "mustMention": [
+      "Neuer",
+      "Lahm",
+      "Mertesacker",
+      "Friedrich",
+      "Boateng",
+      "Schweinsteiger",
+      "Khedira",
+      "Müller",
+      "Özil",
+      "Podolski",
+      "Cacau"
+    ]
+  }
+}

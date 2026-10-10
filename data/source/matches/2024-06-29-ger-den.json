@@ -1,0 +1,141 @@
+{
+  "id": "2024-06-29-ger-den",
+  "date": "2024-06-29",
+  "competition": "euro",
+  "stage": "Achtelfinale",
+  "opponent": "Dänemark",
+  "opponentCode": "DEN",
+  "norwayHome": true,
+  "score": [
+    2,
+    0
+  ],
+  "venue": "Westfalenstadion",
+  "city": "Dortmund",
+  "manager": "Julian Nagelsmann",
+  "formation": "4-3-3",
+  "importance": 4,
+  "tags": [
+    "import:wikipedia"
+  ],
+  "status": "single_source",
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/UEFA_Euro_2024_knockout_stage",
+      "title": "UEFA Euro 2024 knockout stage – Wikipedia",
+      "kind": "web",
+      "accessed": "2026-10-10",
+      "note": "Startellever, resultat, arena og målscorere er overført fra kampboksen og oppstillingstabellen i artikkelen. Generiske posisjoner (DF/MF/FW) er beholdt slik kilden oppgir dem; draktnumre er utelatt. Automatisk overført, ikke lest av et menneske."
+    }
+  ],
+  "goalsPartial": false,
+  "lineup": [
+    {
+      "name": "Manuel Neuer",
+      "pos": "GK"
+    },
+    {
+      "name": "Joshua Kimmich",
+      "pos": "RB"
+    },
+    {
+      "name": "Antonio Rüdiger",
+      "pos": "CB"
+    },
+    {
+      "name": "Nico Schlotterbeck",
+      "pos": "CB"
+    },
+    {
+      "name": "David Raum",
+      "pos": "LB",
+      "off": 81
+    },
+    {
+      "name": "Robert Andrich",
+      "pos": "CM",
+      "off": 64
+    },
+    {
+      "name": "Toni Kroos",
+      "pos": "CM"
+    },
+    {
+      "name": "Leroy Sané",
+      "pos": "RW",
+      "off": 88
+    },
+    {
+      "name": "İlkay Gündoğan",
+      "pos": "AM",
+      "captain": true,
+      "off": 64
+    },
+    {
+      "name": "Jamal Musiala",
+      "pos": "LW",
+      "off": 81
+    },
+    {
+      "name": "Kai Havertz",
+      "pos": "CF"
+    }
+  ],
+  "subs": [
+    {
+      "name": "Emre Can",
+      "pos": "MF",
+      "on": 64
+    },
+    {
+      "name": "Niclas Füllkrug",
+      "pos": "FW",
+      "on": 64
+    },
+    {
+      "name": "Benjamin Henrichs",
+      "pos": "DF",
+      "on": 81
+    },
+    {
+      "name": "Florian Wirtz",
+      "pos": "MF",
+      "on": 81
+    },
+    {
+      "name": "Waldemar Anton",
+      "pos": "DF",
+      "on": 88
+    }
+  ],
+  "goals": [
+    {
+      "team": "norway",
+      "name": "Kai Havertz",
+      "minute": 53,
+      "kind": "pen"
+    },
+    {
+      "team": "norway",
+      "name": "Jamal Musiala",
+      "minute": 68,
+      "kind": "goal"
+    }
+  ],
+  "verify": {
+    "subject": "UEFA Euro 2024 knockout stage",
+    "mustMention": [
+      "Neuer",
+      "Kimmich",
+      "Rüdiger",
+      "Schlotterbeck",
+      "Raum",
+      "Andrich",
+      "Kroos",
+      "Sané",
+      "Gündoğan",
+      "Musiala",
+      "Havertz"
+    ]
+  }
+}
