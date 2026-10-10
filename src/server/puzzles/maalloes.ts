@@ -274,7 +274,7 @@ export async function buildMaalloesPuzzles(db: Db): Promise<MaalloesPuzzleRow[]>
         answers: Array.from(years)
           .filter(([, played]) => played.length === 2)
           .map(([clubId]) => clubAnswer(ctx, clubId, 4, "In beiden Spielzeiten dabei")),
-        explanation: `Teilnehmerlisten der Spielzeiten ${pair[0].year} und ${pair[1].year}.`,
+        explanation: `Teilnehmerlisten der Spielzeiten ${seasonOf(pair[0].year)} und ${seasonOf(pair[1].year)}.`,
         sourceIds,
         status,
         era: Math.floor(pair[0].year / 10) * 10,
@@ -290,7 +290,7 @@ export async function buildMaalloesPuzzles(db: Db): Promise<MaalloesPuzzleRow[]>
         intro: INTRO,
         answerKind: "club",
         answers: Array.from(years).map(([clubId, played]) => clubAnswer(ctx, clubId, played.length === 2 ? 6 : 0, played.length === 2 ? "Beide Spielzeiten" : `Spielzeit ${seasonOf(played[0])}`)),
-        explanation: `Gemeinsame Teilnehmerliste der Spielzeiten ${pair[0].year} und ${pair[1].year}.`,
+        explanation: `Zusammengefasste Teilnehmerliste der Spielzeiten ${seasonOf(pair[0].year)} und ${seasonOf(pair[1].year)}.`,
         sourceIds,
         status,
         era: Math.floor(pair[0].year / 10) * 10,
@@ -323,7 +323,7 @@ export async function buildMaalloesPuzzles(db: Db): Promise<MaalloesPuzzleRow[]>
           intro: INTRO,
           answerKind: "club",
           answers: Array.from(years).map(([clubId, played]) => clubAnswer(ctx, clubId, Math.min(10, played.length * 2), `${played.length} von ${spec.size} Spielzeiten`)),
-          explanation: `Gemeinsame Teilnehmerliste für ${spec.sizeWord} Spielzeiten, ${start}–${end}.`,
+          explanation: `Zusammengefasste Teilnehmerliste für ${spec.sizeWord} Spielzeiten, ${seasonOf(start)} bis ${seasonOf(end)}.`,
           sourceIds,
           status,
           era: Math.floor(start / 10) * 10,
@@ -341,7 +341,7 @@ export async function buildMaalloesPuzzles(db: Db): Promise<MaalloesPuzzleRow[]>
           answers: Array.from(years)
             .filter(([, played]) => played.length >= spec.threshold)
             .map(([clubId, played]) => clubAnswer(ctx, clubId, Math.min(10, played.length * 2), `${played.length} von ${spec.size} Spielzeiten`)),
-          explanation: `Ausgezählt aus den Teilnehmerlisten der Spielzeiten ${start}–${end}.`,
+          explanation: `Ausgezählt aus den Teilnehmerlisten der Spielzeiten ${seasonOf(start)} bis ${seasonOf(end)}.`,
           sourceIds,
           status,
           era: Math.floor(start / 10) * 10,
