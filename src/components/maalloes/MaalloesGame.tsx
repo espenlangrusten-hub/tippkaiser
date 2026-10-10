@@ -192,11 +192,11 @@ export function MaalloesGame({ puzzle, isArchive, today }: { puzzle: MaalloesPub
           </div>
           <p className="mt-2 text-xs text-fog">
             Meister ≤ {f.thresholds.champions} · Europapokal ≤ {f.thresholds.europe} · Mittelfeld ≤ {f.thresholds.mid}
-            {f.respondents > 1 ? ` · ${f.respondents} har spilt` : ""}
+            {f.respondents > 1 ? ` · ${f.respondents} haben gespielt` : ""}
           </p>
           <div className="mt-4 flex flex-col gap-2 sm:flex-row">
             <button className="btn btn-primary flex-1" onClick={share}>
-              Del resultatet
+              Ergebnis teilen
             </button>
             <Link href="/mangler-xi" className="btn btn-secondary flex-1" onClick={() => track({ name: "second_game_click", game: "mangler-xi", props: { from: "maalloes" } })}>
               Fehlende Elf spielen →
