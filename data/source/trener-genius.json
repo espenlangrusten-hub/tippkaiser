@@ -2802,7 +2802,7 @@
       "Jupp Heynckes",
       "Friedel Rausch"
     ],
-    "fact": "Mit diesem Verein gewann er 1995 den DFB-Pokal, nachdem er zuvor als erster Trainer in der Bundesliga mit Viererkette in der Abwehr spielen ließ.",
+    "fact": "Mit diesem Verein gewann er 1995 den DFB-Pokal.",
     "reviewedAt": "2026-10-10",
     "sources": [
       {
@@ -4528,7 +4528,7 @@
     "category": "Titel",
     "distractors": [
       "Europa League",
-      "Supercup",
+      "UEFA-Supercup",
       "UEFA Conference League"
     ],
     "fact": "Im selben Jahr gewann er zudem den DFB-Pokal sowie DFL-Supercup.",
@@ -4997,25 +4997,6 @@
     ]
   },
   {
-    "sourceId": "tq-bernd-krauss-2",
-    "expectedAnswer": "Bernd Krauss",
-    "difficulty": 3,
-    "category": "Wer war's?",
-    "distractors": [
-      "Volker Finke",
-      "Ralf Rangnick",
-      "Hans Meyer"
-    ],
-    "fact": "Mit diesem Verein gewann er 1995 den DFB-Pokal, nachdem er zuvor als erster Trainer in der Bundesliga mit Viererkette in der Abwehr spielen ließ.",
-    "reviewedAt": "2026-10-10",
-    "sources": [
-      {
-        "title": "Bernd Krauss – Wikipedia",
-        "url": "https://de.wikipedia.org/wiki/Bernd_Krauss"
-      }
-    ]
-  },
-  {
     "sourceId": "tq-mirko-slomka-2",
     "expectedAnswer": "Atlético Madrid",
     "difficulty": 3,
@@ -5405,7 +5386,7 @@
       "Finalissima",
       "Olympia-Turnier"
     ],
-    "fact": "Er ist seit 2018 Cheftrainer der argentinischen Nationalmannschaft, die er 2021 und 2024 zum Gewinn der Copa América und 2022 zum dritten WM-Titel führte.",
+    "fact": "Er wurde 2018 Cheftrainer der argentinischen Nationalmannschaft, die er 2021 und 2024 zum Gewinn der Copa América und 2022 zum dritten WM-Titel führte.",
     "reviewedAt": "2026-10-10",
     "sources": [
       {
@@ -5477,7 +5458,7 @@
     "difficulty": 2,
     "category": "Spitznamen",
     "distractors": [
-      "Velho Lobo",
+      "O Fenômeno",
       "O Rei",
       "Capitão"
     ],
@@ -6070,7 +6051,7 @@
       "2019",
       "2020"
     ],
-    "fact": "Er ist seit 2018 Cheftrainer der argentinischen Nationalmannschaft, die er 2021 und 2024 zum Gewinn der Copa América und 2022 zum dritten WM-Titel führte.",
+    "fact": "Er wurde 2018 Cheftrainer der argentinischen Nationalmannschaft, die er 2021 und 2024 zum Gewinn der Copa América und 2022 zum dritten WM-Titel führte.",
     "reviewedAt": "2026-10-10",
     "sources": [
       {

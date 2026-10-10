@@ -4791,7 +4791,7 @@
       "label": "Bernd Krauss",
       "aliases": []
     },
-    "fact": "Mit diesem Verein gewann er 1995 den DFB-Pokal, nachdem er zuvor als erster Trainer in der Bundesliga mit Viererkette in der Abwehr spielen ließ.",
+    "fact": "Mit diesem Verein gewann er 1995 den DFB-Pokal.",
     "difficulty": 3,
     "status": "single_source",
     "sources": [
@@ -4800,7 +4800,7 @@
         "title": "Bernd Krauss – Wikipedia",
         "kind": "web",
         "accessed": "2026-10-10",
-        "note": "Sitat fra artikkelen: «Mit diesem Verein gewann er 1995 den DFB-Pokal, nachdem er zuvor als erster Trainer in der Bundesliga mit Viererkette in der Abwehr spielen ließ.» Lest og kontrollert manuelt mot spørsmål og svar."
+        "note": "Sitat fra artikkelen: «Mit diesem Verein gewann er 1995 den DFB-Pokal.» Lest og kontrollert manuelt mot spørsmål og svar."
       }
     ],
     "verify": {
@@ -5594,7 +5594,7 @@
     "id": "tq-domenico-tedesco-3",
     "coachId": "domenico-tedesco",
     "category": "trener",
-    "prompt": "Welchen Klub führte Domenico Tedesco 2018 als Neuling zur Vizemeisterschaft?",
+    "prompt": "Welchen Klub führte Domenico Tedesco 2018 in seiner ersten Bundesliga-Saison zur Vizemeisterschaft?",
     "answer": {
       "label": "FC Schalke 04",
       "aliases": []
@@ -6175,7 +6175,7 @@
     "id": "tq-lothar-matthaeus-2",
     "coachId": "lothar-matthaeus",
     "category": "trener",
-    "prompt": "Mit welchem österreichischen Klub wurde Lothar Matthäus 2007 als Trainer Meister?",
+    "prompt": "Mit welchem österreichischen Klub wurde Lothar Matthäus 2007 als Co-Trainer (neben Trapattoni) Meister?",
     "answer": {
       "label": "FC Red Bull Salzburg",
       "aliases": []
@@ -7761,7 +7761,7 @@
     "id": "tq-staale-solbakken-3",
     "coachId": "staale-solbakken",
     "category": "trener",
-    "prompt": "Mit welchem Klub wurde Ståle Solbakken im Jahr 2000 als Spieler dänischer Meister?",
+    "prompt": "Mit welchem Klub wurde Ståle Solbakken in der Saison 2000/01 als Spieler dänischer Meister?",
     "answer": {
       "label": "FC Kopenhagen",
       "aliases": []
@@ -8134,35 +8134,6 @@
         "Hannover",
         "Pokal",
         "Kickers Offenbach"
-      ]
-    }
-  },
-  {
-    "id": "tq-bernd-krauss-2",
-    "coachId": "bernd-krauss",
-    "category": "trener",
-    "prompt": "Welcher Trainer ließ als Erster in der Bundesliga mit Viererkette in der Abwehr spielen?",
-    "answer": {
-      "label": "Bernd Krauss",
-      "aliases": []
-    },
-    "fact": "Mit diesem Verein gewann er 1995 den DFB-Pokal, nachdem er zuvor als erster Trainer in der Bundesliga mit Viererkette in der Abwehr spielen ließ.",
-    "difficulty": 3,
-    "status": "single_source",
-    "sources": [
-      {
-        "url": "https://de.wikipedia.org/wiki/Bernd_Krauss",
-        "title": "Bernd Krauss – Wikipedia",
-        "kind": "web",
-        "accessed": "2026-10-10",
-        "note": "Sitat fra artikkelen: «Mit diesem Verein gewann er 1995 den DFB-Pokal, nachdem er zuvor als erster Trainer in der Bundesliga mit Viererkette in der Abwehr spielen ließ.» Lest og kontrollert manuelt mot spørsmål og svar."
-      }
-    ],
-    "verify": {
-      "subject": "Bernd Krauss",
-      "mustMention": [
-        "Pokal",
-        "1995"
       ]
     }
   },
@@ -8761,7 +8732,7 @@
       "label": "Copa América",
       "aliases": []
     },
-    "fact": "Er ist seit 2018 Cheftrainer der argentinischen Nationalmannschaft, die er 2021 und 2024 zum Gewinn der Copa América und 2022 zum dritten WM-Titel führte.",
+    "fact": "Er wurde 2018 Cheftrainer der argentinischen Nationalmannschaft, die er 2021 und 2024 zum Gewinn der Copa América und 2022 zum dritten WM-Titel führte.",
     "difficulty": 2,
     "status": "single_source",
     "sources": [
@@ -8770,7 +8741,7 @@
         "title": "Lionel Scaloni – Wikipedia",
         "kind": "web",
         "accessed": "2026-10-10",
-        "note": "Sitat fra artikkelen: «Er ist seit 2018 Cheftrainer der argentinischen Nationalmannschaft, die er 2021 und 2024 zum Gewinn der Copa América und 2022 zum dritten WM-Titel führte.» Lest og kontrollert manuelt mot spørsmål og svar."
+        "note": "Sitat fra artikkelen: «Er wurde 2018 Cheftrainer der argentinischen Nationalmannschaft, die er 2021 und 2024 zum Gewinn der Copa América und 2022 zum dritten WM-Titel führte.» Lest og kontrollert manuelt mot spørsmål og svar."
       }
     ],
     "verify": {
@@ -9785,12 +9756,12 @@
     "id": "tq-lionel-scaloni-3",
     "coachId": "lionel-scaloni",
     "category": "trener",
-    "prompt": "Seit welchem Jahr ist Lionel Scaloni Cheftrainer Argentiniens?",
+    "prompt": "In welchem Jahr wurde Lionel Scaloni Cheftrainer Argentiniens?",
     "answer": {
       "label": "2018",
       "aliases": []
     },
-    "fact": "Er ist seit 2018 Cheftrainer der argentinischen Nationalmannschaft, die er 2021 und 2024 zum Gewinn der Copa América und 2022 zum dritten WM-Titel führte.",
+    "fact": "Er wurde 2018 Cheftrainer der argentinischen Nationalmannschaft, die er 2021 und 2024 zum Gewinn der Copa América und 2022 zum dritten WM-Titel führte.",
     "difficulty": 2,
     "status": "single_source",
     "sources": [
@@ -9799,7 +9770,7 @@
         "title": "Lionel Scaloni – Wikipedia",
         "kind": "web",
         "accessed": "2026-10-10",
-        "note": "Sitat fra artikkelen: «Er ist seit 2018 Cheftrainer der argentinischen Nationalmannschaft, die er 2021 und 2024 zum Gewinn der Copa América und 2022 zum dritten WM-Titel führte.» Lest og kontrollert manuelt mot spørsmål og svar."
+        "note": "Sitat fra artikkelen: «Er wurde 2018 Cheftrainer der argentinischen Nationalmannschaft, die er 2021 und 2024 zum Gewinn der Copa América und 2022 zum dritten WM-Titel führte.» Lest og kontrollert manuelt mot spørsmål og svar."
       }
     ],
     "verify": {
